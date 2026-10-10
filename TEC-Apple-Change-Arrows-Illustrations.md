@@ -1,5 +1,7 @@
 # TEC Apple-inspired illustrations — changes since the previous report
 
+Latest revision: [status colours and ordered follow-up tables](TEC-Apple-Status-Colors-Illustrations.md). The figures and table membership below describe this earlier preview.
+
 | Illustration | Full-size image | PDF |
 | --- | --- | --- |
 | Projects | [View](Projects-Dashboard-TEC-Apple-Change-Arrows.png) | [Download](Projects-Dashboard-TEC-Apple-Change-Arrows.pdf) |
