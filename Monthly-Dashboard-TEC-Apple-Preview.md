@@ -1,6 +1,6 @@
 # Monthly dashboard — TEC Apple-inspired design preview
 
-This earlier rearranged concept is set aside. See the [current monthly dashboard illustration](Monthly-Dashboard-Current-TEC-Apple.md), which retains the native monthly layout and section order.
+This is an earlier concept. See the [latest revised illustration](Monthly-Dashboard-TEC-Apple-Strategy-Original.md), which restores Strategy below Legislation, updates emerging-topic terminology, and removes repeated bar legends.
 
 [View the full-resolution image](Monthly-Dashboard-TEC-Apple-Preview.png) · [Download the PDF](Monthly-Dashboard-TEC-Apple-Preview.pdf)
 
