@@ -1,5 +1,7 @@
 # TEC Apple-inspired illustrations — status colours and follow-up order
 
+Implemented in [v123](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v123.zip): table names are now neutral and normal-weight, following the latest user request. These images document the earlier illustration; [implementation verification](Saytara-Verification-v123.md) covers the app.
+
 | Illustration | Full-size image | PDF |
 | --- | --- | --- |
 | Projects | [View](Projects-Dashboard-TEC-Apple-Status-Colors.png) | [Download](Projects-Dashboard-TEC-Apple-Status-Colors.pdf) |
