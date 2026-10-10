@@ -1,5 +1,7 @@
 # Monthly dashboard — TEC Apple-inspired design preview
 
+This earlier rearranged concept is set aside. See the [current monthly dashboard illustration](Monthly-Dashboard-Current-TEC-Apple.md), which retains the native monthly layout and section order.
+
 [View the full-resolution image](Monthly-Dashboard-TEC-Apple-Preview.png) · [Download the PDF](Monthly-Dashboard-TEC-Apple-Preview.pdf)
 
 ![Monthly dashboard design illustration](Monthly-Dashboard-TEC-Apple-Preview.png)
