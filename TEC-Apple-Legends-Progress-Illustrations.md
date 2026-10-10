@@ -1,5 +1,7 @@
 # TEC Apple-inspired illustrations — legends and recorded progress
 
+Latest revision: [Change arrows and revised monthly terminology](TEC-Apple-Change-Arrows-Illustrations.md). The latest monthly illustration restores the SLC explanation to the bottom of the Legislation card.
+
 | Illustration | Full-size image | PDF |
 | --- | --- | --- |
 | Projects | [View](Projects-Dashboard-TEC-Apple-Legends-Progress.png) | [Download](Projects-Dashboard-TEC-Apple-Legends-Progress.pdf) |
