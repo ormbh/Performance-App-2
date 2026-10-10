@@ -1,5 +1,7 @@
 # Projects dashboard — TEC Apple-inspired illustration
 
+This is the previous illustration. See the [latest legends and progress revision](TEC-Apple-Legends-Progress-Illustrations.md), which removes the repeated priority-series footer and adds recorded progress meters to the follow-up table.
+
 [View the full-size image](Projects-Dashboard-TEC-Apple-Preview.png) · [Download the PDF](Projects-Dashboard-TEC-Apple-Preview.pdf)
 
 ![Projects dashboard illustration](Projects-Dashboard-TEC-Apple-Preview.png)

@@ -1,5 +1,7 @@
 # Monthly dashboard — revised TEC Apple-inspired illustration
 
+This is the previous illustration. See the [latest monthly revision](TEC-Apple-Legends-Progress-Illustrations.md), which states the SLC timing definition once in the Legislation subtitle while preserving every existing progress meter and percentage.
+
 [View the full-size image](Monthly-Dashboard-TEC-Apple-Strategy-Original.png) · [Download the PDF](Monthly-Dashboard-TEC-Apple-Strategy-Original.pdf)
 
 ![Revised monthly dashboard illustration](Monthly-Dashboard-TEC-Apple-Strategy-Original.png)
