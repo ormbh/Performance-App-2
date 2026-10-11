@@ -1,8 +1,8 @@
 # TEC Apple-Inspired Design standard
 
-Approved typography, controls, status badges, layout, header, navigation, bars and print rules. **Revision 7 — 11 October 2026.** This consolidates the supplied standard and all subsequent approved amendments, including **18px Dubai Regular subgroup names**, the updated Ink/Taupe text roles and solid financial bars.
+Approved typography, controls, status badges, layout, header, navigation, bars and print rules. **Revision 7 — 11 October 2026; agenda-label and search-title amendments approved 12 October 2026.** This consolidates the supplied standard and all subsequent approved amendments, including **18px Dubai Regular subgroup names and agenda category labels**, the updated Ink/Taupe text roles and solid financial bars.
 
-**Implementation stage: Performance App v132.** This release applies the approved Revision 7 typography, color and solid financial-bar amendments. It also corrects the search title spacing between the unchanged logo and search field and exposes the three report destinations in every loaded page menu. Source records and calculations retain their existing definitions; v131 remains available as the previous release.
+**Implementation stage: Performance App v133.** This release applies the approved Revision 7 typography, color and solid financial-bar amendments. It also raises the 36px search title by 4px relative to v132, preserving the logo, field and action positions and exposes the three report destinations in every loaded page menu. Source records and calculations retain their existing definitions; v132 remains available as the previous release.
 
 The monthly page establishes the shared standard at **100% browser zoom**. Screen typography uses 38px page titles (36px on the search home), 30px portfolio headings, 28px card titles, 16px table content and badges, and 18px Dubai Bold table headings. Retain the compact card grouping: 18px subgroup names, 14px status labels above their figures, and change arrows below their own values. The card-header total label retains its position beneath the main total. **Remove explanatory labels and subtitles beneath all page, portfolio, section, card and table titles**, including search and upload titles. Retain the required screen report date as secondary metadata.
 
@@ -12,11 +12,14 @@ Use the supplied **Regular (400)** faces for headings, figures, body text and co
 
 ## Latest approved amendments
 
+The latest amendment increases only **الأجندة المعتمدة** and **المواضيع المستجدة** category labels from 14px to **18px Dubai Regular Ink** on screen. Their figures remain 28px and changes 15px. Print retains 9pt labels, 20pt figures and 11pt changes. Other short value/status labels and strategy names remain 14px. The search-home title also moves 4px upward from v132; its 36px size and the logo, search-field and action positions stay unchanged.
+
 All supporting text in this table uses the supplied Dubai Regular face; numeric figures use DIN Next LT Arabic Regular. The latest **18px** subgroup-name approval replaces the earlier **28px proposal**.
 
 | Element | Example / placement | Approved screen size | Font | Default text color |
 | --- | --- | --- | --- | --- |
 | Special-project subgroup names | للقيادة / للأمانة العامة | **18px** | Dubai Regular | Charcoal #333333 |
+| Agenda category labels | الأجندة المعتمدة / المواضيع المستجدة | **18px** | Dubai Regular | Ink #4F4E4E |
 | Special-project subgroup totals | 24 / 36 | 28px | DIN Next LT Arabic Regular | Charcoal #333333 |
 | Special-project status figures | 12 / 10 / 26 | 28px | DIN Next LT Arabic Regular | Charcoal #333333, with status exceptions |
 | Agenda status figures | 43 / 16 / 58 | 34px | DIN Next LT Arabic Regular | Charcoal #333333, with status exceptions |
@@ -44,7 +47,7 @@ An empty-note placeholder is secondary metadata at 14px Taupe; actual recorded t
 | --- | --- |
 | Card header | Card title 28px DIN Next Arabic; main total retains 40px DIN Next LT Arabic; short total label 14px Dubai Ink beneath the total |
 | Special projects | Two subgroup blocks, with 18px Dubai subgroup names and 28px totals; retain two status columns within each subgroup |
-| Agenda | Retain the approved/new-item breakdown and three status columns; short labels above 34px status figures |
+| Agenda | Retain the approved/new-item breakdown: category labels 18px Dubai Ink with 28px figures; retain three status columns with 14px labels above 34px figures |
 | Value labels | Keep 14px status labels close to their values, above the numeric row; retain the header total label beneath its value; do not use the rejected oversized side-by-side labels |
 | Changes | 15px differences directly below their own figures; align corresponding values and comparison rows across adjacent groups |
 | Completion bars | Preserve the shared bar baseline across the two special-project subgroups, including when a comparison is absent |
@@ -67,6 +70,7 @@ For text-only rows, “Inherited” means the text follows the surrounding surfa
 | Main figures | DIN Next LT Arabic Regular / 34–40px | Charcoal #333333, with defined status exceptions | Paper #FCFBFB | — |
 | Secondary figures, including special-project subgroup totals/status figures | DIN Next LT Arabic Regular / 28px | Charcoal #333333, with defined status exceptions | Paper #FCFBFB | — |
 | Special-project subgroup names | Dubai Regular / 18px | Charcoal #333333 | Paper #FCFBFB | — |
+| Agenda category labels | Dubai Regular / 18px | Ink #4F4E4E | Linen #EFEBE7 category strip | — |
 | Agenda status / strategy primary figures | DIN Next LT Arabic Regular / 34px | Charcoal #333333, with defined status exceptions | Paper #FCFBFB | — |
 | Short value/status labels and strategy metric names | Dubai Regular / 14px | Ink #4F4E4E | Paper #FCFBFB | — |
 | Table column headings | Dubai Bold / 18px | Ink #4F4E4E | Linen #EFEBE7 | Sand #E7E0D3 bottom divider |
@@ -205,7 +209,7 @@ Taupe control borders are chosen as a readable boundary on Paper. Stone #ABA394 
 | Print settings dialog | Paper/Sand, 18px corners; 28px DIN title with no subtitle; 16px fields / 12px field labels; 44px close target; Escape and focus restoration |
 | Definitions disclosure | Keep exact definitions and caveats in the report body; 16px named trigger, 20px directional chevron, 44px target and 14px Ink body text |
 | Screen footer | Exact organisation/copyright legal line only; no source filename, calculation date, report title or extra note; no fixed footer covering content |
-| Search and upload | Preserve the Google-style search and upload interactions. Search-home title 36px optically centered between the visible logo and search field; preserve logo, field and action positions on desktop/mobile. Align the visible spacing, accounting for transparent logo margins and the supplied font metrics. Home navigation is menu-only. Remove title subtitles |
+| Search and upload | Preserve the Google-style search and upload interactions. Search-home title 36px, raised 4px from its v132 position; preserve logo, field and action positions on desktop/mobile. This approved positioning amendment supersedes the prior optical-centering position. Home navigation is menu-only. Remove title subtitles |
 
 Only one nonmodal popup is open at a time. Opening a modal closes other popups.
 Keep menus/popups within the viewport. Responsive dismissal restores focus to a
@@ -231,7 +235,7 @@ navigation, never printer, grid, document or upload icons, or numeric/time axes.
 ## Complete formatting and content rules
 
 1. **Fonts and hierarchy.** Use DIN Next Arabic Regular for headings, DIN Next LT Arabic Regular for main/secondary figures, Dubai Bold for table column headings, and Dubai Regular for table content, labels, notes, metadata, controls and status badges. Use the supplied font files; do not simulate bold or substitute Apple system fonts. English table names also use Dubai Regular.
-2. **Screen sizes.** Use 38px page titles (36px on the search home), 30px portfolio headings, 28px card titles, 34–40px main figures, 28px secondary figures, 18px Dubai Bold table headings, 16px Dubai Regular table content/names/notes, 16px status badge text, 18px Dubai subgroup names, 14px short value/status labels, 14px strategy metric names, 14px important labels and meaningful supporting body explanations, 15px changes, 14px metadata and 16px control values. Special-project subgroup totals and status figures use 28px; agenda status and strategy primary figures use 34px; the strategy registered denominator stays 28px. Do not shrink the agreed table text to fit content. Filter labels retain 12px; their values use 16px.
+2. **Screen sizes.** Use 38px page titles (36px on the search home), 30px portfolio headings, 28px card titles, 34–40px main figures, 28px secondary figures, 18px Dubai Bold table headings, 16px Dubai Regular table content/names/notes, 16px status badge text, 18px Dubai subgroup names, 14px short value/status labels, 14px strategy metric names, 14px important labels and meaningful supporting body explanations, 15px changes, 14px metadata and 16px control values. Agenda category labels use 18px Dubai Regular Ink; their figures remain 28px. Special-project subgroup totals and status figures use 28px; agenda status and strategy primary figures use 34px; the strategy registered denominator stays 28px. Do not shrink the agreed table text to fit content. Filter labels retain 12px; their values use 16px.
 3. **Text color roles.** Table content, names and actual notes use neutral Ink #4F4E4E and regular weight. Table headers use Dubai Bold, Ink on Linen. Important labels, short value/status labels, strategy metric names and essential explanations use 14px Dubai Regular Ink. Secondary metadata and neutral differences use Taupe #756B5F. Subgroup names use 18px Dubai Regular Charcoal. Card/table/field secondary text retains the specified Paper surface; screen date metadata follows the inherited page surface. Secondary filter labels retain their separately approved 12px treatment. Main figures default to Charcoal; completed figures use Green #01831E and late figures use Red #C00000 where those status meanings apply. The Paper text inside filled badges is a separate treatment from figure color.
 4. **Palette.** Use the exact existing TEC colors and the agreed green/red status exceptions. Paper #FCFBFB is the card/table surface; Linen #EFEBE7 is the page/table-header surface; Sand #E7E0D3 is a quiet grouping/border tone; Mist #D9E1E2 is an accent surface. Stone #ABA394, Silver #C8C7C7 and Grey #808080 serve appropriate chart/decorative roles, not small regular body-text roles. Grey may be used for large or decorative elements. No new colors or undocumented tints.
 5. **Arabic and mixed text.** Use approximately 1.6 line-height for table text, natural Arabic wrapping, comfortable padding and top/middle alignment appropriate to the content. Preserve source names. Keep English identifiers, dates, values, fractions, percentages and currency units in their correct reading order. Align numeric columns consistently.
@@ -327,7 +331,7 @@ Project count/money bars retain the table's shared zero-to-largest-row scale. Pr
 
 ## Approval and historical previews
 
-Revision 7 is the current approved standard, implemented in **Performance App v132**. It preserves the approved Search, Navigation and Print setup and adds the latest monthly-card typography, supporting-text colors and solid financial bars. Search spacing and all three report links are corrected in the final app. See **VERIFICATION-v132.md** for actual bundled screen, mobile, interaction, source-regression and native PDF checks using an illustrative workbook. Earlier verification files describe their respective historical releases.
+Revision 7 is the current approved standard, implemented in **Performance App v133**. It preserves the approved Search, Navigation and Print setup and adds the latest monthly-card typography, supporting-text colors and solid financial bars. Search spacing and all three report links are corrected in the final app. See **VERIFICATION-v133.md** for the agenda-label and search-title amendment checks and **VERIFICATION-v132.md** for the comprehensive baseline screen, mobile, interaction, source-regression and native PDF checks using an illustrative workbook. Earlier verification files describe their respective historical releases.
 
 - [Typography colors and exact TEC palette — historical](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Color-Previews)
 - [Actual bundled font samples](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Font-Previews)
@@ -337,4 +341,4 @@ Revision 7 is the current approved standard, implemented in **Performance App v1
 
 Earlier images may show 18px screen badges, title subtitles, oversized side-by-side labels, 28px subgroup names or hatched financial bars. They do not override this document. The subgroup names in the last compact preview are superseded by the latest **18px** approval. The rejected oversized-label concept is not the approved card arrangement.
 
-This is an app-specific approved standard, not an official TEC brand manual or accessibility certification. Source records, values, calculation definitions and filter behavior remain unchanged. Implementation and actual screen/PDF verification are recorded with the v132 release; native Windows file opening and physical printing remain untested.
+This is an app-specific approved standard, not an official TEC brand manual or accessibility certification. Source records, values, calculation definitions and filter behavior remain unchanged. Implementation and actual screen/PDF verification are recorded with the v132 baseline and v133 label/title amendments; native Windows file opening and physical printing remain untested.
