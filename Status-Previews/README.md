@@ -1,6 +1,6 @@
 # TEC status badge color proposal
 
-Proposal responding to the request that status badges stand apart from the main table text colors. The typography specification is retained: names and notes use Dubai Regular, 18px, Taupe #756B5F; table headers use Ink #4F4E4E on Linen #EFEBE7. This preview loads the actual bundled DIN Next Arabic Regular and Dubai Regular fonts at device scale 1. Sample rows are illustrative. App files and workbook data are unchanged.
+Updated preview of the selected status badge colors, distinct from the main table text colors. The typography specification is retained: names and notes use Dubai Regular, 18px, Taupe #756B5F; table headers use Ink #4F4E4E on Linen #EFEBE7. This preview loads the actual bundled DIN Next Arabic Regular and Dubai Regular fonts at device scale 1. Sample rows are illustrative. App files and workbook data are unchanged.
 
 [Open the full-size status preview](TEC-Status-Badge-Proposal.png)
 
@@ -12,12 +12,12 @@ Proposal responding to the request that status badges stand apart from the main 
 | --- | --- | --- | --- | --- |
 | متأخر | Paper #FCFBFB | Red #C00000 | Red #C00000 | 6.27:1 |
 | مجمّد / معلّق | Burgundy #651D32 | Sand #E7E0D3 | Burgundy #651D32 | 9.01:1 |
-| ملغى | Paper #FCFBFB | Charcoal #333333 | Charcoal #333333 | 12.23:1 |
-| منقول | Teal #115E67 | Mist #D9E1E2 | Teal #115E67 | 5.61:1 |
+| ملغى | Paper #FCFBFB | Burgundy #651D32 | Burgundy #651D32 | 11.45:1 |
+| منقول | Teal #115E67 | Paper #FCFBFB | Teal #115E67 | 7.21:1 |
 | منجز | Paper #FCFBFB | Green #01831E | Green #01831E | 4.77:1 |
-| قيد العمل / قيد التطوير / قيد الإجراء | Paper #FCFBFB | Teal #115E67 | Teal #115E67 | 7.21:1 |
-| قيد المراجعة | Paper #FCFBFB | Burgundy #651D32 | Burgundy #651D32 | 11.45:1 |
-| جاهز للعرض | Teal #115E67 | Paper #FCFBFB | Teal #115E67 | 7.21:1 |
+| قيد العمل / قيد التطوير / قيد الإجراء | Teal #115E67 | Mist #D9E1E2 | Teal #115E67 | 5.61:1 |
+| قيد المراجعة | Teal #115E67 | Mist #D9E1E2 | Teal #115E67 | 5.61:1 |
+| جاهز للعرض | Paper #FCFBFB | Teal #115E67 | Teal #115E67 | 7.21:1 |
 | لم يبدأ | Paper #FCFBFB | Ink #4F4E4E | Ink #4F4E4E | 8.03:1 |
 | مقاس | Teal #115E67 | Mist #D9E1E2 | Teal #115E67 | 5.61:1 |
 | غير مقاس / لا ينطبق | Paper #FCFBFB | Ink #4F4E4E | Ink #4F4E4E | 8.03:1 |
