@@ -1,31 +1,62 @@
 # TEC Apple-Inspired Design standard
 
-Approved typography, controls, status badges, layout, header, navigation and print rules. **Revision 6 — 11 October 2026.** This consolidates the supplied Revision 2 standard, the subsequently approved shared workspace/header/print concepts, and the latest status-size and title-label decisions. Implemented in Performance App v131. Revision 6 adds the requested search-home spacing and 36px title, contextual primary navigation, and 12pt printed table body/status text; other approved typography and data meanings remain. The monthly page establishes the typography standard, verified at 100% browser zoom and carried through the shared report, search and upload interfaces.
+Approved typography, controls, status badges, layout, header, navigation, bars and print rules. **Revision 7 — 11 October 2026.** This consolidates the supplied standard and all subsequent approved amendments, including **18px Dubai Regular subgroup names**, the updated Ink/Taupe text roles and solid financial bars.
 
-All choices below are approved for this app. Screen typography uses 38px page titles (36px on the search home), 30px portfolio headings, 28px card titles, 16px table content/names/notes, **16px status badge text**, 18px Dubai Bold table headings and 14px meaningful supporting explanations in the body. **Remove explanatory labels and subtitles beneath all page, portfolio, section, card and table titles**, including search and upload titles. The required screen report date is retained as date metadata. Print retains its independent scale: table body, names, notes and in-table badges use 12pt; table headings and badges outside tables retain 13.5pt. The requested two-CSS-pixel reduction is 18px→16px, equivalent to 13.5pt→12pt. Earlier previews remain historical illustrations, not evidence of the current badge size or subtitle treatment.
+**Approval stage: updated standard only.** Performance App v131 remains unchanged. It implements the Revision 6 baseline; the new Revision 7 typography, color and financial-bar amendments are recorded here for the next requested app update. This document update does not change source records, calculations or the released app.
+
+The monthly page establishes the shared standard at **100% browser zoom**. Screen typography uses 38px page titles (36px on the search home), 30px portfolio headings, 28px card titles, 16px table content and badges, and 18px Dubai Bold table headings. Retain the compact card grouping: 18px subgroup names, 14px status labels above their figures, and change arrows below their own values. The card-header total label retains its position beneath the main total. **Remove explanatory labels and subtitles beneath all page, portfolio, section, card and table titles**, including search and upload titles. Retain the required screen report date as secondary metadata.
+
+Print keeps its independent approved scale: table body, names, notes and in-table badges use **12pt**; table headings and badges outside tables use **13.5pt**. Screen size amendments do not automatically enlarge print. Updated text-color roles and solid financial-bar presentation apply to screen and print, except where a component has its own specified treatment, such as status badges, controls and the print footer.
 
 Use the supplied **Regular (400)** faces for headings, figures, body text and controls. **Table column headings use the supplied Dubai Bold (700)** face. DIN Next Arabic and DIN Next LT Arabic are distinct supplied font families.
 
 ## Latest approved amendments
 
-| Element | Screen size | Font |
-| --- | --- | --- |
-| Table content, names and notes | 16px | Dubai Regular |
-| Status badge text | 16px | Dubai Regular |
-| Table column headings | 18px | Dubai Bold |
-| Supporting explanations in the report body | 14px | Dubai Regular |
-| Card titles | 28px | DIN Next Arabic Regular |
-| Explanatory labels/subtitles beneath titles | Removed | Not rendered |
+All supporting text in this table uses the supplied Dubai Regular face; numeric figures use DIN Next LT Arabic Regular. The latest **18px** subgroup-name approval replaces the earlier **28px proposal**.
 
-The 14px explanation scale applies to retained definitions, caveats and useful body
-guidance. It is not permission to restore title subtitles. Keep source notes in
-the table, field labels, value/status labels, units and meaningful calculation
-definitions. Remove the redundant **جميع بنود المتابعة** label above the full
-follow-up table; keep its item count, status counts and **عرض جميع البنود** action.
+| Element | Example / placement | Approved screen size | Font | Default text color |
+| --- | --- | --- | --- | --- |
+| Special-project subgroup names | للقيادة / للأمانة العامة | **18px** | Dubai Regular | Charcoal #333333 |
+| Special-project subgroup totals | 24 / 36 | 28px | DIN Next LT Arabic Regular | Charcoal #333333 |
+| Special-project status figures | 12 / 10 / 26 | 28px | DIN Next LT Arabic Regular | Charcoal #333333, with status exceptions |
+| Agenda status figures | 43 / 16 / 58 | 34px | DIN Next LT Arabic Regular | Charcoal #333333, with status exceptions |
+| Short value/status labels | الإجمالي / منجز / قيد العمل; retain compact grouping | **14px** | Dubai Regular | **Ink #4F4E4E** |
+| Strategy metric names | Names above their respective values | **14px** | Dubai Regular | **Ink #4F4E4E** |
+| Strategy primary figures | 39 / 83.2% / 87.8% | 34px | DIN Next LT Arabic Regular | Charcoal #333333 |
+| Strategy registered denominator | 54 in the measured/registered pair | 28px | DIN Next LT Arabic Regular | Charcoal #333333 |
+| Table content, names and actual notes | Neutral, regular weight | **16px** | Dubai Regular | **Ink #4F4E4E** |
+| Status badge text | Informational status treatment | 16px | Dubai Regular | Approved status palette below |
+| Table column headings | Column labels | 18px | Dubai Bold | Ink #4F4E4E |
+| Important labels and retained explanations | Useful body guidance, units and definitions | **14px** | Dubai Regular | **Ink #4F4E4E** |
+| Change arrows and differences | Below the corresponding value | **15px** | Dubai Regular | **Taupe #756B5F**, with meaning-based performance exceptions |
+| Minor metadata | Screen date, secondary detail, empty-note placeholder | **14px** | Dubai Regular | **Taupe #756B5F** |
+| Financial bars with partial numeric coverage | Allocation/spending ratios and subtotals | Solid fill | Existing chart treatment | Allocation Taupe #756B5F; spending Teal #115E67 |
+| Financial hatching, completeness markers and numeric availability notes | Including قيم متاحة: 59 من 61 | **Removed on screen and in print** | Not rendered | No replacement marker or note |
+| Explanatory labels/subtitles beneath titles | Repeated title descriptions | Removed | Not rendered | — |
+
+The 14px explanation scale applies to retained definitions, useful source caveats and body guidance. Keep actual notes in the table, field labels, value/status labels, units and meaningful calculation definitions. The financial numeric-availability-note removal is the specific exception described in the bar rules below; it does not remove actual recorded notes or essential metric definitions.
+
+An empty-note placeholder is secondary metadata at 14px Taupe; actual recorded table notes remain 16px Ink. Remove the redundant **جميع بنود المتابعة** label above the full follow-up table; keep its item count, status counts and **عرض جميع البنود** action.
+
+## Monthly card grouping and alignment
+
+| Area | Approved arrangement |
+| --- | --- |
+| Card header | Card title 28px DIN Next Arabic; main total retains 40px DIN Next LT Arabic; short total label 14px Dubai Ink beneath the total |
+| Special projects | Two subgroup blocks, with 18px Dubai subgroup names and 28px totals; retain two status columns within each subgroup |
+| Agenda | Retain the approved/new-item breakdown and three status columns; short labels above 34px status figures |
+| Value labels | Keep 14px status labels close to their values, above the numeric row; retain the header total label beneath its value; do not use the rejected oversized side-by-side labels |
+| Changes | 15px differences directly below their own figures; align corresponding values and comparison rows across adjacent groups |
+| Completion bars | Preserve the shared bar baseline across the two special-project subgroups, including when a comparison is absent |
+| Strategy | Keep measured/registered at physical right, average results in the middle and average targets at left; retain three distinct measures |
+| Strategy alignment | 14px metric names above the figures, shared primary-value row; changes below the appropriate value; preserve percentage units and the 28px registered denominator |
+| Narrow screens | Reflow groups and metrics while preserving their approved font sizes and meaningful label/value associations |
+
+Use shared layout rows for alignment rather than aligning text to the outer card box. Keep the compact arrangement and content-driven height; the 18px subgroup-name change does not expand the labels to figure size or move them into widely separated pairs.
 
 ## Master component table
 
-For text-only rows, “Inherited” means the text follows the surrounding surface; it does not create a separate box. Taupe text must remain on Paper for readable contrast. A dash means no separate border or fill.
+For text-only rows, “Inherited” means the text follows the surrounding surface; it does not create a separate box. Card, table and field supporting text retains the specified Paper surface. Secondary page metadata follows its inherited surface; do not add a separate box beneath the date. A dash means no separate border or fill.
 
 | Element | Font / screen size | Text | Background | Border |
 | --- | --- | --- | --- | --- |
@@ -34,13 +65,16 @@ For text-only rows, “Inherited” means the text follows the surrounding surfa
 | Portfolio heading | DIN Next Arabic Regular / 30px | Charcoal #333333 | Inherited | — |
 | Card / table-section title | DIN Next Arabic Regular / 28px | Charcoal #333333 | Paper #FCFBFB | — |
 | Main figures | DIN Next LT Arabic Regular / 34–40px | Charcoal #333333, with defined status exceptions | Paper #FCFBFB | — |
-| Secondary figures | DIN Next LT Arabic Regular / 28px | Charcoal #333333, with defined status exceptions | Paper #FCFBFB | — |
+| Secondary figures, including special-project subgroup totals/status figures | DIN Next LT Arabic Regular / 28px | Charcoal #333333, with defined status exceptions | Paper #FCFBFB | — |
+| Special-project subgroup names | Dubai Regular / 18px | Charcoal #333333 | Paper #FCFBFB | — |
+| Agenda status / strategy primary figures | DIN Next LT Arabic Regular / 34px | Charcoal #333333, with defined status exceptions | Paper #FCFBFB | — |
+| Short value/status labels and strategy metric names | Dubai Regular / 14px | Ink #4F4E4E | Paper #FCFBFB | — |
 | Table column headings | Dubai Bold / 18px | Ink #4F4E4E | Linen #EFEBE7 | Sand #E7E0D3 bottom divider |
-| Table content, names and notes | Dubai Regular / 16px | Taupe #756B5F | Paper #FCFBFB | Linen #EFEBE7 row dividers |
-| Important labels | Dubai Regular / 12px | Taupe #756B5F | Paper #FCFBFB | — |
-| Supporting body explanations; no title subtitles | Dubai Regular / 14px | Taupe #756B5F | Paper #FCFBFB | — |
-| Change arrows and differences | Dubai Regular / 15px | Ink #4F4E4E, with meaning-based exceptions | Inherited | — |
-| Minor metadata | Dubai Regular / 14px | Ink #4F4E4E | Inherited | — |
+| Table content, names and notes | Dubai Regular / 16px | Ink #4F4E4E | Paper #FCFBFB | Linen #EFEBE7 row dividers |
+| Important labels | Dubai Regular / 14px | Ink #4F4E4E | Paper #FCFBFB | — |
+| Supporting body explanations; no title subtitles | Dubai Regular / 14px | Ink #4F4E4E | Paper #FCFBFB | — |
+| Change arrows and differences | Dubai Regular / 15px | Taupe #756B5F, with meaning-based exceptions | Inherited | — |
+| Minor metadata | Dubai Regular / 14px | Taupe #756B5F | Inherited | — |
 | Primary action button | Dubai Regular / 16px | Paper #FCFBFB | Teal #115E67 | Teal #115E67 |
 | Secondary action button | Dubai Regular / 16px | Teal #115E67 | Paper #FCFBFB | Teal #115E67 |
 | Text action / action link | Dubai Regular / 16px | Teal #115E67 | Transparent | — |
@@ -71,8 +105,8 @@ Aliases listed together share a treatment. Each rendered item retains its own ap
 | Color | Hex code | Approved role |
 | --- | --- | --- |
 | Charcoal | #333333 | Headings, default figures, primary/destructive hover |
-| Ink | #4F4E4E | Table headings, metadata, neutral differences, field values |
-| Taupe | #756B5F | Table body, names, notes, short labels and supporting explanations on Paper; active field borders |
+| Ink | #4F4E4E | Table headings/body/names/notes, short value/status labels, strategy metric names, important explanations and field values |
+| Taupe | #756B5F | Secondary metadata, neutral differences, secondary field labels and active field borders; allocation/active chart fills |
 | Teal | #115E67 | Primary controls, focus, selected navigation, relevant status treatments, progress accents |
 | Burgundy | #651D32 | Frozen badges, cancelled text/borders, destructive actions, validation errors |
 | Grey | #808080 | Large or decorative elements |
@@ -142,7 +176,7 @@ Apply and verify these approved states consistently:
 | Text action hover / focus | Underline; retain Teal text and visible keyboard focus |
 | Current primary navigation link | Teal text and a 2px Teal underline on the inherited surface; expose the current page to assistive technology |
 | Selected category tab, where applicable | Teal text and a 2px Teal marker on Paper; expose the selected state to assistive technology |
-| Clickable table name | Retain Taupe, Dubai Regular 16px; use underline/focus to reveal the action without changing the agreed name color or weight |
+| Clickable table name | Retain Ink #4F4E4E, Dubai Regular 16px; use underline/focus to reveal the action without changing the agreed name color or weight |
 | Informational badge | Preserve its status treatment; no action-style hover or loading state |
 
 Taupe control borders are chosen as a readable boundary on Paper. Stone #ABA394 and Silver #C8C7C7 remain suitable for nonessential separators, chart marks and disabled boundaries rather than as the sole visible boundary of an active input.
@@ -152,7 +186,7 @@ Taupe control borders are chosen as a readable boundary on Paper. Stone #ABA394 
 | Component | Approved setup |
 | --- | --- |
 | Screen report title | DIN Next Arabic Regular 38px, Charcoal; title physically left and official logo physically right on desktop |
-| Screen title metadata | Required cutoff date only beneath the title, Dubai Regular 14px Ink; no explanatory subtitle, scope line, preview note or current-data marker |
+| Screen title metadata | Required cutoff date only beneath the title, Dubai Regular 14px Taupe #756B5F; no explanatory subtitle, scope line, preview note or current-data marker |
 | Logo | Official supplied TEC asset; 192px desktop / 144px mobile report logo, preserved proportions and clear space |
 | Primary navigation | Plain 16px Dubai links: البحث plus the current page only; search home has the menu only, search results have one current Search link; every other destination remains in the menu. Teal current-page underline; no filled boxes or redundant destination icons |
 | Application menu | One existing 20px grid icon in a 44px control, named صفحات التطبيق; retain other existing destinations and eligible actions |
@@ -171,7 +205,7 @@ Taupe control borders are chosen as a readable boundary on Paper. Stone #ABA394 
 | Print settings dialog | Paper/Sand, 18px corners; 28px DIN title with no subtitle; 16px fields / 12px field labels; 44px close target; Escape and focus restoration |
 | Definitions disclosure | Keep exact definitions and caveats in the report body; 16px named trigger, 20px directional chevron, 44px target and 14px Ink body text |
 | Screen footer | Exact organisation/copyright legal line only; no source filename, calculation date, report title or extra note; no fixed footer covering content |
-| Search and upload | Preserve the Google-style search and upload interactions. Search-home title36px centered in the existing logo-to-field gap; preserve logo, field and action positions on desktop/mobile. Home navigation is menu-only. Remove title subtitles |
+| Search and upload | Preserve the Google-style search and upload interactions. Search-home title 36px centered in the existing logo-to-field gap; preserve logo, field and action positions on desktop/mobile. Home navigation is menu-only. Remove title subtitles |
 
 Only one nonmodal popup is open at a time. Opening a modal closes other popups.
 Keep menus/popups within the viewport. Responsive dismissal restores focus to a
@@ -197,8 +231,8 @@ navigation, never printer, grid, document or upload icons, or numeric/time axes.
 ## Complete formatting and content rules
 
 1. **Fonts and hierarchy.** Use DIN Next Arabic Regular for headings, DIN Next LT Arabic Regular for main/secondary figures, Dubai Bold for table column headings, and Dubai Regular for table content, labels, notes, metadata, controls and status badges. Use the supplied font files; do not simulate bold or substitute Apple system fonts. English table names also use Dubai Regular.
-2. **Screen sizes.** Use 38px page titles (36px on the search home), 30px portfolio headings, 28px card titles, 34–40px main figures, 28px secondary figures, 18px Dubai Bold table headings, 16px Dubai Regular table content/names/notes, 16px status badge text, 12px important labels, 14px meaningful supporting body explanations, 15px changes, 14px metadata and 16px control values. Do not shrink the agreed table text to fit content. Filter labels retain 12px; their values use 16px.
-3. **Text color roles.** Names and notes stay neutral Taupe and regular weight. Table headers use Dubai Bold, Ink on Linen. Taupe labels and supporting explanations use Paper backgrounds. Main figures default to Charcoal; completed figures use Green #01831E and late figures use Red #C00000 where those status meanings apply. The Paper text inside filled badges is a separate treatment from figure color.
+2. **Screen sizes.** Use 38px page titles (36px on the search home), 30px portfolio headings, 28px card titles, 34–40px main figures, 28px secondary figures, 18px Dubai Bold table headings, 16px Dubai Regular table content/names/notes, 16px status badge text, 18px Dubai subgroup names, 14px short value/status labels, 14px strategy metric names, 14px important labels and meaningful supporting body explanations, 15px changes, 14px metadata and 16px control values. Special-project subgroup totals and status figures use 28px; agenda status and strategy primary figures use 34px; the strategy registered denominator stays 28px. Do not shrink the agreed table text to fit content. Filter labels retain 12px; their values use 16px.
+3. **Text color roles.** Table content, names and actual notes use neutral Ink #4F4E4E and regular weight. Table headers use Dubai Bold, Ink on Linen. Important labels, short value/status labels, strategy metric names and essential explanations use 14px Dubai Regular Ink. Secondary metadata and neutral differences use Taupe #756B5F. Subgroup names use 18px Dubai Regular Charcoal. Card/table/field secondary text retains the specified Paper surface; screen date metadata follows the inherited page surface. Secondary filter labels retain their separately approved 12px treatment. Main figures default to Charcoal; completed figures use Green #01831E and late figures use Red #C00000 where those status meanings apply. The Paper text inside filled badges is a separate treatment from figure color.
 4. **Palette.** Use the exact existing TEC colors and the agreed green/red status exceptions. Paper #FCFBFB is the card/table surface; Linen #EFEBE7 is the page/table-header surface; Sand #E7E0D3 is a quiet grouping/border tone; Mist #D9E1E2 is an accent surface. Stone #ABA394, Silver #C8C7C7 and Grey #808080 serve appropriate chart/decorative roles, not small regular body-text roles. Grey may be used for large or decorative elements. No new colors or undocumented tints.
 5. **Arabic and mixed text.** Use approximately 1.6 line-height for table text, natural Arabic wrapping, comfortable padding and top/middle alignment appropriate to the content. Preserve source names. Keep English identifiers, dates, values, fractions, percentages and currency units in their correct reading order. Align numeric columns consistently.
 6. **Badge identity.** Use the final badge mapping in the master table, including frozen as a solid Burgundy badge and cancelled as Burgundy on Sand. Keep badges visually distinct from ordinary table text. Preserve the actual source-backed status label; styling aliases do not create combined labels or new business categories.
@@ -206,8 +240,8 @@ navigation, never printer, grid, document or upload icons, or numeric/time axes.
 8. **Legislation composition.** Place late legislation beside the other statuses and include it in the bar. Split pending items into late and remaining pending so each item appears once. Keep the SLC definition once below the status area: **مقارنة: تاريخ الإنجاز الفعلي بالموعد المعتمد لدى SLC**.
 9. **Follow-up tables.** Show only items requiring follow-up. For projects, include unfinished overdue projects with a valid deadline, frozen, cancelled and transferred items, with or without comments. Keep the group order **late → frozen → cancelled → transferred**, and stable source order within each group. Names remain neutral and regular. Preserve the agreed columns and omit the removed delay-reason column.
 10. **Zero and missing values.** Show true zero counts and zero table values as **–**. Hide empty status and H/M/L groups. Keep meaningful chart-axis zero baselines and source-backed 0% completion captions where required. Missing or invalid values remain distinct from true zero; use **غير متاح** where a dash would be ambiguous. Do not turn missing financial/progress data into zero.
-11. **Progression arrows.** Use source-backed comparisons only. Put 15px arrows/differences directly below their corresponding value, on aligned baselines, reserving a single 24px comparison line where needed. ↑ means a numeric increase and ↓ a decrease. Green/red describes whether the change is favorable/adverse; use Ink for neutral changes such as a total or spend increase without an agreed performance meaning. A decline in late items is favorable; an increase is adverse. Hide unchanged or unavailable comparisons.
-12. **Charts and legends.** Use flat bars, clear direct labels, visible values/units and comparable scales. Add a legend only when the series/category labels above or beside the bar do not already identify its colors. Distinguish category counts, average completion and budget shares; do not interchange these measures. Preserve financial source scope, valid denominators and category meaning.
+11. **Progression arrows.** Use source-backed comparisons only. Put 15px arrows/differences directly below their corresponding value, on aligned baselines, reserving a single 24px comparison line where needed. ↑ means a numeric increase and ↓ a decrease. Green/red describes whether the change is favorable/adverse; use Taupe #756B5F for neutral changes such as a total or spend increase without an agreed performance meaning. A decline in late items is favorable; an increase is adverse. Hide unchanged or unavailable comparisons.
+12. **Charts and legends.** Use flat bars, clear direct labels, visible values/units and comparable scales. Add a legend only when the series/category labels above or beside the bar do not already identify its colors. Distinguish category counts, average completion and budget shares; do not interchange these measures. Preserve financial source scope, valid denominators and category meaning. Financial bars use solid fills on screen and in print; remove diagonal hatching, numeric completeness markers and repeated numeric availability notes without changing calculations or replacing the removed treatment with another marker or note.
 13. **Layout and spacing.** Use a consistent 4 / 8 / 12 / 16 / 24 / 32 / 48px spacing scale. Retain the widened fluid layout: 48px desktop gutters, 32px tablet gutters and 16px mobile gutters, subject to available screen width. Use 24px between main columns and 16px between stacked cards. Keep cards as tall as their content requires; avoid large empty areas and decorative status sidebars.
 14. **Monthly composition.** Preserve the approved two-column monthly composition: project portfolio physically left, executive-follow-up portfolio physically right, with strategy below legislation. Remove **سيطرة · لوحة المتابعة الشهرية** from displayed branding. Remove the extra **لم يبدأ 7 / منقول 2** line in the monthly projects card. Keep the official TEC logo and approved proportions/clear space.
 15. **Projects composition.** Preserve the agreed physical pairings: quarters/months left and budget right; manager follow-up left and status summary right; budget by priority/type left and project count by priority/type right. Put the full-width follow-up table below these panels. Expand priority charts to their populated rows rather than putting them inside small scrolling panes.
@@ -217,7 +251,7 @@ navigation, never printer, grid, document or upload icons, or numeric/time axes.
 19. **Print and exports.** Use the separate print scale below, repeat table column headings, preserve Arabic direction and badge identity, and keep individual rows together where possible. Add pages to accommodate content instead of shrinking the entire report. The first printed header contains the official logo and report title with its source cutoff in the same title; for the monthly report use **التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026**, replacing the example date with the actual cutoff. No notes, separate date line, scope line or explanatory subtitle surround this title. Later printed pages have no repeated report title, logo, date or scope masthead; relevant section headings and table column headings remain. Footers contain the exact copyright/legal line and generated page numbering only. Hide navigation, menus, filters, operational controls and the entity filter's selected-value field while preserving all selections' effect on the exported dataset. Actual entity names and source notes in table content remain. Keep template/report data rules unchanged.
 20. **Title labels and subtitles.** Remove explanatory labels and subtitles beneath every page, portfolio, section, card and table title across monthly, projects, search, upload, other pages and print. Remove the repeated agenda subtitle **الأجندة المعتمدة والمواضيع المستجدة**, follow-up subtitle **البنود التي تستدعي المتابعة ضمن نطاق التقرير**, and redundant full-table label **جميع بنود المتابعة**. Keep the agenda breakdown labels **الأجندة المعتمدة** and **المواضيع المستجدة** with their values. Preserve required screen date metadata, actual notes in the **الملاحظات** column, field labels, status/value labels, counts, currency/percentage units, meaningful definitions and source caveats. Retained explanations belong beside the relevant content or in a definitions disclosure, not as title subtitles. Do not leave empty subtitle elements or their reserved spacing.
 21. **Navigation and filters.** Apply the approved shared setup above: quiet text navigation, current-page underline, one app menu, grouped task actions and separate core filters. Keep scope with filters rather than in the title block. Preserve keyboard behavior, live selections and existing search/upload functions.
-22. **Footer.** The screen footer contains the exact copyright/legal line only. The print footer contains that legal line and generated **صفحة X من Y** only. Remove source filename, calculation date, report title, scope and extra notes from footers. Required definitions and source caveats stay in the report body.
+22. **Footer.** The screen footer contains the exact copyright/legal line only. The print footer contains that legal line and generated **صفحة X من Y** only. Remove source filename, calculation date, report title, scope and extra notes from footers. Required definitions and source caveats stay in the report body, subject to the specific removal of financial numeric-availability notes.
 23. **Verification and rollout.** Establish this standard on the monthly page first. Review its header, cards, controls, table and interactions at **100% browser zoom**, then inspect the actual PDF at readable size. Verify source totals, previous/current comparison keys, missing values, fonts, colors, wrapping, mobile behavior and exports before reusing the standard on projects, search, uploads and other pages. Visual polish must not change calculations or source meaning.
 
 ## Approved print header, pagination and footer
@@ -245,7 +279,7 @@ Use the applicable copyright year without changing the organisation or legal wor
 
 ## Approved print scale
 
-Print uses its own approved sizes. The latest screen-size amendments do not automatically resize print. Verify the actual rendered PDF after implementation; page count follows the content.
+Print uses its own approved sizes. The latest subgroup, short-label and strategy-label screen-size amendments do not automatically resize print. Keep the sizes below; use the updated text-color roles and solid financial bars in print as well. Verify the actual rendered PDF after implementation; page count follows the content.
 
 | Element | Font | Print size |
 | --- | --- | --- |
@@ -266,31 +300,41 @@ Use A4 landscape with 10mm margins. Larger paper remains an export option for wi
 
 Entity selection continues to determine the exported rows and figures; hiding its printed field does not reset the selected filter. This rule does not remove entity names where they are part of the report's actual table content.
 
+## Approved bars and data meaning
+
+| Bar / segment | Meaning | Solid fill / code |
+| --- | --- | --- |
+| Subgroup completion strip | Completed count divided by the eligible subgroup total | Green #01831E on Linen #EFEBE7 |
+| Completed status segment | Disjoint completed share of the card total; includes legislation completed after the deadline | Green #01831E |
+| Active / pending status segment | Disjoint active or remaining-pending share of the card total | Taupe #756B5F |
+| Ready status segment | Ready-for-presentation share of the card total | Stone #ABA394 |
+| Late status segment | Unfinished-late share, separated from other pending items | Red #C00000 |
+| Unclassified status segment | Source-unclassified share where present | Silver #C8C7C7 |
+| Budget / allocation strip | Source-defined allocation share or amount, using its existing denominator/scale | Taupe #756B5F |
+| Spending strip | Source-defined spending share or amount, using its existing denominator/scale | Teal #115E67 |
+| Strategy measurement strip | Measured indicators divided by registered indicators | Teal #115E67 on Linen #EFEBE7 |
+| Unused bar track | Remaining track behind the encoded value | Linen #EFEBE7 |
+
+The ready-status **bar** remains Stone; its separately approved **badge** remains Teal. Do not apply badge fills to bars or change the approved chart category mapping. When the two completed-legislation cohorts share Green, retain their existing Paper separator.
+
+### Financial bars with partial numeric coverage
+
+Use the same solid financial fill for complete and partial numeric coverage, on screen and in print. Remove diagonal hatching, completeness marker bars and repeated financial numeric-availability notes such as **قيم متاحة: 59 من 61** or the previously proposed **بيانات جزئية · 59/61**. Do not replace them with another marker, tooltip or note. Remove the unused note spacing as well.
+
+This is a presentation change. Bar lengths, displayed subtotals, financial ratios, eligible records and all calculations retain their existing source-defined scope. Missing or invalid source values remain excluded where the existing calculation excludes them; do not convert them to zero, estimate values or imply complete source coverage. Retain actual recorded notes, status caveats, currency/percentage units and meaningful denominator/metric definitions. The removal concerns numeric-availability annotations beside financial bars.
+
+Project count/money bars retain the table's shared zero-to-largest-row scale. Progress bars retain valid source progress percentages. A measurement-coverage bar is not a financial completeness marker and remains with its source-backed values and definition.
+
 ## Approval and historical previews
 
-The approved Revision5 choices remain, with the latest requested amendments:
-36px centered search-home title, Search/current-page navigation, and 12pt
-printed table body and in-table status text. Screen table/status text is 16px;
-title subtitles remain removed. Performance
-App v131 implements this revision, with actual bundled-app browser, interaction,
-source-regression and native PDF checks recorded in VERIFICATION-v131.md.
-Original source records, figures and calculation definitions remain.
+Revision 7 is the current approved **document standard**. It preserves the approved Search, Navigation and Print setup and adds the latest monthly-card typography, supporting-text colors and solid financial bars. **The app has not been updated to Revision 7.** The released Performance App v131 still implements Revision 6; its existing bundled-app checks are recorded in VERIFICATION-v131.md. They do not verify implementation of these newly documented amendments.
 
-- [Typography colors and exact TEC palette](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Color-Previews)
+- [Typography colors and exact TEC palette — historical](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Color-Previews)
 - [Actual bundled font samples](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Font-Previews)
 - [Historical status badge preview](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Status-Previews)
 - [Approved header/navigation/print concept — historical comparison pack](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Header-Print-Concept-Revision-4)
+- [Compact typography, Ink table text and solid financial-bar comparisons — prior preview](https://github.com/ormbh/Performance-App-2/tree/f8da6bd/Compact-Typography-Concept)
 
-Historical preview images may show 18px screen badges or explanatory subtitles.
-They do not override the current 16px screen badge and title-label rules.
+Earlier images may show 18px screen badges, title subtitles, oversized side-by-side labels, 28px subgroup names or hatched financial bars. They do not override this document. The subgroup names in the last compact preview are superseded by the latest **18px** approval. The rejected oversized-label concept is not the approved card arrangement.
 
-This specification consolidates the approved app design implemented in v131. It is an app-specific approved standard, not an official TEC brand manual or an accessibility certification. Verification uses illustrative data; it does not establish the accuracy of an unseen operational workbook.
-
-
-## Revision 6 reference: bars and source completeness
-
-Single green completion strips show completed count divided by their eligible subgroup total. Multicolor status strips show disjoint status shares of a card total. Financial strips show source-defined budget ratios; KPI strips show measured/registered coverage. Project count/money bars use the table's shared zero-to-largest-row scale; progress bars use valid source progress percentages.
-
-Diagonal financial hatching marks partial numeric coverage. A note such as «قيم متاحة: 59 من 61» means two projects lack usable values for that metric. Bar length encodes the subtotal; the coverage fraction describes available source values. Missing values are excluded, not treated as zero. These meanings, colors and warnings remain.
-
-The accompanying guide proposes the shorter note «بيانات جزئية · 59/61» with accessible details and a visible print qualification. This wording proposal is not implemented in v131; meaningful availability, missing-status and denominator notes remain in the app.
+This is an app-specific approved standard, not an official TEC brand manual or accessibility certification. Source records, values, calculation definitions and filter behavior remain unchanged. Implementation and actual screen/PDF verification follow when the user requests the app update.
