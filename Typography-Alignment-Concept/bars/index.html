@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Financial bars — before / after</title>
+<style>
+@font-face{font-family:Dubai;src:url('fonts/Dubai-Regular.otf');font-weight:400;font-display:block}
+@font-face{font-family:Dubai;src:url('fonts/Dubai-Bold.otf');font-weight:700;font-display:block}
+@font-face{font-family:DIN;src:url('fonts/DIN-Next-Arabic-Regular.otf');font-weight:400;font-display:block}
+@font-face{font-family:DINLT;src:url('fonts/DIN-Next-LT-Arabic-Regular.ttf');font-weight:400;font-display:block}
+*{box-sizing:border-box}body{margin:0;background:#EFEBE7;color:#333333;font:18px/1.6 Dubai,sans-serif;padding:36px 40px 30px}h1{font:400 34px/1.3 DIN,sans-serif;margin:0 0 10px}header p{color:#4F4E4E;margin:0 0 28px;font-size:16px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:24px}.comparison{padding:26px;background:#FCFBFB;border:1px solid #E7E0D3;border-radius:20px;min-width:0}.comparison>h2{font:400 24px/1.4 Dubai,sans-serif;color:#4F4E4E;margin:0 0 26px}.metric{direction:rtl;text-align:right;min-width:0;min-height:184px;padding:0}.metric + .metric{border-top:1px solid #E7E0D3;margin-top:12px;padding-top:24px}.metric h3{font:400 28px/1.4 DIN,sans-serif;margin:0 0 20px}.number{font:400 34px/1.1 DINLT,sans-serif;display:block;margin-bottom:14px;direction:ltr}.track{height:8px;background:#EFEBE7;display:flex;flex-direction:row-reverse;border-radius:3px;overflow:hidden;direction:ltr}.fill{width:72%;height:8px;background:#756B5F}.partial .fill{background:repeating-linear-gradient(135deg,#ABA394,#ABA394 4px,#E7E0D3 4px,#E7E0D3 8px)}.solid .spending .fill{background:#115E67}.coverage{display:block;font:400 14px/1.5 Dubai,sans-serif;margin-top:14px;color:#756B5F}.swatches{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}.swatch{padding:16px 20px;border:1px solid #E7E0D3;background:#FCFBFB;border-radius:14px;display:flex;align-items:center;gap:14px;font-size:16px;color:#4F4E4E}.chip{width:36px;height:36px;border-radius:6px;background:var(--c);flex:none}.code{font-family:Dubai,sans-serif;display:block;color:#333333;direction:ltr}footer{font-size:14px;color:#4F4E4E;margin-top:18px} @media(max-width:760px){body{padding:20px}.pair{grid-template-columns:1fr}.swatches{grid-template-columns:1fr}.comparison{padding:22px}}
+</style></head><body>
+<header><h1>Financial bars — before / after</h1><p>Preview only · The same figure and bar length are retained. Existing TEC financial colors are used.</p></header>
+<main><div class="pair">
+<section class="comparison partial"><h2>Before · Current partial-data presentation</h2>
+<div class="metric budget" lang="ar"><h3>الموازنة</h3><bdi class="number">44</bdi><div class="track"><span class="fill"></span></div><span class="coverage">قيم متاحة: <bdi>59</bdi> من <bdi>61</bdi></span></div>
+<div class="metric spending" lang="ar"><h3>الإنفاق</h3><bdi class="number">44</bdi><div class="track"><span class="fill"></span></div><span class="coverage">قيم متاحة: <bdi>59</bdi> من <bdi>61</bdi></span></div>
+</section>
+<section class="comparison solid"><h2>After · Solid bars; availability note removed</h2>
+<div class="metric budget" lang="ar"><h3>الموازنة</h3><bdi class="number">44</bdi><div class="track"><span class="fill"></span></div></div>
+<div class="metric spending" lang="ar"><h3>الإنفاق</h3><bdi class="number">44</bdi><div class="track"><span class="fill"></span></div></div>
+</section></div>
+<div class="swatches"><div class="swatch"><span class="chip" style="--c:#756B5F"></span><span>Budget / allocation<span class="code">#756B5F · Taupe</span></span></div><div class="swatch"><span class="chip" style="--c:#115E67"></span><span>Spending<span class="code">#115E67 · Teal</span></span></div><div class="swatch"><span class="chip" style="--c:#EFEBE7"></span><span>Unused track<span class="code">#EFEBE7 · Linen</span></span></div></div>
+</main><footer>Illustrative figure 44; 72% bar length is a style specimen. This concept has not been applied to the app.</footer>
+</body></html>

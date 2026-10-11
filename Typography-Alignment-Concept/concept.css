@@ -1,0 +1,94 @@
+body { background:#EFEBE7; margin:0; color:#333333; font:400 16px/1.6 'TEC Dubai',sans-serif; }
+.concept-main { max-width:1840px; margin:auto; padding:24px; }
+.concept-heading h1 { font:400 30px/1.4 'TEC Dubai',sans-serif; margin:0 0 8px; }
+.concept-heading p,.description { color:#4F4E4E; margin:0 0 20px; }
+.section-title { font:400 24px/1.4 'TEC Dubai',sans-serif; margin:24px 0 10px; }
+.two-up { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; margin-bottom:24px; align-items:start; }
+.comparison-panel { min-width:0; }
+.panel-caption { font:400 16px/1.6 'TEC Dubai',sans-serif; color:#4F4E4E; margin:0 0 10px; }
+.specimen.screen.workbook-report.wb-reference-composition { display:block; width:100%; margin:0; padding:0; min-height:0; }
+.specimen button { pointer-events:none; }
+.specimen .wb-card { margin:0 !important; }
+.specimen .wb-strategy-metric .wb-stat-label { overflow-wrap:normal; }
+.info table { width:100%; border-collapse:collapse; margin:16px 0; background:#FCFBFB; font-size:16px; }
+.info th,.info td { text-align:left; padding:10px 14px; border-bottom:1px solid #E7E0D3; }
+.info th { background:#E7E0D3; font-family:'TEC Dubai'; font-weight:700; }
+.bar-image { width:100%; max-width:1440px; height:auto; display:block; }
+/* Only isolated preview elements are changed below. */
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special .wb-subgroup h4>button:first-child { font:400 28px/1.3 'TEC Dubai',sans-serif !important; align-items:start; gap:12px; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special .wb-subgroup h4 span { font:400 28px/1.3 var(--figure-font) !important; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special .wb-subgroup .wb-stat strong { font:400 34px/1.3 var(--figure-font) !important; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) :is(.wb-stat-label,.wb-total-main>span) { font:400 34px/1.3 'TEC Dubai',sans-serif !important; color:#756B5F; }
+.screen.workbook-report.wb-reference-composition.specimen.compact :is(.wb-stat-label,.wb-total-main>span) { font-size:18px !important; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special-groups { display:grid !important; grid-template-columns:repeat(2,minmax(0,1fr)) !important; grid-template-rows:none !important; gap:24px !important; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special-groups>.wb-subgroup { display:block !important; grid-row:auto !important; grid-template-rows:none !important; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special-groups h4 { display:flex !important; flex-direction:column; align-items:stretch; margin:0 0 16px; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special-groups h4>button { display:flex; justify-content:space-between; width:100%; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special-groups h4>.wb-delta { align-self:flex-end !important; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special .wb-stats { display:grid !important; grid-template-columns:1fr !important; grid-template-rows:none !important; gap:14px !important; margin:0 0 20px; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-stats>.wb-stat { display:block !important; grid-row:auto !important; padding:0 !important; border:0 !important; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-stat>.wb-stat-main,
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-total-main { display:grid !important; grid-template-columns:minmax(0,1fr) 68px !important; grid-template-rows:none !important; column-gap:12px !important; align-items:start !important; width:100%; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-stat-main>.wb-stat-label { min-height:0 !important; margin:0; align-self:start !important; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-stat-main>strong { text-align:right; justify-self:end; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-stat>.wb-delta { display:flex !important; justify-content:flex-end !important; width:100% !important; padding:0 !important; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-total { min-width:210px; }
+.screen.workbook-report.wb-reference-composition.specimen.compact .wb-total { min-width:150px; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-total-main { grid-template-columns:minmax(0,1fr) auto !important; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-total-main>strong { grid-column:2; grid-row:1; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-total-main>span { grid-column:1; grid-row:1; justify-self:start; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-stats { align-items:start; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-stats>.wb-stat+.wb-stat { border-inline-start:1px solid #EFEBE7 !important; padding-inline-start:16px !important; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special .wb-stats>.wb-stat+.wb-stat { border:0 !important; padding:0 !important; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-strategy-metric .wb-stat-label { font:400 14px/1.6 'TEC Dubai',sans-serif !important; color:#4F4E4E !important; min-height:0 !important; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-strategy-metrics { display:grid !important; grid-template-columns:repeat(3,minmax(0,1fr)); grid-template-rows:auto auto auto; column-gap:0; row-gap:0; align-items:stretch; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-strategy-metric { display:grid !important; grid-row:span 3; grid-template-rows:subgrid; min-width:0; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-stat-main { display:contents !important; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-stat-main>.wb-stat-label { align-self:start; padding-bottom:20px; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-stat-main>strong { align-self:start; padding:0; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-kpi-note { align-self:start; margin-top:9px; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-literal .wb-strategy-metric .wb-stat-label { font:400 34px/1.3 'TEC Dubai',sans-serif !important; color:#756B5F; min-height:0 !important; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-literal .wb-stat-main { display:grid !important; grid-template-columns:minmax(0,1fr) auto; grid-template-rows:none; align-items:start; gap:12px !important; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-literal .wb-strategy-metrics { align-items:start; }
+.specimen .optical-label,.specimen .optical-number { margin-top:var(--optical-shift,0px) !important; }
+@media (max-width:999px) { .two-up { grid-template-columns:1fr; } }
+@media (max-width:599px) {
+ .concept-main { padding:16px; }
+ .concept-heading h1 { font-size:24px; }
+ .screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special-groups { grid-template-columns:1fr !important; gap:24px !important; }
+ .screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special .wb-subgroup+.wb-subgroup { border-inline-start:0 !important; padding-inline-start:0 !important; border-top:1px solid #EFEBE7 !important; padding-top:20px !important; }
+ .screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-stats { grid-template-columns:1fr !important; gap:14px; }
+ .screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-stats>.wb-stat+.wb-stat { padding:0 !important; border:0 !important; }
+ .screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-card-head { display:block; }
+ .screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-total { margin-top:16px; width:100%; }
+ .screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-strategy-metrics { display:grid !important; grid-template-columns:1fr; grid-template-rows:none; gap:24px; }
+ .screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-strategy-metric { display:block !important; grid-row:auto; padding:0 !important; border:0 !important; }
+ .screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-stat-main>.wb-stat-label { display:block; padding-bottom:12px; }
+ .screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-strategy-metric+.wb-strategy-metric { border-top:1px solid #EFEBE7 !important; padding-top:20px !important; }
+ .info { overflow-x:auto; }
+}
+
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-stat-main>.wb-stat-label { grid-row:1 !important; grid-column:1 !important; margin-bottom:0 !important; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-stat-main>strong { grid-row:1 !important; grid-column:2 !important; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-strategy-metric { grid-template-columns:minmax(0,1fr) !important; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-stat-main>.wb-stat-label { grid-row:1; grid-column:1; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-stat-main>strong { grid-row:2; grid-column:1; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-kpi-note { grid-row:3; grid-column:1; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-literal .wb-stat-main>.wb-stat-label { grid-row:1 !important; grid-column:1 !important; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-literal .wb-stat-main>strong { grid-row:1 !important; grid-column:2 !important; }
+.screen.workbook-report.wb-reference-composition.specimen.strategy-recommended .wb-stat-main>strong { justify-self:start; width:max-content; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-stats>.wb-stat { display:grid !important; grid-template-columns:minmax(0,1fr); grid-template-rows:minmax(52px,auto) 24px !important; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-stat-main { grid-row:1 !important; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-stat>.wb-delta { grid-row:2 !important; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-subgroup h4>button:first-child { display:grid !important; grid-template-columns:minmax(0,1fr) 68px; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-subgroup h4 .subgroup-label { font:400 28px/1.3 'TEC Dubai',sans-serif !important; grid-column:1; grid-row:1; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-subgroup h4 .wb-subtotal-value { grid-column:2; grid-row:1; justify-self:end; }
+.screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-subgroup h4>.wb-delta { width:100% !important; align-self:stretch !important; justify-content:flex-end !important; }
+@media (min-width:600px) {
+ .screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special-groups { grid-template-rows:auto auto auto auto !important; row-gap:0 !important; }
+ .screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special-groups>.wb-subgroup { display:grid !important; grid-row:span 4 !important; grid-template-rows:subgrid !important; grid-template-columns:minmax(0,1fr); }
+ .screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special-groups h4 { grid-row:1 !important; }
+ .screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special-groups .wb-stats { grid-row:2 !important; margin-bottom:16px; }
+ .screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special-groups .wb-apple-meter { grid-row:3 !important; margin-top:0 !important; }
+ .screen.workbook-report.wb-reference-composition.specimen:is(.requested,.compact) .wb-special-groups .wb-meter-caption { grid-row:4 !important; }
+}

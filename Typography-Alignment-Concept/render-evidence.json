@@ -1,0 +1,965 @@
+{
+  "stage": "Preview only; source v131 and release ZIP unchanged",
+  "deviceScale": 1,
+  "checks": [
+    "strategy-comparison native desktop render, no card/document overflow; visible text-top alignment",
+    "strategy-label-options native desktop render, no card/document overflow; visible text-top alignment",
+    "count-comparison native desktop render, no card/document overflow; visible text-top alignment",
+    "short-label-options native desktop render, no card/document overflow; visible text-top alignment",
+    "390px mobile keeps requested font sizes, reflows groups/statuses, no document overflow",
+    "All v131 source/release bytes unchanged"
+  ],
+  "errors": [],
+  "views": {
+    "strategy-comparison": {
+      "cards": [
+        {
+          "phase": "before",
+          "kind": "strategy",
+          "width": 884,
+          "height": 276.765625,
+          "labels": [
+            {
+              "text": "المؤشرات المقاسة / المسجلة",
+              "size": "12px",
+              "lineHeight": "19.2px",
+              "width": 266,
+              "height": 42
+            },
+            {
+              "text": "متوسط النتائج المقاسة",
+              "size": "12px",
+              "lineHeight": "19.2px",
+              "width": 253,
+              "height": 42
+            },
+            {
+              "text": "متوسط المستهدفات المعتمدة",
+              "size": "12px",
+              "lineHeight": "19.2px",
+              "width": 265,
+              "height": 42
+            }
+          ],
+          "figures": [
+            {
+              "text": "39 / 54",
+              "size": "34px"
+            },
+            {
+              "text": "83.2%",
+              "size": "34px"
+            },
+            {
+              "text": "87.8%",
+              "size": "34px"
+            }
+          ],
+          "overflow": false
+        },
+        {
+          "phase": "strategy-recommended",
+          "kind": "strategy",
+          "width": 884,
+          "height": 270.359375,
+          "labels": [
+            {
+              "text": "المؤشرات المقاسة / المسجلة",
+              "size": "14px",
+              "lineHeight": "22.4px",
+              "width": 266,
+              "height": 42
+            },
+            {
+              "text": "متوسط النتائج المقاسة",
+              "size": "14px",
+              "lineHeight": "22.4px",
+              "width": 253,
+              "height": 42
+            },
+            {
+              "text": "متوسط المستهدفات المعتمدة",
+              "size": "14px",
+              "lineHeight": "22.4px",
+              "width": 265,
+              "height": 42
+            }
+          ],
+          "figures": [
+            {
+              "text": "39 / 54",
+              "size": "34px"
+            },
+            {
+              "text": "83.2%",
+              "size": "34px"
+            },
+            {
+              "text": "87.8%",
+              "size": "34px"
+            }
+          ],
+          "overflow": false
+        }
+      ],
+      "alignment": [],
+      "documentOverflow": false
+    },
+    "strategy-label-options": {
+      "cards": [
+        {
+          "phase": "strategy-literal",
+          "kind": "strategy",
+          "width": 884,
+          "height": 321.640625,
+          "labels": [
+            {
+              "text": "المؤشرات المقاسة / المسجلة",
+              "size": "34px",
+              "lineHeight": "44.2px",
+              "width": 162,
+              "height": 133
+            },
+            {
+              "text": "متوسط النتائج المقاسة",
+              "size": "34px",
+              "lineHeight": "44.2px",
+              "width": 162,
+              "height": 133
+            },
+            {
+              "text": "متوسط المستهدفات المعتمدة",
+              "size": "34px",
+              "lineHeight": "44.2px",
+              "width": 174,
+              "height": 133
+            }
+          ],
+          "figures": [
+            {
+              "text": "39 / 54",
+              "size": "34px"
+            },
+            {
+              "text": "83.2%",
+              "size": "34px"
+            },
+            {
+              "text": "87.8%",
+              "size": "34px"
+            }
+          ],
+          "overflow": false
+        },
+        {
+          "phase": "strategy-recommended",
+          "kind": "strategy",
+          "width": 884,
+          "height": 270.359375,
+          "labels": [
+            {
+              "text": "المؤشرات المقاسة / المسجلة",
+              "size": "14px",
+              "lineHeight": "22.4px",
+              "width": 266,
+              "height": 42
+            },
+            {
+              "text": "متوسط النتائج المقاسة",
+              "size": "14px",
+              "lineHeight": "22.4px",
+              "width": 253,
+              "height": 42
+            },
+            {
+              "text": "متوسط المستهدفات المعتمدة",
+              "size": "14px",
+              "lineHeight": "22.4px",
+              "width": 265,
+              "height": 42
+            }
+          ],
+          "figures": [
+            {
+              "text": "39 / 54",
+              "size": "34px"
+            },
+            {
+              "text": "83.2%",
+              "size": "34px"
+            },
+            {
+              "text": "87.8%",
+              "size": "34px"
+            }
+          ],
+          "overflow": false
+        }
+      ],
+      "alignment": [
+        {
+          "kind": "strategy",
+          "phase": "strategy-literal",
+          "label": "المؤشرات المقاسة / المسجلة",
+          "firstLine": "المؤشرات",
+          "labelShift": 6.5,
+          "numberShift": 0,
+          "labelInkY": 346.6625,
+          "numberInkY": 346.6625
+        },
+        {
+          "kind": "strategy",
+          "phase": "strategy-literal",
+          "label": "متوسط النتائج المقاسة",
+          "firstLine": "متوسط",
+          "labelShift": 6.5,
+          "numberShift": 0,
+          "labelInkY": 346.6625,
+          "numberInkY": 346.6625
+        },
+        {
+          "kind": "strategy",
+          "phase": "strategy-literal",
+          "label": "متوسط المستهدفات المعتمدة",
+          "firstLine": "متوسط",
+          "labelShift": 6.5,
+          "numberShift": 0,
+          "labelInkY": 346.6625,
+          "numberInkY": 346.6625
+        }
+      ],
+      "documentOverflow": false
+    },
+    "count-comparison": {
+      "cards": [
+        {
+          "phase": "before",
+          "kind": "special",
+          "width": 884,
+          "height": 454.34375,
+          "labels": [
+            {
+              "text": "منجز",
+              "size": "12px",
+              "lineHeight": "19.2px",
+              "width": 192,
+              "height": 19
+            },
+            {
+              "text": "قيد العمل",
+              "size": "12px",
+              "lineHeight": "19.2px",
+              "width": 192,
+              "height": 19
+            },
+            {
+              "text": "منجز",
+              "size": "12px",
+              "lineHeight": "19.2px",
+              "width": 179,
+              "height": 19
+            },
+            {
+              "text": "قيد العمل",
+              "size": "12px",
+              "lineHeight": "19.2px",
+              "width": 179,
+              "height": 19
+            }
+          ],
+          "figures": [
+            {
+              "text": "12",
+              "size": "28px"
+            },
+            {
+              "text": "12",
+              "size": "28px"
+            },
+            {
+              "text": "10",
+              "size": "28px"
+            },
+            {
+              "text": "26",
+              "size": "28px"
+            }
+          ],
+          "overflow": false
+        },
+        {
+          "phase": "requested",
+          "kind": "special",
+          "width": 884,
+          "height": 517.65625,
+          "labels": [
+            {
+              "text": "منجز",
+              "size": "34px",
+              "lineHeight": "44.2px",
+              "width": 325,
+              "height": 44
+            },
+            {
+              "text": "قيد العمل",
+              "size": "34px",
+              "lineHeight": "44.2px",
+              "width": 325,
+              "height": 44
+            },
+            {
+              "text": "منجز",
+              "size": "34px",
+              "lineHeight": "44.2px",
+              "width": 300,
+              "height": 44
+            },
+            {
+              "text": "قيد العمل",
+              "size": "34px",
+              "lineHeight": "44.2px",
+              "width": 300,
+              "height": 44
+            }
+          ],
+          "figures": [
+            {
+              "text": "12",
+              "size": "34px"
+            },
+            {
+              "text": "12",
+              "size": "34px"
+            },
+            {
+              "text": "10",
+              "size": "34px"
+            },
+            {
+              "text": "26",
+              "size": "34px"
+            }
+          ],
+          "overflow": false
+        },
+        {
+          "phase": "before",
+          "kind": "agenda",
+          "width": 884,
+          "height": 381.953125,
+          "labels": [
+            {
+              "text": "منجز",
+              "size": "12px",
+              "lineHeight": "19.2px",
+              "width": 271,
+              "height": 19
+            },
+            {
+              "text": "جاهز للعرض",
+              "size": "12px",
+              "lineHeight": "19.2px",
+              "width": 254,
+              "height": 19
+            },
+            {
+              "text": "قيد العمل",
+              "size": "12px",
+              "lineHeight": "19.2px",
+              "width": 254,
+              "height": 19
+            }
+          ],
+          "figures": [
+            {
+              "text": "43",
+              "size": "34px"
+            },
+            {
+              "text": "16",
+              "size": "34px"
+            },
+            {
+              "text": "58",
+              "size": "34px"
+            }
+          ],
+          "overflow": false
+        },
+        {
+          "phase": "requested",
+          "kind": "agenda",
+          "width": 884,
+          "height": 343.46875,
+          "labels": [
+            {
+              "text": "منجز",
+              "size": "34px",
+              "lineHeight": "44.2px",
+              "width": 191,
+              "height": 44
+            },
+            {
+              "text": "جاهز للعرض",
+              "size": "34px",
+              "lineHeight": "44.2px",
+              "width": 174,
+              "height": 44
+            },
+            {
+              "text": "قيد العمل",
+              "size": "34px",
+              "lineHeight": "44.2px",
+              "width": 174,
+              "height": 44
+            }
+          ],
+          "figures": [
+            {
+              "text": "43",
+              "size": "34px"
+            },
+            {
+              "text": "16",
+              "size": "34px"
+            },
+            {
+              "text": "58",
+              "size": "34px"
+            }
+          ],
+          "overflow": false
+        }
+      ],
+      "alignment": [
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "الإجمالي",
+          "firstLine": "الإجمالي",
+          "labelShift": 7.899999999999999,
+          "numberShift": 0,
+          "labelInkY": 288.865625,
+          "numberInkY": 288.875
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "للقيادة",
+          "firstLine": "للقيادة",
+          "labelShift": 0,
+          "numberShift": 0,
+          "labelInkY": 389.653125,
+          "numberInkY": 389.653125
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "منجز",
+          "firstLine": "منجز",
+          "labelShift": 1.5,
+          "numberShift": 0,
+          "labelInkY": 467.94375,
+          "numberInkY": 467.94375
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "قيد العمل",
+          "firstLine": "قيد العمل",
+          "labelShift": 6.5,
+          "numberShift": 0,
+          "labelInkY": 557.94375,
+          "numberInkY": 557.94375
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "للأمانة العامة",
+          "firstLine": "للأمانة العامة",
+          "labelShift": 4,
+          "numberShift": 0,
+          "labelInkY": 389.653125,
+          "numberInkY": 389.653125
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "منجز",
+          "firstLine": "منجز",
+          "labelShift": 1.5,
+          "numberShift": 0,
+          "labelInkY": 471.94375,
+          "numberInkY": 471.94375
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "قيد العمل",
+          "firstLine": "قيد العمل",
+          "labelShift": 6.5,
+          "numberShift": 0,
+          "labelInkY": 561.94375,
+          "numberInkY": 561.94375
+        },
+        {
+          "kind": "agenda",
+          "phase": "requested",
+          "label": "الإجمالي",
+          "firstLine": "الإجمالي",
+          "labelShift": 7.899999999999999,
+          "numberShift": 0,
+          "labelInkY": 866.115625,
+          "numberInkY": 866.125
+        },
+        {
+          "kind": "agenda",
+          "phase": "requested",
+          "label": "منجز",
+          "firstLine": "منجز",
+          "labelShift": 1.5,
+          "numberShift": 0,
+          "labelInkY": 1055.19375,
+          "numberInkY": 1055.19375
+        },
+        {
+          "kind": "agenda",
+          "phase": "requested",
+          "label": "جاهز للعرض",
+          "firstLine": "جاهز للعرض",
+          "labelShift": 6.5,
+          "numberShift": 0,
+          "labelInkY": 1055.19375,
+          "numberInkY": 1055.19375
+        },
+        {
+          "kind": "agenda",
+          "phase": "requested",
+          "label": "قيد العمل",
+          "firstLine": "قيد العمل",
+          "labelShift": 6.5,
+          "numberShift": 0,
+          "labelInkY": 1055.19375,
+          "numberInkY": 1055.19375
+        }
+      ],
+      "documentOverflow": false
+    },
+    "short-label-options": {
+      "cards": [
+        {
+          "phase": "requested",
+          "kind": "special",
+          "width": 884,
+          "height": 517.65625,
+          "labels": [
+            {
+              "text": "منجز",
+              "size": "34px",
+              "lineHeight": "44.2px",
+              "width": 325,
+              "height": 44
+            },
+            {
+              "text": "قيد العمل",
+              "size": "34px",
+              "lineHeight": "44.2px",
+              "width": 325,
+              "height": 44
+            },
+            {
+              "text": "منجز",
+              "size": "34px",
+              "lineHeight": "44.2px",
+              "width": 300,
+              "height": 44
+            },
+            {
+              "text": "قيد العمل",
+              "size": "34px",
+              "lineHeight": "44.2px",
+              "width": 300,
+              "height": 44
+            }
+          ],
+          "figures": [
+            {
+              "text": "12",
+              "size": "34px"
+            },
+            {
+              "text": "12",
+              "size": "34px"
+            },
+            {
+              "text": "10",
+              "size": "34px"
+            },
+            {
+              "text": "26",
+              "size": "34px"
+            }
+          ],
+          "overflow": false
+        },
+        {
+          "phase": "compact",
+          "kind": "special",
+          "width": 884,
+          "height": 515.578125,
+          "labels": [
+            {
+              "text": "منجز",
+              "size": "18px",
+              "lineHeight": "23.4px",
+              "width": 325,
+              "height": 23
+            },
+            {
+              "text": "قيد العمل",
+              "size": "18px",
+              "lineHeight": "23.4px",
+              "width": 325,
+              "height": 23
+            },
+            {
+              "text": "منجز",
+              "size": "18px",
+              "lineHeight": "23.4px",
+              "width": 300,
+              "height": 23
+            },
+            {
+              "text": "قيد العمل",
+              "size": "18px",
+              "lineHeight": "23.4px",
+              "width": 300,
+              "height": 23
+            }
+          ],
+          "figures": [
+            {
+              "text": "12",
+              "size": "34px"
+            },
+            {
+              "text": "12",
+              "size": "34px"
+            },
+            {
+              "text": "10",
+              "size": "34px"
+            },
+            {
+              "text": "26",
+              "size": "34px"
+            }
+          ],
+          "overflow": false
+        }
+      ],
+      "alignment": [
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "الإجمالي",
+          "firstLine": "الإجمالي",
+          "labelShift": 7.899999999999999,
+          "numberShift": 0,
+          "labelInkY": 288.865625,
+          "numberInkY": 288.875
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "للقيادة",
+          "firstLine": "للقيادة",
+          "labelShift": 0,
+          "numberShift": 0,
+          "labelInkY": 389.653125,
+          "numberInkY": 389.653125
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "منجز",
+          "firstLine": "منجز",
+          "labelShift": 1.5,
+          "numberShift": 0,
+          "labelInkY": 467.94375,
+          "numberInkY": 467.94375
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "قيد العمل",
+          "firstLine": "قيد العمل",
+          "labelShift": 6.5,
+          "numberShift": 0,
+          "labelInkY": 557.94375,
+          "numberInkY": 557.94375
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "للأمانة العامة",
+          "firstLine": "للأمانة العامة",
+          "labelShift": 4,
+          "numberShift": 0,
+          "labelInkY": 389.653125,
+          "numberInkY": 389.653125
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "منجز",
+          "firstLine": "منجز",
+          "labelShift": 1.5,
+          "numberShift": 0,
+          "labelInkY": 471.94375,
+          "numberInkY": 471.94375
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "قيد العمل",
+          "firstLine": "قيد العمل",
+          "labelShift": 6.5,
+          "numberShift": 0,
+          "labelInkY": 561.94375,
+          "numberInkY": 561.94375
+        },
+        {
+          "kind": "special",
+          "phase": "compact",
+          "label": "الإجمالي",
+          "firstLine": "الإجمالي",
+          "labelShift": 11.8260009765625,
+          "numberShift": 0,
+          "labelInkY": 288.8614990234375,
+          "numberInkY": 288.875
+        },
+        {
+          "kind": "special",
+          "phase": "compact",
+          "label": "للقيادة",
+          "firstLine": "للقيادة",
+          "labelShift": 0,
+          "numberShift": 0,
+          "labelInkY": 387.575,
+          "numberInkY": 387.575
+        },
+        {
+          "kind": "special",
+          "phase": "compact",
+          "label": "منجز",
+          "firstLine": "منجز",
+          "labelShift": 8.400000000000002,
+          "numberShift": 0,
+          "labelInkY": 465.85625,
+          "numberInkY": 465.865625
+        },
+        {
+          "kind": "special",
+          "phase": "compact",
+          "label": "قيد العمل",
+          "firstLine": "قيد العمل",
+          "labelShift": 10.400000000000002,
+          "numberShift": 0,
+          "labelInkY": 555.85625,
+          "numberInkY": 555.865625
+        },
+        {
+          "kind": "special",
+          "phase": "compact",
+          "label": "للأمانة العامة",
+          "firstLine": "للأمانة العامة",
+          "labelShift": 4,
+          "numberShift": 0,
+          "labelInkY": 387.575,
+          "numberInkY": 387.575
+        },
+        {
+          "kind": "special",
+          "phase": "compact",
+          "label": "منجز",
+          "firstLine": "منجز",
+          "labelShift": 8.400000000000002,
+          "numberShift": 0,
+          "labelInkY": 469.85625,
+          "numberInkY": 469.865625
+        },
+        {
+          "kind": "special",
+          "phase": "compact",
+          "label": "قيد العمل",
+          "firstLine": "قيد العمل",
+          "labelShift": 10.400000000000002,
+          "numberShift": 0,
+          "labelInkY": 559.85625,
+          "numberInkY": 559.865625
+        }
+      ],
+      "documentOverflow": false
+    },
+    "mobile390": {
+      "overflow": false,
+      "alignment": [
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "الإجمالي",
+          "firstLine": "الإجمالي",
+          "labelShift": 7.899999999999999,
+          "numberShift": 0,
+          "labelInkY": 989.928125,
+          "numberInkY": 989.9375
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "للقيادة",
+          "firstLine": "للقيادة",
+          "labelShift": 0,
+          "numberShift": 0,
+          "labelInkY": 1086.715625,
+          "numberInkY": 1086.715625
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "منجز",
+          "firstLine": "منجز",
+          "labelShift": 1.5,
+          "numberShift": 0,
+          "labelInkY": 1141.00625,
+          "numberInkY": 1141.00625
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "قيد العمل",
+          "firstLine": "قيد العمل",
+          "labelShift": 6.5,
+          "numberShift": 0,
+          "labelInkY": 1231.00625,
+          "numberInkY": 1231.00625
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "للأمانة العامة",
+          "firstLine": "للأمانة العامة",
+          "labelShift": 4,
+          "numberShift": 0,
+          "labelInkY": 1404.29375,
+          "numberInkY": 1404.29375
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "منجز",
+          "firstLine": "منجز",
+          "labelShift": 1.5,
+          "numberShift": 0,
+          "labelInkY": 1486.584375,
+          "numberInkY": 1486.584375
+        },
+        {
+          "kind": "special",
+          "phase": "requested",
+          "label": "قيد العمل",
+          "firstLine": "قيد العمل",
+          "labelShift": 6.5,
+          "numberShift": 0,
+          "labelInkY": 1576.584375,
+          "numberInkY": 1576.584375
+        },
+        {
+          "kind": "agenda",
+          "phase": "requested",
+          "label": "الإجمالي",
+          "firstLine": "الإجمالي",
+          "labelShift": 7.899999999999999,
+          "numberShift": 0,
+          "labelInkY": 1931.94375,
+          "numberInkY": 1931.953125
+        },
+        {
+          "kind": "agenda",
+          "phase": "requested",
+          "label": "منجز",
+          "firstLine": "منجز",
+          "labelShift": 1.5,
+          "numberShift": 0,
+          "labelInkY": 2117.021875,
+          "numberInkY": 2117.021875
+        },
+        {
+          "kind": "agenda",
+          "phase": "requested",
+          "label": "جاهز للعرض",
+          "firstLine": "جاهز للعرض",
+          "labelShift": 6.5,
+          "numberShift": 0,
+          "labelInkY": 2207.021875,
+          "numberInkY": 2207.021875
+        },
+        {
+          "kind": "agenda",
+          "phase": "requested",
+          "label": "قيد العمل",
+          "firstLine": "قيد العمل",
+          "labelShift": 6.5,
+          "numberShift": 0,
+          "labelInkY": 2297.021875,
+          "numberInkY": 2297.021875
+        }
+      ],
+      "strategyColumns": "324px",
+      "labels": [
+        {
+          "text": "المؤشرات المقاسة / المسجلة",
+          "size": "14px"
+        },
+        {
+          "text": "متوسط النتائج المقاسة",
+          "size": "14px"
+        },
+        {
+          "text": "متوسط المستهدفات المعتمدة",
+          "size": "14px"
+        },
+        {
+          "text": "منجز",
+          "size": "34px"
+        },
+        {
+          "text": "قيد العمل",
+          "size": "34px"
+        },
+        {
+          "text": "منجز",
+          "size": "34px"
+        },
+        {
+          "text": "قيد العمل",
+          "size": "34px"
+        },
+        {
+          "text": "منجز",
+          "size": "34px"
+        },
+        {
+          "text": "جاهز للعرض",
+          "size": "34px"
+        },
+        {
+          "text": "قيد العمل",
+          "size": "34px"
+        }
+      ]
+    }
+  },
+  "result": "PASS"
+}
