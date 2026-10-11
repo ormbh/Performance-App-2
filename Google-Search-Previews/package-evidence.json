@@ -1,0 +1,7 @@
+{
+  "package": "Extracted standalone HTML and gallery verified over loopback HTTP",
+  "resultCount": 4,
+  "scriptErrors": [],
+  "externalDependencies": false,
+  "fileUrlCheck": "Unavailable: managed-browser policy blocks file:// navigation; no runtime browser security setting changed"
+}

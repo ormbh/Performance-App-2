@@ -1,0 +1,293 @@
+{
+  "scope": "Google-like isolated design prototype only; working app unchanged",
+  "fixture": "ILLUSTRATIVE-monthly-preview.xlsx",
+  "fixtureSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "sourceItemCount": 672,
+  "engine": "Unmodified v128 util/schema/order/search modules; original result timing/context functions",
+  "home": {
+    "width": 1920,
+    "scrollWidth": 1920,
+    "title": {
+      "text": "البحث في الأداء",
+      "font": "\"TEC DIN\", sans-serif",
+      "size": "38px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)",
+      "background": "rgba(0, 0, 0, 0)",
+      "width": 680,
+      "height": 53.1875
+    },
+    "name": null,
+    "snippet": null,
+    "badge": null,
+    "input": {
+      "text": "",
+      "font": "\"TEC Dubai\", sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(79, 78, 78)",
+      "background": "rgb(252, 251, 251)",
+      "width": 612,
+      "height": 46
+    },
+    "button": {
+      "text": "بحث في التقرير",
+      "font": "\"TEC Dubai\", sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(252, 251, 251)",
+      "background": "rgb(17, 94, 103)",
+      "width": 118.453125,
+      "height": 44
+    },
+    "resultKeys": []
+  },
+  "errors": [],
+  "expectedResultModels": [
+    {
+      "key": "secretariat-7",
+      "title": "مشروع استراتيجي توضيحي 006",
+      "status": "معلق",
+      "progress": 0
+    },
+    {
+      "key": "council-51",
+      "title": "قرار توضيحي 050",
+      "status": "منجز",
+      "progress": null
+    },
+    {
+      "key": "agenda-7",
+      "title": "موضوع توضيحي 006",
+      "status": "منجز",
+      "progress": null
+    },
+    {
+      "key": "council-7",
+      "title": "قرار توضيحي 006",
+      "status": "منجز",
+      "progress": 100
+    }
+  ],
+  "results": {
+    "width": 1920,
+    "scrollWidth": 1920,
+    "title": {
+      "text": "نتائج البحث",
+      "font": "\"TEC DIN\", sans-serif",
+      "size": "38px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)",
+      "background": "rgba(0, 0, 0, 0)",
+      "width": 1,
+      "height": 1
+    },
+    "name": {
+      "text": "مشروع استراتيجي توضيحي 006",
+      "font": "\"TEC Dubai\"",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(117, 107, 95)",
+      "background": "rgba(0, 0, 0, 0)",
+      "width": 192.5625,
+      "height": 25.59375
+    },
+    "snippet": {
+      "text": "الأولوية: متوسطةالموازنة المعتمدة: 237,500المنفق حسب الفواتير: 83,125غير المخصص: 47,500",
+      "font": "\"TEC Dubai\"",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(117, 107, 95)",
+      "background": "rgba(0, 0, 0, 0)",
+      "width": 900,
+      "height": 25.59375
+    },
+    "badge": {
+      "text": "معلق",
+      "font": "\"TEC Dubai\"",
+      "size": "18px",
+      "weight": "400",
+      "color": "rgb(252, 251, 251)",
+      "background": "rgb(101, 29, 50)",
+      "width": 63.171875,
+      "height": 42.796875
+    },
+    "input": {
+      "text": "",
+      "font": "\"TEC Dubai\", sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(79, 78, 78)",
+      "background": "rgb(252, 251, 251)",
+      "width": 580,
+      "height": 44
+    },
+    "button": null,
+    "resultKeys": [
+      "secretariat-7",
+      "council-51",
+      "agenda-7",
+      "council-7"
+    ]
+  },
+  "actualResultModels": [
+    {
+      "key": "secretariat-7",
+      "title": "مشروع استراتيجي توضيحي 006",
+      "status": "معلق",
+      "progress": 0
+    },
+    {
+      "key": "council-51",
+      "title": "قرار توضيحي 050",
+      "status": "منجز",
+      "progress": null
+    },
+    {
+      "key": "agenda-7",
+      "title": "موضوع توضيحي 006",
+      "status": "منجز",
+      "progress": null
+    },
+    {
+      "key": "council-7",
+      "title": "قرار توضيحي 006",
+      "status": "منجز",
+      "progress": 100
+    }
+  ],
+  "dialogProgressPreserved": "نسبة الإنجاز: 0%",
+  "dialogEscapeReturnsFocus": true,
+  "dialogOutsideCloses": true,
+  "councilCount": 2,
+  "menuEscapeReturnsFocus": true,
+  "noMatchCount": "–",
+  "clearReturnsHome": true,
+  "emptyArabicDirection": "rtl",
+  "browseCount": 672,
+  "paginationChangesRecords": true,
+  "kpiContactLabel": "ملاك الهدف: غير متاح",
+  "completedLegislationBadges": 10,
+  "legislationTimingNotes": 14,
+  "dialogTimingPreserved": true,
+  "menuReturnsHome": true,
+  "englishDirection": "ltr",
+  "homeMobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "title": {
+      "text": "البحث في الأداء",
+      "font": "\"TEC DIN\", sans-serif",
+      "size": "38px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)",
+      "background": "rgba(0, 0, 0, 0)",
+      "width": 358,
+      "height": 53.1875
+    },
+    "name": null,
+    "snippet": null,
+    "badge": {
+      "text": "قيد المراجعة",
+      "font": "\"TEC Dubai\"",
+      "size": "18px",
+      "weight": "400",
+      "color": "rgb(17, 94, 103)",
+      "background": "rgb(217, 225, 226)",
+      "width": 0,
+      "height": 0
+    },
+    "input": {
+      "text": "",
+      "font": "\"TEC Dubai\", sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(79, 78, 78)",
+      "background": "rgb(252, 251, 251)",
+      "width": 302,
+      "height": 44
+    },
+    "button": {
+      "text": "بحث في التقرير",
+      "font": "\"TEC Dubai\", sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(252, 251, 251)",
+      "background": "rgb(17, 94, 103)",
+      "width": 118.453125,
+      "height": 44
+    },
+    "resultKeys": []
+  },
+  "resultsMobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "title": {
+      "text": "نتائج البحث",
+      "font": "\"TEC DIN\", sans-serif",
+      "size": "38px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)",
+      "background": "rgba(0, 0, 0, 0)",
+      "width": 1,
+      "height": 1
+    },
+    "name": {
+      "text": "مشروع استراتيجي توضيحي 006",
+      "font": "\"TEC Dubai\"",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(117, 107, 95)",
+      "background": "rgba(0, 0, 0, 0)",
+      "width": 192.5625,
+      "height": 25.59375
+    },
+    "snippet": {
+      "text": "الأولوية: متوسطةالموازنة المعتمدة: 237,500المنفق حسب الفواتير: 83,125غير المخصص: 47,500",
+      "font": "\"TEC Dubai\"",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(117, 107, 95)",
+      "background": "rgba(0, 0, 0, 0)",
+      "width": 358,
+      "height": 51.1875
+    },
+    "badge": {
+      "text": "معلق",
+      "font": "\"TEC Dubai\"",
+      "size": "18px",
+      "weight": "400",
+      "color": "rgb(252, 251, 251)",
+      "background": "rgb(101, 29, 50)",
+      "width": 63.171875,
+      "height": 42.796875
+    },
+    "input": {
+      "text": "",
+      "font": "\"TEC Dubai\", sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(79, 78, 78)",
+      "background": "rgb(252, 251, 251)",
+      "width": 198,
+      "height": 44
+    },
+    "button": null,
+    "resultKeys": [
+      "secretariat-7",
+      "council-51",
+      "agenda-7",
+      "council-7"
+    ]
+  },
+  "appHashesBefore": {
+    "index.html": "f7519689de5affe61214a80bf8b481b36f105862f0e2b8fdcf200cefa4797746",
+    "assets/css/app-bundle.css": "b2df8a154fc5aa5bea0538f3949fc1839afae7722c020e12c9aafb8092bfdb39",
+    "assets/js/app-bundle.js": "edba5ec97244455263ff31fd59c50c969b62d7a06571567e66395f5b1844c4ad"
+  },
+  "appHashesAfter": {
+    "index.html": "f7519689de5affe61214a80bf8b481b36f105862f0e2b8fdcf200cefa4797746",
+    "assets/css/app-bundle.css": "b2df8a154fc5aa5bea0538f3949fc1839afae7722c020e12c9aafb8092bfdb39",
+    "assets/js/app-bundle.js": "edba5ec97244455263ff31fd59c50c969b62d7a06571567e66395f5b1844c4ad"
+  }
+}

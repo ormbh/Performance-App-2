@@ -1,0 +1,62 @@
+{
+  "README.md": {
+    "bytes": 3814,
+    "sha256": "0e5e7d34ffd970d27a48b2735f7204fcc1372e742c1390b243dd08b4f243e3b0"
+  },
+  "TEC-Google-Search-Home-Detail.png": {
+    "bytes": 31373,
+    "sha256": "81dab121eaa8b2a1202efe126259f52a30889950a4f2f5f46adea0e630c9c8dd"
+  },
+  "TEC-Google-Search-Home-Focus.png": {
+    "bytes": 32063,
+    "sha256": "88115c585d7223dfd4b7a448aab492cdb2429ed0eff8c191e3acb5bdc3babc37"
+  },
+  "TEC-Google-Search-Home-Mobile.png": {
+    "bytes": 44577,
+    "sha256": "cb5499035977717d71bb926a9351166dea1b2acf0032a95edba2cdfcc278150e"
+  },
+  "TEC-Google-Search-Home.png": {
+    "bytes": 55589,
+    "sha256": "10fde63d6c523cbe67d0998ca6c7d328df6b774052d0fb7683f9165eb3f7b078"
+  },
+  "TEC-Google-Search-No-Match.png": {
+    "bytes": 56199,
+    "sha256": "e3e0cf44aefd6a37a1685bf10dd84789104edc1399f2ab48b5ffa4e751b244df"
+  },
+  "TEC-Google-Search-Preview.html": {
+    "bytes": 6219706,
+    "sha256": "da7f1eff70073c803de052217ca82cb42bae3709ac729c520e0d0ce31126c108"
+  },
+  "TEC-Google-Search-Results-Detail.png": {
+    "bytes": 114710,
+    "sha256": "2007afe66da02d0830f62a429096055a98d6d6aae3a3d36eeca68b6ced567d0b"
+  },
+  "TEC-Google-Search-Results-Focus.png": {
+    "bytes": 80963,
+    "sha256": "d8561df7df07df945190115678a2e7b2accf51b926e5c6db288a2b1b5265d2f3"
+  },
+  "TEC-Google-Search-Results-Mobile.png": {
+    "bytes": 139376,
+    "sha256": "a13f81c5be38f0313c6d25867e261a652489beedea4a4acbd4fcc25e8b474eed"
+  },
+  "TEC-Google-Search-Results.png": {
+    "bytes": 161805,
+    "sha256": "bf420e405d3dd063e6e328b5f6a1a49caa3d6dbb8ed464076ca1cb079b21672c"
+  },
+  "evidence.json": {
+    "bytes": 8045,
+    "sha256": "8aaea2a70c75d59bb0d1cc0408c3b04d861f1347e3e9c662abf6974375c765a8"
+  },
+  "independent-review.md": {
+    "bytes": 1831,
+    "sha256": "898a1212541774b83e4f242b5761244b5b2f6466a3e7264a36b06c319fb30c8c"
+  },
+  "index.html": {
+    "bytes": 1343,
+    "sha256": "82622de8eb95e80b2bd6db3bcb190eb3cd4c01a5d9e4b62377a93cdd79b91f23"
+  },
+  "package-evidence.json": {
+    "bytes": 288,
+    "sha256": "88e01638da1fb5562c50a8a51dfdc235729b14731759bbeaf36847064e3d39cc"
+  }
+}
