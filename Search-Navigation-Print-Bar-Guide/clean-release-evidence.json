@@ -1,0 +1,41 @@
+{
+  "result": "PASS",
+  "bundleSHA256": {
+    "assets/css/app-bundle.css": "9de5b8b09f74feb7084b42387e23c915e57658b85bfb49c4735715ab71f30090",
+    "assets/js/app-bundle.js": "6e17345ce6e94c4e095f03f0303f923747175f81b09f7829e9d9ba9fd51d2a31"
+  },
+  "modes": {
+    "http": {
+      "nativeUploadRecords": 672,
+      "searchTableMatches": 4,
+      "searchColumns": 6,
+      "followupKeys": [
+        "legislation-76",
+        "legislation-180",
+        "secretariat-7",
+        "secretariat-77",
+        "secretariat-83",
+        "secretariat-50",
+        "secretariat-38",
+        "secretariat-39"
+      ],
+      "fontChecks": true,
+      "nativeDetails": true,
+      "projectMobileNoOverflow": true,
+      "currentFilePreserved": true
+    },
+    "file": {
+      "status": "UNRUN",
+      "reason": "Managed browser policy blocks file:// navigation; no application behavior tested in this mode."
+    }
+  },
+  "errors": [],
+  "finalBundlePDF": {
+    "pages": 4,
+    "size": "A4 landscape",
+    "firstTitleOnly": true,
+    "allPageFootersAndCounters": true,
+    "footerSizePt": 10.5,
+    "appScopeAndRowsRetained": true
+  }
+}

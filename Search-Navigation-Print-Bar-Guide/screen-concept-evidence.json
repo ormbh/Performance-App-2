@@ -1,0 +1,410 @@
+{
+  "scope": "Isolated concept, actual bundled apps, nativeCSS pixels and illustrative fixture",
+  "fixtureSHA256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "errors": [],
+  "views": {
+    "before-home-1920": {
+      "logo": [
+        {
+          "text": "",
+          "x": 845,
+          "y": 364.8125,
+          "width": 230,
+          "height": 73.78125,
+          "size": "18px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(79, 78, 78)"
+        }
+      ],
+      "title": [
+        {
+          "text": "البحث في الأداء",
+          "x": 620,
+          "y": 470.59375,
+          "width": 680,
+          "height": 53.1875,
+          "size": "38px",
+          "font": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(51, 51, 51)"
+        }
+      ],
+      "search": [
+        {
+          "text": "",
+          "x": 620,
+          "y": 535.78125,
+          "width": 680,
+          "height": 64,
+          "size": "18px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(79, 78, 78)"
+        }
+      ],
+      "actions": [
+        {
+          "text": "بحث في التقرير\nعرض جميع النتائج",
+          "x": 620,
+          "y": 623.78125,
+          "width": 680,
+          "height": 44,
+          "size": "18px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(79, 78, 78)"
+        }
+      ],
+      "links": [
+        "التقرير الشهري",
+        "محفظة المشاريع"
+      ],
+      "visibleTopLinks": [
+        "التقرير الشهري",
+        "محفظة المشاريع"
+      ],
+      "documentOverflow": false
+    },
+    "before-home-390": {
+      "logo": [
+        {
+          "text": "",
+          "x": 95,
+          "y": 248.4375,
+          "width": 200,
+          "height": 64.15625,
+          "size": "18px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(79, 78, 78)"
+        }
+      ],
+      "title": [
+        {
+          "text": "البحث في الأداء",
+          "x": 16,
+          "y": 336.59375,
+          "width": 358,
+          "height": 53.1875,
+          "size": "38px",
+          "font": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(51, 51, 51)"
+        }
+      ],
+      "search": [
+        {
+          "text": "",
+          "x": 16,
+          "y": 401.78125,
+          "width": 358,
+          "height": 60,
+          "size": "18px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(79, 78, 78)"
+        }
+      ],
+      "actions": [
+        {
+          "text": "بحث في التقرير\nعرض جميع النتائج",
+          "x": 16,
+          "y": 485.78125,
+          "width": 358,
+          "height": 44,
+          "size": "18px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(79, 78, 78)"
+        }
+      ],
+      "links": [
+        "التقرير الشهري",
+        "محفظة المشاريع"
+      ],
+      "visibleTopLinks": [
+        "التقرير الشهري",
+        "محفظة المشاريع"
+      ],
+      "documentOverflow": false
+    },
+    "before-dashboard": {
+      "nav": [
+        "البحث",
+        "اللوحة الشهرية",
+        "محفظة المشاريع"
+      ],
+      "active": [
+        "اللوحة الشهرية"
+      ],
+      "overflow": false
+    },
+    "before-projects": {
+      "nav": [
+        "البحث",
+        "اللوحة الشهرية",
+        "محفظة المشاريع"
+      ],
+      "active": [
+        "محفظة المشاريع"
+      ],
+      "overflow": false
+    },
+    "before-entities": {
+      "nav": [
+        "البحث",
+        "اللوحة الشهرية",
+        "محفظة المشاريع"
+      ],
+      "active": [],
+      "overflow": false
+    },
+    "before-comparison": {
+      "nav": [
+        "البحث",
+        "اللوحة الشهرية",
+        "محفظة المشاريع"
+      ],
+      "active": [],
+      "overflow": false
+    },
+    "before-checks": {
+      "nav": [
+        "البحث",
+        "اللوحة الشهرية",
+        "محفظة المشاريع"
+      ],
+      "active": [],
+      "overflow": false
+    },
+    "before-upload": {
+      "nav": [
+        "البحث",
+        "اللوحة الشهرية",
+        "محفظة المشاريع"
+      ],
+      "active": [],
+      "overflow": false
+    },
+    "before-reports": {
+      "nav": [
+        "البحث",
+        "اللوحة الشهرية",
+        "محفظة المشاريع"
+      ],
+      "active": [],
+      "overflow": false
+    },
+    "before-results": {
+      "primary": [
+        "البحث في الأداء",
+        "التقرير الشهري",
+        "محفظة المشاريع",
+        "تقرير الجهات",
+        "المقارنة الشهرية"
+      ],
+      "matches": 4
+    },
+    "after-home-1920": {
+      "logo": [
+        {
+          "text": "",
+          "x": 845,
+          "y": 364.8125,
+          "width": 230,
+          "height": 73.78125,
+          "size": "18px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(79, 78, 78)"
+        }
+      ],
+      "title": [
+        {
+          "text": "البحث في الأداء",
+          "x": 852.96875,
+          "y": 461.984375,
+          "width": 214.0625,
+          "height": 50.390625,
+          "size": "36px",
+          "font": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(51, 51, 51)"
+        }
+      ],
+      "search": [
+        {
+          "text": "",
+          "x": 620,
+          "y": 535.78125,
+          "width": 680,
+          "height": 64,
+          "size": "18px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(79, 78, 78)"
+        }
+      ],
+      "actions": [
+        {
+          "text": "بحث في التقرير\nعرض جميع النتائج",
+          "x": 620,
+          "y": 623.78125,
+          "width": 680,
+          "height": 44,
+          "size": "18px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(79, 78, 78)"
+        }
+      ],
+      "links": [],
+      "visibleTopLinks": [],
+      "documentOverflow": false
+    },
+    "after-home-390": {
+      "logo": [
+        {
+          "text": "",
+          "x": 95,
+          "y": 248.4375,
+          "width": 200,
+          "height": 64.15625,
+          "size": "18px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(79, 78, 78)"
+        }
+      ],
+      "title": [
+        {
+          "text": "البحث في الأداء",
+          "x": 87.96875,
+          "y": 331.984375,
+          "width": 214.0625,
+          "height": 50.390625,
+          "size": "36px",
+          "font": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(51, 51, 51)"
+        }
+      ],
+      "search": [
+        {
+          "text": "",
+          "x": 16,
+          "y": 401.78125,
+          "width": 358,
+          "height": 60,
+          "size": "18px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(79, 78, 78)"
+        }
+      ],
+      "actions": [
+        {
+          "text": "بحث في التقرير\nعرض جميع النتائج",
+          "x": 16,
+          "y": 485.78125,
+          "width": 358,
+          "height": 44,
+          "size": "18px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(79, 78, 78)"
+        }
+      ],
+      "links": [],
+      "visibleTopLinks": [],
+      "documentOverflow": false
+    },
+    "after-dashboard": {
+      "nav": [
+        "البحث",
+        "اللوحة الشهرية"
+      ],
+      "active": [
+        "اللوحة الشهرية"
+      ],
+      "overflow": false
+    },
+    "after-projects": {
+      "nav": [
+        "البحث",
+        "محفظة المشاريع"
+      ],
+      "active": [
+        "محفظة المشاريع"
+      ],
+      "overflow": false
+    },
+    "after-entities": {
+      "nav": [
+        "البحث",
+        "تقرير الجهات"
+      ],
+      "active": [
+        "تقرير الجهات"
+      ],
+      "overflow": false
+    },
+    "after-comparison": {
+      "nav": [
+        "البحث",
+        "المقارنة الشهرية"
+      ],
+      "active": [
+        "المقارنة الشهرية"
+      ],
+      "overflow": false
+    },
+    "after-checks": {
+      "nav": [
+        "البحث",
+        "ملاحظات البيانات"
+      ],
+      "active": [
+        "ملاحظات البيانات"
+      ],
+      "overflow": false
+    },
+    "after-upload": {
+      "nav": [
+        "البحث",
+        "رفع ملف التقرير"
+      ],
+      "active": [
+        "رفع ملف التقرير"
+      ],
+      "overflow": false
+    },
+    "after-reports": {
+      "nav": [
+        "البحث",
+        "تقرير الأجندة السنوية"
+      ],
+      "active": [
+        "تقرير الأجندة السنوية"
+      ],
+      "overflow": false
+    },
+    "after-results": {
+      "primary": [
+        "البحث في الأداء",
+        "التقرير الشهري",
+        "محفظة المشاريع",
+        "تقرير الجهات",
+        "المقارنة الشهرية"
+      ],
+      "matches": 4
+    }
+  },
+  "checks": [
+    "Search/current primary links across seven routes; full menu destinations, Escape/focus preserved; actual4 source matches.",
+    "1920px search logo/field/actions unchanged within0.05px; title38→36; home menuonly; no overflow.",
+    "390px search logo/field/actions unchanged within0.05px; title38→36; home menuonly; no overflow."
+  ],
+  "result": "PASS"
+}

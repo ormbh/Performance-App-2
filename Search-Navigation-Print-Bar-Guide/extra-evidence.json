@@ -1,0 +1,322 @@
+{
+  "errors": [],
+  "checks": [
+    "dashboard390pxSearch+current/nooverflow",
+    "projects390pxSearch+current/nooverflow",
+    "entities390pxSearch+current/nooverflow",
+    "comparison390pxSearch+current/nooverflow",
+    "checks390pxSearch+current/nooverflow",
+    "upload390pxSearch+current/nooverflow",
+    "reports390pxSearch+current/nooverflow",
+    "Searchhomemenuallroutes/Escape/focus"
+  ],
+  "typeRoles": {
+    "Portfolio heading": [
+      {
+        "text": "محافظ المتابعة التنفيذية",
+        "size": "30px",
+        "font": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "محفظة المشاريع",
+        "size": "30px",
+        "font": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      }
+    ],
+    "Card title": [
+      {
+        "text": "الأجندة السنوية",
+        "size": "28px",
+        "font": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "قرارات المجالس",
+        "size": "28px",
+        "font": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "التشريعات",
+        "size": "28px",
+        "font": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "استراتيجية الأمانة العامة",
+        "size": "28px",
+        "font": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      }
+    ],
+    "Total figure": [
+      {
+        "text": "117",
+        "size": "40px",
+        "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "70",
+        "size": "40px",
+        "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "191",
+        "size": "40px",
+        "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "62",
+        "size": "40px",
+        "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      }
+    ],
+    "Agenda status figure": [
+      {
+        "text": "43",
+        "size": "34px",
+        "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "16",
+        "size": "34px",
+        "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "58",
+        "size": "34px",
+        "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      }
+    ],
+    "Special-project figure": [
+      {
+        "text": "12",
+        "size": "28px",
+        "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "12",
+        "size": "28px",
+        "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "10",
+        "size": "28px",
+        "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "26",
+        "size": "28px",
+        "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      }
+    ],
+    "Subgroup total": [
+      {
+        "text": "24",
+        "size": "28px",
+        "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "36",
+        "size": "28px",
+        "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "weight": "400"
+      }
+    ],
+    "Subgroup name": [
+      {
+        "text": "للقيادة\n24",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "للأمانة العامة\n36",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400"
+      }
+    ],
+    "Metric label": [
+      {
+        "text": "منجز",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "جاهز للعرض",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "قيد العمل",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "منجز",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400"
+      }
+    ],
+    "Change": [
+      {
+        "text": "↑ +3",
+        "size": "15px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "↓ −1",
+        "size": "15px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "↑ +4",
+        "size": "15px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "↑ +3",
+        "size": "15px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400"
+      }
+    ],
+    "Bar caption": [
+      {
+        "text": "نسبة المنجز\n50%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400"
+      },
+      {
+        "text": "نسبة المنجز\n27.8%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400"
+      }
+    ],
+    "Information note": [
+      {
+        "text": "i\nجهة الطلب غير مسجلة: 2 · مشمولة في الإجمالي",
+        "size": "14px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400"
+      }
+    ]
+  },
+  "barColors": [
+    {
+      "class": "apple-fill-complete",
+      "color": "rgb(1, 131, 30)",
+      "width": "36.7521%",
+      "label": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58"
+    },
+    {
+      "class": "apple-fill-ready",
+      "color": "rgb(171, 163, 148)",
+      "width": "13.6752%",
+      "label": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58"
+    },
+    {
+      "class": "apple-fill-active",
+      "color": "rgb(117, 107, 95)",
+      "width": "49.5726%",
+      "label": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58"
+    },
+    {
+      "class": "apple-fill-complete",
+      "color": "rgb(1, 131, 30)",
+      "width": "54.2857%",
+      "label": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1"
+    },
+    {
+      "class": "apple-fill-active",
+      "color": "rgb(117, 107, 95)",
+      "width": "44.2857%",
+      "label": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1"
+    },
+    {
+      "class": "apple-fill-unknown",
+      "color": "rgb(200, 199, 199)",
+      "width": "1.42857%",
+      "label": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1"
+    },
+    {
+      "class": "apple-fill-late",
+      "color": "rgb(192, 0, 0)",
+      "width": "1.04712%",
+      "label": "متأخر: 2، منجز ضمن الموعد: 152، منجز بعد الموعد: 28، قيد الإجراء: 9"
+    },
+    {
+      "class": "apple-fill-complete",
+      "color": "rgb(1, 131, 30)",
+      "width": "79.5812%",
+      "label": "متأخر: 2، منجز ضمن الموعد: 152، منجز بعد الموعد: 28، قيد الإجراء: 9"
+    },
+    {
+      "class": "apple-fill-complete-after",
+      "color": "rgb(1, 131, 30)",
+      "width": "14.6597%",
+      "label": "متأخر: 2، منجز ضمن الموعد: 152، منجز بعد الموعد: 28، قيد الإجراء: 9"
+    },
+    {
+      "class": "apple-fill-active",
+      "color": "rgb(117, 107, 95)",
+      "width": "4.71204%",
+      "label": "متأخر: 2، منجز ضمن الموعد: 152، منجز بعد الموعد: 28، قيد الإجراء: 9"
+    },
+    {
+      "class": "apple-fill-brand",
+      "color": "rgb(17, 94, 103)",
+      "width": "72.2222%",
+      "label": "تغطية القياس 72.2%"
+    },
+    {
+      "class": "apple-fill-complete",
+      "color": "rgb(1, 131, 30)",
+      "width": "50%",
+      "label": "نسبة المنجز 50%"
+    },
+    {
+      "class": "apple-fill-complete",
+      "color": "rgb(1, 131, 30)",
+      "width": "27.7778%",
+      "label": "نسبة المنجز 27.8%"
+    },
+    {
+      "class": "apple-fill-active",
+      "color": "rgb(117, 107, 95)",
+      "width": "80%",
+      "label": "نسبة المخصص من الموازنة المعتمدة 80%"
+    },
+    {
+      "class": "apple-fill-brand",
+      "color": "rgb(17, 94, 103)",
+      "width": "35%",
+      "label": "نسبة الإنفاق من الموازنة المعتمدة 35%"
+    }
+  ],
+  "result": "PASS"
+}

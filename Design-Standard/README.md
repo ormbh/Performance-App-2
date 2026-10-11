@@ -1,8 +1,8 @@
 # TEC Apple-Inspired Design standard
 
-Approved typography, controls, status badges, layout, header, navigation and print rules. **Revision 5 — 11 October 2026.** This consolidates the supplied Revision 2 standard, the subsequently approved shared workspace/header/print concepts, and the latest status-size and title-label decisions. Implemented in Performance App v130. The monthly page establishes the typography standard, verified at 100% browser zoom and carried through the shared report, search and upload interfaces.
+Approved typography, controls, status badges, layout, header, navigation and print rules. **Revision 6 — 11 October 2026.** This consolidates the supplied Revision 2 standard, the subsequently approved shared workspace/header/print concepts, and the latest status-size and title-label decisions. Implemented in Performance App v131. Revision 6 adds the requested search-home spacing and 36px title, contextual primary navigation, and 12pt printed table body/status text; other approved typography and data meanings remain. The monthly page establishes the typography standard, verified at 100% browser zoom and carried through the shared report, search and upload interfaces.
 
-All choices below are approved for this app. Screen typography uses 38px page titles, 30px portfolio headings, 28px card titles, 16px table content/names/notes, **16px status badge text**, 18px Dubai Bold table headings and 14px meaningful supporting explanations in the body. **Remove explanatory labels and subtitles beneath all page, portfolio, section, card and table titles**, including search and upload titles. The required screen report date is retained as date metadata. Print retains its independently approved scale; the screen badge-size change does not alter the 13.5pt print badge text. Earlier previews remain historical illustrations, not evidence of the current badge size or subtitle treatment.
+All choices below are approved for this app. Screen typography uses 38px page titles (36px on the search home), 30px portfolio headings, 28px card titles, 16px table content/names/notes, **16px status badge text**, 18px Dubai Bold table headings and 14px meaningful supporting explanations in the body. **Remove explanatory labels and subtitles beneath all page, portfolio, section, card and table titles**, including search and upload titles. The required screen report date is retained as date metadata. Print retains its independent scale: table body, names, notes and in-table badges use 12pt; table headings and badges outside tables retain 13.5pt. The requested two-CSS-pixel reduction is 18px→16px, equivalent to 13.5pt→12pt. Earlier previews remain historical illustrations, not evidence of the current badge size or subtitle treatment.
 
 Use the supplied **Regular (400)** faces for headings, figures, body text and controls. **Table column headings use the supplied Dubai Bold (700)** face. DIN Next Arabic and DIN Next LT Arabic are distinct supplied font families.
 
@@ -30,6 +30,7 @@ For text-only rows, “Inherited” means the text follows the surrounding surfa
 | Element | Font / screen size | Text | Background | Border |
 | --- | --- | --- | --- | --- |
 | Page title | DIN Next Arabic Regular / 38px | Charcoal #333333 | Inherited | — |
+| Search-home title | DIN Next Arabic Regular / 36px | Charcoal #333333 | Inherited | — |
 | Portfolio heading | DIN Next Arabic Regular / 30px | Charcoal #333333 | Inherited | — |
 | Card / table-section title | DIN Next Arabic Regular / 28px | Charcoal #333333 | Paper #FCFBFB | — |
 | Main figures | DIN Next LT Arabic Regular / 34–40px | Charcoal #333333, with defined status exceptions | Paper #FCFBFB | — |
@@ -153,7 +154,7 @@ Taupe control borders are chosen as a readable boundary on Paper. Stone #ABA394 
 | Screen report title | DIN Next Arabic Regular 38px, Charcoal; title physically left and official logo physically right on desktop |
 | Screen title metadata | Required cutoff date only beneath the title, Dubai Regular 14px Ink; no explanatory subtitle, scope line, preview note or current-data marker |
 | Logo | Official supplied TEC asset; 192px desktop / 144px mobile report logo, preserved proportions and clear space |
-| Primary navigation | Plain 16px Dubai text links: البحث، اللوحة الشهرية، محفظة المشاريع; Teal underline for the current page; no filled navigation boxes or redundant destination icons |
+| Primary navigation | Plain 16px Dubai links: البحث plus the current page only; search home has the menu only, search results have one current Search link; every other destination remains in the menu. Teal current-page underline; no filled boxes or redundant destination icons |
 | Application menu | One existing 20px grid icon in a 44px control, named صفحات التطبيق; retain other existing destinations and eligible actions |
 | Task actions | One primary طباعة التقرير action; optional إعدادات الطباعة secondary action; grouped opposite navigation on desktop |
 | Core filters | Sector → unit → entity in physical RTL order where applicable; separate fields below navigation; 12px labels and 16px values |
@@ -170,7 +171,7 @@ Taupe control borders are chosen as a readable boundary on Paper. Stone #ABA394 
 | Print settings dialog | Paper/Sand, 18px corners; 28px DIN title with no subtitle; 16px fields / 12px field labels; 44px close target; Escape and focus restoration |
 | Definitions disclosure | Keep exact definitions and caveats in the report body; 16px named trigger, 20px directional chevron, 44px target and 14px Ink body text |
 | Screen footer | Exact organisation/copyright legal line only; no source filename, calculation date, report title or extra note; no fixed footer covering content |
-| Search and upload | Preserve the approved centered Google-style search home, search results table and upload interactions; remove explanatory subtitles under their titles |
+| Search and upload | Preserve the Google-style search and upload interactions. Search-home title36px centered in the existing logo-to-field gap; preserve logo, field and action positions on desktop/mobile. Home navigation is menu-only. Remove title subtitles |
 
 Only one nonmodal popup is open at a time. Opening a modal closes other popups.
 Keep menus/popups within the viewport. Responsive dismissal restores focus to a
@@ -196,7 +197,7 @@ navigation, never printer, grid, document or upload icons, or numeric/time axes.
 ## Complete formatting and content rules
 
 1. **Fonts and hierarchy.** Use DIN Next Arabic Regular for headings, DIN Next LT Arabic Regular for main/secondary figures, Dubai Bold for table column headings, and Dubai Regular for table content, labels, notes, metadata, controls and status badges. Use the supplied font files; do not simulate bold or substitute Apple system fonts. English table names also use Dubai Regular.
-2. **Screen sizes.** Use 38px page titles, 30px portfolio headings, 28px card titles, 34–40px main figures, 28px secondary figures, 18px Dubai Bold table headings, 16px Dubai Regular table content/names/notes, 16px status badge text, 12px important labels, 14px meaningful supporting body explanations, 15px changes, 14px metadata and 16px control values. Do not shrink the agreed table text to fit content. Filter labels retain 12px; their values use 16px.
+2. **Screen sizes.** Use 38px page titles (36px on the search home), 30px portfolio headings, 28px card titles, 34–40px main figures, 28px secondary figures, 18px Dubai Bold table headings, 16px Dubai Regular table content/names/notes, 16px status badge text, 12px important labels, 14px meaningful supporting body explanations, 15px changes, 14px metadata and 16px control values. Do not shrink the agreed table text to fit content. Filter labels retain 12px; their values use 16px.
 3. **Text color roles.** Names and notes stay neutral Taupe and regular weight. Table headers use Dubai Bold, Ink on Linen. Taupe labels and supporting explanations use Paper backgrounds. Main figures default to Charcoal; completed figures use Green #01831E and late figures use Red #C00000 where those status meanings apply. The Paper text inside filled badges is a separate treatment from figure color.
 4. **Palette.** Use the exact existing TEC colors and the agreed green/red status exceptions. Paper #FCFBFB is the card/table surface; Linen #EFEBE7 is the page/table-header surface; Sand #E7E0D3 is a quiet grouping/border tone; Mist #D9E1E2 is an accent surface. Stone #ABA394, Silver #C8C7C7 and Grey #808080 serve appropriate chart/decorative roles, not small regular body-text roles. Grey may be used for large or decorative elements. No new colors or undocumented tints.
 5. **Arabic and mixed text.** Use approximately 1.6 line-height for table text, natural Arabic wrapping, comfortable padding and top/middle alignment appropriate to the content. Preserve source names. Keep English identifiers, dates, values, fractions, percentages and currency units in their correct reading order. Align numeric columns consistently.
@@ -254,7 +255,8 @@ Print uses its own approved sizes. The latest screen-size amendments do not auto
 | Main figures | DIN Next LT Arabic Regular | 24–28pt |
 | Secondary figures | DIN Next LT Arabic Regular | 20pt |
 | Table column headings | Dubai Bold | 13.5pt |
-| Table content, names, notes and status badges | Dubai Regular | 13.5pt |
+| Table content, names, notes and in-table status badges | Dubai Regular | 12pt (16 CSS px) |
+| Status badges outside tables | Dubai Regular | 13.5pt (18 CSS px) |
 | Important labels and retained body explanations; no title subtitles | Dubai Regular | 9pt |
 | Change arrows and differences | Dubai Regular | 11pt |
 | Permitted metadata and copyright/page numbering | Dubai Regular | 10.5pt |
@@ -266,10 +268,12 @@ Entity selection continues to determine the exported rows and figures; hiding it
 
 ## Approval and historical previews
 
-The header/navigation/print concept is approved. The latest approved amendments
-are 16px screen status badge text and removal of title subtitles. Performance
-App v130 implements this revision, with actual bundled-app browser, interaction,
-source-regression and native PDF checks recorded in VERIFICATION-v130.md.
+The approved Revision5 choices remain, with the latest requested amendments:
+36px centered search-home title, Search/current-page navigation, and 12pt
+printed table body and in-table status text. Screen table/status text is 16px;
+title subtitles remain removed. Performance
+App v131 implements this revision, with actual bundled-app browser, interaction,
+source-regression and native PDF checks recorded in VERIFICATION-v131.md.
 Original source records, figures and calculation definitions remain.
 
 - [Typography colors and exact TEC palette](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Color-Previews)
@@ -280,4 +284,13 @@ Original source records, figures and calculation definitions remain.
 Historical preview images may show 18px screen badges or explanatory subtitles.
 They do not override the current 16px screen badge and title-label rules.
 
-This specification consolidates the approved app design implemented in v130. It is an app-specific approved standard, not an official TEC brand manual or an accessibility certification. Verification uses illustrative data; it does not establish the accuracy of an unseen operational workbook.
+This specification consolidates the approved app design implemented in v131. It is an app-specific approved standard, not an official TEC brand manual or an accessibility certification. Verification uses illustrative data; it does not establish the accuracy of an unseen operational workbook.
+
+
+## Revision 6 reference: bars and source completeness
+
+Single green completion strips show completed count divided by their eligible subgroup total. Multicolor status strips show disjoint status shares of a card total. Financial strips show source-defined budget ratios; KPI strips show measured/registered coverage. Project count/money bars use the table's shared zero-to-largest-row scale; progress bars use valid source progress percentages.
+
+Diagonal financial hatching marks partial numeric coverage. A note such as «قيم متاحة: 59 من 61» means two projects lack usable values for that metric. Bar length encodes the subtotal; the coverage fraction describes available source values. Missing values are excluded, not treated as zero. These meanings, colors and warnings remain.
+
+The accompanying guide proposes the shorter note «بيانات جزئية · 59/61» with accessible details and a visible print qualification. This wording proposal is not implemented in v131; meaningful availability, missing-status and denominator notes remain in the app.

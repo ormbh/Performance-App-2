@@ -1,0 +1,12 @@
+{
+  "build": "131",
+  "manifestFiles": 147,
+  "zipBytes": 8007057,
+  "zipSHA256": "17f518ec3403f398e4d04a42ba7fabb74429ecfcf51c6396bc57ee924ec9374e",
+  "auditSHA256": "9347b81043c789d4d84c3ef315a6a79f91bf465e287b54dd720712d476b12389",
+  "cleanExtraction": "/workspace/saytara-work/final-check-v131/Performance-App-v131",
+  "completeFileSetVerified": true,
+  "allManifestHashesVerified": true,
+  "bundlesMatch": true,
+  "SourceWorkbooksAndQAExcluded": true
+}
