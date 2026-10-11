@@ -1,0 +1,9 @@
+{
+  "galleryUploadAfterVisible": true,
+  "galleryBeforeHidden": true,
+  "galleryActualSize": 1920,
+  "galleryMobileWidth": {
+    "viewport": 390,
+    "document": 390
+  }
+}

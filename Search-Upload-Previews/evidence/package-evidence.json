@@ -1,0 +1,74 @@
+{
+  "sharedAssets": "Identical binary assets deduplicated in ZIP only",
+  "checks": [
+    {
+      "snapshot": "TEC-Search-Before.html",
+      "identicalDesktopPixels": true,
+      "noNewFontErrors": true,
+      "inheritedUnusedFontErrors": [
+        {
+          "family": "TEC Ample Headline",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "snapshot": "TEC-Search-After.html",
+      "identicalDesktopPixels": true,
+      "noNewFontErrors": true,
+      "inheritedUnusedFontErrors": [],
+      "mobileWidths": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "snapshot": "TEC-Search-Before-Results.html",
+      "identicalDesktopPixels": true,
+      "noNewFontErrors": true,
+      "inheritedUnusedFontErrors": []
+    },
+    {
+      "snapshot": "TEC-Search-After-Results.html",
+      "identicalDesktopPixels": true,
+      "noNewFontErrors": true,
+      "inheritedUnusedFontErrors": [],
+      "mobileWidths": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "snapshot": "TEC-Search-Before-No-Match.html",
+      "identicalDesktopPixels": true,
+      "noNewFontErrors": true,
+      "inheritedUnusedFontErrors": []
+    },
+    {
+      "snapshot": "TEC-Search-After-No-Match.html",
+      "identicalDesktopPixels": true,
+      "noNewFontErrors": true,
+      "inheritedUnusedFontErrors": [],
+      "mobileWidths": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "snapshot": "TEC-Upload-Before.html",
+      "identicalDesktopPixels": true,
+      "noNewFontErrors": true,
+      "inheritedUnusedFontErrors": []
+    },
+    {
+      "snapshot": "TEC-Upload-After.html",
+      "identicalDesktopPixels": true,
+      "noNewFontErrors": true,
+      "inheritedUnusedFontErrors": [],
+      "mobileWidths": {
+        "viewport": 390,
+        "document": 390
+      }
+    }
+  ]
+}

@@ -1,0 +1,489 @@
+{
+  "scope": "Isolated upload visual preview only; actual initial v128 state; no data loaded; v128 bundle unchanged",
+  "viewport": "1920px, 100% CSS scale, deviceScaleFactor 1",
+  "bundleHashesBefore": {
+    "assets/css/app-bundle.css": "b2df8a154fc5aa5bea0538f3949fc1839afae7722c020e12c9aafb8092bfdb39",
+    "assets/js/app-bundle.js": "edba5ec97244455263ff31fd59c50c969b62d7a06571567e66395f5b1844c4ad"
+  },
+  "errors": [],
+  "textBefore": "انتقل إلى المحتوى\nرفع ملف التقرير\n\nالتقرير الشهري للأداء والتنفيذ\n\nاسحب ملف Excel هنا\nاختيار ملف التقرير\nأو اختر ملف ‎.xlsx‎ من جهازك\n\nيُقرأ الملف على هذا الجهاز فقط، ولا يُرسل إلى أي جهة.\n\nالمقارنة الشهرية\n\nالأمانة العامة للمجلس التنفيذي لإمارة دبي حقوق النشر © 2026 · جميع الحقوق محفوظة",
+  "stateBefore": {
+    "screen": "upload",
+    "data": null,
+    "upload": {
+      "status": "idle",
+      "error": null,
+      "fileName": ""
+    }
+  },
+  "before": {
+    "width": 1920,
+    "height": 1100,
+    "overflow": false,
+    "title": {
+      "text": "رفع ملف التقرير",
+      "font": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+      "size": "30px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(51, 51, 51)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 43.5
+    },
+    "support": {
+      "text": "التقرير الشهري للأداء والتنفيذ",
+      "font": "\"TEC Dubai\", sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(79, 78, 78)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(79, 78, 78)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 27.1875
+    },
+    "zoneTitle": {
+      "text": "اسحب ملف Excel هنا",
+      "font": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+      "size": "22px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(51, 51, 51)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 33
+    },
+    "primary": {
+      "text": "اختيار ملف التقرير",
+      "font": "\"TEC Dubai\", sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "color": "rgb(252, 251, 251)",
+      "background": "rgb(17, 94, 103)",
+      "border": "1px solid rgb(17, 94, 103)",
+      "padding": "10px 18px",
+      "radius": "10px",
+      "height": 49
+    },
+    "secondary": {
+      "text": "المقارنة الشهرية",
+      "font": "\"TEC Dubai\", sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(79, 78, 78)",
+      "background": "rgb(252, 251, 251)",
+      "border": "1px solid rgb(171, 163, 148)",
+      "padding": "10px 14px",
+      "radius": "8px",
+      "height": 46
+    },
+    "hint": {
+      "text": "أو اختر ملف ‎.xlsx‎ من جهازك",
+      "font": "\"TEC Dubai\", sans-serif",
+      "size": "15px",
+      "weight": "400",
+      "color": "rgb(117, 107, 95)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(117, 107, 95)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 23.25
+    },
+    "privacy": {
+      "text": "يُقرأ الملف على هذا الجهاز فقط، ولا يُرسل إلى أي جهة.",
+      "font": "\"TEC Dubai\", sans-serif",
+      "size": "14px",
+      "weight": "400",
+      "color": "rgb(79, 78, 78)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(79, 78, 78)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 23.796875
+    },
+    "footer": {
+      "text": "الأمانة العامة للمجلس التنفيذي لإمارة دبي حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "font": "\"TEC Dubai\", sans-serif",
+      "size": "14px",
+      "weight": "400",
+      "color": "rgb(79, 78, 78)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(79, 78, 78)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 22.390625
+    },
+    "panel": {
+      "x": 600,
+      "y": 114.609375,
+      "width": 720,
+      "height": 510.734375,
+      "top": 114.609375,
+      "right": 1320,
+      "bottom": 625.34375,
+      "left": 600
+    },
+    "header": {
+      "x": 120,
+      "y": 0,
+      "width": 1680,
+      "height": 81.609375,
+      "top": 0,
+      "right": 1800,
+      "bottom": 81.609375,
+      "left": 120
+    },
+    "logo": {
+      "rect": {
+        "x": 1600,
+        "y": 16,
+        "width": 164,
+        "height": 52.609375,
+        "top": 16,
+        "right": 1764,
+        "bottom": 68.609375,
+        "left": 1600
+      },
+      "naturalWidth": 2048,
+      "naturalHeight": 657
+    },
+    "fonts": [
+      {
+        "family": "TEC Dubai",
+        "weight": "400 500",
+        "status": "loaded"
+      },
+      {
+        "family": "TEC DIN",
+        "weight": "400",
+        "status": "loaded"
+      }
+    ]
+  },
+  "after": {
+    "width": 1920,
+    "height": 1100,
+    "overflow": false,
+    "title": {
+      "text": "رفع ملف التقرير",
+      "font": "\"TEC DIN\"",
+      "size": "38px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(51, 51, 51)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 53.1875
+    },
+    "support": {
+      "text": "التقرير الشهري للأداء والتنفيذ",
+      "font": "\"TEC Dubai\"",
+      "size": "14px",
+      "weight": "400",
+      "color": "rgb(117, 107, 95)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(117, 107, 95)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 22.390625
+    },
+    "zoneTitle": {
+      "text": "اسحب ملف Excel هنا",
+      "font": "\"TEC DIN\"",
+      "size": "28px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(51, 51, 51)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 42
+    },
+    "primary": {
+      "text": "اختيار ملف التقرير",
+      "font": "\"TEC Dubai\"",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(252, 251, 251)",
+      "background": "rgb(17, 94, 103)",
+      "border": "1px solid rgb(17, 94, 103)",
+      "padding": "8px 16px",
+      "radius": "8px",
+      "height": 44
+    },
+    "secondary": {
+      "text": "المقارنة الشهرية",
+      "font": "\"TEC Dubai\"",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(17, 94, 103)",
+      "background": "rgb(252, 251, 251)",
+      "border": "1px solid rgb(17, 94, 103)",
+      "padding": "8px 16px",
+      "radius": "8px",
+      "height": 44
+    },
+    "hint": {
+      "text": "أو اختر ملف ‎.xlsx‎ من جهازك",
+      "font": "\"TEC Dubai\"",
+      "size": "14px",
+      "weight": "400",
+      "color": "rgb(117, 107, 95)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(117, 107, 95)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 22.390625
+    },
+    "privacy": {
+      "text": "يُقرأ الملف على هذا الجهاز فقط، ولا يُرسل إلى أي جهة.",
+      "font": "\"TEC Dubai\"",
+      "size": "14px",
+      "weight": "400",
+      "color": "rgb(117, 107, 95)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(117, 107, 95)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 22.390625
+    },
+    "footer": {
+      "text": "الأمانة العامة للمجلس التنفيذي لإمارة دبي حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "font": "\"TEC Dubai\"",
+      "size": "14px",
+      "weight": "400",
+      "color": "rgb(79, 78, 78)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(79, 78, 78)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 22.390625
+    },
+    "panel": {
+      "x": 440,
+      "y": 149.609375,
+      "width": 1040,
+      "height": 555.359375,
+      "top": 149.609375,
+      "right": 1480,
+      "bottom": 704.96875,
+      "left": 440
+    },
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 100.609375,
+      "top": 0,
+      "right": 1920,
+      "bottom": 100.609375,
+      "left": 0
+    },
+    "logo": {
+      "rect": {
+        "x": 1708,
+        "y": 24,
+        "width": 164,
+        "height": 52.609375,
+        "top": 24,
+        "right": 1872,
+        "bottom": 76.609375,
+        "left": 1708
+      },
+      "naturalWidth": 2048,
+      "naturalHeight": 657
+    },
+    "fonts": [
+      {
+        "family": "TEC Dubai",
+        "weight": "400 500",
+        "status": "loaded"
+      },
+      {
+        "family": "TEC DIN",
+        "weight": "400",
+        "status": "loaded"
+      }
+    ]
+  },
+  "filePickerPointer": true,
+  "filePickerKeyboardEnter": true,
+  "filePickerKeyboardSpace": true,
+  "zoneFocus": {
+    "outline": "rgb(17, 94, 103) solid 2px",
+    "offset": "2px"
+  },
+  "acceptedExtensions": ".xlsx,.xlsm,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "mobile": {
+    "width": 390,
+    "height": 1000,
+    "overflow": false,
+    "title": {
+      "text": "رفع ملف التقرير",
+      "font": "\"TEC DIN\"",
+      "size": "38px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(51, 51, 51)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 53.1875
+    },
+    "support": {
+      "text": "التقرير الشهري للأداء والتنفيذ",
+      "font": "\"TEC Dubai\"",
+      "size": "14px",
+      "weight": "400",
+      "color": "rgb(117, 107, 95)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(117, 107, 95)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 22.390625
+    },
+    "zoneTitle": {
+      "text": "اسحب ملف Excel هنا",
+      "font": "\"TEC DIN\"",
+      "size": "28px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(51, 51, 51)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 42
+    },
+    "primary": {
+      "text": "اختيار ملف التقرير",
+      "font": "\"TEC Dubai\"",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(252, 251, 251)",
+      "background": "rgb(17, 94, 103)",
+      "border": "1px solid rgb(17, 94, 103)",
+      "padding": "8px 16px",
+      "radius": "8px",
+      "height": 44
+    },
+    "secondary": {
+      "text": "المقارنة الشهرية",
+      "font": "\"TEC Dubai\"",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(17, 94, 103)",
+      "background": "rgb(252, 251, 251)",
+      "border": "1px solid rgb(17, 94, 103)",
+      "padding": "8px 16px",
+      "radius": "8px",
+      "height": 44
+    },
+    "hint": {
+      "text": "أو اختر ملف ‎.xlsx‎ من جهازك",
+      "font": "\"TEC Dubai\"",
+      "size": "14px",
+      "weight": "400",
+      "color": "rgb(117, 107, 95)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(117, 107, 95)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 22.390625
+    },
+    "privacy": {
+      "text": "يُقرأ الملف على هذا الجهاز فقط، ولا يُرسل إلى أي جهة.",
+      "font": "\"TEC Dubai\"",
+      "size": "14px",
+      "weight": "400",
+      "color": "rgb(117, 107, 95)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(117, 107, 95)",
+      "padding": "0px 10px",
+      "radius": "0px",
+      "height": 22.390625
+    },
+    "footer": {
+      "text": "الأمانة العامة للمجلس التنفيذي لإمارة دبي حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "font": "\"TEC Dubai\"",
+      "size": "14px",
+      "weight": "400",
+      "color": "rgb(79, 78, 78)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(79, 78, 78)",
+      "padding": "0px",
+      "radius": "0px",
+      "height": 44.78125
+    },
+    "panel": {
+      "x": 16,
+      "y": 97.40625,
+      "width": 358,
+      "height": 523.359375,
+      "top": 97.40625,
+      "right": 374,
+      "bottom": 620.765625,
+      "left": 16
+    },
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 72.40625,
+      "top": 0,
+      "right": 390,
+      "bottom": 72.40625,
+      "left": 0
+    },
+    "logo": {
+      "rect": {
+        "x": 248,
+        "y": 16,
+        "width": 126,
+        "height": 40.40625,
+        "top": 16,
+        "right": 374,
+        "bottom": 56.40625,
+        "left": 248
+      },
+      "naturalWidth": 2048,
+      "naturalHeight": 657
+    },
+    "fonts": [
+      {
+        "family": "TEC Dubai",
+        "weight": "400 500",
+        "status": "loaded"
+      },
+      {
+        "family": "TEC DIN",
+        "weight": "400",
+        "status": "loaded"
+      }
+    ]
+  },
+  "loading": {
+    "busy": "true",
+    "disabled": "true",
+    "tab": "-1",
+    "buttonDisabled": true,
+    "opacity": "1"
+  },
+  "error": {
+    "text": "تعذّر تحميل الملف\n\nهذا الملف ليس ملف Excel بصيغة ‎.xlsx‎. اختر ملف التقرير نفسه.",
+    "role": "alert",
+    "color": "rgb(101, 29, 50)",
+    "bg": "rgb(252, 251, 251)",
+    "border": "rgb(101, 29, 50)",
+    "data": null
+  },
+  "bundleHashesAfter": {
+    "assets/css/app-bundle.css": "b2df8a154fc5aa5bea0538f3949fc1839afae7722c020e12c9aafb8092bfdb39",
+    "assets/js/app-bundle.js": "edba5ec97244455263ff31fd59c50c969b62d7a06571567e66395f5b1844c4ad"
+  },
+  "result": "PASS automated and visual review of desktop/mobile initial upload; menus not present in the initial no-file state",
+  "limits": "Static visual snapshots; native chooser/invalid-file path tested in headless Chromium; loading guard uses an explicit preview state. Full parser reconciliation and screen-reader certification are outside this comparison."
+}
