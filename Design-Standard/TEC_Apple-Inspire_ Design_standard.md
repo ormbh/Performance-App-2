@@ -2,7 +2,7 @@
 
 Approved typography, controls, status badges, layout, header, navigation, bars and print rules. **Revision 7 — 11 October 2026.** This consolidates the supplied standard and all subsequent approved amendments, including **18px Dubai Regular subgroup names**, the updated Ink/Taupe text roles and solid financial bars.
 
-**Approval stage: updated standard only.** Performance App v131 remains unchanged. It implements the Revision 6 baseline; the new Revision 7 typography, color and financial-bar amendments are recorded here for the next requested app update. This document update does not change source records, calculations or the released app.
+**Implementation stage: Performance App v132.** This release applies the approved Revision 7 typography, color and solid financial-bar amendments. It also corrects the search title spacing between the unchanged logo and search field and exposes the three report destinations in every loaded page menu. Source records and calculations retain their existing definitions; v131 remains available as the previous release.
 
 The monthly page establishes the shared standard at **100% browser zoom**. Screen typography uses 38px page titles (36px on the search home), 30px portfolio headings, 28px card titles, 16px table content and badges, and 18px Dubai Bold table headings. Retain the compact card grouping: 18px subgroup names, 14px status labels above their figures, and change arrows below their own values. The card-header total label retains its position beneath the main total. **Remove explanatory labels and subtitles beneath all page, portfolio, section, card and table titles**, including search and upload titles. Retain the required screen report date as secondary metadata.
 
@@ -189,7 +189,7 @@ Taupe control borders are chosen as a readable boundary on Paper. Stone #ABA394 
 | Screen title metadata | Required cutoff date only beneath the title, Dubai Regular 14px Taupe #756B5F; no explanatory subtitle, scope line, preview note or current-data marker |
 | Logo | Official supplied TEC asset; 192px desktop / 144px mobile report logo, preserved proportions and clear space |
 | Primary navigation | Plain 16px Dubai links: البحث plus the current page only; search home has the menu only, search results have one current Search link; every other destination remains in the menu. Teal current-page underline; no filled boxes or redundant destination icons |
-| Application menu | One existing 20px grid icon in a 44px control, named صفحات التطبيق; retain other existing destinations and eligible actions |
+| Application menu | One existing 20px grid icon in a 44px control, named صفحات التطبيق; include three direct report links (agenda, council and HH) on every loaded page, including search; retain other existing destinations and eligible actions |
 | Task actions | One primary طباعة التقرير action; optional إعدادات الطباعة secondary action; grouped opposite navigation on desktop |
 | Core filters | Sector → unit → entity in physical RTL order where applicable; separate fields below navigation; 12px labels and 16px values |
 | Scope summary | 14px Ink below the filter fields; retain the active scope and update it when selections change |
@@ -205,7 +205,7 @@ Taupe control borders are chosen as a readable boundary on Paper. Stone #ABA394 
 | Print settings dialog | Paper/Sand, 18px corners; 28px DIN title with no subtitle; 16px fields / 12px field labels; 44px close target; Escape and focus restoration |
 | Definitions disclosure | Keep exact definitions and caveats in the report body; 16px named trigger, 20px directional chevron, 44px target and 14px Ink body text |
 | Screen footer | Exact organisation/copyright legal line only; no source filename, calculation date, report title or extra note; no fixed footer covering content |
-| Search and upload | Preserve the Google-style search and upload interactions. Search-home title 36px centered in the existing logo-to-field gap; preserve logo, field and action positions on desktop/mobile. Home navigation is menu-only. Remove title subtitles |
+| Search and upload | Preserve the Google-style search and upload interactions. Search-home title 36px optically centered between the visible logo and search field; preserve logo, field and action positions on desktop/mobile. Align the visible spacing, accounting for transparent logo margins and the supplied font metrics. Home navigation is menu-only. Remove title subtitles |
 
 Only one nonmodal popup is open at a time. Opening a modal closes other popups.
 Keep menus/popups within the viewport. Responsive dismissal restores focus to a
@@ -327,7 +327,7 @@ Project count/money bars retain the table's shared zero-to-largest-row scale. Pr
 
 ## Approval and historical previews
 
-Revision 7 is the current approved **document standard**. It preserves the approved Search, Navigation and Print setup and adds the latest monthly-card typography, supporting-text colors and solid financial bars. **The app has not been updated to Revision 7.** The released Performance App v131 still implements Revision 6; its existing bundled-app checks are recorded in VERIFICATION-v131.md. They do not verify implementation of these newly documented amendments.
+Revision 7 is the current approved standard, implemented in **Performance App v132**. It preserves the approved Search, Navigation and Print setup and adds the latest monthly-card typography, supporting-text colors and solid financial bars. Search spacing and all three report links are corrected in the final app. See **VERIFICATION-v132.md** for actual bundled screen, mobile, interaction, source-regression and native PDF checks using an illustrative workbook. Earlier verification files describe their respective historical releases.
 
 - [Typography colors and exact TEC palette — historical](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Color-Previews)
 - [Actual bundled font samples](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Font-Previews)
@@ -337,4 +337,4 @@ Revision 7 is the current approved **document standard**. It preserves the appro
 
 Earlier images may show 18px screen badges, title subtitles, oversized side-by-side labels, 28px subgroup names or hatched financial bars. They do not override this document. The subgroup names in the last compact preview are superseded by the latest **18px** approval. The rejected oversized-label concept is not the approved card arrangement.
 
-This is an app-specific approved standard, not an official TEC brand manual or accessibility certification. Source records, values, calculation definitions and filter behavior remain unchanged. Implementation and actual screen/PDF verification follow when the user requests the app update.
+This is an app-specific approved standard, not an official TEC brand manual or accessibility certification. Source records, values, calculation definitions and filter behavior remain unchanged. Implementation and actual screen/PDF verification are recorded with the v132 release; native Windows file opening and physical printing remain untested.
