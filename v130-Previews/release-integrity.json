@@ -1,0 +1,12 @@
+{
+  "build": "130",
+  "manifestFiles": 146,
+  "zipBytes": 8003231,
+  "zipSHA256": "05f5ddec60f31e14aaeffaf3dd9f6ef74e90e915865c860207690143d2d4a912",
+  "auditSHA256": "6f6f6004a3a926190ee4f56eded1b8b4d512eab06b1498a876fe6d010c7f3695",
+  "cleanExtraction": "/workspace/saytara-work/final-check-v130/Performance-App-v130",
+  "completeFileSetVerified": true,
+  "allManifestHashesVerified": true,
+  "bundlesMatch": true,
+  "QAandSourceExcluded": true
+}

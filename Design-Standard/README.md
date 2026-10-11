@@ -1,6 +1,6 @@
 # TEC Apple-Inspired Design standard
 
-Approved typography, controls, status badges, layout, header, navigation and print rules. **Revision 5 — 11 October 2026.** This consolidates the supplied Revision 2 standard, the subsequently approved shared workspace/header/print concepts, and the latest status-size and title-label decisions. This update changes the design document only; application implementation follows separately. The monthly page remains the first implementation and review target at 100% browser zoom.
+Approved typography, controls, status badges, layout, header, navigation and print rules. **Revision 5 — 11 October 2026.** This consolidates the supplied Revision 2 standard, the subsequently approved shared workspace/header/print concepts, and the latest status-size and title-label decisions. Implemented in Performance App v130. The monthly page establishes the typography standard, verified at 100% browser zoom and carried through the shared report, search and upload interfaces.
 
 All choices below are approved for this app. Screen typography uses 38px page titles, 30px portfolio headings, 28px card titles, 16px table content/names/notes, **16px status badge text**, 18px Dubai Bold table headings and 14px meaningful supporting explanations in the body. **Remove explanatory labels and subtitles beneath all page, portfolio, section, card and table titles**, including search and upload titles. The required screen report date is retained as date metadata. Print retains its independently approved scale; the screen badge-size change does not alter the 13.5pt print badge text. Earlier previews remain historical illustrations, not evidence of the current badge size or subtitle treatment.
 
@@ -267,9 +267,10 @@ Entity selection continues to determine the exported rows and figures; hiding it
 ## Approval and historical previews
 
 The header/navigation/print concept is approved. The latest approved amendments
-are 16px screen status badge text and removal of title subtitles. This document
-is updated first; applying it to the app is the next stage. The app is unchanged
-by this document update. Original source records, figures and calculations remain.
+are 16px screen status badge text and removal of title subtitles. Performance
+App v130 implements this revision, with actual bundled-app browser, interaction,
+source-regression and native PDF checks recorded in VERIFICATION-v130.md.
+Original source records, figures and calculation definitions remain.
 
 - [Typography colors and exact TEC palette](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Color-Previews)
 - [Actual bundled font samples](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Font-Previews)
@@ -279,4 +280,4 @@ by this document update. Original source records, figures and calculations remai
 Historical preview images may show 18px screen badges or explanatory subtitles.
 They do not override the current 16px screen badge and title-label rules.
 
-This specification consolidates the approved app design. It does not claim that the app already implements this revision, that it is an official TEC brand manual, or that it certifies accessibility.
+This specification consolidates the approved app design implemented in v130. It is an app-specific approved standard, not an official TEC brand manual or an accessibility certification. Verification uses illustrative data; it does not establish the accuracy of an unseen operational workbook.
