@@ -1,0 +1,7 @@
+{
+  "standalonePrototype": "PASS: exact generated HTML, 4 rows / 6 columns at 1280px, no overall overflow",
+  "gallery": "PASS: both illustrations load",
+  "scriptErrors": [],
+  "browser": "Chromium; loopback HTTP",
+  "fileUrl": "Not tested: managed-browser file:// navigation is blocked"
+}

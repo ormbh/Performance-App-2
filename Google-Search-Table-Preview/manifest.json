@@ -1,0 +1,70 @@
+{
+  "README.md": {
+    "bytes": 4144,
+    "sha256": "506cc9264d6290ff3cf0877eb64792bd6daf4ebfa1810a0fc1bcecb9d9252403"
+  },
+  "TEC-Google-Search-Table-Home-Detail.png": {
+    "bytes": 31373,
+    "sha256": "81dab121eaa8b2a1202efe126259f52a30889950a4f2f5f46adea0e630c9c8dd"
+  },
+  "TEC-Google-Search-Table-Home-Focus.png": {
+    "bytes": 32063,
+    "sha256": "88115c585d7223dfd4b7a448aab492cdb2429ed0eff8c191e3acb5bdc3babc37"
+  },
+  "TEC-Google-Search-Table-Home-Mobile.png": {
+    "bytes": 44577,
+    "sha256": "cb5499035977717d71bb926a9351166dea1b2acf0032a95edba2cdfcc278150e"
+  },
+  "TEC-Google-Search-Table-Home.png": {
+    "bytes": 55589,
+    "sha256": "10fde63d6c523cbe67d0998ca6c7d328df6b774052d0fb7683f9165eb3f7b078"
+  },
+  "TEC-Google-Search-Table-No-Match.png": {
+    "bytes": 56214,
+    "sha256": "2241451a7d5b534fa680019af8162f9c4bbca4f8fb879d50e002d661b3e5f55c"
+  },
+  "TEC-Google-Search-Table-Only.png": {
+    "bytes": 128841,
+    "sha256": "e6c00d5885b258f9e6ff2b248e5ada96e36b3fe694b0069b0b98f0af41a10436"
+  },
+  "TEC-Google-Search-Table-Overview.png": {
+    "bytes": 192000,
+    "sha256": "0204468561ad7699d7aa970c4aab537c60f4951e674f7e2f5f9d5f0019808c12"
+  },
+  "TEC-Google-Search-Table-Preview.html": {
+    "bytes": 6223531,
+    "sha256": "af2f614a32b54020f478643569ec3c61f3156360ed20a61f78cc0aecaae036df"
+  },
+  "TEC-Google-Search-Table-Results-Detail.png": {
+    "bytes": 157961,
+    "sha256": "ec562e38c785a6f5c4ce71dc7d791bbcadbc07149f6f06b42e84462ec89cd795"
+  },
+  "TEC-Google-Search-Table-Results-Focus.png": {
+    "bytes": 109446,
+    "sha256": "f85d29324e47126bdf18706ee52ac0ea7dcc9c349e0d8c37b523fd44037090cb"
+  },
+  "TEC-Google-Search-Table-Results-Mobile.png": {
+    "bytes": 87362,
+    "sha256": "aeee54fa9ea8accc3eca03068fa96a0050463f1f3747750ee77867f73843c834"
+  },
+  "TEC-Google-Search-Table-Results.png": {
+    "bytes": 193949,
+    "sha256": "209a9881aca8f0cf5536a5e742b3da26430f19b98e6116bfc8693e033bfcc66d"
+  },
+  "evidence.json": {
+    "bytes": 9018,
+    "sha256": "eb760e39b978f637b1aaec3c573c0b5e9c398009ae4cfbc43c8934a36ec373c4"
+  },
+  "independent-review.md": {
+    "bytes": 2152,
+    "sha256": "c5839fd54f91850421d644aee36215b049b1c00dcb1522dffc648f48269f54e7"
+  },
+  "index.html": {
+    "bytes": 1277,
+    "sha256": "353e8ffcf7bbbc7e69138bda680da2c2c28ddeaea94b7cabf486ad375ba6a819"
+  },
+  "package-evidence.json": {
+    "bytes": 291,
+    "sha256": "df809c36fb5d014a2c062da2926831d3175a6b132471b5471e9339a40c1be2ea"
+  }
+}
