@@ -1,0 +1,93 @@
+{
+  "monthlyOnlyThreeCore": true,
+  "settingsBackgroundInert": true,
+  "settingsSaved": true,
+  "bulkAllIgnoresSearchSubset": true,
+  "scopeContextsLive": true,
+  "chipRecipe": {
+    "size": "16px",
+    "text": "rgb(79, 78, 78)",
+    "border": "rgb(117, 107, 95)",
+    "icon": 20
+  },
+  "filterResetPreservesSettings": true,
+  "menuTabOutsideCloses": true,
+  "nativePrintDirectSpecimen": true,
+  "popupViewportChecks": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "popup": {
+        "x": 253.9375,
+        "y": 412,
+        "width": 360,
+        "height": 436.171875
+      },
+      "inside": true,
+      "pageOverflow": false
+    },
+    {
+      "viewport": [
+        1024,
+        900
+      ],
+      "popup": {
+        "x": 115.265625,
+        "y": 412,
+        "width": 360,
+        "height": 436.171875
+      },
+      "inside": true,
+      "pageOverflow": false
+    },
+    {
+      "viewport": [
+        768,
+        900
+      ],
+      "popup": {
+        "x": 16,
+        "y": 412,
+        "width": 360,
+        "height": 436.171875
+      },
+      "inside": true,
+      "pageOverflow": false
+    },
+    {
+      "viewport": [
+        1024,
+        500
+      ],
+      "popup": {
+        "x": 115.265625,
+        "y": 47.828125,
+        "width": 360,
+        "height": 436.171875
+      },
+      "inside": true,
+      "pageOverflow": false
+    },
+    {
+      "viewport": [
+        600,
+        650
+      ],
+      "popup": {
+        "x": 16,
+        "y": 197.828125,
+        "width": 360,
+        "height": 436.171875
+      },
+      "inside": true,
+      "pageOverflow": false
+    }
+  ],
+  "tabletAdvancedColumns": 2,
+  "advancedGap": "16px",
+  "mobileBackgroundInert": true,
+  "mobileDoneDismissesPreservesReturns": true,
+  "errors": []
+}

@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "portable_local_assets": true,
+  "external_requests": [],
+  "failed_requests": [],
+  "default_does_not_print": true,
+  "autoprint_calls": [
+    {
+      "ready": "loaded",
+      "images": true,
+      "labels": true
+    }
+  ],
+  "exact_native_pdf_render_unchanged": true,
+  "effective_styles_and_frozen_rows_unchanged": true,
+  "paper_pages": 3,
+  "scope": "Portable proposal/component review HTML; not live app exporter"
+}

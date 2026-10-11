@@ -1,0 +1,156 @@
+{
+  "component_specimen_not_complete_export": true,
+  "scope": "Frozen illustrative fixture; not supplied production PDF",
+  "screen_print_styles": {
+    "pages": [
+      {
+        "box": [
+          1046.921875,
+          716.21875
+        ],
+        "headerBottom": 96.984375,
+        "footerTop": 658.125,
+        "mainBottom": 643.015625,
+        "footerClashes": []
+      },
+      {
+        "box": [
+          1046.921875,
+          716.21875
+        ],
+        "headerBottom": 67.765625,
+        "footerTop": 658.125,
+        "mainBottom": 643.015625,
+        "footerClashes": []
+      },
+      {
+        "box": [
+          1046.921875,
+          716.21875
+        ],
+        "headerBottom": 67.765625,
+        "footerTop": 658.125,
+        "mainBottom": 643.015625,
+        "footerClashes": []
+      }
+    ],
+    "title": {
+      "size": "32px",
+      "font": "TEC-DIN, sans-serif",
+      "weight": "400",
+      "line": "40px"
+    },
+    "continuationTitle": {
+      "size": "21.3333px",
+      "font": "TEC-DIN, sans-serif",
+      "weight": "400",
+      "line": "28.8px"
+    },
+    "metadata": {
+      "size": "14px",
+      "font": "TEC-Dubai, sans-serif",
+      "weight": "400",
+      "line": "21px"
+    },
+    "footer": {
+      "size": "14px",
+      "font": "TEC-Dubai, sans-serif",
+      "weight": "400",
+      "line": "21px"
+    },
+    "thead": {
+      "size": "18px",
+      "font": "TEC-Dubai, sans-serif",
+      "weight": "700",
+      "line": "28.8px"
+    },
+    "body": {
+      "size": "18px",
+      "font": "TEC-Dubai, sans-serif",
+      "weight": "400",
+      "line": "28.8px"
+    },
+    "badge": {
+      "size": "18px",
+      "font": "TEC-Dubai, sans-serif",
+      "weight": "400",
+      "line": "28.8px"
+    },
+    "secondary": {
+      "size": "26.6667px",
+      "font": "TEC-DIN-LT, sans-serif",
+      "weight": "400",
+      "line": "33.3333px"
+    },
+    "rowKeys": [
+      "legislation-76",
+      "legislation-180",
+      "secretariat-7",
+      "secretariat-77",
+      "secretariat-83",
+      "secretariat-50",
+      "secretariat-38",
+      "secretariat-39"
+    ],
+    "fontLoaded": {
+      "heading": true,
+      "figure": true,
+      "body": true,
+      "bold": true
+    }
+  },
+  "actual_pdf": [
+    {
+      "page": 1,
+      "dimensions_pt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "fontsizes": [
+        9.0,
+        10.5,
+        10.99,
+        16.0,
+        18.0,
+        19.99,
+        24.0,
+        28.0
+      ],
+      "outside_10mm_content_area": 0,
+      "pageContextPresent": true,
+      "textchars": 765
+    },
+    {
+      "page": 2,
+      "dimensions_pt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "fontsizes": [
+        10.5,
+        13.5,
+        16.0
+      ],
+      "outside_10mm_content_area": 0,
+      "pageContextPresent": true,
+      "textchars": 834
+    },
+    {
+      "page": 3,
+      "dimensions_pt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "fontsizes": [
+        9.0,
+        10.5,
+        13.5,
+        16.0
+      ],
+      "outside_10mm_content_area": 0,
+      "pageContextPresent": true,
+      "textchars": 1119
+    }
+  ],
+  "result": "PASS structural/font checks; review rendered pages separately"
+}
