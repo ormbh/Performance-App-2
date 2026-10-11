@@ -11,8 +11,8 @@ Updated preview of the selected status badge colors, distinct from the main tabl
 | Status | Text | Background | Border | Text/background contrast |
 | --- | --- | --- | --- | --- |
 | متأخر | Paper #FCFBFB | Red #C00000 | Red #C00000 | 6.27:1 |
-| مجمّد / معلّق | Burgundy #651D32 | Sand #E7E0D3 | Burgundy #651D32 | 9.01:1 |
-| ملغى | Paper #FCFBFB | Burgundy #651D32 | Burgundy #651D32 | 11.45:1 |
+| مجمّد / معلّق | Paper #FCFBFB | Burgundy #651D32 | Burgundy #651D32 | 11.45:1 |
+| ملغى | Burgundy #651D32 | Sand #E7E0D3 | Burgundy #651D32 | 9.01:1 |
 | منقول | Teal #115E67 | Paper #FCFBFB | Teal #115E67 | 7.21:1 |
 | منجز | Paper #FCFBFB | Green #01831E | Green #01831E | 4.77:1 |
 | قيد العمل / قيد التطوير / قيد الإجراء | Teal #115E67 | Mist #D9E1E2 | Teal #115E67 | 5.61:1 |
