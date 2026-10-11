@@ -1,0 +1,48 @@
+{
+  "verdict": "PASS",
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 817,
+    "usedFontsLoaded": true,
+    "metrics": [
+      {
+        "figure": "44",
+        "barWidth": 442.078125,
+        "trackWidth": 614,
+        "background": "repeating-linear-gradient(135deg, rgb(171, 163, 148), rgb(171, 163, 148) 4px, rgb(231, 224, 211) 4px, rgb(231, 224, 211) 8px)",
+        "color": "rgba(0, 0, 0, 0)",
+        "note": true
+      },
+      {
+        "figure": "44",
+        "barWidth": 442.078125,
+        "trackWidth": 614,
+        "background": "repeating-linear-gradient(135deg, rgb(171, 163, 148), rgb(171, 163, 148) 4px, rgb(231, 224, 211) 4px, rgb(231, 224, 211) 8px)",
+        "color": "rgba(0, 0, 0, 0)",
+        "note": true
+      },
+      {
+        "figure": "44",
+        "barWidth": 442.078125,
+        "trackWidth": 614,
+        "background": "none",
+        "color": "rgb(117, 107, 95)",
+        "note": false
+      },
+      {
+        "figure": "44",
+        "barWidth": 442.078125,
+        "trackWidth": 614,
+        "background": "none",
+        "color": "rgb(17, 94, 103)",
+        "note": false
+      }
+    ]
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "production_modified": false
+}

@@ -1,0 +1,43 @@
+body { background:#EFEBE7; margin:0; color:#333333; font:400 16px/1.6 'TEC Dubai',sans-serif; }
+.concept-main { max-width:1840px; margin:auto; padding:24px; }
+.concept-heading h1 { font:400 28px/1.4 'TEC Dubai',sans-serif; margin:0 0 6px; }
+.concept-heading p { color:#756B5F; font-size:14px; margin:0 0 24px; }
+.section-title { font:400 24px/1.4 'TEC Dubai',sans-serif; margin:24px 0 12px; }
+.two-up { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; margin-bottom:24px; align-items:start; }
+.comparison-panel { min-width:0; }
+.panel-caption { font:400 16px/1.6 'TEC Dubai',sans-serif; color:#4F4E4E; margin:0 0 10px; }
+.specimen.screen.workbook-report.wb-reference-composition { display:block; width:100%; margin:0; padding:0; min-height:0; }
+.specimen button { pointer-events:none; }
+.specimen .wb-card { margin:0 !important; }
+.linked-comparison { display:block; width:100%; height:auto; max-width:1840px; }
+.info table { width:100%; border-collapse:collapse; margin:16px 0; background:#FCFBFB; font-size:16px; }
+.info th,.info td { text-align:left; padding:10px 14px; border-bottom:1px solid #E7E0D3; color:#4F4E4E; }
+.info th { background:#E7E0D3; font-family:'TEC Dubai'; font-weight:700; }
+/* Isolated concept only: retain the original compact card structure. */
+.screen.workbook-report.wb-reference-composition.specimen.refined :is(.wb-stat-label,.wb-total-main>span,.wb-meter-caption,.wb-agenda-type-main>span) { font:400 14px/1.6 'TEC Dubai',sans-serif !important; color:#4F4E4E !important; }
+.screen.workbook-report.wb-reference-composition.specimen.refined :is(.wb-alert,.wb-kpi-note,.wb-kpi-source-note,.wb-measurement-breakdown,.wb-finance-caption,.wb-agenda-type-main) { color:#4F4E4E !important; }
+.screen.workbook-report.wb-reference-composition.specimen.refined .wb-special .wb-subgroup h4>button:first-child { font:400 28px/1.4 'TEC Dubai',sans-serif !important; align-items:flex-start; gap:12px; }
+.screen.workbook-report.wb-reference-composition.specimen.refined .wb-special .wb-subgroup h4 .concept-subgroup-name { font:400 28px/1.4 'TEC Dubai',sans-serif !important; color:#333333; margin-top:var(--optical-shift,0px); }
+.screen.workbook-report.wb-reference-composition.specimen.refined .wb-special .wb-subgroup h4 .wb-subtotal-value { font:400 28px/1.3 var(--figure-font) !important; margin-top:var(--optical-shift,0px); }
+.screen.workbook-report.wb-reference-composition.specimen.refined .wb-special .wb-subgroup .wb-stat strong { font:400 28px/1.3 var(--figure-font) !important; }
+.screen.workbook-report.wb-reference-composition.specimen.refined .wb-subgroup h4>.wb-delta { width:100% !important; align-self:stretch !important; justify-content:flex-end !important; }
+.screen.workbook-report.wb-reference-composition.specimen.refined .wb-delta { color:#756B5F !important; }
+.screen.workbook-report.wb-reference-composition.specimen.refined .wb-delta.good { color:#01831E !important; }
+.screen.workbook-report.wb-reference-composition.specimen.refined .wb-delta.bad { color:#C00000 !important; }
+.screen.workbook-report.wb-reference-composition.specimen.refined .wb-meter-caption>[dir="ltr"] { color:#756B5F !important; }
+.screen.workbook-report.wb-reference-composition.specimen.refined .wb-kpi-tag { color:#756B5F !important; }
+.screen.workbook-report.wb-reference-composition.specimen.refined .wb-strategy-metric .wb-stat-label { font:400 14px/1.6 'TEC Dubai',sans-serif !important; color:#4F4E4E !important; min-height:44.8px; }
+.screen.workbook-report.wb-reference-composition.specimen.refined .wb-strategy-metric strong { font:400 34px/1.3 var(--figure-font) !important; }
+.screen.workbook-report.wb-reference-composition.specimen.refined .wb-strategy-metric strong small { font:400 14px/1.6 'TEC Dubai',sans-serif !important; color:#756B5F; }
+.screen.workbook-report.wb-reference-composition.specimen.refined .wb-strategy-denominator { font:400 28px/1.3 var(--figure-font) !important; }
+@media(max-width:999px) { .two-up { grid-template-columns:1fr; } }
+@media(max-width:599px) {
+ .concept-main { padding:16px; }
+ .concept-heading h1 { font-size:24px; }
+ .specimen.refined .wb-card { margin-bottom:20px !important; }
+ .screen.workbook-report.wb-reference-composition.specimen.refined .wb-special-groups { grid-template-columns:1fr; gap:24px; }
+ .screen.workbook-report.wb-reference-composition.specimen.refined .wb-special .wb-subgroup+.wb-subgroup { border-inline-start:0; padding-inline-start:0; border-top:1px solid #EFEBE7; padding-top:20px; }
+ .screen.workbook-report.wb-reference-composition.specimen.refined .wb-special .wb-subgroup h4>button:first-child { flex-wrap:nowrap; }
+ .screen.workbook-report.wb-reference-composition.specimen.refined .wb-strategy-metric .wb-stat-label { min-height:0; }
+ .info { overflow-x:auto; }
+}

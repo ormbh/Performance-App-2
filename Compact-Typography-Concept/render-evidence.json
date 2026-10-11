@@ -1,0 +1,1105 @@
+{
+  "stage": "Preview only",
+  "deviceScale": 1,
+  "checks": [
+    "count-comparison: native size/color/value/alignment checks pass",
+    "strategy-comparison: native size/color/value/alignment checks pass",
+    "revised-cards: native size/color/value/alignment checks pass",
+    "1440px paired card layout has no overflow",
+    "390px mobile retains latest font sizes with no page overflow",
+    "Production app and release byte-identical"
+  ],
+  "errors": [],
+  "views": {
+    "count-comparison": {
+      "labels": [
+        {
+          "text": "الإجمالي",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 977,
+          "y": 231.171875,
+          "width": 38.84375,
+          "height": 22.390625
+        },
+        {
+          "text": "منجز",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 1619.5,
+          "y": 391.34375,
+          "width": 191.5,
+          "height": 22.390625
+        },
+        {
+          "text": "قيد العمل",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 1406,
+          "y": 391.34375,
+          "width": 191.5,
+          "height": 22.390625
+        },
+        {
+          "text": "منجز",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 1178,
+          "y": 391.34375,
+          "width": 179,
+          "height": 22.390625
+        },
+        {
+          "text": "قيد العمل",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 977,
+          "y": 391.34375,
+          "width": 179,
+          "height": 22.390625
+        },
+        {
+          "text": "الإجمالي",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 977,
+          "y": 764.109375,
+          "width": 38.84375,
+          "height": 22.390625
+        },
+        {
+          "text": "الأجندة المعتمدة",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 1713.390625,
+          "y": 845.5,
+          "width": 83.609375,
+          "height": 22.390625
+        },
+        {
+          "text": "المواضيع المستجدة",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 1270.3125,
+          "y": 845.5,
+          "width": 101.1875,
+          "height": 22.390625
+        },
+        {
+          "text": "منجز",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 1539.671875,
+          "y": 924.890625,
+          "width": 271.328125,
+          "height": 22.390625
+        },
+        {
+          "text": "جاهز للعرض",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 1258.34375,
+          "y": 924.890625,
+          "width": 254.328125,
+          "height": 22.390625
+        },
+        {
+          "text": "قيد العمل",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 977,
+          "y": 924.890625,
+          "width": 254.34375,
+          "height": 22.390625
+        }
+      ],
+      "specialFigures": [
+        {
+          "text": "12",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(1, 131, 30)",
+          "weight": "400",
+          "x": 1780.640625,
+          "y": 416.734375,
+          "width": 30.359375,
+          "height": 36.390625
+        },
+        {
+          "text": "12",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 1567.140625,
+          "y": 416.734375,
+          "width": 30.359375,
+          "height": 36.390625
+        },
+        {
+          "text": "10",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(1, 131, 30)",
+          "weight": "400",
+          "x": 1326.640625,
+          "y": 416.734375,
+          "width": 30.359375,
+          "height": 36.390625
+        },
+        {
+          "text": "26",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 1125.640625,
+          "y": 416.734375,
+          "width": 30.359375,
+          "height": 36.390625
+        }
+      ],
+      "agendaFigures": [
+        {
+          "text": "43",
+          "size": "34px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(1, 131, 30)",
+          "weight": "400",
+          "x": 1774.140625,
+          "y": 952.28125,
+          "width": 36.859375,
+          "height": 44.1875
+        },
+        {
+          "text": "16",
+          "size": "34px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 1475.8125,
+          "y": 952.28125,
+          "width": 36.859375,
+          "height": 44.1875
+        },
+        {
+          "text": "58",
+          "size": "34px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 1194.484375,
+          "y": 952.28125,
+          "width": 36.859375,
+          "height": 44.1875
+        }
+      ],
+      "groupNames": [
+        {
+          "text": "للقيادة",
+          "size": "28px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 1743.484375,
+          "y": 310.15625,
+          "width": 67.515625,
+          "height": 39.1875
+        },
+        {
+          "text": "للأمانة العامة",
+          "size": "28px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 1224.15625,
+          "y": 312.15625,
+          "width": 132.84375,
+          "height": 39.1875
+        }
+      ],
+      "groupTotals": [
+        {
+          "text": "24",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 1406,
+          "y": 305.5625,
+          "width": 30.359375,
+          "height": 36.390625
+        },
+        {
+          "text": "36",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 977,
+          "y": 305.5625,
+          "width": 30.359375,
+          "height": 36.390625
+        }
+      ],
+      "neutralChanges": [
+        {
+          "text": "↑ +7",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 977,
+          "y": 257.5625,
+          "width": 28,
+          "height": 24
+        },
+        {
+          "text": "↑ +5",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 977,
+          "y": 351.34375,
+          "width": 380,
+          "height": 24
+        },
+        {
+          "text": "↑ +5",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 1128,
+          "y": 453.125,
+          "width": 28,
+          "height": 24
+        },
+        {
+          "text": "↑ +3",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 977,
+          "y": 790.5,
+          "width": 28,
+          "height": 24
+        },
+        {
+          "text": "↓ −1",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 1401.5,
+          "y": 874.890625,
+          "width": 28,
+          "height": 24
+        },
+        {
+          "text": "↑ +4",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 991,
+          "y": 874.890625,
+          "width": 28,
+          "height": 24
+        },
+        {
+          "text": "↑ +3",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 1484.671875,
+          "y": 996.46875,
+          "width": 28,
+          "height": 24
+        },
+        {
+          "text": "↑ +2",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 1203.34375,
+          "y": 996.46875,
+          "width": 28,
+          "height": 24
+        }
+      ],
+      "notes": [
+        {
+          "text": "i\nجهة الطلب غير مسجلة: 2 · مشمولة في الإجمالي",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 977,
+          "y": 554.515625,
+          "width": 834,
+          "height": 45
+        }
+      ],
+      "strategyFigures": [],
+      "metadata": [
+        {
+          "text": "50%",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 1406,
+          "y": 510.125,
+          "width": 28.5625,
+          "height": 22.390625
+        },
+        {
+          "text": "27.8%",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 977,
+          "y": 510.125,
+          "width": 38.765625,
+          "height": 22.390625
+        }
+      ],
+      "overflow": false
+    },
+    "strategy-comparison": {
+      "labels": [
+        {
+          "text": "المؤشرات المقاسة / المسجلة",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 1545,
+          "y": 235.359375,
+          "width": 266,
+          "height": 44.796875
+        },
+        {
+          "text": "متوسط النتائج المقاسة",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 1267,
+          "y": 235.359375,
+          "width": 253,
+          "height": 44.796875
+        },
+        {
+          "text": "متوسط المستهدفات المعتمدة",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 977,
+          "y": 235.359375,
+          "width": 265,
+          "height": 44.796875
+        }
+      ],
+      "specialFigures": [],
+      "agendaFigures": [],
+      "groupNames": [],
+      "groupTotals": [],
+      "neutralChanges": [
+        {
+          "text": "↑ +0.7\nنقطة مئوية",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 1341.8125,
+          "y": 368.9375,
+          "width": 103.375,
+          "height": 24
+        }
+      ],
+      "notes": [
+        {
+          "text": "تغطية القياس 72.2% · 15 غير مقاس",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 1545,
+          "y": 341.34375,
+          "width": 266,
+          "height": 36.390625
+        },
+        {
+          "text": "متوسط نتائج 39 مؤشراً مقاساً",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 1267,
+          "y": 342.546875,
+          "width": 253,
+          "height": 22.390625
+        },
+        {
+          "text": "متوسط 49 مستهدفاً مسجلاً",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 977,
+          "y": 342.546875,
+          "width": 265,
+          "height": 22.390625
+        }
+      ],
+      "strategyFigures": [
+        {
+          "text": "39 / 54",
+          "size": "34px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 1718.671875,
+          "y": 288.15625,
+          "width": 92.328125,
+          "height": 44.1875
+        },
+        {
+          "text": "83.2%",
+          "size": "34px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 1441.234375,
+          "y": 288.15625,
+          "width": 78.765625,
+          "height": 45.390625
+        },
+        {
+          "text": "87.8%",
+          "size": "34px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 1163.234375,
+          "y": 288.15625,
+          "width": 78.765625,
+          "height": 45.390625
+        }
+      ],
+      "metadata": [
+        {
+          "text": "مؤشرات الأداء",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 977,
+          "y": 176.171875,
+          "width": 89.171875,
+          "height": 32.390625
+        }
+      ],
+      "overflow": false
+    },
+    "revised-cards": {
+      "labels": [
+        {
+          "text": "الإجمالي",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 69,
+          "y": 231.171875,
+          "width": 38.84375,
+          "height": 22.390625
+        },
+        {
+          "text": "منجز",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 711.5,
+          "y": 391.34375,
+          "width": 191.5,
+          "height": 22.390625
+        },
+        {
+          "text": "قيد العمل",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 498,
+          "y": 391.34375,
+          "width": 191.5,
+          "height": 22.390625
+        },
+        {
+          "text": "منجز",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 270,
+          "y": 391.34375,
+          "width": 179,
+          "height": 22.390625
+        },
+        {
+          "text": "قيد العمل",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 69,
+          "y": 391.34375,
+          "width": 179,
+          "height": 22.390625
+        },
+        {
+          "text": "الإجمالي",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 977,
+          "y": 231.171875,
+          "width": 38.84375,
+          "height": 22.390625
+        },
+        {
+          "text": "الأجندة المعتمدة",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 1713.390625,
+          "y": 312.5625,
+          "width": 83.609375,
+          "height": 22.390625
+        },
+        {
+          "text": "المواضيع المستجدة",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 1270.3125,
+          "y": 312.5625,
+          "width": 101.1875,
+          "height": 22.390625
+        },
+        {
+          "text": "منجز",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 1539.671875,
+          "y": 391.953125,
+          "width": 271.328125,
+          "height": 22.390625
+        },
+        {
+          "text": "جاهز للعرض",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 1258.34375,
+          "y": 391.953125,
+          "width": 254.328125,
+          "height": 22.390625
+        },
+        {
+          "text": "قيد العمل",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 977,
+          "y": 391.953125,
+          "width": 254.34375,
+          "height": 22.390625
+        }
+      ],
+      "specialFigures": [
+        {
+          "text": "12",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(1, 131, 30)",
+          "weight": "400",
+          "x": 872.640625,
+          "y": 416.734375,
+          "width": 30.359375,
+          "height": 36.390625
+        },
+        {
+          "text": "12",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 659.140625,
+          "y": 416.734375,
+          "width": 30.359375,
+          "height": 36.390625
+        },
+        {
+          "text": "10",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(1, 131, 30)",
+          "weight": "400",
+          "x": 418.640625,
+          "y": 416.734375,
+          "width": 30.359375,
+          "height": 36.390625
+        },
+        {
+          "text": "26",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 217.640625,
+          "y": 416.734375,
+          "width": 30.359375,
+          "height": 36.390625
+        }
+      ],
+      "agendaFigures": [
+        {
+          "text": "43",
+          "size": "34px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(1, 131, 30)",
+          "weight": "400",
+          "x": 1774.140625,
+          "y": 419.34375,
+          "width": 36.859375,
+          "height": 44.1875
+        },
+        {
+          "text": "16",
+          "size": "34px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 1475.8125,
+          "y": 419.34375,
+          "width": 36.859375,
+          "height": 44.1875
+        },
+        {
+          "text": "58",
+          "size": "34px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 1194.484375,
+          "y": 419.34375,
+          "width": 36.859375,
+          "height": 44.1875
+        }
+      ],
+      "groupNames": [
+        {
+          "text": "للقيادة",
+          "size": "28px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 835.484375,
+          "y": 310.15625,
+          "width": 67.515625,
+          "height": 39.1875
+        },
+        {
+          "text": "للأمانة العامة",
+          "size": "28px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 316.15625,
+          "y": 312.15625,
+          "width": 132.84375,
+          "height": 39.1875
+        }
+      ],
+      "groupTotals": [
+        {
+          "text": "24",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 498,
+          "y": 305.5625,
+          "width": 30.359375,
+          "height": 36.390625
+        },
+        {
+          "text": "36",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 69,
+          "y": 305.5625,
+          "width": 30.359375,
+          "height": 36.390625
+        }
+      ],
+      "neutralChanges": [
+        {
+          "text": "↑ +7",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 69,
+          "y": 257.5625,
+          "width": 28,
+          "height": 24
+        },
+        {
+          "text": "↑ +5",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 69,
+          "y": 351.34375,
+          "width": 380,
+          "height": 24
+        },
+        {
+          "text": "↑ +5",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 220,
+          "y": 453.125,
+          "width": 28,
+          "height": 24
+        },
+        {
+          "text": "↑ +3",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 977,
+          "y": 257.5625,
+          "width": 28,
+          "height": 24
+        },
+        {
+          "text": "↓ −1",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 1401.5,
+          "y": 341.953125,
+          "width": 28,
+          "height": 24
+        },
+        {
+          "text": "↑ +4",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 991,
+          "y": 341.953125,
+          "width": 28,
+          "height": 24
+        },
+        {
+          "text": "↑ +3",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 1484.671875,
+          "y": 463.53125,
+          "width": 28,
+          "height": 24
+        },
+        {
+          "text": "↑ +2",
+          "size": "15px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 1203.34375,
+          "y": 463.53125,
+          "width": 28,
+          "height": 24
+        }
+      ],
+      "notes": [
+        {
+          "text": "i\nجهة الطلب غير مسجلة: 2 · مشمولة في الإجمالي",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 69,
+          "y": 554.515625,
+          "width": 834,
+          "height": 45
+        }
+      ],
+      "strategyFigures": [],
+      "metadata": [
+        {
+          "text": "50%",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 498,
+          "y": 510.125,
+          "width": 28.5625,
+          "height": 22.390625
+        },
+        {
+          "text": "27.8%",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(117, 107, 95)",
+          "weight": "400",
+          "x": 69,
+          "y": 510.125,
+          "width": 38.765625,
+          "height": 22.390625
+        }
+      ],
+      "overflow": false
+    },
+    "mobile390": {
+      "labels": [
+        {
+          "text": "منجز",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 206,
+          "y": -538.84375,
+          "width": 151,
+          "height": 22.390625
+        },
+        {
+          "text": "قيد العمل",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 33,
+          "y": -538.84375,
+          "width": 151,
+          "height": 22.390625
+        },
+        {
+          "text": "منجز",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 206,
+          "y": -290.890625,
+          "width": 151,
+          "height": 22.390625
+        },
+        {
+          "text": "قيد العمل",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 33,
+          "y": -290.890625,
+          "width": 151,
+          "height": 22.390625
+        },
+        {
+          "text": "منجز",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 255.671875,
+          "y": 183.0625,
+          "width": 101.328125,
+          "height": 22.390625
+        },
+        {
+          "text": "جاهز للعرض",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 144.34375,
+          "y": 183.0625,
+          "width": 92.328125,
+          "height": 22.390625
+        },
+        {
+          "text": "قيد العمل",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 33,
+          "y": 183.0625,
+          "width": 92.34375,
+          "height": 22.390625
+        },
+        {
+          "text": "المؤشرات المقاسة / المسجلة",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 137.328125,
+          "y": 468.90625,
+          "width": 219.671875,
+          "height": 22.390625
+        },
+        {
+          "text": "متوسط النتائج المقاسة",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 123.765625,
+          "y": 604.09375,
+          "width": 233.234375,
+          "height": 22.390625
+        },
+        {
+          "text": "متوسط المستهدفات المعتمدة",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(79, 78, 78)",
+          "weight": "400",
+          "x": 123.765625,
+          "y": 725.875,
+          "width": 233.234375,
+          "height": 22.390625
+        }
+      ],
+      "special": [
+        {
+          "text": "12",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(1, 131, 30)",
+          "weight": "400",
+          "x": 326.640625,
+          "y": -513.453125,
+          "width": 30.359375,
+          "height": 36.390625
+        },
+        {
+          "text": "12",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 153.640625,
+          "y": -513.453125,
+          "width": 30.359375,
+          "height": 36.390625
+        },
+        {
+          "text": "10",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(1, 131, 30)",
+          "weight": "400",
+          "x": 326.640625,
+          "y": -265.5,
+          "width": 30.359375,
+          "height": 36.390625
+        },
+        {
+          "text": "26",
+          "size": "28px",
+          "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 153.640625,
+          "y": -265.5,
+          "width": 30.359375,
+          "height": 36.390625
+        }
+      ],
+      "groupNames": [
+        {
+          "text": "للقيادة",
+          "size": "28px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 289.484375,
+          "y": -594.03125,
+          "width": 67.515625,
+          "height": 39.1875
+        },
+        {
+          "text": "للأمانة العامة",
+          "size": "28px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "color": "rgb(51, 51, 51)",
+          "weight": "400",
+          "x": 224.15625,
+          "y": -370.078125,
+          "width": 132.84375,
+          "height": 39.1875
+        }
+      ],
+      "overflow": false
+    }
+  },
+  "result": "PASS"
+}
