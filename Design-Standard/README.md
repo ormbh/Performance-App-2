@@ -70,6 +70,7 @@ These are defaults (*) to apply and verify consistently:
 | Secondary / icon hover | Mist #D9E1E2 surface; preserve a readable foreground and visible control border |
 | Filter / input hover | Retain the Paper #FCFBFB surface; use a Teal #115E67 border; keep Taupe labels on Paper |
 | Secondary pressed | Sand #E7E0D3 surface; Teal text and border |
+| Icon pressed | Sand #E7E0D3 surface; Ink #4F4E4E icon and Taupe #756B5F border, including keyboard Space without hover |
 | Keyboard focus | Visible 2px Teal #115E67 ring, separated from the control by a 2px gap; retain the normal component colors |
 | Disabled | Ink on Linen with a Silver border; actually disabled; no hover or repeated action; do not dim text with blanket opacity |
 | Loading | Preserve button width and label; add a clearly labeled progress indicator; prevent duplicate submissions |

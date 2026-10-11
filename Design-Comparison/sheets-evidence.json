@@ -1,0 +1,102 @@
+{
+  "result": "PASS automated, pending visual review",
+  "deviceScaleFactor": 1,
+  "files": [
+    {
+      "name": "TEC-Typography-Current-New",
+      "width": 1560,
+      "height": 1542,
+      "overflow": false,
+      "fonts": [
+        {
+          "family": "DIN",
+          "status": "loaded"
+        },
+        {
+          "family": "DIN LT",
+          "status": "loaded"
+        },
+        {
+          "family": "Dubai",
+          "status": "loaded"
+        },
+        {
+          "family": "Dubai",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "name": "TEC-Spacing-Current-New",
+      "width": 1560,
+      "height": 1266,
+      "overflow": false,
+      "fonts": [
+        {
+          "family": "DIN",
+          "status": "loaded"
+        },
+        {
+          "family": "DIN LT",
+          "status": "loaded"
+        },
+        {
+          "family": "Dubai",
+          "status": "loaded"
+        },
+        {
+          "family": "Dubai",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "name": "TEC-Print-Current-New",
+      "width": 1560,
+      "height": 1338,
+      "overflow": false,
+      "fonts": [
+        {
+          "family": "DIN",
+          "status": "loaded"
+        },
+        {
+          "family": "DIN LT",
+          "status": "loaded"
+        },
+        {
+          "family": "Dubai",
+          "status": "loaded"
+        },
+        {
+          "family": "Dubai",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "name": "TEC-Page-Print-Table-Detail",
+      "width": 1560,
+      "height": 987,
+      "overflow": false,
+      "fonts": [
+        {
+          "family": "DIN",
+          "status": "loaded"
+        },
+        {
+          "family": "DIN LT",
+          "status": "loaded"
+        },
+        {
+          "family": "Dubai",
+          "status": "loaded"
+        },
+        {
+          "family": "Dubai",
+          "status": "loaded"
+        }
+      ]
+    }
+  ]
+}

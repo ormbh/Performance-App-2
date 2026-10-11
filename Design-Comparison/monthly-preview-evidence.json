@@ -1,0 +1,504 @@
+{
+  "scope": "Isolated visual preview; v128 app files unchanged; illustrative embedded-history fixture only",
+  "source": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+  },
+  "deviceScaleFactor": 1,
+  "errors": [],
+  "baselineModel": {
+    "n": {
+      "agendaTotal": 117,
+      "agendaPlanned": 100,
+      "agendaEmerging": 17,
+      "agendaProgress": 58,
+      "agendaReady": 16,
+      "agendaDone": 43,
+      "agendaLate": 0,
+      "agendaNoStatus": 0,
+      "councilTotal": 70,
+      "councilProgress": 31,
+      "councilDone": 38,
+      "councilLate": 0,
+      "councilNoStatus": 1,
+      "councilExcluded": 94,
+      "legTotal": 191,
+      "legProgress": 11,
+      "legPending": 9,
+      "legOnTime": 152,
+      "legOverrun": 28,
+      "legLate": 2,
+      "legNoStatus": 0,
+      "specialTotal": 62,
+      "specialLead": 24,
+      "specialGs": 36,
+      "specialDone": 23,
+      "specialLate": 0,
+      "specialProgress": 39,
+      "specialLeadDone": 12,
+      "specialLeadLate": 0,
+      "specialLeadOpen": 12,
+      "specialGsDone": 10,
+      "specialGsLate": 0,
+      "specialGsOpen": 26,
+      "specialNoRequester": 2,
+      "specialLeadProgress": 12,
+      "specialGsProgress": 26,
+      "secTotal": 84,
+      "secActive": 61,
+      "secHeld": 4,
+      "secDone": 10,
+      "secNotStarted": 7,
+      "secNoStatus": 0,
+      "secTransferred": 2,
+      "secLate": 0,
+      "secQ1": 0,
+      "secQ2": 1,
+      "secQ3": 0,
+      "secQ4": 80,
+      "secNoQuarter": 3,
+      "secBudget": 84,
+      "kpiTotal": 54,
+      "kpiMeasured": 39,
+      "kpiNotMeasured": 15,
+      "kpiTargeted": 49,
+      "secRevised": 84,
+      "secCommitted": 84,
+      "secNonCommitted": 84,
+      "secSpent": 84,
+      "allLate": 2,
+      "follow": 8
+    },
+    "kpi": {
+      "avgResult": 0.8317508282962148,
+      "avgTarget": 0.8775510204081638,
+      "measured": 39,
+      "total": 54,
+      "explicitState": false,
+      "notMeasured": 15,
+      "notApplicable": 0,
+      "unavailable": 0,
+      "unknown": 0,
+      "conflict": 0
+    },
+    "budget": {
+      "approved": 58275000,
+      "spent": 20396250,
+      "allocated": 46620000,
+      "unallocated": 11655000,
+      "approvedOriginal": 52447500
+    }
+  },
+  "screenText": "انتقل إلى المحتوى\nالتقرير الشهري للأداء والتنفيذ\n\nحتى تاريخ 30/09/2026 · جميع القطاعات والوحدات والجهات\n\nاللوحة الشهرية\nمحفظة المشاريع\nالبيانات الحالية\nوأدوات الصفحة\nالقطاع\nجميع القطاعات\nالوحدة التنظيمية\nجميع الوحدات\nالجهة المعنية\nجميع الجهات\nنطاق التقرير الكامل\nنسخة التقرير\nمحافظ المتابعة التنفيذية\nالأجندة · القرارات · التشريعات\nالأجندة السنوية\n\nالأجندة المعتمدة والمواضيع المستجدة\n\nالإجمالي\n117\n↑ +3\nالأجندة المعتمدة\n100\n↓ −1\nالمواضيع المستجدة\n17\n↑ +4\nمنجز\n43\n↑ +3\nجاهز للعرض\n16\n↑ +3\nقيد العمل\n58\n↑ +2\nقرارات المجالس\n\nالقرارات التي تتطلب المتابعة\n\nالإجمالي\n70\n↑ +5\nمنجز\n38\n↑ +3\nقيد العمل\n31\n↑ +2\nبدون حالة معتمدة: 1\n\nيشمل نطاق المتابعة فقط\n\nالتشريعات\n\nمراجعة التشريعات ومتابعة الإنجاز\n\nالإجمالي\n191\n↑ +25\nمتأخر\n2\n↑ +1\nمنجز ضمن الموعد\n152\n↑ +15\nمنجز بعد الموعد\n28\n↑ +1\nقيد الإجراء\n9\n↑ +8\n\nمقارنة: تاريخ الإنجاز الفعلي بالموعد المعتمد لدى SLC\n\nاستراتيجية الأمانة العامة\n\nالقياس والنتائج والمستهدفات في نظرة واحدة\n\nمؤشرات الأداء\nالمؤشرات المقاسة / المسجلة\n39 / 54\nتغطية القياس 72.2% · 15 غير مقاس\n↑ +9\nمتوسط النتائج المقاسة\n83.2%\nمتوسط نتائج 39 مؤشراً مقاساً\n↑ +0.7\nنقطة مئوية\nمتوسط المستهدفات المعتمدة\n87.8%\nمتوسط 49 مستهدفاً مسجلاً\nمحفظة المشاريع\nالمشاريع الخاصة والاستراتيجية\nالمشاريع الخاصة\n\nحسب الجهة الطالبة وحالة التنفيذ\n\nالإجمالي\n62\n↑ +7\nللقيادة\n24\nمنجز\n12\nقيد العمل\n12\n\nنسبة المنجز\n50%\n\nللأمانة العامة\n36\n↑ +5\nمنجز\n10\n↑ +1\nقيد العمل\n26\n↑ +5\n\nنسبة المنجز\n27.8%\n\ni\nجهة الطلب غير مسجلة: 2 · مشمولة في الإجمالي\n\nمشاريع بموازنة استراتيجية\n\nحالة المشاريع والمواعيد والموازنة\n\nالإجمالي\n84\n↑ +4\nمنجز\n10\n↑ +2\nقيد العمل\n61\n↑ +2\nمجمّد / ملغى\n4\nموعد الانتهاء حسب الربع\n2026\nربع 1\n-\nربع 2\n1\nربع 3\n-\nربع 4\n80\n↑ +4\n\nحسب سنة الانتهاء: مشاريع 2026: 81 | مشاريع 2027: 3\n\nالموازنة المعتمدة\nدرهم إماراتي\n58,275,000\n↓ −17,475,000\nالمخصص\n46,620,000\n↑ +5,065,417\nغير المخصص\n11,655,000\n↓ −22,540,418\nالمنفق حسب الفواتير\n20,396,250\n↓ −2,566,957\n\nالإنفاق 35% من الموازنة المعتمدة\n\nبنود المتابعة\n\nالبنود التي تستدعي المتابعة ضمن نطاق التقرير\n\n8\nبنود\n2 متأخر\n3 مجمّد\n1 ملغى\n2 منقول\nجميع بنود المتابعة\nالمحفظة\tالبند\tمستوى الإنجاز\tالوحدة التنظيمية / القطاع\tالملاحظات\nالتشريعات\t\nتشريع توضيحي 075\n\t\nمتأخر\n\tالسياسات والاستراتيجيات الاقتصادية\nالاقتصاد والتنمية الاجتماعية\n\tلا توجد ملاحظة مسجلة\nالتشريعات\t\nتشريع توضيحي 179\n\t\nمتأخر\n\tالحوكمة\nالحوكمة\n\tلا توجد ملاحظة مسجلة\nمشاريع بموازنة استراتيجية\t\nمشروع استراتيجي توضيحي 006\n\t\nمجمّد\n\tالاتصال الحكومي\nالاتصال الحكومي وشؤون الأمانة العامة\n\tلا توجد ملاحظة مسجلة\nمشاريع بموازنة استراتيجية\t\nمشروع استراتيجي توضيحي 076\n\t\nمجمّد\n\t\nالوحدة غير مسجلة\nالتنمية المستدامة\n\tلا توجد ملاحظة مسجلة\nمشاريع بموازنة استراتيجية\t\nمشروع استراتيجي توضيحي 082\n\t\nمجمّد\n\tالحوكمة\nالحوكمة\n\tلا توجد ملاحظة مسجلة\nمشاريع بموازنة استراتيجية\t\nمشروع استراتيجي توضيحي 049\n\t\nملغى\n\tالتقييم والدراسات\nالتميز والخدمات الحكومية\n\t\nملاحظة توضيحية: يتطلب البند مراجعة المستجدات وتأكيد الخطوة المقبلة مع الوحدة المعنية.\n\nمشاريع بموازنة استراتيجية\t\nمشروع استراتيجي توضيحي 037\n\t\nمنقول\n\tالسياسات والاستراتيجيات الاجتماعية\nالاقتصاد والتنمية الاجتماعية\n\tلا توجد ملاحظة مسجلة\nمشاريع بموازنة استراتيجية\t\nمشروع استراتيجي توضيحي 038\n\t\nمنقول\n\tالسياسات والاستراتيجيات الاجتماعية\nالاقتصاد والتنمية الاجتماعية\n\tلا توجد ملاحظة مسجلة\nعرض جميع البنود\nمراجعة بيانات المقارنة المحفوظة\n\nالأمانة العامة للمجلس التنفيذي لإمارة دبي حقوق النشر © 2026 · جميع الحقوق محفوظة",
+  "screenCurrent": {
+    "height": 2699,
+    "title": "34px",
+    "table": "13px"
+  },
+  "printCurrent": {
+    "pages": [
+      {
+        "page": 1,
+        "sizePt": [
+          0.0,
+          0.0,
+          841.9199829101562,
+          594.9599609375
+        ],
+        "chars": 1726,
+        "fonts": [
+          "LiberationSans",
+          "Unnamed-T3"
+        ],
+        "sizes": [
+          7.0,
+          7.5,
+          7.99,
+          8.5,
+          9.0,
+          10.0,
+          10.99,
+          12.49,
+          15.0,
+          16.0,
+          18.0,
+          19.0,
+          22.0
+        ],
+        "image": "TEC-Monthly-Print-Current-Page-1.png"
+      },
+      {
+        "page": 2,
+        "sizePt": [
+          0.0,
+          0.0,
+          841.9199829101562,
+          594.9599609375
+        ],
+        "chars": 1439,
+        "fonts": [
+          "Unnamed-T3"
+        ],
+        "sizes": [
+          7.0,
+          7.99,
+          8.5,
+          9.0,
+          10.0,
+          10.5,
+          13.0,
+          19.0,
+          22.0
+        ],
+        "image": "TEC-Monthly-Print-Current-Page-2.png"
+      }
+    ],
+    "sha256": "24c93222669ba0ce6cfb97e7298df5d98b9a3b7fb82b0a97a6e2b57b48719d12"
+  },
+  "screenNew": {
+    "width": 1920,
+    "height": 2964,
+    "overflow": false,
+    "title": {
+      "font": "\"TEC DIN\"",
+      "size": "36px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)",
+      "lineHeight": "54px",
+      "padding": "0px"
+    },
+    "portfolio": {
+      "font": "\"TEC DIN\"",
+      "size": "28px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)",
+      "lineHeight": "42px",
+      "padding": "0px"
+    },
+    "card": {
+      "font": "\"TEC DIN\"",
+      "size": "26px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)",
+      "lineHeight": "37.7px",
+      "padding": "0px"
+    },
+    "total": {
+      "font": "\"TEC DIN LT\"",
+      "size": "40px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)",
+      "lineHeight": "46px",
+      "padding": "0px"
+    },
+    "table": {
+      "font": "\"TEC Dubai\"",
+      "size": "18px",
+      "weight": "400",
+      "color": "rgb(117, 107, 95)",
+      "lineHeight": "28.8px",
+      "padding": "16px"
+    },
+    "tableHeader": {
+      "font": "\"TEC Dubai\"",
+      "size": "18px",
+      "weight": "400",
+      "color": "rgb(79, 78, 78)",
+      "lineHeight": "28.8px",
+      "padding": "16px"
+    },
+    "delta": {
+      "font": "\"TEC Dubai\"",
+      "size": "15px",
+      "weight": "400",
+      "color": "rgb(79, 78, 78)",
+      "lineHeight": "24px",
+      "padding": "0px"
+    },
+    "labels": {
+      "font": "\"TEC Dubai\"",
+      "size": "12px",
+      "weight": "400",
+      "color": "rgb(117, 107, 95)",
+      "lineHeight": "18px",
+      "padding": "0px"
+    },
+    "fonts": [
+      {
+        "family": "TEC Dubai",
+        "status": "loaded"
+      },
+      {
+        "family": "TEC Dubai",
+        "status": "unloaded"
+      },
+      {
+        "family": "TEC DIN",
+        "status": "loaded"
+      },
+      {
+        "family": "TEC Ample Headline",
+        "status": "unloaded"
+      },
+      {
+        "family": "TEC Ample Headline",
+        "status": "unloaded"
+      },
+      {
+        "family": "TEC Ample Headline",
+        "status": "unloaded"
+      },
+      {
+        "family": "TEC DIN LT",
+        "status": "loaded"
+      }
+    ]
+  },
+  "screenNewFigures": [
+    {
+      "text": "100",
+      "font": "\"TEC DIN LT\"",
+      "size": "28px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "text": "17",
+      "font": "\"TEC DIN LT\"",
+      "size": "28px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "text": "43",
+      "font": "\"TEC DIN LT\"",
+      "size": "34px",
+      "weight": "400",
+      "color": "rgb(1, 131, 30)"
+    },
+    {
+      "text": "16",
+      "font": "\"TEC DIN LT\"",
+      "size": "34px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "text": "58",
+      "font": "\"TEC DIN LT\"",
+      "size": "34px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "text": "38",
+      "font": "\"TEC DIN LT\"",
+      "size": "34px",
+      "weight": "400",
+      "color": "rgb(1, 131, 30)"
+    },
+    {
+      "text": "31",
+      "font": "\"TEC DIN LT\"",
+      "size": "34px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "text": "10",
+      "font": "\"TEC DIN LT\"",
+      "size": "34px",
+      "weight": "400",
+      "color": "rgb(1, 131, 30)"
+    },
+    {
+      "text": "61",
+      "font": "\"TEC DIN LT\"",
+      "size": "34px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "text": "4",
+      "font": "\"TEC DIN LT\"",
+      "size": "34px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "text": "-",
+      "font": "\"TEC DIN LT\"",
+      "size": "28px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "text": "1",
+      "font": "\"TEC DIN LT\"",
+      "size": "28px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "text": "-",
+      "font": "\"TEC DIN LT\"",
+      "size": "28px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "text": "80",
+      "font": "\"TEC DIN LT\"",
+      "size": "28px",
+      "weight": "400",
+      "color": "rgb(51, 51, 51)"
+    }
+  ],
+  "mobileNew": {
+    "width": 390,
+    "overflow": false,
+    "tableSize": "18px"
+  },
+  "printNew": {
+    "pages": [
+      {
+        "page": 1,
+        "sizePt": [
+          0.0,
+          0.0,
+          841.9199829101562,
+          594.9599609375
+        ],
+        "chars": 580,
+        "fonts": [
+          "DINNextLTArabic-Regular",
+          "LiberationSerif",
+          "Unnamed-T3"
+        ],
+        "sizes": [
+          9.0,
+          10.5,
+          10.99,
+          16.0,
+          18.0,
+          19.99,
+          24.0,
+          28.0
+        ],
+        "image": "TEC-Monthly-Print-New-Page-1.png"
+      },
+      {
+        "page": 2,
+        "sizePt": [
+          0.0,
+          0.0,
+          841.9199829101562,
+          594.9599609375
+        ],
+        "chars": 1071,
+        "fonts": [
+          "DINNextLTArabic-Regular",
+          "LiberationSerif",
+          "Unnamed-T3"
+        ],
+        "sizes": [
+          9.0,
+          10.5,
+          10.99,
+          16.0,
+          19.99,
+          24.0,
+          28.0
+        ],
+        "image": "TEC-Monthly-Print-New-Page-2.png"
+      },
+      {
+        "page": 3,
+        "sizePt": [
+          0.0,
+          0.0,
+          841.9199829101562,
+          594.9599609375
+        ],
+        "chars": 531,
+        "fonts": [
+          "DINNextLTArabic-Regular",
+          "Unnamed-T3"
+        ],
+        "sizes": [
+          9.0,
+          10.5,
+          13.5,
+          16.0,
+          24.0,
+          28.0
+        ],
+        "image": "TEC-Monthly-Print-New-Page-3.png"
+      },
+      {
+        "page": 4,
+        "sizePt": [
+          0.0,
+          0.0,
+          841.9199829101562,
+          594.9599609375
+        ],
+        "chars": 896,
+        "fonts": [
+          "Unnamed-T3"
+        ],
+        "sizes": [
+          9.0,
+          13.5
+        ],
+        "image": "TEC-Monthly-Print-New-Page-4.png"
+      }
+    ],
+    "sha256": "5815815f6717f14650d64504c48aab8d8c743cbd430eae41583f1548edbd878b"
+  },
+  "printNewStyles": {
+    "title": {
+      "size": "32px",
+      "font": "\"TEC DIN\"",
+      "weight": "400",
+      "line": "41.6px"
+    },
+    "portfolio": {
+      "size": "24px",
+      "font": "\"TEC DIN\"",
+      "weight": "400",
+      "line": "33.6px"
+    },
+    "card": {
+      "size": "21.3333px",
+      "font": "\"TEC DIN\"",
+      "weight": "400",
+      "line": "27.7333px"
+    },
+    "total": {
+      "size": "37.3333px",
+      "font": "\"TEC DIN LT\"",
+      "weight": "400",
+      "line": "44.8px"
+    },
+    "table": {
+      "size": "18px",
+      "font": "\"TEC Dubai\"",
+      "weight": "400",
+      "line": "28.8px"
+    },
+    "tableHeader": {
+      "size": "18px",
+      "font": "\"TEC Dubai\"",
+      "weight": "400",
+      "line": "28.8px"
+    },
+    "delta": {
+      "size": "14.6667px",
+      "font": "\"TEC Dubai\"",
+      "weight": "400",
+      "line": "19.8px"
+    }
+  },
+  "result": "PASS automated, pending visual review"
+}
