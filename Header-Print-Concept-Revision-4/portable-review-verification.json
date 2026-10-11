@@ -1,0 +1,35 @@
+{
+  "missingReferences": [],
+  "checks": [
+    {
+      "page": "gallery",
+      "width": 1440,
+      "overflow": false,
+      "imagesLoaded": true,
+      "fonts": true,
+      "errors": []
+    },
+    {
+      "page": "gallery",
+      "width": 390,
+      "overflow": false,
+      "imagesLoaded": true,
+      "fonts": true,
+      "errors": []
+    },
+    {
+      "page": "monthly",
+      "title": "التقرير الشهري للأداء والتنفيذ\n\nحتى تاريخ 30/09/2026",
+      "fonts": true,
+      "errors": []
+    },
+    {
+      "page": "projects",
+      "title": "مستجدات محفظة المشاريع\n\nحتى تاريخ 30/09/2026",
+      "fonts": true,
+      "errors": []
+    }
+  ],
+  "renderProtocol": "HTTP localhost; managed Chromium blocks file URLs",
+  "result": "PASS"
+}

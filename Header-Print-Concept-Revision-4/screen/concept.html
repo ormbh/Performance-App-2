@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TEC — Revised header concept</title><link rel="stylesheet" href="concept.css"></head>
+<body>
+<svg aria-hidden="true" focusable="false" class="svg-library">
+<symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="6.5" height="6.5" rx="1"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1"/></symbol>
+<symbol id="i-print" viewBox="0 0 24 24"><path d="M7 9V4h10v5"/><rect x="4" y="9" width="16" height="7.5" rx="1.5"/><path d="M7 14h10v6H7z"/></symbol>
+<symbol id="i-down" viewBox="0 0 24 24"><path d="M6.5 9.5l5.5 5.5 5.5-5.5"/></symbol>
+<symbol id="i-up" viewBox="0 0 24 24"><path d="M6.5 14.5l5.5-5.5 5.5 5.5"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></symbol>
+</svg>
+<div id="page" class="page">
+<header class="site-header">
+  <div class="masthead">
+    <div class="title-block"><h1 id="page-title">مستجدات محفظة المشاريع</h1><p class="date">حتى تاريخ <bdi>30/09/2026</bdi></p></div>
+    <img class="logo" src="../assets/img/tec-red.png" alt="المجلس التنفيذي — The Executive Council">
+  </div>
+  <div class="navigation-row">
+    <div class="nav-group">
+      <nav aria-label="التنقل الرئيسي" class="main-nav">
+        <a href="concept.html?view=search" data-view="search">البحث</a>
+        <a href="concept.html?view=monthly" data-view="monthly">اللوحة الشهرية</a>
+        <a href="concept.html?view=projects" data-view="projects">محفظة المشاريع</a>
+      </nav>
+      <div class="menu-host"><button id="menu-trigger" class="icon-button" aria-label="صفحات التطبيق" aria-expanded="false" aria-haspopup="menu" aria-controls="app-menu"><svg class="icon"><use href="#i-grid"></use></svg></button>
+        <div id="app-menu" class="app-menu" role="menu" aria-label="صفحات التطبيق" hidden>
+          <a role="menuitem" tabindex="-1" href="concept.html?view=monthly">اللوحة الشهرية</a>
+          <a role="menuitem" tabindex="-1" href="concept.html?view=projects">محفظة المشاريع</a>
+          <a role="menuitem" tabindex="-1" href="concept.html?view=search">البحث</a>
+          <div role="separator"></div>
+          <button role="menuitem" tabindex="-1" data-open-section="تقرير الجهات">تقرير الجهات</button>
+          <button role="menuitem" tabindex="-1" data-open-section="المقارنة الشهرية">المقارنة الشهرية</button>
+          <button role="menuitem" tabindex="-1" data-open-section="التقارير">التقارير</button>
+          <div role="separator"></div>
+          <button role="menuitem" tabindex="-1" data-open-section="رفع ملف التقرير">رفع ملف التقرير</button>
+          <button role="menuitem" tabindex="-1" data-open-section="ملاحظات البيانات">ملاحظات البيانات</button>
+        </div>
+      </div>
+    </div>
+    <div class="report-actions">
+      <a class="button primary" href="../print/print-proposal.html?autoprint=1" target="_blank" rel="noopener"><svg class="icon"><use href="#i-print"></use></svg>طباعة التقرير</a>
+      <button id="settings-trigger" class="button secondary">إعدادات الطباعة<svg class="icon"><use href="#i-down"></use></svg></button>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="filter-area" aria-label="تصفية نطاق التقرير">
+    <div class="core-filters" id="core-filters"></div>
+    <div class="filter-meta"><span id="scope-summary">النطاق: جميع القطاعات والوحدات والجهات</span><button id="more-trigger" class="more-button" aria-expanded="false" aria-controls="more-filters">المزيد من التصفية<svg class="icon"><use href="#i-down"></use></svg></button></div>
+    <div id="more-filters" class="more-filters" hidden></div>
+  </section>
+  <section class="content-demo" aria-label="مساحة التقرير"><h2 id="section-title">محفظة المشاريع</h2><div class="card-placeholder"></div><div class="card-placeholder"></div></section>
+</main>
+<footer class="screen-footer">الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة</footer>
+</div>
+<div id="overlay"></div><div id="status" role="status" aria-live="polite" hidden></div>
+<script src="concept.js"></script>
+</body></html>

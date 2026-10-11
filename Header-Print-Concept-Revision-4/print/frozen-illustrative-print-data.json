@@ -1,0 +1,293 @@
+{
+  "metrics": {
+    "agendaTotal": "117",
+    "agendaPlanned": "100",
+    "agendaEmerging": "17",
+    "agendaDone": "43",
+    "agendaReady": "16",
+    "agendaProgress": "58",
+    "councilTotal": "70",
+    "councilDone": "38",
+    "councilProgress": "31",
+    "councilNoStatus": "1",
+    "legTotal": "191",
+    "legLate": "2",
+    "legOnTime": "152",
+    "legOverrun": "28",
+    "legPending": "9",
+    "kpiAvg": "83.2%",
+    "kpiTargeted": "87.8%",
+    "specialTotal": "62",
+    "specialLead": "24",
+    "specialLeadDone": "12",
+    "specialLeadProgress": "12",
+    "specialGs": "36",
+    "specialGsDone": "10",
+    "specialGsProgress": "26",
+    "specialNoRequester": "2",
+    "secTotal": "84",
+    "secDone": "10",
+    "secActive": "61",
+    "secHeld": "4",
+    "secQ1": "-",
+    "secQ2": "1",
+    "secQ3": "-",
+    "secQ4": "80",
+    "budApproved": "58,275,000",
+    "budAllocated": "46,620,000",
+    "budUnallocated": "11,655,000",
+    "budSpent": "20,396,250"
+  },
+  "changes": {
+    "agendaTotal": {
+      "text": "↑ +3",
+      "class": "mp-change neutral"
+    },
+    "agendaPlanned": {
+      "text": "↓ −1",
+      "class": "mp-change neutral"
+    },
+    "agendaEmerging": {
+      "text": "↑ +4",
+      "class": "mp-change neutral"
+    },
+    "agendaDone": {
+      "text": "↑ +3",
+      "class": "mp-change good"
+    },
+    "agendaReady": {
+      "text": "↑ +3",
+      "class": "mp-change neutral"
+    },
+    "agendaProgress": {
+      "text": "↑ +2",
+      "class": "mp-change neutral"
+    },
+    "councilTotal": {
+      "text": "↑ +5",
+      "class": "mp-change neutral"
+    },
+    "councilDone": {
+      "text": "↑ +3",
+      "class": "mp-change good"
+    },
+    "councilProgress": {
+      "text": "↑ +2",
+      "class": "mp-change neutral"
+    },
+    "legTotal": {
+      "text": "↑ +25",
+      "class": "mp-change neutral"
+    },
+    "legLate": {
+      "text": "↑ +1",
+      "class": "mp-change bad"
+    },
+    "legOnTime": {
+      "text": "↑ +15",
+      "class": "mp-change good"
+    },
+    "legOverrun": {
+      "text": "↑ +1",
+      "class": "mp-change neutral"
+    },
+    "legPending": {
+      "text": "↑ +8",
+      "class": "mp-change neutral"
+    },
+    "kpiMeasured": {
+      "text": "↑ +9",
+      "class": "mp-change good"
+    },
+    "kpiAvg": {
+      "text": "↑ +0.7 نقطة مئوية",
+      "class": "mp-change neutral"
+    },
+    "specialTotal": {
+      "text": "↑ +7",
+      "class": "mp-change neutral"
+    },
+    "specialGs": {
+      "text": "↑ +5",
+      "class": "mp-change neutral"
+    },
+    "specialGsDone": {
+      "text": "↑ +1",
+      "class": "mp-change good"
+    },
+    "specialGsProgress": {
+      "text": "↑ +5",
+      "class": "mp-change neutral"
+    },
+    "secTotal": {
+      "text": "↑ +4",
+      "class": "mp-change neutral"
+    },
+    "secDone": {
+      "text": "↑ +2",
+      "class": "mp-change good"
+    },
+    "secActive": {
+      "text": "↑ +2",
+      "class": "mp-change neutral"
+    },
+    "secQ4": {
+      "text": "↑ +4",
+      "class": "mp-change neutral"
+    },
+    "budApproved": {
+      "text": "↓ −17,475,000",
+      "class": "mp-change neutral"
+    },
+    "budAllocated": {
+      "text": "↑ +5,065,417",
+      "class": "mp-change neutral"
+    },
+    "budUnallocated": {
+      "text": "↓ −22,540,418",
+      "class": "mp-change neutral"
+    },
+    "budSpent": {
+      "text": "↓ −2,566,957",
+      "class": "mp-change neutral"
+    }
+  },
+  "rows": [
+    {
+      "key": "legislation-76",
+      "category": "delayed",
+      "cells": [
+        "التشريعات",
+        "تشريع توضيحي 075",
+        "متأخر",
+        "السياسات والاستراتيجيات الاقتصاديةالاقتصاد والتنمية الاجتماعية",
+        "لا توجد ملاحظة مسجلة"
+      ],
+      "unitParts": [
+        "السياسات والاستراتيجيات الاقتصادية",
+        "الاقتصاد والتنمية الاجتماعية"
+      ]
+    },
+    {
+      "key": "legislation-180",
+      "category": "delayed",
+      "cells": [
+        "التشريعات",
+        "تشريع توضيحي 179",
+        "متأخر",
+        "الحوكمةالحوكمة",
+        "لا توجد ملاحظة مسجلة"
+      ],
+      "unitParts": [
+        "الحوكمة",
+        "الحوكمة"
+      ]
+    },
+    {
+      "key": "secretariat-7",
+      "category": "hold",
+      "cells": [
+        "مشاريع بموازنة استراتيجية",
+        "مشروع استراتيجي توضيحي 006",
+        "مجمّد",
+        "الاتصال الحكوميالاتصال الحكومي وشؤون الأمانة العامة",
+        "لا توجد ملاحظة مسجلة"
+      ],
+      "unitParts": [
+        "الاتصال الحكومي",
+        "الاتصال الحكومي وشؤون الأمانة العامة"
+      ]
+    },
+    {
+      "key": "secretariat-77",
+      "category": "hold",
+      "cells": [
+        "مشاريع بموازنة استراتيجية",
+        "مشروع استراتيجي توضيحي 076",
+        "مجمّد",
+        "الوحدة غير مسجلةالتنمية المستدامة",
+        "لا توجد ملاحظة مسجلة"
+      ],
+      "unitParts": [
+        "الوحدة غير مسجلة",
+        "التنمية المستدامة"
+      ]
+    },
+    {
+      "key": "secretariat-83",
+      "category": "hold",
+      "cells": [
+        "مشاريع بموازنة استراتيجية",
+        "مشروع استراتيجي توضيحي 082",
+        "مجمّد",
+        "الحوكمةالحوكمة",
+        "لا توجد ملاحظة مسجلة"
+      ],
+      "unitParts": [
+        "الحوكمة",
+        "الحوكمة"
+      ]
+    },
+    {
+      "key": "secretariat-50",
+      "category": "cancelled",
+      "cells": [
+        "مشاريع بموازنة استراتيجية",
+        "مشروع استراتيجي توضيحي 049",
+        "ملغى",
+        "التقييم والدراساتالتميز والخدمات الحكومية",
+        "ملاحظة توضيحية: يتطلب البند مراجعة المستجدات وتأكيد الخطوة المقبلة مع الوحدة المعنية."
+      ],
+      "unitParts": [
+        "التقييم والدراسات",
+        "التميز والخدمات الحكومية"
+      ]
+    },
+    {
+      "key": "secretariat-38",
+      "category": "transferred",
+      "cells": [
+        "مشاريع بموازنة استراتيجية",
+        "مشروع استراتيجي توضيحي 037",
+        "منقول",
+        "السياسات والاستراتيجيات الاجتماعيةالاقتصاد والتنمية الاجتماعية",
+        "لا توجد ملاحظة مسجلة"
+      ],
+      "unitParts": [
+        "السياسات والاستراتيجيات الاجتماعية",
+        "الاقتصاد والتنمية الاجتماعية"
+      ]
+    },
+    {
+      "key": "secretariat-39",
+      "category": "transferred",
+      "cells": [
+        "مشاريع بموازنة استراتيجية",
+        "مشروع استراتيجي توضيحي 038",
+        "منقول",
+        "السياسات والاستراتيجيات الاجتماعيةالاقتصاد والتنمية الاجتماعية",
+        "لا توجد ملاحظة مسجلة"
+      ],
+      "unitParts": [
+        "السياسات والاستراتيجيات الاجتماعية",
+        "الاقتصاد والتنمية الاجتماعية"
+      ]
+    }
+  ],
+  "date": "حتى تاريخ 30/09/2026",
+  "scope": [
+    {
+      "key": "sector",
+      "text": "القطاعجميع القطاعات"
+    },
+    {
+      "key": "unit",
+      "text": "الوحدة التنظيميةجميع الوحدات التنظيمية"
+    }
+  ],
+  "notes": [
+    "مراجعة المصدر للمقارنة: حالات المشاريع المحفوظة للشهر السابق لا تغطي إجماليها؛ حالات «لم يبدأ» و«منقول» وغير المصنفة غير محفوظة في هذه الكتلة"
+  ],
+  "fixture": "Explicitly illustrative workbook; not the supplied production PDF.",
+  "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+}

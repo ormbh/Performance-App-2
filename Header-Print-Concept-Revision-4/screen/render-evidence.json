@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "header": 229,
+    "filters": 377
+  },
+  "monthly": {
+    "header": 229,
+    "filters": 377
+  },
+  "monthly-mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "filterBottom": 676.171875
+  },
+  "projects-mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "filterBottom": 702.5625
+  }
+}

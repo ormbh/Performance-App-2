@@ -1,0 +1,167 @@
+{
+  "revision": 4,
+  "component_specimen_not_complete_export": true,
+  "scope": "Same eight frozen illustrative records as Revision 3; not production report",
+  "screen_print_styles": {
+    "pages": [
+      {
+        "box": [
+          1046.921875,
+          716.21875
+        ],
+        "reportHeaderCount": 1,
+        "headerBottom": 65.9375,
+        "footerTop": 682.890625,
+        "mainBottom": 667.78125,
+        "footerClashes": [],
+        "footerText": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة\n\nصفحة 1 من 3"
+      },
+      {
+        "box": [
+          1046.921875,
+          716.21875
+        ],
+        "reportHeaderCount": 0,
+        "headerBottom": null,
+        "footerTop": 682.890625,
+        "mainBottom": 667.78125,
+        "footerClashes": [],
+        "footerText": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة\n\nصفحة 2 من 3"
+      },
+      {
+        "box": [
+          1046.921875,
+          716.21875
+        ],
+        "reportHeaderCount": 0,
+        "headerBottom": null,
+        "footerTop": 682.890625,
+        "mainBottom": 667.78125,
+        "footerClashes": [],
+        "footerText": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة\n\nصفحة 3 من 3"
+      }
+    ],
+    "title": {
+      "size": "32px",
+      "font": "TEC-DIN, sans-serif",
+      "weight": "400",
+      "line": "40px"
+    },
+    "firstHeaderText": "التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026",
+    "firstHeaderNotes": 0,
+    "footer": {
+      "size": "14px",
+      "font": "TEC-Dubai, sans-serif",
+      "weight": "400",
+      "line": "21px"
+    },
+    "thead": {
+      "size": "18px",
+      "font": "TEC-Dubai, sans-serif",
+      "weight": "700",
+      "line": "28.8px"
+    },
+    "body": {
+      "size": "18px",
+      "font": "TEC-Dubai, sans-serif",
+      "weight": "400",
+      "line": "28.8px"
+    },
+    "badge": {
+      "size": "18px",
+      "font": "TEC-Dubai, sans-serif",
+      "weight": "400",
+      "line": "28.8px"
+    },
+    "secondary": {
+      "size": "26.6667px",
+      "font": "TEC-DIN-LT, sans-serif",
+      "weight": "400",
+      "line": "33.3333px"
+    },
+    "rowKeys": [
+      "legislation-76",
+      "legislation-180",
+      "secretariat-7",
+      "secretariat-77",
+      "secretariat-83",
+      "secretariat-50",
+      "secretariat-38",
+      "secretariat-39"
+    ],
+    "fontLoaded": {
+      "heading": true,
+      "figure": true,
+      "body": true,
+      "bold": true
+    }
+  },
+  "actual_pdf": [
+    {
+      "page": 1,
+      "dimensions_pt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "fontsizes": [
+        9.0,
+        10.5,
+        10.99,
+        16.0,
+        18.0,
+        19.99,
+        24.0,
+        28.0
+      ],
+      "outside_10mm_content_area": 0,
+      "dateOnPage": true,
+      "textchars": 545
+    },
+    {
+      "page": 2,
+      "dimensions_pt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "fontsizes": [
+        10.5,
+        13.5,
+        16.0
+      ],
+      "outside_10mm_content_area": 0,
+      "dateOnPage": false,
+      "textchars": 656
+    },
+    {
+      "page": 3,
+      "dimensions_pt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "fontsizes": [
+        9.0,
+        10.5,
+        13.5,
+        16.0
+      ],
+      "outside_10mm_content_area": 0,
+      "dateOnPage": false,
+      "textchars": 940
+    }
+  ],
+  "browser_errors": [],
+  "result": "PASS structural/font/data checks and all-page visual inspection",
+  "visual_inspection": {
+    "pages_reviewed": [
+      1,
+      2,
+      3
+    ],
+    "header": "Title and date in one line with official logo only; no surrounding notes",
+    "continuation": "No report masthead on pages 2–3; section/column headings retained",
+    "footer": "Copyright plus page numbering only",
+    "clipped_rows_or_footer_overlap": false,
+    "comparison_board_inspected": true
+  },
+  "fixture_sha256": "f91c54dd0b349e7f5341d3e601ab9c13eefe83a023f9e69ff9e5c7061cc08ec0"
+}

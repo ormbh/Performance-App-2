@@ -6,6 +6,12 @@ All choices below are approved for this app. The six latest changes apply to scr
 
 Use the supplied **Regular (400)** faces for headings, figures, body text and controls. **Table column headings use the supplied Dubai Bold (700)** face. DIN Next Arabic and DIN Next LT Arabic are distinct supplied font families.
 
+The [Revision 4 header/navigation/print concept](Revision-4-Header-Print-Concept.md)
+updates the proposed shared workspace composition for review. Its date-only
+screen title metadata, title-and-date first printed header, removal of later
+report headers, and copyright/page-count print footer supersede the corresponding
+Revision 3 proposals. The approved typography and status recipes below remain.
+
 ## Master component table
 
 For text-only rows, “Inherited” means the text follows the surrounding surface; it does not create a separate box. Taupe text must remain on Paper for readable contrast. A dash means no separate border or fill.

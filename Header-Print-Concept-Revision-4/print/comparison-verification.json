@@ -1,0 +1,84 @@
+{
+  "images": [
+    {
+      "src": "before-first-header.png",
+      "natural": [
+        1179,
+        116
+      ],
+      "rendered": [
+        1179,
+        116
+      ],
+      "loaded": true
+    },
+    {
+      "src": "after-first-header.png",
+      "natural": [
+        1179,
+        78
+      ],
+      "rendered": [
+        1179,
+        78
+      ],
+      "loaded": true
+    },
+    {
+      "src": "before-later-page.png",
+      "natural": [
+        1179,
+        126
+      ],
+      "rendered": [
+        1179,
+        126
+      ],
+      "loaded": true
+    },
+    {
+      "src": "after-later-page.png",
+      "natural": [
+        1179,
+        126
+      ],
+      "rendered": [
+        1179,
+        126
+      ],
+      "loaded": true
+    },
+    {
+      "src": "before-footer.png",
+      "natural": [
+        1179,
+        87
+      ],
+      "rendered": [
+        1179,
+        87
+      ],
+      "loaded": true
+    },
+    {
+      "src": "after-footer.png",
+      "natural": [
+        1179,
+        87
+      ],
+      "rendered": [
+        1179,
+        87
+      ],
+      "loaded": true
+    }
+  ],
+  "panels": [
+    1236,
+    1236,
+    1236,
+    1236,
+    1236,
+    1236
+  ]
+}

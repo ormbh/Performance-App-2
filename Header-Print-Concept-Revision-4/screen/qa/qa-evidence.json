@@ -1,0 +1,3798 @@
+[
+  {
+    "viewport": 1440,
+    "height": 1000,
+    "view": "projects",
+    "initial": {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "titleText": "مستجدات محفظة المشاريع\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 1280,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 1280,
+          "right": 1324,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 1171.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 1171.734375,
+          "right": 1256,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 1049.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 1049.1875,
+          "right": 1147.734375,
+          "top": 168,
+          "bottom": 212
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 1280,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 1280,
+          "right": 1324,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 1171.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 1171.734375,
+          "right": 1256,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 1049.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 1049.1875,
+          "right": 1147.734375,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 1348,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 1348,
+          "right": 1392,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 48,
+          "y": 168,
+          "width": 136.609375,
+          "height": 44,
+          "left": 48,
+          "right": 184.609375,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 192.609375,
+          "y": 168,
+          "width": 154.1875,
+          "height": 44,
+          "left": 192.609375,
+          "right": 346.796875,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 952,
+          "y": 253,
+          "width": 440,
+          "height": 72,
+          "left": 952,
+          "right": 1392,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 500,
+          "y": 253,
+          "width": 440,
+          "height": 72,
+          "left": 500,
+          "right": 940,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 48,
+          "y": 253,
+          "width": 440,
+          "height": 72,
+          "left": 48,
+          "right": 488,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "المزيد من التصفية",
+          "id": "more-trigger",
+          "x": 48,
+          "y": 333,
+          "width": 134.390625,
+          "height": 44,
+          "left": 48,
+          "right": 182.390625,
+          "top": 333,
+          "bottom": 377
+        }
+      ],
+      "logo": {
+        "width": 192,
+        "height": 61.59375,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 1072,
+        "y": 220,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 1032,
+        "y": 333,
+        "width": 360,
+        "height": 368
+      },
+      "pageInert": false,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": null,
+      "resizeClosed": true,
+      "resizeFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 440,
+        "y": 332.8125,
+        "width": 560,
+        "height": 334.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": {
+      "columns": "437.328px 437.328px 437.344px",
+      "gap": "16px",
+      "scrollWidth": 1440
+    },
+    "errors": []
+  },
+  {
+    "viewport": 1440,
+    "height": 1000,
+    "view": "monthly",
+    "initial": {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "titleText": "التقرير الشهري للأداء والتنفيذ\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 1280,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 1280,
+          "right": 1324,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 1171.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 1171.734375,
+          "right": 1256,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 1049.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 1049.1875,
+          "right": 1147.734375,
+          "top": 168,
+          "bottom": 212
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 1280,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 1280,
+          "right": 1324,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 1171.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 1171.734375,
+          "right": 1256,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 1049.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 1049.1875,
+          "right": 1147.734375,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 1348,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 1348,
+          "right": 1392,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 48,
+          "y": 168,
+          "width": 136.609375,
+          "height": 44,
+          "left": 48,
+          "right": 184.609375,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 192.609375,
+          "y": 168,
+          "width": 154.1875,
+          "height": 44,
+          "left": 192.609375,
+          "right": 346.796875,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 952,
+          "y": 253,
+          "width": 440,
+          "height": 72,
+          "left": 952,
+          "right": 1392,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 500,
+          "y": 253,
+          "width": 440,
+          "height": 72,
+          "left": 500,
+          "right": 940,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 48,
+          "y": 253,
+          "width": 440,
+          "height": 72,
+          "left": 48,
+          "right": 488,
+          "top": 253,
+          "bottom": 325
+        }
+      ],
+      "logo": {
+        "width": 192,
+        "height": 61.59375,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 1072,
+        "y": 220,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 1032,
+        "y": 333,
+        "width": 360,
+        "height": 368
+      },
+      "pageInert": false,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": null,
+      "resizeClosed": true,
+      "resizeFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 440,
+        "y": 332.8125,
+        "width": 560,
+        "height": 334.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": null,
+    "errors": []
+  },
+  {
+    "viewport": 1024,
+    "height": 1000,
+    "view": "projects",
+    "initial": {
+      "width": 1024,
+      "height": 1000,
+      "scrollWidth": 1024,
+      "titleText": "مستجدات محفظة المشاريع\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 864,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 864,
+          "right": 908,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 755.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 755.734375,
+          "right": 840,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 633.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 633.1875,
+          "right": 731.734375,
+          "top": 168,
+          "bottom": 212
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 864,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 864,
+          "right": 908,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 755.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 755.734375,
+          "right": 840,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 633.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 633.1875,
+          "right": 731.734375,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 932,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 932,
+          "right": 976,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 48,
+          "y": 168,
+          "width": 136.609375,
+          "height": 44,
+          "left": 48,
+          "right": 184.609375,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 192.609375,
+          "y": 168,
+          "width": 154.1875,
+          "height": 44,
+          "left": 192.609375,
+          "right": 346.796875,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 674.671875,
+          "y": 253,
+          "width": 301.328125,
+          "height": 72,
+          "left": 674.671875,
+          "right": 976,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 361.34375,
+          "y": 253,
+          "width": 301.328125,
+          "height": 72,
+          "left": 361.34375,
+          "right": 662.671875,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 48,
+          "y": 253,
+          "width": 301.34375,
+          "height": 72,
+          "left": 48,
+          "right": 349.34375,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "المزيد من التصفية",
+          "id": "more-trigger",
+          "x": 48,
+          "y": 333,
+          "width": 134.390625,
+          "height": 44,
+          "left": 48,
+          "right": 182.390625,
+          "top": 333,
+          "bottom": 377
+        }
+      ],
+      "logo": {
+        "width": 192,
+        "height": 61.59375,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 656,
+        "y": 220,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 616,
+        "y": 333,
+        "width": 360,
+        "height": 368
+      },
+      "pageInert": false,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": null,
+      "resizeClosed": true,
+      "resizeFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 232,
+        "y": 332.8125,
+        "width": 560,
+        "height": 334.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": {
+      "columns": "298.656px 298.672px 298.656px",
+      "gap": "16px",
+      "scrollWidth": 1024
+    },
+    "errors": []
+  },
+  {
+    "viewport": 1024,
+    "height": 1000,
+    "view": "monthly",
+    "initial": {
+      "width": 1024,
+      "height": 1000,
+      "scrollWidth": 1024,
+      "titleText": "التقرير الشهري للأداء والتنفيذ\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 864,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 864,
+          "right": 908,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 755.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 755.734375,
+          "right": 840,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 633.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 633.1875,
+          "right": 731.734375,
+          "top": 168,
+          "bottom": 212
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 864,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 864,
+          "right": 908,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 755.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 755.734375,
+          "right": 840,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 633.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 633.1875,
+          "right": 731.734375,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 932,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 932,
+          "right": 976,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 48,
+          "y": 168,
+          "width": 136.609375,
+          "height": 44,
+          "left": 48,
+          "right": 184.609375,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 192.609375,
+          "y": 168,
+          "width": 154.1875,
+          "height": 44,
+          "left": 192.609375,
+          "right": 346.796875,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 674.671875,
+          "y": 253,
+          "width": 301.328125,
+          "height": 72,
+          "left": 674.671875,
+          "right": 976,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 361.34375,
+          "y": 253,
+          "width": 301.328125,
+          "height": 72,
+          "left": 361.34375,
+          "right": 662.671875,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 48,
+          "y": 253,
+          "width": 301.34375,
+          "height": 72,
+          "left": 48,
+          "right": 349.34375,
+          "top": 253,
+          "bottom": 325
+        }
+      ],
+      "logo": {
+        "width": 192,
+        "height": 61.59375,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 656,
+        "y": 220,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 616,
+        "y": 333,
+        "width": 360,
+        "height": 368
+      },
+      "pageInert": false,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": null,
+      "resizeClosed": true,
+      "resizeFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 232,
+        "y": 332.8125,
+        "width": 560,
+        "height": 334.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": null,
+    "errors": []
+  },
+  {
+    "viewport": 768,
+    "height": 1000,
+    "view": "projects",
+    "initial": {
+      "width": 768,
+      "height": 1000,
+      "scrollWidth": 768,
+      "titleText": "مستجدات محفظة المشاريع\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 632,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 632,
+          "right": 676,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 531.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 531.734375,
+          "right": 616,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 417.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 417.1875,
+          "right": 515.734375,
+          "top": 168,
+          "bottom": 212
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 632,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 632,
+          "right": 676,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 531.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 531.734375,
+          "right": 616,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 417.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 417.1875,
+          "right": 515.734375,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 692,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 692,
+          "right": 736,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 32,
+          "y": 168,
+          "width": 128.609375,
+          "height": 44,
+          "left": 32,
+          "right": 160.609375,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 168.609375,
+          "y": 168,
+          "width": 146.1875,
+          "height": 44,
+          "left": 168.609375,
+          "right": 314.796875,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 509.34375,
+          "y": 253,
+          "width": 226.65625,
+          "height": 72,
+          "left": 509.34375,
+          "right": 736,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 270.671875,
+          "y": 253,
+          "width": 226.671875,
+          "height": 72,
+          "left": 270.671875,
+          "right": 497.34375,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 32,
+          "y": 253,
+          "width": 226.671875,
+          "height": 72,
+          "left": 32,
+          "right": 258.671875,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "المزيد من التصفية",
+          "id": "more-trigger",
+          "x": 32,
+          "y": 333,
+          "width": 134.390625,
+          "height": 44,
+          "left": 32,
+          "right": 166.390625,
+          "top": 333,
+          "bottom": 377
+        }
+      ],
+      "logo": {
+        "width": 192,
+        "height": 61.59375,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 416,
+        "y": 220,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 376,
+        "y": 333,
+        "width": 360,
+        "height": 368
+      },
+      "pageInert": false,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": null,
+      "resizeClosed": true,
+      "resizeFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 104,
+        "y": 332.8125,
+        "width": 560,
+        "height": 334.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": {
+      "columns": "344px 344px",
+      "gap": "16px",
+      "scrollWidth": 768
+    },
+    "errors": []
+  },
+  {
+    "viewport": 768,
+    "height": 1000,
+    "view": "monthly",
+    "initial": {
+      "width": 768,
+      "height": 1000,
+      "scrollWidth": 768,
+      "titleText": "التقرير الشهري للأداء والتنفيذ\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 632,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 632,
+          "right": 676,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 531.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 531.734375,
+          "right": 616,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 417.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 417.1875,
+          "right": 515.734375,
+          "top": 168,
+          "bottom": 212
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 632,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 632,
+          "right": 676,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 531.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 531.734375,
+          "right": 616,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 417.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 417.1875,
+          "right": 515.734375,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 692,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 692,
+          "right": 736,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 32,
+          "y": 168,
+          "width": 128.609375,
+          "height": 44,
+          "left": 32,
+          "right": 160.609375,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 168.609375,
+          "y": 168,
+          "width": 146.1875,
+          "height": 44,
+          "left": 168.609375,
+          "right": 314.796875,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 509.34375,
+          "y": 253,
+          "width": 226.65625,
+          "height": 72,
+          "left": 509.34375,
+          "right": 736,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 270.671875,
+          "y": 253,
+          "width": 226.671875,
+          "height": 72,
+          "left": 270.671875,
+          "right": 497.34375,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 32,
+          "y": 253,
+          "width": 226.671875,
+          "height": 72,
+          "left": 32,
+          "right": 258.671875,
+          "top": 253,
+          "bottom": 325
+        }
+      ],
+      "logo": {
+        "width": 192,
+        "height": 61.59375,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 416,
+        "y": 220,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 376,
+        "y": 333,
+        "width": 360,
+        "height": 368
+      },
+      "pageInert": false,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": null,
+      "resizeClosed": true,
+      "resizeFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 104,
+        "y": 332.8125,
+        "width": 560,
+        "height": 334.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": null,
+    "errors": []
+  },
+  {
+    "viewport": 700,
+    "height": 800,
+    "view": "projects",
+    "initial": {
+      "width": 700,
+      "height": 800,
+      "scrollWidth": 700,
+      "titleText": "مستجدات محفظة المشاريع\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 564,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 564,
+          "right": 608,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 463.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 463.734375,
+          "right": 548,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 349.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 349.1875,
+          "right": 447.734375,
+          "top": 168,
+          "bottom": 212
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 564,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 564,
+          "right": 608,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 463.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 463.734375,
+          "right": 548,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 349.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 349.1875,
+          "right": 447.734375,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 624,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 624,
+          "right": 668,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 32,
+          "y": 168,
+          "width": 128.609375,
+          "height": 44,
+          "left": 32,
+          "right": 160.609375,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 168.609375,
+          "y": 168,
+          "width": 146.1875,
+          "height": 44,
+          "left": 168.609375,
+          "right": 314.796875,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 464,
+          "y": 253,
+          "width": 204,
+          "height": 72,
+          "left": 464,
+          "right": 668,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 248,
+          "y": 253,
+          "width": 204,
+          "height": 72,
+          "left": 248,
+          "right": 452,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 32,
+          "y": 253,
+          "width": 204,
+          "height": 72,
+          "left": 32,
+          "right": 236,
+          "top": 253,
+          "bottom": 325
+        },
+        {
+          "text": "المزيد من التصفية",
+          "id": "more-trigger",
+          "x": 32,
+          "y": 333,
+          "width": 134.390625,
+          "height": 44,
+          "left": 32,
+          "right": 166.390625,
+          "top": 333,
+          "bottom": 377
+        }
+      ],
+      "logo": {
+        "width": 192,
+        "height": 61.59375,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 348,
+        "y": 220,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 308,
+        "y": 333,
+        "width": 360,
+        "height": 368
+      },
+      "pageInert": false,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": null,
+      "resizeClosed": true,
+      "resizeFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 70,
+        "y": 232.8125,
+        "width": 560,
+        "height": 334.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": {
+      "columns": "310px 310px",
+      "gap": "16px",
+      "scrollWidth": 700
+    },
+    "errors": []
+  },
+  {
+    "viewport": 700,
+    "height": 800,
+    "view": "monthly",
+    "initial": {
+      "width": 700,
+      "height": 800,
+      "scrollWidth": 700,
+      "titleText": "التقرير الشهري للأداء والتنفيذ\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 564,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 564,
+          "right": 608,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 463.734375,
+          "y": 184.765625,
+          "width": 84.265625,
+          "height": 44,
+          "left": 463.734375,
+          "right": 548,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 349.1875,
+          "y": 184.765625,
+          "width": 98.546875,
+          "height": 44,
+          "left": 349.1875,
+          "right": 447.734375,
+          "top": 184.765625,
+          "bottom": 228.765625
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 564,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 564,
+          "right": 608,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 463.734375,
+          "y": 184.765625,
+          "width": 84.265625,
+          "height": 44,
+          "left": 463.734375,
+          "right": 548,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 349.1875,
+          "y": 184.765625,
+          "width": 98.546875,
+          "height": 44,
+          "left": 349.1875,
+          "right": 447.734375,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 624,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 624,
+          "right": 668,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 32,
+          "y": 184.765625,
+          "width": 128.609375,
+          "height": 44,
+          "left": 32,
+          "right": 160.609375,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 168.609375,
+          "y": 184.765625,
+          "width": 146.1875,
+          "height": 44,
+          "left": 168.609375,
+          "right": 314.796875,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 464,
+          "y": 269.765625,
+          "width": 204,
+          "height": 72,
+          "left": 464,
+          "right": 668,
+          "top": 269.765625,
+          "bottom": 341.765625
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 248,
+          "y": 269.765625,
+          "width": 204,
+          "height": 72,
+          "left": 248,
+          "right": 452,
+          "top": 269.765625,
+          "bottom": 341.765625
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 32,
+          "y": 269.765625,
+          "width": 204,
+          "height": 72,
+          "left": 32,
+          "right": 236,
+          "top": 269.765625,
+          "bottom": 341.765625
+        }
+      ],
+      "logo": {
+        "width": 192,
+        "height": 61.59375,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 348,
+        "y": 236.765625,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 308,
+        "y": 349.765625,
+        "width": 360,
+        "height": 368
+      },
+      "pageInert": false,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": null,
+      "resizeClosed": true,
+      "resizeFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 70,
+        "y": 232.8125,
+        "width": 560,
+        "height": 334.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": null,
+    "errors": []
+  },
+  {
+    "viewport": 699,
+    "height": 800,
+    "view": "projects",
+    "initial": {
+      "width": 699,
+      "height": 800,
+      "scrollWidth": 699,
+      "titleText": "مستجدات محفظة المشاريع\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 563,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 563,
+          "right": 607,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 462.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 462.734375,
+          "right": 547,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 348.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 348.1875,
+          "right": 446.734375,
+          "top": 168,
+          "bottom": 212
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 563,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 563,
+          "right": 607,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 462.734375,
+          "y": 168,
+          "width": 84.265625,
+          "height": 44,
+          "left": 462.734375,
+          "right": 547,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 348.1875,
+          "y": 168,
+          "width": 98.546875,
+          "height": 44,
+          "left": 348.1875,
+          "right": 446.734375,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 623,
+          "y": 168,
+          "width": 44,
+          "height": 44,
+          "left": 623,
+          "right": 667,
+          "top": 168,
+          "bottom": 212
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 32,
+          "y": 228,
+          "width": 128.609375,
+          "height": 44,
+          "left": 32,
+          "right": 160.609375,
+          "top": 228,
+          "bottom": 272
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 168.609375,
+          "y": 228,
+          "width": 146.1875,
+          "height": 44,
+          "left": 168.609375,
+          "right": 314.796875,
+          "top": 228,
+          "bottom": 272
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 463.34375,
+          "y": 313,
+          "width": 203.65625,
+          "height": 72,
+          "left": 463.34375,
+          "right": 667,
+          "top": 313,
+          "bottom": 385
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 247.671875,
+          "y": 313,
+          "width": 203.671875,
+          "height": 72,
+          "left": 247.671875,
+          "right": 451.34375,
+          "top": 313,
+          "bottom": 385
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 32,
+          "y": 313,
+          "width": 203.671875,
+          "height": 72,
+          "left": 32,
+          "right": 235.671875,
+          "top": 313,
+          "bottom": 385
+        },
+        {
+          "text": "المزيد من التصفية",
+          "id": "more-trigger",
+          "x": 32,
+          "y": 393,
+          "width": 134.390625,
+          "height": 44,
+          "left": 32,
+          "right": 166.390625,
+          "top": 393,
+          "bottom": 437
+        }
+      ],
+      "logo": {
+        "width": 192,
+        "height": 61.59375,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 347,
+        "y": 220,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 307,
+        "y": 393,
+        "width": 360,
+        "height": 368
+      },
+      "pageInert": false,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": null,
+      "resizeClosed": true,
+      "resizeFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 69.5,
+        "y": 232.8125,
+        "width": 560,
+        "height": 334.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": {
+      "columns": "309.5px 309.5px",
+      "gap": "16px",
+      "scrollWidth": 699
+    },
+    "errors": []
+  },
+  {
+    "viewport": 699,
+    "height": 800,
+    "view": "monthly",
+    "initial": {
+      "width": 699,
+      "height": 800,
+      "scrollWidth": 699,
+      "titleText": "التقرير الشهري للأداء والتنفيذ\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 563,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 563,
+          "right": 607,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 462.734375,
+          "y": 184.765625,
+          "width": 84.265625,
+          "height": 44,
+          "left": 462.734375,
+          "right": 547,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 348.1875,
+          "y": 184.765625,
+          "width": 98.546875,
+          "height": 44,
+          "left": 348.1875,
+          "right": 446.734375,
+          "top": 184.765625,
+          "bottom": 228.765625
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 563,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 563,
+          "right": 607,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 462.734375,
+          "y": 184.765625,
+          "width": 84.265625,
+          "height": 44,
+          "left": 462.734375,
+          "right": 547,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 348.1875,
+          "y": 184.765625,
+          "width": 98.546875,
+          "height": 44,
+          "left": 348.1875,
+          "right": 446.734375,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 623,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 623,
+          "right": 667,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 32,
+          "y": 244.765625,
+          "width": 128.609375,
+          "height": 44,
+          "left": 32,
+          "right": 160.609375,
+          "top": 244.765625,
+          "bottom": 288.765625
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 168.609375,
+          "y": 244.765625,
+          "width": 146.1875,
+          "height": 44,
+          "left": 168.609375,
+          "right": 314.796875,
+          "top": 244.765625,
+          "bottom": 288.765625
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 463.34375,
+          "y": 329.765625,
+          "width": 203.65625,
+          "height": 72,
+          "left": 463.34375,
+          "right": 667,
+          "top": 329.765625,
+          "bottom": 401.765625
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 247.671875,
+          "y": 329.765625,
+          "width": 203.671875,
+          "height": 72,
+          "left": 247.671875,
+          "right": 451.34375,
+          "top": 329.765625,
+          "bottom": 401.765625
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 32,
+          "y": 329.765625,
+          "width": 203.671875,
+          "height": 72,
+          "left": 32,
+          "right": 235.671875,
+          "top": 329.765625,
+          "bottom": 401.765625
+        }
+      ],
+      "logo": {
+        "width": 192,
+        "height": 61.59375,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 347,
+        "y": 236.765625,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 307,
+        "y": 409.765625,
+        "width": 360,
+        "height": 368
+      },
+      "pageInert": false,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": null,
+      "resizeClosed": true,
+      "resizeFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 69.5,
+        "y": 232.8125,
+        "width": 560,
+        "height": 334.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": null,
+    "errors": []
+  },
+  {
+    "viewport": 640,
+    "height": 800,
+    "view": "projects",
+    "initial": {
+      "width": 640,
+      "height": 800,
+      "scrollWidth": 640,
+      "titleText": "مستجدات محفظة المشاريع\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 504,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 504,
+          "right": 548,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 403.734375,
+          "y": 184.765625,
+          "width": 84.265625,
+          "height": 44,
+          "left": 403.734375,
+          "right": 488,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 289.1875,
+          "y": 184.765625,
+          "width": 98.546875,
+          "height": 44,
+          "left": 289.1875,
+          "right": 387.734375,
+          "top": 184.765625,
+          "bottom": 228.765625
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 504,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 504,
+          "right": 548,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 403.734375,
+          "y": 184.765625,
+          "width": 84.265625,
+          "height": 44,
+          "left": 403.734375,
+          "right": 488,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 289.1875,
+          "y": 184.765625,
+          "width": 98.546875,
+          "height": 44,
+          "left": 289.1875,
+          "right": 387.734375,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 564,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 564,
+          "right": 608,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 32,
+          "y": 244.765625,
+          "width": 128.609375,
+          "height": 44,
+          "left": 32,
+          "right": 160.609375,
+          "top": 244.765625,
+          "bottom": 288.765625
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 168.609375,
+          "y": 244.765625,
+          "width": 146.1875,
+          "height": 44,
+          "left": 168.609375,
+          "right": 314.796875,
+          "top": 244.765625,
+          "bottom": 288.765625
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 424,
+          "y": 329.765625,
+          "width": 184,
+          "height": 72,
+          "left": 424,
+          "right": 608,
+          "top": 329.765625,
+          "bottom": 401.765625
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 228,
+          "y": 329.765625,
+          "width": 184,
+          "height": 72,
+          "left": 228,
+          "right": 412,
+          "top": 329.765625,
+          "bottom": 401.765625
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 32,
+          "y": 329.765625,
+          "width": 184,
+          "height": 72,
+          "left": 32,
+          "right": 216,
+          "top": 329.765625,
+          "bottom": 401.765625
+        },
+        {
+          "text": "المزيد من التصفية",
+          "id": "more-trigger",
+          "x": 32,
+          "y": 409.765625,
+          "width": 134.390625,
+          "height": 44,
+          "left": 32,
+          "right": 166.390625,
+          "top": 409.765625,
+          "bottom": 453.765625
+        }
+      ],
+      "logo": {
+        "width": 192,
+        "height": 61.59375,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 288,
+        "y": 236.765625,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 248,
+        "y": 409.765625,
+        "width": 360,
+        "height": 368
+      },
+      "pageInert": false,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": null,
+      "resizeClosed": true,
+      "resizeFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 40,
+        "y": 232.8125,
+        "width": 560,
+        "height": 334.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": {
+      "columns": "280px 280px",
+      "gap": "16px",
+      "scrollWidth": 640
+    },
+    "errors": []
+  },
+  {
+    "viewport": 640,
+    "height": 800,
+    "view": "monthly",
+    "initial": {
+      "width": 640,
+      "height": 800,
+      "scrollWidth": 640,
+      "titleText": "التقرير الشهري للأداء والتنفيذ\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 504,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 504,
+          "right": 548,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 403.734375,
+          "y": 184.765625,
+          "width": 84.265625,
+          "height": 44,
+          "left": 403.734375,
+          "right": 488,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 289.1875,
+          "y": 184.765625,
+          "width": 98.546875,
+          "height": 44,
+          "left": 289.1875,
+          "right": 387.734375,
+          "top": 184.765625,
+          "bottom": 228.765625
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 504,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 504,
+          "right": 548,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 403.734375,
+          "y": 184.765625,
+          "width": 84.265625,
+          "height": 44,
+          "left": 403.734375,
+          "right": 488,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 289.1875,
+          "y": 184.765625,
+          "width": 98.546875,
+          "height": 44,
+          "left": 289.1875,
+          "right": 387.734375,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 564,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 564,
+          "right": 608,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 32,
+          "y": 244.765625,
+          "width": 128.609375,
+          "height": 44,
+          "left": 32,
+          "right": 160.609375,
+          "top": 244.765625,
+          "bottom": 288.765625
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 168.609375,
+          "y": 244.765625,
+          "width": 146.1875,
+          "height": 44,
+          "left": 168.609375,
+          "right": 314.796875,
+          "top": 244.765625,
+          "bottom": 288.765625
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 424,
+          "y": 329.765625,
+          "width": 184,
+          "height": 72,
+          "left": 424,
+          "right": 608,
+          "top": 329.765625,
+          "bottom": 401.765625
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 228,
+          "y": 329.765625,
+          "width": 184,
+          "height": 72,
+          "left": 228,
+          "right": 412,
+          "top": 329.765625,
+          "bottom": 401.765625
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 32,
+          "y": 329.765625,
+          "width": 184,
+          "height": 72,
+          "left": 32,
+          "right": 216,
+          "top": 329.765625,
+          "bottom": 401.765625
+        }
+      ],
+      "logo": {
+        "width": 192,
+        "height": 61.59375,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 288,
+        "y": 236.765625,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 248,
+        "y": 409.765625,
+        "width": 360,
+        "height": 368
+      },
+      "pageInert": false,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": null,
+      "resizeClosed": true,
+      "resizeFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 40,
+        "y": 232.8125,
+        "width": 560,
+        "height": 334.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": null,
+    "errors": []
+  },
+  {
+    "viewport": 600,
+    "height": 800,
+    "view": "projects",
+    "initial": {
+      "width": 600,
+      "height": 800,
+      "scrollWidth": 600,
+      "titleText": "مستجدات محفظة المشاريع\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 464,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 464,
+          "right": 508,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 363.734375,
+          "y": 184.765625,
+          "width": 84.265625,
+          "height": 44,
+          "left": 363.734375,
+          "right": 448,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 249.1875,
+          "y": 184.765625,
+          "width": 98.546875,
+          "height": 44,
+          "left": 249.1875,
+          "right": 347.734375,
+          "top": 184.765625,
+          "bottom": 228.765625
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 464,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 464,
+          "right": 508,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 363.734375,
+          "y": 184.765625,
+          "width": 84.265625,
+          "height": 44,
+          "left": 363.734375,
+          "right": 448,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 249.1875,
+          "y": 184.765625,
+          "width": 98.546875,
+          "height": 44,
+          "left": 249.1875,
+          "right": 347.734375,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 524,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 524,
+          "right": 568,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 32,
+          "y": 244.765625,
+          "width": 128.609375,
+          "height": 44,
+          "left": 32,
+          "right": 160.609375,
+          "top": 244.765625,
+          "bottom": 288.765625
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 168.609375,
+          "y": 244.765625,
+          "width": 146.1875,
+          "height": 44,
+          "left": 168.609375,
+          "right": 314.796875,
+          "top": 244.765625,
+          "bottom": 288.765625
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 397.34375,
+          "y": 329.765625,
+          "width": 170.65625,
+          "height": 72,
+          "left": 397.34375,
+          "right": 568,
+          "top": 329.765625,
+          "bottom": 401.765625
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 214.671875,
+          "y": 329.765625,
+          "width": 170.671875,
+          "height": 72,
+          "left": 214.671875,
+          "right": 385.34375,
+          "top": 329.765625,
+          "bottom": 401.765625
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 32,
+          "y": 329.765625,
+          "width": 170.671875,
+          "height": 72,
+          "left": 32,
+          "right": 202.671875,
+          "top": 329.765625,
+          "bottom": 401.765625
+        },
+        {
+          "text": "المزيد من التصفية",
+          "id": "more-trigger",
+          "x": 32,
+          "y": 409.765625,
+          "width": 134.390625,
+          "height": 44,
+          "left": 32,
+          "right": 166.390625,
+          "top": 409.765625,
+          "bottom": 453.765625
+        }
+      ],
+      "logo": {
+        "width": 192,
+        "height": 61.59375,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 248,
+        "y": 236.765625,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 208,
+        "y": 409.765625,
+        "width": 360,
+        "height": 368
+      },
+      "pageInert": false,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": null,
+      "resizeClosed": true,
+      "resizeFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 32,
+        "y": 232.8125,
+        "width": 536,
+        "height": 334.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": {
+      "columns": "260px 260px",
+      "gap": "16px",
+      "scrollWidth": 600
+    },
+    "errors": []
+  },
+  {
+    "viewport": 600,
+    "height": 800,
+    "view": "monthly",
+    "initial": {
+      "width": 600,
+      "height": 800,
+      "scrollWidth": 600,
+      "titleText": "التقرير الشهري للأداء والتنفيذ\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 464,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 464,
+          "right": 508,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 363.734375,
+          "y": 184.765625,
+          "width": 84.265625,
+          "height": 44,
+          "left": 363.734375,
+          "right": 448,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 249.1875,
+          "y": 184.765625,
+          "width": 98.546875,
+          "height": 44,
+          "left": 249.1875,
+          "right": 347.734375,
+          "top": 184.765625,
+          "bottom": 228.765625
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 464,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 464,
+          "right": 508,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 363.734375,
+          "y": 184.765625,
+          "width": 84.265625,
+          "height": 44,
+          "left": 363.734375,
+          "right": 448,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 249.1875,
+          "y": 184.765625,
+          "width": 98.546875,
+          "height": 44,
+          "left": 249.1875,
+          "right": 347.734375,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 524,
+          "y": 184.765625,
+          "width": 44,
+          "height": 44,
+          "left": 524,
+          "right": 568,
+          "top": 184.765625,
+          "bottom": 228.765625
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 32,
+          "y": 244.765625,
+          "width": 128.609375,
+          "height": 44,
+          "left": 32,
+          "right": 160.609375,
+          "top": 244.765625,
+          "bottom": 288.765625
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 168.609375,
+          "y": 244.765625,
+          "width": 146.1875,
+          "height": 44,
+          "left": 168.609375,
+          "right": 314.796875,
+          "top": 244.765625,
+          "bottom": 288.765625
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 397.34375,
+          "y": 329.765625,
+          "width": 170.65625,
+          "height": 72,
+          "left": 397.34375,
+          "right": 568,
+          "top": 329.765625,
+          "bottom": 401.765625
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 214.671875,
+          "y": 329.765625,
+          "width": 170.671875,
+          "height": 72,
+          "left": 214.671875,
+          "right": 385.34375,
+          "top": 329.765625,
+          "bottom": 401.765625
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 32,
+          "y": 329.765625,
+          "width": 170.671875,
+          "height": 72,
+          "left": 32,
+          "right": 202.671875,
+          "top": 329.765625,
+          "bottom": 401.765625
+        }
+      ],
+      "logo": {
+        "width": 192,
+        "height": 61.59375,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 248,
+        "y": 236.765625,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 208,
+        "y": 409.765625,
+        "width": 360,
+        "height": 368
+      },
+      "pageInert": false,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": null,
+      "resizeClosed": true,
+      "resizeFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 32,
+        "y": 232.8125,
+        "width": 536,
+        "height": 334.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": null,
+    "errors": []
+  },
+  {
+    "viewport": 390,
+    "height": 600,
+    "view": "projects",
+    "initial": {
+      "width": 390,
+      "height": 600,
+      "scrollWidth": 390,
+      "titleText": "مستجدات محفظة المشاريع\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 274,
+          "y": 239.171875,
+          "width": 44,
+          "height": 44,
+          "left": 274,
+          "right": 318,
+          "top": 239.171875,
+          "bottom": 283.171875
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 152.140625,
+          "y": 239.171875,
+          "width": 84.265625,
+          "height": 44,
+          "left": 152.140625,
+          "right": 236.40625,
+          "top": 239.171875,
+          "bottom": 283.171875
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 16,
+          "y": 239.171875,
+          "width": 98.546875,
+          "height": 44,
+          "left": 16,
+          "right": 114.546875,
+          "top": 239.171875,
+          "bottom": 283.171875
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 274,
+          "y": 239.171875,
+          "width": 44,
+          "height": 44,
+          "left": 274,
+          "right": 318,
+          "top": 239.171875,
+          "bottom": 283.171875
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 152.140625,
+          "y": 239.171875,
+          "width": 84.265625,
+          "height": 44,
+          "left": 152.140625,
+          "right": 236.40625,
+          "top": 239.171875,
+          "bottom": 283.171875
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 16,
+          "y": 239.171875,
+          "width": 98.546875,
+          "height": 44,
+          "left": 16,
+          "right": 114.546875,
+          "top": 239.171875,
+          "bottom": 283.171875
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 330,
+          "y": 239.171875,
+          "width": 44,
+          "height": 44,
+          "left": 330,
+          "right": 374,
+          "top": 239.171875,
+          "bottom": 283.171875
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 16,
+          "y": 299.171875,
+          "width": 175,
+          "height": 44,
+          "left": 16,
+          "right": 191,
+          "top": 299.171875,
+          "bottom": 343.171875
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 199,
+          "y": 299.171875,
+          "width": 175,
+          "height": 44,
+          "left": 199,
+          "right": 374,
+          "top": 299.171875,
+          "bottom": 343.171875
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 16,
+          "y": 380.171875,
+          "width": 358,
+          "height": 72,
+          "left": 16,
+          "right": 374,
+          "top": 380.171875,
+          "bottom": 452.171875
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 16,
+          "y": 464.171875,
+          "width": 358,
+          "height": 72,
+          "left": 16,
+          "right": 374,
+          "top": 464.171875,
+          "bottom": 536.171875
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 16,
+          "y": 548.171875,
+          "width": 358,
+          "height": 72,
+          "left": 16,
+          "right": 374,
+          "top": 548.171875,
+          "bottom": 620.171875
+        },
+        {
+          "text": "المزيد من التصفية",
+          "id": "more-trigger",
+          "x": 239.609375,
+          "y": 658.5625,
+          "width": 134.390625,
+          "height": 44,
+          "left": 239.609375,
+          "right": 374,
+          "top": 658.5625,
+          "bottom": 702.5625
+        }
+      ],
+      "logo": {
+        "width": 144,
+        "height": 46.1875,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 54,
+        "y": 180,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 0,
+        "y": 176,
+        "width": 390,
+        "height": 424
+      },
+      "pageInert": true,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": true,
+      "resizeClosed": true,
+      "resizeFocusReturned": true,
+      "doneClosed": true,
+      "doneFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 16,
+        "y": 140.8125,
+        "width": 358,
+        "height": 318.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": {
+      "columns": "358px",
+      "gap": "16px",
+      "scrollWidth": 390
+    },
+    "errors": []
+  },
+  {
+    "viewport": 390,
+    "height": 600,
+    "view": "monthly",
+    "initial": {
+      "width": 390,
+      "height": 600,
+      "scrollWidth": 390,
+      "titleText": "التقرير الشهري للأداء والتنفيذ\n\nحتى تاريخ 30/09/2026",
+      "titleStyle": {
+        "font": "\"TEC DIN\"",
+        "size": "38px",
+        "weight": "400"
+      },
+      "dateStyle": {
+        "size": "14px",
+        "font": "\"TEC Dubai\""
+      },
+      "nav": [
+        {
+          "text": "البحث",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 274,
+          "y": 239.171875,
+          "width": 44,
+          "height": 44,
+          "left": 274,
+          "right": 318,
+          "top": 239.171875,
+          "bottom": 283.171875
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "current": "page",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 152.140625,
+          "y": 239.171875,
+          "width": 84.265625,
+          "height": 44,
+          "left": 152.140625,
+          "right": 236.40625,
+          "top": 239.171875,
+          "bottom": 283.171875
+        },
+        {
+          "text": "محفظة المشاريع",
+          "current": null,
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"TEC Dubai\"",
+          "size": "16px",
+          "x": 16,
+          "y": 239.171875,
+          "width": 98.546875,
+          "height": 44,
+          "left": 16,
+          "right": 114.546875,
+          "top": 239.171875,
+          "bottom": 283.171875
+        }
+      ],
+      "navigationOverlap": false,
+      "controlBounds": [
+        {
+          "text": "البحث",
+          "id": "",
+          "x": 274,
+          "y": 239.171875,
+          "width": 44,
+          "height": 44,
+          "left": 274,
+          "right": 318,
+          "top": 239.171875,
+          "bottom": 283.171875
+        },
+        {
+          "text": "اللوحة الشهرية",
+          "id": "",
+          "x": 152.140625,
+          "y": 239.171875,
+          "width": 84.265625,
+          "height": 44,
+          "left": 152.140625,
+          "right": 236.40625,
+          "top": 239.171875,
+          "bottom": 283.171875
+        },
+        {
+          "text": "محفظة المشاريع",
+          "id": "",
+          "x": 16,
+          "y": 239.171875,
+          "width": 98.546875,
+          "height": 44,
+          "left": 16,
+          "right": 114.546875,
+          "top": 239.171875,
+          "bottom": 283.171875
+        },
+        {
+          "text": "صفحات التطبيق",
+          "id": "menu-trigger",
+          "x": 330,
+          "y": 239.171875,
+          "width": 44,
+          "height": 44,
+          "left": 330,
+          "right": 374,
+          "top": 239.171875,
+          "bottom": 283.171875
+        },
+        {
+          "text": "طباعة التقرير",
+          "id": "",
+          "x": 16,
+          "y": 299.171875,
+          "width": 175,
+          "height": 44,
+          "left": 16,
+          "right": 191,
+          "top": 299.171875,
+          "bottom": 343.171875
+        },
+        {
+          "text": "إعدادات الطباعة",
+          "id": "settings-trigger",
+          "x": 199,
+          "y": 299.171875,
+          "width": 175,
+          "height": 44,
+          "left": 199,
+          "right": 374,
+          "top": 299.171875,
+          "bottom": 343.171875
+        },
+        {
+          "text": "القطاع\nجميع القطاعات",
+          "id": "field-sector",
+          "x": 16,
+          "y": 380.171875,
+          "width": 358,
+          "height": 72,
+          "left": 16,
+          "right": 374,
+          "top": 380.171875,
+          "bottom": 452.171875
+        },
+        {
+          "text": "الوحدة التنظيمية\nجميع الوحدات",
+          "id": "field-unit",
+          "x": 16,
+          "y": 464.171875,
+          "width": 358,
+          "height": 72,
+          "left": 16,
+          "right": 374,
+          "top": 464.171875,
+          "bottom": 536.171875
+        },
+        {
+          "text": "الجهة المعنية\nجميع الجهات",
+          "id": "field-entity",
+          "x": 16,
+          "y": 548.171875,
+          "width": 358,
+          "height": 72,
+          "left": 16,
+          "right": 374,
+          "top": 548.171875,
+          "bottom": 620.171875
+        }
+      ],
+      "logo": {
+        "width": 144,
+        "height": 46.1875,
+        "naturalWidth": 2048,
+        "naturalHeight": 657
+      },
+      "footer": "الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة",
+      "fontsLoaded": true
+    },
+    "menu": {
+      "visible": true,
+      "rect": {
+        "x": 54,
+        "y": 180,
+        "width": 320,
+        "height": 404
+      },
+      "insideViewport": true,
+      "firstArrowFocus": "اللوحة الشهرية",
+      "endFocus": "ملاحظات البيانات",
+      "enterFirstFocus": "اللوحة الشهرية",
+      "escClosed": true,
+      "focusReturned": true,
+      "outsideClosed": true
+    },
+    "filter": {
+      "rect": {
+        "x": 0,
+        "y": 176,
+        "width": 390,
+        "height": 424
+      },
+      "pageInert": true,
+      "escClosed": true,
+      "focusReturned": true,
+      "dismissClosed": true,
+      "focusTrapped": true,
+      "resizeClosed": true,
+      "resizeFocusReturned": true,
+      "doneClosed": true,
+      "doneFocusReturned": true
+    },
+    "settings": {
+      "rect": {
+        "x": 16,
+        "y": 140.8125,
+        "width": 358,
+        "height": 318.375
+      },
+      "closed": true,
+      "focusReturned": true
+    },
+    "extraFilters": null,
+    "errors": []
+  }
+]
