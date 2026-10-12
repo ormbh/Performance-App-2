@@ -1,0 +1,22 @@
+{
+  "stage": "Preview only; app v144 unchanged",
+  "facts": {
+    "total": 84,
+    "done": 10,
+    "active": 61,
+    "held": 4,
+    "notStarted": 7,
+    "transferred": 2,
+    "unknown": 0,
+    "followups": 8
+  },
+  "reconciliation": 84,
+  "keyboardDisclosureEnterAndSpace": true,
+  "keyboardJump": {
+    "focus": "mc-followup-heading",
+    "y": 48.4375,
+    "scroll": 1859
+  },
+  "sourceAndScopeUnchanged": true,
+  "fixtureSHA256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+}
