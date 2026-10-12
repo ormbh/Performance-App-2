@@ -1,3 +1,31 @@
+# Revision 19 — monthly completion captions and separate agenda boxes
+
+Approved on 13 October 2026. Applies to the monthly dashboard and its continuous/A4 PDF exports. Retain the approved TEC fonts, colors, source definitions, scope, totals and all unrelated report behavior.
+
+## Agenda categories
+
+Show **الأجندة المعتمدة** and **المواضيع المستجدة** in two separate equal-width Linen boxes, with approved agenda on the right and emerging topics on the left. Use a 12px screen gap and 9px corner radius. Preserve 18px Dubai Regular category names and 28px DIN Next LT Arabic values. At narrow phone widths, allow the label and figure to wrap within each equal box without shrinking the approved font. In the PDF composition, use separate equal boxes with a 3mm gap and retain the approved print type sizes.
+
+## Completion captions
+
+Keep **نسبة المنجز** and the percentage directly beside one another, right aligned on a common baseline. Use 14px Dubai Regular, Ink **#4F4E4E**, an 8px screen gap, and isolated LTR percentages. PDF captions retain their existing 9pt size with a 2mm label/value gap. Round valid percentages to at most one decimal place.
+
+| Card | Numerator | Denominator | Placement |
+| --- | --- | --- | --- |
+| Annual agenda | Completed agenda items | All annual-agenda items in scope | Beneath existing status-distribution bar |
+| Council decisions | Completed decisions in follow-up scope | All decisions in follow-up scope, including missing statuses | Beneath existing status-distribution bar |
+| Legislation | Completed within SLC deadline + completed after SLC deadline | All legislation in scope | Beneath existing status-distribution bar |
+| Special projects | Completed in each requester subgroup | All projects in that subgroup | Beneath each existing completion bar |
+| Budgeted projects | Completed budgeted projects | All budgeted projects in scope | Beneath a new solid green/Linen completion bar after the status figures and before quarters |
+
+The budgeted-project completion bar uses all projects as its denominator, including statuses omitted from the headline figures. Its Linen remainder means not completed. It does not represent expenditure or allocation. Keep both financial bars and their calculations unchanged; do not restore the removed financial percentage note.
+
+A valid zero numerator with a positive total displays **0%**. Missing, nonfinite, negative or impossible values and zero denominators produce no completion bar/caption. A distribution caption appears only when its distribution bar is valid. Suppress the legislation distribution and caption when the underlying status projection overlaps. Retain all existing source diagnostics and zero/missing distinctions.
+
+Current implementation: **Performance App v144**. Focused verification and limits belong in **VERIFICATION-v144.md**. Earlier revisions below retain their historical context and apply except where superseded above.
+
+---
+
 # Revision 18 — short English monthly PDF filenames and targeted PDF note cleanup
 
 Use **TEC_Monthly_Mmm_yy[_scope].pdf** for monthly dashboard PDF downloads. The month abbreviation and two-digit year come from the report calculation date, never the download date. Examples: **TEC_Monthly_Sep_26.pdf**, **TEC_Monthly_Sep_26_Dubai_Plan_Office.pdf**, and **TEC_Monthly_Sep_26_Governance_Sector.pdf**.
@@ -10,7 +38,7 @@ Match the existing short Arabic source names and the full supplied Arabic names,
 
 Convert **&** to **and**, then replace spaces and punctuation, including hyphens, with underscores. Use ASCII letters, digits and underscores with the genuine **.pdf** extension and no hidden direction controls. Preserve the date and extension when shortening an unusually long scope; limit the complete filename to 240 characters. Unlisted Arabic names use **Selected_Unit** or **Selected_Sector** until an approved English mapping is supplied; do not invent a translation or silently omit an active partial scope. Unlisted ASCII English names remain usable after the same filename cleanup.
 
-Dashboard dropdowns, scope summaries and PDF headers retain **first selected name +N** for partial selections and **الكل** for all/unrestricted selections. PDF content remains Arabic. Other report types retain their naming rules. The filename rules above change naming only. The PDF note exceptions below apply separately to the monthly exported composition. Current implementation: **Performance App v143**; focused verification and its limits belong in **VERIFICATION-v143.md**.
+Dashboard dropdowns, scope summaries and PDF headers retain **first selected name +N** for partial selections and **الكل** for all/unrestricted selections. PDF content remains Arabic. Other report types retain their naming rules. The filename rules above change naming only. The PDF note exceptions below apply separately to the monthly exported composition. Historical implementation: **Performance App v143**; focused verification and its limits belong in **VERIFICATION-v143.md**.
 
 ## Monthly PDF note cleanup
 

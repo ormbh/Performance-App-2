@@ -1,0 +1,5325 @@
+{
+  "scope": "Frozen illustrative workbook, real v143 baseline and v144 app, headless Chromium scale 1. Not operational workbook certification.",
+  "fixtureSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "checks": [
+    {
+      "check": "build144",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "baseline counts preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "baseline keys preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "baseline financial preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "baseline strategy preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "baseline deltas preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "desktop1920 one caption per denominator",
+      "pass": true,
+      "detail": [
+        {
+          "total": "agendaTotal",
+          "parts": "agendaDone",
+          "text": "نسبة المنجز36.8%",
+          "percent": "36.8%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-stack",
+          "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+          "width": 850,
+          "height": 22.390625
+        },
+        {
+          "total": "councilTotal",
+          "parts": "councilDone",
+          "text": "نسبة المنجز54.3%",
+          "percent": "54.3%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-stack",
+          "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+          "width": 850,
+          "height": 22.390625
+        },
+        {
+          "total": "legTotal",
+          "parts": "legOnTime legOverrun",
+          "text": "نسبة المنجز94.2%",
+          "percent": "94.2%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-stack",
+          "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+          "width": 850,
+          "height": 22.390625
+        },
+        {
+          "total": "specialLead",
+          "parts": "specialLeadDone",
+          "text": "نسبة المنجز50%",
+          "percent": "50%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-meter",
+          "barAria": "نسبة المنجز 50%",
+          "width": 413,
+          "height": 22.390625
+        },
+        {
+          "total": "specialGs",
+          "parts": "specialGsDone",
+          "text": "نسبة المنجز27.8%",
+          "percent": "27.8%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-meter",
+          "barAria": "نسبة المنجز 27.8%",
+          "width": 388,
+          "height": 22.390625
+        },
+        {
+          "total": "secTotal",
+          "parts": "secDone",
+          "text": "نسبة المنجز11.9%",
+          "percent": "11.9%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-meter",
+          "barAria": "نسبة المنجز 11.9%",
+          "width": 850,
+          "height": 22.390625
+        }
+      ]
+    },
+    {
+      "check": "desktop1920 exact approved caption locations",
+      "pass": true,
+      "detail": [
+        "agendaTotal",
+        "councilTotal",
+        "legTotal",
+        "specialLead",
+        "specialGs",
+        "secTotal"
+      ]
+    },
+    {
+      "check": "desktop1920 agendaTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 councilTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 legTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 specialLead denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 413,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 specialGs denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 388,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 secTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 agendaTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 agendaTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 agendaTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 councilTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 councilTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 councilTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 legTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 legTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 legTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 specialLead caption typography",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 413,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 specialLead adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 413,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 specialLead belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 413,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 specialGs caption typography",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 388,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 specialGs adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 388,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 specialGs belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 388,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 secTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 secTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 secTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "desktop1920 no financial or strategy completion captions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "desktop1920 no viewport overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "desktop1920 two equal agenda boxes",
+      "pass": true,
+      "detail": {
+        "gap": "12px",
+        "background": "rgba(0, 0, 0, 0)",
+        "kids": [
+          {
+            "width": 419,
+            "height": 76.390625,
+            "x": 1428,
+            "top": 575.5625,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 583.5625,
+            "text": "الأجندة المعتمدة",
+            "drill": "agendaPlanned"
+          },
+          {
+            "width": 419,
+            "height": 76.390625,
+            "x": 997,
+            "top": 575.5625,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 583.5625,
+            "text": "المواضيع المستجدة",
+            "drill": "agendaEmerging"
+          }
+        ]
+      }
+    },
+    {
+      "check": "desktop1920 independent linen backgrounds / 12px gap / 18px labels",
+      "pass": true,
+      "detail": {
+        "gap": "12px",
+        "background": "rgba(0, 0, 0, 0)",
+        "kids": [
+          {
+            "width": 419,
+            "height": 76.390625,
+            "x": 1428,
+            "top": 575.5625,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 583.5625,
+            "text": "الأجندة المعتمدة",
+            "drill": "agendaPlanned"
+          },
+          {
+            "width": 419,
+            "height": 76.390625,
+            "x": 997,
+            "top": 575.5625,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 583.5625,
+            "text": "المواضيع المستجدة",
+            "drill": "agendaEmerging"
+          }
+        ]
+      }
+    },
+    {
+      "check": "desktop1920 agenda drilldown keys retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "desktop1920 agenda figures share a baseline",
+      "pass": true,
+      "detail": {
+        "gap": "12px",
+        "background": "rgba(0, 0, 0, 0)",
+        "kids": [
+          {
+            "width": 419,
+            "height": 76.390625,
+            "x": 1428,
+            "top": 575.5625,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 583.5625,
+            "text": "الأجندة المعتمدة",
+            "drill": "agendaPlanned"
+          },
+          {
+            "width": 419,
+            "height": 76.390625,
+            "x": 997,
+            "top": 575.5625,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 583.5625,
+            "text": "المواضيع المستجدة",
+            "drill": "agendaEmerging"
+          }
+        ]
+      }
+    },
+    {
+      "check": "guard / zero completed",
+      "pass": true,
+      "detail": {
+        "name": "zero completed",
+        "html": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 0%\"><span class=\"apple-fill-complete\" style=\"width:0%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">0%</bdi></p>",
+        "print": "<div class=\"mp-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 0%\"><span class=\"apple-fill-complete\" style=\"width:0%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">0%</bdi></p>"
+      }
+    },
+    {
+      "check": "guard / full completed",
+      "pass": true,
+      "detail": {
+        "name": "full completed",
+        "html": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 100%\"><span class=\"apple-fill-complete\" style=\"width:100%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">100%</bdi></p>",
+        "print": "<div class=\"mp-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 100%\"><span class=\"apple-fill-complete\" style=\"width:100%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">100%</bdi></p>"
+      }
+    },
+    {
+      "check": "guard / zero denominator",
+      "pass": true,
+      "detail": {
+        "name": "zero denominator",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / missing numerator",
+      "pass": true,
+      "detail": {
+        "name": "missing numerator",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / missing denominator",
+      "pass": true,
+      "detail": {
+        "name": "missing denominator",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / null numerator",
+      "pass": true,
+      "detail": {
+        "name": "null numerator",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / negative numerator",
+      "pass": true,
+      "detail": {
+        "name": "negative numerator",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / negative denominator",
+      "pass": true,
+      "detail": {
+        "name": "negative denominator",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / oversized numerator",
+      "pass": true,
+      "detail": {
+        "name": "oversized numerator",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / nonfinite numerator",
+      "pass": true,
+      "detail": {
+        "name": "nonfinite numerator",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / nan denominator",
+      "pass": true,
+      "detail": {
+        "name": "nan denominator",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / string numerator",
+      "pass": true,
+      "detail": {
+        "name": "string numerator",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / unavailable numerator",
+      "pass": true,
+      "detail": {
+        "name": "unavailable numerator",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / unavailable denominator",
+      "pass": true,
+      "detail": {
+        "name": "unavailable denominator",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / sum cohorts",
+      "pass": true,
+      "detail": {
+        "name": "sum cohorts",
+        "html": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 71.4%\"><span class=\"apple-fill-complete\" style=\"width:71.42857142857143%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"on late\"><span>نسبة المنجز</span><bdi dir=\"ltr\">71.4%</bdi></p>",
+        "print": "<div class=\"mp-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 71.4%\"><span class=\"apple-fill-complete\" style=\"width:71.42857142857143%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"on late\"><span>نسبة المنجز</span><bdi dir=\"ltr\">71.4%</bdi></p>"
+      }
+    },
+    {
+      "check": "guard / sum unavailable cohort",
+      "pass": true,
+      "detail": {
+        "name": "sum unavailable cohort",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / sum oversized",
+      "pass": true,
+      "detail": {
+        "name": "sum oversized",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / distribution disjoint",
+      "pass": true,
+      "detail": {
+        "name": "distribution disjoint",
+        "html": "<div class=\"wb-apple-stack\" role=\"img\" aria-label=\"on: 3، after: 2، pending: 1، بدون حالة معتمدة: 1\"><span class=\"apple-fill-complete\" data-status-metric=\"legOnTime\" style=\"width:42.857142857142854%\"></span><span class=\"apple-fill-complete-after\" data-status-metric=\"legOverrun\" style=\"width:28.57142857142857%\"></span><span class=\"apple-fill-active\" data-status-metric=\"legPending\" style=\"width:14.285714285714285%\"></span><span class=\"apple-fill-unknown\" data-status-metric=\"unclassified\" style=\"width:14.285714285714285%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"legTotal\" data-completion-parts=\"legOnTime legOverrun\"><span>نسبة المنجز</span><bdi dir=\"ltr\">71.4%</bdi></p>",
+        "print": "<div class=\"mp-apple-stack\" role=\"img\" aria-label=\"on: 3، after: 2، pending: 1، بدون حالة معتمدة: 1\"><span class=\"apple-fill-complete\" data-status-metric=\"legOnTime\" style=\"width:42.857142857142854%\"></span><span class=\"apple-fill-complete-after\" data-status-metric=\"legOverrun\" style=\"width:28.57142857142857%\"></span><span class=\"apple-fill-active\" data-status-metric=\"legPending\" style=\"width:14.285714285714285%\"></span><span class=\"apple-fill-unknown\" data-status-metric=\"unclassified\" style=\"width:14.285714285714285%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"legTotal\" data-completion-parts=\"legOnTime legOverrun\"><span>نسبة المنجز</span><bdi dir=\"ltr\">71.4%</bdi></p>"
+      }
+    },
+    {
+      "check": "guard / distribution overlap",
+      "pass": true,
+      "detail": {
+        "name": "distribution overlap",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / distribution oversized",
+      "pass": true,
+      "detail": {
+        "name": "distribution oversized",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "guard / distribution missing cohort",
+      "pass": true,
+      "detail": {
+        "name": "distribution missing cohort",
+        "html": "",
+        "print": ""
+      }
+    },
+    {
+      "check": "screen1440 one caption per denominator",
+      "pass": true,
+      "detail": [
+        {
+          "total": "agendaTotal",
+          "parts": "agendaDone",
+          "text": "نسبة المنجز36.8%",
+          "percent": "36.8%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-stack",
+          "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+          "width": 610,
+          "height": 22.390625
+        },
+        {
+          "total": "councilTotal",
+          "parts": "councilDone",
+          "text": "نسبة المنجز54.3%",
+          "percent": "54.3%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-stack",
+          "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+          "width": 610,
+          "height": 22.390625
+        },
+        {
+          "total": "legTotal",
+          "parts": "legOnTime legOverrun",
+          "text": "نسبة المنجز94.2%",
+          "percent": "94.2%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-stack",
+          "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+          "width": 610,
+          "height": 22.390625
+        },
+        {
+          "total": "specialLead",
+          "parts": "specialLeadDone",
+          "text": "نسبة المنجز50%",
+          "percent": "50%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-meter",
+          "barAria": "نسبة المنجز 50%",
+          "width": 293,
+          "height": 22.390625
+        },
+        {
+          "total": "specialGs",
+          "parts": "specialGsDone",
+          "text": "نسبة المنجز27.8%",
+          "percent": "27.8%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-meter",
+          "barAria": "نسبة المنجز 27.8%",
+          "width": 268,
+          "height": 22.390625
+        },
+        {
+          "total": "secTotal",
+          "parts": "secDone",
+          "text": "نسبة المنجز11.9%",
+          "percent": "11.9%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-meter",
+          "barAria": "نسبة المنجز 11.9%",
+          "width": 610,
+          "height": 22.390625
+        }
+      ]
+    },
+    {
+      "check": "screen1440 exact approved caption locations",
+      "pass": true,
+      "detail": [
+        "agendaTotal",
+        "councilTotal",
+        "legTotal",
+        "specialLead",
+        "specialGs",
+        "secTotal"
+      ]
+    },
+    {
+      "check": "screen1440 agendaTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 councilTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 legTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 specialLead denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 293,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 specialGs denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 268,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 secTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 agendaTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 agendaTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 agendaTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 councilTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 councilTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 councilTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 legTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 legTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 legTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 specialLead caption typography",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 293,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 specialLead adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 293,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 specialLead belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 293,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 specialGs caption typography",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 268,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 specialGs adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 268,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 specialGs belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 268,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 secTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 secTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 secTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 610,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen1440 no financial or strategy completion captions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "screen1440 no viewport overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "screen1440 two equal agenda boxes",
+      "pass": true,
+      "detail": {
+        "gap": "12px",
+        "background": "rgba(0, 0, 0, 0)",
+        "kids": [
+          {
+            "width": 299,
+            "height": 76.390625,
+            "x": 1068,
+            "top": 575.5625,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 583.5625,
+            "text": "الأجندة المعتمدة",
+            "drill": "agendaPlanned"
+          },
+          {
+            "width": 299,
+            "height": 76.390625,
+            "x": 757,
+            "top": 575.5625,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 583.5625,
+            "text": "المواضيع المستجدة",
+            "drill": "agendaEmerging"
+          }
+        ]
+      }
+    },
+    {
+      "check": "screen1440 independent linen backgrounds / 12px gap / 18px labels",
+      "pass": true,
+      "detail": {
+        "gap": "12px",
+        "background": "rgba(0, 0, 0, 0)",
+        "kids": [
+          {
+            "width": 299,
+            "height": 76.390625,
+            "x": 1068,
+            "top": 575.5625,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 583.5625,
+            "text": "الأجندة المعتمدة",
+            "drill": "agendaPlanned"
+          },
+          {
+            "width": 299,
+            "height": 76.390625,
+            "x": 757,
+            "top": 575.5625,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 583.5625,
+            "text": "المواضيع المستجدة",
+            "drill": "agendaEmerging"
+          }
+        ]
+      }
+    },
+    {
+      "check": "screen1440 agenda drilldown keys retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "screen1440 agenda figures share a baseline",
+      "pass": true,
+      "detail": {
+        "gap": "12px",
+        "background": "rgba(0, 0, 0, 0)",
+        "kids": [
+          {
+            "width": 299,
+            "height": 76.390625,
+            "x": 1068,
+            "top": 575.5625,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 583.5625,
+            "text": "الأجندة المعتمدة",
+            "drill": "agendaPlanned"
+          },
+          {
+            "width": 299,
+            "height": 76.390625,
+            "x": 757,
+            "top": 575.5625,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 583.5625,
+            "text": "المواضيع المستجدة",
+            "drill": "agendaEmerging"
+          }
+        ]
+      }
+    },
+    {
+      "check": "screen390 one caption per denominator",
+      "pass": true,
+      "detail": [
+        {
+          "total": "agendaTotal",
+          "parts": "agendaDone",
+          "text": "نسبة المنجز36.8%",
+          "percent": "36.8%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-stack",
+          "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+          "width": 324,
+          "height": 22.390625
+        },
+        {
+          "total": "councilTotal",
+          "parts": "councilDone",
+          "text": "نسبة المنجز54.3%",
+          "percent": "54.3%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-stack",
+          "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+          "width": 324,
+          "height": 22.390625
+        },
+        {
+          "total": "legTotal",
+          "parts": "legOnTime legOverrun",
+          "text": "نسبة المنجز94.2%",
+          "percent": "94.2%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-stack",
+          "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+          "width": 324,
+          "height": 22.390625
+        },
+        {
+          "total": "specialLead",
+          "parts": "specialLeadDone",
+          "text": "نسبة المنجز50%",
+          "percent": "50%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-meter",
+          "barAria": "نسبة المنجز 50%",
+          "width": 324,
+          "height": 22.390625
+        },
+        {
+          "total": "specialGs",
+          "parts": "specialGsDone",
+          "text": "نسبة المنجز27.8%",
+          "percent": "27.8%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-meter",
+          "barAria": "نسبة المنجز 27.8%",
+          "width": 324,
+          "height": 22.390625
+        },
+        {
+          "total": "secTotal",
+          "parts": "secDone",
+          "text": "نسبة المنجز11.9%",
+          "percent": "11.9%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-meter",
+          "barAria": "نسبة المنجز 11.9%",
+          "width": 324,
+          "height": 22.390625
+        }
+      ]
+    },
+    {
+      "check": "screen390 exact approved caption locations",
+      "pass": true,
+      "detail": [
+        "agendaTotal",
+        "councilTotal",
+        "legTotal",
+        "specialLead",
+        "specialGs",
+        "secTotal"
+      ]
+    },
+    {
+      "check": "screen390 agendaTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 councilTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 legTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 specialLead denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 specialGs denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 secTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 agendaTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 agendaTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 agendaTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 councilTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 councilTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 councilTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 legTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 legTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 legTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 specialLead caption typography",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 specialLead adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 specialLead belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 specialGs caption typography",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 specialGs adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 specialGs belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 secTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 secTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 secTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 324,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen390 no financial or strategy completion captions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "screen390 no viewport overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "screen390 two equal agenda boxes",
+      "pass": true,
+      "detail": {
+        "gap": "12px",
+        "background": "rgba(0, 0, 0, 0)",
+        "kids": [
+          {
+            "width": 156,
+            "height": 137.984375,
+            "x": 201,
+            "top": 904.9375,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 974.53125,
+            "text": "الأجندة المعتمدة",
+            "drill": "agendaPlanned"
+          },
+          {
+            "width": 156,
+            "height": 137.984375,
+            "x": 33,
+            "top": 904.9375,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 974.53125,
+            "text": "المواضيع المستجدة",
+            "drill": "agendaEmerging"
+          }
+        ]
+      }
+    },
+    {
+      "check": "screen390 independent linen backgrounds / 12px gap / 18px labels",
+      "pass": true,
+      "detail": {
+        "gap": "12px",
+        "background": "rgba(0, 0, 0, 0)",
+        "kids": [
+          {
+            "width": 156,
+            "height": 137.984375,
+            "x": 201,
+            "top": 904.9375,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 974.53125,
+            "text": "الأجندة المعتمدة",
+            "drill": "agendaPlanned"
+          },
+          {
+            "width": 156,
+            "height": 137.984375,
+            "x": 33,
+            "top": 904.9375,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 974.53125,
+            "text": "المواضيع المستجدة",
+            "drill": "agendaEmerging"
+          }
+        ]
+      }
+    },
+    {
+      "check": "screen390 agenda drilldown keys retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "screen390 agenda figures share a baseline",
+      "pass": true,
+      "detail": {
+        "gap": "12px",
+        "background": "rgba(0, 0, 0, 0)",
+        "kids": [
+          {
+            "width": 156,
+            "height": 137.984375,
+            "x": 201,
+            "top": 904.9375,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 974.53125,
+            "text": "الأجندة المعتمدة",
+            "drill": "agendaPlanned"
+          },
+          {
+            "width": 156,
+            "height": 137.984375,
+            "x": 33,
+            "top": 904.9375,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 974.53125,
+            "text": "المواضيع المستجدة",
+            "drill": "agendaEmerging"
+          }
+        ]
+      }
+    },
+    {
+      "check": "screen320 one caption per denominator",
+      "pass": true,
+      "detail": [
+        {
+          "total": "agendaTotal",
+          "parts": "agendaDone",
+          "text": "نسبة المنجز36.8%",
+          "percent": "36.8%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-stack",
+          "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+          "width": 254,
+          "height": 22.390625
+        },
+        {
+          "total": "councilTotal",
+          "parts": "councilDone",
+          "text": "نسبة المنجز54.3%",
+          "percent": "54.3%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-stack",
+          "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+          "width": 254,
+          "height": 22.390625
+        },
+        {
+          "total": "legTotal",
+          "parts": "legOnTime legOverrun",
+          "text": "نسبة المنجز94.2%",
+          "percent": "94.2%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-stack",
+          "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+          "width": 254,
+          "height": 22.390625
+        },
+        {
+          "total": "specialLead",
+          "parts": "specialLeadDone",
+          "text": "نسبة المنجز50%",
+          "percent": "50%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-meter",
+          "barAria": "نسبة المنجز 50%",
+          "width": 254,
+          "height": 22.390625
+        },
+        {
+          "total": "specialGs",
+          "parts": "specialGsDone",
+          "text": "نسبة المنجز27.8%",
+          "percent": "27.8%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-meter",
+          "barAria": "نسبة المنجز 27.8%",
+          "width": 254,
+          "height": 22.390625
+        },
+        {
+          "total": "secTotal",
+          "parts": "secDone",
+          "text": "نسبة المنجز11.9%",
+          "percent": "11.9%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-meter",
+          "barAria": "نسبة المنجز 11.9%",
+          "width": 254,
+          "height": 22.390625
+        }
+      ]
+    },
+    {
+      "check": "screen320 exact approved caption locations",
+      "pass": true,
+      "detail": [
+        "agendaTotal",
+        "councilTotal",
+        "legTotal",
+        "specialLead",
+        "specialGs",
+        "secTotal"
+      ]
+    },
+    {
+      "check": "screen320 agendaTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 councilTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 legTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 specialLead denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 specialGs denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 secTotal denominator and percentage",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 agendaTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 agendaTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 agendaTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 councilTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 councilTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 councilTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 legTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 legTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 legTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 specialLead caption typography",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 specialLead adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 specialLead belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 specialGs caption typography",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 specialGs adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 specialGs belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 secTotal caption typography",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 secTotal adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 secTotal belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 254,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "screen320 no financial or strategy completion captions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "screen320 no viewport overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "screen320 two equal agenda boxes",
+      "pass": true,
+      "detail": {
+        "gap": "12px",
+        "background": "rgba(0, 0, 0, 0)",
+        "kids": [
+          {
+            "width": 121,
+            "height": 137.984375,
+            "x": 166,
+            "top": 556.9375,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 626.53125,
+            "text": "الأجندة المعتمدة",
+            "drill": "agendaPlanned"
+          },
+          {
+            "width": 121,
+            "height": 137.984375,
+            "x": 33,
+            "top": 556.9375,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 626.53125,
+            "text": "المواضيع المستجدة",
+            "drill": "agendaEmerging"
+          }
+        ]
+      }
+    },
+    {
+      "check": "screen320 independent linen backgrounds / 12px gap / 18px labels",
+      "pass": true,
+      "detail": {
+        "gap": "12px",
+        "background": "rgba(0, 0, 0, 0)",
+        "kids": [
+          {
+            "width": 121,
+            "height": 137.984375,
+            "x": 166,
+            "top": 556.9375,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 626.53125,
+            "text": "الأجندة المعتمدة",
+            "drill": "agendaPlanned"
+          },
+          {
+            "width": 121,
+            "height": 137.984375,
+            "x": 33,
+            "top": 556.9375,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 626.53125,
+            "text": "المواضيع المستجدة",
+            "drill": "agendaEmerging"
+          }
+        ]
+      }
+    },
+    {
+      "check": "screen320 agenda drilldown keys retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "screen320 agenda figures share a baseline",
+      "pass": true,
+      "detail": {
+        "gap": "12px",
+        "background": "rgba(0, 0, 0, 0)",
+        "kids": [
+          {
+            "width": 121,
+            "height": 137.984375,
+            "x": 166,
+            "top": 556.9375,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 626.53125,
+            "text": "الأجندة المعتمدة",
+            "drill": "agendaPlanned"
+          },
+          {
+            "width": 121,
+            "height": 137.984375,
+            "x": 33,
+            "top": 556.9375,
+            "background": "rgb(239, 235, 231)",
+            "rounded": "9px",
+            "border": "0px",
+            "labelSize": "18px",
+            "numberTop": 626.53125,
+            "text": "المواضيع المستجدة",
+            "drill": "agendaEmerging"
+          }
+        ]
+      }
+    },
+    {
+      "check": "monthly-continuous PDF caption locations",
+      "pass": true,
+      "detail": {
+        "layout": "continuous",
+        "geometry": {
+          "widthMM": 297,
+          "contentWidthMM": 281,
+          "heightMM": 639,
+          "contentHeightPx": 2312
+        },
+        "captions": [
+          {
+            "total": "agendaTotal",
+            "parts": "agendaDone",
+            "percent": "36.8%",
+            "text": "نسبة المنجز36.8%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 0,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "councilTotal",
+            "parts": "councilDone",
+            "percent": "54.3%",
+            "text": "نسبة المنجز54.3%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 0,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "legTotal",
+            "parts": "legOnTime legOverrun",
+            "percent": "94.2%",
+            "text": "نسبة المنجز94.2%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 0,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "specialLead",
+            "parts": "specialLeadDone",
+            "percent": "50%",
+            "text": "نسبة المنجز50%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 0,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "specialGs",
+            "parts": "specialGsDone",
+            "percent": "27.8%",
+            "text": "نسبة المنجز27.8%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 0,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "secTotal",
+            "parts": "secDone",
+            "percent": "11.9%",
+            "text": "نسبة المنجز11.9%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 0,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "agendaTotal",
+            "parts": "agendaDone",
+            "percent": "36.8%",
+            "text": "نسبة المنجز36.8%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 7.546875,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "councilTotal",
+            "parts": "councilDone",
+            "percent": "54.3%",
+            "text": "نسبة المنجز54.3%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 7.546875,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "legTotal",
+            "parts": "legOnTime legOverrun",
+            "percent": "94.2%",
+            "text": "نسبة المنجز94.2%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 7.546875,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "specialLead",
+            "parts": "specialLeadDone",
+            "percent": "50%",
+            "text": "نسبة المنجز50%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 7.546875,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "specialGs",
+            "parts": "specialGsDone",
+            "percent": "27.8%",
+            "text": "نسبة المنجز27.8%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 7.546875,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "secTotal",
+            "parts": "secDone",
+            "percent": "11.9%",
+            "text": "نسبة المنجز11.9%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 7.546875,
+            "baselineDelta": 0,
+            "belowBar": true
+          }
+        ],
+        "boxes": [
+          {
+            "width": 228.609375,
+            "height": 70.796875,
+            "x": 870.71875,
+            "y": 252.84375,
+            "background": "rgb(239, 235, 231)"
+          },
+          {
+            "width": 228.625,
+            "height": 70.796875,
+            "x": 630.765625,
+            "y": 252.84375,
+            "background": "rgb(239, 235, 231)"
+          }
+        ],
+        "filename": "TEC_Monthly_Sep_26.pdf",
+        "sha256": "d9c9319d993a324fb006a1f1730d10abb2665c060c68fb498ff22209e6bc3f5b",
+        "pages": 1
+      }
+    },
+    {
+      "check": "monthly-continuous PDF agendaTotal same ratio",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "percent": "36.8%",
+        "text": "نسبة المنجز36.8%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-continuous PDF agendaTotal adjacent below bar",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "percent": "36.8%",
+        "text": "نسبة المنجز36.8%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-continuous PDF councilTotal same ratio",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "percent": "54.3%",
+        "text": "نسبة المنجز54.3%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-continuous PDF councilTotal adjacent below bar",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "percent": "54.3%",
+        "text": "نسبة المنجز54.3%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-continuous PDF legTotal same ratio",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "percent": "94.2%",
+        "text": "نسبة المنجز94.2%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-continuous PDF legTotal adjacent below bar",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "percent": "94.2%",
+        "text": "نسبة المنجز94.2%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-continuous PDF specialLead same ratio",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "percent": "50%",
+        "text": "نسبة المنجز50%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-continuous PDF specialLead adjacent below bar",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "percent": "50%",
+        "text": "نسبة المنجز50%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-continuous PDF specialGs same ratio",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "percent": "27.8%",
+        "text": "نسبة المنجز27.8%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-continuous PDF specialGs adjacent below bar",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "percent": "27.8%",
+        "text": "نسبة المنجز27.8%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-continuous PDF secTotal same ratio",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "percent": "11.9%",
+        "text": "نسبة المنجز11.9%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-continuous PDF secTotal adjacent below bar",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "percent": "11.9%",
+        "text": "نسبة المنجز11.9%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-continuous PDF agenda equal boxes",
+      "pass": true,
+      "detail": [
+        {
+          "width": 228.609375,
+          "height": 70.796875,
+          "x": 870.71875,
+          "y": 252.84375,
+          "background": "rgb(239, 235, 231)"
+        },
+        {
+          "width": 228.625,
+          "height": 70.796875,
+          "x": 630.765625,
+          "y": 252.84375,
+          "background": "rgb(239, 235, 231)"
+        }
+      ]
+    },
+    {
+      "check": "monthly-continuous filename unchanged",
+      "pass": true,
+      "detail": "TEC_Monthly_Sep_26.pdf"
+    },
+    {
+      "check": "monthly-continuous requested geometry",
+      "pass": true,
+      "detail": {
+        "pages": 1,
+        "dimensions": [
+          [
+            0.0,
+            0.0,
+            841.8897705078125,
+            1811.338623046875
+          ]
+        ]
+      }
+    },
+    {
+      "check": "monthly-continuous title and source date retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous native PDF completion captions visible exactly once",
+      "pass": true,
+      "detail": 6
+    },
+    {
+      "check": "monthly-continuous native PDF text 36.8%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous native PDF text 54.3%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous native PDF text 94.2%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous native PDF text 50%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous native PDF text 27.8%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous native PDF text 11.9%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous export does not mutate source/scope",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 PDF caption locations",
+      "pass": true,
+      "detail": {
+        "layout": "a4",
+        "geometry": {
+          "widthMM": 210,
+          "contentWidthMM": 190,
+          "heightMM": 297,
+          "contentHeightPx": 2383.328125
+        },
+        "captions": [
+          {
+            "total": "agendaTotal",
+            "parts": "agendaDone",
+            "percent": "36.8%",
+            "text": "نسبة المنجز36.8%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 0,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "councilTotal",
+            "parts": "councilDone",
+            "percent": "54.3%",
+            "text": "نسبة المنجز54.3%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 0,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "legTotal",
+            "parts": "legOnTime legOverrun",
+            "percent": "94.2%",
+            "text": "نسبة المنجز94.2%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 0,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "specialLead",
+            "parts": "specialLeadDone",
+            "percent": "50%",
+            "text": "نسبة المنجز50%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 0,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "specialGs",
+            "parts": "specialGsDone",
+            "percent": "27.8%",
+            "text": "نسبة المنجز27.8%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 0,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "secTotal",
+            "parts": "secDone",
+            "percent": "11.9%",
+            "text": "نسبة المنجز11.9%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 0,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "agendaTotal",
+            "parts": "agendaDone",
+            "percent": "36.8%",
+            "text": "نسبة المنجز36.8%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 7.546875,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "councilTotal",
+            "parts": "councilDone",
+            "percent": "54.3%",
+            "text": "نسبة المنجز54.3%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 7.546875,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "legTotal",
+            "parts": "legOnTime legOverrun",
+            "percent": "94.2%",
+            "text": "نسبة المنجز94.2%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 7.546875,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "specialLead",
+            "parts": "specialLeadDone",
+            "percent": "50%",
+            "text": "نسبة المنجز50%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 7.546875,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "specialGs",
+            "parts": "specialGsDone",
+            "percent": "27.8%",
+            "text": "نسبة المنجز27.8%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 7.546875,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "secTotal",
+            "parts": "secDone",
+            "percent": "11.9%",
+            "text": "نسبة المنجز11.9%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 7.546875,
+            "baselineDelta": 0,
+            "belowBar": true
+          }
+        ],
+        "boxes": [
+          {
+            "width": 157.75,
+            "height": 70.796875,
+            "x": 623.921875,
+            "y": 275.53125,
+            "background": "rgb(239, 235, 231)"
+          },
+          {
+            "width": 157.765625,
+            "height": 70.796875,
+            "x": 454.828125,
+            "y": 275.53125,
+            "background": "rgb(239, 235, 231)"
+          }
+        ],
+        "filename": "TEC_Monthly_Sep_26.pdf",
+        "sha256": "6c994740fda20778f7921c999271d6456fc74e30185eef02377b9f909c366492",
+        "pages": 3
+      }
+    },
+    {
+      "check": "monthly-a4 PDF agendaTotal same ratio",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "percent": "36.8%",
+        "text": "نسبة المنجز36.8%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-a4 PDF agendaTotal adjacent below bar",
+      "pass": true,
+      "detail": {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "percent": "36.8%",
+        "text": "نسبة المنجز36.8%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-a4 PDF councilTotal same ratio",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "percent": "54.3%",
+        "text": "نسبة المنجز54.3%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-a4 PDF councilTotal adjacent below bar",
+      "pass": true,
+      "detail": {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "percent": "54.3%",
+        "text": "نسبة المنجز54.3%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-a4 PDF legTotal same ratio",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "percent": "94.2%",
+        "text": "نسبة المنجز94.2%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-a4 PDF legTotal adjacent below bar",
+      "pass": true,
+      "detail": {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "percent": "94.2%",
+        "text": "نسبة المنجز94.2%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-a4 PDF specialLead same ratio",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "percent": "50%",
+        "text": "نسبة المنجز50%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-a4 PDF specialLead adjacent below bar",
+      "pass": true,
+      "detail": {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "percent": "50%",
+        "text": "نسبة المنجز50%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-a4 PDF specialGs same ratio",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "percent": "27.8%",
+        "text": "نسبة المنجز27.8%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-a4 PDF specialGs adjacent below bar",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "percent": "27.8%",
+        "text": "نسبة المنجز27.8%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-a4 PDF secTotal same ratio",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "percent": "11.9%",
+        "text": "نسبة المنجز11.9%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-a4 PDF secTotal adjacent below bar",
+      "pass": true,
+      "detail": {
+        "total": "secTotal",
+        "parts": "secDone",
+        "percent": "11.9%",
+        "text": "نسبة المنجز11.9%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-a4 PDF agenda equal boxes",
+      "pass": true,
+      "detail": [
+        {
+          "width": 157.75,
+          "height": 70.796875,
+          "x": 623.921875,
+          "y": 275.53125,
+          "background": "rgb(239, 235, 231)"
+        },
+        {
+          "width": 157.765625,
+          "height": 70.796875,
+          "x": 454.828125,
+          "y": 275.53125,
+          "background": "rgb(239, 235, 231)"
+        }
+      ]
+    },
+    {
+      "check": "monthly-a4 filename unchanged",
+      "pass": true,
+      "detail": "TEC_Monthly_Sep_26.pdf"
+    },
+    {
+      "check": "monthly-a4 requested geometry",
+      "pass": true,
+      "detail": {
+        "pages": 3,
+        "dimensions": [
+          [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ]
+        ]
+      }
+    },
+    {
+      "check": "monthly-a4 title and source date retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 native PDF completion captions visible exactly once",
+      "pass": true,
+      "detail": 6
+    },
+    {
+      "check": "monthly-a4 native PDF text 36.8%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 native PDF text 54.3%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 native PDF text 94.2%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 native PDF text 50%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 native PDF text 27.8%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 native PDF text 11.9%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 export does not mutate source/scope",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "DubaiPlanOffice one caption per denominator",
+      "pass": true,
+      "detail": [
+        {
+          "total": "specialGs",
+          "parts": "specialGsDone",
+          "text": "نسبة المنجز9.1%",
+          "percent": "9.1%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-meter",
+          "barAria": "نسبة المنجز 9.1%",
+          "width": 850,
+          "height": 22.390625
+        }
+      ]
+    },
+    {
+      "check": "DubaiPlanOffice specialGs caption typography",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز9.1%",
+        "percent": "9.1%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 9.1%",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "DubaiPlanOffice specialGs adjacent and beneath bar",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز9.1%",
+        "percent": "9.1%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 9.1%",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "DubaiPlanOffice specialGs belongs to its existing/new bar",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز9.1%",
+        "percent": "9.1%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 9.1%",
+        "width": 850,
+        "height": 22.390625
+      }
+    },
+    {
+      "check": "DubaiPlanOffice no financial or strategy completion captions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "DubaiPlanOffice no viewport overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "scoped specialGs derives from scoped numerator / denominator",
+      "pass": true,
+      "detail": {
+        "caption": {
+          "total": "specialGs",
+          "parts": "specialGsDone",
+          "text": "نسبة المنجز9.1%",
+          "percent": "9.1%",
+          "font": "\"TEC Dubai\", sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "direction": "rtl",
+          "gap": 8,
+          "baselineDelta": 0,
+          "belowBar": true,
+          "barClass": "wb-apple-meter",
+          "barAria": "نسبة المنجز 9.1%",
+          "width": 850,
+          "height": 22.390625
+        },
+        "counts": {
+          "specialGsDone": 1,
+          "specialGs": 11
+        }
+      }
+    },
+    {
+      "check": "unit filter updates visible contributing cards",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-unit PDF caption locations",
+      "pass": true,
+      "detail": {
+        "layout": "continuous",
+        "geometry": {
+          "widthMM": 297,
+          "contentWidthMM": 281,
+          "heightMM": 183,
+          "contentHeightPx": 587.265625
+        },
+        "captions": [
+          {
+            "total": "specialGs",
+            "parts": "specialGsDone",
+            "percent": "9.1%",
+            "text": "نسبة المنجز9.1%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 0,
+            "baselineDelta": 0,
+            "belowBar": true
+          },
+          {
+            "total": "specialGs",
+            "parts": "specialGsDone",
+            "percent": "9.1%",
+            "text": "نسبة المنجز9.1%",
+            "size": "12px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "gap": 7.546875,
+            "baselineDelta": 0,
+            "belowBar": true
+          }
+        ],
+        "boxes": [],
+        "filename": "TEC_Monthly_Sep_26_Dubai_Plan_Office.pdf",
+        "sha256": "3e4a665234a5a4dc1e60b6ea4fd56da2b68d7b3309239069668bf1944d97ae3f",
+        "pages": 1
+      }
+    },
+    {
+      "check": "monthly-unit PDF specialGs same ratio",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "percent": "9.1%",
+        "text": "نسبة المنجز9.1%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-unit PDF specialGs adjacent below bar",
+      "pass": true,
+      "detail": {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "percent": "9.1%",
+        "text": "نسبة المنجز9.1%",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "gap": 7.546875,
+        "baselineDelta": 0,
+        "belowBar": true
+      }
+    },
+    {
+      "check": "monthly-unit filename unchanged",
+      "pass": true,
+      "detail": "TEC_Monthly_Sep_26_Dubai_Plan_Office.pdf"
+    },
+    {
+      "check": "monthly-unit requested geometry",
+      "pass": true,
+      "detail": {
+        "pages": 1,
+        "dimensions": [
+          [
+            0.0,
+            0.0,
+            841.8897705078125,
+            518.7401733398438
+          ]
+        ]
+      }
+    },
+    {
+      "check": "monthly-unit title and source date retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-unit native PDF completion captions visible exactly once",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "monthly-unit native PDF text 9.1%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-unit export does not mutate source/scope",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no browser JavaScript errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "screen": {
+    "desktop1920": [
+      {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 850,
+        "height": 22.390625
+      },
+      {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 850,
+        "height": 22.390625
+      },
+      {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 850,
+        "height": 22.390625
+      },
+      {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 413,
+        "height": 22.390625
+      },
+      {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 388,
+        "height": 22.390625
+      },
+      {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 850,
+        "height": 22.390625
+      }
+    ],
+    "screen1440": [
+      {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 610,
+        "height": 22.390625
+      },
+      {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 610,
+        "height": 22.390625
+      },
+      {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 610,
+        "height": 22.390625
+      },
+      {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 293,
+        "height": 22.390625
+      },
+      {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 268,
+        "height": 22.390625
+      },
+      {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 610,
+        "height": 22.390625
+      }
+    ],
+    "screen390": [
+      {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 324,
+        "height": 22.390625
+      },
+      {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 324,
+        "height": 22.390625
+      },
+      {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 324,
+        "height": 22.390625
+      },
+      {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 324,
+        "height": 22.390625
+      },
+      {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 324,
+        "height": 22.390625
+      },
+      {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 324,
+        "height": 22.390625
+      }
+    ],
+    "screen320": [
+      {
+        "total": "agendaTotal",
+        "parts": "agendaDone",
+        "text": "نسبة المنجز36.8%",
+        "percent": "36.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 43، جاهز للعرض: 16، قيد العمل: 58",
+        "width": 254,
+        "height": 22.390625
+      },
+      {
+        "total": "councilTotal",
+        "parts": "councilDone",
+        "text": "نسبة المنجز54.3%",
+        "percent": "54.3%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "منجز: 38، قيد العمل: 31، بدون حالة معتمدة: 1",
+        "width": 254,
+        "height": 22.390625
+      },
+      {
+        "total": "legTotal",
+        "parts": "legOnTime legOverrun",
+        "text": "نسبة المنجز94.2%",
+        "percent": "94.2%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-stack",
+        "barAria": "متأخر: 2، SLC منجز ضمن موعد: 152، SLC منجز بعد موعد: 28، قيد الإجراء: 9",
+        "width": 254,
+        "height": 22.390625
+      },
+      {
+        "total": "specialLead",
+        "parts": "specialLeadDone",
+        "text": "نسبة المنجز50%",
+        "percent": "50%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 50%",
+        "width": 254,
+        "height": 22.390625
+      },
+      {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز27.8%",
+        "percent": "27.8%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 27.8%",
+        "width": 254,
+        "height": 22.390625
+      },
+      {
+        "total": "secTotal",
+        "parts": "secDone",
+        "text": "نسبة المنجز11.9%",
+        "percent": "11.9%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 11.9%",
+        "width": 254,
+        "height": 22.390625
+      }
+    ],
+    "DubaiPlanOffice": [
+      {
+        "total": "specialGs",
+        "parts": "specialGsDone",
+        "text": "نسبة المنجز9.1%",
+        "percent": "9.1%",
+        "font": "\"TEC Dubai\", sans-serif",
+        "size": "14px",
+        "weight": "400",
+        "direction": "rtl",
+        "gap": 8,
+        "baselineDelta": 0,
+        "belowBar": true,
+        "barClass": "wb-apple-meter",
+        "barAria": "نسبة المنجز 9.1%",
+        "width": 850,
+        "height": 22.390625
+      }
+    ]
+  },
+  "pdf": {
+    "monthly-continuous": {
+      "layout": "continuous",
+      "geometry": {
+        "widthMM": 297,
+        "contentWidthMM": 281,
+        "heightMM": 639,
+        "contentHeightPx": 2312
+      },
+      "captions": [
+        {
+          "total": "agendaTotal",
+          "parts": "agendaDone",
+          "percent": "36.8%",
+          "text": "نسبة المنجز36.8%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 0,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "councilTotal",
+          "parts": "councilDone",
+          "percent": "54.3%",
+          "text": "نسبة المنجز54.3%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 0,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "legTotal",
+          "parts": "legOnTime legOverrun",
+          "percent": "94.2%",
+          "text": "نسبة المنجز94.2%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 0,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "specialLead",
+          "parts": "specialLeadDone",
+          "percent": "50%",
+          "text": "نسبة المنجز50%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 0,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "specialGs",
+          "parts": "specialGsDone",
+          "percent": "27.8%",
+          "text": "نسبة المنجز27.8%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 0,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "secTotal",
+          "parts": "secDone",
+          "percent": "11.9%",
+          "text": "نسبة المنجز11.9%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 0,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "agendaTotal",
+          "parts": "agendaDone",
+          "percent": "36.8%",
+          "text": "نسبة المنجز36.8%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 7.546875,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "councilTotal",
+          "parts": "councilDone",
+          "percent": "54.3%",
+          "text": "نسبة المنجز54.3%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 7.546875,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "legTotal",
+          "parts": "legOnTime legOverrun",
+          "percent": "94.2%",
+          "text": "نسبة المنجز94.2%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 7.546875,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "specialLead",
+          "parts": "specialLeadDone",
+          "percent": "50%",
+          "text": "نسبة المنجز50%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 7.546875,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "specialGs",
+          "parts": "specialGsDone",
+          "percent": "27.8%",
+          "text": "نسبة المنجز27.8%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 7.546875,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "secTotal",
+          "parts": "secDone",
+          "percent": "11.9%",
+          "text": "نسبة المنجز11.9%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 7.546875,
+          "baselineDelta": 0,
+          "belowBar": true
+        }
+      ],
+      "boxes": [
+        {
+          "width": 228.609375,
+          "height": 70.796875,
+          "x": 870.71875,
+          "y": 252.84375,
+          "background": "rgb(239, 235, 231)"
+        },
+        {
+          "width": 228.625,
+          "height": 70.796875,
+          "x": 630.765625,
+          "y": 252.84375,
+          "background": "rgb(239, 235, 231)"
+        }
+      ],
+      "filename": "TEC_Monthly_Sep_26.pdf",
+      "sha256": "d9c9319d993a324fb006a1f1730d10abb2665c060c68fb498ff22209e6bc3f5b",
+      "pages": 1
+    },
+    "monthly-a4": {
+      "layout": "a4",
+      "geometry": {
+        "widthMM": 210,
+        "contentWidthMM": 190,
+        "heightMM": 297,
+        "contentHeightPx": 2383.328125
+      },
+      "captions": [
+        {
+          "total": "agendaTotal",
+          "parts": "agendaDone",
+          "percent": "36.8%",
+          "text": "نسبة المنجز36.8%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 0,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "councilTotal",
+          "parts": "councilDone",
+          "percent": "54.3%",
+          "text": "نسبة المنجز54.3%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 0,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "legTotal",
+          "parts": "legOnTime legOverrun",
+          "percent": "94.2%",
+          "text": "نسبة المنجز94.2%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 0,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "specialLead",
+          "parts": "specialLeadDone",
+          "percent": "50%",
+          "text": "نسبة المنجز50%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 0,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "specialGs",
+          "parts": "specialGsDone",
+          "percent": "27.8%",
+          "text": "نسبة المنجز27.8%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 0,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "secTotal",
+          "parts": "secDone",
+          "percent": "11.9%",
+          "text": "نسبة المنجز11.9%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 0,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "agendaTotal",
+          "parts": "agendaDone",
+          "percent": "36.8%",
+          "text": "نسبة المنجز36.8%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 7.546875,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "councilTotal",
+          "parts": "councilDone",
+          "percent": "54.3%",
+          "text": "نسبة المنجز54.3%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 7.546875,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "legTotal",
+          "parts": "legOnTime legOverrun",
+          "percent": "94.2%",
+          "text": "نسبة المنجز94.2%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 7.546875,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "specialLead",
+          "parts": "specialLeadDone",
+          "percent": "50%",
+          "text": "نسبة المنجز50%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 7.546875,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "specialGs",
+          "parts": "specialGsDone",
+          "percent": "27.8%",
+          "text": "نسبة المنجز27.8%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 7.546875,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "secTotal",
+          "parts": "secDone",
+          "percent": "11.9%",
+          "text": "نسبة المنجز11.9%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 7.546875,
+          "baselineDelta": 0,
+          "belowBar": true
+        }
+      ],
+      "boxes": [
+        {
+          "width": 157.75,
+          "height": 70.796875,
+          "x": 623.921875,
+          "y": 275.53125,
+          "background": "rgb(239, 235, 231)"
+        },
+        {
+          "width": 157.765625,
+          "height": 70.796875,
+          "x": 454.828125,
+          "y": 275.53125,
+          "background": "rgb(239, 235, 231)"
+        }
+      ],
+      "filename": "TEC_Monthly_Sep_26.pdf",
+      "sha256": "6c994740fda20778f7921c999271d6456fc74e30185eef02377b9f909c366492",
+      "pages": 3
+    },
+    "monthly-unit": {
+      "layout": "continuous",
+      "geometry": {
+        "widthMM": 297,
+        "contentWidthMM": 281,
+        "heightMM": 183,
+        "contentHeightPx": 587.265625
+      },
+      "captions": [
+        {
+          "total": "specialGs",
+          "parts": "specialGsDone",
+          "percent": "9.1%",
+          "text": "نسبة المنجز9.1%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 0,
+          "baselineDelta": 0,
+          "belowBar": true
+        },
+        {
+          "total": "specialGs",
+          "parts": "specialGsDone",
+          "percent": "9.1%",
+          "text": "نسبة المنجز9.1%",
+          "size": "12px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "gap": 7.546875,
+          "baselineDelta": 0,
+          "belowBar": true
+        }
+      ],
+      "boxes": [],
+      "filename": "TEC_Monthly_Sep_26_Dubai_Plan_Office.pdf",
+      "sha256": "3e4a665234a5a4dc1e60b6ea4fd56da2b68d7b3309239069668bf1944d97ae3f",
+      "pages": 1
+    }
+  },
+  "helpers": [
+    {
+      "name": "zero completed",
+      "html": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 0%\"><span class=\"apple-fill-complete\" style=\"width:0%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">0%</bdi></p>",
+      "print": "<div class=\"mp-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 0%\"><span class=\"apple-fill-complete\" style=\"width:0%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">0%</bdi></p>"
+    },
+    {
+      "name": "full completed",
+      "html": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 100%\"><span class=\"apple-fill-complete\" style=\"width:100%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">100%</bdi></p>",
+      "print": "<div class=\"mp-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 100%\"><span class=\"apple-fill-complete\" style=\"width:100%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">100%</bdi></p>"
+    },
+    {
+      "name": "zero denominator",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "missing numerator",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "missing denominator",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "null numerator",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "negative numerator",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "negative denominator",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "oversized numerator",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "nonfinite numerator",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "nan denominator",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "string numerator",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "unavailable numerator",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "unavailable denominator",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "sum cohorts",
+      "html": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 71.4%\"><span class=\"apple-fill-complete\" style=\"width:71.42857142857143%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"on late\"><span>نسبة المنجز</span><bdi dir=\"ltr\">71.4%</bdi></p>",
+      "print": "<div class=\"mp-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 71.4%\"><span class=\"apple-fill-complete\" style=\"width:71.42857142857143%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"on late\"><span>نسبة المنجز</span><bdi dir=\"ltr\">71.4%</bdi></p>"
+    },
+    {
+      "name": "sum unavailable cohort",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "sum oversized",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "distribution disjoint",
+      "html": "<div class=\"wb-apple-stack\" role=\"img\" aria-label=\"on: 3، after: 2، pending: 1، بدون حالة معتمدة: 1\"><span class=\"apple-fill-complete\" data-status-metric=\"legOnTime\" style=\"width:42.857142857142854%\"></span><span class=\"apple-fill-complete-after\" data-status-metric=\"legOverrun\" style=\"width:28.57142857142857%\"></span><span class=\"apple-fill-active\" data-status-metric=\"legPending\" style=\"width:14.285714285714285%\"></span><span class=\"apple-fill-unknown\" data-status-metric=\"unclassified\" style=\"width:14.285714285714285%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"legTotal\" data-completion-parts=\"legOnTime legOverrun\"><span>نسبة المنجز</span><bdi dir=\"ltr\">71.4%</bdi></p>",
+      "print": "<div class=\"mp-apple-stack\" role=\"img\" aria-label=\"on: 3، after: 2، pending: 1، بدون حالة معتمدة: 1\"><span class=\"apple-fill-complete\" data-status-metric=\"legOnTime\" style=\"width:42.857142857142854%\"></span><span class=\"apple-fill-complete-after\" data-status-metric=\"legOverrun\" style=\"width:28.57142857142857%\"></span><span class=\"apple-fill-active\" data-status-metric=\"legPending\" style=\"width:14.285714285714285%\"></span><span class=\"apple-fill-unknown\" data-status-metric=\"unclassified\" style=\"width:14.285714285714285%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"legTotal\" data-completion-parts=\"legOnTime legOverrun\"><span>نسبة المنجز</span><bdi dir=\"ltr\">71.4%</bdi></p>"
+    },
+    {
+      "name": "distribution overlap",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "distribution oversized",
+      "html": "",
+      "print": ""
+    },
+    {
+      "name": "distribution missing cohort",
+      "html": "",
+      "print": ""
+    }
+  ],
+  "bundleSha256": {
+    "assets/js/app-bundle.js": "0ee4ac3761322c057a7744d1250497e1c18de19088e910f91ebe8c52c35d64b6",
+    "assets/css/app-bundle.css": "6e236a3cb6904a9f1bcf3aa44700532f7c4aa884abe4d409bf5bb86bc2ac1032",
+    "assets/css/print-measure-bundle.css": "e10f1c13a809cde50ad24ae0e14fe6c82d299a049c8b57155f0bfd1281d15aa2",
+    "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528"
+  },
+  "result": "PASS"
+}

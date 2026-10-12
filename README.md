@@ -1,15 +1,18 @@
-# Performance App v143
+# Performance App v144
 
-[Download app — v143 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v143.zip) · [Verification](Saytara-Verification-v143.md) · [Official filename names](PDF-Updates-v143/Official-PDF-Filename-Names.md) · [Design standard — Revision 18](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-18.md) · [Download standard ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Design-Standard-Revision-18.zip)
+[Download app — v144 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v144.zip) · [Verification](Saytara-Verification-v144.md) · [Design standard — Revision 19](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-19.md) · [Download standard ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Design-Standard-Revision-19.zip)
 
-Monthly PDFs use short English filenames: **TEC_Monthly_Sep_26.pdf**, **TEC_Monthly_Sep_26_Information_Technology.pdf**, or **TEC_Monthly_Sep_26_Governance_Sector.pdf**. The supplied official names cover all six sectors and 23 units. Filename suffixes omit **Department** and **Section**, keep **Office** and **Sector** where supplied, and write **&** as **and**.
+Approved monthly dashboard and PDF changes:
 
-The date comes from the report. A partial unit takes priority over a partial sector. Multiple choices use only the first selected name, with no **+N**; full/unrestricted scope is omitted. Short/full Arabic names and legacy aliases resolve locally, without changing source records. An unlisted Arabic scope uses Selected_Unit or Selected_Sector until mapped.
+- Approved agenda and emerging topics use two separate equal boxes. Phone labels retain their size and the figures stay aligned.
+- Annual agenda, council decisions, legislation and special-project completion captions show **نسبة المنجز** directly beside their percentage beneath the bar.
+- Budgeted projects now include a green/Linen completion bar and adjacent caption after the status figures, before quarters.
+- Percentages follow the selected scope and each full source denominator. Invalid/missing ratios are omitted; a valid zero completed count displays 0%.
 
-Continuous and A4 monthly PDFs omit the missing-requester note and the specified incomplete prior-project-status explanation. Their screen diagnostics, report totals, comparison eligibility and other warnings remain. Empty note containers are removed. The PDF title, content and scope header remain Arabic; dashboard/header **+N** summaries retain their rules.
+The financial bars, strategy metrics, source counts, changes, filters and English PDF filenames retain their behavior. Both continuous and optional A4 PDF output include the approved layout. No source workbook is bundled.
 
-Verification: 108 filename checks, 16 browser/PDF checks, 16 targeted note checks and 16 extracted-package checks pass. Download-button exports cover all, unit and sector scopes; continuous/A4 PDF text confirms note removal and retained report content. Checks use an illustrative fixture, with a controlled diagnostic for positive note coverage. See verification for full scope and limits.
+Verification: 223 candidate browser/PDF checks and 223 freshly extracted-package checks pass, with no JavaScript errors. An independent review passes 64 source/helper checks. Desktop, phone and all relevant PDF pages were visually inspected. Tests use an illustrative workbook and managed Chromium over local HTTP; native Windows file-origin execution and physical printing were not tested. See verification for scope and evidence.
 
-Extract the whole ZIP and open index.html with its assets folder beside it. Processing and bundled PDF export remain local. Managed Chromium was tested over local HTTP; native Windows Explorer, Windows file-origin execution and physical printers were not tested for this update.
+Extract the complete ZIP and open **index.html** with its **assets** folder beside it. Processing and bundled PDF export remain local.
 
-Previous: [v142 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v142.zip) · [v142 verification](Saytara-Verification-v142.md) · [Historical Revision 17](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-17.md). Earlier releases are preserved.
+Previous release: [v143 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v143.zip) · [v143 verification](Saytara-Verification-v143.md) · [Official PDF filename names](PDF-Updates-v143/Official-PDF-Filename-Names.md). Prior releases and concepts are preserved.

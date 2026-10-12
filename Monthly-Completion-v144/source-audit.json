@@ -1,0 +1,703 @@
+{
+  "review": "Independent source audit of approved v144 completion labels and two agenda boxes",
+  "verdict": "PASS",
+  "scope": "Read-only code review and Node execution of exported completion/distribution helpers. Browser/PDF visual checks handled separately. No operational workbook supplied.",
+  "formulas": {
+    "agenda": "agendaDone / agendaTotal",
+    "council": "councilDone / councilTotal (follow-up scope unchanged)",
+    "legislation": "(legOnTime + legOverrun) / legTotal",
+    "special_lead": "specialLeadDone / specialLead",
+    "special_secretariat": "specialGsDone / specialGs",
+    "budgeted_projects": "secDone / secTotal"
+  },
+  "findings": [],
+  "preservation": {
+    "immutable_files_checked": 29,
+    "immutable_files_all_match": true,
+    "changed_js_files": [
+      "assets/js/app-bundle.js",
+      "assets/js/views/dashboard.js",
+      "assets/js/views/monthly-print.js"
+    ],
+    "financial_and_strategy_bars": "No change to finance/strategy rendering, formulas or meter styles; new completion meter appears only in budgeted-project status block.",
+    "source_definitions": "Current scoped dashboard metrics reused; no source/data/model changes.",
+    "special_projects": "Existing subgroup meters retained; only caption alignment changed globally for completion captions.",
+    "missing_zero_invalid": "Unavailable/nonfinite/negative counts, zero denominator and numerator greater than denominator suppressed; known zero completion remains 0%. Distribution integrity/disjoint checks retained.",
+    "scope_propagation": "dashboard.render constructs D using R.dashboard(data, state.dash, history), sets D.available using D.scope, and passes that same D to screen cards and monthlyPrint.render. Completion calculations read D.n and D.available on each call; no cached all-scope denominator or hardcoded preview percentages.",
+    "availability_precedence": "Availability is checked before any numeric value is used. A scoped unavailable metric cannot render a numeric completion even if D.n contains a source number."
+  },
+  "caption_markup": "Arabic label and LTR-isolated numeric percentage are adjacent sibling spans; RTL flex-start styling with 8px screen / 2mm print gaps applies to all completion captions.",
+  "agenda_boxes": "Two equal grid columns, transparent outer row, independently filled equal-height grid children, no internal divider. Phone wrap retains label size and equal label row heights. Print measuring stylesheet uses same selectors.",
+  "checks": [
+    {
+      "name": "screen agenda",
+      "pass": true,
+      "detail": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 37.6%\"><span class=\"apple-fill-complete\" style=\"width:37.60683760683761%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">37.6%</bdi></p>"
+    },
+    {
+      "name": "screen council",
+      "pass": true,
+      "detail": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 54.3%\"><span class=\"apple-fill-complete\" style=\"width:54.285714285714285%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">54.3%</bdi></p>"
+    },
+    {
+      "name": "screen legislation both completed cohorts",
+      "pass": true,
+      "detail": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 94.2%\"><span class=\"apple-fill-complete\" style=\"width:94.24083769633508%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"ontime overrun\"><span>نسبة المنجز</span><bdi dir=\"ltr\">94.2%</bdi></p>"
+    },
+    {
+      "name": "screen special lead",
+      "pass": true,
+      "detail": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 50%\"><span class=\"apple-fill-complete\" style=\"width:50%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">50%</bdi></p>"
+    },
+    {
+      "name": "screen special gs",
+      "pass": true,
+      "detail": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 27.8%\"><span class=\"apple-fill-complete\" style=\"width:27.77777777777778%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">27.8%</bdi></p>"
+    },
+    {
+      "name": "screen budget projects",
+      "pass": true,
+      "detail": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 11.9%\"><span class=\"apple-fill-complete\" style=\"width:11.904761904761903%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">11.9%</bdi></p>"
+    },
+    {
+      "name": "screen zero completion retained",
+      "pass": true,
+      "detail": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 0%\"><span class=\"apple-fill-complete\" style=\"width:0%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">0%</bdi></p>"
+    },
+    {
+      "name": "screen 100 percent",
+      "pass": true,
+      "detail": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 100%\"><span class=\"apple-fill-complete\" style=\"width:100%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">100%</bdi></p>"
+    },
+    {
+      "name": "screen zero completed component retained",
+      "pass": true,
+      "detail": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 50%\"><span class=\"apple-fill-complete\" style=\"width:50%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"ontime overrun\"><span>نسبة المنجز</span><bdi dir=\"ltr\">50%</bdi></p>"
+    },
+    {
+      "name": "screen suppress zero denominator",
+      "pass": true,
+      "detail": {
+        "name": "zero denominator",
+        "n": {
+          "done": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "name": "screen suppress negative denominator",
+      "pass": true,
+      "detail": {
+        "name": "negative denominator",
+        "n": {
+          "done": 0,
+          "total": -1
+        }
+      }
+    },
+    {
+      "name": "screen suppress missing denominator",
+      "pass": true,
+      "detail": {
+        "name": "missing denominator",
+        "n": {
+          "done": 2
+        }
+      }
+    },
+    {
+      "name": "screen suppress null denominator",
+      "pass": true,
+      "detail": {
+        "name": "null denominator",
+        "n": {
+          "done": 2,
+          "total": null
+        }
+      }
+    },
+    {
+      "name": "screen suppress missing part",
+      "pass": true,
+      "detail": {
+        "name": "missing part",
+        "n": {
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "screen suppress null part",
+      "pass": true,
+      "detail": {
+        "name": "null part",
+        "n": {
+          "done": null,
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "screen suppress negative part",
+      "pass": true,
+      "detail": {
+        "name": "negative part",
+        "n": {
+          "done": -1,
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "screen suppress part exceeds total",
+      "pass": true,
+      "detail": {
+        "name": "part exceeds total",
+        "n": {
+          "done": 85,
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "screen suppress non-finite part",
+      "pass": true,
+      "detail": {
+        "name": "non-finite part",
+        "n": {
+          "done": null,
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "screen suppress infinite total",
+      "pass": true,
+      "detail": {
+        "name": "infinite total",
+        "n": {
+          "done": 2,
+          "total": null
+        }
+      }
+    },
+    {
+      "name": "screen suppress non-numeric part",
+      "pass": true,
+      "detail": {
+        "name": "non-numeric part",
+        "n": {
+          "done": "2",
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "screen suppress part unavailable",
+      "pass": true,
+      "detail": {
+        "name": "part unavailable",
+        "n": {
+          "done": 2,
+          "total": 84
+        },
+        "unavailable": [
+          "done"
+        ]
+      }
+    },
+    {
+      "name": "screen suppress total unavailable",
+      "pass": true,
+      "detail": {
+        "name": "total unavailable",
+        "n": {
+          "done": 2,
+          "total": 84
+        },
+        "unavailable": [
+          "total"
+        ]
+      }
+    },
+    {
+      "name": "screen suppress missing cohort part",
+      "pass": true,
+      "detail": {
+        "name": "missing cohort part",
+        "parts": [
+          "done",
+          "overrun"
+        ],
+        "n": {
+          "done": 2,
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "screen suppress cohort sum exceeds denominator",
+      "pass": true,
+      "detail": {
+        "name": "cohort sum exceeds denominator",
+        "parts": [
+          "done",
+          "overrun"
+        ],
+        "n": {
+          "done": 80,
+          "overrun": 5,
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "screen suppress empty cohort set",
+      "pass": true,
+      "detail": {
+        "name": "empty cohort set",
+        "parts": [],
+        "n": {
+          "done": 2,
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "screen distribution caption immediately after original bar",
+      "pass": true,
+      "detail": "<div class=\"wb-apple-stack\" role=\"img\" aria-label=\"منجز: 44، جاهز: 16، قيد العمل: 57\"><span class=\"apple-fill-complete\" data-status-metric=\"done\" style=\"width:37.60683760683761%\"></span><span class=\"apple-fill-ready\" data-status-metric=\"ready\" style=\"width:13.675213675213676%\"></span><span class=\"apple-fill-active\" data-status-metric=\"active\" style=\"width:48.717948717948715%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">37.6%</bdi></p>"
+    },
+    {
+      "name": "screen distribution unchanged without completion arg",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "screen denominator retains unclassified item",
+      "pass": true,
+      "detail": "<div class=\"wb-apple-stack\" role=\"img\" aria-label=\"منجز: 44، جاهز: 16، قيد العمل: 56، بدون حالة معتمدة: 1\"><span class=\"apple-fill-complete\" data-status-metric=\"done\" style=\"width:37.60683760683761%\"></span><span class=\"apple-fill-ready\" data-status-metric=\"ready\" style=\"width:13.675213675213676%\"></span><span class=\"apple-fill-active\" data-status-metric=\"active\" style=\"width:47.863247863247864%\"></span><span class=\"apple-fill-unknown\" data-status-metric=\"unclassified\" style=\"width:0.8547008547008548%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">37.6%</bdi></p><p class=\"wb-unclassified-caption\"><i class=\"apple-fill-unknown\" aria-hidden=\"true\"></i>بدون حالة معتمدة: <bdi dir=\"ltr\">1</bdi></p>"
+    },
+    {
+      "name": "screen unclassified note optional unchanged",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "screen invalid distribution has no bar or caption",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "screen missing status no misleading distribution",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "screen overlapping legislation suppressed",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "PDF agenda",
+      "pass": true,
+      "detail": "<div class=\"mp-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 37.6%\"><span class=\"apple-fill-complete\" style=\"width:37.60683760683761%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">37.6%</bdi></p>"
+    },
+    {
+      "name": "PDF council",
+      "pass": true,
+      "detail": "<div class=\"mp-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 54.3%\"><span class=\"apple-fill-complete\" style=\"width:54.285714285714285%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">54.3%</bdi></p>"
+    },
+    {
+      "name": "PDF legislation both completed cohorts",
+      "pass": true,
+      "detail": "<div class=\"mp-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 94.2%\"><span class=\"apple-fill-complete\" style=\"width:94.24083769633508%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"ontime overrun\"><span>نسبة المنجز</span><bdi dir=\"ltr\">94.2%</bdi></p>"
+    },
+    {
+      "name": "PDF special lead",
+      "pass": true,
+      "detail": "<div class=\"mp-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 50%\"><span class=\"apple-fill-complete\" style=\"width:50%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">50%</bdi></p>"
+    },
+    {
+      "name": "PDF special gs",
+      "pass": true,
+      "detail": "<div class=\"mp-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 27.8%\"><span class=\"apple-fill-complete\" style=\"width:27.77777777777778%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">27.8%</bdi></p>"
+    },
+    {
+      "name": "PDF budget projects",
+      "pass": true,
+      "detail": "<div class=\"mp-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 11.9%\"><span class=\"apple-fill-complete\" style=\"width:11.904761904761903%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">11.9%</bdi></p>"
+    },
+    {
+      "name": "PDF zero completion retained",
+      "pass": true,
+      "detail": "<div class=\"mp-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 0%\"><span class=\"apple-fill-complete\" style=\"width:0%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">0%</bdi></p>"
+    },
+    {
+      "name": "PDF 100 percent",
+      "pass": true,
+      "detail": "<div class=\"mp-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 100%\"><span class=\"apple-fill-complete\" style=\"width:100%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">100%</bdi></p>"
+    },
+    {
+      "name": "PDF zero completed component retained",
+      "pass": true,
+      "detail": "<div class=\"mp-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 50%\"><span class=\"apple-fill-complete\" style=\"width:50%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"ontime overrun\"><span>نسبة المنجز</span><bdi dir=\"ltr\">50%</bdi></p>"
+    },
+    {
+      "name": "PDF suppress zero denominator",
+      "pass": true,
+      "detail": {
+        "name": "zero denominator",
+        "n": {
+          "done": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "name": "PDF suppress negative denominator",
+      "pass": true,
+      "detail": {
+        "name": "negative denominator",
+        "n": {
+          "done": 0,
+          "total": -1
+        }
+      }
+    },
+    {
+      "name": "PDF suppress missing denominator",
+      "pass": true,
+      "detail": {
+        "name": "missing denominator",
+        "n": {
+          "done": 2
+        }
+      }
+    },
+    {
+      "name": "PDF suppress null denominator",
+      "pass": true,
+      "detail": {
+        "name": "null denominator",
+        "n": {
+          "done": 2,
+          "total": null
+        }
+      }
+    },
+    {
+      "name": "PDF suppress missing part",
+      "pass": true,
+      "detail": {
+        "name": "missing part",
+        "n": {
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "PDF suppress null part",
+      "pass": true,
+      "detail": {
+        "name": "null part",
+        "n": {
+          "done": null,
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "PDF suppress negative part",
+      "pass": true,
+      "detail": {
+        "name": "negative part",
+        "n": {
+          "done": -1,
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "PDF suppress part exceeds total",
+      "pass": true,
+      "detail": {
+        "name": "part exceeds total",
+        "n": {
+          "done": 85,
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "PDF suppress non-finite part",
+      "pass": true,
+      "detail": {
+        "name": "non-finite part",
+        "n": {
+          "done": null,
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "PDF suppress infinite total",
+      "pass": true,
+      "detail": {
+        "name": "infinite total",
+        "n": {
+          "done": 2,
+          "total": null
+        }
+      }
+    },
+    {
+      "name": "PDF suppress non-numeric part",
+      "pass": true,
+      "detail": {
+        "name": "non-numeric part",
+        "n": {
+          "done": "2",
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "PDF suppress part unavailable",
+      "pass": true,
+      "detail": {
+        "name": "part unavailable",
+        "n": {
+          "done": 2,
+          "total": 84
+        },
+        "unavailable": [
+          "done"
+        ]
+      }
+    },
+    {
+      "name": "PDF suppress total unavailable",
+      "pass": true,
+      "detail": {
+        "name": "total unavailable",
+        "n": {
+          "done": 2,
+          "total": 84
+        },
+        "unavailable": [
+          "total"
+        ]
+      }
+    },
+    {
+      "name": "PDF suppress missing cohort part",
+      "pass": true,
+      "detail": {
+        "name": "missing cohort part",
+        "parts": [
+          "done",
+          "overrun"
+        ],
+        "n": {
+          "done": 2,
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "PDF suppress cohort sum exceeds denominator",
+      "pass": true,
+      "detail": {
+        "name": "cohort sum exceeds denominator",
+        "parts": [
+          "done",
+          "overrun"
+        ],
+        "n": {
+          "done": 80,
+          "overrun": 5,
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "PDF suppress empty cohort set",
+      "pass": true,
+      "detail": {
+        "name": "empty cohort set",
+        "parts": [],
+        "n": {
+          "done": 2,
+          "total": 84
+        }
+      }
+    },
+    {
+      "name": "PDF distribution caption immediately after original bar",
+      "pass": true,
+      "detail": "<div class=\"mp-apple-stack\" role=\"img\" aria-label=\"منجز: 44، جاهز: 16، قيد العمل: 57\"><span class=\"apple-fill-complete\" data-status-metric=\"done\" style=\"width:37.60683760683761%\"></span><span class=\"apple-fill-ready\" data-status-metric=\"ready\" style=\"width:13.675213675213676%\"></span><span class=\"apple-fill-active\" data-status-metric=\"active\" style=\"width:48.717948717948715%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">37.6%</bdi></p>"
+    },
+    {
+      "name": "PDF distribution unchanged without completion arg",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "PDF denominator retains unclassified item",
+      "pass": true,
+      "detail": "<div class=\"mp-apple-stack\" role=\"img\" aria-label=\"منجز: 44، جاهز: 16، قيد العمل: 56، بدون حالة معتمدة: 1\"><span class=\"apple-fill-complete\" data-status-metric=\"done\" style=\"width:37.60683760683761%\"></span><span class=\"apple-fill-ready\" data-status-metric=\"ready\" style=\"width:13.675213675213676%\"></span><span class=\"apple-fill-active\" data-status-metric=\"active\" style=\"width:47.863247863247864%\"></span><span class=\"apple-fill-unknown\" data-status-metric=\"unclassified\" style=\"width:0.8547008547008548%\"></span></div><p class=\"mp-meter-caption\" data-completion-total=\"total\" data-completion-parts=\"done\"><span>نسبة المنجز</span><bdi dir=\"ltr\">37.6%</bdi></p><p class=\"mp-unclassified-caption\"><i class=\"apple-fill-unknown\" aria-hidden=\"true\"></i>بدون حالة معتمدة: <bdi dir=\"ltr\">1</bdi></p>"
+    },
+    {
+      "name": "PDF unclassified note optional unchanged",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "PDF invalid distribution has no bar or caption",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "PDF missing status no misleading distribution",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "PDF overlapping legislation suppressed",
+      "pass": true,
+      "detail": true
+    }
+  ],
+  "check_count": 64,
+  "hashes": {
+    "assets/js/views/dashboard.js": "d73799143eada5201a90cf52eb86478b214345ea7afee48d35d6f94fc1118c20",
+    "assets/js/views/monthly-print.js": "fa177094117fa1d2576f6958796813d7d84e37a1ccf2509ea545845de8020e0d",
+    "assets/css/tec-completion-revision19.css": "7854a18060162e414961d54f2b7662a0e8c95a2ad9460241fc208cfb0c277e79",
+    "assets/js/model/rules.js": "87e239701d3d294d81dc97434e843d7d4d197eefbafbd4a49872f4f991d257e0",
+    "assets/js/views/pdf-download.js": "bf3888b28690b9424f35b35b09031f298ef4945fa61b632333e69b23ba6aaa82",
+    "assets/js/views/print-pagination.js": "cab0729a7b11c1ee83174402b927370746402c0da7138a17172f81ebf920ef1f",
+    "assets/js/app-bundle.js": "0ee4ac3761322c057a7744d1250497e1c18de19088e910f91ebe8c52c35d64b6",
+    "assets/css/app-bundle.css": "6e236a3cb6904a9f1bcf3aa44700532f7c4aa884abe4d409bf5bb86bc2ac1032",
+    "assets/css/print-measure-bundle.css": "e10f1c13a809cde50ad24ae0e14fe6c82d299a049c8b57155f0bfd1281d15aa2"
+  },
+  "immutable_files": [
+    {
+      "path": "assets/js/model/checks.js",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/model/comparison.js",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/model/entities-leadership.js",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/model/entities.js",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/model/filter-options.js",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/model/loader.js",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/model/order.js",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/model/organization-reference.js",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/model/portfolio-delivery.js",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/model/projects-pmo.js",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/model/rules.js",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/model/schema.js",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/model/search.js",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/model/terms.js",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/model/util.js",
+      "unchanged": true
+    },
+    {
+      "path": "assets/fonts/DIN-Next-Arabic-Regular.otf",
+      "unchanged": true
+    },
+    {
+      "path": "assets/fonts/DIN-Next-LT-Arabic-Regular.ttf",
+      "unchanged": true
+    },
+    {
+      "path": "assets/fonts/Dubai-Bold.otf",
+      "unchanged": true
+    },
+    {
+      "path": "assets/fonts/Dubai-Regular.otf",
+      "unchanged": true
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/OFFLINE-PDF-ENGINE.md",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/offline-pdf-LICENSES.txt",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/offline-pdf-VERSIONS.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/offline-pdf-din-shaping.fea",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/offline-pdf-package-lock.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/offline-pdf-runtime.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/tec-pdf-symbols-LICENSE.txt",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/tec-pdf-symbols-PROVENANCE.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/tec-pdf-symbols.ttf",
+      "unchanged": true
+    }
+  ]
+}
