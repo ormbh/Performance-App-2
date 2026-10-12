@@ -1,0 +1,126 @@
+{
+  "overall": "pass",
+  "scope": "Only monthly continuous page width, margins, background and spacing v136→v137. Actual continuous-default and user-selected A4 beforeprint hooks; read-only illustrative source.",
+  "illustrativeFixture": "ILLUSTRATIVE-monthly-preview.xlsx",
+  "fixtureSHA256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "protectedAssetsIdentical": 44,
+  "modelModulesIdentical": 15,
+  "reportsAndPowerPointAssetFilesIdentical": 11,
+  "additionalUnmodifiedJavaScriptSourceCount": 50,
+  "onlyPermittedJavaScriptSourceChange": "assets/js/views/print-pagination.js",
+  "sourceRowsIdentical": 672,
+  "formatChecks": {
+    "candidate-continuous": {
+      "sourceComparisons": {
+        "items": true,
+        "scope": true,
+        "sourceDate": true,
+        "n": true,
+        "kpi": true,
+        "budget": true,
+        "cur": true,
+        "prev": true,
+        "changes": true,
+        "follow": true,
+        "progress": true
+      },
+      "screenAndActualPrintComparisons": {
+        "screenMetricFigures": true,
+        "screenFollowKeys": true,
+        "screenDeltas": true,
+        "screenBars": true,
+        "printMetricFigures": true,
+        "printKpiRatio": true,
+        "printFollowKeys": true,
+        "printDeltas": true,
+        "printBars": true
+      },
+      "printMetricEntries": 37,
+      "defaultFormat": "continuous",
+      "actualOutputFormat": "continuous"
+    },
+    "candidate-a4": {
+      "sourceComparisons": {
+        "items": true,
+        "scope": true,
+        "sourceDate": true,
+        "n": true,
+        "kpi": true,
+        "budget": true,
+        "cur": true,
+        "prev": true,
+        "changes": true,
+        "follow": true,
+        "progress": true
+      },
+      "screenAndActualPrintComparisons": {
+        "screenMetricFigures": true,
+        "screenFollowKeys": true,
+        "screenDeltas": true,
+        "screenBars": true,
+        "printMetricFigures": true,
+        "printKpiRatio": true,
+        "printFollowKeys": true,
+        "printDeltas": true,
+        "printBars": true
+      },
+      "printMetricEntries": 37,
+      "defaultFormat": "continuous",
+      "actualOutputFormat": "a4"
+    }
+  },
+  "followupCount": 8,
+  "followupKeys": [
+    "legislation-76",
+    "legislation-180",
+    "secretariat-7",
+    "secretariat-77",
+    "secretariat-83",
+    "secretariat-50",
+    "secretariat-38",
+    "secretariat-39"
+  ],
+  "progressNullZero": {
+    "nullCount": 502,
+    "zeroCount": 27,
+    "zeroSourceCells": [
+      "special-9",
+      "special-10",
+      "special-11",
+      "special-23",
+      "special-24",
+      "secretariat-7",
+      "secretariat-9",
+      "secretariat-11",
+      "secretariat-14",
+      "secretariat-15",
+      "secretariat-16",
+      "secretariat-17",
+      "secretariat-18",
+      "secretariat-19",
+      "secretariat-22",
+      "secretariat-23",
+      "secretariat-24",
+      "secretariat-25",
+      "secretariat-27",
+      "secretariat-32",
+      "secretariat-38",
+      "secretariat-39",
+      "secretariat-50",
+      "secretariat-53",
+      "secretariat-77",
+      "secretariat-81",
+      "secretariat-83"
+    ]
+  },
+  "sourceUnchanged": true,
+  "runtimeErrors": [],
+  "testedBundleSHA256": {
+    "assets/js/app-bundle.js": "19b3f12dcb6c0b0c2c4481134c3290cf0f80b25fc94d8b706136444e8d178d8c",
+    "assets/css/app-bundle.css": "2eeb64c7f2f8db5f42facec0573d027eb9a3529ade05bf84858132d9e76ecdea"
+  },
+  "notRun": {
+    "operationalWorkbook": "Not supplied; all populated figures here are illustrative.",
+    "PDFVisual": "Independent output-format audit verifies actual continuous PDF dimensions/A4 pagination; this task validates source membership and values."
+  }
+}

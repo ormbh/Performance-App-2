@@ -1,0 +1,73 @@
+{
+  "pdf": "/workspace/saytara-work/qa-v137/page-background/v137-continuous-graphics-true.pdf",
+  "bundleSha256": {
+    "assets/js/app-bundle.js": "19b3f12dcb6c0b0c2c4481134c3290cf0f80b25fc94d8b706136444e8d178d8c",
+    "assets/css/app-bundle.css": "2eeb64c7f2f8db5f42facec0573d027eb9a3529ade05bf84858132d9e76ecdea",
+    "assets/js/views/print-pagination.js": "7a76856b9fe05971b0fd75b9bd0e72b6920ae60dd4c73bb239c8fe75fc820eac"
+  },
+  "mediaBox": [
+    0.0,
+    0.0,
+    841.9199829101562,
+    1763.0399169921875
+  ],
+  "raster": {
+    "width": 842,
+    "height": 1764
+  },
+  "firstNativeFillRect": [
+    0.0,
+    0.0,
+    842.25,
+    1763.25
+  ],
+  "firstNativeFillRGB": [
+    0.9373000264167786,
+    0.9215999841690063,
+    0.9059000015258789
+  ],
+  "vectorFillCoversPage": true,
+  "bottomPixelRows": [
+    {
+      "y": 1763,
+      "rgb": [
+        252,
+        251,
+        251
+      ]
+    },
+    {
+      "y": 1762,
+      "rgb": [
+        239,
+        235,
+        231
+      ]
+    },
+    {
+      "y": 1761,
+      "rgb": [
+        239,
+        235,
+        231
+      ]
+    },
+    {
+      "y": 1760,
+      "rgb": [
+        239,
+        235,
+        231
+      ]
+    },
+    {
+      "y": 1759,
+      "rgb": [
+        239,
+        235,
+        231
+      ]
+    }
+  ],
+  "lowestNativeInkGlyphInsetMM": 10.026605902777778
+}

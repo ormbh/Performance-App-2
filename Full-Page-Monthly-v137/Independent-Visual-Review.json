@@ -1,0 +1,204 @@
+{
+  "candidatePDF": "/workspace/saytara-work/qa-v137/browser/monthly-continuous.pdf",
+  "candidateSHA256": "74023cfc7b06a158cc70a24e33d9a4b774340bab46d9b66de7b4da6df15f2e4b",
+  "referenceSHA256": "9d3c41a5ea2f38cd96f499da4403903925b21c350fdf1f23b712412efb33bdcd",
+  "actualGenerationBundleSha256": {
+    "assets/css/app-bundle.css": "2eeb64c7f2f8db5f42facec0573d027eb9a3529ade05bf84858132d9e76ecdea",
+    "assets/js/app-bundle.js": "19b3f12dcb6c0b0c2c4481134c3290cf0f80b25fc94d8b706136444e8d178d8c"
+  },
+  "pages": 1,
+  "pagePT": [
+    0.0,
+    0.0,
+    841.9199829101562,
+    1763.0399169921875
+  ],
+  "pageMM": [
+    297.01066063774954,
+    621.9613040500217
+  ],
+  "nativeVisibleCharacterFontPointSizeColorEquality": true,
+  "nativeFontSizeCountsEquality": true,
+  "fontResources": [
+    {
+      "type": "Type3",
+      "name": "",
+      "embeddedProgramBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type3",
+      "name": "",
+      "embeddedProgramBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type3",
+      "name": "",
+      "embeddedProgramBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type3",
+      "name": "",
+      "embeddedProgramBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type3",
+      "name": "",
+      "embeddedProgramBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type3",
+      "name": "",
+      "embeddedProgramBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type0",
+      "name": "CAAAAA+DINNextLTArabic-Regular",
+      "embeddedProgramBytes": 14704,
+      "CharProcs": false,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type3",
+      "name": "",
+      "embeddedProgramBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type3",
+      "name": "",
+      "embeddedProgramBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type0",
+      "name": "EAAAAA+LiberationSans",
+      "embeddedProgramBytes": 17600,
+      "CharProcs": false,
+      "ToUnicode": true
+    }
+  ],
+  "allNativeFontResourcesEmbedded": true,
+  "outsideTextCount": 0,
+  "bodyBottomPT": 1690.0589599609375,
+  "footerTopPT": 1719.2354736328125,
+  "footerBottomPT": 1735.7354736328125,
+  "bodyToFooterClearancePT": 29.176513671875,
+  "lowestFooterGlyphInsetMM": 9.632400851779513,
+  "footerGlyphInsetAtLeast8MM": true,
+  "physicalBackgroundEdgeRGBCounts": [
+    {
+      "rgb": [
+        239,
+        235,
+        231
+      ],
+      "pixels": 7958
+    }
+  ],
+  "allFullyPhysicalEdgePixelsLinen": true,
+  "rasterDimensions": [
+    1287,
+    2694
+  ],
+  "fullyPhysicalPixelDimensions": [
+    1286,
+    2693
+  ],
+  "rasterExclusion": "Fractional ceiling cells outside MediaBox are renderer padding, not a PDFwhiteband.",
+  "cardsPT": [
+    [
+      23.26171875,
+      958.125,
+      819.01171875,
+      1708.125
+    ],
+    [
+      432.76171875,
+      113.625,
+      819.01171875,
+      352.125
+    ],
+    [
+      432.76171875,
+      369.375,
+      819.01171875,
+      559.875
+    ],
+    [
+      432.76171875,
+      577.875,
+      819.01171875,
+      751.125
+    ],
+    [
+      432.76171875,
+      769.125,
+      819.01171875,
+      917.625
+    ],
+    [
+      23.26171875,
+      113.625,
+      409.51171875,
+      381.375
+    ],
+    [
+      23.26171875,
+      399.375,
+      409.51171875,
+      890.625
+    ]
+  ],
+  "approvedNativePointSizes": {
+    "title": 24,
+    "tableBodyAndStatus": 12,
+    "tableHeading": 13.5,
+    "footer": 10.5
+  },
+  "sourceEdits": "None; separateQA artifacts only.",
+  "verdict": "PASS",
+  "bodyGeometryAfterFooterFixIdentical": true,
+  "fullFinalPageAndChangedFooterInspected": true,
+  "unchangedReadableBodyCropsRetainedUnderExactNativeBodyAndCardGeometryEquality": true,
+  "visualPASS": {
+    "roomierPaperCardsOnLinenCanvas": true,
+    "noWhitePageBand": true,
+    "projectsLEFTExecutiveRIGHT": true,
+    "allEightFollowupRowsAndFullNotes": true,
+    "SLCOrderAndCaptionsReadable": true,
+    "legislationFourValueBaselinesAligned": true,
+    "strategyThreeValueAndRetainedDeltaBaselinesAligned": true,
+    "oneOfficialLogoAndHeader": true,
+    "oneCopyrightAndPageCounterFooter": true,
+    "noClippingOrTextOverlap": true
+  },
+  "resolvedInitialFinding": {
+    "issue": "Footerlowestglyph1.24mmfromphysicaledge; requiredconsistent8mmreadinginset.",
+    "finalLowestGlyphInsetMM": 9.632400851779513,
+    "result": "RESOLVED"
+  },
+  "sourceScope": {
+    "fixture": "Frozenv135-v137illustrativeworkbook",
+    "fixtureSHA256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "canonicalDataProof": "Parent source QA verifies unchanged672records/37metricentries/8followupkeys.",
+    "independentNativeProof": "Exactvisiblecharacter/font/pointsize/textcolorcontentmatchesreleasedv136,withactualmetricandrowpositionsinspected."
+  },
+  "limitations": [
+    "Illustrative workbook only; operational workbook unavailable.",
+    "Hardwareprinting,otherPDFviewers andformalPDFaccessibilitycertification nottested."
+  ]
+}

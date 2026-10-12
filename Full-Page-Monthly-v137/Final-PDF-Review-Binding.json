@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "scope": "Exact final app ZIP extraction; final native PDF is identical to the independently reviewed PDF in text, dimensions and rendered pixels",
+  "reviewedPdfSha256": "74023cfc7b06a158cc70a24e33d9a4b774340bab46d9b66de7b4da6df15f2e4b",
+  "finalPdfSha256": "2a70adb4688b90f568bd6164da4047f9701c482f0738baa50f2d768daa3ceca4",
+  "nativeTextAndPixelsIdentical": true,
+  "bundleSha256": {
+    "assets/css/app-bundle.css": "2eeb64c7f2f8db5f42facec0573d027eb9a3529ade05bf84858132d9e76ecdea",
+    "assets/js/app-bundle.js": "19b3f12dcb6c0b0c2c4481134c3290cf0f80b25fc94d8b706136444e8d178d8c"
+  }
+}

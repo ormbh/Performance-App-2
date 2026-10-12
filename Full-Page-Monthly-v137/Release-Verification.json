@@ -1,0 +1,11 @@
+{
+  "build": "137",
+  "manifestFiles": 161,
+  "zipBytes": 8062842,
+  "zipSha256": "8d66cf19e99fcf3a2598eeb3709618502e0a6c318769be1edc87f6fb78d3c238",
+  "completeFileSetVerified": true,
+  "allManifestHashesVerified": true,
+  "runtimeMatchesTestedExtractedCandidate": true,
+  "sourceWorkbooksAndQAExcluded": true,
+  "finalExtraction": "/workspace/saytara-work/release-check-v137/Performance-App-v137"
+}

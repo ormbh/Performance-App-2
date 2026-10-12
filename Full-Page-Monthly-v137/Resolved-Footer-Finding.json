@@ -1,0 +1,15 @@
+{
+  "verdict": "FAIL pending requestedfooterinsetfix",
+  "nativePDFSHA256": "6bafd5cbfe74b18ecfd7bcaabc29ca434ed76a5178927cfdd5a7ed78ba709df2",
+  "nativeGenerationBundleSha256": {
+    "assets/js/app-bundle.js": "89618fb5b55dfb5d8b86b63bfddfe922959149be4306b8010923f2feca491bc4",
+    "assets/css/app-bundle.css": "2eeb64c7f2f8db5f42facec0573d027eb9a3529ade05bf84858132d9e76ecdea"
+  },
+  "finding": "Lowest native footerglyph3.5145pt\u22481.24mm abovephysicalpageedge. Footerfitsinside8mmboxbutdoesnotmeetconsistent8mmreadinginset. Parentwilladdfooterbandreservewithoutmovingbodyorchangingfonts/data.",
+  "otherNativeVisualFindings": [],
+  "wholePageAndFourReadableCropsInspected": true,
+  "allPhysicalPerimeterPixelsExactLinen": 7888,
+  "visibleContentTypefacePointSizeAndColorEqualityToV136": true,
+  "footerAboveBodyClearancePt": 30.676513671875,
+  "readOnlyAppSource": true
+}

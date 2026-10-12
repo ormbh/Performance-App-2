@@ -1,0 +1,162 @@
+{
+  "scope": "Fresh extraction of packaged v137; frozen illustrative source only",
+  "checks": [
+    {
+      "check": "extracted index build137",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fresh package opens upload",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "actual upload loads frozen672records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "search home menu-only navigation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "search matches all expected source identities",
+      "pass": true,
+      "detail": [
+        "secretariat-7",
+        "council-51",
+        "agenda-7",
+        "council-7"
+      ]
+    },
+    {
+      "check": "actual source detail opens from search",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "detail closes without losing search",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exact new legislation captions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no repeated SLC note",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly screen labels16px",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all3 report menu destinations",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fresh extracted continuous default",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fresh package native one-page continuous PDF",
+      "pass": true,
+      "detail": {
+        "pages": 1,
+        "widthMM": 297.01066063774954
+      }
+    },
+    {
+      "check": "dashboard exact output dimensions",
+      "pass": true,
+      "detail": {
+        "pages": 1,
+        "width": 841.9199829101562,
+        "height": 1763.0399169921875
+      }
+    },
+    {
+      "check": "dashboard actual cutoff in first header",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "dashboard copyright on everypage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 exact output dimensions",
+      "pass": true,
+      "detail": {
+        "pages": 3,
+        "width": 595.28,
+        "height": 841.89
+      }
+    },
+    {
+      "check": "monthly-a4 actual cutoff in first header",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 copyright on everypage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda exact output dimensions",
+      "pass": true,
+      "detail": {
+        "pages": 15,
+        "width": 841.89,
+        "height": 595.28
+      }
+    },
+    {
+      "check": "agenda actual cutoff in first header",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda copyright on everypage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "extracted HH320px no document overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HH ring preserves readable dimension",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no JavaScript errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "no failed app/font/image requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "requestsFailed": [],
+  "bundleSha256": {
+    "assets/css/app-bundle.css": "2eeb64c7f2f8db5f42facec0573d027eb9a3529ade05bf84858132d9e76ecdea",
+    "assets/js/app-bundle.js": "19b3f12dcb6c0b0c2c4481134c3290cf0f80b25fc94d8b706136444e8d178d8c"
+  },
+  "result": "PASS"
+}
