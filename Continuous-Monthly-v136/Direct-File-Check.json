@@ -1,0 +1,7 @@
+{
+  "result": "NOT_RUN",
+  "operation": "Direct file:// opening of extracted v136 index.html in managed Chromium",
+  "reason": "Browser administration policy blocked file navigation (net::ERR_BLOCKED_BY_ADMINISTRATOR) before app execution. No app failure was observed and no policy bypass was attempted.",
+  "availableValidation": "Actual extracted-package upload/search/details/menu/mobile/native PDF validated through local HTTP; source and all runtime assets verified.",
+  "WindowsAndHardwarePrint": "Not run"
+}

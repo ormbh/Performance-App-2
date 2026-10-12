@@ -1,0 +1,507 @@
+{
+  "scope": "Actual Chromium and built v136 served bundles; frozen illustrative workbook. Font/image delay and oversize cases are synthetic QA stresses, not operational data or design scales.",
+  "fixtureSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "bundleSha256": {
+    "assets/js/app-bundle.js": "5a9d8072c1ec62c9efae354f43ebd2e6e726ece9f1c5ef27992a3eacb07f8570",
+    "assets/css/app-bundle.css": "81805c36048d18cf468bd5f62e0f7cfbd953911e0467b9f9d05b9da5a9aec792",
+    "assets/js/views/print-pagination.js": "3d51685e73022baf052627ad7fb1477f4466b9e734eea54aca67d027bf818ec7"
+  },
+  "checks": [
+    {
+      "check": "served bundle matches recorded assets/js/app-bundle.js",
+      "pass": true,
+      "detail": "5a9d8072c1ec62c9efae354f43ebd2e6e726ece9f1c5ef27992a3eacb07f8570"
+    },
+    {
+      "check": "served bundle matches recorded assets/css/app-bundle.css",
+      "pass": true,
+      "detail": "81805c36048d18cf468bd5f62e0f7cfbd953911e0467b9f9d05b9da5a9aec792"
+    },
+    {
+      "check": "toolbar screen preparation uses temporary80mm custom page without measuring hidden paper DOM",
+      "pass": true,
+      "detail": {
+        "media": false,
+        "fonts": "loaded",
+        "width": 1440,
+        "height": 3015.921875,
+        "scroll": 3016,
+        "expectedMM": 825,
+        "pageCSS": "@page tec-report { size:260mm 80mm; margin:12mm; }",
+        "printMode": "continuous",
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      }
+    },
+    {
+      "check": "actual print media entry synchronously sizes complete DOM at260mm with12mm margins",
+      "pass": true,
+      "detail": {
+        "media": true,
+        "fonts": "loaded",
+        "width": 891.953125,
+        "height": 2171.234375,
+        "scroll": 2171,
+        "expectedMM": 602,
+        "pageCSS": "@page tec-report { size:260mm 602mm; margin:12mm; }",
+        "printMode": "continuous",
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      }
+    },
+    {
+      "check": "actual continuous content width236mm",
+      "pass": true,
+      "detail": 891.953125
+    },
+    {
+      "check": "normal endPrint clears sizing/attrs",
+      "pass": true,
+      "detail": {
+        "media": false,
+        "fonts": "loaded",
+        "width": 1440,
+        "height": 3015.921875,
+        "scroll": 3016,
+        "expectedMM": 825,
+        "pageCSS": null,
+        "printMode": null,
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      }
+    },
+    {
+      "check": "normal print and cleanup preserve full source records/order and print keys",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "print media waits for pending native FontFace before measuring",
+      "pass": true,
+      "detail": {
+        "face": {
+          "fontStatus": "loading",
+          "faceStatus": "loading"
+        },
+        "geometry": {
+          "media": true,
+          "fonts": "loading",
+          "width": 891.953125,
+          "height": 2171.234375,
+          "scroll": 2171,
+          "expectedMM": 602,
+          "pageCSS": "@page tec-report { size:260mm 80mm; margin:12mm; }",
+          "printMode": "continuous",
+          "monthlyLayout": "continuous",
+          "saved": "continuous",
+          "stateLayout": "continuous"
+        }
+      }
+    },
+    {
+      "check": "font completion automatically remeasures entire print DOM",
+      "pass": true,
+      "detail": {
+        "media": true,
+        "fonts": "loaded",
+        "width": 891.953125,
+        "height": 2171.234375,
+        "scroll": 2171,
+        "expectedMM": 602,
+        "pageCSS": "@page tec-report { size:260mm 602mm; margin:12mm; }",
+        "printMode": "continuous",
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      }
+    },
+    {
+      "check": "image load event automatically increases measured height without viewport scaling",
+      "pass": true,
+      "detail": {
+        "pending": {
+          "media": true,
+          "fonts": "loaded",
+          "width": 891.953125,
+          "height": 2171.234375,
+          "scroll": 2171,
+          "expectedMM": 602,
+          "pageCSS": "@page tec-report { size:260mm 602mm; margin:12mm; }",
+          "printMode": "continuous",
+          "monthlyLayout": "continuous",
+          "saved": "continuous",
+          "stateLayout": "continuous"
+        },
+        "ready": {
+          "media": true,
+          "fonts": "loaded",
+          "width": 891.953125,
+          "height": 2457.359375,
+          "scroll": 2457,
+          "expectedMM": 678,
+          "pageCSS": "@page tec-report { size:260mm 678mm; margin:12mm; }",
+          "printMode": "continuous",
+          "monthlyLayout": "continuous",
+          "saved": "continuous",
+          "stateLayout": "continuous"
+        }
+      }
+    },
+    {
+      "check": "endPrint clears while print media remains active and readiness is pending",
+      "pass": true,
+      "detail": {
+        "media": true,
+        "fonts": "loading",
+        "width": 1440,
+        "height": 2775.375,
+        "scroll": 2775,
+        "expectedMM": 762,
+        "pageCSS": null,
+        "printMode": null,
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      }
+    },
+    {
+      "check": "late font promise/loadingdone/RAF do not resurrect page styles or print state",
+      "pass": true,
+      "detail": {
+        "media": true,
+        "fonts": "loaded",
+        "width": 1440,
+        "height": 2775.375,
+        "scroll": 2775,
+        "expectedMM": 762,
+        "pageCSS": null,
+        "printMode": null,
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      }
+    },
+    {
+      "check": "height cap safely changes effective page/layout to A4 portrait",
+      "pass": true,
+      "detail": {
+        "media": true,
+        "fonts": "loaded",
+        "width": 718.109375,
+        "height": 21961.125,
+        "scroll": 21961,
+        "expectedMM": 5838,
+        "pageCSS": "@page tec-report { size:A4 portrait; margin:10mm; }",
+        "printMode": "a4",
+        "monthlyLayout": "a4",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      }
+    },
+    {
+      "check": "height-cap event retains saved continuous preference and includes measured limit",
+      "pass": true,
+      "detail": {
+        "events": [
+          {
+            "layout": "a4",
+            "reason": "page-height-limit",
+            "heightMM": 5802,
+            "maxHeightMM": 5080,
+            "message": "يتجاوز التقرير حد طول الصفحة المتصلة؛ تم استخدام صفحات A4 عمودية للحفاظ على جميع البنود والملاحظات."
+          }
+        ],
+        "toast": "تم تحميل الملف · بنود المتابعة: 618 · المؤشرات: 54",
+        "hidden": true,
+        "mutations": 0
+      }
+    },
+    {
+      "check": "controller queues fallback notice while native print media hides operational toast",
+      "pass": true,
+      "detail": {
+        "events": [
+          {
+            "layout": "a4",
+            "reason": "page-height-limit",
+            "heightMM": 5802,
+            "maxHeightMM": 5080,
+            "message": "يتجاوز التقرير حد طول الصفحة المتصلة؛ تم استخدام صفحات A4 عمودية للحفاظ على جميع البنود والملاحظات."
+          }
+        ],
+        "toast": "تم تحميل الملف · بنود المتابعة: 618 · المؤشرات: 54",
+        "hidden": true,
+        "mutations": 0
+      }
+    },
+    {
+      "check": "fallback remains sticky through repeated beforeprint/measurement with no duplicate notice",
+      "pass": true,
+      "detail": {
+        "events": 1,
+        "toastMutations": 0
+      }
+    },
+    {
+      "check": "fallback endPrint restores continuous format and clears transient sizing",
+      "pass": true,
+      "detail": {
+        "media": false,
+        "fonts": "loaded",
+        "width": 1440,
+        "height": 3015.921875,
+        "scroll": 3016,
+        "expectedMM": 825,
+        "pageCSS": null,
+        "printMode": null,
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      }
+    },
+    {
+      "check": "fallback notice appears once after actual print exit despite delay beyond2800ms",
+      "pass": true,
+      "detail": {
+        "visible": true,
+        "text": "يتجاوز التقرير حد طول الصفحة المتصلة؛ تم استخدام صفحات A4 عمودية للحفاظ على جميع البنود والملاحظات.",
+        "mutations": 1
+      }
+    },
+    {
+      "check": "repeated afterprint does not duplicate fallback notice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "synthetic cap stress preserves records/figures/followup keys exactly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no JavaScript errors in actual-browser stress cases",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "bundles/source remained unchanged throughout focused QA",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "cases": {
+    "toolbar-media-cleanup": {
+      "screen": {
+        "media": false,
+        "fonts": "loaded",
+        "width": 1440,
+        "height": 3015.921875,
+        "scroll": 3016,
+        "expectedMM": 825,
+        "pageCSS": "@page tec-report { size:260mm 80mm; margin:12mm; }",
+        "printMode": "continuous",
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      },
+      "active": {
+        "media": true,
+        "fonts": "loaded",
+        "width": 891.953125,
+        "height": 2171.234375,
+        "scroll": 2171,
+        "expectedMM": 602,
+        "pageCSS": "@page tec-report { size:260mm 602mm; margin:12mm; }",
+        "printMode": "continuous",
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      },
+      "after": {
+        "media": false,
+        "fonts": "loaded",
+        "width": 1440,
+        "height": 3015.921875,
+        "scroll": 3016,
+        "expectedMM": 825,
+        "pageCSS": null,
+        "printMode": null,
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      }
+    },
+    "delayed-font": {
+      "loading": {
+        "media": true,
+        "fonts": "loading",
+        "width": 891.953125,
+        "height": 2171.234375,
+        "scroll": 2171,
+        "expectedMM": 602,
+        "pageCSS": "@page tec-report { size:260mm 80mm; margin:12mm; }",
+        "printMode": "continuous",
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      },
+      "ready": {
+        "media": true,
+        "fonts": "loaded",
+        "width": 891.953125,
+        "height": 2171.234375,
+        "scroll": 2171,
+        "expectedMM": 602,
+        "pageCSS": "@page tec-report { size:260mm 602mm; margin:12mm; }",
+        "printMode": "continuous",
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      },
+      "minimumNetworkHoldMS": 100
+    },
+    "delayed-image": {
+      "before": {
+        "media": true,
+        "fonts": "loading",
+        "width": 891.953125,
+        "height": 2171.234375,
+        "scroll": 2171,
+        "expectedMM": 602,
+        "pageCSS": "@page tec-report { size:260mm 80mm; margin:12mm; }",
+        "printMode": "continuous",
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      },
+      "pending": {
+        "media": true,
+        "fonts": "loaded",
+        "width": 891.953125,
+        "height": 2171.234375,
+        "scroll": 2171,
+        "expectedMM": 602,
+        "pageCSS": "@page tec-report { size:260mm 602mm; margin:12mm; }",
+        "printMode": "continuous",
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      },
+      "ready": {
+        "media": true,
+        "fonts": "loaded",
+        "width": 891.953125,
+        "height": 2457.359375,
+        "scroll": 2457,
+        "expectedMM": 678,
+        "pageCSS": "@page tec-report { size:260mm 678mm; margin:12mm; }",
+        "printMode": "continuous",
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      },
+      "minimumNetworkHoldMS": 100
+    },
+    "cancel-pending-font": {
+      "beforeRelease": {
+        "media": true,
+        "fonts": "loading",
+        "width": 1440,
+        "height": 2775.375,
+        "scroll": 2775,
+        "expectedMM": 762,
+        "pageCSS": null,
+        "printMode": null,
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      },
+      "afterRelease": {
+        "media": true,
+        "fonts": "loaded",
+        "width": 1440,
+        "height": 2775.375,
+        "scroll": 2775,
+        "expectedMM": 762,
+        "pageCSS": null,
+        "printMode": null,
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      }
+    },
+    "height-cap-sticky-restore": {
+      "fallback": {
+        "media": true,
+        "fonts": "loaded",
+        "width": 718.109375,
+        "height": 21961.125,
+        "scroll": 21961,
+        "expectedMM": 5838,
+        "pageCSS": "@page tec-report { size:A4 portrait; margin:10mm; }",
+        "printMode": "a4",
+        "monthlyLayout": "a4",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      },
+      "event": {
+        "events": [
+          {
+            "layout": "a4",
+            "reason": "page-height-limit",
+            "heightMM": 5802,
+            "maxHeightMM": 5080,
+            "message": "يتجاوز التقرير حد طول الصفحة المتصلة؛ تم استخدام صفحات A4 عمودية للحفاظ على جميع البنود والملاحظات."
+          }
+        ],
+        "toast": "تم تحميل الملف · بنود المتابعة: 618 · المؤشرات: 54",
+        "hidden": true,
+        "mutations": 0
+      },
+      "sticky": {
+        "media": true,
+        "fonts": "loaded",
+        "width": 718.109375,
+        "height": 21961.125,
+        "scroll": 21961,
+        "expectedMM": 5838,
+        "pageCSS": "@page tec-report { size:A4 portrait; margin:10mm; }",
+        "printMode": "a4",
+        "monthlyLayout": "a4",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      },
+      "after": {
+        "media": false,
+        "fonts": "loaded",
+        "width": 1440,
+        "height": 3015.921875,
+        "scroll": 3016,
+        "expectedMM": 825,
+        "pageCSS": null,
+        "printMode": null,
+        "monthlyLayout": "continuous",
+        "saved": "continuous",
+        "stateLayout": "continuous"
+      },
+      "noticeAfterExit": {
+        "visible": true,
+        "text": "يتجاوز التقرير حد طول الصفحة المتصلة؛ تم استخدام صفحات A4 عمودية للحفاظ على جميع البنود والملاحظات.",
+        "mutations": 1
+      },
+      "printDelayMS": 3200
+    }
+  },
+  "browserVersion": "151.0.7922.173",
+  "finalBundleSha256": {
+    "assets/js/app-bundle.js": "5a9d8072c1ec62c9efae354f43ebd2e6e726ece9f1c5ef27992a3eacb07f8570",
+    "assets/css/app-bundle.css": "81805c36048d18cf468bd5f62e0f7cfbd953911e0467b9f9d05b9da5a9aec792",
+    "assets/js/views/print-pagination.js": "3d51685e73022baf052627ad7fb1477f4466b9e734eea54aca67d027bf818ec7"
+  },
+  "result": "PASS"
+}

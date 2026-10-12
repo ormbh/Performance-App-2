@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "scope": "Exact final released ZIP extraction; actual native PDF matches independently reviewed render and native text",
+  "reviewedPdfSha256": "7a93e093d9e5e1eed29d43c7d4d48e5988aad0b6906156a4d73d0383e87948ea",
+  "finalPdfSha256": "9d3c41a5ea2f38cd96f499da4403903925b21c350fdf1f23b712412efb33bdcd",
+  "nativeTextAndPixelsIdentical": true,
+  "bundleSha256": {
+    "assets/css/app-bundle.css": "81805c36048d18cf468bd5f62e0f7cfbd953911e0467b9f9d05b9da5a9aec792",
+    "assets/js/app-bundle.js": "5a9d8072c1ec62c9efae354f43ebd2e6e726ece9f1c5ef27992a3eacb07f8570"
+  }
+}

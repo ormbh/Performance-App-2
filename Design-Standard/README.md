@@ -1,8 +1,8 @@
 # TEC Apple-Inspired Design standard
 
-Approved typography, controls, status badges, layout, header, navigation, bars and print rules. **Revision 10 — 12 October 2026; monthly paired print, 16px labels and caption corrections approved.** This consolidates the supplied standard and all subsequent approved amendments, including **18px Dubai Regular subgroup names and agenda category labels**, the updated Ink/Taupe text roles and solid financial bars.
+Approved typography, controls, status badges, layout, header, navigation, bars and print rules. **Revision 11 — 12 October 2026; continuous monthly PDF and roomier digital spacing approved.** This consolidates the supplied standard and all subsequent approved amendments, including **18px Dubai Regular subgroup names and agenda category labels**, the updated Ink/Taupe text roles and solid financial bars.
 
-**Implementation: Performance App v135.** The approved A4 split is applied: agenda, council and HH reports use landscape; all remaining print/export views use portrait. A3 choices and stored A3 preferences are normalized to A4. Monthly dashboard short value/status labels and strategy metric names use 16px on screen. Legislation timing captions identify SLC directly; the repeated comparison paragraph is removed. Prior typography, colors, source scope and calculations are retained. Final verification is recorded in VERIFICATION-v135.md.
+**Implementation: Performance App v136.** The monthly report defaults to a continuous digital PDF with a 260mm page width, content-measured height and 12mm margins. A4 portrait remains selectable for monthly paper printing. Agenda, council and HH paper reports retain A4 landscape; all other paper views retain A4 portrait. A3 remains unavailable. Monthly short value/status labels and strategy metric names stay 16px on screen; SLC captions and the earlier caption corrections remain approved. Fonts, colors, source scope and calculations are unchanged. Browser, source and native PDF checks pass for the tested workflows; see VERIFICATION-v136.md for evidence and limits. Earlier verification files describe their own releases.
 
 The monthly page establishes the shared standard at **100% browser zoom**. Screen typography uses 38px page titles (36px on the search home), 30px portfolio headings, 28px card titles, 16px table content and badges, and 18px Dubai Bold table headings. Retain the compact card grouping: 18px subgroup names, 16px monthly status labels above their figures, and change arrows below their own values. The card-header total label retains its position beneath the main total. **Remove explanatory labels and subtitles beneath all page, portfolio, section, card and table titles**, including search and upload titles. Retain the required screen report date as secondary metadata.
 
@@ -12,7 +12,15 @@ Use the supplied **Regular (400)** faces for headings, figures, body text and co
 
 ## Latest approved amendments
 
-**Monthly print composition:** preserve the approved paired layout on A4 portrait: projects left, executive portfolios right, full-width followups below both. Keep approved print fonts and use natural pagination rather than scaling the whole page. A fitting card moves whole to the next page if the remaining space is insufficient; this may leave useful column whitespace. Do not force the complete summary into one page or promise a fixed page count.
+**Continuous monthly PDF:** use one custom digital page by default, with a 260mm width, 12mm margins and a 236mm content width. Measure the complete report after print fonts and images are ready; its height grows with the content. Preserve projects physically left, executive portfolios physically right and full-width followups below both. Use one report masthead and one legal/page-number footer. Keep all approved print font sizes; do not fit the document with zoom, font shrink or a fixed height.
+
+**Digital spacing:** use 5mm padding inside monthly cards and the followup card, a 6mm portfolio-column gap, 4mm between stacked cards, 3mm beneath card headings, 2.5mm above metric rows and bars, and 3mm table-cell padding. Put the followup section 7mm below the summary. Preserve natural wrapping and the label/value/change associations. These spacings apply to the continuous digital format; screen and A4 paper spacing retain their approved profiles.
+
+**Monthly format control:** the primary action reads **طباعة / حفظ PDF**. Under **إعدادات الطباعة**, show the **تنسيق التقرير** dropdown with **PDF متصل — صفحة واحدة** and **A4 عمودي — للطباعة**. The continuous format is the default when no current format preference is saved; retain a user's selected A4 preference. For the continuous format, choose Save as PDF in the browser dialog; select A4 for physical paper printing.
+
+**Continuous height limit:** if the measured digital page would exceed 5080mm, automatically use A4 portrait pages for that print session and show an explanatory toast. Preserve every record, note, value and filter; keep the saved format preference unchanged. Do not truncate the report, clamp it to the limit or shrink text. Ordinary continuous reports remain one page; this fallback applies only to an unusually long report.
+
+**Monthly A4 composition:** the selectable paper mode preserves projects left, executive portfolios right and full-width followups below both. Keep approved print fonts and use natural pagination. A fitting card moves whole if the remaining page space is insufficient; a taller card may continue readably. Do not promise a fixed A4 page count. The continuous digital mode supplies the approved single-page output by extending its page height.
 
 **Strategy card notes:** remove the visible coverage/unmeasured-count caption, result-count caption and target-count caption on screen and in print (for example «تغطية القياس 72.2% · 15 غير مقاس», «متوسط نتائج 39 مؤشراً مقاساً», «متوسط 49 مستهدفاً مسجلاً»). Remove their empty spacing. Keep primary values, denominator, measurement bar, meaningful source availability explanations and valid changes. Align the retained changes on their own shared row when metrics appear side by side.
 
@@ -20,9 +28,9 @@ Use the supplied **Regular (400)** faces for headings, figures, body text and co
 
 **Dashboard metric names:** monthly short value/status labels and strategy metric names use 16px Dubai Regular Ink on screen. Agenda category labels and subgroup names remain 18px; badges remain 16px. Retained explanations/metadata remain 14px. The independent print scale is unchanged. This is a monthly/dashboard role amendment, not a blanket resize of source-report legends or supporting labels.
 
-**Legislation captions:** display **SLC منجز ضمن موعد** and **SLC منجز بعد موعد**. Remove the repeated comparison paragraph from the monthly screen and paper composition. Preserve the source fields, disjoint timing cohorts, status colors and formulas.
+**Legislation captions:** display **SLC منجز ضمن موعد** and **SLC منجز بعد موعد**. Remove the repeated comparison paragraph from the monthly screen and both output formats. Preserve the source fields, disjoint timing cohorts, status colors and formulas.
 
-**Paper and orientation:** A4 only. Agenda, council and HH reports retain landscape; all remaining print/export views use portrait. A3 is removed. Cards must reflow to the selected page width and remain together whenever they fit a page. The approved print font sizes below are unchanged. This amendment supersedes the prior all-landscape default and larger-paper option.
+**Paper and orientation:** physical paper modes remain A4 only: agenda, council and HH use landscape; every other paper view, including the selectable monthly paper mode, uses portrait. A3 remains removed. The continuous monthly digital PDF is a separate custom-size format, not an A3 paper option. Keep the approved print scale in both digital and paper output. A4 cards reflow to the paper width and stay together when they fit.
 
 The retained typography amendment increases only **الأجندة المعتمدة** and **المواضيع المستجدة** category labels from 14px to **18px Dubai Regular Ink** on screen. Their figures remain 28px and changes 15px. Print retains 9pt labels, 20pt figures and 11pt changes. Monthly short value/status labels and strategy names now use 16px. Supporting body explanations and minor metadata retain 14px. Other report/legend roles retain their separately specified sizes. The search-home title also moves 4px upward from v132; its 36px size and the logo, search-field and action positions stay unchanged.
 
@@ -206,7 +214,7 @@ Taupe control borders are chosen as a readable boundary on Paper. Stone #ABA394 
 | Logo | Official supplied TEC asset; 192px desktop / 144px mobile report logo, preserved proportions and clear space |
 | Primary navigation | Plain 16px Dubai links: البحث plus the current page only; search home has the menu only, search results have one current Search link; every other destination remains in the menu. Teal current-page underline; no filled boxes or redundant destination icons |
 | Application menu | One existing 20px grid icon in a 44px control, named صفحات التطبيق; include three direct report links (agenda, council and HH) on every loaded page, including search; retain other existing destinations and eligible actions |
-| Task actions | One primary طباعة التقرير action; optional إعدادات الطباعة secondary action; grouped opposite navigation on desktop |
+| Task actions | Monthly primary طباعة / حفظ PDF; other reports retain طباعة التقرير. Optional إعدادات الطباعة secondary action, grouped opposite navigation on desktop |
 | Core filters | Sector → unit → entity in physical RTL order where applicable; separate fields below navigation; 12px labels and 16px values |
 | Scope summary | 14px Ink below the filter fields; retain the active scope and update it when selections change |
 | Additional project filters | Type, priority, completion quarter, status and manager under المزيد من التصفية; collapse preserves selections |
@@ -218,7 +226,7 @@ Taupe control borders are chosen as a readable boundary on Paper. Stone #ABA394 
 | Menu dismissal | Outside click or Escape closes; keyboard dismissal returns focus to the trigger; outside click allows the clicked control to receive focus |
 | Menu keyboard behavior | Enter/Space open; Up/Down and Home/End navigate command items; use real links for destinations; retain modified-click/new-tab behavior |
 | Mobile filter sheet | Paper, 18px top corners and 16px padding; modal focus containment and inert background; close, تم and Escape preserve selections and restore focus |
-| Print settings dialog | Paper/Sand, 18px corners; 28px DIN title with no subtitle; 16px fields / 12px field labels; 44px close target; Escape and focus restoration |
+| Print settings dialog | Paper/Sand, 18px corners; 28px DIN title with no subtitle; 16px fields / 12px field labels; 44px close target; Escape and focus restoration. Monthly تنسيق التقرير offers PDF متصل — صفحة واحدة and A4 عمودي — للطباعة |
 | Definitions disclosure | Keep exact definitions and caveats in the report body; 16px named trigger, 20px directional chevron, 44px target and 14px Ink body text |
 | Screen footer | Exact organisation/copyright legal line only; no source filename, calculation date, report title or extra note; no fixed footer covering content |
 | Search and upload | Preserve the Google-style search and upload interactions. Search-home title 36px, raised 4px from its v132 position; preserve logo, field and action positions on desktop/mobile. This approved positioning amendment supersedes the prior optical-centering position. Home navigation is menu-only. Remove title subtitles |
@@ -231,7 +239,7 @@ Primary navigation does not silently transfer or reset unrelated page filters.
 | Icon purpose | Existing glyph | Size / label |
 | --- | --- | --- |
 | Application destinations | Grid | 20px in 44px control; صفحات التطبيق |
-| Print report | Printer | 20px beside طباعة التقرير |
+| Print report | Printer | 20px beside monthly طباعة / حفظ PDF or other-report طباعة التقرير |
 | Print settings | Chevron | 20px beside إعدادات الطباعة |
 | Filter/disclosure open or close | Chevron down/up | 20px; expose expanded state |
 | Close dialog/popup | X | 20px in 44px control; explicit accessible name |
@@ -264,10 +272,10 @@ navigation, never printer, grid, document or upload icons, or numeric/time axes.
 16. **Terminology.** Use **الأجندة المعتمدة**, **المواضيع المستجدة**, and **الموازنة المعتمدة**. Do not add **(المعدلة)** to the displayed budget title. The legislation timing labels identify SLC directly; omit the repeated SLC comparison paragraph. Remove the generic legislation-review subtitle beneath its title.
 17. **Responsive behavior.** Reflow cards and controls on narrow screens while preserving readable type. Adapt tables to a readable mobile presentation; do not squeeze them into tiny text. Keep the overall page within the viewport; use deliberate table scrolling only when required for a wide data table. Priority charts expand with their visible categories.
 18. **Controls and accessibility.** Use one clear primary action per task, predictable button/field states, visible selected tabs and focus, keyboard-accessible menus, explicit labels for icon buttons, text alongside status colors, and reduced-motion support. Keep drilldowns and full-report actions available without adding visual clutter or exposing internal implementation details in product flows.
-19. **Print and exports.** Use the separate print scale below, repeat table column headings, preserve Arabic direction and badge identity, and keep individual rows together where possible. Add pages to accommodate content instead of shrinking the entire report. The first printed header contains the official logo and report title with its source cutoff in the same title; for the monthly report use **التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026**, replacing the example date with the actual cutoff. No notes, separate date line, scope line or explanatory subtitle surround this title. Later printed pages have no repeated report title, logo, date or scope masthead; relevant section headings and table column headings remain. Footers contain the exact copyright/legal line and generated page numbering only. Hide navigation, menus, filters, operational controls and the entity filter's selected-value field while preserving all selections' effect on the exported dataset. Actual entity names and source notes in table content remain. Keep template/report data rules unchanged.
+19. **Print and exports.** Use the separate print scale below, preserve Arabic direction and badge identity, and keep all source content. The default continuous monthly PDF grows its custom page height and uses one header/footer; its unusually long-report fallback uses A4 portrait pages. A4 paper modes add pages and repeat table column headings instead of shrinking the report; keep individual rows together when possible. The first printed header contains the official logo and report title with its source cutoff in the same title; for the monthly report use **التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026**, replacing the example date with the actual cutoff. No notes, separate date line, scope line or explanatory subtitle surround this title. Later printed pages have no repeated report title, logo, date or scope masthead; relevant section headings and table column headings remain. Footers contain the exact copyright/legal line and generated page numbering only. Hide navigation, menus, filters, operational controls and the entity filter's selected-value field while preserving all selections' effect on the exported dataset. Actual entity names and source notes in table content remain. Keep template/report data rules unchanged.
 20. **Title labels and subtitles.** Remove explanatory labels and subtitles beneath every page, portfolio, section, card and table title across monthly, projects, search, upload, other pages and print. Remove the repeated agenda subtitle **الأجندة المعتمدة والمواضيع المستجدة**, follow-up subtitle **البنود التي تستدعي المتابعة ضمن نطاق التقرير**, and redundant full-table label **جميع بنود المتابعة**. Keep the agenda breakdown labels **الأجندة المعتمدة** and **المواضيع المستجدة** with their values. Preserve required screen date metadata, actual notes in the **الملاحظات** column, field labels, status/value labels, counts, currency/percentage units, meaningful definitions and source caveats. Retained explanations belong beside the relevant content or in a definitions disclosure, not as title subtitles. Do not leave empty subtitle elements or their reserved spacing.
 21. **Navigation and filters.** Apply the approved shared setup above: quiet text navigation, current-page underline, one app menu, grouped task actions and separate core filters. Keep scope with filters rather than in the title block. Preserve keyboard behavior, live selections and existing search/upload functions.
-22. **Footer.** The screen footer contains the exact copyright/legal line only. The print footer contains that legal line and generated **صفحة X من Y** only. Remove source filename, calculation date, report title, scope and extra notes from footers. Required definitions and source caveats stay in the report body, subject to the specific removal of financial numeric-availability notes.
+22. **Footer.** The screen footer contains the exact copyright/legal line only. Each output footer contains that legal line and generated **صفحة X من Y** only: once on the ordinary one-page continuous monthly PDF, and once per page in A4 output. Remove source filename, calculation date, report title, scope and extra notes from footers. Required definitions and source caveats stay in the report body, subject to the specific removal of financial numeric-availability notes.
 23. **Verification and rollout.** Establish this standard on the monthly page first. Review its header, cards, controls, table and interactions at **100% browser zoom**, then inspect the actual PDF at readable size. Verify source totals, previous/current comparison keys, missing values, fonts, colors, wrapping, mobile behavior and exports before reusing the standard on projects, search, uploads and other pages. Visual polish must not change calculations or source meaning.
 
 ## Approved print header, pagination and footer
@@ -277,14 +285,14 @@ navigation, never printer, grid, document or upload icons, or numeric/time axes.
 | First-page masthead | Official logo approximately 38mm wide and a single 24pt DIN report title including the actual cutoff date |
 | Monthly title format | التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026; substitute the actual source-backed report date |
 | Notes around the title | None above or below; no separate date/scope line or explanatory subtitle |
-| Later-page masthead | None; do not repeat report title, logo, date or scope |
-| Continued content | Relevant section titles and repeated 13.5pt Dubai Bold table column headings remain |
-| Footer | Exact organisation/copyright legal line and renderer-generated صفحة X من Y only; Dubai Regular 10.5pt Ink |
-| Footer reserve | Reserve space within the 10mm page margins; content and table rows never overlap the footer |
+| Later-page masthead | None in paginated A4 output; the ordinary continuous monthly PDF has only one page/header |
+| Continued content | In A4 output, relevant section titles and repeated 13.5pt Dubai Bold table column headings remain; continuous content stays on its measured page |
+| Footer | Exact organisation/copyright legal line and renderer-generated صفحة X من Y only; Dubai Regular 10.5pt Ink. One footer for ordinary continuous monthly output; one per page for A4 output |
+| Footer reserve | Reserve clearance within the active format: 12mm margins for continuous monthly output, 10mm for A4. Content and table rows never overlap the footer |
 | Entity filter | Control, label and selected value hidden; selected scope still filters the exported records and figures |
 | Report membership | Preserve all selected filters, source records and row order; hiding scope text does not reset selections |
 | Explanations | Preserve actual table notes, SLC source-date fields and source/history caveats in the report body; omit generic title subtitles |
-| Pagination | Content-driven page count; keep rows together when possible; allow a readable continuation for an unusually tall row |
+| Pagination | Continuous monthly: one measured-height page within the 5080mm limit; otherwise A4 portrait with a toast. A4: content-driven page count, fitting rows/cards kept together and readable continuation for unusually tall content |
 
 Page numbers and totals come from the export renderer, not fixed specimen counts.
 Browser-generated URL/date/title headers and footers are excluded from the final
@@ -303,31 +311,52 @@ Use the applicable copyright year without changing the organisation or legal wor
 - Source tables retain regular weight on mobile, including first-column source names/indices. Checks result/severity badges use 16px Dubai Regular on screen and 12pt in print. Plot quantities retain their established annotation sizes, with DIN Next LT Arabic Regular figures.
 - Fit-sized comparison cards stay together. Record/section headings stay with their opening content; initial table headings stay with the first row. Individual source captions stay with their filename/row. Checks result/severity badges use the approved 12pt Regular table scale and wrap naturally. Oversized rows/cards continue readably, without global font shrink or a fixed page count.
 
-## Approved A4 paper orientation
+## Approved output formats and A4 paper orientation
 
-| Document / export | Orientation | Sheet dimensions (width × height) |
+The monthly digital format and physical paper modes are separate choices. The continuous monthly PDF is the default for digital reading; it is not an A3 option and does not change the approved A4 orientation of other documents.
+
+| Document / export | Format / orientation | Page dimensions (width × height) |
 | --- | --- | --- |
+| Monthly dashboard / monthly report — default digital output | Continuous custom PDF | 260mm × measured content height; 12mm margins; 236mm content width |
+| Monthly dashboard / monthly report — selected paper mode or height-limit fallback | A4 portrait | 210 × 297mm |
 | Annual agenda — dedicated view and agenda report | A4 landscape | 297 × 210mm |
 | Council decisions — dedicated view and council report | A4 landscape | 297 × 210mm |
 | HH / leadership report | A4 landscape | 297 × 210mm |
-| Monthly dashboard / monthly report | A4 portrait | 210 × 297mm |
 | Projects portfolio and project report | A4 portrait | 210 × 297mm |
 | Entity report | A4 portrait | 210 × 297mm |
 | Monthly comparison | A4 portrait | 210 × 297mm |
 | Search results | A4 portrait | 210 × 297mm |
 | All remaining printable pages / exports | A4 portrait | 210 × 297mm |
 
-**Paper:** A4 only; remove A3 settings and options. **Margins:** 10mm on every side. Landscape provides a nominal 277 × 190mm content area; portrait provides 190 × 277mm, subject to the required footer clearance.
+**Continuous monthly geometry:** 260mm custom page width, 12mm margins on every side and 236mm content width. With both portfolios present, use two 115mm columns with a 6mm gap; a single remaining portfolio takes the full content width. Projects remain physically left and executive portfolios right. The followup table spans the full width below both. Height is measured from the complete export content after fonts and images are ready, with footer clearance; do not derive it from the browser viewport or a fixed specimen.
 
-**Portrait composition:** the monthly report preserves two portfolio columns: projects physically left and executive portfolios physically right, with the follow-up table spanning the full width below both. Use a 4mm column gap; a single remaining portfolio occupies the full width. Financial allocation labels may wrap above their amounts within the two project columns to preserve complete numbers. Other portrait document types keep their separate single-column flow by default; reflow summary metrics into a compact grid that fits the page width. Keep each card or box together when its full content fits one page. Keep table rows together when possible, repeat column headings and wrap Arabic naturally. If a card or row is taller than the usable page, allow a readable continuation. Add pages as content requires; do not shrink the whole report, clip content or force a fixed number of pages. Preserve all source values, notes, table fields, units and selected filters.
+| Continuous monthly area | Approved digital spacing |
+| --- | --- |
+| Portfolio column gap | 6mm |
+| Card and followup-card padding | 5mm |
+| Stacked card gap | 4mm |
+| Space below card heading | 3mm |
+| Space above metric rows and bars | 2.5mm |
+| Metric horizontal padding | 2.5mm; omit the outer padding at the row's first/last edges |
+| Agenda category strip | 2mm vertical / 3mm horizontal padding; 2mm vertical margin |
+| Summary-to-followup section gap | 7mm |
+| Table cell padding | 3mm vertical / 3mm horizontal |
 
-The orientation follows the document type. A project report uses portrait even though it is a report page; only agenda, council and HH use the landscape exception. The A4 rules govern the browser-print/PDF workflow. They do not redefine PowerPoint slide or workbook sheet templates.
+**Digital height fallback:** a measured page above 5080mm switches automatically to A4 portrait for the current print session and shows an explanatory toast. Retain the selected scope, every source row/note and all values; the saved continuous/A4 preference does not change. This limit does not authorize clipping, truncation or text shrink. Below the limit, the monthly output remains one continuous page with one masthead and footer.
 
-The current app entity report prints in A4 portrait. The separate proposed entity-dashboard redesign remains a concept and is not imported into this release; its earlier concept package has no implemented PDF export.
+**Physical paper:** A4 only; A3 settings/options remain removed. Use 10mm margins on every side. Landscape provides a nominal 277 × 190mm content area; portrait provides 190 × 277mm, subject to footer clearance. These paper dimensions also apply when a continuous monthly report needs the unusually long-report fallback.
+
+**Monthly A4 composition:** preserve two portfolio columns, projects physically left and executive portfolios physically right, with full-width followups below both. Keep its approved 4mm column gap; a single remaining portfolio occupies the full width. Financial allocation labels may wrap above their amounts within the two project columns to preserve complete numbers. The wider continuous format retains those source associations and its own 6mm gap.
+
+Other portrait document types retain their separate single-column flow by default; reflow summary metrics into a compact grid that fits the paper width. In A4 modes, keep each fitting card/box and row together where possible, repeat table column headings and wrap Arabic naturally. If content is taller than a usable page, allow readable continuation. Add pages as needed; do not shrink the whole report, clip content or force a fixed A4 page count. In continuous monthly mode, extend page height instead. Preserve all source values, notes, table fields, units and selected filters in both formats.
+
+The format follows the document and the monthly format selector. A project report retains A4 portrait; only agenda, council and HH have the landscape paper exception. These rules govern the browser-print/PDF workflow; they do not redefine PowerPoint slides or workbook sheet templates.
+
+The entity report retains A4 portrait. The separate proposed entity-dashboard redesign remains a concept and is not imported into this release; its earlier concept package has no implemented PDF export.
 
 ## Approved print scale
 
-Print uses its own approved sizes. The latest subgroup, short-label and strategy-label screen-size amendments do not automatically resize print. Keep the sizes below; use the updated text-color roles and solid financial bars in print as well. Verify the actual rendered PDF after implementation; page count follows the content.
+Print uses its own approved sizes. The latest subgroup, short-label and strategy-label screen-size amendments do not automatically resize print. Keep the sizes below; use the updated text-color roles and solid financial bars in print as well. Verify the actual rendered PDF after implementation. Continuous monthly height follows the content; A4 page count follows the content.
 
 | Element | Font | Print size |
 | --- | --- | --- |
@@ -344,7 +373,7 @@ Print uses its own approved sizes. The latest subgroup, short-label and strategy
 | Permitted metadata and copyright/page numbering | Dubai Regular | 10.5pt |
 | Entity filter, label and selected-value field | Screen only | Hidden in print |
 
-Use the document-specific A4 orientation above with 10mm margins. A3 is not part of the approved setup. Avoid forced two-page output or a fixed whole-page shrink factor. If an unusually tall row cannot fit a page, allow a readable continuation instead of clipping it.
+Use the selected output profile above: continuous monthly PDF with 12mm margins and measured height, or the document-specific A4 orientation with 10mm margins. A3 remains unavailable. Keep these font sizes in both profiles; do not use a fixed whole-page shrink factor. A4 pages accommodate the content with readable continuation for unusually tall rows. Continuous monthly output extends its page height, with the above A4 fallback only when the safe height limit is exceeded.
 
 Entity selection continues to determine the exported rows and figures; hiding its printed field does not reset the selected filter. This rule does not remove entity names where they are part of the report's actual table content.
 
@@ -375,7 +404,9 @@ Project count/money bars retain the table's shared zero-to-largest-row scale. Pr
 
 ## Approval and historical previews
 
-Revision 10 is the current approved standard and is implemented in **Performance App v135**. It implements the A4 paper split, removes A3, updates monthly dashboard metric names to 16px and identifies SLC in the legislation timing labels. It retains approved Search, Navigation, source text/color roles and solid financial bars. The compliance audit also corrects primary and filter interaction states, export loading indication, HH figure typography and print pagination/control cleanup. See **VERIFICATION-v135.md** for final screen, mobile, source-regression and native PDF evidence. Earlier verification files describe their respective historical releases.
+Revision 11 is the current approved standard for **Performance App v136**. It adds the default continuous monthly digital PDF, measured page height, roomier digital spacing and an explicit continuous/A4 format choice. It retains Revision 10's paired monthly composition, 16px dashboard labels, strategy-caption removal, isolated SLC captions and approved A4 paper orientations. Search, navigation, status palettes, source text/color roles, solid financial bars and earlier compliance corrections remain approved.
+
+**v136 browser, source and native PDF verification passes for tested workflows.** Its completed screen/mobile, continuous PDF, A4 fallback and source-regression checks are recorded in **VERIFICATION-v136.md**. **Revision 10 / Performance App v135** and **VERIFICATION-v135.md** remain historical references for the previous paired A4 release; earlier standards and verification files retain their own scope.
 
 - [Typography colors and exact TEC palette — historical](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Color-Previews)
 - [Actual bundled font samples](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Font-Previews)
@@ -385,4 +416,4 @@ Revision 10 is the current approved standard and is implemented in **Performance
 
 Earlier images may show 18px screen badges, title subtitles, oversized side-by-side labels, 28px subgroup names or hatched financial bars. They do not override this document. The subgroup names in the last compact preview are superseded by the latest **18px** approval. The rejected oversized-label concept is not the approved card arrangement.
 
-This is an app-specific approved standard, not an official TEC brand manual or accessibility certification. Source records, values, calculation definitions and filter behavior remain unchanged. Verification covers the final app bundle using frozen illustrative workbooks and actual Chromium screen/PDF output. Native Windows file opening, physical printer output and native Office editing remain outside these browser/PDF checks.
+This is an app-specific approved standard, not an official TEC brand manual or accessibility certification. Source records, values, calculation definitions and filter behavior remain unchanged. Verification covers the final runtime bundles using the frozen illustrative workbook and actual Chromium screen/PDF output. Native Windows file opening, physical printer output and native Office editing were not tested. Managed Chromium blocks direct file navigation; extracted-package checks used local HTTP.

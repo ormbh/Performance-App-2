@@ -1,0 +1,210 @@
+{
+  "verdict": "PASS",
+  "scope": "Read-only independent actual native onepage v136 continuous monthly PDF and priorpreview comparison; illustrativefixture only.",
+  "candidatePDF": "/workspace/saytara-work/qa-v136/browser/monthly-continuous.pdf",
+  "candidatePDFSHA256": "7a93e093d9e5e1eed29d43c7d4d48e5988aad0b6906156a4d73d0383e87948ea",
+  "referencePDFSHA256": "0216f2bcda2f84fab47efb655998da4a22c73c9ec45d5c70844336c833047871",
+  "pageCount": 1,
+  "pageMM": [
+    260.0113255818685,
+    601.8106391059027
+  ],
+  "pagePt": [
+    0.0,
+    0.0,
+    737.0399780273438,
+    1705.919921875
+  ],
+  "outsidePageTextCount": 0,
+  "actualFooterOverlapCount": 0,
+  "bodyBottomPt": 1646.5589599609375,
+  "footerTopPt": 1680.9854736328125,
+  "bodyToFooterClearancePt": 34.426513671875,
+  "fontSizeCounts": {
+    "10.5": 31,
+    "24.0": 25,
+    "18.0": 5,
+    "15.997": 15,
+    "27.998": 7,
+    "7.995": 1,
+    "13.5": 9,
+    "12.0": 135,
+    "9.0": 117,
+    "10.995": 58,
+    "19.995": 12,
+    "7.5": 7
+  },
+  "fontResourceEmbedding": [
+    {
+      "type": "Type3",
+      "name": "",
+      "programBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type3",
+      "name": "",
+      "programBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type3",
+      "name": "",
+      "programBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type3",
+      "name": "",
+      "programBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type3",
+      "name": "",
+      "programBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type3",
+      "name": "",
+      "programBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type0",
+      "name": "CAAAAA+DINNextLTArabic-Regular",
+      "programBytes": 14704,
+      "CharProcs": false,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type3",
+      "name": "",
+      "programBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type3",
+      "name": "",
+      "programBytes": 0,
+      "CharProcs": true,
+      "ToUnicode": true
+    },
+    {
+      "type": "Type0",
+      "name": "EAAAAA+LiberationSans",
+      "programBytes": 17600,
+      "CharProcs": false,
+      "ToUnicode": true
+    }
+  ],
+  "allFontResourcesEmbedded": true,
+  "approvedNativeSizesPt": {
+    "title": 24,
+    "tableBodyAndStatuses": 12,
+    "tableHeading": 13.5,
+    "footer": 10.5
+  },
+  "visibleBodyCharacterFontSizeColorEqualityToPreviousPreview": true,
+  "visualPass": {
+    "projectsLEFTExecutiveRIGHT": true,
+    "roomierSameFontScale": true,
+    "legislationSLCOrderLabelsAndValues": true,
+    "legislationFourFigureBaselines": true,
+    "strategyThreeFigureBaselinesAndRetainedChangeAlignment": true,
+    "completeEightFollowupRowsAndNotes": true,
+    "threeStrategyExplanatoryNotesRemainRemoved": true,
+    "oneOfficialLogoAndHeader": true,
+    "oneCopyrightAndPageCounterFooter": true,
+    "noClippedOrOverlappingCardsRowsOrText": true
+  },
+  "nativeGeometry": {
+    "projectColumnX": [
+      34.62890625,
+      360.12890625
+    ],
+    "executiveColumnX": [
+      377.3788757324219,
+      702.87890625
+    ],
+    "cardColumnWidthPt": 325.5,
+    "columnGapPt": 17.249969482421875,
+    "sameColumnCardGapPt": 12,
+    "strategyCardBottomPt": 896.625,
+    "followupCardTopPt": 928.875,
+    "followupClearanceBelowCardsPt": 32.25,
+    "legislationFigureBaselineYpt": 682.5,
+    "strategyFigureBaselineYpt": 845.25,
+    "strategyDeltaBaselineYpt": 877.5,
+    "cardRectanglesPt": [
+      [
+        34.62890625,
+        928.875,
+        702.87890625,
+        1661.625
+      ],
+      [
+        377.3788757324219,
+        121.875,
+        702.87890625,
+        349.125
+      ],
+      [
+        377.3788757324219,
+        361.125,
+        702.87890625,
+        541.125
+      ],
+      [
+        377.3788757324219,
+        553.125,
+        702.87890625,
+        731.625
+      ],
+      [
+        377.3788757324219,
+        743.625,
+        702.87890625,
+        896.625
+      ],
+      [
+        34.62890625,
+        121.875,
+        360.12890625,
+        378.375
+      ],
+      [
+        34.62890625,
+        390.375,
+        360.12890625,
+        868.875
+      ]
+    ]
+  },
+  "renderMethod": "Independent isolated Poppler110dpi fullpage plus4overlapping readable crops; actualPDF text/vector/font inspection withPyMuPDF.",
+  "fixtureSHA256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "sourceScope": "Parent source/browser QA verifies unchanged37 metric entries,8canonical followupkeys and672workbookrecords; this review independently proves unchangedvisibletext/fontsizes/colors and actualpositions.",
+  "limitations": [
+    "Illustrative workbook only; no currentoperational workbookprovided.",
+    "Physicalprinter/otherPDFviewers andformalPDFaccessibilitycertification notrun."
+  ],
+  "sourceEdits": "None; only separateQAartifacts saved.",
+  "frozenReviewedPDF": "/workspace/saytara-work/qa-v136/visual-review/reviewed-monthly-continuous.pdf",
+  "nativeGenerationBundleSha256": {
+    "assets/css/app-bundle.css": "81805c36048d18cf468bd5f62e0f7cfbd953911e0467b9f9d05b9da5a9aec792",
+    "assets/js/app-bundle.js": "19fae9291fb298e2f21f01c0c4bfe7a7861b964a9e4521299423ca66f632252c"
+  },
+  "currentAppBundleSha256": {
+    "assets/css/app-bundle.css": "81805c36048d18cf468bd5f62e0f7cfbd953911e0467b9f9d05b9da5a9aec792",
+    "assets/js/app-bundle.js": "5a9d8072c1ec62c9efae354f43ebd2e6e726ece9f1c5ef27992a3eacb07f8570"
+  },
+  "releaseBindingNote": "Actual reviewedPDF generated underJS19fa/CSS818. Parent later changed only postprint fallback toast timing underJS5a9; no claimthatthisPDF was regeneratedwithnewJS. FreshreleasePDF semantic/geometry equality remains a parent-owned followup."
+}
