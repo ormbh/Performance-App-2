@@ -4,7 +4,7 @@
 
 The approved monthly dashboard establishes a reusable visual language for the TEC app. Apply its hierarchy, typography, surfaces, spacing, controls and alignment to equivalent roles across pages. Preserve the distinct purpose, content and calculations of each page.
 
-This document consolidates approved rules through Performance App v144 and the instruction to standardize the approach across the app. It introduces no app changes. The proposed additional-status disclosure and top follow-up shortcut are excluded. The separate entity-report redesign remains a concept.
+This document consolidates approved rules through Performance App v145 and the instruction to standardize the approach across the app. It records the approved implementation; the document itself does not change the app. The proposed additional-status disclosure and top follow-up shortcut are excluded. The separate entity-report redesign remains a concept.
 
 ## 1. The approach
 
@@ -122,6 +122,16 @@ Use a 2px Teal focus ring with a 2px offset. Primary actions use Paper text on C
 - For the approved monthly scope pattern, a partial selection shows the first selected visible name and **+N** additional choices. One choice shows its name alone. Full selection or an unrestricted field shows **الكل**, without a count. Preserve selection order and directional isolation.
 - Reuse that scope-summary pattern for equivalent multi-select components when authorized to standardize them. Preserve existing page-specific selection semantics and do not imply that every report has already been migrated.
 - Keep full checked values accessible in the dropdown. A display count is not a record count. Preserve unions within a field, intersections across fields, dependent options and source-token distinctions. Never treat a stale selection as “all.”
+
+### Search and results
+
+- Use **ابحث عن بند أو مشروع أو مسؤول** as the shared search prompt. Keep number search available and included in the accessible name. Preserve the approved home logo, 36px title, field positions and upward title adjustment.
+- Default results show **البند**, **الحالة / التقدم**, **التوقيت** and **الوحدة التنظيمية**. Preserve saved column choices; owner and narrative columns remain available through customization. Preserve full organizational context in record details and applicable PDF cells.
+- Use a compact results toolbar with the result count, filtering and sorting. On phones, keep sorting visible and put column customization, CSV and PDF under the options control. Use one functional search-submit icon.
+- Present every selected result field in readable stacked rows on phones. Preserve 16px Dubai Regular content, status meanings, timing labels, result ranges and pagination. Do not shrink text to fit desktop columns or silently omit a customized field.
+- Distinguish matched text with Mist **#D9E1E2** behind Ink **#4F4E4E**, regular weight. Result titles have a detail arrow and a hover/focus underline; avoid a permanent underline across the whole title.
+- Search dropdowns and applicable screen/PDF scope summaries use the first selected visible name **+N** rule, or **الكل** for all/unrestricted. Keep selection chronology and inherited dashboard drill scope intact.
+- Keep keyboard access, 44px controls, Escape behavior and focus restoration. Export all matching rows independently of the visible screen page. Search PDF remains A4 portrait with its own print scale and full selected output fields.
 
 ## 6. Metric cards and alignment
 

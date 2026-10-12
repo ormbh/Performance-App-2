@@ -1,0 +1,272 @@
+{
+  "home": {
+    "1440": {
+      "width": 1440,
+      "docWidth": 1440,
+      "prompt": "ابحث عن بند أو مشروع أو مسؤول",
+      "promptPixels": 197.42437744140625,
+      "inputPixels": 612
+    },
+    "390": {
+      "width": 390,
+      "docWidth": 390,
+      "prompt": "ابحث عن بند أو مشروع أو مسؤول",
+      "promptPixels": 197.42437744140625,
+      "inputPixels": 302
+    },
+    "320": {
+      "width": 320,
+      "docWidth": 320,
+      "prompt": "ابحث عن بند أو مشروع أو مسؤول",
+      "promptPixels": 197.42437744140625,
+      "inputPixels": 232
+    }
+  },
+  "1440": {
+    "doc": 1440,
+    "width": 1440,
+    "top": 324.390625,
+    "thead": "table-header-group",
+    "titleFont": "16px",
+    "cells": [
+      {
+        "name": "result-title",
+        "x": 881.046875,
+        "w": 509.953125,
+        "display": "table-cell"
+      },
+      {
+        "name": "result-status",
+        "x": 666.328125,
+        "w": 214.71875,
+        "display": "table-cell"
+      },
+      {
+        "name": "result-date",
+        "x": 397.9375,
+        "w": 268.390625,
+        "display": "table-cell"
+      },
+      {
+        "name": "result-place",
+        "x": 49,
+        "w": 348.9375,
+        "display": "table-cell"
+      }
+    ],
+    "overflow": []
+  },
+  "768": {
+    "doc": 768,
+    "width": 768,
+    "top": 401.984375,
+    "thead": "table-header-group",
+    "titleFont": "16px",
+    "cells": [
+      {
+        "name": "result-title",
+        "x": 468.25,
+        "w": 266.75,
+        "display": "table-cell"
+      },
+      {
+        "name": "result-status",
+        "x": 355.9375,
+        "w": 112.3125,
+        "display": "table-cell"
+      },
+      {
+        "name": "result-date",
+        "x": 215.546875,
+        "w": 140.390625,
+        "display": "table-cell"
+      },
+      {
+        "name": "result-place",
+        "x": 33,
+        "w": 182.546875,
+        "display": "table-cell"
+      }
+    ],
+    "overflow": []
+  },
+  "600": {
+    "doc": 600,
+    "width": 600,
+    "top": 339.390625,
+    "thead": "block",
+    "titleFont": "16px",
+    "cells": [
+      {
+        "name": "result-title",
+        "x": 33,
+        "w": 534,
+        "display": "block"
+      },
+      {
+        "name": "result-status",
+        "x": 33,
+        "w": 534,
+        "display": "flex"
+      },
+      {
+        "name": "result-date",
+        "x": 33,
+        "w": 534,
+        "display": "block"
+      },
+      {
+        "name": "result-place",
+        "x": 33,
+        "w": 534,
+        "display": "block"
+      }
+    ],
+    "overflow": []
+  },
+  "390": {
+    "doc": 390,
+    "width": 390,
+    "top": 339.390625,
+    "thead": "block",
+    "titleFont": "16px",
+    "cells": [
+      {
+        "name": "result-title",
+        "x": 33,
+        "w": 324,
+        "display": "block"
+      },
+      {
+        "name": "result-status",
+        "x": 33,
+        "w": 324,
+        "display": "flex"
+      },
+      {
+        "name": "result-date",
+        "x": 33,
+        "w": 324,
+        "display": "block"
+      },
+      {
+        "name": "result-place",
+        "x": 33,
+        "w": 324,
+        "display": "block"
+      }
+    ],
+    "overflow": [
+      "BUTTON.tab",
+      "SPAN.tab-n"
+    ]
+  },
+  "320": {
+    "doc": 320,
+    "width": 320,
+    "top": 339.390625,
+    "thead": "block",
+    "titleFont": "16px",
+    "cells": [
+      {
+        "name": "result-title",
+        "x": 33,
+        "w": 254,
+        "display": "block"
+      },
+      {
+        "name": "result-status",
+        "x": 33,
+        "w": 254,
+        "display": "flex"
+      },
+      {
+        "name": "result-date",
+        "x": 33,
+        "w": 254,
+        "display": "block"
+      },
+      {
+        "name": "result-place",
+        "x": 33,
+        "w": 254,
+        "display": "block"
+      }
+    ],
+    "overflow": [
+      "BUTTON.tab",
+      "SPAN.tab-n",
+      "BUTTON.tab",
+      "SPAN.tab-n"
+    ]
+  },
+  "options": {
+    "x": 16,
+    "y": 261,
+    "width": 288,
+    "height": 166
+  },
+  "columns": {
+    "x": 0,
+    "y": 407,
+    "width": 320,
+    "height": 493
+  },
+  "customCells": 6,
+  "customWidth": 320,
+  "filtersWidth": 320,
+  "verdict": "PASS",
+  "scope": "Screen presentation; illustrative workbook only; no source-data claim",
+  "reviewedFiles": {
+    "assets/css/tec-search-revision20.css": "d0a889e3e010c35e91550a961c16ad4c20b03fe565858cf201f6ccc069b142d0",
+    "tools/build-bundles.py": "26fed9e73cba574748a650c3afd1bd96166ec55432951d381409c9423ee9fcb4",
+    "assets/js/views/results.js": "cb94929f78625749d726fcc901006dd97b3d07470830b0c7ba4d6fd45416e1d8",
+    "assets/js/views/home.js": "318692e61844ed5761776e931dae5ebd5c3e95f522245e7de3f1381f892b7852",
+    "assets/js/views/common.js": "4fb04f5972e2217fa3344ac8b97e1635a85a38dc5e3e66dbe300d7e5c4d016e1",
+    "assets/js/app.js": "7a1ccdc4a39bfba1db6120a3170eb49af0f55635f508a090c7ce5261fc3dfc7b",
+    "assets/css/search-workflow.css": "49f9ec0ab74d57912374d0007bad4e885b62139c3ed3d91f64cedb50ff10b158",
+    "assets/css/app-bundle.css": "52dfcafec004e0a8eb4cbf0a74392ef7ea6c4343ecbd1dd9f3e5759c954994cd",
+    "assets/js/app-bundle.js": "59d49fe2b05a3e107fe2ec7f4ff11352a18b50b2780b448adfe82a4a32978014"
+  },
+  "screenshots": {
+    "home-390.png": "74adb618dbe66bd9f1da589a888afbe58b850e1704f690e0bfec279048314897",
+    "home-1440.png": "c177ef40206d4637a074abc54e312926eef9de4c30a12e5610b858c31bad16e1",
+    "width-768.png": "3e13514d56ab7008de8f76d8f19603ab455fb02627452ad243d125552de561db",
+    "width-390.png": "62b53d92a9f2c14062b87d771094781d51d4570647415e96fdb14d67d02f3100",
+    "all-columns-320.png": "cf18d187d8cc33256c65e4a0c40f082e68ea1498020cdddd71a1cb2beb7d6409",
+    "columns-320.png": "8cf74369a0f04db58293df20c60b3139bffb355b1d32070f96e52f604b589d1c",
+    "filters-320.png": "02c747e057037d3faf3c544c65c9e192b1224ca4c6919ea0a6f7af709a31e5e2",
+    "width-1440.png": "3dc164a67a9d84cd93667641bf7580e13f300595b271748234b9c60e69b662f9",
+    "width-600.png": "7b55070ac3ca76f607984cc75d4f83a1f3af71330e1d82d7eecd2d5e1e26de56",
+    "home-320.png": "1ec14ea32661df90addb0f3a4aa4252891dfd28deeb1f88b23a54a0db569b34e",
+    "options-320.png": "390b46d6d90ea1c9e175a4a5ff27a05f2618de581e4ce90e75c24b8b6af63a19",
+    "width-320.png": "28a8f7798751d70ca1c5bd2a566c4bd84b7d6235324208471c39badc0f0bf98d"
+  },
+  "visualReview": {
+    "verdict": "PASS",
+    "inspected": [
+      "home-1440.png",
+      "home-320.png",
+      "width-1440.png",
+      "width-768.png",
+      "width-390.png",
+      "width-320.png",
+      "options-320.png",
+      "columns-320.png",
+      "filters-320.png"
+    ],
+    "observations": [
+      "Approved four-column desktop hierarchy preserved; titles and matching words clear.",
+      "At 320px and 390px records begin at y339.4 without page or record-table sideways scrolling.",
+      "Additional selected columns remain visible as labelled fields.",
+      "Phone secondary actions fit the viewport; native column-picker sheet and Done action are visible.",
+      "Search prompt is fully visible at320px; 197.4px text in232px home input.",
+      "Results category tabs retain their intentional independently scrollable strip.",
+      "Home logo, title, field and actions keep their approved positions."
+    ],
+    "limitations": [
+      "Visual inspection and browser geometry are not an accessibility certification.",
+      "Only illustrative workbook used; no operational-data certification."
+    ]
+  }
+}

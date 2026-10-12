@@ -1,3 +1,35 @@
+# Revision 20 — approved search results and clearer search prompt
+
+Approved on 13 October 2026. Applies the search results concept to the working app while retaining the approved search-home logo/title/field composition, TEC assets, source data and search-matching rules.
+
+## Search prompt and navigation
+
+Use **ابحث عن بند أو مشروع أو مسؤول** in the shared search field. The accessible name also describes searching by name, number or follow-up owner. Search by number, Arabic spelling variants and the existing query syntax remain supported. Keep the search-home 36px title and its approved spacing. Results use one functional search-submit icon; retain clear, suggestions, Enter submission and the existing application menu destinations.
+
+## Results hierarchy
+
+The default desktop table shows four fields: **البند**, **الحالة / التقدم**, **التوقيت**, and **الوحدة التنظيمية**. Preserve existing saved column preferences. Keep owner and full context available through column customization and the full record detail; retain entity and sector information in record details and applicable output. The title remains 16px Dubai Regular and receives a visible detail arrow. Match text uses Mist **#D9E1E2** behind Ink **#4F4E4E**, with regular weight; remove the whole-title underline at rest and retain clear hover/focus interaction.
+
+Keep each timing field's source-specific label, recorded progress distinct from status, and excerpts identifying matches in other fields. Preserve all matched rows, their source identities, current status/date ordering, result counts and pagination. Missing dates remain unavailable rather than inferred.
+
+On phones, present the same selected fields as readable stacked result rows without a desktop-width table. Keep the current sort directly available. Put column customization, CSV and PDF actions in the results options control. Keep filter/reset controls, active scope, result ranges and pagination available, with 44px action targets and keyboard/Escape/focus behavior. Do not reduce the 16px result text or silently drop a customized column.
+
+Use a compact toolbar and a scope summary; expand the filter fields when requested. The search landing page keeps its approved composition.
+
+## Selection summaries
+
+Search filters reuse the dashboard display rule: first selected visible name followed by **+N** additional distinct choices; one selected choice shows its name alone. All-selected or unrestricted displays **الكل** with no count. Preserve selection order, full checked options, source aliases, stale/partial-choice handling and exact filtering semantics. Removing the first choice promotes the next; removing and reselecting a choice puts it at the end.
+
+Apply the compact summary to search dropdowns, the visible scope line and applicable sector/unit PDF header text. Preserve inherited dashboard drill scope and any further search constraint; changing a summary never broadens the selected rows.
+
+## Exports and unchanged behavior
+
+Search PDF remains offline A4 portrait with its independent approved print scale. Native tables, actual source values, full matching-row export, report date, scope and footer rules remain. CSV retains its source-backed fields and all matching rows, independent of the currently displayed page. Presentation changes must not alter calculations, monthly output, organization naming or other report behavior.
+
+Current implementation: **Performance App v145**. Focused checks and practical limits are recorded in **VERIFICATION-v145.md**. Historical revisions below remain applicable unless superseded here.
+
+---
+
 # Revision 19 — monthly completion captions and separate agenda boxes
 
 Approved on 13 October 2026. Applies to the monthly dashboard and its continuous/A4 PDF exports. Retain the approved TEC fonts, colors, source definitions, scope, totals and all unrelated report behavior.

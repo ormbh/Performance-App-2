@@ -1,18 +1,18 @@
-# Performance App v144
+# Performance App v145
 
-[Download app — v144 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v144.zip) · [Verification](Saytara-Verification-v144.md) · [Design standard — Revision 19](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-19.md) · [Download standard ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Design-Standard-Revision-19.zip)
+[Download app — v145 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v145.zip) · [Verification](Saytara-Verification-v145.md) · [Design standard — Revision 20](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-20.md)
 
-Approved monthly dashboard and PDF changes:
+The approved search-results design is applied, with the clearer prompt **ابحث عن بند أو مشروع أو مسؤول**.
 
-- Approved agenda and emerging topics use two separate equal boxes. Phone labels retain their size and the figures stay aligned.
-- Annual agenda, council decisions, legislation and special-project completion captions show **نسبة المنجز** directly beside their percentage beneath the bar.
-- Budgeted projects now include a green/Linen completion bar and adjacent caption after the status figures, before quarters.
-- Percentages follow the selected scope and each full source denominator. Invalid/missing ratios are omitted; a valid zero completed count displays 0%.
+- Four default result columns, clearer matching-text highlights and accessible record details.
+- Readable phone rows, visible sorting, and column/CSV/PDF actions in the options menu.
+- First-selected **+N** / **الكل** filter summaries, consistent with the monthly dashboard.
+- Existing saved columns, source records, matching order and full-result exports retained.
 
-The financial bars, strategy metrics, source counts, changes, filters and English PDF filenames retain their behavior. Both continuous and optional A4 PDF output include the approved layout. No source workbook is bundled.
+Candidate: 101 browser/PDF checks pass. Fresh ZIP extraction: 99 checks pass. Desktop and phone layouts and native PDF pages were visually inspected using an illustrative workbook. Offline search and PDF were exercised after loading bundled local assets; cold file-origin launch is blocked by managed-browser policy here. See verification for precise scope and limits.
 
-Verification: 223 candidate browser/PDF checks and 223 freshly extracted-package checks pass, with no JavaScript errors. An independent review passes 64 source/helper checks. Desktop, phone and all relevant PDF pages were visually inspected. Tests use an illustrative workbook and managed Chromium over local HTTP; native Windows file-origin execution and physical printing were not tested. See verification for scope and evidence.
+Extract the complete ZIP and open **index.html** with its **assets** folder beside it. Processing and bundled PDF export remain local. No source workbook is included.
 
-Extract the complete ZIP and open **index.html** with its **assets** folder beside it. Processing and bundled PDF export remain local.
+[Applied screenshots](Search-Results-v145/README.md) · [Updated TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles/SKILL.md) · [Download standard ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Design-Standard-Revision-20.zip)
 
-Previous release: [v143 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v143.zip) · [v143 verification](Saytara-Verification-v143.md) · [Official PDF filename names](PDF-Updates-v143/Official-PDF-Filename-Names.md). Prior releases and concepts are preserved.
+Previous release: [v144 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v144.zip) · [v144 verification](Saytara-Verification-v144.md). Prior releases and concepts are preserved.

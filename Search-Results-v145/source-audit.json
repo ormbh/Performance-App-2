@@ -1,0 +1,131 @@
+{
+  "scope": "Independent source audit; model and view comparison plus isolated helper execution. Browser rendering, real export and full interaction checks are recorded separately in search-evidence.json.",
+  "verdict": "PASS",
+  "checks": [
+    {
+      "name": "Every source/model/calculation/search/CSV-export module is byte-identical to v144",
+      "pass": true,
+      "detail": 15
+    },
+    {
+      "name": "Protected view unchanged: detail.js",
+      "pass": true
+    },
+    {
+      "name": "Protected view unchanged: dashboard.js",
+      "pass": true
+    },
+    {
+      "name": "Protected view unchanged: monthly-print.js",
+      "pass": true
+    },
+    {
+      "name": "Protected view unchanged: pdf-download.js",
+      "pass": true
+    },
+    {
+      "name": "Column picker uses shared native dialog and scrollable options",
+      "pass": true
+    },
+    {
+      "name": "Existing six-column preferences preserved",
+      "pass": true
+    },
+    {
+      "name": "Existing subset preferences preserved",
+      "pass": true
+    },
+    {
+      "name": "New/reset default is exactly four columns",
+      "pass": true
+    },
+    {
+      "name": "Invalid column identifiers cannot enter markup",
+      "pass": true
+    },
+    {
+      "name": "Existing storage key is read without migration/data loss",
+      "pass": true
+    },
+    {
+      "name": "Invalid storage safely falls back to default",
+      "pass": true
+    },
+    {
+      "name": "Search summary keeps first selection +N",
+      "pass": true
+    },
+    {
+      "name": "PDF scope uses same first selection and isolated additional count",
+      "pass": true
+    },
+    {
+      "name": "PDF unrestricted sector says only الكل",
+      "pass": true
+    },
+    {
+      "name": "Explicit complete selection displays الكل",
+      "pass": true
+    },
+    {
+      "name": "Compact summary does not mutate explicit selections",
+      "pass": true
+    },
+    {
+      "name": "Stale selection never becomes all",
+      "pass": true
+    },
+    {
+      "name": "PDF retains inherited drill and further search constraints",
+      "pass": true
+    },
+    {
+      "name": "PDF inherited drill sector retained",
+      "pass": true
+    },
+    {
+      "name": "PDF scope output escapes untrusted source values",
+      "pass": true
+    },
+    {
+      "name": "Search PDF remains A4 portrait profile",
+      "pass": true
+    },
+    {
+      "name": "Agenda, council and HH preserve landscape profiles",
+      "pass": true
+    },
+    {
+      "name": "Built JavaScript bundle contains exact current changed sources",
+      "pass": true
+    }
+  ],
+  "findings": [],
+  "changedJavaScript": [
+    "assets/js/app-bundle.js",
+    "assets/js/app.js",
+    "assets/js/views/common.js",
+    "assets/js/views/home.js",
+    "assets/js/views/print-pagination.js",
+    "assets/js/views/results.js"
+  ],
+  "hashes": {
+    "assets/js/app-bundle.js": "59d49fe2b05a3e107fe2ec7f4ff11352a18b50b2780b448adfe82a4a32978014",
+    "assets/js/app.js": "7a1ccdc4a39bfba1db6120a3170eb49af0f55635f508a090c7ce5261fc3dfc7b",
+    "assets/js/views/common.js": "4fb04f5972e2217fa3344ac8b97e1635a85a38dc5e3e66dbe300d7e5c4d016e1",
+    "assets/js/views/home.js": "318692e61844ed5761776e931dae5ebd5c3e95f522245e7de3f1381f892b7852",
+    "assets/js/views/print-pagination.js": "fb9f612ea76573f4940af33a2d92c8157ae8faaaefb330d5fb49978d2039181a",
+    "assets/js/views/results.js": "cb94929f78625749d726fcc901006dd97b3d07470830b0c7ba4d6fd45416e1d8",
+    "assets/css/tec-search-revision20.css": "d0a889e3e010c35e91550a961c16ad4c20b03fe565858cf201f6ccc069b142d0",
+    "assets/css/search-workflow.css": "49f9ec0ab74d57912374d0007bad4e885b62139c3ed3d91f64cedb50ff10b158",
+    "assets/css/app-bundle.css": "52dfcafec004e0a8eb4cbf0a74392ef7ea6c4343ecbd1dd9f3e5759c954994cd",
+    "assets/css/print-measure-bundle.css": "af18ecfaef53bbee841904e070048335c64dd94ce62f7bca0be0f08d36082bfd"
+  },
+  "notes": [
+    "Default results intentionally omit contact/context columns; customization restores them, detail renderer remains unchanged, CSV search model remains byte-identical.",
+    "Manual diff review found all new source-value markup uses existing escaping/highlighting helpers.",
+    "Reported pre-existing column-picker div/dialog mismatch is corrected with the shared native dialog and options container; browser checks separately validate its interactions.",
+    "Final mobile menu CSS targets direct action children and leaves nested column-dialog actions intact. Toolbar flex change affects layout only.",
+    "Final search-workflow.css change applies only to printed search badges, preserving font and color while allowing whole-word Arabic wrapping. Visually reviewed native PDF renders search-pdf-page-2.png and search-pdf-page-6.png: complete status words remain intact, including قيد المراجعة and ضمن الموعد بحسب المؤشر."
+  ]
+}

@@ -7,7 +7,7 @@ description: Standardize TEC and Saytara dashboards and related interfaces using
 
 Use a consistent, restrained design approach across the TEC app: clear hierarchy, readable information, deliberate spacing and predictable interactions. Preserve TEC identity and the meaning of the data.
 
-**Edition:** 13 October 2026. Consolidates approved decisions through the v144 monthly dashboard and the subsequent instruction to standardize the approach across the app. This is design guidance; publishing or installing it does not change the app.
+**Edition:** 13 October 2026. Consolidates approved decisions through the v145 search results and the instruction to standardize the approach across the app. This is design guidance; publishing or installing it does not change the app.
 
 Read [TEC Apple-Inspired Design Principles](references/TEC-Apple-Inspired-Design-Principles.md) before using this skill. It contains the current tokens, component rules, monthly exceptions and PDF profiles. Both files form one self-contained skill package.
 
