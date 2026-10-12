@@ -1,0 +1,1197 @@
+{
+  "scope": "Preview only: unchanged v135, frozen illustrative workbook, native Chromium text/vector PDF, approved print fonts, paired portfolios.",
+  "fixtureSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "errors": [],
+  "beforeMetrics": [
+    {
+      "key": "agendaTotal",
+      "text": "117"
+    },
+    {
+      "key": "agendaPlanned",
+      "text": "100"
+    },
+    {
+      "key": "agendaEmerging",
+      "text": "17"
+    },
+    {
+      "key": "agendaDone",
+      "text": "43"
+    },
+    {
+      "key": "agendaReady",
+      "text": "16"
+    },
+    {
+      "key": "agendaProgress",
+      "text": "58"
+    },
+    {
+      "key": "councilTotal",
+      "text": "70"
+    },
+    {
+      "key": "councilDone",
+      "text": "38"
+    },
+    {
+      "key": "councilProgress",
+      "text": "31"
+    },
+    {
+      "key": "councilNoStatus",
+      "text": "1"
+    },
+    {
+      "key": "legTotal",
+      "text": "191"
+    },
+    {
+      "key": "legLate",
+      "text": "2"
+    },
+    {
+      "key": "legOnTime",
+      "text": "152"
+    },
+    {
+      "key": "legOverrun",
+      "text": "28"
+    },
+    {
+      "key": "legPending",
+      "text": "9"
+    },
+    {
+      "key": "kpiAvg",
+      "text": "83.2%"
+    },
+    {
+      "key": "kpiTargeted",
+      "text": "87.8%"
+    },
+    {
+      "key": "specialTotal",
+      "text": "62"
+    },
+    {
+      "key": "specialLead",
+      "text": "24"
+    },
+    {
+      "key": "specialLeadDone",
+      "text": "12"
+    },
+    {
+      "key": "specialLeadProgress",
+      "text": "12"
+    },
+    {
+      "key": "specialGs",
+      "text": "36"
+    },
+    {
+      "key": "specialGsDone",
+      "text": "10"
+    },
+    {
+      "key": "specialGsProgress",
+      "text": "26"
+    },
+    {
+      "key": "specialNoRequester",
+      "text": "2"
+    },
+    {
+      "key": "secTotal",
+      "text": "84"
+    },
+    {
+      "key": "secDone",
+      "text": "10"
+    },
+    {
+      "key": "secActive",
+      "text": "61"
+    },
+    {
+      "key": "secHeld",
+      "text": "4"
+    },
+    {
+      "key": "secQ1",
+      "text": "-"
+    },
+    {
+      "key": "secQ2",
+      "text": "1"
+    },
+    {
+      "key": "secQ3",
+      "text": "-"
+    },
+    {
+      "key": "secQ4",
+      "text": "80"
+    },
+    {
+      "key": "budApproved",
+      "text": "58,275,000"
+    },
+    {
+      "key": "budAllocated",
+      "text": "46,620,000"
+    },
+    {
+      "key": "budUnallocated",
+      "text": "11,655,000"
+    },
+    {
+      "key": "budSpent",
+      "text": "20,396,250"
+    }
+  ],
+  "geometry": [
+    {
+      "class": "mp-report mp-apple mp-a4",
+      "x": 721.890625,
+      "y": 0,
+      "width": 718.109375,
+      "height": 2307.59375
+    },
+    {
+      "class": "mp-portfolios",
+      "x": 721.890625,
+      "y": 114.40625,
+      "width": 718.109375,
+      "height": 982.6875
+    },
+    {
+      "class": "mp-executive-column",
+      "x": 1088.5,
+      "y": 114.40625,
+      "width": 351.5,
+      "height": 980.328125
+    },
+    {
+      "class": "mp-project-column",
+      "x": 721.890625,
+      "y": 114.40625,
+      "width": 351.5,
+      "height": 982.6875
+    },
+    {
+      "class": "mp-followups",
+      "x": 721.890625,
+      "y": 1112.203125,
+      "width": 718.109375,
+      "height": 1195.390625
+    }
+  ],
+  "styles": {
+    "title": [
+      {
+        "text": "التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026",
+        "size": "32px",
+        "font": "\"TEC DIN\", sans-serif",
+        "weight": "400",
+        "color": "rgb(51, 51, 51)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 721.890625,
+        "y": 0,
+        "width": 544.265625,
+        "height": 83.1875
+      }
+    ],
+    "strategyNames": [
+      {
+        "text": "المؤشرات المقاسة / المسجلة",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1326.28125,
+        "y": 966.921875,
+        "width": 101.390625,
+        "height": 38.375
+      },
+      {
+        "text": "متوسط النتائج المقاسة",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1209.578125,
+        "y": 966.921875,
+        "width": 100.609375,
+        "height": 38.375
+      },
+      {
+        "text": "متوسط المستهدفات المعتمدة",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1100.84375,
+        "y": 966.921875,
+        "width": 100.390625,
+        "height": 38.375
+      }
+    ],
+    "statusNames": [
+      {
+        "text": "الأجندة المعتمدة",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1317.015625,
+        "y": 264.234375,
+        "width": 103.109375,
+        "height": 19.1875
+      },
+      {
+        "text": "المواضيع المستجدة",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1146.703125,
+        "y": 264.234375,
+        "width": 110.890625,
+        "height": 19.1875
+      },
+      {
+        "text": "منجز",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1326.28125,
+        "y": 314.125,
+        "width": 101.390625,
+        "height": 19.1875
+      },
+      {
+        "text": "جاهز للعرض",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1217.328125,
+        "y": 314.125,
+        "width": 92.859375,
+        "height": 19.1875
+      },
+      {
+        "text": "قيد العمل",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1100.84375,
+        "y": 314.125,
+        "width": 100.390625,
+        "height": 19.1875
+      },
+      {
+        "text": "منجز",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1271.796875,
+        "y": 526.859375,
+        "width": 155.875,
+        "height": 19.1875
+      },
+      {
+        "text": "قيد العمل",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1100.828125,
+        "y": 526.859375,
+        "width": 154.875,
+        "height": 19.1875
+      },
+      {
+        "text": "متأخر",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1351.625,
+        "y": 761.421875,
+        "width": 76.046875,
+        "height": 19.1875
+      },
+      {
+        "text": "SLC\nمنجز ضمن موعد",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1269.90625,
+        "y": 761.421875,
+        "width": 69.40625,
+        "height": 57.5625
+      },
+      {
+        "text": "SLC\nمنجز بعد موعد",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1188.203125,
+        "y": 761.421875,
+        "width": 69.390625,
+        "height": 38.375
+      },
+      {
+        "text": "قيد الإجراء",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1100.828125,
+        "y": 761.421875,
+        "width": 75.0625,
+        "height": 19.1875
+      },
+      {
+        "text": "منجز",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 987.84375,
+        "y": 312.703125,
+        "width": 67.5625,
+        "height": 19.1875
+      },
+      {
+        "text": "قيد العمل",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 908.96875,
+        "y": 312.703125,
+        "width": 66.5625,
+        "height": 19.1875
+      },
+      {
+        "text": "منجز",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 812.59375,
+        "y": 312.703125,
+        "width": 61.40625,
+        "height": 19.1875
+      },
+      {
+        "text": "قيد العمل",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 739.875,
+        "y": 312.703125,
+        "width": 60.40625,
+        "height": 19.1875
+      },
+      {
+        "text": "منجز",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 959.671875,
+        "y": 576.109375,
+        "width": 101.390625,
+        "height": 19.1875
+      },
+      {
+        "text": "قيد العمل",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 850.71875,
+        "y": 576.109375,
+        "width": 92.859375,
+        "height": 19.1875
+      },
+      {
+        "text": "مجمّد / ملغى",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 734.234375,
+        "y": 576.109375,
+        "width": 100.390625,
+        "height": 19.1875
+      },
+      {
+        "text": "الربع 1",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 987.359375,
+        "y": 691.921875,
+        "width": 69.9375,
+        "height": 19.1875
+      },
+      {
+        "text": "الربع 2",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 904.234375,
+        "y": 691.921875,
+        "width": 69.9375,
+        "height": 19.1875
+      },
+      {
+        "text": "الربع 3",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 821.109375,
+        "y": 691.921875,
+        "width": 69.9375,
+        "height": 19.1875
+      },
+      {
+        "text": "الربع 4",
+        "size": "12px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 737.984375,
+        "y": 691.921875,
+        "width": 69.9375,
+        "height": 19.1875
+      }
+    ],
+    "figures": [
+      {
+        "text": "39 / 54",
+        "size": "32px",
+        "font": "\"TEC DIN LT\", sans-serif",
+        "weight": "400",
+        "color": "rgb(51, 51, 51)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1326.28125,
+        "y": 1009.0625,
+        "width": 101.390625,
+        "height": 40
+      },
+      {
+        "text": "83.2%",
+        "size": "32px",
+        "font": "\"TEC DIN LT\", sans-serif",
+        "weight": "400",
+        "color": "rgb(51, 51, 51)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1209.578125,
+        "y": 1009.0625,
+        "width": 100.609375,
+        "height": 40
+      },
+      {
+        "text": "87.8%",
+        "size": "32px",
+        "font": "\"TEC DIN LT\", sans-serif",
+        "weight": "400",
+        "color": "rgb(51, 51, 51)",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "x": 1100.84375,
+        "y": 1009.0625,
+        "width": 100.390625,
+        "height": 40
+      }
+    ],
+    "tableBody": [
+      {
+        "text": "التشريعات",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1321.015625,
+        "y": 1292.109375,
+        "width": 102.875,
+        "height": 154.640625
+      },
+      {
+        "text": "تشريع توضيحي 075",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1170.125,
+        "y": 1292.109375,
+        "width": 150.890625,
+        "height": 154.640625
+      },
+      {
+        "text": "متأخر",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1074.109375,
+        "y": 1292.109375,
+        "width": 96.015625,
+        "height": 154.640625
+      },
+      {
+        "text": "السياسات والاستراتيجيات الاقتصادية\nالاقتصاد والتنمية الاجتماعية",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 923.21875,
+        "y": 1292.109375,
+        "width": 150.890625,
+        "height": 154.640625
+      },
+      {
+        "text": "لا توجد ملاحظة مسجلة",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 738,
+        "y": 1292.109375,
+        "width": 185.21875,
+        "height": 154.640625
+      },
+      {
+        "text": "التشريعات",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1321.015625,
+        "y": 1446.75,
+        "width": 102.875,
+        "height": 77.859375
+      },
+      {
+        "text": "تشريع توضيحي 179",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1170.125,
+        "y": 1446.75,
+        "width": 150.890625,
+        "height": 77.859375
+      },
+      {
+        "text": "متأخر",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1074.109375,
+        "y": 1446.75,
+        "width": 96.015625,
+        "height": 77.859375
+      },
+      {
+        "text": "الحوكمة\nالحوكمة",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 923.21875,
+        "y": 1446.75,
+        "width": 150.890625,
+        "height": 77.859375
+      },
+      {
+        "text": "لا توجد ملاحظة مسجلة",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 738,
+        "y": 1446.75,
+        "width": 185.21875,
+        "height": 77.859375
+      },
+      {
+        "text": "مشاريع بموازنة استراتيجية",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1321.015625,
+        "y": 1524.609375,
+        "width": 102.875,
+        "height": 103.453125
+      },
+      {
+        "text": "مشروع استراتيجي توضيحي 006",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1170.125,
+        "y": 1524.609375,
+        "width": 150.890625,
+        "height": 103.453125
+      },
+      {
+        "text": "مجمّد",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1074.109375,
+        "y": 1524.609375,
+        "width": 96.015625,
+        "height": 103.453125
+      },
+      {
+        "text": "الاتصال الحكومي\nالاتصال الحكومي وشؤون الأمانة العامة",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 923.21875,
+        "y": 1524.609375,
+        "width": 150.890625,
+        "height": 103.453125
+      },
+      {
+        "text": "لا توجد ملاحظة مسجلة",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 738,
+        "y": 1524.609375,
+        "width": 185.21875,
+        "height": 103.453125
+      },
+      {
+        "text": "مشاريع بموازنة استراتيجية",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1321.015625,
+        "y": 1628.0625,
+        "width": 102.875,
+        "height": 100.4375
+      },
+      {
+        "text": "مشروع استراتيجي توضيحي 076",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1170.125,
+        "y": 1628.0625,
+        "width": 150.890625,
+        "height": 100.4375
+      },
+      {
+        "text": "مجمّد",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1074.109375,
+        "y": 1628.0625,
+        "width": 96.015625,
+        "height": 100.4375
+      },
+      {
+        "text": "الوحدة غير مسجلة\nالتنمية المستدامة",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 923.21875,
+        "y": 1628.0625,
+        "width": 150.890625,
+        "height": 100.4375
+      },
+      {
+        "text": "لا توجد ملاحظة مسجلة",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 738,
+        "y": 1628.0625,
+        "width": 185.21875,
+        "height": 100.4375
+      },
+      {
+        "text": "مشاريع بموازنة استراتيجية",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1321.015625,
+        "y": 1728.5,
+        "width": 102.875,
+        "height": 100.4375
+      },
+      {
+        "text": "مشروع استراتيجي توضيحي 082",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1170.125,
+        "y": 1728.5,
+        "width": 150.890625,
+        "height": 100.4375
+      },
+      {
+        "text": "مجمّد",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1074.109375,
+        "y": 1728.5,
+        "width": 96.015625,
+        "height": 100.4375
+      },
+      {
+        "text": "الحوكمة\nالحوكمة",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 923.21875,
+        "y": 1728.5,
+        "width": 150.890625,
+        "height": 100.4375
+      },
+      {
+        "text": "لا توجد ملاحظة مسجلة",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 738,
+        "y": 1728.5,
+        "width": 185.21875,
+        "height": 100.4375
+      },
+      {
+        "text": "مشاريع بموازنة استراتيجية",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1321.015625,
+        "y": 1828.9375,
+        "width": 102.875,
+        "height": 126.03125
+      },
+      {
+        "text": "مشروع استراتيجي توضيحي 049",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1170.125,
+        "y": 1828.9375,
+        "width": 150.890625,
+        "height": 126.03125
+      },
+      {
+        "text": "ملغى",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1074.109375,
+        "y": 1828.9375,
+        "width": 96.015625,
+        "height": 126.03125
+      },
+      {
+        "text": "التقييم والدراسات\nالتميز والخدمات الحكومية",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 923.21875,
+        "y": 1828.9375,
+        "width": 150.890625,
+        "height": 126.03125
+      },
+      {
+        "text": "ملاحظة توضيحية: يتطلب البند مراجعة المستجدات وتأكيد الخطوة المقبلة مع الوحدة المعنية.",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 738,
+        "y": 1828.9375,
+        "width": 185.21875,
+        "height": 126.03125
+      },
+      {
+        "text": "مشاريع بموازنة استراتيجية",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1321.015625,
+        "y": 1954.96875,
+        "width": 102.875,
+        "height": 154.640625
+      },
+      {
+        "text": "مشروع استراتيجي توضيحي 037",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1170.125,
+        "y": 1954.96875,
+        "width": 150.890625,
+        "height": 154.640625
+      },
+      {
+        "text": "منقول",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1074.109375,
+        "y": 1954.96875,
+        "width": 96.015625,
+        "height": 154.640625
+      },
+      {
+        "text": "السياسات والاستراتيجيات الاجتماعية\nالاقتصاد والتنمية الاجتماعية",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 923.21875,
+        "y": 1954.96875,
+        "width": 150.890625,
+        "height": 154.640625
+      },
+      {
+        "text": "لا توجد ملاحظة مسجلة",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 738,
+        "y": 1954.96875,
+        "width": 185.21875,
+        "height": 154.640625
+      },
+      {
+        "text": "مشاريع بموازنة استراتيجية",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1321.015625,
+        "y": 2109.609375,
+        "width": 102.875,
+        "height": 154.640625
+      },
+      {
+        "text": "مشروع استراتيجي توضيحي 038",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1170.125,
+        "y": 2109.609375,
+        "width": 150.890625,
+        "height": 154.640625
+      },
+      {
+        "text": "منقول",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 1074.109375,
+        "y": 2109.609375,
+        "width": 96.015625,
+        "height": 154.640625
+      },
+      {
+        "text": "السياسات والاستراتيجيات الاجتماعية\nالاقتصاد والتنمية الاجتماعية",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 923.21875,
+        "y": 2109.609375,
+        "width": 150.890625,
+        "height": 154.640625
+      },
+      {
+        "text": "لا توجد ملاحظة مسجلة",
+        "size": "16px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "400",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(252, 251, 251)",
+        "backgroundImage": "none",
+        "x": 738,
+        "y": 2109.609375,
+        "width": 185.21875,
+        "height": 154.640625
+      }
+    ],
+    "tableHead": [
+      {
+        "text": "المحفظة",
+        "size": "18px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "700",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(239, 235, 231)",
+        "backgroundImage": "none",
+        "x": 1321.015625,
+        "y": 1211.359375,
+        "width": 102.875,
+        "height": 80.75
+      },
+      {
+        "text": "البند",
+        "size": "18px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "700",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(239, 235, 231)",
+        "backgroundImage": "none",
+        "x": 1170.125,
+        "y": 1211.359375,
+        "width": 150.890625,
+        "height": 80.75
+      },
+      {
+        "text": "مستوى الإنجاز",
+        "size": "18px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "700",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(239, 235, 231)",
+        "backgroundImage": "none",
+        "x": 1074.109375,
+        "y": 1211.359375,
+        "width": 96.015625,
+        "height": 80.75
+      },
+      {
+        "text": "الوحدة التنظيمية / القطاع",
+        "size": "18px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "700",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(239, 235, 231)",
+        "backgroundImage": "none",
+        "x": 923.21875,
+        "y": 1211.359375,
+        "width": 150.890625,
+        "height": 80.75
+      },
+      {
+        "text": "الملاحظات",
+        "size": "18px",
+        "font": "\"TEC Dubai\", sans-serif",
+        "weight": "700",
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(239, 235, 231)",
+        "backgroundImage": "none",
+        "x": 738,
+        "y": 1211.359375,
+        "width": 185.21875,
+        "height": 80.75
+      }
+    ]
+  },
+  "followupKeys": [
+    "legislation-76",
+    "legislation-180",
+    "secretariat-7",
+    "secretariat-77",
+    "secretariat-83",
+    "secretariat-50",
+    "secretariat-38",
+    "secretariat-39"
+  ],
+  "pageHeightMM": 634,
+  "pages": 1,
+  "pageDimensionsPT": [
+    [
+      0.0,
+      0.0,
+      594.9599609375,
+      1796.8800048828125
+    ]
+  ],
+  "fontNames": [
+    "DINNextLTArabic-Regular",
+    "LiberationSans",
+    "Unnamed-T3"
+  ],
+  "textSpans": 422,
+  "outsideSpans": [],
+  "pdfSha256": "0216f2bcda2f84fab47efb655998da4a22c73c9ec45d5c70844336c833047871",
+  "verdict": "PASS"
+}
