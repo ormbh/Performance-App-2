@@ -1,0 +1,1518 @@
+{
+  "scope": "Fresh extracted v138 complete release; actual local file-input upload and Download PDF controls. Frozen illustrative source only; local HTTP because managed browser blocks file navigation. No production workbook, physical-printer or native Windows certification.",
+  "fixtureSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "checks": [
+    {
+      "check": "complete extracted release matches final138manifest",
+      "pass": true,
+      "detail": {
+        "build": "138",
+        "files": 176,
+        "sha256": "b48d77628b4e4f5acad0beaef8ba148e6c18e39323e80ea1e4b47283c1504bc5",
+        "mismatches": []
+      }
+    },
+    {
+      "check": "extracted index build138",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fresh complete package opens upload",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "100percent browser scale",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "actual file-input upload loads frozen672records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "actual file-input upload lands on menu-only Search home",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-cold-continuous approved visible44px Download PDF control",
+      "pass": true,
+      "detail": [
+        {
+          "text": "تنزيل PDF",
+          "disabled": false,
+          "aria": "تنزيل PDF",
+          "size": "16px",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "check": "monthly-cold-continuous no app Print action",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-cold-continuous bundled engine initially unloaded",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-cold-continuous source keys/date/scope/counts retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-cold-continuous direct download never calls window.print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-cold-continuous restored screen after download",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-cold-continuous controls re-enabled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-cold-continuous actual PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-cold-continuous downloaded PDF filename",
+      "pass": true,
+      "detail": "التقرير الشهري للأداء والتنفيذ.pdf"
+    },
+    {
+      "check": "monthly-cold-continuous one complete continuous297mm page, not temporary80mm",
+      "pass": true,
+      "detail": [
+        [
+          297.0,
+          622.0
+        ]
+      ]
+    },
+    {
+      "check": "monthly-cold-continuous p1 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-cold-continuous p1 actual page counters",
+      "pass": true,
+      "detail": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "check": "monthly-cold-continuous p1 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-cold-continuous copyright clear8mm",
+      "pass": true,
+      "detail": 8.929386054144963
+    },
+    {
+      "check": "monthly-cold-continuous one native24pt first title/date",
+      "pass": true,
+      "detail": [
+        {
+          "size": 24.0,
+          "flags": 4,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "DINNextArabic-Regular",
+          "color": 3355443,
+          "alpha": 255,
+          "ascender": 0.8500000238418579,
+          "descender": -0.3499999940395355,
+          "text": "  لتاريخ- التقرير الشهري للأداء والتنفيذ30/09/2026",
+          "origin": [
+            146.7685089111328,
+            45.3529052734375
+          ],
+          "bbox": [
+            22.67716407775879,
+            24.952903747558594,
+            480.70452880859375,
+            53.752906799316406
+          ]
+        }
+      ]
+    },
+    {
+      "check": "monthly-cold-continuous actual source cutoff",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-cold-continuous all native text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "monthly-cold-continuous no accidental blank output page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "monthly-cold-continuous selectable Unicode source text",
+      "pass": true,
+      "detail": 2556
+    },
+    {
+      "check": "monthly-cold-continuous approved native font families",
+      "pass": true,
+      "detail": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular",
+        "TECPDFSymbolFallback-Reg"
+      ]
+    },
+    {
+      "check": "monthly-cold-continuous readable12pt body and13.5pt table headings",
+      "pass": true,
+      "detail": {
+        "24.0": 20,
+        "18.0": 2,
+        "16.0": 7,
+        "28.0": 7,
+        "9.0": 43,
+        "11.0": 56,
+        "20.0": 12,
+        "7.5": 5,
+        "10.5": 15,
+        "8.0": 1,
+        "13.5": 5,
+        "12.0": 58
+      }
+    },
+    {
+      "check": "monthly-cold-continuous only official logo is raster; text and charts native",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "monthly-cold-continuous full-page Linen including insets",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-cold-continuous every ordered followup source title retained",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "fresh package continuous default",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "frozen monthly eligibility retains8sourcefollowups",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exact legislation generated captions",
+      "pass": true,
+      "detail": [
+        "متأخر",
+        "SLC منجز ضمن موعد",
+        "SLC منجز بعد موعد",
+        "قيد الإجراء"
+      ]
+    },
+    {
+      "check": "repeated SLC explanation absent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly short labels16pxDubaiRegular",
+      "pass": true,
+      "detail": [
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        },
+        {
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400"
+        }
+      ]
+    },
+    {
+      "check": "all3directreportmenu destinations",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "menu Escape closes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "menu outside click closes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "actual monthly PDF settings title",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "approved continuous/A4 options only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-selected-a4 approved visible44px Download PDF control",
+      "pass": true,
+      "detail": [
+        {
+          "text": "تنزيل PDF",
+          "disabled": false,
+          "aria": "تنزيل PDF",
+          "size": "16px",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "check": "monthly-selected-a4 no app Print action",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-selected-a4 source keys/date/scope/counts retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-selected-a4 direct download never calls window.print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-selected-a4 restored screen after download",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-selected-a4 controls re-enabled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-selected-a4 actual PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-selected-a4 downloaded PDF filename",
+      "pass": true,
+      "detail": "التقرير الشهري للأداء والتنفيذ.pdf"
+    },
+    {
+      "check": "monthly-selected-a4 approved A4 orientation",
+      "pass": true,
+      "detail": [
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ]
+      ]
+    },
+    {
+      "check": "monthly-selected-a4 p1 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-selected-a4 p1 actual page counters",
+      "pass": true,
+      "detail": [
+        "3",
+        "1"
+      ]
+    },
+    {
+      "check": "monthly-selected-a4 p1 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-selected-a4 p2 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-selected-a4 p2 actual page counters",
+      "pass": true,
+      "detail": [
+        "3",
+        "2"
+      ]
+    },
+    {
+      "check": "monthly-selected-a4 p2 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-selected-a4 p3 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-selected-a4 p3 actual page counters",
+      "pass": true,
+      "detail": [
+        "3",
+        "3"
+      ]
+    },
+    {
+      "check": "monthly-selected-a4 p3 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-selected-a4 one native24pt first title/date",
+      "pass": true,
+      "detail": [
+        {
+          "size": 24.0,
+          "flags": 4,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "DINNextArabic-Regular",
+          "color": 3355443,
+          "alpha": 255,
+          "ascender": 0.8500000238418579,
+          "descender": -0.3499999940395355,
+          "text": " لتاريخ- التقرير الشهري للأداء والتنفيذ",
+          "origin": [
+            75.41805267333984,
+            49.346435546875
+          ],
+          "bbox": [
+            28.354049682617188,
+            28.946434020996094,
+            356.53009033203125,
+            57.746437072753906
+          ]
+        }
+      ]
+    },
+    {
+      "check": "monthly-selected-a4 actual source cutoff",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-selected-a4 all native text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "monthly-selected-a4 no accidental blank output page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "monthly-selected-a4 selectable Unicode source text",
+      "pass": true,
+      "detail": 2819
+    },
+    {
+      "check": "monthly-selected-a4 approved native font families",
+      "pass": true,
+      "detail": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular",
+        "TECPDFSymbolFallback-Reg"
+      ]
+    },
+    {
+      "check": "monthly-selected-a4 readable12pt body and13.5pt table headings",
+      "pass": true,
+      "detail": {
+        "24.0": 21,
+        "18.0": 2,
+        "16.0": 7,
+        "28.0": 7,
+        "9.0": 49,
+        "11.0": 56,
+        "20.0": 12,
+        "10.5": 23,
+        "7.5": 5,
+        "8.0": 1,
+        "13.5": 14,
+        "12.0": 78
+      }
+    },
+    {
+      "check": "monthly-selected-a4 only official logo is raster; text and charts native",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "monthly-selected-a4 every ordered followup source title retained",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "agenda-a4-landscape approved visible44px Download PDF control",
+      "pass": true,
+      "detail": [
+        {
+          "text": "تنزيل PDF",
+          "disabled": false,
+          "aria": "تنزيل PDF",
+          "size": "16px",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape no app Print action",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape source keys/date/scope/counts retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape direct download never calls window.print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape restored screen after download",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape controls re-enabled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape actual PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape downloaded PDF filename",
+      "pass": true,
+      "detail": "مستجدات الأجندة السنوية.pdf"
+    },
+    {
+      "check": "agenda-a4-landscape approved A4 orientation",
+      "pass": true,
+      "detail": [
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ]
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p1 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p1 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "1"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p1 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p2 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p2 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "2"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p2 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p3 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p3 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "3"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p3 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p4 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p4 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "4"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p4 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p5 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p5 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "5"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p5 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p6 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p6 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "6"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p6 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p7 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p7 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "7"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p7 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p8 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p8 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "8"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p8 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p9 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p9 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "9"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p9 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p10 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p10 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "10"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p10 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p11 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p11 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "11"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p11 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p12 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p12 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "12"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p12 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p13 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p13 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "13"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p13 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p14 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p14 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "14"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p14 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p15 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p15 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "15"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p15 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p16 legal footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape p16 actual page counters",
+      "pass": true,
+      "detail": [
+        "16",
+        "16"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape p16 footer10.5pt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape one native24pt first title/date",
+      "pass": true,
+      "detail": [
+        {
+          "size": 24.0,
+          "flags": 4,
+          "bidi": 0,
+          "char_flags": 16,
+          "font": "DINNextArabic-Regular",
+          "color": 3355443,
+          "alpha": 255,
+          "ascender": 0.8500000238418579,
+          "descender": -0.3499999940395355,
+          "text": "  لتاريخ- مستجدات الأجندة السنوية30/09/2026",
+          "origin": [
+            152.44830322265625,
+            51.022216796875
+          ],
+          "bbox": [
+            28.34645652770996,
+            30.622215270996094,
+            462.9364318847656,
+            59.422218322753906
+          ]
+        }
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape actual source cutoff",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "agenda-a4-landscape all native text within page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "agenda-a4-landscape no accidental blank output page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "agenda-a4-landscape selectable Unicode source text",
+      "pass": true,
+      "detail": 10967
+    },
+    {
+      "check": "agenda-a4-landscape approved native font families",
+      "pass": true,
+      "detail": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular"
+      ]
+    },
+    {
+      "check": "agenda-a4-landscape readable12pt body and13.5pt table headings",
+      "pass": true,
+      "detail": {
+        "24.0": 1,
+        "16.0": 20,
+        "19.0": 3,
+        "13.0": 3,
+        "10.5": 90,
+        "9.0": 19,
+        "9.75": 10,
+        "12.0": 627,
+        "17.25": 4,
+        "8.25": 8,
+        "8.62": 22,
+        "7.88": 9,
+        "11.25": 5,
+        "13.5": 68
+      }
+    },
+    {
+      "check": "agenda-a4-landscape only official logo is raster; text and charts native",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "search home menu-only navigation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "actual search matches all4expectedsourcekeys",
+      "pass": true,
+      "detail": [
+        "secretariat-7",
+        "council-51",
+        "agenda-7",
+        "council-7"
+      ]
+    },
+    {
+      "check": "actual source detail opens from search",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "detail closes without losing searchmatches",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "extracted HH320px no document overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "mobileHH rings preserve92px readability",
+      "pass": true,
+      "detail": [
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92,
+        92
+      ]
+    },
+    {
+      "check": "no application JavaScript errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "no failed local app/font/image requests",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "all runtime/PDF requests local",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "actual served runtime matches extracted releasehashes",
+      "pass": true,
+      "detail": {
+        "assets/css/app-bundle.css": "2eeb64c7f2f8db5f42facec0573d027eb9a3529ade05bf84858132d9e76ecdea",
+        "assets/js/app-bundle.js": "5a34e9cfbd62ad909effddfa841d0633db594cc46956b076d68ef76caff2591c",
+        "assets/css/print-measure-bundle.css": "1305fa85010c66e8d39da391c07205cb78f1ee6ad1b11e9b543aed3a8a6b57b6",
+        "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528"
+      }
+    },
+    {
+      "check": "extracted runtime unchanged by QA",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "requestsFailed": [],
+  "requests": [
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/index.html",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/css/app-bundle.css?v=138",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/js/app-bundle.js?v=138",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/Dubai-Regular.otf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/DIN-Next-Arabic-Regular.otf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/DIN-Next-LT-Arabic-Regular.ttf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/Dubai-Bold.otf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/css/print-measure-bundle.css?v=138",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/Dubai-Regular.otf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/Dubai-Bold.otf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/DIN-Next-Arabic-Regular.otf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/DIN-Next-LT-Arabic-Regular.ttf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/js/lib/offline-pdf-engine.js?v=138",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "blob:http://127.0.0.1:8898/4a0679d2-20d0-411d-8c44-bc9d00a48868",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/css/print-measure-bundle.css?v=138",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/Dubai-Regular.otf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/Dubai-Bold.otf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/DIN-Next-Arabic-Regular.otf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/DIN-Next-LT-Arabic-Regular.ttf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/css/print-measure-bundle.css?v=138",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/Dubai-Regular.otf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/Dubai-Bold.otf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/DIN-Next-Arabic-Regular.otf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/DIN-Next-LT-Arabic-Regular.ttf",
+    "blob:http://127.0.0.1:8898/4a0679d2-20d0-411d-8c44-bc9d00a48868",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/agenda-cover.jpg",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/agenda-logos.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/css/print-measure-bundle.css?v=138",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/agenda-logos.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/Dubai-Regular.otf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/Dubai-Bold.otf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/DIN-Next-Arabic-Regular.otf",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/fonts/DIN-Next-LT-Arabic-Regular.ttf",
+    "blob:http://127.0.0.1:8898/4a0679d2-20d0-411d-8c44-bc9d00a48868",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png",
+    "http://127.0.0.1:8898/release-check-v138/Performance-App-v138/assets/img/tec-red.png"
+  ],
+  "servedAssetHashes": {
+    "assets/css/app-bundle.css": "2eeb64c7f2f8db5f42facec0573d027eb9a3529ade05bf84858132d9e76ecdea",
+    "assets/js/app-bundle.js": "5a34e9cfbd62ad909effddfa841d0633db594cc46956b076d68ef76caff2591c",
+    "assets/css/print-measure-bundle.css": "1305fa85010c66e8d39da391c07205cb78f1ee6ad1b11e9b543aed3a8a6b57b6",
+    "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528"
+  },
+  "cases": {
+    "monthly-cold-continuous": {
+      "pages": 1,
+      "pageMM": [
+        [
+          297.0,
+          622.0
+        ]
+      ],
+      "filename": "التقرير الشهري للأداء والتنفيذ.pdf",
+      "bytes": 206476,
+      "sha256": "b84114ca12ec6d5e06fd82f472ff96f033ae42a11182566443c55ca4afd8459e",
+      "fonts": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular",
+        "TECPDFSymbolFallback-Reg"
+      ],
+      "nativeChars": 2556,
+      "images": 1,
+      "spanSizeCounts": {
+        "24.0": 20,
+        "18.0": 2,
+        "16.0": 7,
+        "28.0": 7,
+        "9.0": 43,
+        "11.0": 56,
+        "20.0": 12,
+        "7.5": 5,
+        "10.5": 15,
+        "8.0": 1,
+        "13.5": 5,
+        "12.0": 58
+      },
+      "footerInsetsMM": [
+        8.929386054144963
+      ],
+      "sourceFollowKeys": [
+        "legislation-76",
+        "legislation-180",
+        "secretariat-7",
+        "secretariat-77",
+        "secretariat-83",
+        "secretariat-50",
+        "secretariat-38",
+        "secretariat-39"
+      ]
+    },
+    "monthly-selected-a4": {
+      "pages": 3,
+      "pageMM": [
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ]
+      ],
+      "filename": "التقرير الشهري للأداء والتنفيذ.pdf",
+      "bytes": 212420,
+      "sha256": "c6e412f8dae7d98953aa99842302661da66f78bd822fb757b42d44fb1ee54c74",
+      "fonts": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular",
+        "TECPDFSymbolFallback-Reg"
+      ],
+      "nativeChars": 2819,
+      "images": 1,
+      "spanSizeCounts": {
+        "24.0": 21,
+        "18.0": 2,
+        "16.0": 7,
+        "28.0": 7,
+        "9.0": 49,
+        "11.0": 56,
+        "20.0": 12,
+        "10.5": 23,
+        "7.5": 5,
+        "8.0": 1,
+        "13.5": 14,
+        "12.0": 78
+      },
+      "footerInsetsMM": [
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776
+      ],
+      "sourceFollowKeys": [
+        "legislation-76",
+        "legislation-180",
+        "secretariat-7",
+        "secretariat-77",
+        "secretariat-83",
+        "secretariat-50",
+        "secretariat-38",
+        "secretariat-39"
+      ]
+    },
+    "agenda-a4-landscape": {
+      "pages": 16,
+      "pageMM": [
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ]
+      ],
+      "filename": "مستجدات الأجندة السنوية.pdf",
+      "bytes": 264635,
+      "sha256": "ce4b181835a916f7351f0629949d10cc5995d1cf3f3bb6b6b2287849240f58d2",
+      "fonts": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular"
+      ],
+      "nativeChars": 10967,
+      "images": 1,
+      "spanSizeCounts": {
+        "24.0": 1,
+        "16.0": 20,
+        "19.0": 3,
+        "13.0": 3,
+        "10.5": 90,
+        "9.0": 19,
+        "9.75": 10,
+        "12.0": 627,
+        "17.25": 4,
+        "8.25": 8,
+        "8.62": 22,
+        "7.88": 9,
+        "11.25": 5,
+        "13.5": 68
+      },
+      "footerInsetsMM": [
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776
+      ],
+      "sourceFollowKeys": []
+    }
+  },
+  "app": "/workspace/saytara-work/release-check-v138/Performance-App-v138",
+  "host": "http://127.0.0.1:8898/",
+  "manifest": {
+    "build": "138",
+    "files": 176,
+    "sha256": "b48d77628b4e4f5acad0beaef8ba148e6c18e39323e80ea1e4b47283c1504bc5",
+    "mismatches": []
+  },
+  "bundleSha256Before": {
+    "assets/js/app-bundle.js": "5a34e9cfbd62ad909effddfa841d0633db594cc46956b076d68ef76caff2591c",
+    "assets/css/app-bundle.css": "2eeb64c7f2f8db5f42facec0573d027eb9a3529ade05bf84858132d9e76ecdea",
+    "assets/css/print-measure-bundle.css": "1305fa85010c66e8d39da391c07205cb78f1ee6ad1b11e9b543aed3a8a6b57b6",
+    "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528"
+  },
+  "coldBeforeClick": {
+    "engineAbsent": true,
+    "prepared": true
+  },
+  "bundleSha256After": {
+    "assets/js/app-bundle.js": "5a34e9cfbd62ad909effddfa841d0633db594cc46956b076d68ef76caff2591c",
+    "assets/css/app-bundle.css": "2eeb64c7f2f8db5f42facec0573d027eb9a3529ade05bf84858132d9e76ecdea",
+    "assets/css/print-measure-bundle.css": "1305fa85010c66e8d39da391c07205cb78f1ee6ad1b11e9b543aed3a8a6b57b6",
+    "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528"
+  },
+  "result": "PASS"
+}

@@ -1,8 +1,35 @@
+# Revision 13 — offline PDF download
+
+The primary report action is **تنزيل PDF**, replacing the Print button throughout
+the app. It saves locally through a bundled PDF engine, with no print dialog,
+CDN or upload service. PDF settings retain the approved continuous/A4 choices
+and the current source scope/date. The exporter preserves native text, vector
+charts, approved fonts/colors, source calculations and full ordered records.
+The monthly continuous page and all A4 orientations follow Revision 12 below.
+
+The first header contains only the title and inline date. Copyright and actual
+page counters are the only footer fields. Continuous footer text has at least
+8mm clearance from the physical bottom edge; its fixed baseline uses an 11mm
+inset inside the approved 16mm bottom reserve. Original font bytes stay intact;
+the local shaper handles legacy DIN joining and mixed text direction, and a
+licensed symbol-only fallback supplies missing change-arrow and Harvey progress glyphs.
+
+Native browser print preparation uses a validated full-report measurement or
+safe A4 fallback. It never publishes an unmeasured 80mm custom page. Direct PDF
+export is independent of native print timing and browser margin settings.
+
+The tested v138 direct-download workflows pass; results and practical limits are recorded in **VERIFICATION-v138.md**. Prior verification
+records describe their own releases; the earlier settled-output tests did not
+cover the native first-preview timing defect reported by the user. Revision 13's
+download action and settings wording supersede the earlier browser-dialog workflow.
+
+---
+
 # TEC Apple-Inspired Design standard
 
-Approved typography, controls, status badges, layout, header, navigation, bars and print rules. **Revision 12 — 12 October 2026; full-page Linen monthly PDF, corrected insets and roomier spacing approved.** This consolidates the supplied standard and all subsequent approved amendments, including **18px Dubai Regular subgroup names and agenda category labels**, the updated Ink/Taupe text roles and solid financial bars.
+Approved typography, controls, status badges, layout, header, navigation, bars and output rules. **Revision 13 — 12 October 2026; direct offline PDF download approved, retaining Revision 12's full-page Linen monthly PDF, corrected insets and roomier spacing.** This consolidates the supplied standard and all subsequent approved amendments, including **18px Dubai Regular subgroup names and agenda category labels**, the updated Ink/Taupe text roles and solid financial bars.
 
-**Implementation: Performance App v137.** The default continuous monthly digital PDF uses a 297mm page width, content-measured height, an 8mm reading inset with additional bottom footer reserve, and 281mm content width. The continuous page margins are 8mm at the top and sides, and 16mm at the bottom. Linen #EFEBE7 fills the whole page, including its insets; Paper #FCFBFB cards retain their approved borders and text roles. A4 portrait remains selectable for monthly paper printing with its existing 10mm margins. Agenda, council and HH paper reports retain A4 landscape; all other paper views retain A4 portrait. A3 remains unavailable. Monthly labels, SLC captions, fonts, colors, source scope and calculations remain approved as before. **v137 browser, source and native PDF checks pass for tested workflows**; Final results are recorded in VERIFICATION-v137.md. Earlier verification files describe their own releases.
+**Implementation: Performance App v138.** The default continuous monthly digital PDF uses a 297mm page width, content-measured height, an 8mm reading inset with additional bottom footer reserve, and 281mm content width. The continuous page margins are 8mm at the top and sides, and 16mm at the bottom. Linen #EFEBE7 fills the whole page, including its insets; Paper #FCFBFB cards retain their approved borders and text roles. A4 portrait remains selectable for monthly paper printing with its existing 10mm margins. Agenda, council and HH paper reports retain A4 landscape; all other paper views retain A4 portrait. A3 remains unavailable. Monthly labels, SLC captions, fonts, colors, source scope and calculations remain approved as before. Final tested v138 results and practical limits are recorded in **VERIFICATION-v138.md**. **VERIFICATION-v137.md** and earlier files describe their historical release scopes; settled native-print checks do not establish a v138 download or first-preview pass.
 
 The monthly page establishes the shared standard at **100% browser zoom**. Screen typography uses 38px page titles (36px on the search home), 30px portfolio headings, 28px card titles, 16px table content and badges, and 18px Dubai Bold table headings. Retain the compact card grouping: 18px subgroup names, 16px monthly status labels above their figures, and change arrows below their own values. The card-header total label retains its position beneath the main total. **Remove explanatory labels and subtitles beneath all page, portfolio, section, card and table titles**, including search and upload titles. Retain the required screen report date as secondary metadata.
 
@@ -14,13 +41,13 @@ Use the supplied **Regular (400)** faces for headings, figures, body text and co
 
 **Continuous monthly PDF:** use one custom digital page by default, with a 297mm width, 281mm content width and an 8mm reading inset plus a reserved bottom footer band. Use actual page margins of 8mm top/left/right and 16mm bottom. Fill the full page and its insets with Linen #EFEBE7, including the print page and body surfaces, so there is no white outer frame. Keep cards Paper #FCFBFB with their approved Sand borders. Measure the complete report after print fonts and images are ready; its height grows with the content. Preserve projects physically left, executive portfolios physically right and full-width followups below both. Use one report masthead and one legal/page-number footer. Keep all approved print font sizes; do not fit the document with zoom, font shrink or a fixed height.
 
-**Continuous footer clearance:** retain the 8mm reading inset and reserve an additional 8mm at the bottom, making the actual bottom page margin 16mm. Align footer margin boxes at their top edge with 1mm top padding. Keep copyright glyph bounds at least 8mm from the physical bottom edge and keep report content clear of the footer. Page height measurement allows 27mm beyond the complete measured content: 8mm top + 16mm bottom + 3mm rounding/clearance. This changes footer space, not source content or approved print fonts; A4 margins remain 10mm.
+**Continuous footer clearance:** retain the 8mm reading inset and reserve an additional 8mm at the bottom, making the actual bottom page margin 16mm. Direct PDF download uses its fixed 11mm footer-baseline inset within this reserve. Optional native printing retains top-aligned footer margin boxes with 1mm top padding. Keep copyright glyph bounds at least 8mm from the physical bottom edge and keep report content clear of the footer. Page height measurement allows 27mm beyond the complete measured content: 8mm top + 16mm bottom + 3mm rounding/clearance. This changes footer space, not source content or approved print fonts; A4 margins remain 10mm.
 
 **Digital spacing:** use 6mm padding inside monthly cards and the followup card, an 8mm portfolio-column gap, 6mm between stacked cards, 4mm beneath card headings, 3mm above metric rows and bars, and 3.5mm table-cell padding. Give portfolio headings 6mm inline padding to align their text with the cards’ inner edge and 3mm bottom padding. Put the followup section 8mm below the report summary, leave 3mm beneath its heading, and give its status-summary row 3mm above and 4mm below. Preserve natural wrapping and the label/value/change associations. These spacings apply to the continuous digital format; screen and A4 paper spacing retain their approved profiles.
 
-**Monthly format control:** the primary action reads **طباعة / حفظ PDF**. Under **إعدادات الطباعة**, show the **تنسيق التقرير** dropdown with **PDF متصل — صفحة واحدة** and **A4 عمودي — للطباعة**. The continuous format is the default when no current format preference is saved; retain a user's selected A4 preference. For the continuous format, choose Save as PDF in the browser dialog; select A4 for physical paper printing.
+**Monthly format control:** the primary action reads **تنزيل PDF** and uses the existing 20px download glyph. Under **إعدادات PDF**, show the **تنسيق التقرير** dropdown with **PDF متصل — صفحة واحدة** and **A4 عمودي — للطباعة**. The continuous format is the default when no current format preference is saved; retain a user's selected A4 preference. Download either format directly through the bundled local PDF engine. Select A4 for a PDF intended for physical paper printing. No browser print dialog or Background graphics setting is part of the app's PDF download workflow.
 
-**Continuous height limit:** if the measured digital page would exceed 5080mm, automatically use A4 portrait pages for that print session and show an explanatory toast. Preserve every record, note, value and filter; keep the saved format preference unchanged. Do not truncate the report, clamp it to the limit or shrink text. Ordinary continuous reports remain one page; this fallback applies only to an unusually long report.
+**Continuous height limit:** if the measured digital page would exceed 5080mm, automatically use A4 portrait pages for that export and show an explanatory toast. Preserve every record, note, value and filter; keep the saved format preference unchanged. Do not truncate the report, clamp it to the limit or shrink text. Ordinary continuous reports remain one page; this fallback applies only to an unusually long report.
 
 **Monthly A4 composition:** the selectable paper mode preserves projects left, executive portfolios right and full-width followups below both. Keep approved print fonts and use natural pagination. A fitting card moves whole if the remaining page space is insufficient; a taller card may continue readably. Do not promise a fixed A4 page count. The continuous digital mode supplies the approved single-page output by extending its page height.
 
@@ -216,7 +243,7 @@ Taupe control borders are chosen as a readable boundary on Paper. Stone #ABA394 
 | Logo | Official supplied TEC asset; 192px desktop / 144px mobile report logo, preserved proportions and clear space |
 | Primary navigation | Plain 16px Dubai links: البحث plus the current page only; search home has the menu only, search results have one current Search link; every other destination remains in the menu. Teal current-page underline; no filled boxes or redundant destination icons |
 | Application menu | One existing 20px grid icon in a 44px control, named صفحات التطبيق; include three direct report links (agenda, council and HH) on every loaded page, including search; retain other existing destinations and eligible actions |
-| Task actions | Monthly primary طباعة / حفظ PDF; other reports retain طباعة التقرير. Optional إعدادات الطباعة secondary action, grouped opposite navigation on desktop |
+| Task actions | تنزيل PDF is the primary report action throughout the app, using a 20px download glyph. Optional إعدادات PDF is the secondary settings action, grouped opposite navigation on desktop. Retain the button label and width during preparation, use a labelled 20px progress indicator, expose aria-busy and block duplicate export actions |
 | Core filters | Sector → unit → entity in physical RTL order where applicable; separate fields below navigation; 12px labels and 16px values |
 | Scope summary | 14px Ink below the filter fields; retain the active scope and update it when selections change |
 | Additional project filters | Type, priority, completion quarter, status and manager under المزيد من التصفية; collapse preserves selections |
@@ -228,7 +255,7 @@ Taupe control borders are chosen as a readable boundary on Paper. Stone #ABA394 
 | Menu dismissal | Outside click or Escape closes; keyboard dismissal returns focus to the trigger; outside click allows the clicked control to receive focus |
 | Menu keyboard behavior | Enter/Space open; Up/Down and Home/End navigate command items; use real links for destinations; retain modified-click/new-tab behavior |
 | Mobile filter sheet | Paper, 18px top corners and 16px padding; modal focus containment and inert background; close, تم and Escape preserve selections and restore focus |
-| Print settings dialog | Paper/Sand, 18px corners; 28px DIN title with no subtitle; 16px fields / 12px field labels; 44px close target; Escape and focus restoration. Monthly تنسيق التقرير offers PDF متصل — صفحة واحدة and A4 عمودي — للطباعة |
+| PDF settings dialog | إعدادات PDF; Paper/Sand, 18px corners; 28px DIN title with no subtitle; 16px fields / 12px field labels; 44px close target; Escape and focus restoration. Monthly تنسيق التقرير offers PDF متصل — صفحة واحدة and A4 عمودي — للطباعة |
 | Definitions disclosure | Keep exact definitions and caveats in the report body; 16px named trigger, 20px directional chevron, 44px target and 14px Ink body text |
 | Screen footer | Exact organisation/copyright legal line only; no source filename, calculation date, report title or extra note; no fixed footer covering content |
 | Search and upload | Preserve the Google-style search and upload interactions. Search-home title 36px, raised 4px from its v132 position; preserve logo, field and action positions on desktop/mobile. This approved positioning amendment supersedes the prior optical-centering position. Home navigation is menu-only. Remove title subtitles |
@@ -241,8 +268,8 @@ Primary navigation does not silently transfer or reset unrelated page filters.
 | Icon purpose | Existing glyph | Size / label |
 | --- | --- | --- |
 | Application destinations | Grid | 20px in 44px control; صفحات التطبيق |
-| Print report | Printer | 20px beside monthly طباعة / حفظ PDF or other-report طباعة التقرير |
-| Print settings | Chevron | 20px beside إعدادات الطباعة |
+| Download report PDF | Download | 20px beside تنزيل PDF; no Print action button in the app |
+| PDF settings | Chevron | 20px beside إعدادات PDF |
 | Filter/disclosure open or close | Chevron down/up | 20px; expose expanded state |
 | Close dialog/popup | X | 20px in 44px control; explicit accessible name |
 | Search | Search | 20px workspace icon; preserve the approved search-pill glyph |
@@ -291,15 +318,17 @@ navigation, never printer, grid, document or upload icons, or numeric/time axes.
 | Continued content | In A4 output, relevant section titles and repeated 13.5pt Dubai Bold table column headings remain; continuous content stays on its measured page |
 | Footer | Exact organisation/copyright legal line and renderer-generated صفحة X من Y only; Dubai Regular 10.5pt Ink. One footer for ordinary continuous monthly output; one per page for A4 output |
 | Footer reserve | Continuous monthly: 8mm top/side page margins, 16mm bottom including an additional 8mm footer reserve. A4 retains 10mm margins. Content and table rows never overlap the footer |
-| Continuous footer alignment | Top-aligned margin boxes with 1mm top padding; copyright glyph bounds at least 8mm above the physical bottom edge |
+| Continuous footer alignment | Direct PDF: fixed baseline with 11mm bottom inset inside the 16mm reserve. Optional native print: top-aligned margin boxes with 1mm top padding. Copyright glyph bounds remain at least 8mm above the physical bottom edge |
 | Entity filter | Control, label and selected value hidden; selected scope still filters the exported records and figures |
 | Report membership | Preserve all selected filters, source records and row order; hiding scope text does not reset selections |
 | Explanations | Preserve actual table notes, SLC source-date fields and source/history caveats in the report body; omit generic title subtitles |
 | Pagination | Continuous monthly: one measured-height page within the 5080mm limit; otherwise A4 portrait with a toast. A4: content-driven page count, fitting rows/cards kept together and readable continuation for unusually tall content |
 
 Page numbers and totals come from the export renderer, not fixed specimen counts.
-Browser-generated URL/date/title headers and footers are excluded from the final
-report so that the printed footer contains only the required copyright and pages.
+Direct PDF download writes only the approved header/footer and actual page
+counters, independently of browser print settings. For optional native browser
+printing, exclude its URL/date/title headers and footers so the report footer
+contains only the required copyright and pages.
 
 The legal line is **الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة**.
 Use the applicable copyright year without changing the organisation or legal wording.
@@ -333,12 +362,12 @@ The monthly digital format and physical paper modes are separate choices. The co
 
 **Continuous monthly geometry:** 297mm custom page width and 281mm content width. Keep an 8mm reading inset plus the additional bottom footer reserve; actual page margins are 8mm top/left/right and 16mm bottom. With both portfolios present, use two 136.5mm columns with an 8mm gap; a single remaining portfolio takes the full content width. Projects remain physically left and executive portfolios right. The followup table spans the full width below both. Height is measured from the complete export content after fonts and images are ready, adding 27mm for the 8mm top margin, 16mm bottom margin and 3mm rounding/clearance. Do not derive it from the browser viewport or a fixed specimen.
 
-**Full-page surface:** Linen #EFEBE7 fills the entire continuous page, including the print page's insets and the matching body/content surfaces. Remove the white outer frame while keeping the 8mm reading inset and the additional bottom footer reserve. Cards and the followup table remain Paper #FCFBFB with the approved Sand boundaries; all text, status, figure and font roles are unchanged. Preserve the page background when saving the digital PDF. This full-page surface is a continuous monthly rule; selectable A4 paper modes keep their existing presentation and 10mm margins.
+**Full-page surface:** Linen #EFEBE7 fills the entire continuous page, including the print page's insets and the matching body/content surfaces. Remove the white outer frame while keeping the 8mm reading inset and the additional bottom footer reserve. Cards and the followup table remain Paper #FCFBFB with the approved Sand boundaries; all text, status, figure and font roles are unchanged. The bundled PDF renderer must preserve this full-page background without requiring browser printer settings. This full-page surface is a continuous monthly rule; selectable A4 paper modes keep their existing presentation and 10mm margins.
 
 | Continuous monthly area | Approved digital spacing |
 | --- | --- |
 | Page margins / reading inset | 8mm top/left/right; 16mm bottom including an additional 8mm footer reserve |
-| Footer margin-box placement | Top-aligned with 1mm top padding; glyph clearance at least 8mm from the physical bottom |
+| Footer placement | Direct PDF baseline: 11mm bottom inset within the 16mm reserve. Optional native-print margin boxes: top-aligned with 1mm top padding. Glyph clearance at least 8mm from the physical bottom |
 | Added page-height allowance | 27mm: 8mm top + 16mm bottom + 3mm rounding/clearance |
 | Portfolio column gap | 8mm |
 | Portfolio heading padding | 6mm inline, aligned with card content; 3mm bottom |
@@ -353,7 +382,7 @@ The monthly digital format and physical paper modes are separate choices. The co
 | Followup status-summary row | 3mm above / 4mm below |
 | Table cell padding | 3.5mm vertical / 3.5mm horizontal |
 
-**Digital height fallback:** a measured page above 5080mm switches automatically to A4 portrait for the current print session and shows an explanatory toast. Retain the selected scope, every source row/note and all values; the saved continuous/A4 preference does not change. This limit does not authorize clipping, truncation or text shrink. Below the limit, the monthly output remains one continuous page with one masthead and footer.
+**Digital height fallback:** a measured page above 5080mm switches automatically to A4 portrait for the current export and shows an explanatory toast. Retain the selected scope, every source row/note and all values; the saved continuous/A4 preference does not change. This limit does not authorize clipping, truncation or text shrink. Below the limit, the monthly output remains one continuous page with one masthead and footer.
 
 **Physical paper:** A4 only; A3 settings/options remain removed. Use 10mm margins on every side. Landscape provides a nominal 277 × 190mm content area; portrait provides 190 × 277mm, subject to footer clearance. These paper dimensions also apply when a continuous monthly report needs the unusually long-report fallback.
 
@@ -361,7 +390,7 @@ The monthly digital format and physical paper modes are separate choices. The co
 
 Other portrait document types retain their separate single-column flow by default; reflow summary metrics into a compact grid that fits the paper width. In A4 modes, keep each fitting card/box and row together where possible, repeat table column headings and wrap Arabic naturally. If content is taller than a usable page, allow readable continuation. Add pages as needed; do not shrink the whole report, clip content or force a fixed A4 page count. In continuous monthly mode, extend page height instead. Preserve all source values, notes, table fields, units and selected filters in both formats.
 
-The format follows the document and the monthly format selector. A project report retains A4 portrait; only agenda, council and HH have the landscape paper exception. These rules govern the browser-print/PDF workflow; they do not redefine PowerPoint slides or workbook sheet templates.
+The format follows the document and the monthly format selector. A project report retains A4 portrait; only agenda, council and HH have the landscape paper exception. These rules govern direct PDF downloads and optional native browser printing; they do not redefine PowerPoint slides or workbook sheet templates.
 
 The entity report retains A4 portrait. The separate proposed entity-dashboard redesign remains a concept and is not imported into this release; its earlier concept package has no implemented PDF export.
 
@@ -415,9 +444,9 @@ Project count/money bars retain the table's shared zero-to-largest-row scale. Pr
 
 ## Approval and historical previews
 
-Revision 12 is the current approved standard for **Performance App v137**. It extends the continuous monthly digital page to 297mm, uses an 8mm Linen-filled reading inset with additional bottom footer reserve and gives cards, headings, bars and followups more room. It retains Revision 11's measured-height continuous output, explicit continuous/A4 format choice and height-limit fallback, plus Revision 10's paired composition, 16px dashboard labels, strategy-caption removal, isolated SLC captions and approved A4 paper orientations. Search, navigation, status palettes, source text/color roles, solid financial bars and earlier compliance corrections remain approved.
+Revision 13 is the current approved standard for **Performance App v138**. It replaces app Print actions with **تنزيل PDF** and **إعدادات PDF**, using the bundled offline engine while preserving native text, vector charts, fonts, colors and source scope. It retains Revision 12's 297mm continuous page, 8mm Linen-filled reading inset, bottom footer reserve and roomier spacing. Revision 11's measured-height output, continuous/A4 choice and height-limit fallback remain approved, as do Revision 10's paired composition, 16px dashboard labels, strategy-caption removal, isolated SLC captions and A4 paper orientations. Search, navigation, status palettes, source text/color roles, solid financial bars and earlier compliance corrections remain approved.
 
-**v137 browser, source and native PDF checks pass for tested workflows.** Its completed screen/mobile, full-page continuous PDF, selected A4, height-limit fallback and source-regression checks are recorded in **VERIFICATION-v137.md**. A prior release pass is not a v137 result. **Revision 11 / Performance App v136** and **VERIFICATION-v136.md** retain the previous continuous-format approval and evidence; **Revision 10 / Performance App v135** and **VERIFICATION-v135.md** remain historical references for paired A4 output. Earlier standards and verification files retain their own scope.
+Final tested v138 results and practical limits are recorded in **VERIFICATION-v138.md**. Historical **Revision 12 / Performance App v137** screen/mobile, settled continuous PDF, selected A4, height-limit fallback and source-regression checks remain in **VERIFICATION-v137.md**. Those settled-output checks missed the native first-preview timing defect and do not establish a v138 pass. **Revision 11 / Performance App v136** and **VERIFICATION-v136.md** retain the previous continuous-format approval and evidence; **Revision 10 / Performance App v135** and **VERIFICATION-v135.md** remain historical references for paired A4 output. Earlier standards and verification files retain their own scope.
 
 - [Typography colors and exact TEC palette — historical](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Color-Previews)
 - [Actual bundled font samples](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Font-Previews)
@@ -427,4 +456,4 @@ Revision 12 is the current approved standard for **Performance App v137**. It ex
 
 Earlier images may show 18px screen badges, title subtitles, oversized side-by-side labels, 28px subgroup names or hatched financial bars. They do not override this document. The subgroup names in the last compact preview are superseded by the latest **18px** approval. The rejected oversized-label concept is not the approved card arrangement.
 
-This is an app-specific approved standard, not an official TEC brand manual or accessibility certification. Source records, values, calculation definitions and filter behavior remain unchanged. Verification must cover the final v137 runtime bundles using the frozen illustrative workbook and actual Chromium screen/PDF output; Current results are recorded in VERIFICATION-v137.md. Native Windows file opening, physical printer output and native Office editing remain outside these browser/PDF checks. Prior extracted-package checks used local HTTP because managed Chromium blocks direct file navigation.
+This is an app-specific approved standard, not an official TEC brand manual or accessibility certification. Source records, values, calculation definitions and filter behavior remain unchanged. Verification must cover the final v138 runtime bundles using the frozen illustrative workbook, actual offline PDF downloads and the corrected optional native-print path. Final results belong in **VERIFICATION-v138.md**; until documented, historical checks are not a current-release pass. Native Windows file opening, physical printer output and native Office editing remain outside these browser/PDF checks. Prior extracted-package checks used local HTTP because managed Chromium blocks direct file navigation.

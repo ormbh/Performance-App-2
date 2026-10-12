@@ -1,0 +1,682 @@
+{
+  "scope": "Read-only QA of actual Download PDF control and offline engine; local HTTP fixture, no window.print or print-media emulation. Frozen illustrative source.",
+  "sourceSHA256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "engineSHA256": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528",
+  "cases": {
+    "cold-first": {
+      "pages": 1,
+      "pageMM": [
+        [
+          297.0,
+          622.0
+        ]
+      ],
+      "bytes": 206476,
+      "sha256": "b3109fb2cb94119241c0e656743569e2cf20bcd4d2f5a54d59e176e56a63f2f0",
+      "filename": "التقرير الشهري للأداء والتنفيذ.pdf",
+      "textChars": 2556,
+      "fonts": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular",
+        "TECPDFSymbolFallback-Reg"
+      ],
+      "outside": [],
+      "copyrightEveryPage": true,
+      "seconds": 1.83,
+      "trigger": {
+        "cold": {
+          "engineAbsent": true,
+          "cachePrepared": false
+        },
+        "clickDelayMs": 0.20000000018626451
+      },
+      "after": {
+        "screen": "dashboard",
+        "reportKind": "agenda",
+        "downloading": false,
+        "reporting": false,
+        "printCalls": 0,
+        "printAttr": null,
+        "printHeader": false,
+        "frames": 1,
+        "layout": "continuous",
+        "disabled": [
+          false
+        ],
+        "toast": "تم تنزيل PDF"
+      }
+    },
+    "rapid-click": {
+      "pages": 1,
+      "pageMM": [
+        [
+          297.0,
+          622.0
+        ]
+      ],
+      "bytes": 206476,
+      "sha256": "ae350114072904fe64434c6e749c21d0c7e59543abf8a0e37a76efc590c64ddf",
+      "filename": "التقرير الشهري للأداء والتنفيذ.pdf",
+      "textChars": 2556,
+      "fonts": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular",
+        "TECPDFSymbolFallback-Reg"
+      ],
+      "outside": [],
+      "copyrightEveryPage": true,
+      "busy": {
+        "downloading": true,
+        "reporting": true,
+        "disabled": true,
+        "ariaBusy": "true",
+        "spinner": true
+      },
+      "downloadCount": 1,
+      "after": {
+        "screen": "dashboard",
+        "reportKind": "agenda",
+        "downloading": false,
+        "reporting": false,
+        "printCalls": 0,
+        "printAttr": null,
+        "printHeader": false,
+        "frames": 1,
+        "layout": "continuous",
+        "disabled": [
+          false
+        ],
+        "toast": "تم تنزيل PDF"
+      },
+      "sourceUnchanged": true
+    },
+    "missing-engine": {
+      "blocked": [
+        "http://127.0.0.1:8898/Performance-App-v138/assets/js/lib/offline-pdf-engine.js?v=138"
+      ],
+      "downloadsBeforeRetry": 0,
+      "afterFailure": {
+        "screen": "dashboard",
+        "reportKind": "agenda",
+        "downloading": false,
+        "reporting": false,
+        "printCalls": 0,
+        "printAttr": null,
+        "printHeader": false,
+        "frames": 1,
+        "layout": "continuous",
+        "disabled": [
+          false
+        ],
+        "toast": "تعذر تحميل مكونات PDF المحلية. استخرج ملف التطبيق كاملاً ثم حاول مجدداً."
+      },
+      "sourceUnchanged": true,
+      "retry": {
+        "pages": 1,
+        "pageMM": [
+          [
+            297.0,
+            622.0
+          ]
+        ],
+        "bytes": 206476,
+        "sha256": "ace7695e5472d54488ed5315c0163aaa0654093bdd309ca7c6cfc52620d5ffbd",
+        "filename": "التقرير الشهري للأداء والتنفيذ.pdf",
+        "textChars": 2556,
+        "fonts": [
+          "DINNextArabic-Regular",
+          "DINNextLTArabic-Regular",
+          "Dubai-Bold",
+          "Dubai-Regular",
+          "TECPDFSymbolFallback-Reg"
+        ],
+        "outside": [],
+        "copyrightEveryPage": true
+      },
+      "afterRetry": {
+        "screen": "dashboard",
+        "reportKind": "agenda",
+        "downloading": false,
+        "reporting": false,
+        "printCalls": 0,
+        "printAttr": null,
+        "printHeader": false,
+        "frames": 1,
+        "layout": "continuous",
+        "disabled": [
+          false
+        ],
+        "toast": "تم تنزيل PDF"
+      }
+    },
+    "checks": {
+      "pages": 23,
+      "pageMM": [
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ]
+      ],
+      "bytes": 359953,
+      "sha256": "c365f2deafc70f1b429402e8cb54d1928a64f4805ada27dd1dc7276964e485c4",
+      "filename": "ملاحظات البيانات.pdf",
+      "textChars": 18834,
+      "fonts": [
+        "DINNextArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular"
+      ],
+      "outside": [],
+      "copyrightEveryPage": true,
+      "route": {
+        "screen": "checks",
+        "reportKind": "agenda",
+        "downloading": false,
+        "reporting": false,
+        "printCalls": 0,
+        "printAttr": null,
+        "printHeader": false,
+        "frames": 0,
+        "layout": "continuous",
+        "disabled": [
+          false
+        ],
+        "toast": "تم تنزيل PDF"
+      },
+      "after": {
+        "screen": "checks",
+        "reportKind": "agenda",
+        "downloading": false,
+        "reporting": false,
+        "printCalls": 0,
+        "printAttr": null,
+        "printHeader": false,
+        "frames": 0,
+        "layout": "continuous",
+        "disabled": [
+          false
+        ],
+        "toast": "تم تنزيل PDF"
+      },
+      "sourceUnchanged": true
+    },
+    "projects-report": {
+      "pages": 8,
+      "pageMM": [
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ]
+      ],
+      "bytes": 254712,
+      "sha256": "d5a3aceccd7be1f3a7f0e8e2d9cc790ae44e6314f47dfcd77711e319c9a2ff36",
+      "filename": "تقرير المشاريع.pdf",
+      "textChars": 4497,
+      "fonts": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular"
+      ],
+      "outside": [],
+      "copyrightEveryPage": true,
+      "route": {
+        "screen": "reports",
+        "reportKind": "projects",
+        "downloading": false,
+        "reporting": false,
+        "printCalls": 0,
+        "printAttr": null,
+        "printHeader": false,
+        "frames": 0,
+        "layout": "continuous",
+        "disabled": [
+          false
+        ],
+        "toast": "تم تنزيل PDF"
+      },
+      "after": {
+        "screen": "reports",
+        "reportKind": "projects",
+        "downloading": false,
+        "reporting": false,
+        "printCalls": 0,
+        "printAttr": null,
+        "printHeader": false,
+        "frames": 0,
+        "layout": "continuous",
+        "disabled": [
+          false
+        ],
+        "toast": "تم تنزيل PDF"
+      },
+      "sourceUnchanged": true
+    }
+  },
+  "checks": [
+    {
+      "check": "print spy initialized without calling it",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "cold-first actual PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "cold-first selectable text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "cold-first no out-of-page text",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "cold-first copyright footer on every page",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "cold-first local engine initially unloaded",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "cold-first print layout was not prewarmed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "cold-first clicked immediately after parse",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "cold-first one continuous page",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "cold-first never opens print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "cold-first cleans print attributes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "cold-first exactly one download",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "print spy initialized without calling it",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "rapid-click actual PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "rapid-click selectable text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "rapid-click no out-of-page text",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "rapid-click copyright footer on every page",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "rapid clicks produce one PDF",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "rapid-click exposes loading/disabled state",
+      "pass": true,
+      "detail": {
+        "downloading": true,
+        "reporting": true,
+        "disabled": true,
+        "ariaBusy": "true",
+        "spinner": true
+      }
+    },
+    {
+      "check": "rapid-click aria-busy true",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "rapid-click source/date/scope/counts unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "rapid-click control re-enabled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "print spy initialized without calling it",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "missing-engine rejects one local engine request",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "missing-engine creates no broken PDF",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "missing-engine actionable error message",
+      "pass": true,
+      "detail": "تعذر تحميل مكونات PDF المحلية. استخرج ملف التطبيق كاملاً ثم حاول مجدداً."
+    },
+    {
+      "check": "missing-engine cleanup and guards reset",
+      "pass": true,
+      "detail": {
+        "screen": "dashboard",
+        "reportKind": "agenda",
+        "downloading": false,
+        "reporting": false,
+        "printCalls": 0,
+        "printAttr": null,
+        "printHeader": false,
+        "frames": 1,
+        "layout": "continuous",
+        "disabled": [
+          false
+        ],
+        "toast": "تعذر تحميل مكونات PDF المحلية. استخرج ملف التطبيق كاملاً ثم حاول مجدداً."
+      }
+    },
+    {
+      "check": "missing-engine download control re-enabled",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "missing-engine source/date/scope/counts unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "retry-after-missing-engine actual PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "retry-after-missing-engine selectable text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "retry-after-missing-engine no out-of-page text",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "retry-after-missing-engine copyright footer on every page",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "restored engine retry downloads one valid PDF",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "restored engine retry cleans print state",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "checks actual PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "checks selectable text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "checks no out-of-page text",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "checks copyright footer on every page",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "checks source/date/scope/counts unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "checks never opens print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "checks print state cleaned",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "checks portrait A4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects-report actual PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects-report selectable text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects-report no out-of-page text",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "projects-report copyright footer on every page",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects-report source/date/scope/counts unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects-report never opens print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects-report print state cleaned",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects-report portrait A4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no uncaught application JS errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "only local requests",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "candidate stayed byte-identical throughout fresh final run",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "candidateHashesBefore": {
+    "assets/js/app-bundle.js": "5a34e9cfbd62ad909effddfa841d0633db594cc46956b076d68ef76caff2591c",
+    "assets/css/app-bundle.css": "2eeb64c7f2f8db5f42facec0573d027eb9a3529ade05bf84858132d9e76ecdea",
+    "assets/css/print-measure-bundle.css": "1305fa85010c66e8d39da391c07205cb78f1ee6ad1b11e9b543aed3a8a6b57b6",
+    "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528"
+  },
+  "candidateHashesAfter": {
+    "assets/js/app-bundle.js": "5a34e9cfbd62ad909effddfa841d0633db594cc46956b076d68ef76caff2591c",
+    "assets/css/app-bundle.css": "2eeb64c7f2f8db5f42facec0573d027eb9a3529ade05bf84858132d9e76ecdea",
+    "assets/css/print-measure-bundle.css": "1305fa85010c66e8d39da391c07205cb78f1ee6ad1b11e9b543aed3a8a6b57b6",
+    "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528"
+  }
+}

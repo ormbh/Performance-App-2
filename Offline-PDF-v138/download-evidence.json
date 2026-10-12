@@ -1,0 +1,2707 @@
+{
+  "scope": "Actual Download PDF button, local bundled PDF engine and browser-computed export layout. No print dialog, print emulation, screenshot PDF or external data service. Frozen illustrative source.",
+  "checks": [
+    {
+      "check": "monthly-continuous direct PDF action available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous print action removed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous never invokes window.print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous downloads actual native PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous PDF filename",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous source/counts/scope retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous export cleanup restores screen",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous exactly one continuous page",
+      "pass": true,
+      "detail": [
+        [
+          297.0,
+          622.0
+        ]
+      ]
+    },
+    {
+      "check": "monthly-continuous measured297mm paper width",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous p1 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous footer clear8mm",
+      "pass": true,
+      "detail": 8.929386054144963
+    },
+    {
+      "check": "monthly-continuous no out-of-page text",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "monthly-continuous no empty export sheets",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "monthly-continuous selectable Unicode text",
+      "pass": true,
+      "detail": 2556
+    },
+    {
+      "check": "monthly-continuous approved fonts embedded",
+      "pass": true,
+      "detail": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular",
+        "TECPDFSymbolFallback-Reg"
+      ]
+    },
+    {
+      "check": "monthly-continuous one first-page title/date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous fullLinen canvas",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous only official logo rasterized, native text/charts",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "monthly-filtered direct PDF action available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-filtered print action removed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-filtered never invokes window.print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-filtered downloads actual native PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-filtered PDF filename",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-filtered source/counts/scope retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-filtered export cleanup restores screen",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-filtered exactly one continuous page",
+      "pass": true,
+      "detail": [
+        [
+          297.0,
+          453.0
+        ]
+      ]
+    },
+    {
+      "check": "monthly-filtered measured297mm paper width",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-filtered p1 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-filtered footer clear8mm",
+      "pass": true,
+      "detail": 8.929386054144963
+    },
+    {
+      "check": "monthly-filtered no out-of-page text",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "monthly-filtered no empty export sheets",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "monthly-filtered selectable Unicode text",
+      "pass": true,
+      "detail": 1639
+    },
+    {
+      "check": "monthly-filtered approved fonts embedded",
+      "pass": true,
+      "detail": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular",
+        "TECPDFSymbolFallback-Reg"
+      ]
+    },
+    {
+      "check": "monthly-filtered one first-page title/date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-filtered fullLinen canvas",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-filtered only official logo rasterized, native text/charts",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "monthly-a4 direct PDF action available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 print action removed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 never invokes window.print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 downloads actual native PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 PDF filename",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 source/counts/scope retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 export cleanup restores screen",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 approved A4 orientation",
+      "pass": true,
+      "detail": [
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ]
+      ]
+    },
+    {
+      "check": "monthly-a4 p1 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 p2 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 p3 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 no out-of-page text",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "monthly-a4 no empty export sheets",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "monthly-a4 selectable Unicode text",
+      "pass": true,
+      "detail": 2817
+    },
+    {
+      "check": "monthly-a4 approved fonts embedded",
+      "pass": true,
+      "detail": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular",
+        "TECPDFSymbolFallback-Reg"
+      ]
+    },
+    {
+      "check": "monthly-a4 one first-page title/date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda direct PDF action available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda print action removed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda never invokes window.print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda downloads actual native PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda PDF filename",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda source/counts/scope retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda export cleanup restores screen",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda approved A4 orientation",
+      "pass": true,
+      "detail": [
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ]
+      ]
+    },
+    {
+      "check": "reports-agenda p1 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda p2 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda p3 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda p4 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda p5 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda p6 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda p7 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda p8 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda p9 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda p10 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda p11 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda p12 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda p13 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda p14 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda p15 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda p16 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-agenda no out-of-page text",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "reports-agenda no empty export sheets",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "reports-agenda selectable Unicode text",
+      "pass": true,
+      "detail": 10952
+    },
+    {
+      "check": "reports-agenda approved fonts embedded",
+      "pass": true,
+      "detail": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular"
+      ]
+    },
+    {
+      "check": "reports-agenda one first-page title/date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council direct PDF action available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council print action removed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council never invokes window.print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council downloads actual native PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council PDF filename",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council source/counts/scope retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council export cleanup restores screen",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council approved A4 orientation",
+      "pass": true,
+      "detail": [
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ]
+      ]
+    },
+    {
+      "check": "reports-council p1 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p2 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p3 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p4 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p5 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p6 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p7 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p8 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p9 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p10 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p11 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p12 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p13 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p14 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p15 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p16 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p17 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p18 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p19 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p20 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p21 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p22 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p23 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p24 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p25 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p26 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p27 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p28 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p29 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council p30 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-council no out-of-page text",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "reports-council no empty export sheets",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "reports-council selectable Unicode text",
+      "pass": true,
+      "detail": 19407
+    },
+    {
+      "check": "reports-council approved fonts embedded",
+      "pass": true,
+      "detail": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular"
+      ]
+    },
+    {
+      "check": "reports-council one first-page title/date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh direct PDF action available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh print action removed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh never invokes window.print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh downloads actual native PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh PDF filename",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh source/counts/scope retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh export cleanup restores screen",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh approved A4 orientation",
+      "pass": true,
+      "detail": [
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ]
+      ]
+    },
+    {
+      "check": "reports-hh p1 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p2 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p3 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p4 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p5 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p6 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p7 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p8 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p9 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p10 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p11 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p12 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p13 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p14 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p15 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p16 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p17 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p18 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p19 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p20 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p21 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p22 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p23 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p24 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p25 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p26 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p27 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p28 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p29 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p30 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p31 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p32 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p33 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p34 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p35 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p36 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p37 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p38 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p39 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p40 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p41 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p42 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p43 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p44 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p45 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p46 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p47 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p48 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p49 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p50 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p51 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p52 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p53 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p54 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p55 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p56 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p57 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p58 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p59 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p60 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p61 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p62 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p63 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p64 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p65 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p66 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p67 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p68 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p69 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p70 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh p71 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reports-hh no out-of-page text",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "reports-hh no empty export sheets",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "reports-hh selectable Unicode text",
+      "pass": true,
+      "detail": 32747
+    },
+    {
+      "check": "reports-hh approved fonts embedded",
+      "pass": true,
+      "detail": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular",
+        "TECPDFSymbolFallback-Reg"
+      ]
+    },
+    {
+      "check": "reports-hh one first-page title/date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects direct PDF action available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects print action removed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects never invokes window.print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects downloads actual native PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects PDF filename",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects source/counts/scope retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects export cleanup restores screen",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects approved A4 orientation",
+      "pass": true,
+      "detail": [
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ]
+      ]
+    },
+    {
+      "check": "projects p1 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects p2 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects p3 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects p4 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects p5 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects p6 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "projects no out-of-page text",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "projects no empty export sheets",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "projects selectable Unicode text",
+      "pass": true,
+      "detail": 4308
+    },
+    {
+      "check": "projects approved fonts embedded",
+      "pass": true,
+      "detail": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular"
+      ]
+    },
+    {
+      "check": "projects one first-page title/date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities direct PDF action available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities print action removed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities never invokes window.print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities downloads actual native PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities PDF filename",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities source/counts/scope retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities export cleanup restores screen",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities approved A4 orientation",
+      "pass": true,
+      "detail": [
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ]
+      ]
+    },
+    {
+      "check": "entities p1 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p2 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p3 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p4 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p5 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p6 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p7 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p8 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p9 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p10 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p11 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p12 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p13 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p14 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p15 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p16 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p17 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p18 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p19 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p20 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p21 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p22 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p23 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p24 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p25 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p26 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p27 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p28 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p29 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p30 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p31 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p32 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p33 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities p34 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entities no out-of-page text",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "entities no empty export sheets",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "entities selectable Unicode text",
+      "pass": true,
+      "detail": 39865
+    },
+    {
+      "check": "entities approved fonts embedded",
+      "pass": true,
+      "detail": [
+        "DINNextArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular"
+      ]
+    },
+    {
+      "check": "entities one first-page title/date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "comparison direct PDF action available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "comparison print action removed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "comparison never invokes window.print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "comparison downloads actual native PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "comparison PDF filename",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "comparison source/counts/scope retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "comparison export cleanup restores screen",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "comparison approved A4 orientation",
+      "pass": true,
+      "detail": [
+        [
+          210.0,
+          297.0
+        ]
+      ]
+    },
+    {
+      "check": "comparison p1 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "comparison no out-of-page text",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "comparison no empty export sheets",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "comparison selectable Unicode text",
+      "pass": true,
+      "detail": 324
+    },
+    {
+      "check": "comparison approved fonts embedded",
+      "pass": true,
+      "detail": [
+        "DINNextArabic-Regular",
+        "Dubai-Regular"
+      ]
+    },
+    {
+      "check": "comparison one first-page title/date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "results direct PDF action available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "results print action removed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "results never invokes window.print",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "results downloads actual native PDF bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "results PDF filename",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "results source/counts/scope retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "results export cleanup restores screen",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "results approved A4 orientation",
+      "pass": true,
+      "detail": [
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ]
+      ]
+    },
+    {
+      "check": "results p1 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "results p2 copyright",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "results no out-of-page text",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "results no empty export sheets",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "results selectable Unicode text",
+      "pass": true,
+      "detail": 1662
+    },
+    {
+      "check": "results approved fonts embedded",
+      "pass": true,
+      "detail": [
+        "DINNextArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular"
+      ]
+    },
+    {
+      "check": "results one first-page title/date",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390px mobile app retains usable layout",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390px download button visible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all PDF/runtime requests local, no external service/CDN",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "no browser runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "cases": {
+    "monthly-continuous": {
+      "pages": 1,
+      "pageMM": [
+        [
+          297.0,
+          622.0
+        ]
+      ],
+      "bytes": 206476,
+      "sha256": "dd3590fb835f0fd2ac6fbbbb410e82c1555c606005bbffc58aba38988dfa757e",
+      "fonts": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular",
+        "TECPDFSymbolFallback-Reg"
+      ],
+      "nativeChars": 2556,
+      "images": 1,
+      "footerInsetsMM": [
+        8.929386054144963
+      ],
+      "filename": "التقرير الشهري للأداء والتنفيذ.pdf"
+    },
+    "monthly-filtered": {
+      "pages": 1,
+      "pageMM": [
+        [
+          297.0,
+          453.0
+        ]
+      ],
+      "bytes": 201377,
+      "sha256": "cbec5d7127bf0f3ae357b55ba3785207260182d0b14b6ce817e10607cbe0069c",
+      "fonts": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular",
+        "TECPDFSymbolFallback-Reg"
+      ],
+      "nativeChars": 1639,
+      "images": 1,
+      "footerInsetsMM": [
+        8.929386054144963
+      ],
+      "filename": "التقرير الشهري للأداء والتنفيذ.pdf"
+    },
+    "monthly-a4": {
+      "pages": 3,
+      "pageMM": [
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ]
+      ],
+      "bytes": 212420,
+      "sha256": "51a44e3763c3f63844aa8a685bed4055a5716364c5eaca11b4d2a51a07f0a8ed",
+      "fonts": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular",
+        "TECPDFSymbolFallback-Reg"
+      ],
+      "nativeChars": 2817,
+      "images": 1,
+      "footerInsetsMM": [
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776
+      ],
+      "filename": "التقرير الشهري للأداء والتنفيذ.pdf"
+    },
+    "reports-agenda": {
+      "pages": 16,
+      "pageMM": [
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ]
+      ],
+      "bytes": 264635,
+      "sha256": "c7099c1998bc5324e518739d6f4ac6cebdf2d883d097da87549b8f525925801e",
+      "fonts": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular"
+      ],
+      "nativeChars": 10952,
+      "images": 1,
+      "footerInsetsMM": [
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776
+      ],
+      "filename": "مستجدات الأجندة السنوية.pdf"
+    },
+    "reports-council": {
+      "pages": 30,
+      "pageMM": [
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ]
+      ],
+      "bytes": 325296,
+      "sha256": "df35baa86aed4fca4c9dfd6fef5f1da1138a1aadb367e822519862b7fb59c158",
+      "fonts": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular"
+      ],
+      "nativeChars": 19407,
+      "images": 1,
+      "footerInsetsMM": [
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776
+      ],
+      "filename": "مستجدات قرارات المجالس 2026.pdf"
+    },
+    "reports-hh": {
+      "pages": 71,
+      "pageMM": [
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ],
+        [
+          297.0,
+          210.0
+        ]
+      ],
+      "bytes": 759290,
+      "sha256": "bcd9826b8104f9ec53df06e046e1df42b15bea1ee81f9b830f8f3d536e2bc192",
+      "fonts": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular",
+        "TECPDFSymbolFallback-Reg"
+      ],
+      "nativeChars": 32747,
+      "images": 1,
+      "footerInsetsMM": [
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776
+      ],
+      "filename": "تقرير المشاريع الخاصة.pdf"
+    },
+    "projects": {
+      "pages": 6,
+      "pageMM": [
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ]
+      ],
+      "bytes": 245256,
+      "sha256": "2d9efc41deeb7684a751d8cafbd8bb080be6402a3fb0b84ed7e179566fa2a087",
+      "fonts": [
+        "DINNextArabic-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular"
+      ],
+      "nativeChars": 4308,
+      "images": 1,
+      "footerInsetsMM": [
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776
+      ],
+      "filename": "مستجدات محفظة المشاريع.pdf"
+    },
+    "entities": {
+      "pages": 34,
+      "pageMM": [
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ]
+      ],
+      "bytes": 381510,
+      "sha256": "96bc15055093da9a022036133532d00329d6baec80dbb6b4cd4932e1f0f2f42b",
+      "fonts": [
+        "DINNextArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular"
+      ],
+      "nativeChars": 39865,
+      "images": 1,
+      "footerInsetsMM": [
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776,
+        2.9293646918402776
+      ],
+      "filename": "تقرير الجهات.pdf"
+    },
+    "comparison": {
+      "pages": 1,
+      "pageMM": [
+        [
+          210.0,
+          297.0
+        ]
+      ],
+      "bytes": 177804,
+      "sha256": "4fbd51347c078df14d85d6492f8a60cf0856c9ed91e263e81442247d13c05e52",
+      "fonts": [
+        "DINNextArabic-Regular",
+        "Dubai-Regular"
+      ],
+      "nativeChars": 324,
+      "images": 1,
+      "footerInsetsMM": [
+        2.9293646918402776
+      ],
+      "filename": "المقارنة الشهرية.pdf"
+    },
+    "results": {
+      "pages": 2,
+      "pageMM": [
+        [
+          210.0,
+          297.0
+        ],
+        [
+          210.0,
+          297.0
+        ]
+      ],
+      "bytes": 191721,
+      "sha256": "4a601411a971ad6942d5a344bd001f89ff32ffdc508e491046bf030d12bc26b5",
+      "fonts": [
+        "DINNextArabic-Regular",
+        "Dubai-Bold",
+        "Dubai-Regular"
+      ],
+      "nativeChars": 1662,
+      "images": 1,
+      "footerInsetsMM": [
+        2.9293646918402776,
+        2.9293646918402776
+      ],
+      "filename": "نتائج البحث.pdf"
+    }
+  },
+  "bundleSha256": {
+    "assets/js/app-bundle.js": "5a34e9cfbd62ad909effddfa841d0633db594cc46956b076d68ef76caff2591c",
+    "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528",
+    "assets/css/print-measure-bundle.css": "1305fa85010c66e8d39da391c07205cb78f1ee6ad1b11e9b543aed3a8a6b57b6"
+  },
+  "result": "PASS"
+}

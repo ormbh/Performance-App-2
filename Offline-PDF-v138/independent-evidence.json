@@ -1,0 +1,196 @@
+{
+  "status": "PASS",
+  "scope": "Independent final visual/native QA of actual offline Download PDF output; frozen illustrative v137 fixture, no user operational data claim.",
+  "generationHashes": {
+    "assets/js/app-bundle.js": "5a34e9cfbd62ad909effddfa841d0633db594cc46956b076d68ef76caff2591c",
+    "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528",
+    "assets/css/print-measure-bundle.css": "1305fa85010c66e8d39da391c07205cb78f1ee6ad1b11e9b543aed3a8a6b57b6"
+  },
+  "caseCount": 10,
+  "pageCount": 165,
+  "files": [
+    {
+      "name": "comparison",
+      "source": "/workspace/saytara-work/qa-v138/offline-pdf/comparison.pdf",
+      "reviewCopy": "/workspace/saytara-work/qa-v138/visual-review/final-native-v3/comparison.pdf",
+      "sha256": "4fbd51347c078df14d85d6492f8a60cf0856c9ed91e263e81442247d13c05e52",
+      "pages": 1,
+      "stableBeforeAfterCopy": true
+    },
+    {
+      "name": "entities",
+      "source": "/workspace/saytara-work/qa-v138/offline-pdf/entities.pdf",
+      "reviewCopy": "/workspace/saytara-work/qa-v138/visual-review/final-native-v3/entities.pdf",
+      "sha256": "96bc15055093da9a022036133532d00329d6baec80dbb6b4cd4932e1f0f2f42b",
+      "pages": 34,
+      "stableBeforeAfterCopy": true
+    },
+    {
+      "name": "monthly-a4",
+      "source": "/workspace/saytara-work/qa-v138/offline-pdf/monthly-a4.pdf",
+      "reviewCopy": "/workspace/saytara-work/qa-v138/visual-review/final-native-v3/monthly-a4.pdf",
+      "sha256": "51a44e3763c3f63844aa8a685bed4055a5716364c5eaca11b4d2a51a07f0a8ed",
+      "pages": 3,
+      "stableBeforeAfterCopy": true
+    },
+    {
+      "name": "monthly-continuous",
+      "source": "/workspace/saytara-work/qa-v138/offline-pdf/monthly-continuous.pdf",
+      "reviewCopy": "/workspace/saytara-work/qa-v138/visual-review/final-native-v3/monthly-continuous.pdf",
+      "sha256": "dd3590fb835f0fd2ac6fbbbb410e82c1555c606005bbffc58aba38988dfa757e",
+      "pages": 1,
+      "stableBeforeAfterCopy": true
+    },
+    {
+      "name": "monthly-filtered",
+      "source": "/workspace/saytara-work/qa-v138/offline-pdf/monthly-filtered.pdf",
+      "reviewCopy": "/workspace/saytara-work/qa-v138/visual-review/final-native-v3/monthly-filtered.pdf",
+      "sha256": "cbec5d7127bf0f3ae357b55ba3785207260182d0b14b6ce817e10607cbe0069c",
+      "pages": 1,
+      "stableBeforeAfterCopy": true
+    },
+    {
+      "name": "projects",
+      "source": "/workspace/saytara-work/qa-v138/offline-pdf/projects.pdf",
+      "reviewCopy": "/workspace/saytara-work/qa-v138/visual-review/final-native-v3/projects.pdf",
+      "sha256": "2d9efc41deeb7684a751d8cafbd8bb080be6402a3fb0b84ed7e179566fa2a087",
+      "pages": 6,
+      "stableBeforeAfterCopy": true
+    },
+    {
+      "name": "reports-agenda",
+      "source": "/workspace/saytara-work/qa-v138/offline-pdf/reports-agenda.pdf",
+      "reviewCopy": "/workspace/saytara-work/qa-v138/visual-review/final-native-v3/reports-agenda.pdf",
+      "sha256": "c7099c1998bc5324e518739d6f4ac6cebdf2d883d097da87549b8f525925801e",
+      "pages": 16,
+      "stableBeforeAfterCopy": true
+    },
+    {
+      "name": "reports-council",
+      "source": "/workspace/saytara-work/qa-v138/offline-pdf/reports-council.pdf",
+      "reviewCopy": "/workspace/saytara-work/qa-v138/visual-review/final-native-v3/reports-council.pdf",
+      "sha256": "df35baa86aed4fca4c9dfd6fef5f1da1138a1aadb367e822519862b7fb59c158",
+      "pages": 30,
+      "stableBeforeAfterCopy": true
+    },
+    {
+      "name": "reports-hh",
+      "source": "/workspace/saytara-work/qa-v138/offline-pdf/reports-hh.pdf",
+      "reviewCopy": "/workspace/saytara-work/qa-v138/visual-review/final-native-v3/reports-hh.pdf",
+      "sha256": "bcd9826b8104f9ec53df06e046e1df42b15bea1ee81f9b830f8f3d536e2bc192",
+      "pages": 71,
+      "stableBeforeAfterCopy": true
+    },
+    {
+      "name": "results",
+      "source": "/workspace/saytara-work/qa-v138/offline-pdf/results.pdf",
+      "reviewCopy": "/workspace/saytara-work/qa-v138/visual-review/final-native-v3/results.pdf",
+      "sha256": "4a601411a971ad6942d5a344bd001f89ff32ffdc508e491046bf030d12bc26b5",
+      "pages": 2,
+      "stableBeforeAfterCopy": true
+    }
+  ],
+  "nativeStructuralIssues": [],
+  "nativeEquivalenceToReviewedV2": {
+    "comparison": false,
+    "entities": true,
+    "monthly-a4": true,
+    "monthly-continuous": true,
+    "monthly-filtered": true,
+    "projects": true,
+    "reports-agenda": true,
+    "reports-council": true,
+    "reports-hh": true,
+    "results": true
+  },
+  "visualCoverage": {
+    "monthlyContinuousFilteredAndA4": 5,
+    "agenda": 16,
+    "council": 30,
+    "HH": 71,
+    "entitiesProjectsComparisonResults": 43
+  },
+  "sourceChecks": {
+    "monthlyNumericDateIDTokenMultisetEqualsCanonicalV137": true,
+    "monthlyMetricEntries": 37,
+    "followupSourceKeys": 8,
+    "agendaNamedRecordIDsOnce": 117,
+    "councilNamedRecordIDsOnce": 164,
+    "HHMainTableNamesOnce": 62,
+    "HHDetailTitles": 62,
+    "entitySourceNames": 343,
+    "preparedDocumentSourceRecords": 672,
+    "finalSourceVerification": "pass",
+    "fixtureSHA256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+  },
+  "nativeTypography": {
+    "tableBodyAndStatusPt": 12,
+    "tableColumnHeadPt": 13.5,
+    "firstMastheadTitlePt": 24,
+    "footerPt": 10.5,
+    "originalDINAndDubaiFontsEmbeddedWithToUnicode": true,
+    "bodyChartsTablesNativeVectorOrText": true,
+    "onlyRaster": "Official first-page TEC logo"
+  },
+  "continuousGeometry": {
+    "fullMM": [
+      297,
+      622
+    ],
+    "filteredMM": [
+      297,
+      453
+    ],
+    "approvedLinenRGB": [
+      239,
+      235,
+      231
+    ],
+    "fullPerimeterBadPixels": 0,
+    "fullPerimeterPixelsChecked": 7958,
+    "footerBoundingBoxMinimumInsetMM": 8.929364691840277,
+    "pairedPortfolios": "Projects LEFT, executive RIGHT",
+    "allEightFullFollowupRowsAndNotesRetained": true,
+    "SLCCaptionsAlignedAndRetained": true,
+    "removedThreeStrategyNotesAbsent": true
+  },
+  "pagination": {
+    "fittingMonthlyCardsWhole": true,
+    "requesterNoteInsideFirstPageSpecialCard": true,
+    "followupTableAfterPairedColumns": true,
+    "tableHeadAndFirstRowKept": true,
+    "continuationTableHeadsRepeat": true,
+    "outerHeadingKeepEntityAndCouncilResolved": true,
+    "firstOnlyReportMasthead": true,
+    "footerOnlyCopyrightAndPageCounter": true,
+    "closedComparisonDetailsExcluded": true,
+    "noBlankFooterOnlyPages": true
+  },
+  "resolvedRejectedPrototypeFindings": [
+    "Unjoined/reversed DIN Arabic and masthead/date overlap",
+    "ActualText extraction crash and Arabic logical Unicode cluster mapping",
+    "Monthly A4 requester-note fragment and premature common-column cut",
+    "Empty/orphan table heads and missing continuation heads",
+    "62 HH table names omitted through display:contents collector filtering",
+    "Entities/Council outer section/year heading orphans",
+    "Closed comparison details included and blank second page"
+  ],
+  "remainingMaterialFindings": [],
+  "remainingNewLayoutFindings": [],
+  "evidence": [
+    "final-native-v3/manifest.json",
+    "FINAL-V3-NATIVE-VERIFICATION.json",
+    "FINAL-V2-NATIVE-PAGE-COMPARISON.json",
+    "FINAL-MONTHLY-NUMERIC-COMPARISON.json",
+    "FINAL-REPORT-NAME-ID-COMPARISON.json",
+    "FINAL-MONTHLY-PERIMETER.json",
+    "hh-helper/HH-DIRECT-PDF-REVIEW.md",
+    "other-routes-helper/FINAL-v3-REVIEW.md",
+    "../data-regression/DATA-VERIFICATION.json"
+  ],
+  "limits": [
+    "Coverage is the ten listed route/scope/format cases and illustrative fixture; arbitrary operational workbooks are not certified.",
+    "Ordinary A4 footer placement remains the approved existing layout, about2.93mm inset; the continuous PDF footer specifically passes the8mm minimum.",
+    "No formal PDF accessibility certification or physical hardware-printer test is claimed."
+  ]
+}

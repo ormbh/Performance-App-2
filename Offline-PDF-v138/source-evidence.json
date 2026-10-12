@@ -1,0 +1,269 @@
+{
+  "overall": "pass",
+  "scope": "Monthly prepared-document readiness and direct PDF-action integration v137→v138. Actual continuous-default and user-selected A4 beforeprint hooks; read-only illustrative source.",
+  "illustrativeFixture": "ILLUSTRATIVE-monthly-preview.xlsx",
+  "fixtureSHA256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "protectedAssetsIdentical": 44,
+  "modelModulesIdentical": 15,
+  "reportsAndPowerPointAssetFilesIdentical": 11,
+  "additionalUnmodifiedJavaScriptSourceCount": 41,
+  "permittedJavaScriptSourceChanges": [
+    "assets/js/app.js",
+    "assets/js/views/print-pagination.js",
+    "assets/js/views/common.js",
+    "assets/js/views/monthly-tools.js",
+    "assets/js/views/projects.js",
+    "assets/js/views/project-print.js",
+    "assets/js/views/results.js",
+    "assets/js/views/entities.js",
+    "assets/js/views/comparison.js",
+    "assets/js/views/checks.js"
+  ],
+  "unmodifiedCSSSourceCount": 65,
+  "sourceRowsIdentical": 672,
+  "formatChecks": {
+    "candidate-continuous": {
+      "all": {
+        "sourceComparisons": {
+          "items": true,
+          "scope": true,
+          "sourceDate": true,
+          "n": true,
+          "kpi": true,
+          "budget": true,
+          "cur": true,
+          "prev": true,
+          "changes": true,
+          "follow": true,
+          "progress": true
+        },
+        "screenAndActualPrintComparisons": {
+          "screenMetricFigures": true,
+          "screenFollowKeys": true,
+          "screenDeltas": true,
+          "screenBars": true,
+          "printMetricFigures": true,
+          "printKpiRatio": true,
+          "printFollowKeys": true,
+          "printDeltas": true,
+          "printBars": true,
+          "printBarPaint": true,
+          "SLCcaptions": true,
+          "strategyNotesAbsent": true
+        },
+        "printMetricEntries": 37,
+        "followupKeys": [
+          "legislation-76",
+          "legislation-180",
+          "secretariat-7",
+          "secretariat-77",
+          "secretariat-83",
+          "secretariat-50",
+          "secretariat-38",
+          "secretariat-39"
+        ],
+        "defaultFormat": "continuous",
+        "actualOutputFormat": "continuous"
+      },
+      "scoped": {
+        "sourceComparisons": {
+          "items": true,
+          "scope": true,
+          "sourceDate": true,
+          "n": true,
+          "kpi": true,
+          "budget": true,
+          "cur": true,
+          "prev": true,
+          "changes": true,
+          "follow": true,
+          "progress": true
+        },
+        "screenAndActualPrintComparisons": {
+          "screenMetricFigures": true,
+          "screenFollowKeys": true,
+          "screenDeltas": true,
+          "screenBars": true,
+          "printMetricFigures": true,
+          "printKpiRatio": true,
+          "printFollowKeys": true,
+          "printDeltas": true,
+          "printBars": true,
+          "printBarPaint": true,
+          "SLCcaptions": true,
+          "strategyNotesAbsent": true
+        },
+        "printMetricEntries": 22,
+        "followupKeys": [
+          "secretariat-7"
+        ],
+        "defaultFormat": "continuous",
+        "actualOutputFormat": "continuous"
+      }
+    },
+    "candidate-a4": {
+      "all": {
+        "sourceComparisons": {
+          "items": true,
+          "scope": true,
+          "sourceDate": true,
+          "n": true,
+          "kpi": true,
+          "budget": true,
+          "cur": true,
+          "prev": true,
+          "changes": true,
+          "follow": true,
+          "progress": true
+        },
+        "screenAndActualPrintComparisons": {
+          "screenMetricFigures": true,
+          "screenFollowKeys": true,
+          "screenDeltas": true,
+          "screenBars": true,
+          "printMetricFigures": true,
+          "printKpiRatio": true,
+          "printFollowKeys": true,
+          "printDeltas": true,
+          "printBars": true,
+          "printBarPaint": true,
+          "SLCcaptions": true,
+          "strategyNotesAbsent": true
+        },
+        "printMetricEntries": 37,
+        "followupKeys": [
+          "legislation-76",
+          "legislation-180",
+          "secretariat-7",
+          "secretariat-77",
+          "secretariat-83",
+          "secretariat-50",
+          "secretariat-38",
+          "secretariat-39"
+        ],
+        "defaultFormat": "continuous",
+        "actualOutputFormat": "a4"
+      },
+      "scoped": {
+        "sourceComparisons": {
+          "items": true,
+          "scope": true,
+          "sourceDate": true,
+          "n": true,
+          "kpi": true,
+          "budget": true,
+          "cur": true,
+          "prev": true,
+          "changes": true,
+          "follow": true,
+          "progress": true
+        },
+        "screenAndActualPrintComparisons": {
+          "screenMetricFigures": true,
+          "screenFollowKeys": true,
+          "screenDeltas": true,
+          "screenBars": true,
+          "printMetricFigures": true,
+          "printKpiRatio": true,
+          "printFollowKeys": true,
+          "printDeltas": true,
+          "printBars": true,
+          "printBarPaint": true,
+          "SLCcaptions": true,
+          "strategyNotesAbsent": true
+        },
+        "printMetricEntries": 22,
+        "followupKeys": [
+          "secretariat-7"
+        ],
+        "defaultFormat": "continuous",
+        "actualOutputFormat": "a4"
+      }
+    }
+  },
+  "followupCount": 8,
+  "followupKeys": [
+    "legislation-76",
+    "legislation-180",
+    "secretariat-7",
+    "secretariat-77",
+    "secretariat-83",
+    "secretariat-50",
+    "secretariat-38",
+    "secretariat-39"
+  ],
+  "progressNullZero": {
+    "nullCount": 502,
+    "zeroCount": 27,
+    "zeroSourceCells": [
+      "special-9",
+      "special-10",
+      "special-11",
+      "special-23",
+      "special-24",
+      "secretariat-7",
+      "secretariat-9",
+      "secretariat-11",
+      "secretariat-14",
+      "secretariat-15",
+      "secretariat-16",
+      "secretariat-17",
+      "secretariat-18",
+      "secretariat-19",
+      "secretariat-22",
+      "secretariat-23",
+      "secretariat-24",
+      "secretariat-25",
+      "secretariat-27",
+      "secretariat-32",
+      "secretariat-38",
+      "secretariat-39",
+      "secretariat-50",
+      "secretariat-53",
+      "secretariat-77",
+      "secretariat-81",
+      "secretariat-83"
+    ]
+  },
+  "scopeChangeMethod": "Live browser-owned dashboard filter state followed by app.render; no source workbook edits.",
+  "nativeBeforePrintStartsInScreenMedia": true,
+  "candidatePrintDOM": "Awaited preparedDocument artifact with its own print stylesheet/fonts; main-page fallback does not define export scope.",
+  "sourceAndScopeUnchangedAfterPrintCleanup": true,
+  "solidPrintBarFills": true,
+  "removedStrategyNotesAbsent": true,
+  "SLCCaptionsPreserved": true,
+  "sourceUnchanged": true,
+  "runtimeErrors": [],
+  "testedBundleSHA256": {
+    "assets/js/app-bundle.js": "5a34e9cfbd62ad909effddfa841d0633db594cc46956b076d68ef76caff2591c",
+    "assets/css/app-bundle.css": "2eeb64c7f2f8db5f42facec0573d027eb9a3529ade05bf84858132d9e76ecdea"
+  },
+  "notRun": {
+    "operationalWorkbook": "Not supplied; all populated figures here are illustrative.",
+    "PDFVisual": "Independent output-format audit verifies actual continuous PDF dimensions/A4 pagination; this task validates source membership and values."
+  },
+  "additionalRuntimeArtifactSHA256": {
+    "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528",
+    "assets/js/views/pdf-download.js": "ce86f3f3df70787410e35c3f57aec2dc8b3e09c727f7fa8dc7bee57145354862",
+    "assets/css/print-measure-bundle.css": "1305fa85010c66e8d39da391c07205cb78f1ee6ad1b11e9b543aed3a8a6b57b6"
+  },
+  "HHTitleVerification": {
+    "sourceTitles": 62,
+    "nativeDOMTitles": 62,
+    "preparedDOMTitles": 62,
+    "all62TitlesInRendererTextOperations": true,
+    "all62FullSourceTitlesInSerializedPDFText": true,
+    "actualPDFSHA256": "bcd9826b8104f9ec53df06e046e1df42b15bea1ee81f9b830f8f3d536e2bc192",
+    "actualPDF": "/workspace/saytara-work/qa-v138/offline-pdf/reports-hh.pdf",
+    "reader": "pdftotext -layout (Poppler)",
+    "normalization": "Unicode NFKC; discard whitespace and bidi formatting controls, retain letters/digits",
+    "geometryAndFontVisualVerdict": "Separate renderer/visual gate; text presence does not prove clipping or glyph appearance.",
+    "evidence": [
+      "hh-title-source-evidence.json",
+      "hh-serialized-title-evidence.json"
+    ],
+    "all62FullSourceTitlesAtLeastTwiceInSerializedPDFText": true,
+    "minimumNormalizedTitleOccurrences": 2
+  },
+  "serializedPDFValidation": "HH full source titles independently reconciled to normalized Poppler text. Remaining route/font/geometry output verdicts belong to the actual-download and visual gates."
+}

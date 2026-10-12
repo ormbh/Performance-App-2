@@ -1,0 +1,14 @@
+{
+  "build": "138",
+  "manifestFiles": 176,
+  "zipBytes": 9568823,
+  "zipSha256": "b3ec42286408d42404c71d46f7a3062789f2cd014ab946702cd67e2b02f3777d",
+  "completeFileSetVerified": true,
+  "allManifestHashesVerified": true,
+  "runtimeMatchesTestedCandidate": true,
+  "sourceWorkbooksAndQAExcluded": true,
+  "finalExtraction": "/workspace/saytara-work/release-check-v138/Performance-App-v138",
+  "freshExtractedPackageChecks": 143,
+  "freshExtractedPackageResult": "PASS",
+  "freshExtractedPackageEvidenceSHA256": "d784a12f5d9194d29767f3b6017f5296448cfbb91cc173e9de17735eeef6c10f"
+}
