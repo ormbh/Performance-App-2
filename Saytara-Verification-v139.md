@@ -47,6 +47,12 @@ All **15 header routing cases** pass, including independent projects/report/comp
 
 The badge-free total-difference renderer passes an explicitly synthetic nonzero-difference test. The existing dashboard model does not supply `kpiTotal` in its historical `cur` snapshot, so native `D.change('kpiTotal')` currently returns `none`; that pre-existing behavior is identical in v138/v139 and is not redefined by this presentation update. Measured-count and average-result differences retain their existing behavior.
 
+## Supplemental mobile and native-print checks
+
+**59 checks pass** with no runtime errors. At 390px, the strategy tag is absent, labels remain 16px and figure alignment passes. Prepared Chromium native print-to-PDF produces one continuous page and three A4 portrait pages, with the first title/date/scope, eight original follow-up keys and copyright/page-only footer intact. This separately checks the optional CSS-print path; it does not replace the actual app-button download tests above.
+
+Headless Control+P exposes no preview UI, so native output was generated after real preflight through Chromium print-to-PDF. Original-font computed roles and rendered sizes/visuals were checked. Chromium's Type3 font family naming/color and exact ligature extraction are not asserted. Neither path certifies a physical printer or the user's Windows installation.
+
 ## Runtime bindings
 
 | Runtime asset | SHA-256 |

@@ -1,0 +1,2694 @@
+{
+  "scope": "Read-only v139 mobile-screen and optional native CSS-print verification on frozen illustrative workbook. Actual Control+P sent; headless Chromium exposes no print-preview UI/events, so native PDFs use Chromium print-to-PDF after validated preflight. No print-media emulation, source rewrite or app-file edits. Native Windows file opening/printing and physical printers unavailable.",
+  "checks": [
+    {
+      "check": "candidatebuild139",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390pxstrategybadge and removedtext absent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390pxthree strategylabels16pxDubaiRegular",
+      "pass": true,
+      "detail": [
+        {
+          "label": "المؤشرات المقاسة / المسجلة",
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "labelBounds": {
+            "x": 33,
+            "y": 2001.828125,
+            "width": 324,
+            "height": 25.59375,
+            "top": 2001.828125,
+            "right": 357,
+            "bottom": 2027.421875,
+            "left": 33
+          },
+          "valueBounds": {
+            "x": 264.671875,
+            "y": 2035.421875,
+            "width": 92.328125,
+            "height": 44.1875,
+            "top": 2035.421875,
+            "right": 357,
+            "bottom": 2079.609375,
+            "left": 264.671875
+          }
+        },
+        {
+          "label": "متوسط النتائج المقاسة",
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "labelBounds": {
+            "x": 33,
+            "y": 2140.609375,
+            "width": 324,
+            "height": 25.59375,
+            "top": 2140.609375,
+            "right": 357,
+            "bottom": 2166.203125,
+            "left": 33
+          },
+          "valueBounds": {
+            "x": 278.234375,
+            "y": 2174.203125,
+            "width": 78.765625,
+            "height": 45.390625,
+            "top": 2174.203125,
+            "right": 357,
+            "bottom": 2219.59375,
+            "left": 278.234375
+          }
+        },
+        {
+          "label": "متوسط المستهدفات المعتمدة",
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "labelBounds": {
+            "x": 33,
+            "y": 2269.59375,
+            "width": 324,
+            "height": 25.59375,
+            "top": 2269.59375,
+            "right": 357,
+            "bottom": 2295.1875,
+            "left": 33
+          },
+          "valueBounds": {
+            "x": 278.234375,
+            "y": 2303.1875,
+            "width": 78.765625,
+            "height": 45.390625,
+            "top": 2303.1875,
+            "right": 357,
+            "bottom": 2348.578125,
+            "left": 278.234375
+          }
+        }
+      ]
+    },
+    {
+      "check": "390pxreflowed strategyfigures share rightedge",
+      "pass": true,
+      "detail": [
+        {
+          "label": "المؤشرات المقاسة / المسجلة",
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "labelBounds": {
+            "x": 33,
+            "y": 2001.828125,
+            "width": 324,
+            "height": 25.59375,
+            "top": 2001.828125,
+            "right": 357,
+            "bottom": 2027.421875,
+            "left": 33
+          },
+          "valueBounds": {
+            "x": 264.671875,
+            "y": 2035.421875,
+            "width": 92.328125,
+            "height": 44.1875,
+            "top": 2035.421875,
+            "right": 357,
+            "bottom": 2079.609375,
+            "left": 264.671875
+          }
+        },
+        {
+          "label": "متوسط النتائج المقاسة",
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "labelBounds": {
+            "x": 33,
+            "y": 2140.609375,
+            "width": 324,
+            "height": 25.59375,
+            "top": 2140.609375,
+            "right": 357,
+            "bottom": 2166.203125,
+            "left": 33
+          },
+          "valueBounds": {
+            "x": 278.234375,
+            "y": 2174.203125,
+            "width": 78.765625,
+            "height": 45.390625,
+            "top": 2174.203125,
+            "right": 357,
+            "bottom": 2219.59375,
+            "left": 278.234375
+          }
+        },
+        {
+          "label": "متوسط المستهدفات المعتمدة",
+          "size": "16px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "labelBounds": {
+            "x": 33,
+            "y": 2269.59375,
+            "width": 324,
+            "height": 25.59375,
+            "top": 2269.59375,
+            "right": 357,
+            "bottom": 2295.1875,
+            "left": 33
+          },
+          "valueBounds": {
+            "x": 278.234375,
+            "y": 2303.1875,
+            "width": 78.765625,
+            "height": 45.390625,
+            "top": 2303.1875,
+            "right": 357,
+            "bottom": 2348.578125,
+            "left": 278.234375
+          }
+        }
+      ]
+    },
+    {
+      "check": "390pxeach label stays above its figure",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390pxno documentoverflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "desktopsidebyside strategy figures aligned",
+      "pass": true,
+      "detail": [
+        -33.9375,
+        -33.9375,
+        -33.9375
+      ]
+    },
+    {
+      "check": "monthly-continuous completefonts/layout prepared while in ordinaryscreen",
+      "pass": true,
+      "detail": {
+        "headers": [
+          {
+            "text": "التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026",
+            "size": "32px",
+            "font": "\"TEC DIN\", sans-serif",
+            "weight": "400",
+            "color": "rgb(51, 51, 51)"
+          }
+        ],
+        "scope": [
+          {
+            "text": "القطاع: جميع القطاعات · الوحدة التنظيمية: جميع الوحدات التنظيمية",
+            "size": "14px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "color": "rgb(79, 78, 78)"
+          }
+        ],
+        "geometry": {
+          "widthMM": 297,
+          "contentWidthMM": 281,
+          "heightMM": 629,
+          "contentHeightPx": 2273.21875
+        },
+        "heightMM": 629,
+        "fontStatus": "loaded",
+        "fontsLoaded": true,
+        "rootWidth": 1062.046875,
+        "reportHeight": 2273.21875,
+        "ready": true,
+        "keyLength": 21567,
+        "pageCSS": "@page tec-report { size:297mm 629mm; margin:8mm 8mm 16mm; background:#EFEBE7; @bottom-left { vertical-align:top; padding-top:1mm; } @bottom-right { vertical-align:top; padding-top:1mm; } }\n@media print { .tec-print-measure-frame { display:none!important; } }",
+        "ordinaryScreen": true
+      }
+    },
+    {
+      "check": "monthly-continuous realbeforeprint/afterprint lifecycle",
+      "pass": true,
+      "detail": {
+        "before": [
+          {
+            "headers": [],
+            "scope": [],
+            "tagCount": 0,
+            "tagTextAbsent": true,
+            "keys": [
+              "legislation-76",
+              "legislation-180",
+              "secretariat-7",
+              "secretariat-77",
+              "secretariat-83",
+              "secretariat-50",
+              "secretariat-38",
+              "secretariat-39"
+            ],
+            "media": false
+          }
+        ],
+        "after": 1,
+        "media": false,
+        "printAttrs": null
+      }
+    },
+    {
+      "check": "monthly-continuous no strategy tag in actualprintDOM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous preparedactualdate title24ptDINRegular",
+      "pass": true,
+      "detail": [
+        {
+          "text": "التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026",
+          "size": "32px",
+          "font": "\"TEC DIN\", sans-serif",
+          "weight": "400",
+          "color": "rgb(51, 51, 51)"
+        }
+      ]
+    },
+    {
+      "check": "monthly-continuous preparedscope10.5ptDubaiRegularInk",
+      "pass": true,
+      "detail": [
+        {
+          "text": "القطاع: جميع القطاعات · الوحدة التنظيمية: جميع الوحدات التنظيمية",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(79, 78, 78)"
+        }
+      ]
+    },
+    {
+      "check": "monthly-continuous sourcebackedsector/unitscope,entityomitted",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous completeoriginalfollowupkeys in actualprintDOM",
+      "pass": true,
+      "detail": [
+        "legislation-76",
+        "legislation-180",
+        "secretariat-7",
+        "secretariat-77",
+        "secretariat-83",
+        "secretariat-50",
+        "secretariat-38",
+        "secretariat-39"
+      ]
+    },
+    {
+      "check": "monthly-continuous native lifecycle returns to screen",
+      "pass": true,
+      "detail": {
+        "before": [
+          {
+            "headers": [],
+            "scope": [],
+            "tagCount": 0,
+            "tagTextAbsent": true,
+            "keys": [
+              "legislation-76",
+              "legislation-180",
+              "secretariat-7",
+              "secretariat-77",
+              "secretariat-83",
+              "secretariat-50",
+              "secretariat-38",
+              "secretariat-39"
+            ],
+            "media": false
+          }
+        ],
+        "after": 1,
+        "media": false,
+        "printAttrs": null
+      }
+    },
+    {
+      "check": "monthly-continuous sourcekeys/date/scope/followupmembership unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous measuredonepage297mm profile",
+      "pass": true,
+      "detail": [
+        [
+          297.01,
+          628.99
+        ]
+      ]
+    },
+    {
+      "check": "monthly-continuous actualtitle/date visible exactlyonce",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous removedtag absent from nativePDF",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous native24pttitle and10.5ptscope on firstpage",
+      "pass": true,
+      "detail": {
+        "title": [
+          {
+            "size": 24.0,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.6800000071525574,
+            "descender": -0.289000004529953,
+            "text": "التقرير",
+            "origin": [
+              475.50201416015625,
+              43.5
+            ],
+            "bbox": [
+              428.26995849609375,
+              24.107999801635742,
+              480.8780212402344,
+              50.657894134521484
+            ]
+          }
+        ],
+        "scope": [
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "القطاعات",
+            "origin": [
+              224.64381408691406,
+              70.5
+            ],
+            "bbox": [
+              191.0859375,
+              60.6510009765625,
+              226.82781982421875,
+              75.23550415039062
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": ":القطاع",
+            "origin": [
+              253.24264526367188,
+              70.5
+            ],
+            "bbox": [
+              253.24264526367188,
+              60.6510009765625,
+              279.6080627441406,
+              75.23550415039062
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "check": "monthly-continuous renderedscopes retain10.5ptscale with computedDubaiRegularInk",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous unrestrictedsource captions restored in nativeheader",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous page1 exactlegalfooter",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous page1 actualpagecounter",
+      "pass": true,
+      "detail": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "check": "monthly-continuous page1 legal/pagesonly10.5ptfooter",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous page1 contentclearof footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-continuous laterpages omit reportmasthead and restoredscope",
+      "pass": true,
+      "detail": {
+        "titlePages": 1,
+        "scopePages": 1
+      }
+    },
+    {
+      "check": "monthly-continuous allrenderedtext within physicalpage",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "monthly-a4 completefonts/layout prepared while in ordinaryscreen",
+      "pass": true,
+      "detail": {
+        "headers": [
+          {
+            "text": "التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026",
+            "size": "32px",
+            "font": "\"TEC DIN\", sans-serif",
+            "weight": "400",
+            "color": "rgb(51, 51, 51)"
+          }
+        ],
+        "scope": [
+          {
+            "text": "القطاع: جميع القطاعات · الوحدة التنظيمية: جميع الوحدات التنظيمية",
+            "size": "14px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "color": "rgb(79, 78, 78)"
+          }
+        ],
+        "geometry": {
+          "widthMM": 210,
+          "contentWidthMM": 190,
+          "heightMM": 297,
+          "contentHeightPx": 2338
+        },
+        "heightMM": 297,
+        "fontStatus": "loaded",
+        "fontsLoaded": true,
+        "rootWidth": 718.109375,
+        "reportHeight": 2337.53125,
+        "ready": false,
+        "keyLength": 76019,
+        "pageCSS": null,
+        "ordinaryScreen": true
+      }
+    },
+    {
+      "check": "monthly-a4 realbeforeprint/afterprint lifecycle",
+      "pass": true,
+      "detail": {
+        "before": [
+          {
+            "headers": [],
+            "scope": [],
+            "tagCount": 0,
+            "tagTextAbsent": true,
+            "keys": [
+              "legislation-76",
+              "legislation-180",
+              "secretariat-7",
+              "secretariat-77",
+              "secretariat-83",
+              "secretariat-50",
+              "secretariat-38",
+              "secretariat-39"
+            ],
+            "media": false
+          }
+        ],
+        "after": 1,
+        "media": false,
+        "printAttrs": null
+      }
+    },
+    {
+      "check": "monthly-a4 no strategy tag in actualprintDOM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 preparedactualdate title24ptDINRegular",
+      "pass": true,
+      "detail": [
+        {
+          "text": "التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026",
+          "size": "32px",
+          "font": "\"TEC DIN\", sans-serif",
+          "weight": "400",
+          "color": "rgb(51, 51, 51)"
+        }
+      ]
+    },
+    {
+      "check": "monthly-a4 preparedscope10.5ptDubaiRegularInk",
+      "pass": true,
+      "detail": [
+        {
+          "text": "القطاع: جميع القطاعات · الوحدة التنظيمية: جميع الوحدات التنظيمية",
+          "size": "14px",
+          "font": "\"TEC Dubai\", sans-serif",
+          "weight": "400",
+          "color": "rgb(79, 78, 78)"
+        }
+      ]
+    },
+    {
+      "check": "monthly-a4 sourcebackedsector/unitscope,entityomitted",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 completeoriginalfollowupkeys in actualprintDOM",
+      "pass": true,
+      "detail": [
+        "legislation-76",
+        "legislation-180",
+        "secretariat-7",
+        "secretariat-77",
+        "secretariat-83",
+        "secretariat-50",
+        "secretariat-38",
+        "secretariat-39"
+      ]
+    },
+    {
+      "check": "monthly-a4 native lifecycle returns to screen",
+      "pass": true,
+      "detail": {
+        "before": [
+          {
+            "headers": [],
+            "scope": [],
+            "tagCount": 0,
+            "tagTextAbsent": true,
+            "keys": [
+              "legislation-76",
+              "legislation-180",
+              "secretariat-7",
+              "secretariat-77",
+              "secretariat-83",
+              "secretariat-50",
+              "secretariat-38",
+              "secretariat-39"
+            ],
+            "media": false
+          }
+        ],
+        "after": 1,
+        "media": false,
+        "printAttrs": null
+      }
+    },
+    {
+      "check": "monthly-a4 sourcekeys/date/scope/followupmembership unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 A4portraitprofile",
+      "pass": true,
+      "detail": [
+        [
+          209.89,
+          297.01
+        ],
+        [
+          209.89,
+          297.01
+        ],
+        [
+          209.89,
+          297.01
+        ]
+      ]
+    },
+    {
+      "check": "monthly-a4 actualtitle/date visible exactlyonce",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 removedtag absent from nativePDF",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 native24pttitle and10.5ptscope on firstpage",
+      "pass": true,
+      "detail": {
+        "title": [
+          {
+            "size": 24.0,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.6800000071525574,
+            "descender": -0.289000004529953,
+            "text": "التقرير",
+            "origin": [
+              350.99591064453125,
+              49.5
+            ],
+            "bbox": [
+              303.76385498046875,
+              30.107999801635742,
+              356.3719177246094,
+              56.657894134521484
+            ]
+          }
+        ],
+        "scope": [
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "القطاعات",
+            "origin": [
+              229.98756408691406,
+              108.0
+            ],
+            "bbox": [
+              196.4296875,
+              98.1510009765625,
+              232.17156982421875,
+              112.73550415039062
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": ":القطاع",
+            "origin": [
+              258.5863952636719,
+              108.0
+            ],
+            "bbox": [
+              258.5863952636719,
+              98.1510009765625,
+              284.9518127441406,
+              112.73550415039062
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "check": "monthly-a4 renderedscopes retain10.5ptscale with computedDubaiRegularInk",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 unrestrictedsource captions restored in nativeheader",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 page1 exactlegalfooter",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 page1 actualpagecounter",
+      "pass": true,
+      "detail": [
+        "3",
+        "1"
+      ]
+    },
+    {
+      "check": "monthly-a4 page1 legal/pagesonly10.5ptfooter",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 page1 contentclearof footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 page2 exactlegalfooter",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 page2 actualpagecounter",
+      "pass": true,
+      "detail": [
+        "3",
+        "2"
+      ]
+    },
+    {
+      "check": "monthly-a4 page2 legal/pagesonly10.5ptfooter",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 page2 contentclearof footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 page3 exactlegalfooter",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 page3 actualpagecounter",
+      "pass": true,
+      "detail": [
+        "3",
+        "3"
+      ]
+    },
+    {
+      "check": "monthly-a4 page3 legal/pagesonly10.5ptfooter",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 page3 contentclearof footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "monthly-a4 laterpages omit reportmasthead and restoredscope",
+      "pass": true,
+      "detail": {
+        "titlePages": 1,
+        "scopePages": 1
+      }
+    },
+    {
+      "check": "monthly-a4 allrenderedtext within physicalpage",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "no runtimeJavaScript errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "frozenruntime remainedbyteidentical duringQA",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "cases": {
+    "monthly-continuous": {
+      "pages": 1,
+      "pageMM": [
+        [
+          297.01,
+          628.99
+        ]
+      ],
+      "sha256": "b13f70bece7df387b4b1f975875f0fd9bbc526ab24f6dd00f0b4356cfb9a4d23",
+      "prepared": {
+        "headers": [
+          {
+            "text": "التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026",
+            "size": "32px",
+            "font": "\"TEC DIN\", sans-serif",
+            "weight": "400",
+            "color": "rgb(51, 51, 51)"
+          }
+        ],
+        "scope": [
+          {
+            "text": "القطاع: جميع القطاعات · الوحدة التنظيمية: جميع الوحدات التنظيمية",
+            "size": "14px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "color": "rgb(79, 78, 78)"
+          }
+        ],
+        "geometry": {
+          "widthMM": 297,
+          "contentWidthMM": 281,
+          "heightMM": 629,
+          "contentHeightPx": 2273.21875
+        },
+        "heightMM": 629,
+        "fontStatus": "loaded",
+        "fontsLoaded": true,
+        "rootWidth": 1062.046875,
+        "reportHeight": 2273.21875,
+        "ready": true,
+        "keyLength": 21567,
+        "pageCSS": "@page tec-report { size:297mm 629mm; margin:8mm 8mm 16mm; background:#EFEBE7; @bottom-left { vertical-align:top; padding-top:1mm; } @bottom-right { vertical-align:top; padding-top:1mm; } }\n@media print { .tec-print-measure-frame { display:none!important; } }",
+        "ordinaryScreen": true
+      },
+      "lifecycle": {
+        "before": [
+          {
+            "headers": [],
+            "scope": [],
+            "tagCount": 0,
+            "tagTextAbsent": true,
+            "keys": [
+              "legislation-76",
+              "legislation-180",
+              "secretariat-7",
+              "secretariat-77",
+              "secretariat-83",
+              "secretariat-50",
+              "secretariat-38",
+              "secretariat-39"
+            ],
+            "media": false
+          }
+        ],
+        "after": 1,
+        "media": false,
+        "printAttrs": null
+      },
+      "footers": [
+        [
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "·",
+            "origin": [
+              570.2738647460938,
+              1749.75
+            ],
+            "bbox": [
+              570.2738647460938,
+              1741.3709716796875,
+              572.2478637695312,
+              1753.8974609375
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "جميع",
+            "origin": [
+              561.5904541015625,
+              1749.75
+            ],
+            "bbox": [
+              546.386474609375,
+              1739.9010009765625,
+              567.7539672851562,
+              1754.4854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "الحقوق",
+            "origin": [
+              541.6824951171875,
+              1749.75
+            ],
+            "bbox": [
+              515.8841552734375,
+              1739.9010009765625,
+              543.8665161132812,
+              1754.4854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "محفوظة2026",
+            "origin": [
+              508.0196533203125,
+              1749.75
+            ],
+            "bbox": [
+              481.5703125,
+              1739.9010009765625,
+              597.4494018554688,
+              1754.4854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7700000405311584,
+            "descender": -0.1860000044107437,
+            "text": "©",
+            "origin": [
+              599.97705078125,
+              1749.75
+            ],
+            "bbox": [
+              599.97705078125,
+              1741.2928466796875,
+              607.9990234375,
+              1751.7928466796875
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "األمانة",
+            "origin": [
+              817.2000732421875,
+              1749.75
+            ],
+            "bbox": [
+              796.8301391601562,
+              1739.9010009765625,
+              819.3840942382812,
+              1754.4854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "العامة",
+            "origin": [
+              792.1261596679688,
+              1749.75
+            ],
+            "bbox": [
+              771.15771484375,
+              1739.9010009765625,
+              794.3101806640625,
+              1754.4854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "للمجلس",
+            "origin": [
+              765.8658447265625,
+              1749.75
+            ],
+            "bbox": [
+              736.1509399414062,
+              1739.9010009765625,
+              768.6378173828125,
+              1754.4854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "التنفيذي",
+            "origin": [
+              731.4469604492188,
+              1749.75
+            ],
+            "bbox": [
+              700.7765502929688,
+              1739.9010009765625,
+              733.6309814453125,
+              1754.4854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "إلمارة",
+            "origin": [
+              698.2565307617188,
+              1749.75
+            ],
+            "bbox": [
+              678.24365234375,
+              1739.9010009765625,
+              698.2565307617188,
+              1754.4854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "د",
+            "origin": [
+              671.1141357421875,
+              1749.75
+            ],
+            "bbox": [
+              671.1141357421875,
+              1739.9010009765625,
+              675.7236328125,
+              1754.4854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 1,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "ب",
+            "origin": [
+              668.3841552734375,
+              1748.58447265625
+            ],
+            "bbox": [
+              668.3841552734375,
+              1738.7354736328125,
+              671.1141357421875,
+              1753.3199462890625
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "ي",
+            "origin": [
+              663.3126220703125,
+              1749.75
+            ],
+            "bbox": [
+              663.3126220703125,
+              1741.3709716796875,
+              669.9381103515625,
+              1753.8974609375
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "·",
+            "origin": [
+              658.8187255859375,
+              1749.75
+            ],
+            "bbox": [
+              658.8187255859375,
+              1741.3709716796875,
+              660.792724609375,
+              1753.8974609375
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "حقوق",
+            "origin": [
+              650.13525390625,
+              1749.75
+            ],
+            "bbox": [
+              633.4718017578125,
+              1739.9010009765625,
+              656.2987670898438,
+              1754.4854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "النشر1",
+            "origin": [
+              628.767822265625,
+              1749.75
+            ],
+            "bbox": [
+              22.13671875,
+              1739.9010009765625,
+              630.9518432617188,
+              1754.6474609375
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "من1",
+            "origin": [
+              37.18505859375,
+              1750.5
+            ],
+            "bbox": [
+              30.328582763671875,
+              1742.1209716796875,
+              50.72859191894531,
+              1754.6474609375
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "صفحة",
+            "origin": [
+              68.8323974609375,
+              1750.5
+            ],
+            "bbox": [
+              53.250457763671875,
+              1740.6510009765625,
+              77.46339416503906,
+              1755.2354736328125
+            ]
+          }
+        ]
+      ]
+    },
+    "monthly-a4": {
+      "pages": 3,
+      "pageMM": [
+        [
+          209.89,
+          297.01
+        ],
+        [
+          209.89,
+          297.01
+        ],
+        [
+          209.89,
+          297.01
+        ]
+      ],
+      "sha256": "bc0980739ca20489d824f943ee6ab4190d8efa3c1b900dc22a77051036579075",
+      "prepared": {
+        "headers": [
+          {
+            "text": "التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026",
+            "size": "32px",
+            "font": "\"TEC DIN\", sans-serif",
+            "weight": "400",
+            "color": "rgb(51, 51, 51)"
+          }
+        ],
+        "scope": [
+          {
+            "text": "القطاع: جميع القطاعات · الوحدة التنظيمية: جميع الوحدات التنظيمية",
+            "size": "14px",
+            "font": "\"TEC Dubai\", sans-serif",
+            "weight": "400",
+            "color": "rgb(79, 78, 78)"
+          }
+        ],
+        "geometry": {
+          "widthMM": 210,
+          "contentWidthMM": 190,
+          "heightMM": 297,
+          "contentHeightPx": 2338
+        },
+        "heightMM": 297,
+        "fontStatus": "loaded",
+        "fontsLoaded": true,
+        "rootWidth": 718.109375,
+        "reportHeight": 2337.53125,
+        "ready": false,
+        "keyLength": 76019,
+        "pageCSS": null,
+        "ordinaryScreen": true
+      },
+      "lifecycle": {
+        "before": [
+          {
+            "headers": [],
+            "scope": [],
+            "tagCount": 0,
+            "tagTextAbsent": true,
+            "keys": [
+              "legislation-76",
+              "legislation-180",
+              "secretariat-7",
+              "secretariat-77",
+              "secretariat-83",
+              "secretariat-50",
+              "secretariat-38",
+              "secretariat-39"
+            ],
+            "media": false
+          }
+        ],
+        "after": 1,
+        "media": false,
+        "printAttrs": null
+      },
+      "footers": [
+        [
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "·",
+            "origin": [
+              317.82855224609375,
+              830.25
+            ],
+            "bbox": [
+              317.82855224609375,
+              821.8709716796875,
+              319.80255126953125,
+              834.3975219726562
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "جميع",
+            "origin": [
+              309.1451110839844,
+              830.25
+            ],
+            "bbox": [
+              293.941162109375,
+              820.4010009765625,
+              315.3086242675781,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "الحقوق",
+            "origin": [
+              289.2371826171875,
+              830.25
+            ],
+            "bbox": [
+              263.4388427734375,
+              820.4010009765625,
+              291.4211730957031,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "محفوظة2026",
+            "origin": [
+              255.57435607910156,
+              830.25
+            ],
+            "bbox": [
+              229.125,
+              820.4010009765625,
+              345.004150390625,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7700000405311584,
+            "descender": -0.1860000044107437,
+            "text": "©",
+            "origin": [
+              347.5317077636719,
+              830.25
+            ],
+            "bbox": [
+              347.5317077636719,
+              821.7929077148438,
+              355.5537109375,
+              832.2929077148438
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "األمانة",
+            "origin": [
+              564.7548828125,
+              830.25
+            ],
+            "bbox": [
+              544.3849487304688,
+              820.4010009765625,
+              566.9389038085938,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "العامة",
+            "origin": [
+              539.6809692382812,
+              830.25
+            ],
+            "bbox": [
+              518.7125854492188,
+              820.4010009765625,
+              541.864990234375,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "للمجلس",
+            "origin": [
+              513.4205932617188,
+              830.25
+            ],
+            "bbox": [
+              483.70574951171875,
+              820.4010009765625,
+              516.1925659179688,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "التنفيذي",
+            "origin": [
+              479.00177001953125,
+              830.25
+            ],
+            "bbox": [
+              448.331298828125,
+              820.4010009765625,
+              481.1857604980469,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "إلمارة",
+            "origin": [
+              445.81134033203125,
+              830.25
+            ],
+            "bbox": [
+              425.79840087890625,
+              820.4010009765625,
+              445.81134033203125,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "د",
+            "origin": [
+              418.6689147949219,
+              830.25
+            ],
+            "bbox": [
+              418.6689147949219,
+              820.4010009765625,
+              423.2784118652344,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 1,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "ب",
+            "origin": [
+              415.93890380859375,
+              829.0845336914062
+            ],
+            "bbox": [
+              415.93890380859375,
+              819.2355346679688,
+              418.6689147949219,
+              833.8200073242188
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "ي",
+            "origin": [
+              410.867431640625,
+              830.25
+            ],
+            "bbox": [
+              410.867431640625,
+              821.8709716796875,
+              417.492919921875,
+              834.3975219726562
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "·",
+            "origin": [
+              406.37347412109375,
+              830.25
+            ],
+            "bbox": [
+              406.37347412109375,
+              821.8709716796875,
+              408.34747314453125,
+              834.3975219726562
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "حقوق",
+            "origin": [
+              397.69000244140625,
+              830.25
+            ],
+            "bbox": [
+              381.0265808105469,
+              820.4010009765625,
+              403.853515625,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "النشر3",
+            "origin": [
+              376.3226013183594,
+              830.25
+            ],
+            "bbox": [
+              27.52734375,
+              820.4010009765625,
+              378.506591796875,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "من1",
+            "origin": [
+              42.57568359375,
+              830.25
+            ],
+            "bbox": [
+              35.719207763671875,
+              821.8709716796875,
+              56.11921691894531,
+              834.3975219726562
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "صفحة",
+            "origin": [
+              74.2230224609375,
+              830.25
+            ],
+            "bbox": [
+              58.641082763671875,
+              820.4010009765625,
+              82.85401916503906,
+              834.9854736328125
+            ]
+          }
+        ],
+        [
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "·",
+            "origin": [
+              317.82855224609375,
+              830.25
+            ],
+            "bbox": [
+              317.82855224609375,
+              821.8709716796875,
+              319.80255126953125,
+              834.3975219726562
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "جميع",
+            "origin": [
+              309.1451110839844,
+              830.25
+            ],
+            "bbox": [
+              293.941162109375,
+              820.4010009765625,
+              315.3086242675781,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "الحقوق",
+            "origin": [
+              289.2371826171875,
+              830.25
+            ],
+            "bbox": [
+              263.4388427734375,
+              820.4010009765625,
+              291.4211730957031,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "محفوظة2026",
+            "origin": [
+              255.57435607910156,
+              830.25
+            ],
+            "bbox": [
+              229.125,
+              820.4010009765625,
+              345.004150390625,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7700000405311584,
+            "descender": -0.1860000044107437,
+            "text": "©",
+            "origin": [
+              347.5317077636719,
+              830.25
+            ],
+            "bbox": [
+              347.5317077636719,
+              821.7929077148438,
+              355.5537109375,
+              832.2929077148438
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "األمانة",
+            "origin": [
+              564.7548828125,
+              830.25
+            ],
+            "bbox": [
+              544.3849487304688,
+              820.4010009765625,
+              566.9389038085938,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "العامة",
+            "origin": [
+              539.6809692382812,
+              830.25
+            ],
+            "bbox": [
+              518.7125854492188,
+              820.4010009765625,
+              541.864990234375,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "للمجلس",
+            "origin": [
+              513.4205932617188,
+              830.25
+            ],
+            "bbox": [
+              483.70574951171875,
+              820.4010009765625,
+              516.1925659179688,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "التنفيذي",
+            "origin": [
+              479.00177001953125,
+              830.25
+            ],
+            "bbox": [
+              448.331298828125,
+              820.4010009765625,
+              481.1857604980469,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "إلمارة",
+            "origin": [
+              445.81134033203125,
+              830.25
+            ],
+            "bbox": [
+              425.79840087890625,
+              820.4010009765625,
+              445.81134033203125,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "د",
+            "origin": [
+              418.6689147949219,
+              830.25
+            ],
+            "bbox": [
+              418.6689147949219,
+              820.4010009765625,
+              423.2784118652344,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 1,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "ب",
+            "origin": [
+              415.93890380859375,
+              829.0845336914062
+            ],
+            "bbox": [
+              415.93890380859375,
+              819.2355346679688,
+              418.6689147949219,
+              833.8200073242188
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "ي",
+            "origin": [
+              410.867431640625,
+              830.25
+            ],
+            "bbox": [
+              410.867431640625,
+              821.8709716796875,
+              417.492919921875,
+              834.3975219726562
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "·",
+            "origin": [
+              406.37347412109375,
+              830.25
+            ],
+            "bbox": [
+              406.37347412109375,
+              821.8709716796875,
+              408.34747314453125,
+              834.3975219726562
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "حقوق",
+            "origin": [
+              397.69000244140625,
+              830.25
+            ],
+            "bbox": [
+              381.0265808105469,
+              820.4010009765625,
+              403.853515625,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "النشر3",
+            "origin": [
+              376.3226013183594,
+              830.25
+            ],
+            "bbox": [
+              27.52734375,
+              820.4010009765625,
+              378.506591796875,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "من2",
+            "origin": [
+              42.57568359375,
+              830.25
+            ],
+            "bbox": [
+              35.719207763671875,
+              821.8709716796875,
+              56.11921691894531,
+              834.3975219726562
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "صفحة",
+            "origin": [
+              74.2230224609375,
+              830.25
+            ],
+            "bbox": [
+              58.641082763671875,
+              820.4010009765625,
+              82.85401916503906,
+              834.9854736328125
+            ]
+          }
+        ],
+        [
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "·",
+            "origin": [
+              317.82855224609375,
+              830.25
+            ],
+            "bbox": [
+              317.82855224609375,
+              821.8709716796875,
+              319.80255126953125,
+              834.3975219726562
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "جميع",
+            "origin": [
+              309.1451110839844,
+              830.25
+            ],
+            "bbox": [
+              293.941162109375,
+              820.4010009765625,
+              315.3086242675781,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "الحقوق",
+            "origin": [
+              289.2371826171875,
+              830.25
+            ],
+            "bbox": [
+              263.4388427734375,
+              820.4010009765625,
+              291.4211730957031,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "محفوظة2026",
+            "origin": [
+              255.57435607910156,
+              830.25
+            ],
+            "bbox": [
+              229.125,
+              820.4010009765625,
+              345.004150390625,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7700000405311584,
+            "descender": -0.1860000044107437,
+            "text": "©",
+            "origin": [
+              347.5317077636719,
+              830.25
+            ],
+            "bbox": [
+              347.5317077636719,
+              821.7929077148438,
+              355.5537109375,
+              832.2929077148438
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "األمانة",
+            "origin": [
+              564.7548828125,
+              830.25
+            ],
+            "bbox": [
+              544.3849487304688,
+              820.4010009765625,
+              566.9389038085938,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "العامة",
+            "origin": [
+              539.6809692382812,
+              830.25
+            ],
+            "bbox": [
+              518.7125854492188,
+              820.4010009765625,
+              541.864990234375,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "للمجلس",
+            "origin": [
+              513.4205932617188,
+              830.25
+            ],
+            "bbox": [
+              483.70574951171875,
+              820.4010009765625,
+              516.1925659179688,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "التنفيذي",
+            "origin": [
+              479.00177001953125,
+              830.25
+            ],
+            "bbox": [
+              448.331298828125,
+              820.4010009765625,
+              481.1857604980469,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "إلمارة",
+            "origin": [
+              445.81134033203125,
+              830.25
+            ],
+            "bbox": [
+              425.79840087890625,
+              820.4010009765625,
+              445.81134033203125,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "د",
+            "origin": [
+              418.6689147949219,
+              830.25
+            ],
+            "bbox": [
+              418.6689147949219,
+              820.4010009765625,
+              423.2784118652344,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 1,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "ب",
+            "origin": [
+              415.93890380859375,
+              829.0845336914062
+            ],
+            "bbox": [
+              415.93890380859375,
+              819.2355346679688,
+              418.6689147949219,
+              833.8200073242188
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "ي",
+            "origin": [
+              410.867431640625,
+              830.25
+            ],
+            "bbox": [
+              410.867431640625,
+              821.8709716796875,
+              417.492919921875,
+              834.3975219726562
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "·",
+            "origin": [
+              406.37347412109375,
+              830.25
+            ],
+            "bbox": [
+              406.37347412109375,
+              821.8709716796875,
+              408.34747314453125,
+              834.3975219726562
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "حقوق",
+            "origin": [
+              397.69000244140625,
+              830.25
+            ],
+            "bbox": [
+              381.0265808105469,
+              820.4010009765625,
+              403.853515625,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "النشر3",
+            "origin": [
+              376.3226013183594,
+              830.25
+            ],
+            "bbox": [
+              27.52734375,
+              820.4010009765625,
+              378.506591796875,
+              834.9854736328125
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.7980000376701355,
+            "descender": -0.39500001072883606,
+            "text": "من3",
+            "origin": [
+              42.57568359375,
+              830.25
+            ],
+            "bbox": [
+              35.719207763671875,
+              821.8709716796875,
+              56.11921691894531,
+              834.3975219726562
+            ]
+          },
+          {
+            "size": 10.5,
+            "flags": 0,
+            "bidi": 0,
+            "char_flags": 0,
+            "font": "Unnamed-T3",
+            "color": 0,
+            "alpha": 0,
+            "ascender": 0.9380000233650208,
+            "descender": -0.45100003480911255,
+            "text": "صفحة",
+            "origin": [
+              74.2230224609375,
+              830.25
+            ],
+            "bbox": [
+              58.641082763671875,
+              820.4010009765625,
+              82.85401916503906,
+              834.9854736328125
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  "hashesBefore": {
+    "assets/js/app-bundle.js": "515087e6b5297af85610f87a7a37a6dbcb7b95048ae6663dea3fbc1f2e9147dd",
+    "assets/css/app-bundle.css": "c5dca03eb8791f003de61a1519e27d76557ec23f0eafb24d40c4cf7ab43347d4",
+    "assets/css/print-measure-bundle.css": "b9c76b378417f9c84f09cfc9dd29252c0086172b37bff0eacc0bdd93f0163cd8"
+  },
+  "browserVersion": "151.0.7922.173",
+  "mobile": [
+    {
+      "label": "المؤشرات المقاسة / المسجلة",
+      "size": "16px",
+      "font": "\"TEC Dubai\", sans-serif",
+      "weight": "400",
+      "labelBounds": {
+        "x": 33,
+        "y": 2001.828125,
+        "width": 324,
+        "height": 25.59375,
+        "top": 2001.828125,
+        "right": 357,
+        "bottom": 2027.421875,
+        "left": 33
+      },
+      "valueBounds": {
+        "x": 264.671875,
+        "y": 2035.421875,
+        "width": 92.328125,
+        "height": 44.1875,
+        "top": 2035.421875,
+        "right": 357,
+        "bottom": 2079.609375,
+        "left": 264.671875
+      }
+    },
+    {
+      "label": "متوسط النتائج المقاسة",
+      "size": "16px",
+      "font": "\"TEC Dubai\", sans-serif",
+      "weight": "400",
+      "labelBounds": {
+        "x": 33,
+        "y": 2140.609375,
+        "width": 324,
+        "height": 25.59375,
+        "top": 2140.609375,
+        "right": 357,
+        "bottom": 2166.203125,
+        "left": 33
+      },
+      "valueBounds": {
+        "x": 278.234375,
+        "y": 2174.203125,
+        "width": 78.765625,
+        "height": 45.390625,
+        "top": 2174.203125,
+        "right": 357,
+        "bottom": 2219.59375,
+        "left": 278.234375
+      }
+    },
+    {
+      "label": "متوسط المستهدفات المعتمدة",
+      "size": "16px",
+      "font": "\"TEC Dubai\", sans-serif",
+      "weight": "400",
+      "labelBounds": {
+        "x": 33,
+        "y": 2269.59375,
+        "width": 324,
+        "height": 25.59375,
+        "top": 2269.59375,
+        "right": 357,
+        "bottom": 2295.1875,
+        "left": 33
+      },
+      "valueBounds": {
+        "x": 278.234375,
+        "y": 2303.1875,
+        "width": 78.765625,
+        "height": 45.390625,
+        "top": 2303.1875,
+        "right": 357,
+        "bottom": 2348.578125,
+        "left": 278.234375
+      }
+    }
+  ],
+  "nativeShortcut": {
+    "sent": "Control+p",
+    "beforeEvents": [],
+    "afterEvents": 0,
+    "limitation": "Headless Chromium ignores native print-preview keyboard UI; native CSS-print PDF uses Chromium print-to-PDF after validated preflight."
+  },
+  "hashesAfter": {
+    "assets/js/app-bundle.js": "515087e6b5297af85610f87a7a37a6dbcb7b95048ae6663dea3fbc1f2e9147dd",
+    "assets/css/app-bundle.css": "c5dca03eb8791f003de61a1519e27d76557ec23f0eafb24d40c4cf7ab43347d4",
+    "assets/css/print-measure-bundle.css": "b9c76b378417f9c84f09cfc9dd29252c0086172b37bff0eacc0bdd93f0163cd8"
+  },
+  "result": "PASS"
+}
