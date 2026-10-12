@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "url": "https://raw.githubusercontent.com/ormbh/Performance-App-2/9c215a48a6564202f42f7e7578a7df75cac332c0/Performance-App-v142.zip",
+  "httpStatus": 200,
+  "contentType": "application/zip",
+  "bytes": 9589593,
+  "sha256": "b19eae3340f318fde94e77ebc22096ed8f733d85309ff1b3f1e2dd7bd9434929",
+  "matchesReleasedZIP": true
+}
