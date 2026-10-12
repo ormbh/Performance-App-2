@@ -1,0 +1,190 @@
+{
+  "captions": [
+    {
+      "text": "نسبة المنجز\n37.6%",
+      "label": {
+        "x": 1804.0625,
+        "y": 401.765625,
+        "width": 60.9375,
+        "height": 22.390625,
+        "bottom": 424.15625
+      },
+      "value": {
+        "x": 1757.296875,
+        "y": 401.765625,
+        "width": 38.765625,
+        "height": 22.390625,
+        "bottom": 424.15625
+      },
+      "gap": 8,
+      "belowPrevious": true,
+      "previousClass": "wb-apple-stack",
+      "font": "\"TEC Dubai\", sans-serif",
+      "fontSize": "14px",
+      "color": "rgb(79, 78, 78)"
+    },
+    {
+      "text": "نسبة المنجز\n54.3%",
+      "label": {
+        "x": 1804.0625,
+        "y": 750.53125,
+        "width": 60.9375,
+        "height": 22.390625,
+        "bottom": 772.921875
+      },
+      "value": {
+        "x": 1757.296875,
+        "y": 750.53125,
+        "width": 38.765625,
+        "height": 22.390625,
+        "bottom": 772.921875
+      },
+      "gap": 8,
+      "belowPrevious": true,
+      "previousClass": "wb-apple-stack",
+      "font": "\"TEC Dubai\", sans-serif",
+      "fontSize": "14px",
+      "color": "rgb(79, 78, 78)"
+    },
+    {
+      "text": "نسبة المنجز\n94.2%",
+      "label": {
+        "x": 1804.0625,
+        "y": 1138.09375,
+        "width": 60.9375,
+        "height": 22.390625,
+        "bottom": 1160.484375
+      },
+      "value": {
+        "x": 1757.296875,
+        "y": 1138.09375,
+        "width": 38.765625,
+        "height": 22.390625,
+        "bottom": 1160.484375
+      },
+      "gap": 8,
+      "belowPrevious": true,
+      "previousClass": "wb-apple-stack",
+      "font": "\"TEC Dubai\", sans-serif",
+      "fontSize": "14px",
+      "color": "rgb(79, 78, 78)"
+    },
+    {
+      "text": "نسبة المنجز\n50%",
+      "label": {
+        "x": 880.0625,
+        "y": 384.375,
+        "width": 60.9375,
+        "height": 22.390625,
+        "bottom": 406.765625
+      },
+      "value": {
+        "x": 843.5,
+        "y": 384.375,
+        "width": 28.5625,
+        "height": 22.390625,
+        "bottom": 406.765625
+      },
+      "gap": 8,
+      "belowPrevious": true,
+      "previousClass": "wb-apple-meter",
+      "font": "\"TEC Dubai\", sans-serif",
+      "fontSize": "14px",
+      "color": "rgb(79, 78, 78)"
+    },
+    {
+      "text": "نسبة المنجز\n27.8%",
+      "label": {
+        "x": 418.0625,
+        "y": 384.375,
+        "width": 60.9375,
+        "height": 22.390625,
+        "bottom": 406.765625
+      },
+      "value": {
+        "x": 371.296875,
+        "y": 384.375,
+        "width": 38.765625,
+        "height": 22.390625,
+        "bottom": 406.765625
+      },
+      "gap": 8,
+      "belowPrevious": true,
+      "previousClass": "wb-apple-meter",
+      "font": "\"TEC Dubai\", sans-serif",
+      "fontSize": "14px",
+      "color": "rgb(79, 78, 78)"
+    },
+    {
+      "text": "نسبة المنجز\n11.9%",
+      "label": {
+        "x": 880.0625,
+        "y": 781.140625,
+        "width": 60.9375,
+        "height": 22.390625,
+        "bottom": 803.53125
+      },
+      "value": {
+        "x": 833.296875,
+        "y": 781.140625,
+        "width": 38.765625,
+        "height": 22.390625,
+        "bottom": 803.53125
+      },
+      "gap": 8,
+      "belowPrevious": true,
+      "previousClass": "wb-stats",
+      "font": "\"TEC Dubai\", sans-serif",
+      "fontSize": "14px",
+      "color": "rgb(79, 78, 78)"
+    }
+  ],
+  "boxes": [
+    {
+      "text": "الأجندة المعتمدة\n100\n↓ −1",
+      "x": 1446,
+      "y": 173.59375,
+      "width": 419,
+      "height": 76.390625,
+      "bottom": 249.984375
+    },
+    {
+      "text": "المواضيع المستجدة\n17\n↑ +4",
+      "x": 1015,
+      "y": 173.59375,
+      "width": 419,
+      "height": 76.390625,
+      "bottom": 249.984375
+    }
+  ],
+  "overflow": false,
+  "budgetCompletionBars": 0,
+  "financialBars": 2,
+  "ratios": [
+    {
+      "title": "الأجندة السنوية",
+      "total": 117,
+      "done": 44,
+      "percent": "37.6%"
+    },
+    {
+      "title": "قرارات المجالس",
+      "total": 70,
+      "done": 38,
+      "percent": "54.3%"
+    },
+    {
+      "title": "التشريعات",
+      "total": 191,
+      "done": 180,
+      "percent": "94.2%"
+    },
+    {
+      "title": "مشاريع بموازنة استراتيجية",
+      "total": 84,
+      "done": 10,
+      "percent": "11.9%"
+    }
+  ],
+  "source": "Agenda: latest user screenshot, 44/117. Other cards: frozen illustrative preview workbook. Visual specimens only."
+}
