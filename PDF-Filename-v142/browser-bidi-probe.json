@@ -1,0 +1,27 @@
+{
+  "plain": {
+    "requested": "التقرير_الشهري_للأداء_Sep_26_مكتب_خطة_دبي.pdf",
+    "received": "التقرير_الشهري_للأداء_Sep_26_مكتب_خطة_دبي.pdf",
+    "preserved": true
+  },
+  "lrm": {
+    "requested": "‎التقرير_الشهري_للأداء‎_Sep_26_‎مكتب_خطة_دبي‎.pdf",
+    "received": "_التقرير_الشهري_للأداء__Sep_26__مكتب_خطة_دبي_.pdf",
+    "preserved": false
+  },
+  "rtl_ltr_date": {
+    "requested": "‏التقرير_الشهري_للأداء_‎Sep_26‏_مكتب_خطة_دبي‎.pdf",
+    "received": "_التقرير_الشهري_للأداء__Sep_26__مكتب_خطة_دبي_.pdf",
+    "preserved": false
+  },
+  "isolated_stem": {
+    "requested": "⁧التقرير_الشهري_للأداء_⁦Sep_26⁩_مكتب_خطة_دبي⁩.pdf",
+    "received": "_التقرير_الشهري_للأداء__Sep_26__مكتب_خطة_دبي_.pdf",
+    "preserved": false
+  },
+  "rtl_embedding": {
+    "requested": "‫التقرير_الشهري_للأداء_‪Sep_26‬_مكتب_خطة_دبي‬.pdf",
+    "received": "_التقرير_الشهري_للأداء__Sep_26__مكتب_خطة_دبي_.pdf",
+    "preserved": false
+  }
+}

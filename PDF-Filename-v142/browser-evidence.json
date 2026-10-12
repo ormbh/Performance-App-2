@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "check": "build142",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all has no number",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "partial first+count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "actual filename",
+      "pass": true,
+      "detail": "التقرير_الشهري_للأداء_مكتب_خطة_دبي_Sep_26.pdf"
+    },
+    {
+      "check": "continuous PDF onepage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "native header retains +1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "result": "PASS",
+  "bundleSha256": {
+    "assets/js/app-bundle.js": "89c74a30844f0916dcf94fbda4ccafdd286ff4b9553e166822581bb3a62112f5",
+    "assets/css/app-bundle.css": "c5dca03eb8791f003de61a1519e27d76557ec23f0eafb24d40c4cf7ab43347d4",
+    "assets/css/print-measure-bundle.css": "b9c76b378417f9c84f09cfc9dd29252c0086172b37bff0eacc0bdd93f0163cd8",
+    "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528"
+  },
+  "pdfSha256": "e1e9dfb0549d412294ab13a916e23512f553dadc1b85662f3b42b8622a64e064"
+}

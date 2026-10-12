@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "changedAssets": [
+    "assets/js/app-bundle.js",
+    "assets/js/views/pdf-download.js"
+  ],
+  "onlyDownloadNameChanged": true,
+  "dashboardAndPDFHeaderCountersUnchanged": true,
+  "bundleSHA256": "89c74a30844f0916dcf94fbda4ccafdd286ff4b9553e166822581bb3a62112f5"
+}

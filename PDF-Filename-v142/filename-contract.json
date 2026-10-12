@@ -1,0 +1,53 @@
+{
+  "result": "PASS",
+  "cases": [
+    {
+      "name": "Unrestricted has no suffix",
+      "result": "التقرير_الشهري_للأداء_Sep_26.pdf"
+    },
+    {
+      "name": "Sector suffix",
+      "result": "التقرير_الشهري_للأداء_قطاع_أول_Sep_26.pdf"
+    },
+    {
+      "name": "Unit takes priority",
+      "result": "التقرير_الشهري_للأداء_وحدة_أولى_Sep_26.pdf"
+    },
+    {
+      "name": "Multiple units first name only",
+      "result": "التقرير_الشهري_للأداء_وحدة_ثانية_Sep_26.pdf"
+    },
+    {
+      "name": "Multiple sectors first name only",
+      "result": "التقرير_الشهري_للأداء_قطاع_ثان_Sep_26.pdf"
+    },
+    {
+      "name": "Explicit all units has no unitsuffix",
+      "result": "التقرير_الشهري_للأداء_Sep_26.pdf"
+    },
+    {
+      "name": "All units falls back to selectedsector",
+      "result": "التقرير_الشهري_للأداء_قطاع_أول_Sep_26.pdf"
+    },
+    {
+      "name": "Windows filename characters sanitized",
+      "result": "التقرير_الشهري_للأداء_وحدة___خاصة___أ_Sep_26.pdf"
+    },
+    {
+      "name": "Source bidi marks are removed",
+      "result": "التقرير_الشهري_للأداء_مكتب_خطة_دبي_Sep_26.pdf"
+    },
+    {
+      "name": "Source month/year independent of system date",
+      "result": "التقرير_الشهري_للأداء_Jan_27.pdf"
+    },
+    {
+      "name": "Long Unicode scope fits one filename with no additional count",
+      "bytes": 240
+    },
+    {
+      "name": "Other report names preserved"
+    }
+  ],
+  "runtimeSHA256": "89c74a30844f0916dcf94fbda4ccafdd286ff4b9553e166822581bb3a62112f5"
+}
