@@ -1,13 +1,18 @@
-# Performance App v139
+# Performance App v140
 
-[Download app — v139 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v139.zip) · [Illustrative PDF](Offline-PDF-v139/ILLUSTRATIVE-Continuous-Monthly-v139.pdf) · [Verification](Saytara-Verification-v139.md) · [Design standard — Revision 14](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-14.md) · [Download standard ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Design-Standard-Revision-14.zip)
+[Download app — v140 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v140.zip) · [Illustrative PDF](Monthly-Refinements-v140/ILLUSTRATIVE-Continuous-Monthly-v140.pdf) · [Verification](Saytara-Verification-v140.md) · [Design standard — Revision 15](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-15.md) · [Download standard ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Design-Standard-Revision-15.zip)
 
-v139 removes the **مؤشرات الأداء** badge from the strategy card and restores the downloaded PDF's report title, actual date, sector and organisational unit. The scope line follows the active filters. Entity selections still filter data while their header field remains hidden.
+v140 applies four approved refinements on screen and in continuous/A4 monthly PDFs:
 
-The offline **تنزيل PDF** action remains. Monthly output defaults to one continuous page, with A4 portrait selectable; agenda, council and HH retain A4 landscape and other reports retain A4 portrait. The official logo appears with the first-page header. Footers contain copyright and page numbers only. Values, formulas, fonts, status colors and source records retain their definitions.
+- Show only **مشاريع 2027: N** below the quarter cards when the filtered valid-2027 count is positive; otherwise hide the line. Keep the separate quarter reference year.
+- Keep the budget total first, then **المنفق حسب الفواتير**, followed by **المخصص / غير المخصص** with their corresponding solid bars.
+- Remove the visible **الإنفاق …% من الموازنة المعتمدة** caption while retaining its calculation, denominator and accessible bar label.
+- Make positive changes under **SLC منجز بعد موعد** green, including both arrow and difference, matching the completed figure and the existing completion-change convention.
 
-The missing-header boundary defect is reproduced and corrected, including larger-font-metric regressions. Actual downloads pass 355 checks across ten cases/165 pages. See the verification and evidence for the additional scope, visual and extracted-package checks and practical limits.
+The offline **تنزيل PDF** action remains. Monthly output defaults to one continuous page, with A4 portrait selectable; agenda, council and HH retain A4 landscape and other reports retain A4 portrait. First-page title, actual date, sector/unit scope and official logo remain. Footers contain copyright and page numbers only.
+
+Focused verification passes 57 browser/PDF checks, independent finish-year/finance/change-state contracts, and native arrow/number color checks in both PDF formats. Source models, financial values, scoped record eligibility and fonts retain their definitions. See the verification and evidence for extracted-package checks and practical limits.
 
 Extract the whole ZIP and open index.html with its assets folder beside it. All app and PDF components are bundled locally. Select your own workbook; processing remains on your device. QA uses an illustrative fixture and managed Chromium over local HTTP; the user's Windows file-origin environment and physical printers were not tested.
 
-Previous: [v138 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v138.zip) · [v138 verification](Saytara-Verification-v138.md) · [Historical Revision 13](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-13.md). Earlier releases are preserved.
+Previous: [v139 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v139.zip) · [v139 verification](Saytara-Verification-v139.md) · [Historical Revision 14](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-14.md). Earlier releases are preserved.

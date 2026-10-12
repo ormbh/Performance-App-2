@@ -1,0 +1,625 @@
+{
+  "verdict": "PASS",
+  "scope": "Small v140 finish-year presentation contract versus immutable v139; native summarize and rules; screen and print rendering; focused source audit of spending moving above allocation and removing visible spending percent caption",
+  "inputClassification": "Synthetic illustrative QA rows; no operational workbook or source edits",
+  "cases": 16,
+  "renderContexts": 32,
+  "summarizerUnchanged": true,
+  "protectedModelReportFontFilesIdentical": 31,
+  "sourceUnchanged": true,
+  "testedSHA256": {
+    "assets/js/app-bundle.js": "41dacb90e394ca9aa4de452b2be1b6424b16f56986b59b01ca31254ec0a3d3d7",
+    "assets/css/app-bundle.css": "c5dca03eb8791f003de61a1519e27d76557ec23f0eafb24d40c4cf7ab43347d4",
+    "assets/js/views/monthly-coverage.js": "85b8642a96cd7c5d178a98c390f5cc994e0d3d7e0fc4741b4ef37c8dcabdea41",
+    "assets/js/views/dashboard.js": "ebc796834215db4a590e43c4916e4c01fb21272af67c7c4404b7cb3605a0f554",
+    "assets/js/views/monthly-print.js": "cc9b44d7c611db65df8a4881b7452f49a20174d422e6349a4feb745c40aeabc0",
+    "assets/css/print-measure-bundle.css": "b9c76b378417f9c84f09cfc9dd29252c0086172b37bff0eacc0bdd93f0163cd8"
+  },
+  "evidence": [
+    {
+      "name": "Original 81/3 summary becomes only the 2027 annotation",
+      "expected2027": 3,
+      "summary": {
+        "years": [
+          {
+            "year": 2026,
+            "count": 81
+          },
+          {
+            "year": 2027,
+            "count": 3
+          }
+        ],
+        "undated": 0,
+        "total": 84,
+        "missing": 0,
+        "invalid": 0,
+        "reportYear": 2026,
+        "inReportYear": 81,
+        "outsideReportYear": 3,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "<p class=\"monthly-year-coverage\" dir=\"rtl\">مشاريع <bdi dir=\"ltr\">2027: 3</bdi></p>",
+          "plain": "مشاريع 2027: 3"
+        },
+        "print": {
+          "html": "<p class=\"monthly-year-coverage monthly-year-coverage-print\" dir=\"rtl\">مشاريع <bdi dir=\"ltr\">2027: 3</bdi></p>",
+          "plain": "مشاريع 2027: 3"
+        }
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "Only 2027 projects",
+      "expected2027": 3,
+      "summary": {
+        "years": [
+          {
+            "year": 2027,
+            "count": 3
+          }
+        ],
+        "undated": 0,
+        "total": 3,
+        "missing": 0,
+        "invalid": 0,
+        "reportYear": 2026,
+        "inReportYear": 0,
+        "outsideReportYear": 3,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "<p class=\"monthly-year-coverage\" dir=\"rtl\">مشاريع <bdi dir=\"ltr\">2027: 3</bdi></p>",
+          "plain": "مشاريع 2027: 3"
+        },
+        "print": {
+          "html": "<p class=\"monthly-year-coverage monthly-year-coverage-print\" dir=\"rtl\">مشاريع <bdi dir=\"ltr\">2027: 3</bdi></p>",
+          "plain": "مشاريع 2027: 3"
+        }
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "No scoped 2027 project",
+      "expected2027": 0,
+      "summary": {
+        "years": [
+          {
+            "year": 2026,
+            "count": 1
+          }
+        ],
+        "undated": 0,
+        "total": 1,
+        "missing": 0,
+        "invalid": 0,
+        "reportYear": 2026,
+        "inReportYear": 1,
+        "outsideReportYear": 0,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "",
+          "plain": ""
+        },
+        "print": {
+          "html": "",
+          "plain": ""
+        }
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "Empty scope",
+      "expected2027": 0,
+      "summary": {
+        "years": [],
+        "undated": 0,
+        "total": 0,
+        "missing": 0,
+        "invalid": 0,
+        "reportYear": 2026,
+        "inReportYear": 0,
+        "outsideReportYear": 0,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "",
+          "plain": ""
+        },
+        "print": {
+          "html": "",
+          "plain": ""
+        }
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "Missing dates never create an annotation",
+      "expected2027": 0,
+      "summary": {
+        "years": [],
+        "undated": 1,
+        "total": 1,
+        "missing": 1,
+        "invalid": 0,
+        "reportYear": 2026,
+        "inReportYear": 0,
+        "outsideReportYear": 0,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "",
+          "plain": ""
+        },
+        "print": {
+          "html": "",
+          "plain": ""
+        }
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "Other years never create an annotation",
+      "expected2027": 0,
+      "summary": {
+        "years": [
+          {
+            "year": 2025,
+            "count": 1
+          },
+          {
+            "year": 2028,
+            "count": 1
+          }
+        ],
+        "undated": 0,
+        "total": 2,
+        "missing": 0,
+        "invalid": 0,
+        "reportYear": 2026,
+        "inReportYear": 0,
+        "outsideReportYear": 2,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "",
+          "plain": ""
+        },
+        "print": {
+          "html": "",
+          "plain": ""
+        }
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "2027 report does not roll forward to 2028",
+      "expected2027": 0,
+      "summary": {
+        "years": [
+          {
+            "year": 2028,
+            "count": 1
+          }
+        ],
+        "undated": 0,
+        "total": 1,
+        "missing": 0,
+        "invalid": 0,
+        "reportYear": 2027,
+        "inReportYear": 0,
+        "outsideReportYear": 1,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "",
+          "plain": ""
+        },
+        "print": {
+          "html": "",
+          "plain": ""
+        }
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "2028 report still displays fixed 2027 if present",
+      "expected2027": 1,
+      "summary": {
+        "years": [
+          {
+            "year": 2027,
+            "count": 1
+          },
+          {
+            "year": 2028,
+            "count": 1
+          }
+        ],
+        "undated": 0,
+        "total": 2,
+        "missing": 0,
+        "invalid": 0,
+        "reportYear": 2028,
+        "inReportYear": 1,
+        "outsideReportYear": 1,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "<p class=\"monthly-year-coverage\" dir=\"rtl\">مشاريع <bdi dir=\"ltr\">2027: 1</bdi></p>",
+          "plain": "مشاريع 2027: 1"
+        },
+        "print": {
+          "html": "<p class=\"monthly-year-coverage monthly-year-coverage-print\" dir=\"rtl\">مشاريع <bdi dir=\"ltr\">2027: 1</bdi></p>",
+          "plain": "مشاريع 2027: 1"
+        }
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "2027 remains visible despite additional missing/other-year rows",
+      "expected2027": 1,
+      "summary": {
+        "years": [
+          {
+            "year": 2027,
+            "count": 1
+          },
+          {
+            "year": 2028,
+            "count": 1
+          }
+        ],
+        "undated": 1,
+        "total": 3,
+        "missing": 1,
+        "invalid": 0,
+        "reportYear": 2026,
+        "inReportYear": 0,
+        "outsideReportYear": 2,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "<p class=\"monthly-year-coverage\" dir=\"rtl\">مشاريع <bdi dir=\"ltr\">2027: 1</bdi></p>",
+          "plain": "مشاريع 2027: 1"
+        },
+        "print": {
+          "html": "<p class=\"monthly-year-coverage monthly-year-coverage-print\" dir=\"rtl\">مشاريع <bdi dir=\"ltr\">2027: 1</bdi></p>",
+          "plain": "مشاريع 2027: 1"
+        }
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "Missing project title is excluded by native secTotal",
+      "expected2027": 0,
+      "summary": {
+        "years": [],
+        "undated": 0,
+        "total": 0,
+        "missing": 0,
+        "invalid": 0,
+        "reportYear": 2026,
+        "inReportYear": 0,
+        "outsideReportYear": 0,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "",
+          "plain": ""
+        },
+        "print": {
+          "html": "",
+          "plain": ""
+        }
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "Other portfolios are excluded",
+      "expected2027": 0,
+      "summary": {
+        "years": [],
+        "undated": 0,
+        "total": 0,
+        "missing": 0,
+        "invalid": 0,
+        "reportYear": 2026,
+        "inReportYear": 0,
+        "outsideReportYear": 0,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "",
+          "plain": ""
+        },
+        "print": {
+          "html": "",
+          "plain": ""
+        }
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "Month-only valid quarter retains existing 2027 reference-year rule",
+      "expected2027": 1,
+      "summary": {
+        "years": [
+          {
+            "year": 2027,
+            "count": 1
+          }
+        ],
+        "undated": 0,
+        "total": 1,
+        "missing": 0,
+        "invalid": 0,
+        "reportYear": 2027,
+        "inReportYear": 1,
+        "outsideReportYear": 0,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "<p class=\"monthly-year-coverage\" dir=\"rtl\">مشاريع <bdi dir=\"ltr\">2027: 1</bdi></p>",
+          "plain": "مشاريع 2027: 1"
+        },
+        "print": {
+          "html": "<p class=\"monthly-year-coverage monthly-year-coverage-print\" dir=\"rtl\">مشاريع <bdi dir=\"ltr\">2027: 1</bdi></p>",
+          "plain": "مشاريع 2027: 1"
+        }
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "Month-only valid quarter does not invent 2027 for 2026",
+      "expected2027": 0,
+      "summary": {
+        "years": [
+          {
+            "year": 2026,
+            "count": 1
+          }
+        ],
+        "undated": 0,
+        "total": 1,
+        "missing": 0,
+        "invalid": 0,
+        "reportYear": 2026,
+        "inReportYear": 1,
+        "outsideReportYear": 0,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "",
+          "plain": ""
+        },
+        "print": {
+          "html": "",
+          "plain": ""
+        }
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "Month-only invalid quarter remains undated",
+      "expected2027": 0,
+      "summary": {
+        "years": [],
+        "undated": 1,
+        "total": 1,
+        "missing": 0,
+        "invalid": 1,
+        "reportYear": 2027,
+        "inReportYear": 0,
+        "outsideReportYear": 0,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "",
+          "plain": ""
+        },
+        "print": {
+          "html": "",
+          "plain": ""
+        }
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "Display label cannot change source year",
+      "expected2027": 0,
+      "summary": {
+        "years": [
+          {
+            "year": 2026,
+            "count": 1
+          }
+        ],
+        "undated": 0,
+        "total": 1,
+        "missing": 0,
+        "invalid": 0,
+        "reportYear": 2026,
+        "inReportYear": 1,
+        "outsideReportYear": 0,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "",
+          "plain": ""
+        },
+        "print": {
+          "html": "",
+          "plain": ""
+        }
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "name": "Excluded source rows do not leak into scoped D.items",
+      "expected2027": 0,
+      "summary": {
+        "years": [
+          {
+            "year": 2026,
+            "count": 1
+          }
+        ],
+        "undated": 0,
+        "total": 1,
+        "missing": 0,
+        "invalid": 0,
+        "reportYear": 2026,
+        "inReportYear": 1,
+        "outsideReportYear": 0,
+        "reconciled": true
+      },
+      "outputs": {
+        "screen": {
+          "html": "",
+          "plain": ""
+        },
+        "print": {
+          "html": "",
+          "plain": ""
+        }
+      },
+      "sourceUnchanged": true
+    }
+  ],
+  "priorFinishYearGateSHA256": {
+    "assets/js/app-bundle.js": "568e5709daea7d0fd0b4eebc2c62b5fb6a7f6928ff5c5bde887401ae471fdc00",
+    "assets/css/app-bundle.css": "c5dca03eb8791f003de61a1519e27d76557ec23f0eafb24d40c4cf7ab43347d4",
+    "assets/js/views/monthly-coverage.js": "85b8642a96cd7c5d178a98c390f5cc994e0d3d7e0fc4741b4ef37c8dcabdea41"
+  },
+  "financePresentationAudit": {
+    "verdict": "PASS",
+    "method": "Byte-identical calculation/helper prefixes and surrounding view code; exact original money/meter/delta expressions retained; models/styles unchanged",
+    "checks": [
+      {
+        "file": "dashboard.js",
+        "otherViewCodeUnchanged": true,
+        "moneyHelpersAndRatioCalculationsByteIdentical": true,
+        "scopedEligibilityUnchanged": true,
+        "moneyMetricDrillKeysPreserved": true,
+        "deltaCallsPreserved": true,
+        "meterFormulaToneAndNullBehaviorPreserved": true,
+        "spendingBeforeAllocation": true,
+        "visibleSpendingPercentCaptionAbsent": true,
+        "tokens": [
+          "money('المنفق حسب الفواتير',b.spent,'budSpent','secSpent')",
+          "money('المخصص',b.allocated,'budAllocated','secCommitted')",
+          "money('غير المخصص',b.unallocated,'budUnallocated','secNonCommitted')",
+          "meter(spending,'نسبة الإنفاق من الموازنة المعتمدة','brand',false)",
+          "meter(allocation,'نسبة المخصص من الموازنة المعتمدة','active',false)",
+          "delta(D,'budApproved','neutral')",
+          "drill('secRevised')"
+        ]
+      },
+      {
+        "file": "monthly-print.js",
+        "otherViewCodeUnchanged": true,
+        "moneyHelpersAndRatioCalculationsByteIdentical": true,
+        "scopedEligibilityUnchanged": true,
+        "moneyMetricDrillKeysPreserved": true,
+        "deltaCallsPreserved": true,
+        "meterFormulaToneAndNullBehaviorPreserved": true,
+        "spendingBeforeAllocation": true,
+        "visibleSpendingPercentCaptionAbsent": true,
+        "tokens": [
+          "money('budSpent', 'المنفق حسب الفواتير', b.spent)",
+          "money('budAllocated', 'المخصص', b.allocated)",
+          "money('budUnallocated', 'غير المخصص', b.unallocated)",
+          "S.views.dashboard.meter(spending, 'نسبة الإنفاق من الموازنة المعتمدة', 'brand', true)",
+          "S.views.dashboard.meter(allocation, 'نسبة المخصص من الموازنة المعتمدة', 'active', true)",
+          "delta(D, 'budApproved')"
+        ]
+      }
+    ],
+    "actualValuesAndPDFOrder": "Parent owns live DOM/PDF monetary value and order checks; this independent gate verifies no source/calculation/eligibility change"
+  },
+  "priorFinanceGateSHA256": {
+    "assets/js/app-bundle.js": "41dacb90e394ca9aa4de452b2be1b6424b16f56986b59b01ca31254ec0a3d3d7",
+    "assets/css/app-bundle.css": "c5dca03eb8791f003de61a1519e27d76557ec23f0eafb24d40c4cf7ab43347d4",
+    "assets/js/views/monthly-coverage.js": "85b8642a96cd7c5d178a98c390f5cc994e0d3d7e0fc4741b4ef37c8dcabdea41",
+    "assets/js/views/dashboard.js": "ebc796834215db4a590e43c4916e4c01fb21272af67c7c4404b7cb3605a0f554",
+    "assets/js/views/monthly-print.js": "cc9b44d7c611db65df8a4881b7452f49a20174d422e6349a4feb745c40aeabc0",
+    "assets/css/print-measure-bundle.css": "b9c76b378417f9c84f09cfc9dd29252c0086172b37bff0eacc0bdd93f0163cd8"
+  },
+  "legislationOverrunToneAudit": {
+    "verdict": "PASS",
+    "inputClassification": "Synthetic change states for existing exported screen delta and native paper row helper; no real history invented",
+    "cases": [
+      {
+        "name": "increase",
+        "input": {
+          "state": "diff",
+          "d": 3,
+          "text": "3"
+        },
+        "screenHTML": "<button type=\"button\" class=\"wb-delta good\" data-comparison-metric=\"legOverrun\" data-change-state=\"diff\" data-act=\"compare-metric\" data-metric=\"legOverrun\" aria-description=\"يفتح تفاصيل المقارنة في علامة تبويب جديدة\" data-direction=\"up\" aria-label=\"SLC منجز بعد موعد: زيادة +3، مقارنة ببيانات الشهر السابق المحفوظة داخل الملف\" title=\"مقارنة ببيانات الشهر السابق المحفوظة داخل الملف\"><bdi class=\"wb-delta-value\" dir=\"ltr\">↑ +3</bdi></button>",
+        "printHTML": "<div class=\"mp-metrics\" style=\"--mp-cols:1\"><div class=\"mp-metric good\"><span>SLC منجز بعد موعد</span><strong data-print-metric=\"legOverrun\"><bdi dir=\"ltr\">28</bdi></strong><span class=\"mp-change good\" data-print-change=\"legOverrun\"><bdi dir=\"ltr\">↑ +3</bdi></span></div></div>",
+        "expectedTone": "good",
+        "mainFigureUnchanged": true
+      },
+      {
+        "name": "decrease",
+        "input": {
+          "state": "diff",
+          "d": -1,
+          "text": "1"
+        },
+        "screenHTML": "<button type=\"button\" class=\"wb-delta bad\" data-comparison-metric=\"legOverrun\" data-change-state=\"diff\" data-act=\"compare-metric\" data-metric=\"legOverrun\" aria-description=\"يفتح تفاصيل المقارنة في علامة تبويب جديدة\" data-direction=\"down\" aria-label=\"SLC منجز بعد موعد: انخفاض −1، مقارنة ببيانات الشهر السابق المحفوظة داخل الملف\" title=\"مقارنة ببيانات الشهر السابق المحفوظة داخل الملف\"><bdi class=\"wb-delta-value\" dir=\"ltr\">↓ −1</bdi></button>",
+        "printHTML": "<div class=\"mp-metrics\" style=\"--mp-cols:1\"><div class=\"mp-metric good\"><span>SLC منجز بعد موعد</span><strong data-print-metric=\"legOverrun\"><bdi dir=\"ltr\">28</bdi></strong><span class=\"mp-change bad\" data-print-change=\"legOverrun\"><bdi dir=\"ltr\">↓ −1</bdi></span></div></div>",
+        "expectedTone": "bad",
+        "mainFigureUnchanged": true
+      },
+      {
+        "name": "same",
+        "input": {
+          "state": "same",
+          "d": 0,
+          "text": "–"
+        },
+        "screenHTML": "",
+        "printHTML": "<div class=\"mp-metrics\" style=\"--mp-cols:1\"><div class=\"mp-metric good\"><span>SLC منجز بعد موعد</span><strong data-print-metric=\"legOverrun\"><bdi dir=\"ltr\">28</bdi></strong></div></div>",
+        "expectedTone": null,
+        "mainFigureUnchanged": true
+      },
+      {
+        "name": "unavailable",
+        "input": {
+          "state": "none",
+          "reason": "Synthetic unavailable history"
+        },
+        "screenHTML": "<span class=\"wb-delta wb-delta-unavailable\" data-comparison-metric=\"legOverrun\" data-change-state=\"none\" title=\"Synthetic unavailable history\">المقارنة غير متاحة</span>",
+        "printHTML": "<div class=\"mp-metrics\" style=\"--mp-cols:1\"><div class=\"mp-metric good\"><span>SLC منجز بعد موعد</span><strong data-print-metric=\"legOverrun\"><bdi dir=\"ltr\">28</bdi></strong></div></div>",
+        "expectedTone": null,
+        "mainFigureUnchanged": true
+      }
+    ],
+    "positiveTone": "good / existing #01831E",
+    "negativeTone": "bad / existing #C00000",
+    "sameAndUnavailableBehaviorUnchanged": true,
+    "financeNeutralAndKPIAverageNeutralPreserved": true,
+    "modelFilesIdentical": true,
+    "priorFinanceAnd2027FactsRetained": true
+  }
+}

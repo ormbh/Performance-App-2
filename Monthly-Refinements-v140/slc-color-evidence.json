@@ -1,0 +1,31 @@
+{
+  "result": "PASS",
+  "cases": {
+    "full-2027": {
+      "pdfSHA256": "dba915c6faa820e74f5be7518966fe0103ffba7b97cd0910725a909f3608b77e",
+      "nativeText": [
+        {
+          "text": "↑",
+          "color": "#01831E"
+        },
+        {
+          "text": " +1",
+          "color": "#01831E"
+        }
+      ]
+    },
+    "a4-2027": {
+      "pdfSHA256": "15892b69fae745b7a70da83c9f3117fbccd865ac2b3b617049d8e81f331eb2cb",
+      "nativeText": [
+        {
+          "text": "↑",
+          "color": "#01831E"
+        },
+        {
+          "text": " +1",
+          "color": "#01831E"
+        }
+      ]
+    }
+  }
+}

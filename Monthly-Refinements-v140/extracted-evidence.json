@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "check": "extracted build140",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "extracted finance order",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "extracted SLC arrow+difference green",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "extracted conditional2027",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "extracted spending caption absent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "extracted actual PDF onepage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "extracted PDF content",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "extracted390px no horizontaloverflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no extracted runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "result": "PASS",
+  "zipSha256": "e0090e056d38b16fcfc4c421390a0e61325323343c0c6624d0034e4404974ec3",
+  "pdfSha256": "5a140153693d7ed586a2ecb2fdfad960ff90ee624bcca18e15b352d8271934c0"
+}
