@@ -1,8 +1,10 @@
 # Performance App v133
 
-[Download updated app — v133 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v133.zip) · [Verification](Saytara-Verification-v133.md) · [Current TEC design standard — Revision 7](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-7.md) · [Download standard ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Design-Standard-Revision-7.zip)
+[Download updated app — v133 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v133.zip) · [Verification](Saytara-Verification-v133.md) · [Current TEC design standard — Revision 8](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-8.md) · [Download standard ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Design-Standard-Revision-8.zip)
 
 This amendment increases only **الأجندة المعتمدة** and **المواضيع المستجدة** labels from 14px to **18px Dubai Regular Ink** on screen. Figures remain 28px and differences 15px; other short labels stay 14px. The 36px search-home title moves 4px upward; logo, search-field and action positions stay unchanged. Print is unchanged: category labels 9pt, figures 20pt and differences 11pt. Desktop/mobile wrapping and native PDF checks pass.
+
+Revision 8 records the newly approved A4 paper split: agenda, council and HH reports landscape; all remaining exports portrait; no A3. This paper amendment is pending app implementation.
 
 The app retains the approved Revision 7 typography and text-color roles while keeping compact cards and readable tables. Special-project subgroup names use 18px Dubai Regular; short value/status labels and strategy metric names use 14px Ink. Actual table names and notes use 16px Dubai Regular Ink; headings use 18px Dubai Bold. Neutral differences and metadata use Taupe. Status badges retain their separately approved colors.
 

@@ -1,8 +1,8 @@
 # TEC Apple-Inspired Design standard
 
-Approved typography, controls, status badges, layout, header, navigation, bars and print rules. **Revision 7 — 11 October 2026; agenda-label and search-title amendments approved 12 October 2026.** This consolidates the supplied standard and all subsequent approved amendments, including **18px Dubai Regular subgroup names and agenda category labels**, the updated Ink/Taupe text roles and solid financial bars.
+Approved typography, controls, status badges, layout, header, navigation, bars and print rules. **Revision 8 — 12 October 2026; A4 paper-orientation amendment approved.** This consolidates the supplied standard and all subsequent approved amendments, including **18px Dubai Regular subgroup names and agenda category labels**, the updated Ink/Taupe text roles and solid financial bars.
 
-**Implementation stage: Performance App v133.** This release applies the approved Revision 7 typography, color and solid financial-bar amendments. It also raises the 36px search title by 4px relative to v132, preserving the logo, field and action positions and exposes the three report destinations in every loaded page menu. Source records and calculations retain their existing definitions; v132 remains available as the previous release.
+**Implementation stage: approved specification; the Revision 8 paper-orientation amendment is pending app implementation.** Performance App v133 remains the released Revision 7 implementation, with its existing landscape defaults and monthly/projects A3 options. Revision 8 sets A4 landscape for agenda, council and HH reports, A4 portrait for all other print/export views, and removes A3 from the approved setup. It retains the approved typography, color, source scope and calculation rules. No app ZIP or application code changes accompany this standard update.
 
 The monthly page establishes the shared standard at **100% browser zoom**. Screen typography uses 38px page titles (36px on the search home), 30px portfolio headings, 28px card titles, 16px table content and badges, and 18px Dubai Bold table headings. Retain the compact card grouping: 18px subgroup names, 14px status labels above their figures, and change arrows below their own values. The card-header total label retains its position beneath the main total. **Remove explanatory labels and subtitles beneath all page, portfolio, section, card and table titles**, including search and upload titles. Retain the required screen report date as secondary metadata.
 
@@ -12,7 +12,9 @@ Use the supplied **Regular (400)** faces for headings, figures, body text and co
 
 ## Latest approved amendments
 
-The latest amendment increases only **الأجندة المعتمدة** and **المواضيع المستجدة** category labels from 14px to **18px Dubai Regular Ink** on screen. Their figures remain 28px and changes 15px. Print retains 9pt labels, 20pt figures and 11pt changes. Other short value/status labels and strategy names remain 14px. The search-home title also moves 4px upward from v132; its 36px size and the logo, search-field and action positions stay unchanged.
+**Paper and orientation:** A4 only. Agenda, council and HH reports retain landscape; all remaining print/export views use portrait. A3 is removed. Cards must reflow to the selected page width and remain together whenever they fit a page. The approved print font sizes below are unchanged. This amendment supersedes the prior all-landscape default and larger-paper option.
+
+The retained typography amendment increases only **الأجندة المعتمدة** and **المواضيع المستجدة** category labels from 14px to **18px Dubai Regular Ink** on screen. Their figures remain 28px and changes 15px. Print retains 9pt labels, 20pt figures and 11pt changes. Other short value/status labels and strategy names remain 14px. The search-home title also moves 4px upward from v132; its 36px size and the logo, search-field and action positions stay unchanged.
 
 All supporting text in this table uses the supplied Dubai Regular face; numeric figures use DIN Next LT Arabic Regular. The latest **18px** subgroup-name approval replaces the earlier **28px proposal**.
 
@@ -281,6 +283,28 @@ report so that the printed footer contains only the required copyright and pages
 The legal line is **الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة**.
 Use the applicable copyright year without changing the organisation or legal wording.
 
+## Approved A4 paper orientation
+
+| Document / export | Orientation | Sheet dimensions (width × height) |
+| --- | --- | --- |
+| Annual agenda — dedicated view and agenda report | A4 landscape | 297 × 210mm |
+| Council decisions — dedicated view and council report | A4 landscape | 297 × 210mm |
+| HH / leadership report | A4 landscape | 297 × 210mm |
+| Monthly dashboard / monthly report | A4 portrait | 210 × 297mm |
+| Projects portfolio and project report | A4 portrait | 210 × 297mm |
+| Entity report | A4 portrait | 210 × 297mm |
+| Monthly comparison | A4 portrait | 210 × 297mm |
+| Search results | A4 portrait | 210 × 297mm |
+| All remaining printable pages / exports | A4 portrait | 210 × 297mm |
+
+**Paper:** A4 only; remove A3 settings and options. **Margins:** 10mm on every side. Landscape provides a nominal 277 × 190mm content area; portrait provides 190 × 277mm, subject to the required footer clearance.
+
+**Portrait composition:** stack cards in a single column by default; reflow summary metrics into a compact grid that fits the page width. Keep each card or box together when its full content fits one page. Keep table rows together when possible, repeat column headings and wrap Arabic naturally. If a card or row is taller than the usable page, allow a readable continuation. Add pages as content requires; do not shrink the whole report, clip content or force a fixed number of pages. Preserve all source values, notes, table fields, units and selected filters.
+
+The orientation follows the document type. A project report uses portrait even though it is a report page; only agenda, council and HH use the landscape exception. The A4 rules govern the browser-print/PDF workflow. They do not redefine PowerPoint slide or workbook sheet templates.
+
+The revised entity concept retains its approved screen treatment. Its future print composition uses A4 portrait under this amendment; the existing concept package contains no implemented entity PDF export.
+
 ## Approved print scale
 
 Print uses its own approved sizes. The latest subgroup, short-label and strategy-label screen-size amendments do not automatically resize print. Keep the sizes below; use the updated text-color roles and solid financial bars in print as well. Verify the actual rendered PDF after implementation; page count follows the content.
@@ -300,7 +324,7 @@ Print uses its own approved sizes. The latest subgroup, short-label and strategy
 | Permitted metadata and copyright/page numbering | Dubai Regular | 10.5pt |
 | Entity filter, label and selected-value field | Screen only | Hidden in print |
 
-Use A4 landscape with 10mm margins. Larger paper remains an export option for wider reports. Avoid forced two-page output or a fixed whole-page shrink factor. If an unusually tall row cannot fit a page, allow a readable continuation instead of clipping it.
+Use the document-specific A4 orientation above with 10mm margins. A3 is not part of the approved setup. Avoid forced two-page output or a fixed whole-page shrink factor. If an unusually tall row cannot fit a page, allow a readable continuation instead of clipping it.
 
 Entity selection continues to determine the exported rows and figures; hiding its printed field does not reset the selected filter. This rule does not remove entity names where they are part of the report's actual table content.
 
@@ -331,7 +355,7 @@ Project count/money bars retain the table's shared zero-to-largest-row scale. Pr
 
 ## Approval and historical previews
 
-Revision 7 is the current approved standard, implemented in **Performance App v133**. It preserves the approved Search, Navigation and Print setup and adds the latest monthly-card typography, supporting-text colors and solid financial bars. Search spacing and all three report links are corrected in the final app. See **VERIFICATION-v133.md** for the agenda-label and search-title amendment checks and **VERIFICATION-v132.md** for the comprehensive baseline screen, mobile, interaction, source-regression and native PDF checks using an illustrative workbook. Earlier verification files describe their respective historical releases.
+Revision 8 is the current approved specification. Its A4 orientation and A3-removal amendment is **pending implementation**. **Performance App v133** remains the released implementation of Revision 7. It preserves the approved Search, Navigation and Print setup and adds the latest monthly-card typography, supporting-text colors and solid financial bars. Search spacing and all three report links are corrected in the final app. See **VERIFICATION-v133.md** for the agenda-label and search-title amendment checks and **VERIFICATION-v132.md** for the comprehensive baseline screen, mobile, interaction, source-regression and native PDF checks using an illustrative workbook. Earlier verification files describe their respective historical releases.
 
 - [Typography colors and exact TEC palette — historical](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Color-Previews)
 - [Actual bundled font samples](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Font-Previews)
@@ -341,4 +365,4 @@ Revision 7 is the current approved standard, implemented in **Performance App v1
 
 Earlier images may show 18px screen badges, title subtitles, oversized side-by-side labels, 28px subgroup names or hatched financial bars. They do not override this document. The subgroup names in the last compact preview are superseded by the latest **18px** approval. The rejected oversized-label concept is not the approved card arrangement.
 
-This is an app-specific approved standard, not an official TEC brand manual or accessibility certification. Source records, values, calculation definitions and filter behavior remain unchanged. Implementation and actual screen/PDF verification are recorded with the v132 baseline and v133 label/title amendments; native Windows file opening and physical printing remain untested.
+This is an app-specific approved standard, not an official TEC brand manual or accessibility certification. Source records, values, calculation definitions and filter behavior remain unchanged. Existing screen/PDF verification covers the v132 baseline and v133 label/title amendments. The Revision 8 portrait compositions have not yet been implemented or rendered as app PDF exports; native Windows file opening and physical printing remain untested.
