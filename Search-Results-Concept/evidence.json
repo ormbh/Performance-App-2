@@ -1,0 +1,60 @@
+{
+  "mode": "Concept only; no app source changes",
+  "data": "Frozen illustrative workbook",
+  "fixtureSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "query": "استراتيجي 006",
+  "before": {
+    "desktop": {
+      "width": 1440,
+      "docWidth": 1440,
+      "tableTop": 344,
+      "firstRowTop": 410,
+      "rows": 4
+    },
+    "mobile": {
+      "width": 390,
+      "docWidth": 390,
+      "tableTop": 618.890625,
+      "firstRowTop": 710.484375,
+      "rows": 4
+    }
+  },
+  "after": {
+    "desktop": {
+      "width": 1440,
+      "docWidth": 1440,
+      "tableTop": 266.390625,
+      "firstRowTop": 332.390625,
+      "rows": 4
+    },
+    "mobile": {
+      "width": 390,
+      "docWidth": 390,
+      "tableTop": 351.390625,
+      "firstRowTop": 351.390625,
+      "rows": 4
+    },
+    "mobile320": {
+      "width": 320,
+      "docWidth": 320,
+      "tableTop": 351.390625,
+      "firstRowTop": 351.390625,
+      "rows": 4
+    }
+  },
+  "sourceOrderScopeUnchanged": true,
+  "fullDetailOpens": true,
+  "afterFirstKey": "secretariat-7",
+  "desktopBoard": {
+    "x": 0,
+    "y": 0,
+    "width": 1504,
+    "height": 2149.5
+  },
+  "mobileBoard": {
+    "x": 0,
+    "y": 0,
+    "width": 868,
+    "height": 1127.65625
+  }
+}
