@@ -1,0 +1,72 @@
+{
+  "result": "PASS",
+  "cases": [
+    {
+      "name": "Unrestricted all",
+      "text": "الكل",
+      "selectionUnchanged": true
+    },
+    {
+      "name": "First chosen follows click order not option order",
+      "text": "جيم +1",
+      "selectionUnchanged": true
+    },
+    {
+      "name": "Every explicit choice selected",
+      "text": "الكل",
+      "selectionUnchanged": true
+    },
+    {
+      "name": "Single blank remains a source choice",
+      "text": "غير مسجل",
+      "selectionUnchanged": true
+    },
+    {
+      "name": "Aliases count as one visible selection",
+      "text": "ألف +1",
+      "selectionUnchanged": true
+    },
+    {
+      "name": "Only some alias tokens selected does not claim all",
+      "text": "ألف +2",
+      "selectionUnchanged": true
+    },
+    {
+      "name": "All exact aliases selected",
+      "text": "الكل",
+      "selectionUnchanged": true
+    },
+    {
+      "name": "Stale selected value remains visible",
+      "text": "قديم (غير موجود ضمن الخيارات الحالية) +1",
+      "selectionUnchanged": true
+    },
+    {
+      "name": "Empty options do not invent a count",
+      "text": "الكل",
+      "selectionUnchanged": true
+    }
+  ],
+  "sourceAndControlFilesIdentical": [
+    "assets/js/model/checks.js",
+    "assets/js/model/comparison.js",
+    "assets/js/model/entities-leadership.js",
+    "assets/js/model/entities.js",
+    "assets/js/model/loader.js",
+    "assets/js/model/order.js",
+    "assets/js/model/organization-reference.js",
+    "assets/js/model/portfolio-delivery.js",
+    "assets/js/model/projects-pmo.js",
+    "assets/js/model/rules.js",
+    "assets/js/model/schema.js",
+    "assets/js/model/search.js",
+    "assets/js/model/terms.js",
+    "assets/js/model/util.js",
+    "assets/js/app.js",
+    "assets/js/views/monthly-print.js",
+    "assets/js/lib/offline-pdf-engine.js",
+    "assets/css/app-bundle.css",
+    "assets/css/print-measure-bundle.css"
+  ],
+  "runtimeSHA256": "90f73e067c63eaf3e96cc5898be9f54977d1d49236dc64d6896873acb2a14452"
+}

@@ -1,0 +1,11 @@
+{
+  "build": "141",
+  "manifestFiles": 180,
+  "zipBytes": 9586486,
+  "zipSha256": "2a03b393f084f1ba25b1a436ae0eaa9bcf2c246349f8c051a13fa43d37becd66",
+  "completeFileSetVerified": true,
+  "allManifestHashesVerified": true,
+  "runtimeMatchesTestedCandidate": true,
+  "sourceWorkbooksAndQAExcluded": true,
+  "finalExtraction": "/workspace/saytara-work/release-check-v141/Performance-App-v141"
+}

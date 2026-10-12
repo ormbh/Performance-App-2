@@ -1,0 +1,368 @@
+{
+  "checks": [
+    {
+      "check": "sector trigger الكل",
+      "pass": true,
+      "detail": "الكل"
+    },
+    {
+      "check": "sector PDF DOM same الكل",
+      "pass": true,
+      "detail": "الكل"
+    },
+    {
+      "check": "unit trigger الكل",
+      "pass": true,
+      "detail": "الكل"
+    },
+    {
+      "check": "unit PDF DOM same الكل",
+      "pass": true,
+      "detail": "الكل"
+    },
+    {
+      "check": "entity trigger الكل",
+      "pass": true,
+      "detail": "الكل"
+    },
+    {
+      "check": "unit trigger مكتب خطة دبي",
+      "pass": true,
+      "detail": "مكتب خطة دبي"
+    },
+    {
+      "check": "unit PDF DOM same مكتب خطة دبي",
+      "pass": true,
+      "detail": "مكتب خطة دبي"
+    },
+    {
+      "check": "unit trigger مكتب خطة دبي +1",
+      "pass": true,
+      "detail": "مكتب خطة دبي +1"
+    },
+    {
+      "check": "unit PDF DOM same مكتب خطة دبي +1",
+      "pass": true,
+      "detail": "مكتب خطة دبي +1"
+    },
+    {
+      "check": "unit trigger مكتب خطة دبي +2",
+      "pass": true,
+      "detail": "مكتب خطة دبي +2"
+    },
+    {
+      "check": "unit PDF DOM same مكتب خطة دبي +2",
+      "pass": true,
+      "detail": "مكتب خطة دبي +2"
+    },
+    {
+      "check": "unit trigger مكتب خطة دبي +3",
+      "pass": true,
+      "detail": "مكتب خطة دبي +3"
+    },
+    {
+      "check": "unit PDF DOM same مكتب خطة دبي +3",
+      "pass": true,
+      "detail": "مكتب خطة دبي +3"
+    },
+    {
+      "check": "fourunits in selection order scope/counts/followups equalv140",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "units-partial-continuous downloadname matches request",
+      "pass": true,
+      "detail": "التقرير_الشهري_للأداء_Sep_26_مكتب_خطة_دبي_+3.pdf"
+    },
+    {
+      "check": "units-partial-continuous filename uses report month Sep26",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "units-partial-continuous native PDF header مكتب خطة دبي",
+      "pass": true,
+      "detail": "لتاريخ- التقرير الشهري للأداء والتنفيذ30/09/2026\n :القطاع\nالكل · \n :الوحدة التنظيمية مكتب خطة دبي+3\nمحافظ المتابعة التنفيذية\nمحفظة المشاريع"
+    },
+    {
+      "check": "units-partial-continuous native PDF header +3",
+      "pass": true,
+      "detail": "لتاريخ- التقرير الشهري للأداء والتنفيذ30/09/2026\n :القطاع\nالكل · \n :الوحدة التنظيمية مكتب خطة دبي+3\nمحافظ المتابعة التنفيذية\nمحفظة المشاريع"
+    },
+    {
+      "check": "units-partial-continuous native PDF header الكل",
+      "pass": true,
+      "detail": "لتاريخ- التقرير الشهري للأداء والتنفيذ30/09/2026\n :القطاع\nالكل · \n :الوحدة التنظيمية مكتب خطة دبي+3\nمحافظ المتابعة التنفيذية\nمحفظة المشاريع"
+    },
+    {
+      "check": "units-partial-continuous correct output profile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "units-partial-continuous export preserves source scope andcounts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "units-partial-continuous0 text bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "unit trigger مكتب الأمين العام +2",
+      "pass": true,
+      "detail": "مكتب الأمين العام +2"
+    },
+    {
+      "check": "unit PDF DOM same مكتب الأمين العام +2",
+      "pass": true,
+      "detail": "مكتب الأمين العام +2"
+    },
+    {
+      "check": "unit trigger مكتب الأمين العام +3",
+      "pass": true,
+      "detail": "مكتب الأمين العام +3"
+    },
+    {
+      "check": "unit PDF DOM same مكتب الأمين العام +3",
+      "pass": true,
+      "detail": "مكتب الأمين العام +3"
+    },
+    {
+      "check": "unit trigger مكتب الأمين العام +3",
+      "pass": true,
+      "detail": "مكتب الأمين العام +3"
+    },
+    {
+      "check": "unit PDF DOM same مكتب الأمين العام +3",
+      "pass": true,
+      "detail": "مكتب الأمين العام +3"
+    },
+    {
+      "check": "unit trigger الكل",
+      "pass": true,
+      "detail": "الكل"
+    },
+    {
+      "check": "unit PDF DOM same الكل",
+      "pass": true,
+      "detail": "الكل"
+    },
+    {
+      "check": "explicit allunits scope/counts/followups equalv140",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "allselected retains explicit source tokens",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "units-all-continuous downloadname matches request",
+      "pass": true,
+      "detail": "التقرير_الشهري_للأداء_Sep_26.pdf"
+    },
+    {
+      "check": "units-all-continuous filename uses report month Sep26",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "units-all-continuous native PDF header القطاع",
+      "pass": true,
+      "detail": "لتاريخ- التقرير الشهري للأداء والتنفيذ30/09/2026\n :القطاع\nالكل · \n :الوحدة التنظيمية\nالكل\nمحافظ المتابعة التنفيذية\nمحفظة المشاريع"
+    },
+    {
+      "check": "units-all-continuous native PDF header الوحدة التنظيمية",
+      "pass": true,
+      "detail": "لتاريخ- التقرير الشهري للأداء والتنفيذ30/09/2026\n :القطاع\nالكل · \n :الوحدة التنظيمية\nالكل\nمحافظ المتابعة التنفيذية\nمحفظة المشاريع"
+    },
+    {
+      "check": "units-all-continuous native PDF header الكل",
+      "pass": true,
+      "detail": "لتاريخ- التقرير الشهري للأداء والتنفيذ30/09/2026\n :القطاع\nالكل · \n :الوحدة التنظيمية\nالكل\nمحافظ المتابعة التنفيذية\nمحفظة المشاريع"
+    },
+    {
+      "check": "units-all-continuous correct output profile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "units-all-continuous export preserves source scope andcounts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "units-all-continuous0 text bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "unit trigger الكل",
+      "pass": true,
+      "detail": "الكل"
+    },
+    {
+      "check": "unit PDF DOM same الكل",
+      "pass": true,
+      "detail": "الكل"
+    },
+    {
+      "check": "clear remains unrestricted",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "sector trigger الاقتصاد والتنمية الاجتماعية",
+      "pass": true,
+      "detail": "الاقتصاد والتنمية الاجتماعية"
+    },
+    {
+      "check": "sector PDF DOM same الاقتصاد والتنمية الاجتماعية",
+      "pass": true,
+      "detail": "الاقتصاد والتنمية الاجتماعية"
+    },
+    {
+      "check": "sector trigger الاقتصاد والتنمية الاجتماعية +1",
+      "pass": true,
+      "detail": "الاقتصاد والتنمية الاجتماعية +1"
+    },
+    {
+      "check": "sector PDF DOM same الاقتصاد والتنمية الاجتماعية +1",
+      "pass": true,
+      "detail": "الاقتصاد والتنمية الاجتماعية +1"
+    },
+    {
+      "check": "twosectors union scope/counts/followups equalv140",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "unit trigger غير مسجل +1",
+      "pass": true,
+      "detail": "غير مسجل +1"
+    },
+    {
+      "check": "unit PDF DOM same غير مسجل +1",
+      "pass": true,
+      "detail": "غير مسجل +1"
+    },
+    {
+      "check": "sector and unit intersection scope/counts/followups equalv140",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "sector-unit-partial-a4 downloadname matches request",
+      "pass": true,
+      "detail": "التقرير_الشهري_للأداء_Sep_26_غير_مسجل_+1.pdf"
+    },
+    {
+      "check": "sector-unit-partial-a4 filename uses report month Sep26",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "sector-unit-partial-a4 native PDF header الاقتصاد والتنمية الاجتماعية",
+      "pass": true,
+      "detail": "لتاريخ- التقرير الشهري للأداء والتنفيذ\n30/09/2026\n :القطاع الاقتصاد والتنمية الاجتماعية+1\n · \n :الوحدة التنظيمية غير مسجل+1"
+    },
+    {
+      "check": "sector-unit-partial-a4 native PDF header غير مسجل",
+      "pass": true,
+      "detail": "لتاريخ- التقرير الشهري للأداء والتنفيذ\n30/09/2026\n :القطاع الاقتصاد والتنمية الاجتماعية+1\n · \n :الوحدة التنظيمية غير مسجل+1"
+    },
+    {
+      "check": "sector-unit-partial-a4 native PDF header +1",
+      "pass": true,
+      "detail": "لتاريخ- التقرير الشهري للأداء والتنفيذ\n30/09/2026\n :القطاع الاقتصاد والتنمية الاجتماعية+1\n · \n :الوحدة التنظيمية غير مسجل+1"
+    },
+    {
+      "check": "sector-unit-partial-a4 correct output profile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "sector-unit-partial-a4 export preserves source scope andcounts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "sector-unit-partial-a40 text bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "sector-unit-partial-a41 text bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "390px no horizontal overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "unit trigger الكل",
+      "pass": true,
+      "detail": "الكل"
+    },
+    {
+      "check": "unit PDF DOM same الكل",
+      "pass": true,
+      "detail": "الكل"
+    },
+    {
+      "check": "cascaded allunits retains intersection scope/counts/followups equalv140",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "entity trigger القيادة العامة للدفاع المدني - دبي +1",
+      "pass": true,
+      "detail": "القيادة العامة للدفاع المدني - دبي +1"
+    },
+    {
+      "check": "entity header exclusion retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no browser runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "cases": {
+    "units-partial-continuous": {
+      "pages": 1,
+      "filename": "التقرير_الشهري_للأداء_Sep_26_مكتب_خطة_دبي_+3.pdf",
+      "header": "لتاريخ- التقرير الشهري للأداء والتنفيذ30/09/2026\n :القطاع\nالكل · \n :الوحدة التنظيمية مكتب خطة دبي+3\nمحافظ المتابعة التنفيذية\nمحفظة المشاريع",
+      "sha256": "6cbc55d391c98a881a95645cb495a084883ee4ed4911f850de98d15e6de8e2d8"
+    },
+    "units-all-continuous": {
+      "pages": 1,
+      "filename": "التقرير_الشهري_للأداء_Sep_26.pdf",
+      "header": "لتاريخ- التقرير الشهري للأداء والتنفيذ30/09/2026\n :القطاع\nالكل · \n :الوحدة التنظيمية\nالكل\nمحافظ المتابعة التنفيذية\nمحفظة المشاريع",
+      "sha256": "b647289092ac92e3e09c89d24d776bead06da2705a0eb0ca4d7b465a1c557777"
+    },
+    "sector-unit-partial-a4": {
+      "pages": 2,
+      "filename": "التقرير_الشهري_للأداء_Sep_26_غير_مسجل_+1.pdf",
+      "header": "لتاريخ- التقرير الشهري للأداء والتنفيذ\n30/09/2026\n :القطاع الاقتصاد والتنمية الاجتماعية+1\n · \n :الوحدة التنظيمية غير مسجل+1",
+      "sha256": "1d71c10c4b843b5d5ae0d7ca7191df003ae3b0a5b6cad38a34479432058e45f7"
+    }
+  },
+  "result": "PASS",
+  "bundleSha256": {
+    "assets/js/app-bundle.js": "90f73e067c63eaf3e96cc5898be9f54977d1d49236dc64d6896873acb2a14452",
+    "assets/css/app-bundle.css": "c5dca03eb8791f003de61a1519e27d76557ec23f0eafb24d40c4cf7ab43347d4",
+    "assets/css/print-measure-bundle.css": "b9c76b378417f9c84f09cfc9dd29252c0086172b37bff0eacc0bdd93f0163cd8",
+    "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "checks": [
+    {
+      "check": "extracted build141",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "extracted all has no number",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "extracted partial first+count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "extracted actual filename",
+      "pass": true,
+      "detail": "التقرير_الشهري_للأداء_Sep_26_مكتب_خطة_دبي_+1.pdf"
+    },
+    {
+      "check": "extracted continuous PDF onepage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "extracted native header",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no extracted runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "result": "PASS",
+  "zipSha256": "2a03b393f084f1ba25b1a436ae0eaa9bcf2c246349f8c051a13fa43d37becd66",
+  "pdfSha256": "71b2bb102875151f90ae279137b1b450a0a113c6c4fc1eefc96a73e34ce63939"
+}
