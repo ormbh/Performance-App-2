@@ -1,0 +1,32 @@
+{
+  "boxes": [
+    {
+      "text": "الأجندة المعتمدة\n100\n↓ −1",
+      "x": 1446,
+      "y": 666.734375,
+      "width": 419,
+      "height": 76.390625,
+      "background": "rgb(239, 235, 231)",
+      "radius": "9px",
+      "labelFont": "\"TEC Dubai\", sans-serif",
+      "labelSize": "18px",
+      "valueFont": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+      "valueSize": "28px"
+    },
+    {
+      "text": "المواضيع المستجدة\n17\n↑ +4",
+      "x": 1015,
+      "y": 666.734375,
+      "width": 419,
+      "height": 76.390625,
+      "background": "rgb(239, 235, 231)",
+      "radius": "9px",
+      "labelFont": "\"TEC Dubai\", sans-serif",
+      "labelSize": "18px",
+      "valueFont": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+      "valueSize": "28px"
+    }
+  ],
+  "gap": 12,
+  "overflow": false
+}
