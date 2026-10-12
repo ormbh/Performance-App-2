@@ -1,0 +1,437 @@
+{
+  "result": "PASS",
+  "officialSectors": 6,
+  "officialUnits": 23,
+  "cases": [
+    {
+      "name": "sector approved mapping الأمانة العامة للمجلس التنفيذي variant 0",
+      "result": "TEC_Monthly_Sep_26_General_Secretariat_of_the_Executive_Council.pdf"
+    },
+    {
+      "name": "sector approved mapping الأمانة العامة للمجلس التنفيذي variant 1",
+      "result": "TEC_Monthly_Sep_26_General_Secretariat_of_the_Executive_Council.pdf"
+    },
+    {
+      "name": "sector approved mapping الأمانة العامة للمجلس التنفيذي variant 2",
+      "result": "TEC_Monthly_Sep_26_General_Secretariat_of_the_Executive_Council.pdf"
+    },
+    {
+      "name": "sector approved mapping الحوكمة variant 0",
+      "result": "TEC_Monthly_Sep_26_Governance_Sector.pdf"
+    },
+    {
+      "name": "sector approved mapping الحوكمة variant 1",
+      "result": "TEC_Monthly_Sep_26_Governance_Sector.pdf"
+    },
+    {
+      "name": "sector approved mapping الحوكمة variant 2",
+      "result": "TEC_Monthly_Sep_26_Governance_Sector.pdf"
+    },
+    {
+      "name": "sector approved mapping التنمية المستدامة variant 0",
+      "result": "TEC_Monthly_Sep_26_Sustainable_Development_Sector.pdf"
+    },
+    {
+      "name": "sector approved mapping التنمية المستدامة variant 1",
+      "result": "TEC_Monthly_Sep_26_Sustainable_Development_Sector.pdf"
+    },
+    {
+      "name": "sector approved mapping التنمية المستدامة variant 2",
+      "result": "TEC_Monthly_Sep_26_Sustainable_Development_Sector.pdf"
+    },
+    {
+      "name": "sector approved mapping الاقتصاد والتنمية الاجتماعية variant 0",
+      "result": "TEC_Monthly_Sep_26_Socioeconomic_Sector.pdf"
+    },
+    {
+      "name": "sector approved mapping الاقتصاد والتنمية الاجتماعية variant 1",
+      "result": "TEC_Monthly_Sep_26_Socioeconomic_Sector.pdf"
+    },
+    {
+      "name": "sector approved mapping الاقتصاد والتنمية الاجتماعية variant 2",
+      "result": "TEC_Monthly_Sep_26_Socioeconomic_Sector.pdf"
+    },
+    {
+      "name": "sector approved mapping التميز والخدمات الحكومية variant 0",
+      "result": "TEC_Monthly_Sep_26_Excellence_and_Government_Services_Sector.pdf"
+    },
+    {
+      "name": "sector approved mapping التميز والخدمات الحكومية variant 1",
+      "result": "TEC_Monthly_Sep_26_Excellence_and_Government_Services_Sector.pdf"
+    },
+    {
+      "name": "sector approved mapping التميز والخدمات الحكومية variant 2",
+      "result": "TEC_Monthly_Sep_26_Excellence_and_Government_Services_Sector.pdf"
+    },
+    {
+      "name": "sector approved mapping الاتصال الحكومي وشؤون الأمانة العامة variant 0",
+      "result": "TEC_Monthly_Sep_26_Government_Communication_and_General_Secretariat_Affairs_Sector.pdf"
+    },
+    {
+      "name": "sector approved mapping الاتصال الحكومي وشؤون الأمانة العامة variant 1",
+      "result": "TEC_Monthly_Sep_26_Government_Communication_and_General_Secretariat_Affairs_Sector.pdf"
+    },
+    {
+      "name": "sector approved mapping الاتصال الحكومي وشؤون الأمانة العامة variant 2",
+      "result": "TEC_Monthly_Sep_26_Government_Communication_and_General_Secretariat_Affairs_Sector.pdf"
+    },
+    {
+      "name": "unit approved mapping مكتب الأمين العام variant 0",
+      "result": "TEC_Monthly_Sep_26_Secretary_General.pdf"
+    },
+    {
+      "name": "unit approved mapping مكتب الأمين العام variant 1",
+      "result": "TEC_Monthly_Sep_26_Secretary_General.pdf"
+    },
+    {
+      "name": "unit approved mapping مكتب الأمين العام variant 2",
+      "result": "TEC_Monthly_Sep_26_Secretary_General.pdf"
+    },
+    {
+      "name": "unit approved mapping الشراكات والعلاقات الدولية variant 0",
+      "result": "TEC_Monthly_Sep_26_Partnerships_and_International_Relations.pdf"
+    },
+    {
+      "name": "unit approved mapping الشراكات والعلاقات الدولية variant 1",
+      "result": "TEC_Monthly_Sep_26_Partnerships_and_International_Relations.pdf"
+    },
+    {
+      "name": "unit approved mapping الشراكات والعلاقات الدولية variant 2",
+      "result": "TEC_Monthly_Sep_26_Partnerships_and_International_Relations.pdf"
+    },
+    {
+      "name": "unit approved mapping مكتب التدقيق الداخلي variant 0",
+      "result": "TEC_Monthly_Sep_26_Internal_Audit_Office.pdf"
+    },
+    {
+      "name": "unit approved mapping مكتب التدقيق الداخلي variant 1",
+      "result": "TEC_Monthly_Sep_26_Internal_Audit_Office.pdf"
+    },
+    {
+      "name": "unit approved mapping مكتب التدقيق الداخلي variant 2",
+      "result": "TEC_Monthly_Sep_26_Internal_Audit_Office.pdf"
+    },
+    {
+      "name": "unit approved mapping مكتب خطة دبي variant 0",
+      "result": "TEC_Monthly_Sep_26_Dubai_Plan_Office.pdf"
+    },
+    {
+      "name": "unit approved mapping مكتب خطة دبي variant 1",
+      "result": "TEC_Monthly_Sep_26_Dubai_Plan_Office.pdf"
+    },
+    {
+      "name": "unit approved mapping مكتب خطة دبي variant 2",
+      "result": "TEC_Monthly_Sep_26_Dubai_Plan_Office.pdf"
+    },
+    {
+      "name": "unit approved mapping الأبحاث والرصد variant 0",
+      "result": "TEC_Monthly_Sep_26_Research_and_Sensing.pdf"
+    },
+    {
+      "name": "unit approved mapping الأبحاث والرصد variant 1",
+      "result": "TEC_Monthly_Sep_26_Research_and_Sensing.pdf"
+    },
+    {
+      "name": "unit approved mapping الأبحاث والرصد variant 2",
+      "result": "TEC_Monthly_Sep_26_Research_and_Sensing.pdf"
+    },
+    {
+      "name": "unit approved mapping الحوكمة variant 0",
+      "result": "TEC_Monthly_Sep_26_Governance.pdf"
+    },
+    {
+      "name": "unit approved mapping الحوكمة variant 1",
+      "result": "TEC_Monthly_Sep_26_Governance.pdf"
+    },
+    {
+      "name": "unit approved mapping الحوكمة variant 2",
+      "result": "TEC_Monthly_Sep_26_Governance.pdf"
+    },
+    {
+      "name": "unit approved mapping التشريعات الحكومية variant 0",
+      "result": "TEC_Monthly_Sep_26_Government_Legislations.pdf"
+    },
+    {
+      "name": "unit approved mapping التشريعات الحكومية variant 1",
+      "result": "TEC_Monthly_Sep_26_Government_Legislations.pdf"
+    },
+    {
+      "name": "unit approved mapping التشريعات الحكومية variant 2",
+      "result": "TEC_Monthly_Sep_26_Government_Legislations.pdf"
+    },
+    {
+      "name": "unit approved mapping التنفيذ والأداء variant 0",
+      "result": "TEC_Monthly_Sep_26_Performance_and_Effectiveness.pdf"
+    },
+    {
+      "name": "unit approved mapping التنفيذ والأداء variant 1",
+      "result": "TEC_Monthly_Sep_26_Performance_and_Effectiveness.pdf"
+    },
+    {
+      "name": "unit approved mapping التنفيذ والأداء variant 2",
+      "result": "TEC_Monthly_Sep_26_Performance_and_Effectiveness.pdf"
+    },
+    {
+      "name": "unit approved mapping السياسات والاستراتيجيات الصحية والعدل variant 0",
+      "result": "TEC_Monthly_Sep_26_Health_and_Justice_Policies_and_Strategies.pdf"
+    },
+    {
+      "name": "unit approved mapping السياسات والاستراتيجيات الصحية والعدل variant 1",
+      "result": "TEC_Monthly_Sep_26_Health_and_Justice_Policies_and_Strategies.pdf"
+    },
+    {
+      "name": "unit approved mapping السياسات والاستراتيجيات الصحية والعدل variant 2",
+      "result": "TEC_Monthly_Sep_26_Health_and_Justice_Policies_and_Strategies.pdf"
+    },
+    {
+      "name": "unit approved mapping السياسات والاستراتيجيات البيئية والبنية التحتية variant 0",
+      "result": "TEC_Monthly_Sep_26_Environment_and_Infrastructure_Policies_and_Strategies.pdf"
+    },
+    {
+      "name": "unit approved mapping السياسات والاستراتيجيات البيئية والبنية التحتية variant 1",
+      "result": "TEC_Monthly_Sep_26_Environment_and_Infrastructure_Policies_and_Strategies.pdf"
+    },
+    {
+      "name": "unit approved mapping السياسات والاستراتيجيات البيئية والبنية التحتية variant 2",
+      "result": "TEC_Monthly_Sep_26_Environment_and_Infrastructure_Policies_and_Strategies.pdf"
+    },
+    {
+      "name": "unit approved mapping السياسات والإستراتيجيات الاجتماعية variant 0",
+      "result": "TEC_Monthly_Sep_26_Social_Policies_and_Strategies.pdf"
+    },
+    {
+      "name": "unit approved mapping السياسات والإستراتيجيات الاجتماعية variant 1",
+      "result": "TEC_Monthly_Sep_26_Social_Policies_and_Strategies.pdf"
+    },
+    {
+      "name": "unit approved mapping السياسات والإستراتيجيات الاجتماعية variant 2",
+      "result": "TEC_Monthly_Sep_26_Social_Policies_and_Strategies.pdf"
+    },
+    {
+      "name": "unit approved mapping السياسات والإستراتيجيات الاقتصادية variant 0",
+      "result": "TEC_Monthly_Sep_26_Economic_Policies_and_Strategies.pdf"
+    },
+    {
+      "name": "unit approved mapping السياسات والإستراتيجيات الاقتصادية variant 1",
+      "result": "TEC_Monthly_Sep_26_Economic_Policies_and_Strategies.pdf"
+    },
+    {
+      "name": "unit approved mapping السياسات والإستراتيجيات الاقتصادية variant 2",
+      "result": "TEC_Monthly_Sep_26_Economic_Policies_and_Strategies.pdf"
+    },
+    {
+      "name": "unit approved mapping التقييم والدراسات variant 0",
+      "result": "TEC_Monthly_Sep_26_Assessment_and_Studies.pdf"
+    },
+    {
+      "name": "unit approved mapping التقييم والدراسات variant 1",
+      "result": "TEC_Monthly_Sep_26_Assessment_and_Studies.pdf"
+    },
+    {
+      "name": "unit approved mapping التقييم والدراسات variant 2",
+      "result": "TEC_Monthly_Sep_26_Assessment_and_Studies.pdf"
+    },
+    {
+      "name": "unit approved mapping التميز والخدمات الحكومية variant 0",
+      "result": "TEC_Monthly_Sep_26_Excellence_and_Government_Services.pdf"
+    },
+    {
+      "name": "unit approved mapping التميز والخدمات الحكومية variant 1",
+      "result": "TEC_Monthly_Sep_26_Excellence_and_Government_Services.pdf"
+    },
+    {
+      "name": "unit approved mapping التميز والخدمات الحكومية variant 2",
+      "result": "TEC_Monthly_Sep_26_Excellence_and_Government_Services.pdf"
+    },
+    {
+      "name": "unit approved mapping الاتصال الحكومي variant 0",
+      "result": "TEC_Monthly_Sep_26_Government_Communication.pdf"
+    },
+    {
+      "name": "unit approved mapping الاتصال الحكومي variant 1",
+      "result": "TEC_Monthly_Sep_26_Government_Communication.pdf"
+    },
+    {
+      "name": "unit approved mapping الاتصال الحكومي variant 2",
+      "result": "TEC_Monthly_Sep_26_Government_Communication.pdf"
+    },
+    {
+      "name": "unit approved mapping الاتصال الداخلي variant 0",
+      "result": "TEC_Monthly_Sep_26_Internal_Communication.pdf"
+    },
+    {
+      "name": "unit approved mapping الاتصال الداخلي variant 1",
+      "result": "TEC_Monthly_Sep_26_Internal_Communication.pdf"
+    },
+    {
+      "name": "unit approved mapping الاتصال الداخلي variant 2",
+      "result": "TEC_Monthly_Sep_26_Internal_Communication.pdf"
+    },
+    {
+      "name": "unit approved mapping الخدمات المؤسسية variant 0",
+      "result": "TEC_Monthly_Sep_26_Corporate_Services.pdf"
+    },
+    {
+      "name": "unit approved mapping الخدمات المؤسسية variant 1",
+      "result": "TEC_Monthly_Sep_26_Corporate_Services.pdf"
+    },
+    {
+      "name": "unit approved mapping الخدمات المؤسسية variant 2",
+      "result": "TEC_Monthly_Sep_26_Corporate_Services.pdf"
+    },
+    {
+      "name": "unit approved mapping تميز الموارد البشرية variant 0",
+      "result": "TEC_Monthly_Sep_26_People_Excellence.pdf"
+    },
+    {
+      "name": "unit approved mapping تميز الموارد البشرية variant 1",
+      "result": "TEC_Monthly_Sep_26_People_Excellence.pdf"
+    },
+    {
+      "name": "unit approved mapping تميز الموارد البشرية variant 2",
+      "result": "TEC_Monthly_Sep_26_People_Excellence.pdf"
+    },
+    {
+      "name": "unit approved mapping المشتريات والشؤون الإدارية variant 0",
+      "result": "TEC_Monthly_Sep_26_Procurement_and_Administration.pdf"
+    },
+    {
+      "name": "unit approved mapping المشتريات والشؤون الإدارية variant 1",
+      "result": "TEC_Monthly_Sep_26_Procurement_and_Administration.pdf"
+    },
+    {
+      "name": "unit approved mapping المشتريات والشؤون الإدارية variant 2",
+      "result": "TEC_Monthly_Sep_26_Procurement_and_Administration.pdf"
+    },
+    {
+      "name": "unit approved mapping تقنية المعلومات variant 0",
+      "result": "TEC_Monthly_Sep_26_Information_Technology.pdf"
+    },
+    {
+      "name": "unit approved mapping تقنية المعلومات variant 1",
+      "result": "TEC_Monthly_Sep_26_Information_Technology.pdf"
+    },
+    {
+      "name": "unit approved mapping تقنية المعلومات variant 2",
+      "result": "TEC_Monthly_Sep_26_Information_Technology.pdf"
+    },
+    {
+      "name": "unit approved mapping المالية والحسابات variant 0",
+      "result": "TEC_Monthly_Sep_26_Finance_and_Accounts.pdf"
+    },
+    {
+      "name": "unit approved mapping المالية والحسابات variant 1",
+      "result": "TEC_Monthly_Sep_26_Finance_and_Accounts.pdf"
+    },
+    {
+      "name": "unit approved mapping المالية والحسابات variant 2",
+      "result": "TEC_Monthly_Sep_26_Finance_and_Accounts.pdf"
+    },
+    {
+      "name": "unit approved mapping المراسلات والأرشفة variant 0",
+      "result": "TEC_Monthly_Sep_26_Correspondence_and_Archiving.pdf"
+    },
+    {
+      "name": "unit approved mapping المراسلات والأرشفة variant 1",
+      "result": "TEC_Monthly_Sep_26_Correspondence_and_Archiving.pdf"
+    },
+    {
+      "name": "unit approved mapping المراسلات والأرشفة variant 2",
+      "result": "TEC_Monthly_Sep_26_Correspondence_and_Archiving.pdf"
+    },
+    {
+      "name": "unit approved mapping تنفيذ ومتابعة المشاريع الميدانية variant 0",
+      "result": "TEC_Monthly_Sep_26_Operational_Project_Delivery_and_Follow_up.pdf"
+    },
+    {
+      "name": "unit approved mapping تنفيذ ومتابعة المشاريع الميدانية variant 1",
+      "result": "TEC_Monthly_Sep_26_Operational_Project_Delivery_and_Follow_up.pdf"
+    },
+    {
+      "name": "unit approved mapping تنفيذ ومتابعة المشاريع الميدانية variant 2",
+      "result": "TEC_Monthly_Sep_26_Operational_Project_Delivery_and_Follow_up.pdf"
+    },
+    {
+      "name": "All/unrestricted",
+      "result": "TEC_Monthly_Sep_26.pdf"
+    },
+    {
+      "name": "Only entity does not enter filename",
+      "result": "TEC_Monthly_Sep_26.pdf"
+    },
+    {
+      "name": "Unit takes priority",
+      "result": "TEC_Monthly_Sep_26_Dubai_Plan_Office.pdf"
+    },
+    {
+      "name": "Multiple units first selection only",
+      "result": "TEC_Monthly_Sep_26_Dubai_Plan_Office.pdf"
+    },
+    {
+      "name": "Reversing order changes first name",
+      "result": "TEC_Monthly_Sep_26_Secretary_General.pdf"
+    },
+    {
+      "name": "Multiple sectors first selection only",
+      "result": "TEC_Monthly_Sep_26_Governance_Sector.pdf"
+    },
+    {
+      "name": "Explicit all units omitted",
+      "result": "TEC_Monthly_Sep_26.pdf"
+    },
+    {
+      "name": "All units falls back to partial sector",
+      "result": "TEC_Monthly_Sep_26_Governance_Sector.pdf"
+    },
+    {
+      "name": "Legacy research alias",
+      "result": "TEC_Monthly_Sep_26_Research_and_Sensing.pdf"
+    },
+    {
+      "name": "Legacy social alias",
+      "result": "TEC_Monthly_Sep_26_Social_Policies_and_Strategies.pdf"
+    },
+    {
+      "name": "Legacy economic alias",
+      "result": "TEC_Monthly_Sep_26_Economic_Policies_and_Strategies.pdf"
+    },
+    {
+      "name": "Legacy archiving alias",
+      "result": "TEC_Monthly_Sep_26_Correspondence_and_Archiving.pdf"
+    },
+    {
+      "name": "Invisible source marks and whitespace",
+      "result": "TEC_Monthly_Sep_26_Dubai_Plan_Office.pdf"
+    },
+    {
+      "name": "English punctuation sanitized",
+      "result": "TEC_Monthly_Sep_26_Test_Office_A.pdf"
+    },
+    {
+      "name": "Unknown Arabic unit retains scope marker",
+      "result": "TEC_Monthly_Sep_26_Selected_Unit.pdf"
+    },
+    {
+      "name": "Unknown Arabic sector retains scope marker",
+      "result": "TEC_Monthly_Sep_26_Selected_Sector.pdf"
+    },
+    {
+      "name": "Stale option uses underlying name, not warning caption",
+      "result": "TEC_Monthly_Sep_26_Dubai_Plan_Office.pdf"
+    },
+    {
+      "name": "Report date independent of computer date"
+    },
+    {
+      "name": "Absent report date never invented"
+    },
+    {
+      "name": "Long English names bounded with date and Sector retained",
+      "length": 239
+    },
+    {
+      "name": "Other report filenames unchanged"
+    }
+  ],
+  "runtimeSHA256": "d0d747e754ec824995030161ffa6c5383a17c50dd3f93f7dab6facfefcdfc63d"
+}

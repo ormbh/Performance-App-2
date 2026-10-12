@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "changedAssets": [
+    "assets/js/app-bundle.js",
+    "assets/js/views/monthly-print.js",
+    "assets/js/views/pdf-download.js"
+  ],
+  "pdfDownloadChangesLimitedToFilenameHelpers": true,
+  "monthlyRendererRemovesOnlyApprovedNotesAndEmptyWrapper": true,
+  "screenDataFiltersAndHeaderCountersUnchanged": true,
+  "bundleSHA256": "d0d747e754ec824995030161ffa6c5383a17c50dd3f93f7dab6facfefcdfc63d"
+}

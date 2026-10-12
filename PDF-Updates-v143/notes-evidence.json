@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "check": "positive requester-note baseline",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "positive prior-status-note baseline",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "requester note omitted in PDF composition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "target comparison note omitted",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all printed primary metrics/counts match v142",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "totals and diagnostic source untouched",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "other diagnostic retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no empty source-notes container",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "screen requester note remains",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "continuous actual PDF omits both notes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "continuous report cards remain",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "continuous geometry retained",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "a4 actual PDF omits both notes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "a4 report cards remain",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "a4 geometry retained",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "check": "no runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "result": "PASS",
+  "fixture": "Frozen illustrative workbook; injected targeted comparison diagnostic for positive coverage",
+  "runtimeSHA256": "d0d747e754ec824995030161ffa6c5383a17c50dd3f93f7dab6facfefcdfc63d"
+}

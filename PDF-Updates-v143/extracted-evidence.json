@@ -1,0 +1,107 @@
+{
+  "checks": [
+    {
+      "check": "build143",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all has no number",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all actual filename",
+      "pass": true,
+      "detail": "TEC_Monthly_Sep_26.pdf"
+    },
+    {
+      "check": "all continuous PDF one page",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all Arabic title/date/scope retained",
+      "pass": true,
+      "detail": "  لتاريخ- التقرير الشهري للأداء والتنفيذ30/09/2026\n :القطاع\nالكل · \n :الوحدة التنظيمية\nالكل\nمحافظ المتابعة التنفيذية\nمحفظة المشاريع\n"
+    },
+    {
+      "check": "all source selection/counts retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "partial first+count retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "units actual filename",
+      "pass": true,
+      "detail": "TEC_Monthly_Sep_26_Dubai_Plan_Office.pdf"
+    },
+    {
+      "check": "units continuous PDF one page",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "units Arabic title/date/scope retained",
+      "pass": true,
+      "detail": "  لتاريخ- التقرير الشهري للأداء والتنفيذ30/09/2026\n :القطاع\nالكل · \n :الوحدة التنظيمية مكتب خطة دبي+1\nمحافظ المتابعة التنفيذية\nمحفظة المشاريع\n"
+    },
+    {
+      "check": "units source selection/counts retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "sector actual filename",
+      "pass": true,
+      "detail": "TEC_Monthly_Sep_26_Governance_Sector.pdf"
+    },
+    {
+      "check": "sector continuous PDF one page",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "sector Arabic title/date/scope retained",
+      "pass": true,
+      "detail": "  لتاريخ- التقرير الشهري للأداء والتنفيذ30/09/2026\n :القطاع\nالحوكمة · \n :الوحدة التنظيمية\nالكل\nمحافظ المتابعة التنفيذية\nمحفظة المشاريع\n"
+    },
+    {
+      "check": "sector source selection/counts retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "downloads": {
+    "all": {
+      "filename": "TEC_Monthly_Sep_26.pdf",
+      "pdfSha256": "8fb272a476c1e69c0848356f3c8ddf7f4e828b1b4413c6afdf6f2632777101c5"
+    },
+    "units": {
+      "filename": "TEC_Monthly_Sep_26_Dubai_Plan_Office.pdf",
+      "pdfSha256": "9d9d641a99c0f04147e85e52d881d71ed894d5889a93b148a5fee7cab075e696"
+    },
+    "sector": {
+      "filename": "TEC_Monthly_Sep_26_Governance_Sector.pdf",
+      "pdfSha256": "1b020c33867ad392eebe1ad1c8d1a52aaa863177297e58563dd4346e965b3f1f"
+    }
+  },
+  "result": "PASS",
+  "bundleSha256": {
+    "assets/js/app-bundle.js": "d0d747e754ec824995030161ffa6c5383a17c50dd3f93f7dab6facfefcdfc63d",
+    "assets/css/app-bundle.css": "c5dca03eb8791f003de61a1519e27d76557ec23f0eafb24d40c4cf7ab43347d4",
+    "assets/css/print-measure-bundle.css": "b9c76b378417f9c84f09cfc9dd29252c0086172b37bff0eacc0bdd93f0163cd8",
+    "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528"
+  }
+}

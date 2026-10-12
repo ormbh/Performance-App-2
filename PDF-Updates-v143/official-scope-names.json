@@ -1,0 +1,35 @@
+{
+  "sector": [
+    ["الأمانة العامة للمجلس التنفيذي", "الأمانة العامة للمجلس التنفيذي", "General Secretariat of the Executive Council"],
+    ["الحوكمة", "قطاع الحوكمة", "Governance Sector"],
+    ["التنمية المستدامة", "قطاع التنمية المستدامة", "Sustainable Development Sector"],
+    ["الاقتصاد والتنمية الاجتماعية", "قطاع الاقتصاد والتنمية الاجتماعية", "Socioeconomic Sector"],
+    ["التميز والخدمات الحكومية", "قطاع التميز والخدمات الحكومية", "Excellence and Government Services Sector"],
+    ["الاتصال الحكومي وشؤون الأمانة العامة", "قطاع الاتصال الحكومي وشؤون الأمانة العامة", "Government Communication & General Secretariat Affairs Sector"]
+  ],
+  "unit": [
+    ["مكتب الأمين العام", "إدارة مكتب الأمين العام", "Secretary General Department"],
+    ["الشراكات والعلاقات الدولية", "قسم الشراكات والعلاقات الدولية", "Partnerships and International Relations Section"],
+    ["مكتب التدقيق الداخلي", "مكتب التدقيق الداخلي", "Internal Audit Office"],
+    ["مكتب خطة دبي", "مكتب خطة دبي", "Dubai Plan Office"],
+    ["الأبحاث والرصد", "إدارة الأبحاث والرصد", "Research and Sensing Department"],
+    ["الحوكمة", "إدارة الحوكمة", "Governance Department"],
+    ["التشريعات الحكومية", "إدارة التشريعات الحكومية", "Government Legislations Department"],
+    ["التنفيذ والأداء", "إدارة التنفيذ والأداء", "Performance & Effectiveness Department"],
+    ["السياسات والاستراتيجيات الصحية والعدل", "إدارة السياسات والاستراتيجيات الصحية والعدل", "Health and Justice Policies and Strategies Department"],
+    ["السياسات والاستراتيجيات البيئية والبنية التحتية", "إدارة السياسات والاستراتيجيات البيئية والبنية التحتية", "Environment and Infrastructure Policies and Strategies Department"],
+    ["السياسات والإستراتيجيات الاجتماعية", "إدارة السياسات والإستراتيجيات الاجتماعية", "Social Policies and Strategies Department"],
+    ["السياسات والإستراتيجيات الاقتصادية", "إدارة السياسات والإستراتيجيات الاقتصادية", "Economic Policies and Strategies Department"],
+    ["التقييم والدراسات", "إدارة التقييم والدراسات", "Assessment and Studies Department"],
+    ["التميز والخدمات الحكومية", "إدارة التميز والخدمات الحكومية", "Excellence and Government Services Department"],
+    ["الاتصال الحكومي", "إدارة الاتصال الحكومي", "Government Communication Department"],
+    ["الاتصال الداخلي", "قسم الاتصال الداخلي", "Internal Communication Section"],
+    ["الخدمات المؤسسية", "إدارة الخدمات المؤسسية", "Corporate Services Department"],
+    ["تميز الموارد البشرية", "قسم تميز الموارد البشرية", "People Excellence Section"],
+    ["المشتريات والشؤون الإدارية", "قسم المشتريات والشؤون الإدارية", "Procurement and Administration Section"],
+    ["تقنية المعلومات", "قسم تقنية المعلومات", "Information Technology Section"],
+    ["المالية والحسابات", "قسم المالية والحسابات", "Finance & Accounts Section"],
+    ["المراسلات والأرشفة", "قسم المراسلات والأرشفة", "Correspondence and Archiving Section"],
+    ["تنفيذ ومتابعة المشاريع الميدانية", "قسم تنفيذ ومتابعة المشاريع الميدانية", "Operational Project Delivery and Follow-up Section"]
+  ]
+}
