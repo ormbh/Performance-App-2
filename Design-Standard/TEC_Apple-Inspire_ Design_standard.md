@@ -1,14 +1,30 @@
-# Revision 13 — offline PDF download
+# Revision 14 — strategy tag and exported scope header
 
-The primary report action is **تنزيل PDF**, replacing the Print button throughout
+Remove the strategy card's **مؤشرات الأداء** tag on screen and in both output
+formats. Keep a valid nonzero strategy total-count difference as a neutral,
+unlabeled change in its card header; zero or unavailable changes stay hidden.
+Do not alter the primary strategy values, denominator, measurement bar or valid
+metric changes.
+
+Restore the first-page exported report header: the official logo, a 24pt
+DIN Next Arabic Regular title with the actual cutoff date, then the active
+sector and organisational-unit scope line in 10.5pt Dubai Regular Ink #4F4E4E.
+Use existing all-sector/all-unit labels for unrestricted selections. Omit the
+entity field, label and selected value from this header; entity selections
+continue to filter the exported source records and figures. Repeat neither
+the title/date nor this scope line on later pages.
+
+The primary report action remains **تنزيل PDF**, replacing the Print button throughout
 the app. It saves locally through a bundled PDF engine, with no print dialog,
 CDN or upload service. PDF settings retain the approved continuous/A4 choices
 and the current source scope/date. The exporter preserves native text, vector
 charts, approved fonts/colors, source calculations and full ordered records.
-The monthly continuous page and all A4 orientations follow Revision 12 below.
+The monthly continuous page and all A4 orientations retain the Revision 12
+profiles below.
 
-The first header contains only the title and inline date. Copyright and actual
-page counters are the only footer fields. Continuous footer text has at least
+The first header contains the logo, title with inline date and the restored
+sector/unit scope line. Copyright and actual page counters remain the only
+footer fields. Continuous footer text has at least
 8mm clearance from the physical bottom edge; its fixed baseline uses an 11mm
 inset inside the approved 16mm bottom reserve. Original font bytes stay intact;
 the local shaper handles legacy DIN joining and mixed text direction, and a
@@ -18,18 +34,20 @@ Native browser print preparation uses a validated full-report measurement or
 safe A4 fallback. It never publishes an unmeasured 80mm custom page. Direct PDF
 export is independent of native print timing and browser margin settings.
 
-The tested v138 direct-download workflows pass; results and practical limits are recorded in **VERIFICATION-v138.md**. Prior verification
-records describe their own releases; the earlier settled-output tests did not
-cover the native first-preview timing defect reported by the user. Revision 13's
-download action and settings wording supersede the earlier browser-dialog workflow.
+Final v139 direct-download checks pass; results and practical
+limits are recorded in **VERIFICATION-v139.md**. Historical v138 checks
+remain in **VERIFICATION-v138.md** and do not establish a v139 pass. Revision
+13's download action and settings wording still supersede the earlier
+browser-dialog workflow; Revision 14's sector/unit metadata is the explicit
+exception to the earlier no-exported-scope-line rule.
 
 ---
 
 # TEC Apple-Inspired Design standard
 
-Approved typography, controls, status badges, layout, header, navigation, bars and output rules. **Revision 13 — 12 October 2026; direct offline PDF download approved, retaining Revision 12's full-page Linen monthly PDF, corrected insets and roomier spacing.** This consolidates the supplied standard and all subsequent approved amendments, including **18px Dubai Regular subgroup names and agenda category labels**, the updated Ink/Taupe text roles and solid financial bars.
+Approved typography, controls, status badges, layout, header, navigation, bars and output rules. **Revision 14 — 12 October 2026; strategy tag removal and restored first-page exported sector/unit scope approved.** It retains Revision 13's offline PDF download and Revision 12's full-page Linen monthly PDF, corrected insets and roomier spacing. This consolidates the supplied standard and all subsequent approved amendments, including **18px Dubai Regular subgroup names and agenda category labels**, the updated Ink/Taupe text roles and solid financial bars.
 
-**Implementation: Performance App v138.** The default continuous monthly digital PDF uses a 297mm page width, content-measured height, an 8mm reading inset with additional bottom footer reserve, and 281mm content width. The continuous page margins are 8mm at the top and sides, and 16mm at the bottom. Linen #EFEBE7 fills the whole page, including its insets; Paper #FCFBFB cards retain their approved borders and text roles. A4 portrait remains selectable for monthly paper printing with its existing 10mm margins. Agenda, council and HH paper reports retain A4 landscape; all other paper views retain A4 portrait. A3 remains unavailable. Monthly labels, SLC captions, fonts, colors, source scope and calculations remain approved as before. Final tested v138 results and practical limits are recorded in **VERIFICATION-v138.md**. **VERIFICATION-v137.md** and earlier files describe their historical release scopes; settled native-print checks do not establish a v138 download or first-preview pass.
+**Implementation: Performance App v139.** The default continuous monthly digital PDF uses a 297mm page width, content-measured height, an 8mm reading inset with additional bottom footer reserve, and 281mm content width. The continuous page margins are 8mm at the top and sides, and 16mm at the bottom. Linen #EFEBE7 fills the whole page, including its insets; Paper #FCFBFB cards retain their approved borders and text roles. A4 portrait remains selectable for monthly paper printing with its existing 10mm margins. Agenda, council and HH paper reports retain A4 landscape; all other paper views retain A4 portrait. A3 remains unavailable. Monthly labels, SLC captions, fonts, colors, source scope and calculations remain approved as before. Final v139 validation is pending at this documentation update and must be recorded in **VERIFICATION-v139.md**. **VERIFICATION-v138.md**, **VERIFICATION-v137.md** and earlier files describe their historical release scopes; they do not establish a v139 pass.
 
 The monthly page establishes the shared standard at **100% browser zoom**. Screen typography uses 38px page titles (36px on the search home), 30px portfolio headings, 28px card titles, 16px table content and badges, and 18px Dubai Bold table headings. Retain the compact card grouping: 18px subgroup names, 16px monthly status labels above their figures, and change arrows below their own values. The card-header total label retains its position beneath the main total. **Remove explanatory labels and subtitles beneath all page, portfolio, section, card and table titles**, including search and upload titles. Retain the required screen report date as secondary metadata.
 
@@ -38,6 +56,10 @@ Print keeps its independent approved scale: table body, names, notes and in-tabl
 Use the supplied **Regular (400)** faces for headings, figures, body text and controls. **Table column headings use the supplied Dubai Bold (700)** face. DIN Next Arabic and DIN Next LT Arabic are distinct supplied font families.
 
 ## Latest approved amendments
+
+**Strategy header tag:** remove **مؤشرات الأداء** from the strategy card on screen and in both output formats, including its reserved spacing. Keep a valid nonzero total-count difference as a neutral, unlabeled header change: 15px Dubai Regular Taupe #756B5F on screen, 11pt Dubai Regular Taupe in output. Hide a zero or unavailable total-count change. Preserve primary values, denominator, measurement bar and valid metric changes.
+
+**Exported header scope:** the first-page header contains the official logo and actual-date report title at 24pt DIN Next Arabic Regular, followed by sector and organisational-unit scope in 10.5pt Dubai Regular Ink #4F4E4E. Use active source-backed selections or the existing all-sector/all-unit labels. Do not include the entity control, label or selected value; its selection still filters the exported report. The header appears only on the first page. This required scope metadata is an explicit exception to generic subtitle removal; screen headers retain their existing date-only metadata rule.
 
 **Continuous monthly PDF:** use one custom digital page by default, with a 297mm width, 281mm content width and an 8mm reading inset plus a reserved bottom footer band. Use actual page margins of 8mm top/left/right and 16mm bottom. Fill the full page and its insets with Linen #EFEBE7, including the print page and body surfaces, so there is no white outer frame. Keep cards Paper #FCFBFB with their approved Sand borders. Measure the complete report after print fonts and images are ready; its height grows with the content. Preserve projects physically left, executive portfolios physically right and full-width followups below both. Use one report masthead and one legal/page-number footer. Keep all approved print font sizes; do not fit the document with zoom, font shrink or a fixed height.
 
@@ -80,7 +102,7 @@ All supporting text in this table uses the supplied Dubai Regular face; numeric 
 | Status badge text | Informational status treatment | 16px | Dubai Regular | Approved status palette below |
 | Table column headings | Column labels | 18px | Dubai Bold | Ink #4F4E4E |
 | Important labels and retained explanations | Useful body guidance, units and definitions | **14px** | Dubai Regular | **Ink #4F4E4E** |
-| Change arrows and differences | Below the corresponding value | **15px** | Dubai Regular | **Taupe #756B5F**, with meaning-based performance exceptions |
+| Change arrows and differences | Below the corresponding value; strategy total-count difference is the unlabeled header exception | **15px** | Dubai Regular | **Taupe #756B5F**, with meaning-based performance exceptions |
 | Minor metadata | Screen date, secondary detail, empty-note placeholder | **14px** | Dubai Regular | **Taupe #756B5F** |
 | Financial bars with partial numeric coverage | Allocation/spending ratios and subtotals | Solid fill | Existing chart treatment | Allocation Taupe #756B5F; spending Teal #115E67 |
 | Financial hatching, completeness markers and numeric availability notes | Including قيم متاحة: 59 من 61 | **Removed on screen and in print** | Not rendered | No replacement marker or note |
@@ -94,11 +116,11 @@ An empty-note placeholder is secondary metadata at 14px Taupe; actual recorded t
 
 | Area | Approved arrangement |
 | --- | --- |
-| Card header | Card title 28px DIN Next Arabic; main total retains 40px DIN Next LT Arabic; short total label 16px Dubai Ink beneath the total |
+| Card header | Card title 28px DIN Next Arabic; main total retains 40px DIN Next LT Arabic; short total label 16px Dubai Ink beneath the total. Strategy has no مؤشرات الأداء tag; any valid nonzero total-count difference remains neutral and unlabeled in its header |
 | Special projects | Two subgroup blocks, with 18px Dubai subgroup names and 28px totals; retain two status columns within each subgroup |
 | Agenda | Retain the approved/new-item breakdown: category labels 18px Dubai Ink with 28px figures; retain three status columns with 16px labels above 34px figures |
 | Value labels | Keep 16px monthly status labels close to their values, above the numeric row; retain the header total label beneath its value; do not use the rejected oversized side-by-side labels |
-| Changes | 15px differences directly below their own figures; align corresponding values and comparison rows across adjacent groups |
+| Changes | 15px metric differences directly below their own figures; align corresponding values/comparison rows. Strategy retains its valid nonzero total-count difference as a neutral unlabeled header change |
 | Completion bars | Preserve the shared bar baseline across the two special-project subgroups, including when a comparison is absent |
 | Strategy | Keep measured/registered at physical right, average results in the middle and average targets at left; retain three distinct measures |
 | Strategy alignment | 16px metric names above the figures, shared primary-value row; reserve 52px for two 16px label lines on desktop, and align retained changes below the appropriate values; preserve percentage units and the 28px registered denominator |
@@ -239,7 +261,7 @@ Taupe control borders are chosen as a readable boundary on Paper. Stone #ABA394 
 | Component | Approved setup |
 | --- | --- |
 | Screen report title | DIN Next Arabic Regular 38px, Charcoal; title physically left and official logo physically right on desktop |
-| Screen title metadata | Required cutoff date only beneath the title, Dubai Regular 14px Taupe #756B5F; no explanatory subtitle, scope line, preview note or current-data marker |
+| Screen title metadata | Required cutoff date beneath the title, Dubai Regular 14px Taupe #756B5F; screen scope stays with the filter controls. Omit generic subtitles, preview notes and current-data markers; exported sector/unit metadata follows its separate first-page rule |
 | Logo | Official supplied TEC asset; 192px desktop / 144px mobile report logo, preserved proportions and clear space |
 | Primary navigation | Plain 16px Dubai links: البحث plus the current page only; search home has the menu only, search results have one current Search link; every other destination remains in the menu. Teal current-page underline; no filled boxes or redundant destination icons |
 | Application menu | One existing 20px grid icon in a 44px control, named صفحات التطبيق; include three direct report links (agenda, council and HH) on every loaded page, including search; retain other existing destinations and eligible actions |
@@ -293,7 +315,7 @@ navigation, never printer, grid, document or upload icons, or numeric/time axes.
 8. **Legislation composition.** Place late legislation beside the other statuses and include it in the bar. Split pending items into late and remaining pending so each item appears once. Use the generated captions **SLC منجز ضمن موعد** and **SLC منجز بعد موعد**, isolating the Latin SLC run in Arabic layout. Remove the repeated **مقارنة: تاريخ الإنجاز الفعلي بالموعد المعتمد لدى SLC** paragraph on screen and in print. The applicable SLC date fields, actual source notes and timing calculations remain unchanged.
 9. **Follow-up tables.** Show only items requiring follow-up. For projects, include unfinished overdue projects with a valid deadline, frozen, cancelled and transferred items, with or without comments. Keep the group order **late → frozen → cancelled → transferred**, and stable source order within each group. Names remain neutral and regular. Preserve the agreed columns and omit the removed delay-reason column.
 10. **Zero and missing values.** Show true zero counts and zero table values as **–**. Hide empty status and H/M/L groups. Keep meaningful chart-axis zero baselines and source-backed 0% completion captions where required. Missing or invalid values remain distinct from true zero; use **غير متاح** where a dash would be ambiguous. Do not turn missing financial/progress data into zero.
-11. **Progression arrows.** Use source-backed comparisons only. Put 15px arrows/differences directly below their corresponding value, on aligned baselines, reserving a single 24px comparison line where needed. ↑ means a numeric increase and ↓ a decrease. Green/red describes whether the change is favorable/adverse; use Taupe #756B5F for neutral changes such as a total or spend increase without an agreed performance meaning. A decline in late items is favorable; an increase is adverse. Hide unchanged or unavailable comparisons.
+11. **Progression arrows.** Use source-backed comparisons only. Put 15px metric arrows/differences directly below their corresponding value, on aligned baselines, reserving a single 24px comparison line where needed. The strategy total-count difference is the approved exception: keep a valid nonzero difference neutral and unlabeled in the card header after removing its مؤشرات الأداء tag. ↑ means a numeric increase and ↓ a decrease. Green/red describes whether the change is favorable/adverse; use Taupe #756B5F for neutral changes such as a total or spend increase without an agreed performance meaning. A decline in late items is favorable; an increase is adverse. Hide unchanged or unavailable comparisons.
 12. **Charts and legends.** Use flat bars, clear direct labels, visible values/units and comparable scales. Add a legend only when the series/category labels above or beside the bar do not already identify its colors. Distinguish category counts, average completion and budget shares; do not interchange these measures. Preserve financial source scope, valid denominators and category meaning. Financial bars use solid fills on screen and in print; remove diagonal hatching, numeric completeness markers and repeated numeric availability notes without changing calculations or replacing the removed treatment with another marker or note.
 13. **Layout and spacing.** Use a consistent 4 / 8 / 12 / 16 / 24 / 32 / 48px spacing scale. Retain the widened fluid layout: 48px desktop gutters, 32px tablet gutters and 16px mobile gutters, subject to available screen width. Use 24px between main columns and 16px between stacked cards. Keep cards as tall as their content requires; avoid large empty areas and decorative status sidebars.
 14. **Monthly composition.** Preserve the approved two-column monthly composition: project portfolio physically left, executive-follow-up portfolio physically right, with strategy below legislation. Remove **سيطرة · لوحة المتابعة الشهرية** from displayed branding. Remove the extra **لم يبدأ 7 / منقول 2** line in the monthly projects card. Keep the official TEC logo and approved proportions/clear space.
@@ -301,9 +323,9 @@ navigation, never printer, grid, document or upload icons, or numeric/time axes.
 16. **Terminology.** Use **الأجندة المعتمدة**, **المواضيع المستجدة**, and **الموازنة المعتمدة**. Do not add **(المعدلة)** to the displayed budget title. The legislation timing labels identify SLC directly; omit the repeated SLC comparison paragraph. Remove the generic legislation-review subtitle beneath its title.
 17. **Responsive behavior.** Reflow cards and controls on narrow screens while preserving readable type. Adapt tables to a readable mobile presentation; do not squeeze them into tiny text. Keep the overall page within the viewport; use deliberate table scrolling only when required for a wide data table. Priority charts expand with their visible categories.
 18. **Controls and accessibility.** Use one clear primary action per task, predictable button/field states, visible selected tabs and focus, keyboard-accessible menus, explicit labels for icon buttons, text alongside status colors, and reduced-motion support. Keep drilldowns and full-report actions available without adding visual clutter or exposing internal implementation details in product flows.
-19. **Print and exports.** Use the separate print scale below, preserve Arabic direction and badge identity, and keep all source content. The default continuous monthly PDF grows its custom page height and uses one header/footer; its unusually long-report fallback uses A4 portrait pages. A4 paper modes add pages and repeat table column headings instead of shrinking the report; keep individual rows together when possible. The first printed header contains the official logo and report title with its source cutoff in the same title; for the monthly report use **التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026**, replacing the example date with the actual cutoff. No notes, separate date line, scope line or explanatory subtitle surround this title. Later printed pages have no repeated report title, logo, date or scope masthead; relevant section headings and table column headings remain. Footers contain the exact copyright/legal line and generated page numbering only. Hide navigation, menus, filters, operational controls and the entity filter's selected-value field while preserving all selections' effect on the exported dataset. Actual entity names and source notes in table content remain. Keep template/report data rules unchanged.
-20. **Title labels and subtitles.** Remove explanatory labels and subtitles beneath every page, portfolio, section, card and table title across monthly, projects, search, upload, other pages and print. Remove the repeated agenda subtitle **الأجندة المعتمدة والمواضيع المستجدة**, follow-up subtitle **البنود التي تستدعي المتابعة ضمن نطاق التقرير**, and redundant full-table label **جميع بنود المتابعة**. Keep the agenda breakdown labels **الأجندة المعتمدة** and **المواضيع المستجدة** with their values. Preserve required screen date metadata, actual notes in the **الملاحظات** column, field labels, status/value labels, counts, currency/percentage units, meaningful definitions and source caveats. Retained explanations belong beside the relevant content or in a definitions disclosure, not as title subtitles. Do not leave empty subtitle elements or their reserved spacing.
-21. **Navigation and filters.** Apply the approved shared setup above: quiet text navigation, current-page underline, one app menu, grouped task actions and separate core filters. Keep scope with filters rather than in the title block. Preserve keyboard behavior, live selections and existing search/upload functions.
+19. **Print and exports.** Use the separate print scale below, preserve Arabic direction and badge identity, and keep all source content. The default continuous monthly PDF grows its custom page height and uses one header/footer; its unusually long-report fallback uses A4 portrait pages. A4 paper modes add pages and repeat table column headings instead of shrinking the report; keep individual rows together when possible. The first printed header contains the official logo and report title with its source cutoff in the same title; for the monthly report use **التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026**, replacing the example date with the actual cutoff. Place the sector and organisational-unit scope line below this title, at 10.5pt Dubai Regular Ink. Use the active source-backed selections or the existing unrestricted labels. No entity field/value, notes, separate date line or generic explanatory subtitle surround it. Later printed pages have no repeated report title, logo, date or scope masthead; relevant section headings and table column headings remain. Footers contain the exact copyright/legal line and generated page numbering only. Hide navigation, menus, filters, operational controls and the entity filter's selected-value field while preserving all selections' effect on the exported dataset. Actual entity names and source notes in table content remain. Keep template/report data rules unchanged.
+20. **Title labels and subtitles.** Remove explanatory labels and subtitles beneath every page, portfolio, section, card and table title across monthly, projects, search, upload, other pages and print. Remove the repeated agenda subtitle **الأجندة المعتمدة والمواضيع المستجدة**, follow-up subtitle **البنود التي تستدعي المتابعة ضمن نطاق التقرير**, and redundant full-table label **جميع بنود المتابعة**. Keep the agenda breakdown labels **الأجندة المعتمدة** and **المواضيع المستجدة** with their values. Preserve required screen date metadata, the explicitly restored first-page exported sector/unit scope metadata, actual notes in the **الملاحظات** column, field labels, status/value labels, counts, currency/percentage units, meaningful definitions and source caveats. Remove the strategy **مؤشرات الأداء** tag while retaining any valid nonzero total-count difference as a neutral unlabeled header change. Retained explanations belong beside the relevant content or in a definitions disclosure, not as title subtitles. Do not leave empty subtitle elements or their reserved spacing.
+21. **Navigation and filters.** Apply the approved shared setup above: quiet text navigation, current-page underline, one app menu, grouped task actions and separate core filters. On screen, keep scope with filters rather than in the title block. In exports, restore only the approved first-page sector/unit scope line beneath the actual-date title; entity selection remains omitted from this header while still filtering the dataset. Preserve keyboard behavior, live selections and existing search/upload functions.
 22. **Footer.** The screen footer contains the exact copyright/legal line only. Each output footer contains that legal line and generated **صفحة X من Y** only: once on the ordinary one-page continuous monthly PDF, and once per page in A4 output. Remove source filename, calculation date, report title, scope and extra notes from footers. Required definitions and source caveats stay in the report body, subject to the specific removal of financial numeric-availability notes.
 23. **Verification and rollout.** Establish this standard on the monthly page first. Review its header, cards, controls, table and interactions at **100% browser zoom**, then inspect the actual PDF at readable size. Verify source totals, previous/current comparison keys, missing values, fonts, colors, wrapping, mobile behavior and exports before reusing the standard on projects, search, uploads and other pages. Visual polish must not change calculations or source meaning.
 
@@ -311,16 +333,17 @@ navigation, never printer, grid, document or upload icons, or numeric/time axes.
 
 | Element | Approved printed treatment |
 | --- | --- |
-| First-page masthead | Official logo approximately 38mm wide and a single 24pt DIN report title including the actual cutoff date |
+| First-page masthead | Official logo approximately 38mm wide, a single 24pt DIN Next Arabic Regular report title including the actual cutoff date, and the restored sector/unit scope line below |
 | Monthly title format | التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026; substitute the actual source-backed report date |
-| Notes around the title | None above or below; no separate date/scope line or explanatory subtitle |
+| Sector / organisational-unit scope | Below the first-page actual-date title; 10.5pt Dubai Regular Ink #4F4E4E. Active selections or existing unrestricted labels; no entity field/value |
+| Notes around the title | No generic explanatory subtitle, separate date line or source note. The required sector/unit scope metadata is retained |
 | Later-page masthead | None in paginated A4 output; the ordinary continuous monthly PDF has only one page/header |
 | Continued content | In A4 output, relevant section titles and repeated 13.5pt Dubai Bold table column headings remain; continuous content stays on its measured page |
 | Footer | Exact organisation/copyright legal line and renderer-generated صفحة X من Y only; Dubai Regular 10.5pt Ink. One footer for ordinary continuous monthly output; one per page for A4 output |
 | Footer reserve | Continuous monthly: 8mm top/side page margins, 16mm bottom including an additional 8mm footer reserve. A4 retains 10mm margins. Content and table rows never overlap the footer |
 | Continuous footer alignment | Direct PDF: fixed baseline with 11mm bottom inset inside the 16mm reserve. Optional native print: top-aligned margin boxes with 1mm top padding. Copyright glyph bounds remain at least 8mm above the physical bottom edge |
 | Entity filter | Control, label and selected value hidden; selected scope still filters the exported records and figures |
-| Report membership | Preserve all selected filters, source records and row order; hiding scope text does not reset selections |
+| Report membership | Preserve all selected filters, source records and row order. Sector/unit text follows the exported scope; omitting the entity field/value does not reset its selection |
 | Explanations | Preserve actual table notes, SLC source-date fields and source/history caveats in the report body; omit generic title subtitles |
 | Pagination | Continuous monthly: one measured-height page within the 5080mm limit; otherwise A4 portrait with a toast. A4: content-driven page count, fitting rows/cards kept together and readable continuation for unusually tall content |
 
@@ -401,6 +424,7 @@ Print uses its own approved sizes. The latest subgroup, short-label and strategy
 | Element | Font | Print size |
 | --- | --- | --- |
 | First printed report title, including cutoff date | DIN Next Arabic Regular | 24pt |
+| First-page sector / organisational-unit scope | Dubai Regular, Ink #4F4E4E | 10.5pt |
 | Portfolio headings | DIN Next Arabic Regular | 18pt |
 | Card / table-section titles | DIN Next Arabic Regular | 16pt |
 | Main figures | DIN Next LT Arabic Regular | 24–28pt |
@@ -444,9 +468,9 @@ Project count/money bars retain the table's shared zero-to-largest-row scale. Pr
 
 ## Approval and historical previews
 
-Revision 13 is the current approved standard for **Performance App v138**. It replaces app Print actions with **تنزيل PDF** and **إعدادات PDF**, using the bundled offline engine while preserving native text, vector charts, fonts, colors and source scope. It retains Revision 12's 297mm continuous page, 8mm Linen-filled reading inset, bottom footer reserve and roomier spacing. Revision 11's measured-height output, continuous/A4 choice and height-limit fallback remain approved, as do Revision 10's paired composition, 16px dashboard labels, strategy-caption removal, isolated SLC captions and A4 paper orientations. Search, navigation, status palettes, source text/color roles, solid financial bars and earlier compliance corrections remain approved.
+Revision 14 is the current approved standard for **Performance App v139**. It removes the strategy **مؤشرات الأداء** tag and restores sector/unit scope beneath the first-page actual-date exported title; a valid nonzero strategy total-count difference remains neutral and unlabeled in the card header. Entity selection remains omitted from the header and continues to filter data. Revision 13's **تنزيل PDF** and **إعدادات PDF** actions, bundled offline engine, native text, vector charts, fonts, colors and source scope remain approved. It retains Revision 12's 297mm continuous page, 8mm Linen-filled reading inset, bottom footer reserve and roomier spacing. Revision 11's measured-height output, continuous/A4 choice and height-limit fallback remain approved, as do Revision 10's paired composition, 16px dashboard labels, strategy-caption removal, isolated SLC captions and A4 paper orientations. Search, navigation, status palettes, source text/color roles, solid financial bars and earlier compliance corrections remain approved.
 
-Final tested v138 results and practical limits are recorded in **VERIFICATION-v138.md**. Historical **Revision 12 / Performance App v137** screen/mobile, settled continuous PDF, selected A4, height-limit fallback and source-regression checks remain in **VERIFICATION-v137.md**. Those settled-output checks missed the native first-preview timing defect and do not establish a v138 pass. **Revision 11 / Performance App v136** and **VERIFICATION-v136.md** retain the previous continuous-format approval and evidence; **Revision 10 / Performance App v135** and **VERIFICATION-v135.md** remain historical references for paired A4 output. Earlier standards and verification files retain their own scope.
+Final v139 direct-download checks pass; results and practical limits are recorded in **VERIFICATION-v139.md**. Historical **Revision 13 / Performance App v138** offline-download and corrected optional native-print evidence remains in **VERIFICATION-v138.md**. **Revision 12 / Performance App v137** screen/mobile, settled continuous PDF, selected A4, height-limit fallback and source-regression checks remain in **VERIFICATION-v137.md**; those settled-output checks missed the native first-preview timing defect. No historical pass establishes a v139 result. **Revision 11 / Performance App v136** and **VERIFICATION-v136.md** retain the previous continuous-format approval and evidence; **Revision 10 / Performance App v135** and **VERIFICATION-v135.md** remain historical references for paired A4 output. Earlier standards and verification files retain their own scope.
 
 - [Typography colors and exact TEC palette — historical](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Color-Previews)
 - [Actual bundled font samples](https://github.com/ormbh/Performance-App-2/tree/4e235d208f0d7fe155de061ffeeda94ff578909b/Font-Previews)
@@ -456,4 +480,6 @@ Final tested v138 results and practical limits are recorded in **VERIFICATION-v1
 
 Earlier images may show 18px screen badges, title subtitles, oversized side-by-side labels, 28px subgroup names or hatched financial bars. They do not override this document. The subgroup names in the last compact preview are superseded by the latest **18px** approval. The rejected oversized-label concept is not the approved card arrangement.
 
-This is an app-specific approved standard, not an official TEC brand manual or accessibility certification. Source records, values, calculation definitions and filter behavior remain unchanged. Verification must cover the final v138 runtime bundles using the frozen illustrative workbook, actual offline PDF downloads and the corrected optional native-print path. Final results belong in **VERIFICATION-v138.md**; until documented, historical checks are not a current-release pass. Native Windows file opening, physical printer output and native Office editing remain outside these browser/PDF checks. Prior extracted-package checks used local HTTP because managed Chromium blocks direct file navigation.
+This is an app-specific approved standard, not an official TEC brand manual or accessibility certification. Source records, values, calculation definitions and filter behavior remain unchanged. Verification must cover the final v139 runtime bundles using the frozen illustrative workbook, actual offline PDF downloads, exported scope/title treatment, strategy tag removal and preserved count changes, and the optional native-print path. Final results belong in **VERIFICATION-v139.md**; historical checks are not a current-release pass. Native Windows file opening, physical printer output and native Office editing remain outside these browser/PDF checks. Prior extracted-package checks used local HTTP because managed Chromium blocks direct file navigation.
+
+The exported organizational scope line is limited to views with sector/unit filtering. Entity and data-check views retain their own scope models and do not inherit dashboard selections. Search drill scope and search facets both remain in effect.

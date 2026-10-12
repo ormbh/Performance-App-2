@@ -1,0 +1,13 @@
+# Header text omission diagnosis
+
+A definite renderer defect is reproducible; the exact Windows metrics have not been captured.
+
+The v138 baseline on Linux shows the title/date normally. Its collected DIN text Range begins at y=3.234px with height38px. Registering the same supplied DIN font in a disposable measuring iframe with ascent/descent overrides produces the same H1 layout box (y2.234px, height41.594px) but a text Range at y=-7.766px with height61px and baseline40.234px. The first header itself occupies y0–58.391px.
+
+`paintSlice` and `paintRegion` require the entire Range box to fit inside the page/header. Both title and date therefore fail and are silently discarded, although their baseline and actual glyphs are within the laid-out header. The logo still draws. An actual Download PDF from the frozen v138 app reproduces the missing title/date under this metric simulation. No source or application file was changed.
+
+The narrow fix is to mark text belonging to `.mp-header`/`.tec-print-first-header`, assign that text to a slice/region by its baseline, and retain existing clipping. Ordinary report rows must keep their stricter Range-box boundary handling. The root agent's `headerText` + `textFits` change follows this approach; its outer region intersection remains valid for the reproduced overflowing Range. Shared first-header CSS should leave enough vertical space for actual glyphs and wrapped title/scope lines.
+
+Baseline evidence: `evidence.json`, `repro-evidence.json`, `native-baseline.pdf`, and `larger-metrics-title-dropped.pdf`; the two `*-header.png` crops show the before/reproduction. These measurements demonstrate the cause the renderer permits, without claiming that the user's Windows font environment has been independently measured. Positive regression on the rebuilt v139 candidate passed: unfiltered continuous, filtered continuous, and filtered A4; native and larger font metrics. Both larger-metrics exports retain the title and date even with collected Range y=-10px and baseline38px. The sector/unit context is visible, the strategy badge is absent on screen and in print, source keys remain unchanged, and there are no out-of-page text or uncaught JavaScript errors. Continuous exports remain one page; the filtered A4 report remains two pages. The same defect condition is exercised rather than hidden by new scope spacing.
+
+Final positive bundle SHA256: `515087e6b5297af85610f87a7a37a6dbcb7b95048ae6663dea3fbc1f2e9147dd`. Renderer SHA256: `09b5b5bff000ea32adc80e4d210063ce8f0834c589bf112e0511953c3cdbff67`. Candidate bytes remained identical during the final positive run. Evidence is `positive-evidence.json`; downloaded PDFs and corresponding `*-header.png` crops are alongside it.

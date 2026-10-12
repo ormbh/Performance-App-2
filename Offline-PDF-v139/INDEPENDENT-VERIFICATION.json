@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "scope": "Focused independent v139 masthead and strategy-badge QA of actual button-downloaded PDFs using illustrative source only. No app edits.",
+  "generationHashes": {
+    "assets/js/app-bundle.js": "515087e6b5297af85610f87a7a37a6dbcb7b95048ae6663dea3fbc1f2e9147dd",
+    "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528",
+    "assets/css/print-measure-bundle.css": "b9c76b378417f9c84f09cfc9dd29252c0086172b37bff0eacc0bdd93f0163cd8"
+  },
+  "rootDownloadCases": 10,
+  "rootDownloadPagesNativeBoundsChecked": 165,
+  "additionalIndependentScopedCases": 2,
+  "additionalIndependentScopedPages": 2,
+  "files": [
+    {
+      "name": "comparison",
+      "reviewCopy": "/workspace/saytara-work/qa-v139/visual-review/final-native/comparison.pdf",
+      "source": "/workspace/saytara-work/qa-v139/offline-pdf/comparison.pdf",
+      "sha256": "5f6df1294382fabfd60f59e963f40ab01e6223048e2a6dfae811d5ea7c1e5f66",
+      "pages": 1,
+      "stableCopy": true
+    },
+    {
+      "name": "entities",
+      "reviewCopy": "/workspace/saytara-work/qa-v139/visual-review/final-native/entities.pdf",
+      "source": "/workspace/saytara-work/qa-v139/offline-pdf/entities.pdf",
+      "sha256": "8e7f1a102d3a7960e0d4da598da787cc11ab7927fb8e50a5fa72c48ebb76a44b",
+      "pages": 34,
+      "stableCopy": true
+    },
+    {
+      "name": "monthly-a4",
+      "reviewCopy": "/workspace/saytara-work/qa-v139/visual-review/final-native/monthly-a4.pdf",
+      "source": "/workspace/saytara-work/qa-v139/offline-pdf/monthly-a4.pdf",
+      "sha256": "0c9f7bed727cc8d0d192132162f8de11223cc52ddfb0d5ad34e4da96ffa2e63c",
+      "pages": 3,
+      "stableCopy": true
+    },
+    {
+      "name": "monthly-continuous",
+      "reviewCopy": "/workspace/saytara-work/qa-v139/visual-review/final-native/monthly-continuous.pdf",
+      "source": "/workspace/saytara-work/qa-v139/offline-pdf/monthly-continuous.pdf",
+      "sha256": "0af70da6ff109d70b2726307314e1a465d7b24c026e7000857e351d9157709c9",
+      "pages": 1,
+      "stableCopy": true
+    },
+    {
+      "name": "monthly-filtered",
+      "reviewCopy": "/workspace/saytara-work/qa-v139/visual-review/final-native/monthly-filtered.pdf",
+      "source": "/workspace/saytara-work/qa-v139/offline-pdf/monthly-filtered.pdf",
+      "sha256": "3b598d850d83cc578920d72d2f092a162c6ae5667675188a51659d2bd7fcd8d3",
+      "pages": 1,
+      "stableCopy": true
+    },
+    {
+      "name": "projects",
+      "reviewCopy": "/workspace/saytara-work/qa-v139/visual-review/final-native/projects.pdf",
+      "source": "/workspace/saytara-work/qa-v139/offline-pdf/projects.pdf",
+      "sha256": "3ef2b5893d199f6e152b68d54868ae751be42a52de42287cf63beb9c1eadc2f3",
+      "pages": 6,
+      "stableCopy": true
+    },
+    {
+      "name": "reports-agenda",
+      "reviewCopy": "/workspace/saytara-work/qa-v139/visual-review/final-native/reports-agenda.pdf",
+      "source": "/workspace/saytara-work/qa-v139/offline-pdf/reports-agenda.pdf",
+      "sha256": "25027b47ae16755258078ad46d2da1df522b6e78a846bbbfe7f199e8a6dcd2a7",
+      "pages": 16,
+      "stableCopy": true
+    },
+    {
+      "name": "reports-council",
+      "reviewCopy": "/workspace/saytara-work/qa-v139/visual-review/final-native/reports-council.pdf",
+      "source": "/workspace/saytara-work/qa-v139/offline-pdf/reports-council.pdf",
+      "sha256": "f2085e87f76c8b28c6afcd08001a39e0636277fb62e83bc47c0cbd46b526a7b6",
+      "pages": 30,
+      "stableCopy": true
+    },
+    {
+      "name": "reports-hh",
+      "reviewCopy": "/workspace/saytara-work/qa-v139/visual-review/final-native/reports-hh.pdf",
+      "source": "/workspace/saytara-work/qa-v139/offline-pdf/reports-hh.pdf",
+      "sha256": "dbec28e08ae9a198cd32e19109dc35c403a5d217945e11676d661ff2aa75fedc",
+      "pages": 71,
+      "stableCopy": true
+    },
+    {
+      "name": "results",
+      "reviewCopy": "/workspace/saytara-work/qa-v139/visual-review/final-native/results.pdf",
+      "source": "/workspace/saytara-work/qa-v139/offline-pdf/results.pdf",
+      "sha256": "fedead69778f569148b389704f61859d74292ac3e91bc37777a3b4b48edb6a7b",
+      "pages": 2,
+      "stableCopy": true
+    }
+  ],
+  "issues": [],
+  "monthlyFullNumericDateIDFootprintEqualsV138": true,
+  "visualChecks": {
+    "continuousFullAndSectorUnitScoped": true,
+    "A4FullAll3PagesAndSectorUnitEntityScoped": true,
+    "headerTitleDate24ptDINCharcoal": true,
+    "headerScope10_5ptDubaiRegularInk": true,
+    "scopeFieldsSectorAndUnitActualSelections": true,
+    "entityNotInHeaderWhenSelected": true,
+    "firstPageHeaderOnce": true,
+    "noHeaderGlyphCutsOrOverlap": true,
+    "strategyBadgeRemovedScreenAndPDF": true,
+    "strategyFiguresAndDeltasRetained": true,
+    "all8FullFollowupsAndNotesRetained": true,
+    "monthlyPairedCardsAndContinuationHeadsRetained": true,
+    "copyrightPageOnlyFooters": true,
+    "continuousFooter8mmClearance": true,
+    "genericProjectsComparisonResultsMastheads": true,
+    "agendaFullTitleMasthead": true,
+    "comparisonFooterOnlySecondPageResolved": true
+  },
+  "additionalSelectedScope": {
+    "sector": "الاقتصاد والتنمية الاجتماعية",
+    "unit": "السياسات والاستراتيجيات الاقتصادية",
+    "entity": "دائرة الأراضي والأملاك",
+    "date": "30/09/2026"
+  },
+  "additionalDownloads": {
+    "continuous": {
+      "sha256": "17393d0cc5c7d01500ace0f99d4356321f7feae7c5d0e66298222816c8599982",
+      "pageCount": 1,
+      "sameDataAfterDownload": true,
+      "sameScopeAfterDownload": true,
+      "windowPrintCalls": 0,
+      "screenBadgeNodes": 0,
+      "cleanupBodyPrint": null
+    },
+    "a4": {
+      "sha256": "94945eb9ee3fd58c0538734e3f272bc44cd56e5565534f784138fd9d7554880b",
+      "pageCount": 1,
+      "sameDataAfterDownload": true,
+      "sameScopeAfterDownload": true,
+      "windowPrintCalls": 0,
+      "screenBadgeNodes": 0,
+      "cleanupBodyPrint": null
+    }
+  },
+  "evidence": [
+    "final-native/manifest.json",
+    "FINAL-HEADER-NATIVE-EVIDENCE.json",
+    "SCOPED-HEADER-DOWNLOAD-EVIDENCE.json",
+    "MONTHLY-NUMERIC-SOURCE-EQUALITY.json",
+    "readable/",
+    "../generic-header-helper/GENERIC-HEADER-REVIEW.md"
+  ],
+  "limits": [
+    "Focused new-header/badge visual review; all165 main-batch pages received native geometry/footer checks, not a new full-page visual recertification of unchanged v138 content.",
+    "Source fixture illustrative; no formal PDF accessibility or physical printer certification."
+  ]
+}
