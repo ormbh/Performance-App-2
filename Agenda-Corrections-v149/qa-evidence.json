@@ -1,0 +1,544 @@
+{
+  "version": 149,
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "cutoff": "2026-09-30",
+    "illustrative": true
+  },
+  "checks": [
+    {
+      "check": "all source model exactly equals v148",
+      "pass": true
+    },
+    {
+      "check": "all 1440 chart scale removed",
+      "pass": true
+    },
+    {
+      "check": "all 1440 definitions below chart / no viewport overflow",
+      "pass": true
+    },
+    {
+      "check": "all 1440 source keys retained",
+      "pass": true
+    },
+    {
+      "check": "all 1440 entity column retained in each table",
+      "pass": true
+    },
+    {
+      "check": "all 390 chart scale removed",
+      "pass": true
+    },
+    {
+      "check": "all 390 definitions below chart / no viewport overflow",
+      "pass": true
+    },
+    {
+      "check": "all 390 source keys retained",
+      "pass": true
+    },
+    {
+      "check": "all 390 entity column retained in each table",
+      "pass": true
+    },
+    {
+      "check": "all native PDF A4 landscape",
+      "pass": true
+    },
+    {
+      "check": "all native PDF planned page count",
+      "pass": true
+    },
+    {
+      "check": "all cover covers full297x210mm page",
+      "pass": true
+    },
+    {
+      "check": "all native cover photo reaches all page edges",
+      "pass": true
+    },
+    {
+      "check": "all no cover copyright or page count",
+      "pass": true
+    },
+    {
+      "check": "all charts and definitions whole on physical page2",
+      "pass": true
+    },
+    {
+      "check": "all chart page no cover remnants",
+      "pass": true
+    },
+    {
+      "check": "all PDF chart scale absent",
+      "pass": true
+    },
+    {
+      "check": "all native cover text exact",
+      "pass": true
+    },
+    {
+      "check": "all native chart text exact",
+      "pass": true
+    },
+    {
+      "check": "all native definitions text exact",
+      "pass": true
+    },
+    {
+      "check": "all exact detail source keys in PDF",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF headings/entity names/all table cells complete",
+      "pass": true
+    },
+    {
+      "check": "all details begin physical page3+",
+      "pass": true
+    },
+    {
+      "check": "all copyright and correct numbering start physical page2",
+      "pass": true
+    },
+    {
+      "check": "all all native text within page",
+      "pass": true
+    },
+    {
+      "check": "all source data unchanged",
+      "pass": true
+    },
+    {
+      "check": "entity source model exactly equals v148",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 chart scale removed",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 definitions below chart / no viewport overflow",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 source keys retained",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 entity column retained in each table",
+      "pass": true
+    },
+    {
+      "check": "entity 390 chart scale removed",
+      "pass": true
+    },
+    {
+      "check": "entity 390 definitions below chart / no viewport overflow",
+      "pass": true
+    },
+    {
+      "check": "entity 390 source keys retained",
+      "pass": true
+    },
+    {
+      "check": "entity 390 entity column retained in each table",
+      "pass": true
+    },
+    {
+      "check": "entity native PDF A4 landscape",
+      "pass": true
+    },
+    {
+      "check": "entity native PDF planned page count",
+      "pass": true
+    },
+    {
+      "check": "entity cover covers full297x210mm page",
+      "pass": true
+    },
+    {
+      "check": "entity native cover photo reaches all page edges",
+      "pass": true
+    },
+    {
+      "check": "entity no cover copyright or page count",
+      "pass": true
+    },
+    {
+      "check": "entity charts and definitions whole on physical page2",
+      "pass": true
+    },
+    {
+      "check": "entity chart page no cover remnants",
+      "pass": true
+    },
+    {
+      "check": "entity PDF chart scale absent",
+      "pass": true
+    },
+    {
+      "check": "entity native cover text exact",
+      "pass": true
+    },
+    {
+      "check": "entity native chart text exact",
+      "pass": true
+    },
+    {
+      "check": "entity native definitions text exact",
+      "pass": true
+    },
+    {
+      "check": "entity selected entity retained under cover title",
+      "pass": true
+    },
+    {
+      "check": "entity exact detail source keys in PDF",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF headings/entity names/all table cells complete",
+      "pass": true
+    },
+    {
+      "check": "entity details begin physical page3+",
+      "pass": true
+    },
+    {
+      "check": "entity copyright and correct numbering start physical page2",
+      "pass": true
+    },
+    {
+      "check": "entity all native text within page",
+      "pass": true
+    },
+    {
+      "check": "entity source data unchanged",
+      "pass": true
+    },
+    {
+      "check": "emerging-only source model exactly equals v148",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 1440 chart scale removed",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 1440 definitions below chart / no viewport overflow",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 1440 source keys retained",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 1440 entity column retained in each table",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 1440 emerging heading and total visible",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 390 chart scale removed",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 390 definitions below chart / no viewport overflow",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 390 source keys retained",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 390 entity column retained in each table",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 390 emerging heading and total visible",
+      "pass": true
+    },
+    {
+      "check": "emerging-only native PDF A4 landscape",
+      "pass": true
+    },
+    {
+      "check": "emerging-only native PDF planned page count",
+      "pass": true
+    },
+    {
+      "check": "emerging-only cover covers full297x210mm page",
+      "pass": true
+    },
+    {
+      "check": "emerging-only native cover photo reaches all page edges",
+      "pass": true
+    },
+    {
+      "check": "emerging-only no cover copyright or page count",
+      "pass": true
+    },
+    {
+      "check": "emerging-only charts and definitions whole on physical page2",
+      "pass": true
+    },
+    {
+      "check": "emerging-only chart page no cover remnants",
+      "pass": true
+    },
+    {
+      "check": "emerging-only PDF chart scale absent",
+      "pass": true
+    },
+    {
+      "check": "emerging-only native cover text exact",
+      "pass": true
+    },
+    {
+      "check": "emerging-only native chart text exact",
+      "pass": true
+    },
+    {
+      "check": "emerging-only native definitions text exact",
+      "pass": true
+    },
+    {
+      "check": "emerging-only selected entity retained under cover title",
+      "pass": true
+    },
+    {
+      "check": "emerging-only exact detail source keys in PDF",
+      "pass": true
+    },
+    {
+      "check": "emerging-only actual PDF headings/entity names/all table cells complete",
+      "pass": true
+    },
+    {
+      "check": "emerging-only details begin physical page3+",
+      "pass": true
+    },
+    {
+      "check": "emerging-only emerging title and total present",
+      "pass": true
+    },
+    {
+      "check": "emerging-only copyright and correct numbering start physical page2",
+      "pass": true
+    },
+    {
+      "check": "emerging-only all native text within page",
+      "pass": true
+    },
+    {
+      "check": "emerging-only source data unchanged",
+      "pass": true
+    },
+    {
+      "check": "empty source model exactly equals v148",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 chart scale removed",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 definitions below chart / no viewport overflow",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 source keys retained",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 entity column retained in each table",
+      "pass": true
+    },
+    {
+      "check": "empty 390 chart scale removed",
+      "pass": true
+    },
+    {
+      "check": "empty 390 definitions below chart / no viewport overflow",
+      "pass": true
+    },
+    {
+      "check": "empty 390 source keys retained",
+      "pass": true
+    },
+    {
+      "check": "empty 390 entity column retained in each table",
+      "pass": true
+    },
+    {
+      "check": "empty native PDF A4 landscape",
+      "pass": true
+    },
+    {
+      "check": "empty native PDF planned page count",
+      "pass": true
+    },
+    {
+      "check": "empty cover covers full297x210mm page",
+      "pass": true
+    },
+    {
+      "check": "empty native cover photo reaches all page edges",
+      "pass": true
+    },
+    {
+      "check": "empty no cover copyright or page count",
+      "pass": true
+    },
+    {
+      "check": "empty charts and definitions whole on physical page2",
+      "pass": true
+    },
+    {
+      "check": "empty chart page no cover remnants",
+      "pass": true
+    },
+    {
+      "check": "empty PDF chart scale absent",
+      "pass": true
+    },
+    {
+      "check": "empty native cover text exact",
+      "pass": true
+    },
+    {
+      "check": "empty native chart text exact",
+      "pass": true
+    },
+    {
+      "check": "empty native definitions text exact",
+      "pass": true
+    },
+    {
+      "check": "empty exact detail source keys in PDF",
+      "pass": true
+    },
+    {
+      "check": "empty actual PDF headings/entity names/all table cells complete",
+      "pass": true
+    },
+    {
+      "check": "empty details begin physical page3+",
+      "pass": true
+    },
+    {
+      "check": "empty copyright and correct numbering start physical page2",
+      "pass": true
+    },
+    {
+      "check": "empty all native text within page",
+      "pass": true
+    },
+    {
+      "check": "empty source data unchanged",
+      "pass": true
+    },
+    {
+      "check": "native PDF export succeeds offline after local assets primed",
+      "pass": true
+    },
+    {
+      "check": "no internet requests",
+      "pass": true
+    },
+    {
+      "check": "no runtime errors",
+      "pass": true
+    },
+    {
+      "check": "fixture bytes unchanged",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "screen": [
+    {
+      "scope": "all",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "scope": "all",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "scope": "entity",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "scope": "entity",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "scope": "emerging-only",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "scope": "emerging-only",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "scope": "empty",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "scope": "empty",
+      "width": 390,
+      "pass": true
+    }
+  ],
+  "pdf": [
+    {
+      "scope": "all",
+      "pages": 15,
+      "sourceRows": 117,
+      "pass": true,
+      "sha256": "16fbdb6fb05f450bfa84a8d1f991876cee05fb8b1bbc59e50204d5084fd75dd7"
+    },
+    {
+      "scope": "entity",
+      "pages": 4,
+      "sourceRows": 10,
+      "pass": true,
+      "sha256": "6ee60ff23b1fe24a917ac12f3a27fa149cb776665a866f223be3ad4778a1fc44"
+    },
+    {
+      "scope": "emerging-only",
+      "pages": 3,
+      "sourceRows": 2,
+      "pass": true,
+      "sha256": "d7de8ead488fe9b10f499aac620dc1381fdcef418d792d36700b0b403a0ab681"
+    },
+    {
+      "scope": "empty",
+      "pages": 2,
+      "sourceRows": 0,
+      "pass": true,
+      "sha256": "475aec88124e1def669cdd1df3c7780b1c741948f4786c69ead1a1fdc9023cf9"
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "verdict": "PASS",
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "efddc5d838f22c36bcf613b2d41c68b9a14214d1bc089888550932069addada8",
+    "assets/css/app-bundle.css": "d1dad59f5bc9a8390c22d2073d7c03160eee0d014d33e0515ed198e0a75e8013",
+    "assets/css/print-measure-bundle.css": "9a06bead8a2d90e8a20689b7258461f52661da26c670955ecdc817be3c295295"
+  }
+}

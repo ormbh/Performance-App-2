@@ -1,0 +1,158 @@
+{
+  "cases": [
+    {
+      "case": "all",
+      "pages": 15,
+      "source": 117,
+      "spacing": "default",
+      "chartPageMM": 177.69664713541667,
+      "checks": {
+        "A4 landscape": true,
+        "cover only page1": true,
+        "charts and definitions whole page2": true,
+        "title page1 only": true,
+        "both cover images": true,
+        "rows match": true,
+        "no page2 table rows": true,
+        "table heads native present": true,
+        "page capacity": true,
+        "cover no footer": true,
+        "content footers": true,
+        "content numbering": true,
+        "full-bleed cover size": true,
+        "cover photo aspect": true,
+        "cover fullpage photo": true,
+        "no visible numeric zero": true,
+        "zero ink": true,
+        "all group names native": true
+      }
+    },
+    {
+      "case": "entity",
+      "pages": 4,
+      "source": 10,
+      "spacing": "default",
+      "chartPageMM": 165.43072916666665,
+      "checks": {
+        "A4 landscape": true,
+        "cover only page1": true,
+        "charts and definitions whole page2": true,
+        "title page1 only": true,
+        "both cover images": true,
+        "rows match": true,
+        "no page2 table rows": true,
+        "table heads native present": true,
+        "page capacity": true,
+        "cover no footer": true,
+        "content footers": true,
+        "content numbering": true,
+        "full-bleed cover size": true,
+        "cover photo aspect": true,
+        "cover fullpage photo": true,
+        "no visible numeric zero": true,
+        "zero ink": true,
+        "all group names native": true
+      }
+    },
+    {
+      "case": "entity_annex",
+      "pages": 3,
+      "source": 2,
+      "spacing": "default",
+      "chartPageMM": 153.16481119791666,
+      "checks": {
+        "A4 landscape": true,
+        "cover only page1": true,
+        "charts and definitions whole page2": true,
+        "title page1 only": true,
+        "both cover images": true,
+        "rows match": true,
+        "no page2 table rows": true,
+        "table heads native present": true,
+        "page capacity": true,
+        "cover no footer": true,
+        "content footers": true,
+        "content numbering": true,
+        "full-bleed cover size": true,
+        "cover photo aspect": true,
+        "cover fullpage photo": true,
+        "no visible numeric zero": true,
+        "zero ink": true,
+        "all group names native": true
+      }
+    },
+    {
+      "case": "emerging_only",
+      "pages": 5,
+      "source": 17,
+      "spacing": "default",
+      "chartPageMM": 177.69664713541667,
+      "checks": {
+        "A4 landscape": true,
+        "cover only page1": true,
+        "charts and definitions whole page2": true,
+        "title page1 only": true,
+        "both cover images": true,
+        "rows match": true,
+        "no page2 table rows": true,
+        "table heads native present": true,
+        "page capacity": true,
+        "cover no footer": true,
+        "content footers": true,
+        "content numbering": true,
+        "full-bleed cover size": true,
+        "cover photo aspect": true,
+        "cover fullpage photo": true,
+        "no visible numeric zero": true,
+        "zero ink": true,
+        "all group names native": true
+      }
+    },
+    {
+      "case": "empty",
+      "pages": 2,
+      "source": 0,
+      "spacing": "default",
+      "chartPageMM": 117.00371093749999,
+      "checks": {
+        "A4 landscape": true,
+        "cover only page1": true,
+        "charts and definitions whole page2": true,
+        "title page1 only": true,
+        "both cover images": true,
+        "rows match": true,
+        "no page2 table rows": true,
+        "table heads native present": true,
+        "page capacity": true,
+        "cover no footer": true,
+        "content footers": true,
+        "content numbering": true,
+        "full-bleed cover size": true,
+        "cover photo aspect": true,
+        "cover fullpage photo": true,
+        "no visible numeric zero": true,
+        "zero ink": true,
+        "all group names native": true
+      }
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "efddc5d838f22c36bcf613b2d41c68b9a14214d1bc089888550932069addada8",
+    "assets/css/app-bundle.css": "d1dad59f5bc9a8390c22d2073d7c03160eee0d014d33e0515ed198e0a75e8013",
+    "assets/css/print-measure-bundle.css": "9a06bead8a2d90e8a20689b7258461f52661da26c670955ecdc817be3c295295"
+  },
+  "verdict": "PASS",
+  "visualReview": [
+    "Full-page 297×210mm original photograph cover, aspect preserved by center crop; no white border or footer.",
+    "Content page 1 is physical page 2; totals exclude cover.",
+    "Charts and definitions remain together within unchanged 10mm content-page margins.",
+    "All scoped117 source records remain represented once.",
+    "Standalone emerging heading now appears as native text after assigning its baseline to the heading region.",
+    "Natural entity-only annex page shows المواضيع المستجدة (عدد المواضيع: 2), entity column, two rows and footer صفحة 2 من 2."
+  ],
+  "testNotes": [
+    "Initial footer string comparison failed due native RTL text extraction order; corrected to numeric-token order-independent comparison against page plan and visually verified. No runtime numbering defect."
+  ]
+}

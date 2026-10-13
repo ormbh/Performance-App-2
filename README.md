@@ -1,4 +1,15 @@
-# Performance App v148
+# Performance App v149
+
+[Download app — v149 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v149.zip) · [Verification](Saytara-Verification-v149.md) · [Screenshots](Agenda-Corrections-v149/README.md)
+
+- Agenda cover image fills the whole page, without a border or footer.
+- Page numbering and copyright start on the second physical page; cover excluded from totals.
+- Emerging-topic title, topic count and entity column restored.
+- Visible chart scale-range note removed.
+
+Extract the complete ZIP and open **index.html**. Native PDF export uses the bundled offline engine. No source workbook is included.
+
+# Previous release — v148
 
 [Download app — v148 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v148.zip) · [Verification](Saytara-Verification-v148.md) · [Screenshots](Agenda-and-Navigation-v148/README.md)
 

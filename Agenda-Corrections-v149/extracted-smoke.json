@@ -1,0 +1,16 @@
+{
+  "verdict": "PASS",
+  "checks": {
+    "entityColumn": true,
+    "scaleAbsent": true,
+    "threePhysicalPages": true,
+    "coverNoFooter": true,
+    "contentFooter": true,
+    "emergingHeading": true,
+    "entityText": true,
+    "noRuntimeErrors": true
+  },
+  "errors": [],
+  "extraction": "/workspace/saytara-work/release-check-v149-_l2nu_e7/Performance-App-v149",
+  "zipSha256": "18bcb6f6454c5c6c8cd15a7a8f14ba78c11ca9e505b92e1c64b4937bfd10032b"
+}

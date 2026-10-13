@@ -1,0 +1,43 @@
+{
+  "checks": [
+    {
+      "check": "source data unchanged",
+      "pass": true
+    },
+    {
+      "check": "no browser errors",
+      "pass": true
+    },
+    {
+      "check": "monthly continuous PDF remains one page",
+      "pass": true
+    },
+    {
+      "check": "continuous297mm width and longer page",
+      "pass": true
+    },
+    {
+      "check": "monthly header logo image remains embedded",
+      "pass": true
+    },
+    {
+      "check": "monthly title and source date present",
+      "pass": true
+    },
+    {
+      "check": "copyright retained",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "pageSizePt": [
+    0.0,
+    0.0,
+    841.8897705078125,
+    1825.5118408203125
+  ],
+  "pageCount": 1,
+  "pdfSHA256": "6626940765c7f50f2d16f9eb8c9578f7a9c26e8629e76a6d6b9985fe0d14e1c5",
+  "runtimeSHA256": "efddc5d838f22c36bcf613b2d41c68b9a14214d1bc089888550932069addada8",
+  "verdict": "PASS"
+}

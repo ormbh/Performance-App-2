@@ -1,0 +1,137 @@
+{
+  "version": 149,
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "cutoff": "2026-09-30",
+    "illustrative": true
+  },
+  "checks": [
+    {
+      "check": "long-text 1440 chart scale removed",
+      "pass": true
+    },
+    {
+      "check": "long-text 1440 definitions below chart / no viewport overflow",
+      "pass": true
+    },
+    {
+      "check": "long-text 1440 source keys retained",
+      "pass": true
+    },
+    {
+      "check": "long-text 1440 entity column retained in each table",
+      "pass": true
+    },
+    {
+      "check": "long-text 390 chart scale removed",
+      "pass": true
+    },
+    {
+      "check": "long-text 390 definitions below chart / no viewport overflow",
+      "pass": true
+    },
+    {
+      "check": "long-text 390 source keys retained",
+      "pass": true
+    },
+    {
+      "check": "long-text 390 entity column retained in each table",
+      "pass": true
+    },
+    {
+      "check": "long-text native PDF A4 landscape",
+      "pass": true
+    },
+    {
+      "check": "long-text native PDF planned page count",
+      "pass": true
+    },
+    {
+      "check": "long-text cover covers full297x210mm page",
+      "pass": true
+    },
+    {
+      "check": "long-text native cover photo reaches all page edges",
+      "pass": true
+    },
+    {
+      "check": "long-text no cover copyright or page count",
+      "pass": true
+    },
+    {
+      "check": "long-text charts and definitions whole on physical page2",
+      "pass": true
+    },
+    {
+      "check": "long-text chart page no cover remnants",
+      "pass": true
+    },
+    {
+      "check": "long-text PDF chart scale absent",
+      "pass": true
+    },
+    {
+      "check": "long-text native cover text exact",
+      "pass": true
+    },
+    {
+      "check": "long-text native chart text exact",
+      "pass": true
+    },
+    {
+      "check": "long-text native definitions text exact",
+      "pass": true
+    },
+    {
+      "check": "long-text selected entity retained under cover title",
+      "pass": true
+    },
+    {
+      "check": "long-text exact detail source keys in PDF",
+      "pass": true
+    },
+    {
+      "check": "long-text actual PDF headings/entity names/all table cells complete",
+      "pass": true
+    },
+    {
+      "check": "long-text details begin physical page3+",
+      "pass": true
+    },
+    {
+      "check": "long-text copyright and correct numbering start physical page2",
+      "pass": true
+    },
+    {
+      "check": "long-text all native text within page",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "screen": [
+    {
+      "scope": "long-text",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "scope": "long-text",
+      "width": 390,
+      "pass": true
+    }
+  ],
+  "pdf": [
+    {
+      "scope": "long-text",
+      "pages": 3,
+      "sourceRows": 2,
+      "pass": true,
+      "sha256": "ac6b376e19f833242647e3c06d310202cf290f4094b44f228ba1bb7b2c8fb2ff"
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "verdict": "PASS",
+  "note": "Isolated in-memory mutation of two illustrative topic titles for wrapping only. Workbook unchanged."
+}
