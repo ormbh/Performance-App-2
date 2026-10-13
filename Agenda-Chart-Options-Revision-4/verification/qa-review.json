@@ -1,0 +1,1415 @@
+{
+  "stage": "Independent review of revised matrix plus three replacement options; illustrations only",
+  "source": {
+    "fixture": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+  },
+  "HTMLSHA256": "c6791b58e372f98d638f3f1c94d9f4231531932242bc8eff2ca826cf41f3afc1",
+  "screenChecks": [
+    {
+      "option": "a",
+      "scope": "all",
+      "width": 1440,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0.015625
+    },
+    {
+      "option": "a",
+      "scope": "all",
+      "width": 1024,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0.046875
+    },
+    {
+      "option": "a",
+      "scope": "all",
+      "width": 390,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "a",
+      "scope": "all",
+      "width": 320,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0.0
+    },
+    {
+      "option": "a",
+      "scope": "entity",
+      "width": 1440,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0.015625
+    },
+    {
+      "option": "a",
+      "scope": "entity",
+      "width": 1024,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0.046875
+    },
+    {
+      "option": "a",
+      "scope": "entity",
+      "width": 390,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "a",
+      "scope": "entity",
+      "width": 320,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0.0
+    },
+    {
+      "option": "a",
+      "scope": "sparse",
+      "width": 1440,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0.0
+    },
+    {
+      "option": "a",
+      "scope": "sparse",
+      "width": 1024,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0.0
+    },
+    {
+      "option": "a",
+      "scope": "sparse",
+      "width": 390,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "a",
+      "scope": "sparse",
+      "width": 320,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "a",
+      "scope": "empty",
+      "width": 1440,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "a",
+      "scope": "empty",
+      "width": 1024,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "a",
+      "scope": "empty",
+      "width": 390,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "a",
+      "scope": "empty",
+      "width": 320,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "a",
+      "scope": "multiple",
+      "width": 1440,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0.015625
+    },
+    {
+      "option": "a",
+      "scope": "multiple",
+      "width": 1024,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0.046875
+    },
+    {
+      "option": "a",
+      "scope": "multiple",
+      "width": 390,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "a",
+      "scope": "multiple",
+      "width": 320,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0.0
+    },
+    {
+      "option": "a",
+      "scope": "emerging",
+      "width": 1440,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0.015625
+    },
+    {
+      "option": "a",
+      "scope": "emerging",
+      "width": 1024,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0.0
+    },
+    {
+      "option": "a",
+      "scope": "emerging",
+      "width": 390,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "a",
+      "scope": "emerging",
+      "width": 320,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0.0
+    },
+    {
+      "option": "grouped",
+      "scope": "all",
+      "width": 1440,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "all",
+      "width": 1024,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "all",
+      "width": 390,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "all",
+      "width": 320,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "entity",
+      "width": 1440,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "entity",
+      "width": 1024,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "entity",
+      "width": 390,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "entity",
+      "width": 320,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "sparse",
+      "width": 1440,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "sparse",
+      "width": 1024,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "sparse",
+      "width": 390,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "sparse",
+      "width": 320,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "empty",
+      "width": 1440,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "empty",
+      "width": 1024,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "empty",
+      "width": 390,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "empty",
+      "width": 320,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "multiple",
+      "width": 1440,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "multiple",
+      "width": 1024,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "multiple",
+      "width": 390,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "multiple",
+      "width": 320,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "emerging",
+      "width": 1440,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "emerging",
+      "width": 1024,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "emerging",
+      "width": 390,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "grouped",
+      "scope": "emerging",
+      "width": 320,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "all",
+      "width": 1440,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "all",
+      "width": 1024,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "all",
+      "width": 390,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "all",
+      "width": 320,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "entity",
+      "width": 1440,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "entity",
+      "width": 1024,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "entity",
+      "width": 390,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "entity",
+      "width": 320,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "sparse",
+      "width": 1440,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "sparse",
+      "width": 1024,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "sparse",
+      "width": 390,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "sparse",
+      "width": 320,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "empty",
+      "width": 1440,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "empty",
+      "width": 1024,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "empty",
+      "width": 390,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "empty",
+      "width": 320,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "multiple",
+      "width": 1440,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "multiple",
+      "width": 1024,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "multiple",
+      "width": 390,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "multiple",
+      "width": 320,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "emerging",
+      "width": 1440,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "emerging",
+      "width": 1024,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "emerging",
+      "width": 390,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "vertical",
+      "scope": "emerging",
+      "width": 320,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "all",
+      "width": 1440,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "all",
+      "width": 1024,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "all",
+      "width": 390,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "all",
+      "width": 320,
+      "pass": true,
+      "total": 117,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "entity",
+      "width": 1440,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "entity",
+      "width": 1024,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "entity",
+      "width": 390,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "entity",
+      "width": 320,
+      "pass": true,
+      "total": 10,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "sparse",
+      "width": 1440,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "sparse",
+      "width": 1024,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "sparse",
+      "width": 390,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "sparse",
+      "width": 320,
+      "pass": true,
+      "total": 1,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "empty",
+      "width": 1440,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "empty",
+      "width": 1024,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "empty",
+      "width": 390,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "empty",
+      "width": 320,
+      "pass": true,
+      "total": 0,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "multiple",
+      "width": 1440,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "multiple",
+      "width": 1024,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "multiple",
+      "width": 390,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "multiple",
+      "width": 320,
+      "pass": true,
+      "total": 11,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "emerging",
+      "width": 1440,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "emerging",
+      "width": 1024,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "emerging",
+      "width": 390,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0
+    },
+    {
+      "option": "text",
+      "scope": "emerging",
+      "width": 320,
+      "pass": true,
+      "total": 17,
+      "scaleSpreadPx": 0
+    }
+  ],
+  "pdfChecks": [
+    {
+      "file": "Agenda-A-All-A4-First-Page.pdf",
+      "pass": true,
+      "sizePt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "pageCount": 1,
+      "textBoundsPt": [
+        28.3359375,
+        30.107999801635742,
+        813.54833984375,
+        566.4854736328125
+      ],
+      "fonts": [
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "embeddedFontBytes": 7976,
+          "glyphPrograms": false,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        }
+      ],
+      "sha256": "7cb26c42503e48e8a47d702082b8a6ef53d45038123d38b72a36033cbf05feff"
+    },
+    {
+      "file": "Agenda-A-Entity-A4-First-Page.pdf",
+      "pass": true,
+      "sizePt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "pageCount": 1,
+      "textBoundsPt": [
+        28.3359375,
+        30.107999801635742,
+        813.54833984375,
+        566.4854736328125
+      ],
+      "fonts": [
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "embeddedFontBytes": 7308,
+          "glyphPrograms": false,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        }
+      ],
+      "sha256": "e6b899b2170269e28218f44cab7cf2a25ddb7970e12ee2012a0fba9b3f23e014"
+    },
+    {
+      "file": "Agenda-Grouped-All-A4-First-Page.pdf",
+      "pass": true,
+      "sizePt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "pageCount": 1,
+      "textBoundsPt": [
+        28.3359375,
+        30.107999801635742,
+        813.54833984375,
+        566.4854736328125
+      ],
+      "fonts": [
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "embeddedFontBytes": 7976,
+          "glyphPrograms": false,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        }
+      ],
+      "sha256": "331240a0754fd7647446b94f36e9153cbc4ed5b8dd1030ac04506f6fce1ebaa6"
+    },
+    {
+      "file": "Agenda-Grouped-Entity-A4-First-Page.pdf",
+      "pass": true,
+      "sizePt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "pageCount": 1,
+      "textBoundsPt": [
+        28.3359375,
+        30.107999801635742,
+        813.54833984375,
+        566.4854736328125
+      ],
+      "fonts": [
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "embeddedFontBytes": 7308,
+          "glyphPrograms": false,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        }
+      ],
+      "sha256": "d5a882d2c5d0beea4c37dc628b657106433944e722bc7fd2311b36bf9c6b0675"
+    },
+    {
+      "file": "Agenda-Vertical-All-A4-First-Page.pdf",
+      "pass": true,
+      "sizePt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "pageCount": 1,
+      "textBoundsPt": [
+        28.3359375,
+        30.107999801635742,
+        813.54833984375,
+        566.4854736328125
+      ],
+      "fonts": [
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "embeddedFontBytes": 7976,
+          "glyphPrograms": false,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        }
+      ],
+      "sha256": "bb6e2a53b53bfd0c4bd8ac42a5c47c608b02efc21b5e8325aa883552a30aa9de"
+    },
+    {
+      "file": "Agenda-Vertical-Entity-A4-First-Page.pdf",
+      "pass": true,
+      "sizePt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "pageCount": 1,
+      "textBoundsPt": [
+        28.3359375,
+        30.107999801635742,
+        813.54833984375,
+        566.4854736328125
+      ],
+      "fonts": [
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "embeddedFontBytes": 7308,
+          "glyphPrograms": false,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        }
+      ],
+      "sha256": "d1328a9431cfd483bb60c3283e78fb930d206ff1e501214627fe5fd01b53124d"
+    },
+    {
+      "file": "Agenda-Text-All-A4-First-Page.pdf",
+      "pass": true,
+      "sizePt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "pageCount": 1,
+      "textBoundsPt": [
+        28.3359375,
+        30.107999801635742,
+        813.54833984375,
+        566.4854736328125
+      ],
+      "fonts": [
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "embeddedFontBytes": 7976,
+          "glyphPrograms": false,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        }
+      ],
+      "sha256": "ba4f469aca2f4e9b38e54cb4d438573f4c9ee43d05466f726d8fce6a28e45e07"
+    },
+    {
+      "file": "Agenda-Text-Entity-A4-First-Page.pdf",
+      "pass": true,
+      "sizePt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "pageCount": 1,
+      "textBoundsPt": [
+        28.3359375,
+        30.107999801635742,
+        813.54833984375,
+        566.4854736328125
+      ],
+      "fonts": [
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "embeddedFontBytes": 7308,
+          "glyphPrograms": false,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedFontBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        }
+      ],
+      "sha256": "456c23917b75815ba567212a3b9cff72544d29088805a6ec183b88f1cb4c8779"
+    }
+  ],
+  "printDOM": {
+    "Agenda-A-All-A4-First-Page.pdf": {
+      "chartText": "الأجندة السنوية\n117\nالإجمالي\nمستويات الإنجاز حسب الربع\nعدد المواضيع 0–44\nالأجندة المعتمدة\n100\nالمواضيع المستجدة\n17\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\nجاهز للعرض\t\n3\n\t\n5\n\t\n2\n\t\n0\n\nقيد المراجعة\t\n1\n\t\n2\n\t\n1\n\t\n1\n\nقيد التطوير\t\n0\n\t\n2\n\t\n5\n\t\n44\n\nمنجز\t\n23\n\t\n8\n\t\n2\n\t\n1\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\nجاهز للعرض\t\n2\n\t\n0\n\t\n4\n\t\n0\n\nقيد المراجعة\t\n0\n\t\n0\n\t\n1\n\t\n0\n\nقيد التطوير\t\n0\n\t\n0\n\t\n0\n\t\n1\n\nمنجز\t\n5\n\t\n2\n\t\n1\n\t\n1",
+      "header": "مستجدات الأجندة السنوية\n\nيناير – سبتمبر 2026",
+      "rect": [
+        37.78125,
+        134.015625,
+        1084.734375,
+        548.203125
+      ],
+      "footerGap": 188.109375
+    },
+    "Agenda-A-Entity-A4-First-Page.pdf": {
+      "chartText": "الأجندة السنوية\n10\nالإجمالي\nمستويات الإنجاز حسب الربع\nعدد المواضيع 0–3\nالأجندة المعتمدة\n8\nالمواضيع المستجدة\n2\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\nجاهز للعرض\t\n0\n\t\n1\n\t\n0\n\t\n0\n\nقيد التطوير\t\n0\n\t\n0\n\t\n1\n\t\n2\n\nمنجز\t\n3\n\t\n1\n\t\n0\n\t\n0\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\nجاهز للعرض\t\n0\n\t\n0\n\t\n0\n\t\n0\n\nقيد التطوير\t\n0\n\t\n0\n\t\n0\n\t\n0\n\nمنجز\t\n1\n\t\n1\n\t\n0\n\t\n0",
+      "header": "مستجدات الأجندة السنوية\n\nهيئة الطرق والمواصلات\n\nيناير – سبتمبر 2026",
+      "rect": [
+        37.78125,
+        158.078125,
+        1084.734375,
+        525.90625
+      ],
+      "footerGap": 210.40625
+    },
+    "Agenda-Grouped-All-A4-First-Page.pdf": {
+      "chartText": "الأجندة السنوية\n117\nالإجمالي\nمستويات الإنجاز حسب الربع\nعدد المواضيع 0–44\nالأجندة المعتمدة\n100\nالمواضيع المستجدة\n17\nالحالة\nالأرباع\nجاهز للعرض\nالربع الأول\n3\nالربع الثاني\n5\nالربع الثالث\n2\nالربع الرابع\n0\nقيد المراجعة\nالربع الأول\n1\nالربع الثاني\n2\nالربع الثالث\n1\nالربع الرابع\n1\nقيد التطوير\nالربع الأول\n0\nالربع الثاني\n2\nالربع الثالث\n5\nالربع الرابع\n44\nمنجز\nالربع الأول\n23\nالربع الثاني\n8\nالربع الثالث\n2\nالربع الرابع\n1\nالحالة\nالأرباع\nجاهز للعرض\nالربع الأول\n2\nالربع الثاني\n0\nالربع الثالث\n4\nالربع الرابع\n0\nقيد المراجعة\nالربع الأول\n0\nالربع الثاني\n0\nالربع الثالث\n1\nالربع الرابع\n0\nقيد التطوير\nالربع الأول\n0\nالربع الثاني\n0\nالربع الثالث\n0\nالربع الرابع\n1\nمنجز\nالربع الأول\n5\nالربع الثاني\n2\nالربع الثالث\n1\nالربع الرابع\n1",
+      "header": "مستجدات الأجندة السنوية\n\nيناير – سبتمبر 2026",
+      "rect": [
+        37.78125,
+        134.015625,
+        1084.734375,
+        654.359375
+      ],
+      "footerGap": 81.953125
+    },
+    "Agenda-Grouped-Entity-A4-First-Page.pdf": {
+      "chartText": "الأجندة السنوية\n10\nالإجمالي\nمستويات الإنجاز حسب الربع\nعدد المواضيع 0–3\nالأجندة المعتمدة\n8\nالمواضيع المستجدة\n2\nالحالة\nالأرباع\nجاهز للعرض\nالربع الأول\n0\nالربع الثاني\n1\nالربع الثالث\n0\nالربع الرابع\n0\nقيد التطوير\nالربع الأول\n0\nالربع الثاني\n0\nالربع الثالث\n1\nالربع الرابع\n2\nمنجز\nالربع الأول\n3\nالربع الثاني\n1\nالربع الثالث\n0\nالربع الرابع\n0\nالحالة\nالأرباع\nجاهز للعرض\nالربع الأول\n0\nالربع الثاني\n0\nالربع الثالث\n0\nالربع الرابع\n0\nقيد التطوير\nالربع الأول\n0\nالربع الثاني\n0\nالربع الثالث\n0\nالربع الرابع\n0\nمنجز\nالربع الأول\n1\nالربع الثاني\n1\nالربع الثالث\n0\nالربع الرابع\n0",
+      "header": "مستجدات الأجندة السنوية\n\nهيئة الطرق والمواصلات\n\nيناير – سبتمبر 2026",
+      "rect": [
+        37.78125,
+        158.078125,
+        1084.734375,
+        601.546875
+      ],
+      "footerGap": 134.765625
+    },
+    "Agenda-Vertical-All-A4-First-Page.pdf": {
+      "chartText": "الأجندة السنوية\n117\nالإجمالي\nمستويات الإنجاز حسب الربع\nعدد المواضيع 0–44\nالأجندة المعتمدة\n100\nالمواضيع المستجدة\n17\nالأجندة المعتمدة\nالربع الأول\n3\nجاهز\nللعرض\n1\nقيد\nالمراجعة\n0\nقيد\nالتطوير\n23\nمنجز\nالربع الثاني\n5\nجاهز\nللعرض\n2\nقيد\nالمراجعة\n2\nقيد\nالتطوير\n8\nمنجز\nالربع الثالث\n2\nجاهز\nللعرض\n1\nقيد\nالمراجعة\n5\nقيد\nالتطوير\n2\nمنجز\nالربع الرابع\n0\nجاهز\nللعرض\n1\nقيد\nالمراجعة\n44\nقيد\nالتطوير\n1\nمنجز\nالمواضيع المستجدة\nالربع الأول\n2\nجاهز\nللعرض\n0\nقيد\nالمراجعة\n0\nقيد\nالتطوير\n5\nمنجز\nالربع الثاني\n0\nجاهز\nللعرض\n0\nقيد\nالمراجعة\n0\nقيد\nالتطوير\n2\nمنجز\nالربع الثالث\n4\nجاهز\nللعرض\n1\nقيد\nالمراجعة\n0\nقيد\nالتطوير\n1\nمنجز\nالربع الرابع\n0\nجاهز\nللعرض\n0\nقيد\nالمراجعة\n1\nقيد\nالتطوير\n1\nمنجز",
+      "header": "مستجدات الأجندة السنوية\n\nيناير – سبتمبر 2026",
+      "rect": [
+        37.78125,
+        134.015625,
+        1084.734375,
+        676.34375
+      ],
+      "footerGap": 59.96875
+    },
+    "Agenda-Vertical-Entity-A4-First-Page.pdf": {
+      "chartText": "الأجندة السنوية\n10\nالإجمالي\nمستويات الإنجاز حسب الربع\nعدد المواضيع 0–3\nالأجندة المعتمدة\n8\nالمواضيع المستجدة\n2\nالأجندة المعتمدة\nالربع الأول\n0\nجاهز\nللعرض\n0\nقيد\nالتطوير\n3\nمنجز\nالربع الثاني\n1\nجاهز\nللعرض\n0\nقيد\nالتطوير\n1\nمنجز\nالربع الثالث\n0\nجاهز\nللعرض\n1\nقيد\nالتطوير\n0\nمنجز\nالربع الرابع\n0\nجاهز\nللعرض\n2\nقيد\nالتطوير\n0\nمنجز\nالمواضيع المستجدة\nالربع الأول\n0\nجاهز\nللعرض\n0\nقيد\nالتطوير\n1\nمنجز\nالربع الثاني\n0\nجاهز\nللعرض\n0\nقيد\nالتطوير\n1\nمنجز\nالربع الثالث\n0\nجاهز\nللعرض\n0\nقيد\nالتطوير\n0\nمنجز\nالربع الرابع\n0\nجاهز\nللعرض\n0\nقيد\nالتطوير\n0\nمنجز",
+      "header": "مستجدات الأجندة السنوية\n\nهيئة الطرق والمواصلات\n\nيناير – سبتمبر 2026",
+      "rect": [
+        37.78125,
+        158.078125,
+        1084.734375,
+        700.40625
+      ],
+      "footerGap": 35.90625
+    },
+    "Agenda-Text-All-A4-First-Page.pdf": {
+      "chartText": "الأجندة السنوية\n117\nالإجمالي\nمستويات الإنجاز حسب الربع\nالأجندة المعتمدة\n100\nالمواضيع المستجدة\n17\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\nجاهز للعرض\t\n3\n\t\n5\n\t\n2\n\t\n0\n\nقيد المراجعة\t\n1\n\t\n2\n\t\n1\n\t\n1\n\nقيد التطوير\t\n0\n\t\n2\n\t\n5\n\t\n44\n\nمنجز\t\n23\n\t\n8\n\t\n2\n\t\n1\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\nجاهز للعرض\t\n2\n\t\n0\n\t\n4\n\t\n0\n\nقيد المراجعة\t\n0\n\t\n0\n\t\n1\n\t\n0\n\nقيد التطوير\t\n0\n\t\n0\n\t\n0\n\t\n1\n\nمنجز\t\n5\n\t\n2\n\t\n1\n\t\n1",
+      "header": "مستجدات الأجندة السنوية\n\nيناير – سبتمبر 2026",
+      "rect": [
+        37.78125,
+        134.015625,
+        1084.734375,
+        553.453125
+      ],
+      "footerGap": 182.859375
+    },
+    "Agenda-Text-Entity-A4-First-Page.pdf": {
+      "chartText": "الأجندة السنوية\n10\nالإجمالي\nمستويات الإنجاز حسب الربع\nالأجندة المعتمدة\n8\nالمواضيع المستجدة\n2\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\nجاهز للعرض\t\n0\n\t\n1\n\t\n0\n\t\n0\n\nقيد التطوير\t\n0\n\t\n0\n\t\n1\n\t\n2\n\nمنجز\t\n3\n\t\n1\n\t\n0\n\t\n0\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\nجاهز للعرض\t\n0\n\t\n0\n\t\n0\n\t\n0\n\nقيد التطوير\t\n0\n\t\n0\n\t\n0\n\t\n0\n\nمنجز\t\n1\n\t\n1\n\t\n0\n\t\n0",
+      "header": "مستجدات الأجندة السنوية\n\nهيئة الطرق والمواصلات\n\nيناير – سبتمبر 2026",
+      "rect": [
+        37.78125,
+        158.078125,
+        1084.734375,
+        529.84375
+      ],
+      "footerGap": 206.46875
+    }
+  },
+  "issues": [],
+  "offlineExternalRequests": [],
+  "verdict": "PASS",
+  "limits": [
+    "Illustrative fixture only; six source specifications unchanged from v3 fresh-model validation.",
+    "A4 first-page chart proofs, not complete report exports.",
+    "Targeted visual/DOM checks are not accessibility certification.",
+    "No app files modified."
+  ]
+}

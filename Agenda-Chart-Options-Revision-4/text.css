@@ -1,0 +1,19 @@
+/* Minimal count presentation. Root, fonts, scope and semantics match Option A. */
+.ag-v3-option-a.v4-text .a-chart-head{margin-bottom:16px}
+.ag-v3-option-a.v4-text .a-matrix tbody :is(th,td){padding:14px 5px;border-bottom:0}
+.ag-v3-option-a.v4-text .a-matrix thead th{padding-top:12px;padding-bottom:12px;border-bottom:1px solid #E7E0D3}
+.ag-v3-option-a.v4-text .a-matrix :is(.a-status-heading,.a-status-name){text-align:right}
+.ag-v3-option-a.v4-text .a-cell-number{font:400 28px/1.25 var(--figure-font)}
+.ag-v3-option-a.v4-text .v4-text-zero .a-cell-number{color:#756B5F}
+@media screen and (max-width:600px){
+ .ag-v3-option-a.v4-text .a-matrix tr{padding-top:12px;padding-bottom:16px;row-gap:0}
+ .ag-v3-option-a.v4-text .a-matrix tbody :is(th,td){padding:8px 0}
+ .ag-v3-option-a.v4-text .a-matrix .a-status-name{min-height:0;padding-bottom:8px}
+ .ag-v3-option-a.v4-text .a-mobile-quarter{margin-bottom:4px}
+}
+@media print{
+ .ag-v3-option-a.v4-text .a-chart-head{margin-bottom:3mm}
+ .ag-v3-option-a.v4-text .a-matrix tbody :is(th,td){padding:2.5mm 1mm!important;border-bottom:0}
+ .ag-v3-option-a.v4-text .a-matrix thead th{padding:1.5mm 1mm 2mm!important}
+ .ag-v3-option-a.v4-text .a-cell-number{font:400 18pt/1.2 var(--figure-font)!important}
+}

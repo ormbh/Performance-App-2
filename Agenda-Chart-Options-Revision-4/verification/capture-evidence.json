@@ -1,0 +1,2607 @@
+{
+  "stage": "Illustration only; native PDF first-page proofs, not complete reports",
+  "cases": [
+    {
+      "option": "a",
+      "scope": "all",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 343.296875,
+          "width": 1344,
+          "height": 506.953125,
+          "top": 343.296875,
+          "right": 1392,
+          "bottom": 850.25,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "all",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 928,
+          "height": 506.953125,
+          "top": 399.296875,
+          "right": 976,
+          "bottom": 906.25,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "all",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 672,
+          "height": 880.71875,
+          "top": 399.296875,
+          "right": 720,
+          "bottom": 1280.015625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "all",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 693.078125,
+          "width": 358,
+          "height": 1738.65625,
+          "top": 693.078125,
+          "right": 374,
+          "bottom": 2431.734375,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "all",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 690.078125,
+          "width": 288,
+          "height": 1783.84375,
+          "top": 690.078125,
+          "right": 304,
+          "bottom": 2473.921875,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "entity",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 452.15625,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 819.453125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "entity",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 452.15625,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 875.453125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "entity",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 771.125,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 1194.421875,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "entity",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 1416.28125,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 2133.359375,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "entity",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 1461.46875,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 2175.546875,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "sparse",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 342.5625,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 709.859375,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "sparse",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 342.5625,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 765.859375,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "sparse",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 388.15625,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 811.453125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "sparse",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 531.75,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 1248.828125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "sparse",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 576.9375,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 1291.015625,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "empty",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 270.78125,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 638.078125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "empty",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 270.78125,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 694.078125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "empty",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 270.78125,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 694.078125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "empty",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 310.375,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 1027.453125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "empty",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 316.375,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 1030.453125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "multiple",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 452.15625,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 819.453125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "multiple",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 452.15625,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 875.453125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "multiple",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 771.125,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 1194.421875,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "multiple",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 1416.28125,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 2133.359375,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "multiple",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 1461.46875,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 2175.546875,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "emerging",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 343.296875,
+          "width": 1344,
+          "height": 506.953125,
+          "top": 343.296875,
+          "right": 1392,
+          "bottom": 850.25,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "emerging",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 928,
+          "height": 506.953125,
+          "top": 399.296875,
+          "right": 976,
+          "bottom": 906.25,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "emerging",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 672,
+          "height": 552.546875,
+          "top": 399.296875,
+          "right": 720,
+          "bottom": 951.84375,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "emerging",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 693.078125,
+          "width": 358,
+          "height": 1015.3125,
+          "top": 693.078125,
+          "right": 374,
+          "bottom": 1708.390625,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "a",
+      "scope": "emerging",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 690.078125,
+          "width": 288,
+          "height": 1054.5,
+          "top": 690.078125,
+          "right": 304,
+          "bottom": 1744.578125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "all",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 343.296875,
+          "width": 1344,
+          "height": 796.765625,
+          "top": 343.296875,
+          "right": 1392,
+          "bottom": 1140.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "all",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 928,
+          "height": 796.765625,
+          "top": 399.296875,
+          "right": 976,
+          "bottom": 1196.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "all",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 672,
+          "height": 1443.53125,
+          "top": 399.296875,
+          "right": 720,
+          "bottom": 1842.828125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "all",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 693.078125,
+          "width": 358,
+          "height": 1767.46875,
+          "top": 693.078125,
+          "right": 374,
+          "bottom": 2460.546875,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "all",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 690.078125,
+          "width": 288,
+          "height": 1812.65625,
+          "top": 690.078125,
+          "right": 304,
+          "bottom": 2502.734375,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "entity",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 666.765625,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 1034.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "entity",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 666.765625,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 1090.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "entity",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 1183.53125,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 1606.828125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "entity",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 1422.6875,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 2139.765625,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "entity",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 1467.875,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 2181.953125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "sparse",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 322.765625,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 690.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "sparse",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 322.765625,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 746.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "sparse",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 359.953125,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 783.25,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "sparse",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 422.546875,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 1139.625,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "sparse",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 467.734375,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 1181.8125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "empty",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 270.78125,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 638.078125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "empty",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 270.78125,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 694.078125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "empty",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 270.78125,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 694.078125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "empty",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 310.375,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 1027.453125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "empty",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 316.375,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 1030.453125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "multiple",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 666.765625,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 1034.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "multiple",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 666.765625,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 1090.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "multiple",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 1183.53125,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 1606.828125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "multiple",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 1422.6875,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 2139.765625,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "multiple",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 1467.875,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 2181.953125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "emerging",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 343.296875,
+          "width": 1344,
+          "height": 796.765625,
+          "top": 343.296875,
+          "right": 1392,
+          "bottom": 1140.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "emerging",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 928,
+          "height": 796.765625,
+          "top": 399.296875,
+          "right": 976,
+          "bottom": 1196.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "emerging",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 672,
+          "height": 833.953125,
+          "top": 399.296875,
+          "right": 720,
+          "bottom": 1233.25,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "emerging",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 693.078125,
+          "width": 358,
+          "height": 1029.71875,
+          "top": 693.078125,
+          "right": 374,
+          "bottom": 1722.796875,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "grouped",
+      "scope": "emerging",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 690.078125,
+          "width": 288,
+          "height": 1068.90625,
+          "top": 690.078125,
+          "right": 304,
+          "bottom": 1758.984375,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "all",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 343.296875,
+          "width": 1344,
+          "height": 773.9375,
+          "top": 343.296875,
+          "right": 1392,
+          "bottom": 1117.234375,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "all",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 928,
+          "height": 1253.125,
+          "top": 399.296875,
+          "right": 976,
+          "bottom": 1652.421875,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "all",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 672,
+          "height": 1253.125,
+          "top": 399.296875,
+          "right": 720,
+          "bottom": 1652.421875,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "all",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 693.078125,
+          "width": 358,
+          "height": 2308.09375,
+          "top": 693.078125,
+          "right": 374,
+          "bottom": 3001.171875,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "all",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 690.078125,
+          "width": 288,
+          "height": 2353.28125,
+          "top": 690.078125,
+          "right": 304,
+          "bottom": 3043.359375,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "entity",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 773.9375,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 1141.234375,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "entity",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 1253.125,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 1676.421875,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "entity",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 1253.125,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 1676.421875,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "entity",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 2308.09375,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 3025.171875,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "entity",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 2353.28125,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 3067.359375,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "sparse",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 501.15625,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 868.453125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "sparse",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 501.15625,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 924.453125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "sparse",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 501.15625,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 924.453125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "sparse",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 584.125,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 1301.203125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "sparse",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 629.3125,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 1343.390625,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "empty",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 270.78125,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 638.078125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "empty",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 270.78125,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 694.078125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "empty",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 270.78125,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 694.078125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "empty",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 310.375,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 1027.453125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "empty",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 316.375,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 1030.453125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "multiple",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 773.9375,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 1141.234375,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "multiple",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 1253.125,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 1676.421875,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "multiple",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 1253.125,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 1676.421875,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "multiple",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 2308.09375,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 3025.171875,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "multiple",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 2353.28125,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 3067.359375,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "emerging",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 343.296875,
+          "width": 1344,
+          "height": 501.15625,
+          "top": 343.296875,
+          "right": 1392,
+          "bottom": 844.453125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "emerging",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 928,
+          "height": 740.75,
+          "top": 399.296875,
+          "right": 976,
+          "bottom": 1140.046875,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "emerging",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 672,
+          "height": 740.75,
+          "top": 399.296875,
+          "right": 720,
+          "bottom": 1140.046875,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "emerging",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 693.078125,
+          "width": 358,
+          "height": 1298.03125,
+          "top": 693.078125,
+          "right": 374,
+          "bottom": 1991.109375,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "vertical",
+      "scope": "emerging",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 690.078125,
+          "width": 288,
+          "height": 1337.21875,
+          "top": 690.078125,
+          "right": 304,
+          "bottom": 2027.296875,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "all",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 343.296875,
+          "width": 1344,
+          "height": 551.765625,
+          "top": 343.296875,
+          "right": 1392,
+          "bottom": 895.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "all",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 928,
+          "height": 551.765625,
+          "top": 399.296875,
+          "right": 976,
+          "bottom": 951.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "all",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 672,
+          "height": 966.34375,
+          "top": 399.296875,
+          "right": 720,
+          "bottom": 1365.640625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "all",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 693.078125,
+          "width": 358,
+          "height": 1740.28125,
+          "top": 693.078125,
+          "right": 374,
+          "bottom": 2433.359375,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "all",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 690.078125,
+          "width": 288,
+          "height": 1785.46875,
+          "top": 690.078125,
+          "right": 304,
+          "bottom": 2475.546875,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "entity",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 488.765625,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 856.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "entity",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 488.765625,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 912.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "entity",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 840.34375,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 1263.640625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "entity",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 1411.5,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 2128.578125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "entity",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 1456.6875,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 2170.765625,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "sparse",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 362.765625,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 730.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "sparse",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 362.765625,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 786.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "sparse",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 408.359375,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 831.65625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "sparse",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 510.953125,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 1228.03125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "sparse",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 556.140625,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 1270.21875,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "empty",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 270.78125,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 638.078125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "empty",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 270.78125,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 694.078125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "empty",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 270.78125,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 694.078125,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "empty",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 310.375,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 1027.453125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "empty",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 316.375,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 1030.453125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "multiple",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 367.296875,
+          "width": 1344,
+          "height": 488.765625,
+          "top": 367.296875,
+          "right": 1392,
+          "bottom": 856.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "multiple",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 928,
+          "height": 488.765625,
+          "top": 423.296875,
+          "right": 976,
+          "bottom": 912.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "multiple",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 423.296875,
+          "width": 672,
+          "height": 840.34375,
+          "top": 423.296875,
+          "right": 720,
+          "bottom": 1263.640625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "multiple",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 717.078125,
+          "width": 358,
+          "height": 1411.5,
+          "top": 717.078125,
+          "right": 374,
+          "bottom": 2128.578125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "multiple",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 714.078125,
+          "width": 288,
+          "height": 1456.6875,
+          "top": 714.078125,
+          "right": 304,
+          "bottom": 2170.765625,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "emerging",
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "chart": {
+          "x": 48,
+          "y": 343.296875,
+          "width": 1344,
+          "height": 551.765625,
+          "top": 343.296875,
+          "right": 1392,
+          "bottom": 895.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "emerging",
+      "geometry": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 928,
+          "height": 551.765625,
+          "top": 399.296875,
+          "right": 976,
+          "bottom": 951.0625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "emerging",
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768,
+        "chart": {
+          "x": 48,
+          "y": 399.296875,
+          "width": 672,
+          "height": 597.359375,
+          "top": 399.296875,
+          "right": 720,
+          "bottom": 996.65625,
+          "left": 48
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "emerging",
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "chart": {
+          "x": 16,
+          "y": 693.078125,
+          "width": 358,
+          "height": 1004.125,
+          "top": 693.078125,
+          "right": 374,
+          "bottom": 1697.203125,
+          "left": 16
+        },
+        "overflows": []
+      }
+    },
+    {
+      "option": "text",
+      "scope": "emerging",
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320,
+        "chart": {
+          "x": 16,
+          "y": 690.078125,
+          "width": 288,
+          "height": 1043.3125,
+          "top": 690.078125,
+          "right": 304,
+          "bottom": 1733.390625,
+          "left": 16
+        },
+        "overflows": []
+      }
+    }
+  ],
+  "pdf": [
+    {
+      "name": "Agenda-A-All-A4-First-Page",
+      "pageCount": 1,
+      "widthPt": 841.9199829101562,
+      "heightPt": 594.9599609375,
+      "geometry": {
+        "main": {
+          "x": 317.484375,
+          "y": 0,
+          "width": 1122.515625,
+          "height": 793.6875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 793.6875,
+          "left": 317.484375
+        },
+        "chart": {
+          "x": 355.265625,
+          "y": 134.015625,
+          "width": 1046.953125,
+          "height": 414.1875,
+          "top": 134.015625,
+          "right": 1402.21875,
+          "bottom": 548.203125,
+          "left": 355.265625
+        },
+        "footer": {
+          "x": 355.265625,
+          "y": 736.3125,
+          "width": 1046.953125,
+          "height": 19.59375,
+          "top": 736.3125,
+          "right": 1402.21875,
+          "bottom": 755.90625,
+          "left": 355.265625
+        },
+        "gapToFooter": 188.109375
+      },
+      "text": "مستجدات األجندة السنوية\n2026 يناير – سبتمبر\nاألجندة السنوية117\nاإلجمالي\nمستويات اإلنجاز حسب الربع0–44 عدد المواضيع\nاألجندة المعتمدة100المواضيع المستجدة17\nالحالة\nالربع األول\nالربع الثاني\nالربع الثالث\nالربع الرابع\nجاهز للعرض3\n5\n2\n0\nقيد المراجعة1\n2\n1\n1\nقيد التطوير0\n2\n5\n44\nمنجز23\n8\n2\n1\nالحالة\nالربع األول\nالربع الثاني\nالربع الثالث\nالربع الرابع\nجاهز للعرض2\n0\n4\n0\nقيد المراجعة0\n0\n1\n0\nقيد التطوير0\n0\n0\n1\nمنجز5\n2\n1\n1\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر1  من1 صفحة\n"
+    },
+    {
+      "name": "Agenda-A-Entity-A4-First-Page",
+      "pageCount": 1,
+      "widthPt": 841.9199829101562,
+      "heightPt": 594.9599609375,
+      "geometry": {
+        "main": {
+          "x": 317.484375,
+          "y": 0,
+          "width": 1122.515625,
+          "height": 793.6875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 793.6875,
+          "left": 317.484375
+        },
+        "chart": {
+          "x": 355.265625,
+          "y": 158.078125,
+          "width": 1046.953125,
+          "height": 367.828125,
+          "top": 158.078125,
+          "right": 1402.21875,
+          "bottom": 525.90625,
+          "left": 355.265625
+        },
+        "footer": {
+          "x": 355.265625,
+          "y": 736.3125,
+          "width": 1046.953125,
+          "height": 19.59375,
+          "top": 736.3125,
+          "right": 1402.21875,
+          "bottom": 755.90625,
+          "left": 355.265625
+        },
+        "gapToFooter": 210.40625
+      },
+      "text": "مستجدات األجندة السنوية\nهيئة الطرق والمواصالت\n2026 يناير – سبتمبر\nاألجندة السنوية10\nاإلجمالي\nمستويات اإلنجاز حسب الربع0–3 عدد المواضيع\nاألجندة المعتمدة8المواضيع المستجدة2\nالحالة\nالربع األول\nالربع الثاني\nالربع الثالث\nالربع الرابع\nجاهز للعرض0\n1\n0\n0\nقيد التطوير0\n0\n1\n2\nمنجز3\n1\n0\n0\nالحالة\nالربع األول\nالربع الثاني\nالربع الثالث\nالربع الرابع\nجاهز للعرض0\n0\n0\n0\nقيد التطوير0\n0\n0\n0\nمنجز1\n1\n0\n0\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر1  من1 صفحة\n"
+    },
+    {
+      "name": "Agenda-Grouped-All-A4-First-Page",
+      "pageCount": 1,
+      "widthPt": 841.9199829101562,
+      "heightPt": 594.9599609375,
+      "geometry": {
+        "main": {
+          "x": 317.484375,
+          "y": 0,
+          "width": 1122.515625,
+          "height": 793.6875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 793.6875,
+          "left": 317.484375
+        },
+        "chart": {
+          "x": 355.265625,
+          "y": 134.015625,
+          "width": 1046.953125,
+          "height": 520.34375,
+          "top": 134.015625,
+          "right": 1402.21875,
+          "bottom": 654.359375,
+          "left": 355.265625
+        },
+        "footer": {
+          "x": 355.265625,
+          "y": 736.3125,
+          "width": 1046.953125,
+          "height": 19.59375,
+          "top": 736.3125,
+          "right": 1402.21875,
+          "bottom": 755.90625,
+          "left": 355.265625
+        },
+        "gapToFooter": 81.953125
+      },
+      "text": "مستجدات األجندة السنوية\n2026 يناير – سبتمبر\nاألجندة السنوية117\nاإلجمالي\nمستويات اإلنجاز حسب الربع0–44 عدد المواضيع\nاألجندة المعتمدة100المواضيع المستجدة17\nالحالة\nاألرباع\nجاهز للعرض\nالربع األول3\nالربع الثاني5\nالربع الثالث2\nالربع الرابع0\nقيد المراجعة\nالربع األول1\nالربع الثاني2\nالربع الثالث1\nالربع الرابع1\nقيد التطوير\nالربع األول0\nالربع الثاني2\nالربع الثالث5\nالربع الرابع44\nمنجز\nالربع األول23\nالربع الثاني8\nالربع الثالث2\nالربع الرابع1\nالحالة\nاألرباع\nجاهز للعرض\nالربع األول2\nالربع الثاني0\nالربع الثالث4\nالربع الرابع0\nقيد المراجعة\nالربع األول0\nالربع الثاني0\nالربع الثالث1\nالربع الرابع0\nقيد التطوير\nالربع األول0\nالربع الثاني0\nالربع الثالث0\nالربع الرابع1\nمنجز\nالربع األول5\nالربع الثاني2\nالربع الثالث1\nالربع الرابع1\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر1  من1 صفحة\n"
+    },
+    {
+      "name": "Agenda-Grouped-Entity-A4-First-Page",
+      "pageCount": 1,
+      "widthPt": 841.9199829101562,
+      "heightPt": 594.9599609375,
+      "geometry": {
+        "main": {
+          "x": 317.484375,
+          "y": 0,
+          "width": 1122.515625,
+          "height": 793.6875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 793.6875,
+          "left": 317.484375
+        },
+        "chart": {
+          "x": 355.265625,
+          "y": 158.078125,
+          "width": 1046.953125,
+          "height": 443.46875,
+          "top": 158.078125,
+          "right": 1402.21875,
+          "bottom": 601.546875,
+          "left": 355.265625
+        },
+        "footer": {
+          "x": 355.265625,
+          "y": 736.3125,
+          "width": 1046.953125,
+          "height": 19.59375,
+          "top": 736.3125,
+          "right": 1402.21875,
+          "bottom": 755.90625,
+          "left": 355.265625
+        },
+        "gapToFooter": 134.765625
+      },
+      "text": "مستجدات األجندة السنوية\nهيئة الطرق والمواصالت\n2026 يناير – سبتمبر\nاألجندة السنوية10\nاإلجمالي\nمستويات اإلنجاز حسب الربع0–3 عدد المواضيع\nاألجندة المعتمدة8المواضيع المستجدة2\nالحالة\nاألرباع\nجاهز للعرض\nالربع األول0\nالربع الثاني1\nالربع الثالث0\nالربع الرابع0\nقيد التطوير\nالربع األول0\nالربع الثاني0\nالربع الثالث1\nالربع الرابع2\nمنجز\nالربع األول3\nالربع الثاني1\nالربع الثالث0\nالربع الرابع0\nالحالة\nاألرباع\nجاهز للعرض\nالربع األول0\nالربع الثاني0\nالربع الثالث0\nالربع الرابع0\nقيد التطوير\nالربع األول0\nالربع الثاني0\nالربع الثالث0\nالربع الرابع0\nمنجز\nالربع األول1\nالربع الثاني1\nالربع الثالث0\nالربع الرابع0\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر1  من1 صفحة\n"
+    },
+    {
+      "name": "Agenda-Vertical-All-A4-First-Page",
+      "pageCount": 1,
+      "widthPt": 841.9199829101562,
+      "heightPt": 594.9599609375,
+      "geometry": {
+        "main": {
+          "x": 317.484375,
+          "y": 0,
+          "width": 1122.515625,
+          "height": 793.6875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 793.6875,
+          "left": 317.484375
+        },
+        "chart": {
+          "x": 355.265625,
+          "y": 134.015625,
+          "width": 1046.953125,
+          "height": 542.328125,
+          "top": 134.015625,
+          "right": 1402.21875,
+          "bottom": 676.34375,
+          "left": 355.265625
+        },
+        "footer": {
+          "x": 355.265625,
+          "y": 736.3125,
+          "width": 1046.953125,
+          "height": 19.59375,
+          "top": 736.3125,
+          "right": 1402.21875,
+          "bottom": 755.90625,
+          "left": 355.265625
+        },
+        "gapToFooter": 59.96875
+      },
+      "text": "مستجدات األجندة السنوية\n2026 يناير – سبتمبر\nاألجندة السنوية117\nاإلجمالي\nمستويات اإلنجاز حسب الربع0–44 عدد المواضيع\nاألجندة المعتمدة100المواضيع المستجدة17\nاألجندة المعتمدة\nالربع األول\nجاهز\nللعرض\nقيد\nالمراجعة\nقيد\nالتطوير\nمنجز\nالربع الثاني\nجاهز\nللعرض\nقيد\nالمراجعة\nقيد\nالتطوير\nمنجز\nالربع الثالث\nجاهز\nللعرض\nقيد\nالمراجعة\nقيد\nالتطوير\nمنجز\nالربع الرابع\nجاهز\nللعرض\nقيد\nالمراجعة\nقيد\nالتطوير\nمنجز\nالمواضيع المستجدة\nالربع األول\nجاهز\nللعرض\nقيد\nالمراجعة\nقيد\nالتطوير\nمنجز\nالربع الثاني\nجاهز\nللعرض\nقيد\nالمراجعة\nقيد\nالتطوير\nمنجز\nالربع الثالث\nجاهز\nللعرض\nقيد\nالمراجعة\nقيد\nالتطوير\nمنجز\nالربع الرابع\nجاهز\nللعرض\nقيد\nالمراجعة\nقيد\nالتطوير\nمنجز\n3\n1\n0\n23\n5\n2\n2\n8\n2\n1\n5\n2\n0\n1\n44\n1\n2\n0\n0\n5\n0\n0\n0\n2\n4\n1\n0\n1\n0\n0\n1\n1\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر1  من1 صفحة\n"
+    },
+    {
+      "name": "Agenda-Vertical-Entity-A4-First-Page",
+      "pageCount": 1,
+      "widthPt": 841.9199829101562,
+      "heightPt": 594.9599609375,
+      "geometry": {
+        "main": {
+          "x": 317.484375,
+          "y": 0,
+          "width": 1122.515625,
+          "height": 793.6875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 793.6875,
+          "left": 317.484375
+        },
+        "chart": {
+          "x": 355.265625,
+          "y": 158.078125,
+          "width": 1046.953125,
+          "height": 542.328125,
+          "top": 158.078125,
+          "right": 1402.21875,
+          "bottom": 700.40625,
+          "left": 355.265625
+        },
+        "footer": {
+          "x": 355.265625,
+          "y": 736.3125,
+          "width": 1046.953125,
+          "height": 19.59375,
+          "top": 736.3125,
+          "right": 1402.21875,
+          "bottom": 755.90625,
+          "left": 355.265625
+        },
+        "gapToFooter": 35.90625
+      },
+      "text": "مستجدات األجندة السنوية\nهيئة الطرق والمواصالت\n2026 يناير – سبتمبر\nاألجندة السنوية10\nاإلجمالي\nمستويات اإلنجاز حسب الربع0–3 عدد المواضيع\nاألجندة المعتمدة8المواضيع المستجدة2\nاألجندة المعتمدة\nالربع األول\nجاهز\nللعرض\nقيد\nالتطوير\nمنجز\nالربع الثاني\nجاهز\nللعرض\nقيد\nالتطوير\nمنجز\nالربع الثالث\nجاهز\nللعرض\nقيد\nالتطوير\nمنجز\nالربع الرابع\nجاهز\nللعرض\nقيد\nالتطوير\nمنجز\nالمواضيع المستجدة\nالربع األول\nجاهز\nللعرض\nقيد\nالتطوير\nمنجز\nالربع الثاني\nجاهز\nللعرض\nقيد\nالتطوير\nمنجز\nالربع الثالث\nجاهز\nللعرض\nقيد\nالتطوير\nمنجز\nالربع الرابع\nجاهز\nللعرض\nقيد\nالتطوير\nمنجز\n0\n0\n3\n1\n0\n1\n0\n1\n0\n0\n2\n0\n0\n0\n1\n0\n0\n1\n0\n0\n0\n0\n0\n0\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر1  من1 صفحة\n"
+    },
+    {
+      "name": "Agenda-Text-All-A4-First-Page",
+      "pageCount": 1,
+      "widthPt": 841.9199829101562,
+      "heightPt": 594.9599609375,
+      "geometry": {
+        "main": {
+          "x": 317.484375,
+          "y": 0,
+          "width": 1122.515625,
+          "height": 793.6875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 793.6875,
+          "left": 317.484375
+        },
+        "chart": {
+          "x": 355.265625,
+          "y": 134.015625,
+          "width": 1046.953125,
+          "height": 419.4375,
+          "top": 134.015625,
+          "right": 1402.21875,
+          "bottom": 553.453125,
+          "left": 355.265625
+        },
+        "footer": {
+          "x": 355.265625,
+          "y": 736.3125,
+          "width": 1046.953125,
+          "height": 19.59375,
+          "top": 736.3125,
+          "right": 1402.21875,
+          "bottom": 755.90625,
+          "left": 355.265625
+        },
+        "gapToFooter": 182.859375
+      },
+      "text": "مستجدات األجندة السنوية\n2026 يناير – سبتمبر\nاألجندة السنوية117\nاإلجمالي\nمستويات اإلنجاز حسب الربع\nاألجندة المعتمدة100المواضيع المستجدة17\nالحالة\nالربع األول\nالربع الثاني\nالربع الثالث\nالربع الرابع\nجاهز للعرض3\n5\n2\n0\nقيد المراجعة1\n2\n1\n1\nقيد التطوير0\n2\n5\n44\nمنجز23\n8\n2\n1\nالحالة\nالربع األول\nالربع الثاني\nالربع الثالث\nالربع الرابع\nجاهز للعرض2\n0\n4\n0\nقيد المراجعة0\n0\n1\n0\nقيد التطوير0\n0\n0\n1\nمنجز5\n2\n1\n1\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر1  من1 صفحة\n"
+    },
+    {
+      "name": "Agenda-Text-Entity-A4-First-Page",
+      "pageCount": 1,
+      "widthPt": 841.9199829101562,
+      "heightPt": 594.9599609375,
+      "geometry": {
+        "main": {
+          "x": 317.484375,
+          "y": 0,
+          "width": 1122.515625,
+          "height": 793.6875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 793.6875,
+          "left": 317.484375
+        },
+        "chart": {
+          "x": 355.265625,
+          "y": 158.078125,
+          "width": 1046.953125,
+          "height": 371.765625,
+          "top": 158.078125,
+          "right": 1402.21875,
+          "bottom": 529.84375,
+          "left": 355.265625
+        },
+        "footer": {
+          "x": 355.265625,
+          "y": 736.3125,
+          "width": 1046.953125,
+          "height": 19.59375,
+          "top": 736.3125,
+          "right": 1402.21875,
+          "bottom": 755.90625,
+          "left": 355.265625
+        },
+        "gapToFooter": 206.46875
+      },
+      "text": "مستجدات األجندة السنوية\nهيئة الطرق والمواصالت\n2026 يناير – سبتمبر\nاألجندة السنوية10\nاإلجمالي\nمستويات اإلنجاز حسب الربع\nاألجندة المعتمدة8المواضيع المستجدة2\nالحالة\nالربع األول\nالربع الثاني\nالربع الثالث\nالربع الرابع\nجاهز للعرض0\n1\n0\n0\nقيد التطوير0\n0\n1\n2\nمنجز3\n1\n0\n0\nالحالة\nالربع األول\nالربع الثاني\nالربع الثالث\nالربع الرابع\nجاهز للعرض0\n0\n0\n0\nقيد التطوير0\n0\n0\n0\nمنجز1\n1\n0\n0\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر1  من1 صفحة\n"
+    }
+  ]
+}

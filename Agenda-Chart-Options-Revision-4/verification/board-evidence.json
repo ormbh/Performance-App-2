@@ -1,0 +1,32 @@
+{
+  "comparison": {
+    "x": 0,
+    "y": 0,
+    "width": 1410,
+    "height": 1445
+  },
+  "entity": {
+    "x": 0,
+    "y": 0,
+    "width": 1329,
+    "height": 1113
+  },
+  "three": {
+    "x": 0,
+    "y": 0,
+    "width": 1410,
+    "height": 2609
+  },
+  "threeEntity": {
+    "x": 0,
+    "y": 0,
+    "width": 1410,
+    "height": 2317
+  },
+  "sideBySide": {
+    "x": 0,
+    "y": 0,
+    "width": 4150,
+    "height": 1018
+  }
+}
