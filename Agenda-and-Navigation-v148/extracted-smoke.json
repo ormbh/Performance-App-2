@@ -1,0 +1,15 @@
+{
+  "verdict": "PASS",
+  "checks": {
+    "menuOrder": true,
+    "rightMenu": true,
+    "agenda117": true,
+    "lowerLegend": true,
+    "coverPage1": true,
+    "chartsAndDefinitionsPage2": true,
+    "tableHeadingPage3": true,
+    "noErrors": true
+  },
+  "errors": [],
+  "extraction": "/workspace/saytara-work/release-check-v148-go6yarh8/Performance-App-v148"
+}

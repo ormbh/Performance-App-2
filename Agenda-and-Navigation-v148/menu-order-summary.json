@@ -1,0 +1,331 @@
+{
+  "pass": true,
+  "runtime_sha256": {
+    "assets/js/app-bundle.js": "0961bd4bd4dbfa3301a2c1855f1c03db9fe69bd33ce55d4e43b947046ea288f8",
+    "assets/css/app-bundle.css": "b0b0d9a0caacfb2852b5a41a3d81bb1bf197e7b4996abc0ab60fb67b0debed9c"
+  },
+  "order": [
+    "البحث في الأداء",
+    "التقرير الشهري",
+    "محفظة المشاريع",
+    "تقرير الجهات",
+    "تقرير الأجندة السنوية",
+    "تقرير قرارات المجالس",
+    "تقرير المشاريع الخاصة",
+    "ملاحظات البيانات",
+    "رفع ملف التقرير",
+    "المقارنة الشهرية"
+  ],
+  "cases": [
+    {
+      "width": 1440,
+      "screen": "home",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [],
+      "current": [
+        {
+          "action": "go-home",
+          "report": null
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 1440,
+      "screen": "results",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [],
+      "current": [
+        {
+          "action": "go-home",
+          "report": null
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 1440,
+      "screen": "dashboard",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [],
+      "current": [
+        {
+          "action": "go-dash",
+          "report": null
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 1440,
+      "screen": "projects",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [
+        "projects-report"
+      ],
+      "current": [
+        {
+          "action": "go-projects",
+          "report": null
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 1440,
+      "screen": "entities",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [],
+      "current": [
+        {
+          "action": "go-entities",
+          "report": null
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 1440,
+      "screen": "reports",
+      "report": "agenda",
+      "exact_order": true,
+      "context_actions": [
+        "agenda-report"
+      ],
+      "current": [
+        {
+          "action": "show-report",
+          "report": "agenda"
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 1440,
+      "screen": "reports",
+      "report": "council",
+      "exact_order": true,
+      "context_actions": [
+        "council-report"
+      ],
+      "current": [
+        {
+          "action": "show-report",
+          "report": "council"
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 1440,
+      "screen": "reports",
+      "report": "hh",
+      "exact_order": true,
+      "context_actions": [
+        "hh-report"
+      ],
+      "current": [
+        {
+          "action": "show-report",
+          "report": "hh"
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 1440,
+      "screen": "checks",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [],
+      "current": [],
+      "escape_return": true
+    },
+    {
+      "width": 1440,
+      "screen": "upload",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [],
+      "current": [],
+      "escape_return": true
+    },
+    {
+      "width": 1440,
+      "screen": "comparison",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [
+        "reset-comparison"
+      ],
+      "current": [
+        {
+          "action": "go-comparison",
+          "report": null
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 390,
+      "screen": "home",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [],
+      "current": [
+        {
+          "action": "go-home",
+          "report": null
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 390,
+      "screen": "results",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [],
+      "current": [
+        {
+          "action": "go-home",
+          "report": null
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 390,
+      "screen": "dashboard",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [],
+      "current": [
+        {
+          "action": "go-dash",
+          "report": null
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 390,
+      "screen": "projects",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [
+        "projects-report"
+      ],
+      "current": [
+        {
+          "action": "go-projects",
+          "report": null
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 390,
+      "screen": "entities",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [],
+      "current": [
+        {
+          "action": "go-entities",
+          "report": null
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 390,
+      "screen": "reports",
+      "report": "agenda",
+      "exact_order": true,
+      "context_actions": [
+        "agenda-report"
+      ],
+      "current": [
+        {
+          "action": "show-report",
+          "report": "agenda"
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 390,
+      "screen": "reports",
+      "report": "council",
+      "exact_order": true,
+      "context_actions": [
+        "council-report"
+      ],
+      "current": [
+        {
+          "action": "show-report",
+          "report": "council"
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 390,
+      "screen": "reports",
+      "report": "hh",
+      "exact_order": true,
+      "context_actions": [
+        "hh-report"
+      ],
+      "current": [
+        {
+          "action": "show-report",
+          "report": "hh"
+        }
+      ],
+      "escape_return": true
+    },
+    {
+      "width": 390,
+      "screen": "checks",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [],
+      "current": [],
+      "escape_return": true
+    },
+    {
+      "width": 390,
+      "screen": "upload",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [],
+      "current": [],
+      "escape_return": true
+    },
+    {
+      "width": 390,
+      "screen": "comparison",
+      "report": null,
+      "exact_order": true,
+      "context_actions": [
+        "reset-comparison"
+      ],
+      "current": [
+        {
+          "action": "go-comparison",
+          "report": null
+        }
+      ],
+      "escape_return": true
+    }
+  ],
+  "actual_report_clicks": true,
+  "errors": []
+}

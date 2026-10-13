@@ -1,0 +1,125 @@
+{
+  "cases": [
+    {
+      "case": "all",
+      "pages": 15,
+      "source": 117,
+      "spacing": "default",
+      "chartPageMM": 177.69664713541667,
+      "checks": {
+        "A4 landscape": true,
+        "cover only page1": true,
+        "charts and definitions whole page2": true,
+        "title page1 only": true,
+        "both cover images": true,
+        "rows match": true,
+        "no page2 table rows": true,
+        "table heads native present": true,
+        "page capacity": true,
+        "footers": true,
+        "no visible numeric zero": true,
+        "zero ink": true
+      }
+    },
+    {
+      "case": "entity",
+      "pages": 4,
+      "source": 10,
+      "spacing": "default",
+      "chartPageMM": 165.43072916666665,
+      "checks": {
+        "A4 landscape": true,
+        "cover only page1": true,
+        "charts and definitions whole page2": true,
+        "title page1 only": true,
+        "both cover images": true,
+        "rows match": true,
+        "no page2 table rows": true,
+        "table heads native present": true,
+        "page capacity": true,
+        "footers": true,
+        "no visible numeric zero": true,
+        "zero ink": true
+      }
+    },
+    {
+      "case": "empty",
+      "pages": 2,
+      "source": 0,
+      "spacing": "default",
+      "chartPageMM": 117.00371093749999,
+      "checks": {
+        "A4 landscape": true,
+        "cover only page1": true,
+        "charts and definitions whole page2": true,
+        "title page1 only": true,
+        "both cover images": true,
+        "rows match": true,
+        "no page2 table rows": true,
+        "table heads native present": true,
+        "page capacity": true,
+        "footers": true,
+        "no visible numeric zero": true,
+        "zero ink": true
+      }
+    },
+    {
+      "case": "late_undated",
+      "pages": 5,
+      "source": 10,
+      "spacing": "compact",
+      "chartPageMM": 181.27679036458332,
+      "checks": {
+        "A4 landscape": true,
+        "cover only page1": true,
+        "charts and definitions whole page2": true,
+        "title page1 only": true,
+        "both cover images": true,
+        "rows match": true,
+        "no page2 table rows": true,
+        "table heads native present": true,
+        "page capacity": true,
+        "footers": true,
+        "no visible numeric zero": true,
+        "zero ink": true
+      }
+    },
+    {
+      "case": "long_cover",
+      "pages": 5,
+      "source": 10,
+      "spacing": "compact",
+      "chartPageMM": 181.27679036458332,
+      "checks": {
+        "A4 landscape": true,
+        "cover only page1": true,
+        "charts and definitions whole page2": true,
+        "title page1 only": true,
+        "both cover images": true,
+        "rows match": true,
+        "no page2 table rows": true,
+        "table heads native present": true,
+        "page capacity": true,
+        "footers": true,
+        "no visible numeric zero": true,
+        "zero ink": true
+      }
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "39ad8dace044a4a507e0aa10ed37822c065300a79fb8221def53d08c8be13608",
+    "assets/css/app-bundle.css": "b0b0d9a0caacfb2852b5a41a3d81bb1bf197e7b4996abc0ab60fb67b0debed9c",
+    "assets/css/print-measure-bundle.css": "2d868cf2ab36707730189227986a06867a31b31836d74c54f8a5d57bc42411ab"
+  },
+  "verdict": "PASS",
+  "visualReview": [
+    "Original agenda photo cover and paired government/TEC logos restored.",
+    "Native page 2 charts and color-square definitions fit together, upper duplicate legend absent.",
+    "Cover/chart source boundary separated; dark ticks absent in final native page 2 render.",
+    "Native page 3 shows cohort heading, quarter and count above table headings.",
+    "Maximum saved title 140 characters and saved period 100 characters fit on cover at unchanged sizes.",
+    "Late positive counts red; done positive counts green; zero dash neutral."
+  ]
+}

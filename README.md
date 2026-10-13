@@ -1,4 +1,15 @@
-# Performance App v147
+# Performance App v148
+
+[Download app — v148 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v148.zip) · [Verification](Saytara-Verification-v148.md) · [Screenshots](Agenda-and-Navigation-v148/README.md)
+
+- Agenda cover restored on page 1; both charts and definitions together on page 2.
+- Completed/late chart numbers colored green/red; status squares moved into the lower definitions legend.
+- Table cohort, quarter and topic-count headings restored.
+- Search menu on the right; shared menu uses the requested order and labels.
+
+Extract the complete ZIP and open **index.html**. PDF generation uses the bundled offline engine. The app contains no source workbook.
+
+# Previous release — v147
 
 [Download app — v147 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v147.zip) · [Verification](Saytara-Verification-v147.md) · [Screenshot](Agenda-Definitions-v147/README.md)
 

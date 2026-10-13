@@ -1,0 +1,14 @@
+{
+  "build": "148",
+  "zipSha256": "956dc5bf21a3c5d8cfa7e884bdd0eda29cdc25424d266570c3cf71822d0a3d41",
+  "manifestFiles": 197,
+  "crc": "PASS",
+  "extractedHashes": "PASS",
+  "modelUnchanged": true,
+  "extraction": "/workspace/saytara-work/release-check-v148-go6yarh8/Performance-App-v148",
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "0961bd4bd4dbfa3301a2c1855f1c03db9fe69bd33ce55d4e43b947046ea288f8",
+    "assets/css/app-bundle.css": "b0b0d9a0caacfb2852b5a41a3d81bb1bf197e7b4996abc0ab60fb67b0debed9c",
+    "assets/css/print-measure-bundle.css": "2d868cf2ab36707730189227986a06867a31b31836d74c54f8a5d57bc42411ab"
+  }
+}

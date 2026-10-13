@@ -1,0 +1,2729 @@
+{
+  "version": 148,
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+  },
+  "checks": [
+    {
+      "check": "all v145-v148 source model unchanged",
+      "pass": true
+    },
+    {
+      "check": "all unchanged filtered matrix record keys",
+      "pass": true
+    },
+    {
+      "check": "all exact filtered total",
+      "pass": true
+    },
+    {
+      "check": "all 1440 upper legend removed",
+      "pass": true
+    },
+    {
+      "check": "all 1440 full lower definitions unchanged",
+      "pass": true
+    },
+    {
+      "check": "all 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "all 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "all 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "all 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "all 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "all 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "all 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "all 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "all 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "all 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 1440 definitions below charts",
+      "pass": true
+    },
+    {
+      "check": "all 1440 no screen overflow",
+      "pass": true
+    },
+    {
+      "check": "all 1440 zero dash/no zero bars unchanged",
+      "pass": true
+    },
+    {
+      "check": "all 1440 detail rows complete",
+      "pass": true
+    },
+    {
+      "check": "all 390 upper legend removed",
+      "pass": true
+    },
+    {
+      "check": "all 390 full lower definitions unchanged",
+      "pass": true
+    },
+    {
+      "check": "all 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "all 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "all 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "all 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "all 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "all 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "all 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "all 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "all 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "all 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "all 390 definitions below charts",
+      "pass": true
+    },
+    {
+      "check": "all 390 no screen overflow",
+      "pass": true
+    },
+    {
+      "check": "all 390 zero dash/no zero bars unchanged",
+      "pass": true
+    },
+    {
+      "check": "all 390 detail rows complete",
+      "pass": true
+    },
+    {
+      "check": "all PDF A4 landscape",
+      "pass": true
+    },
+    {
+      "check": "all actual/plan page count",
+      "pass": true
+    },
+    {
+      "check": "all original cover on page one",
+      "pass": true
+    },
+    {
+      "check": "all whole chart on page two",
+      "pass": true
+    },
+    {
+      "check": "all complete definitions on page two",
+      "pass": true
+    },
+    {
+      "check": "all PDF upper legend absent",
+      "pass": true
+    },
+    {
+      "check": "all original composite cover logos loaded",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF cover has embedded logo image",
+      "pass": true
+    },
+    {
+      "check": "all chart page has no cover-image remnants",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF positive late/done numbers and neutral dash colors",
+      "pass": true
+    },
+    {
+      "check": "all cover title/entity/period exact native text",
+      "pass": true
+    },
+    {
+      "check": "all cover entity matches selected scope",
+      "pass": true
+    },
+    {
+      "check": "all no repeated report title",
+      "pass": true
+    },
+    {
+      "check": "all single chart placement",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF chart text/numbers complete",
+      "pass": true
+    },
+    {
+      "check": "all single definitions placement",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF definitions text/numbers complete",
+      "pass": true
+    },
+    {
+      "check": "all definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "all definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "all definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "all definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "all definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "all all PDF record keys preserved",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "all source tables begin page three or later",
+      "pass": true
+    },
+    {
+      "check": "all actual page three restored cohort/quarter/topic-count hierarchy",
+      "pass": true
+    },
+    {
+      "check": "all page1 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "all page1 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "all page2 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "all page2 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "all page3 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "all page3 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "all page4 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "all page4 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "all page5 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "all page5 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "all page6 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "all page6 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "all page7 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "all page7 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "all page8 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "all page8 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "all page9 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "all page9 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "all page10 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "all page10 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "all page11 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "all page11 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "all page12 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "all page12 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "all page13 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "all page13 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "all page14 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "all page14 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "all page15 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "all page15 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "all source data unchanged",
+      "pass": true
+    },
+    {
+      "check": "entity v145-v148 source model unchanged",
+      "pass": true
+    },
+    {
+      "check": "entity unchanged filtered matrix record keys",
+      "pass": true
+    },
+    {
+      "check": "entity exact filtered total",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 upper legend removed",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 full lower definitions unchanged",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 definitions below charts",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 no screen overflow",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 zero dash/no zero bars unchanged",
+      "pass": true
+    },
+    {
+      "check": "entity 1440 detail rows complete",
+      "pass": true
+    },
+    {
+      "check": "entity 390 upper legend removed",
+      "pass": true
+    },
+    {
+      "check": "entity 390 full lower definitions unchanged",
+      "pass": true
+    },
+    {
+      "check": "entity 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "entity 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "entity 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "entity 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "entity 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "entity 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "entity 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "entity 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "entity 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "entity 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "entity 390 definitions below charts",
+      "pass": true
+    },
+    {
+      "check": "entity 390 no screen overflow",
+      "pass": true
+    },
+    {
+      "check": "entity 390 zero dash/no zero bars unchanged",
+      "pass": true
+    },
+    {
+      "check": "entity 390 detail rows complete",
+      "pass": true
+    },
+    {
+      "check": "entity PDF A4 landscape",
+      "pass": true
+    },
+    {
+      "check": "entity actual/plan page count",
+      "pass": true
+    },
+    {
+      "check": "entity original cover on page one",
+      "pass": true
+    },
+    {
+      "check": "entity whole chart on page two",
+      "pass": true
+    },
+    {
+      "check": "entity complete definitions on page two",
+      "pass": true
+    },
+    {
+      "check": "entity PDF upper legend absent",
+      "pass": true
+    },
+    {
+      "check": "entity original composite cover logos loaded",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF cover has embedded logo image",
+      "pass": true
+    },
+    {
+      "check": "entity chart page has no cover-image remnants",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF positive late/done numbers and neutral dash colors",
+      "pass": true
+    },
+    {
+      "check": "entity cover title/entity/period exact native text",
+      "pass": true
+    },
+    {
+      "check": "entity cover entity matches selected scope",
+      "pass": true
+    },
+    {
+      "check": "entity no repeated report title",
+      "pass": true
+    },
+    {
+      "check": "entity single chart placement",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF chart text/numbers complete",
+      "pass": true
+    },
+    {
+      "check": "entity single definitions placement",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF definitions text/numbers complete",
+      "pass": true
+    },
+    {
+      "check": "entity definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "entity definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "entity definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "entity definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "entity definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "entity all PDF record keys preserved",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "entity actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "entity source tables begin page three or later",
+      "pass": true
+    },
+    {
+      "check": "entity actual page three restored cohort/quarter/topic-count hierarchy",
+      "pass": true
+    },
+    {
+      "check": "entity page1 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "entity page1 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "entity page2 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "entity page2 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "entity page3 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "entity page3 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "entity page4 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "entity page4 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "entity source data unchanged",
+      "pass": true
+    },
+    {
+      "check": "empty v145-v148 source model unchanged",
+      "pass": true
+    },
+    {
+      "check": "empty unchanged filtered matrix record keys",
+      "pass": true
+    },
+    {
+      "check": "empty exact filtered total",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 upper legend removed",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 full lower definitions unchanged",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 definitions below charts",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 no screen overflow",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 zero dash/no zero bars unchanged",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 detail rows complete",
+      "pass": true
+    },
+    {
+      "check": "empty 390 upper legend removed",
+      "pass": true
+    },
+    {
+      "check": "empty 390 full lower definitions unchanged",
+      "pass": true
+    },
+    {
+      "check": "empty 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "empty 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "empty 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "empty 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "empty 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "empty 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "empty 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "empty 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "empty 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "empty 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "empty 390 definitions below charts",
+      "pass": true
+    },
+    {
+      "check": "empty 390 no screen overflow",
+      "pass": true
+    },
+    {
+      "check": "empty 390 zero dash/no zero bars unchanged",
+      "pass": true
+    },
+    {
+      "check": "empty 390 detail rows complete",
+      "pass": true
+    },
+    {
+      "check": "empty PDF A4 landscape",
+      "pass": true
+    },
+    {
+      "check": "empty actual/plan page count",
+      "pass": true
+    },
+    {
+      "check": "empty original cover on page one",
+      "pass": true
+    },
+    {
+      "check": "empty whole chart on page two",
+      "pass": true
+    },
+    {
+      "check": "empty complete definitions on page two",
+      "pass": true
+    },
+    {
+      "check": "empty PDF upper legend absent",
+      "pass": true
+    },
+    {
+      "check": "empty original composite cover logos loaded",
+      "pass": true
+    },
+    {
+      "check": "empty actual PDF cover has embedded logo image",
+      "pass": true
+    },
+    {
+      "check": "empty chart page has no cover-image remnants",
+      "pass": true
+    },
+    {
+      "check": "empty actual PDF positive late/done numbers and neutral dash colors",
+      "pass": true
+    },
+    {
+      "check": "empty cover title/entity/period exact native text",
+      "pass": true
+    },
+    {
+      "check": "empty cover entity matches selected scope",
+      "pass": true
+    },
+    {
+      "check": "empty no repeated report title",
+      "pass": true
+    },
+    {
+      "check": "empty single chart placement",
+      "pass": true
+    },
+    {
+      "check": "empty actual PDF chart text/numbers complete",
+      "pass": true
+    },
+    {
+      "check": "empty single definitions placement",
+      "pass": true
+    },
+    {
+      "check": "empty actual PDF definitions text/numbers complete",
+      "pass": true
+    },
+    {
+      "check": "empty definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "empty actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "empty definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "empty actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "empty definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "empty actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "empty definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "empty actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "empty definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "empty actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "empty all PDF record keys preserved",
+      "pass": true
+    },
+    {
+      "check": "empty source tables begin page three or later",
+      "pass": true
+    },
+    {
+      "check": "empty page1 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "empty page1 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "empty page2 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "empty page2 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "empty source data unchanged",
+      "pass": true
+    },
+    {
+      "check": "late-undated unchanged filtered matrix record keys",
+      "pass": true
+    },
+    {
+      "check": "late-undated exact filtered total",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 upper legend removed",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 full lower definitions unchanged",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 definitions below charts",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 no screen overflow",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 zero dash/no zero bars unchanged",
+      "pass": true
+    },
+    {
+      "check": "late-undated 1440 detail rows complete",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 upper legend removed",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 full lower definitions unchanged",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 status swatch exact color",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 square swatch visible",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 positive late/done numbers colored; dash neutral",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 definitions below charts",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 no screen overflow",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 zero dash/no zero bars unchanged",
+      "pass": true
+    },
+    {
+      "check": "late-undated 390 detail rows complete",
+      "pass": true
+    },
+    {
+      "check": "recorded late and undated retained",
+      "pass": true
+    },
+    {
+      "check": "late-undated PDF A4 landscape",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual/plan page count",
+      "pass": true
+    },
+    {
+      "check": "late-undated original cover on page one",
+      "pass": true
+    },
+    {
+      "check": "late-undated whole chart on page two",
+      "pass": true
+    },
+    {
+      "check": "late-undated complete definitions on page two",
+      "pass": true
+    },
+    {
+      "check": "late-undated PDF upper legend absent",
+      "pass": true
+    },
+    {
+      "check": "late-undated original composite cover logos loaded",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual PDF cover has embedded logo image",
+      "pass": true
+    },
+    {
+      "check": "late-undated chart page has no cover-image remnants",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual PDF positive late/done numbers and neutral dash colors",
+      "pass": true
+    },
+    {
+      "check": "late-undated cover title/entity/period exact native text",
+      "pass": true
+    },
+    {
+      "check": "late-undated cover entity matches selected scope",
+      "pass": true
+    },
+    {
+      "check": "late-undated no repeated report title",
+      "pass": true
+    },
+    {
+      "check": "late-undated single chart placement",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual PDF chart text/numbers complete",
+      "pass": true
+    },
+    {
+      "check": "late-undated single definitions placement",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual PDF definitions text/numbers complete",
+      "pass": true
+    },
+    {
+      "check": "late-undated definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "late-undated definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "late-undated definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "late-undated definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "late-undated definition swatch on chart page",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual PDF status square exact color",
+      "pass": true
+    },
+    {
+      "check": "late-undated all PDF record keys preserved",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual PDF title cell exact",
+      "pass": true
+    },
+    {
+      "check": "late-undated source tables begin page three or later",
+      "pass": true
+    },
+    {
+      "check": "late-undated actual page three restored cohort/quarter/topic-count hierarchy",
+      "pass": true
+    },
+    {
+      "check": "late-undated page1 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "late-undated page1 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "late-undated page2 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "late-undated page2 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "late-undated page3 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "late-undated page3 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "late-undated page4 text in bounds",
+      "pass": true
+    },
+    {
+      "check": "late-undated page4 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "native PDF succeeds with browser context offline",
+      "pass": true
+    },
+    {
+      "check": "no internet requests",
+      "pass": true
+    },
+    {
+      "check": "no runtime errors",
+      "pass": true
+    },
+    {
+      "check": "fixture bytes unchanged",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "screen": [
+    {
+      "scope": "all",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "scope": "all",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "scope": "entity",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "scope": "entity",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "scope": "empty",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "scope": "empty",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "scope": "late-undated",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "scope": "late-undated",
+      "width": 390,
+      "pass": true
+    }
+  ],
+  "pdf": [
+    {
+      "scope": "all",
+      "pages": 15,
+      "sourceRows": 117,
+      "pass": true,
+      "sha256": "b79db77912710b05f90c41756bdb5ac8191bc80e08a72d03fd7a40171868eb87"
+    },
+    {
+      "scope": "entity",
+      "pages": 4,
+      "sourceRows": 10,
+      "pass": true,
+      "sha256": "29664ff04c15b55a957b7c4fbfeefec448b3f55a37b3dfdcee51971dc76690e0"
+    },
+    {
+      "scope": "empty",
+      "pages": 2,
+      "sourceRows": 0,
+      "pass": true,
+      "sha256": "f62d07bf2b9c48fdf77cacf25537d8aba79696aa28784a21804ad6e7a4daf9ad"
+    },
+    {
+      "scope": "late-undated",
+      "pages": 4,
+      "sourceRows": 6,
+      "pass": true,
+      "sha256": "64744a62960f9d2f5095d877ec6b4666ce6dc6eefad5da39339701f8dd05c74f"
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "definitionsBaseline": [
+    {
+      "name": "متأخر",
+      "text": "تأخر إنجاز الموضوع حسب الحالة المسجلة",
+      "color": "#C00000"
+    },
+    {
+      "name": "جاهز للعرض",
+      "text": "اكتمل إعداد الموضوع وهو جاهز للعرض على المجلس المختص",
+      "color": "#ABA394"
+    },
+    {
+      "name": "قيد المراجعة",
+      "text": "استلمته الأمانة العامة من الجهة المعنية وتتم مراجعته من قبل فريقها",
+      "color": "#756B5F"
+    },
+    {
+      "name": "قيد التطوير",
+      "text": "جاري تطوير الموضوع من قبل الجهة الحكومية مع اطّلاع الأمانة العامة على مستجدات التطوير",
+      "color": "#756B5F"
+    },
+    {
+      "name": "منجز",
+      "text": "تم عرضه وإصدار قرار باعتماده من المجلس التنفيذي أو إقراره من مجلس الشؤون الاستراتيجية",
+      "color": "#01831E"
+    }
+  ],
+  "verdict": "PASS",
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "0961bd4bd4dbfa3301a2c1855f1c03db9fe69bd33ce55d4e43b947046ea288f8",
+    "assets/css/app-bundle.css": "b0b0d9a0caacfb2852b5a41a3d81bb1bf197e7b4996abc0ab60fb67b0debed9c",
+    "assets/css/print-measure-bundle.css": "2d868cf2ab36707730189227986a06867a31b31836d74c54f8a5d57bc42411ab"
+  }
+}

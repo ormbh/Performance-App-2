@@ -1,0 +1,169 @@
+{
+  "pass": true,
+  "versions": {
+    "147": {
+      "1440": {
+        ".tec-search-home-logo": {
+          "x": 605,
+          "y": 324.8125,
+          "width": 230,
+          "height": 73.78125
+        },
+        "#tec-search-home-title": {
+          "x": 612.96875,
+          "y": 415.3843688964844,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        ".sfield": {
+          "x": 380,
+          "y": 495.78125,
+          "width": 680,
+          "height": 64
+        }
+      },
+      "390": {
+        ".tec-search-home-logo": {
+          "x": 95,
+          "y": 326.4375,
+          "width": 200,
+          "height": 64.15625
+        },
+        "#tec-search-home-title": {
+          "x": 87.96875,
+          "y": 403.3843688964844,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        ".sfield": {
+          "x": 16,
+          "y": 479.78125,
+          "width": 358,
+          "height": 60
+        }
+      },
+      "320": {
+        ".tec-search-home-logo": {
+          "x": 60,
+          "y": 326.4375,
+          "width": 200,
+          "height": 64.15625
+        },
+        "#tec-search-home-title": {
+          "x": 52.96875,
+          "y": 403.3843688964844,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        ".sfield": {
+          "x": 16,
+          "y": 479.78125,
+          "width": 288,
+          "height": 60
+        }
+      },
+      "results": {
+        ".tec-search-result-logo": {
+          "x": 1228,
+          "y": 25.6875,
+          "width": 164,
+          "height": 52.609375
+        },
+        ".sfield": {
+          "x": 436,
+          "y": 24,
+          "width": 760,
+          "height": 56
+        },
+        ".tec-search-icon-button": {
+          "x": 48,
+          "y": 30,
+          "width": 44,
+          "height": 44
+        }
+      }
+    },
+    "148": {
+      "1440": {
+        ".tec-search-home-logo": {
+          "x": 605,
+          "y": 324.8125,
+          "width": 230,
+          "height": 73.78125
+        },
+        "#tec-search-home-title": {
+          "x": 612.96875,
+          "y": 415.3843688964844,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        ".sfield": {
+          "x": 380,
+          "y": 495.78125,
+          "width": 680,
+          "height": 64
+        }
+      },
+      "390": {
+        ".tec-search-home-logo": {
+          "x": 95,
+          "y": 326.4375,
+          "width": 200,
+          "height": 64.15625
+        },
+        "#tec-search-home-title": {
+          "x": 87.96875,
+          "y": 403.3843688964844,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        ".sfield": {
+          "x": 16,
+          "y": 479.78125,
+          "width": 358,
+          "height": 60
+        }
+      },
+      "320": {
+        ".tec-search-home-logo": {
+          "x": 60,
+          "y": 326.4375,
+          "width": 200,
+          "height": 64.15625
+        },
+        "#tec-search-home-title": {
+          "x": 52.96875,
+          "y": 403.3843688964844,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        ".sfield": {
+          "x": 16,
+          "y": 479.78125,
+          "width": 288,
+          "height": 60
+        }
+      },
+      "results": {
+        ".tec-search-result-logo": {
+          "x": 1228,
+          "y": 25.6875,
+          "width": 164,
+          "height": 52.609375
+        },
+        ".sfield": {
+          "x": 436,
+          "y": 24,
+          "width": 760,
+          "height": 56
+        },
+        ".tec-search-icon-button": {
+          "x": 48,
+          "y": 30,
+          "width": 44,
+          "height": 44
+        }
+      }
+    }
+  }
+}
