@@ -1,0 +1,42 @@
+.ag-v3-option-b{box-sizing:border-box;padding:24px;background:#FCFBFB;border:1px solid #E7E0D3;border-radius:18px;color:#4F4E4E;font-family:var(--font);break-inside:avoid}
+.ag-v3-option-b *{box-sizing:border-box}
+.ag-v3-option-b :is(h2,h3,h4,p){margin:0;font-weight:400}
+.b-lead{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:16px}
+.b-heading h2{font:400 28px/1.4 var(--heading-font)}
+.b-grand-total{display:flex;align-items:flex-end;flex-direction:column;line-height:1.2}
+.b-grand-total>bdi{font:400 40px/1.2 var(--figure-font)}
+.b-grand-total>span{font-size:16px}
+.b-chart-heading{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin:8px 0 12px}
+.b-chart-heading h3{font:400 28px/1.4 var(--heading-font)}
+.b-scale{font-size:14px;color:#756B5F;white-space:nowrap}
+.b-summaries{display:grid;grid-template-columns:repeat(var(--cohorts),minmax(0,1fr));gap:24px;margin-bottom:16px}
+.b-summary{display:flex;justify-content:space-between;align-items:center;gap:12px;background:#EFEBE7;padding:8px 14px;border-radius:9px;min-height:56px;font-size:18px}
+.b-summary bdi{font:400 28px/1.2 var(--figure-font)}
+.b-cohorts{display:grid;grid-template-columns:repeat(var(--cohorts),minmax(0,1fr));gap:24px}
+.b-cohort{min-width:0}
+.b-mobile-cohort{display:none}
+.b-quarters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.b-quarter{border:1px solid #E7E0D3;border-radius:12px;padding:14px;min-width:0;break-inside:avoid}
+.b-quarter-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-bottom:12px}
+.b-quarter-head h4{font:400 18px/1.4 var(--font)}
+.b-quarter-total{display:flex;gap:6px;align-items:baseline;font-size:14px;color:#756B5F;white-space:nowrap}
+.b-quarter-total bdi{font:400 24px/1.2 var(--figure-font);color:#4F4E4E}
+.b-bars{display:flex;flex-direction:column;gap:10px}
+.b-bar-row{display:grid;grid-template-columns:100px minmax(24px,1fr) 28px;gap:10px;align-items:center;min-height:24px}
+.b-status-label{font:400 16px/1.4 var(--font)}
+.b-track{display:block;height:8px;border-radius:4px;background:#EFEBE7;overflow:hidden;direction:rtl}
+.b-fill{display:block;height:100%;border-radius:4px}
+.b-value{font:400 24px/1.1 var(--figure-font);text-align:left}
+.b-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.b-empty{padding:24px 0;font:400 16px/1.5 var(--font)}
+@media screen and (max-width:1100px){.b-cohorts{grid-template-columns:1fr}.b-mobile-cohort{display:flex;align-items:center;justify-content:space-between;font:400 18px/1.5 var(--font)!important;margin-bottom:12px!important}.b-mobile-cohort bdi{font:400 28px/1.2 var(--figure-font)}}
+@media screen and (max-width:600px){.ag-v3-option-b{padding:16px}.b-chart-heading{flex-direction:column;align-items:flex-start;gap:4px}.b-summaries{gap:16px}.b-summary{align-items:stretch;flex-direction:column;gap:8px}.b-summary>span{min-height:54px}.b-summary>bdi{align-self:flex-end}.b-quarters{grid-template-columns:1fr}.b-quarter{padding:16px}.b-bar-row{grid-template-columns:105px minmax(24px,1fr) 28px}.b-cohorts{gap:28px}.b-bars{gap:12px}.b-quarter-head{margin-bottom:16px}}
+@media print{
+.ag-v3-option-b{padding:4mm;border-radius:4mm;width:100%;break-inside:avoid;page-break-inside:avoid}
+.b-lead{gap:4mm;margin-bottom:3mm}.b-heading h2{font-size:16pt}.b-grand-total>bdi{font-size:24pt}.b-grand-total>span{font-size:9pt}
+.b-chart-heading{gap:4mm;margin:3mm 0}.b-chart-heading h3{font-size:14pt}.b-scale{font-size:9pt}
+.b-summaries{gap:5mm;margin-bottom:3mm}.b-summary{min-height:13mm;padding:2mm 3mm;border-radius:2mm;font-size:12pt}.b-summary bdi{font-size:20pt}
+.b-cohorts{grid-template-columns:repeat(var(--cohorts),minmax(0,1fr));gap:5mm}.b-mobile-cohort{display:none}
+.b-quarters{gap:3mm}.b-quarter{padding:2.5mm;border-radius:2.5mm}.b-quarter-head{gap:2mm;margin-bottom:2.5mm}.b-quarter-head h4{font-size:10.5pt}.b-quarter-total{gap:1.2mm;font-size:8pt}.b-quarter-total bdi{font-size:16pt}
+.b-bars{gap:2mm}.b-bar-row{grid-template-columns:22mm minmax(5mm,1fr) 6mm;gap:1.5mm;min-height:5.5mm}.b-status-label{font-size:9pt}.b-track{height:1.7mm;border-radius:.85mm}.b-value{font-size:14pt}.b-empty{padding:5mm 0;font-size:12pt}
+}

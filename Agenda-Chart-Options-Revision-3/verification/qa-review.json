@@ -1,0 +1,661 @@
+{
+  "stage": "Independent QA of chart illustrations and first-page proofs only",
+  "source": {
+    "fixture": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+  },
+  "sourceChecks": [
+    {
+      "scope": "all",
+      "total": 117,
+      "freshLiveModelMatches": true,
+      "previousV2ExactMatch": true
+    },
+    {
+      "scope": "entity",
+      "total": 10,
+      "freshLiveModelMatches": true,
+      "previousV2ExactMatch": true
+    },
+    {
+      "scope": "sparse",
+      "total": 1,
+      "freshLiveModelMatches": true,
+      "previousV2ExactMatch": true
+    },
+    {
+      "scope": "empty",
+      "total": 0,
+      "freshLiveModelMatches": true,
+      "previousV2ExactMatch": null
+    },
+    {
+      "scope": "multiple",
+      "total": 11,
+      "freshLiveModelMatches": true,
+      "previousV2ExactMatch": null
+    },
+    {
+      "scope": "emerging",
+      "total": 17,
+      "freshLiveModelMatches": true,
+      "previousV2ExactMatch": null
+    }
+  ],
+  "screenChecks": [
+    {
+      "option": "a",
+      "scope": "all",
+      "width": 1440,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0.03125,
+      "sourceTotal": 117
+    },
+    {
+      "option": "a",
+      "scope": "all",
+      "width": 390,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 117
+    },
+    {
+      "option": "a",
+      "scope": "all",
+      "width": 320,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0.0,
+      "sourceTotal": 117
+    },
+    {
+      "option": "a",
+      "scope": "entity",
+      "width": 1440,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0.03125,
+      "sourceTotal": 10
+    },
+    {
+      "option": "a",
+      "scope": "entity",
+      "width": 390,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 10
+    },
+    {
+      "option": "a",
+      "scope": "entity",
+      "width": 320,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0.0,
+      "sourceTotal": 10
+    },
+    {
+      "option": "a",
+      "scope": "sparse",
+      "width": 1440,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0.0,
+      "sourceTotal": 1
+    },
+    {
+      "option": "a",
+      "scope": "sparse",
+      "width": 390,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 1
+    },
+    {
+      "option": "a",
+      "scope": "sparse",
+      "width": 320,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 1
+    },
+    {
+      "option": "a",
+      "scope": "empty",
+      "width": 1440,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 0
+    },
+    {
+      "option": "a",
+      "scope": "empty",
+      "width": 390,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 0
+    },
+    {
+      "option": "a",
+      "scope": "empty",
+      "width": 320,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 0
+    },
+    {
+      "option": "a",
+      "scope": "multiple",
+      "width": 1440,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0.03125,
+      "sourceTotal": 11
+    },
+    {
+      "option": "a",
+      "scope": "multiple",
+      "width": 390,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 11
+    },
+    {
+      "option": "a",
+      "scope": "multiple",
+      "width": 320,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0.0,
+      "sourceTotal": 11
+    },
+    {
+      "option": "a",
+      "scope": "emerging",
+      "width": 1440,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0.046875,
+      "sourceTotal": 17
+    },
+    {
+      "option": "a",
+      "scope": "emerging",
+      "width": 390,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 17
+    },
+    {
+      "option": "a",
+      "scope": "emerging",
+      "width": 320,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0.0,
+      "sourceTotal": 17
+    },
+    {
+      "option": "b",
+      "scope": "all",
+      "width": 1440,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0.0,
+      "sourceTotal": 117
+    },
+    {
+      "option": "b",
+      "scope": "all",
+      "width": 390,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 117
+    },
+    {
+      "option": "b",
+      "scope": "all",
+      "width": 320,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 117
+    },
+    {
+      "option": "b",
+      "scope": "entity",
+      "width": 1440,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0.0,
+      "sourceTotal": 10
+    },
+    {
+      "option": "b",
+      "scope": "entity",
+      "width": 390,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 10
+    },
+    {
+      "option": "b",
+      "scope": "entity",
+      "width": 320,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 10
+    },
+    {
+      "option": "b",
+      "scope": "sparse",
+      "width": 1440,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 1
+    },
+    {
+      "option": "b",
+      "scope": "sparse",
+      "width": 390,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 1
+    },
+    {
+      "option": "b",
+      "scope": "sparse",
+      "width": 320,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 1
+    },
+    {
+      "option": "b",
+      "scope": "empty",
+      "width": 1440,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 0
+    },
+    {
+      "option": "b",
+      "scope": "empty",
+      "width": 390,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 0
+    },
+    {
+      "option": "b",
+      "scope": "empty",
+      "width": 320,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 0
+    },
+    {
+      "option": "b",
+      "scope": "multiple",
+      "width": 1440,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0.0,
+      "sourceTotal": 11
+    },
+    {
+      "option": "b",
+      "scope": "multiple",
+      "width": 390,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 11
+    },
+    {
+      "option": "b",
+      "scope": "multiple",
+      "width": 320,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 11
+    },
+    {
+      "option": "b",
+      "scope": "emerging",
+      "width": 1440,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 17
+    },
+    {
+      "option": "b",
+      "scope": "emerging",
+      "width": 390,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 17
+    },
+    {
+      "option": "b",
+      "scope": "emerging",
+      "width": 320,
+      "pass": true,
+      "physicalTrackWidthSpreadPx": 0,
+      "sourceTotal": 17
+    }
+  ],
+  "pdfChecks": [
+    {
+      "file": "Option-A-All-A4-First-Page.pdf",
+      "pass": true,
+      "pageCount": 1,
+      "sizePt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "textBoundsPt": [
+        28.3359375,
+        30.107999801635742,
+        813.54833984375,
+        566.4854736328125
+      ],
+      "fonts": [
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "charProcs": false,
+          "unicode": true,
+          "embeddedFontBytes": 8604
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        }
+      ],
+      "sha256": "d94b1a7df1d49668ff0b168d52ab3424973c470ca62d86513845459c523f9155"
+    },
+    {
+      "file": "Option-A-Entity-A4-First-Page.pdf",
+      "pass": true,
+      "pageCount": 1,
+      "sizePt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "textBoundsPt": [
+        28.3359375,
+        30.107999801635742,
+        813.54833984375,
+        566.4854736328125
+      ],
+      "fonts": [
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "charProcs": false,
+          "unicode": true,
+          "embeddedFontBytes": 7508
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        }
+      ],
+      "sha256": "cca8abc22a0b1cf5235d2e49e7e5d2e5006b80b6d81a1a751c3e3beab32619f8"
+    },
+    {
+      "file": "Option-B-All-A4-First-Page.pdf",
+      "pass": true,
+      "pageCount": 1,
+      "sizePt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "textBoundsPt": [
+        28.3359375,
+        30.107999801635742,
+        813.54833984375,
+        566.4854736328125
+      ],
+      "fonts": [
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "charProcs": false,
+          "unicode": true,
+          "embeddedFontBytes": 8272
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        }
+      ],
+      "sha256": "e6d7bec195696812533964821be66e7f0f9f682e41d5cfb412083814183d8ec9"
+    },
+    {
+      "file": "Option-B-Entity-A4-First-Page.pdf",
+      "pass": true,
+      "pageCount": 1,
+      "sizePt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "textBoundsPt": [
+        28.3359375,
+        30.107999801635742,
+        813.54833984375,
+        566.4854736328125
+      ],
+      "fonts": [
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "charProcs": false,
+          "unicode": true,
+          "embeddedFontBytes": 7308
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "charProcs": true,
+          "unicode": true,
+          "embeddedFontBytes": 0
+        }
+      ],
+      "sha256": "fd4022e0a0b3f99496ffbef08f372dc7dd86682362f1d273f7cc4cdf38e731eb"
+    }
+  ],
+  "issues": [],
+  "reviewHTMLSHA256": "d6585f4e306a886618f6e5c5d0f71aeeccb70a9e2134a435e6a15e9009b0e40c",
+  "printDOM": {
+    "Option-A-All-A4-First-Page.pdf": {
+      "chartText": "الأجندة السنوية\n117\nالإجمالي\nمستويات الإنجاز حسب الربع\nعدد المواضيع 0–44\nالأجندة المعتمدة\n100\nالمواضيع المستجدة\n17\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\tالإجمالي\nجاهز للعرض\t\n3\n\t\n5\n\t\n2\n\t\n0\n\t\n10\n10%\n\nقيد المراجعة\t\n1\n\t\n2\n\t\n1\n\t\n1\n\t\n5\n5%\n\nقيد التطوير\t\n0\n\t\n2\n\t\n5\n\t\n44\n\t\n51\n51%\n\nمنجز\t\n23\n\t\n8\n\t\n2\n\t\n1\n\t\n34\n34%\n\nالإجمالي\t\n27\n\t\n17\n\t\n10\n\t\n46\n\t\n100\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\tالإجمالي\nجاهز للعرض\t\n2\n\t\n0\n\t\n4\n\t\n0\n\t\n6\n35.3%\n\nقيد المراجعة\t\n0\n\t\n0\n\t\n1\n\t\n0\n\t\n1\n5.9%\n\nقيد التطوير\t\n0\n\t\n0\n\t\n0\n\t\n1\n\t\n1\n5.9%\n\nمنجز\t\n5\n\t\n2\n\t\n1\n\t\n1\n\t\n9\n52.9%\n\nالإجمالي\t\n7\n\t\n2\n\t\n6\n\t\n2\n\t\n17",
+      "headerText": "مستجدات الأجندة السنوية\n\nيناير – سبتمبر 2026",
+      "rect": [
+        37.78125,
+        134.015625,
+        1084.734375,
+        623.375
+      ],
+      "footerGap": 112.9375
+    },
+    "Option-A-Entity-A4-First-Page.pdf": {
+      "chartText": "الأجندة السنوية\n10\nالإجمالي\nمستويات الإنجاز حسب الربع\nعدد المواضيع 0–3\nالأجندة المعتمدة\n8\nالمواضيع المستجدة\n2\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\tالإجمالي\nجاهز للعرض\t\n0\n\t\n1\n\t\n0\n\t\n0\n\t\n1\n12.5%\n\nقيد التطوير\t\n0\n\t\n0\n\t\n1\n\t\n2\n\t\n3\n37.5%\n\nمنجز\t\n3\n\t\n1\n\t\n0\n\t\n0\n\t\n4\n50%\n\nالإجمالي\t\n3\n\t\n2\n\t\n1\n\t\n2\n\t\n8\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\tالإجمالي\nجاهز للعرض\t\n0\n\t\n0\n\t\n0\n\t\n0\n\t\n0\n0%\n\nقيد التطوير\t\n0\n\t\n0\n\t\n0\n\t\n0\n\t\n0\n0%\n\nمنجز\t\n1\n\t\n1\n\t\n0\n\t\n0\n\t\n2\n100%\n\nالإجمالي\t\n1\n\t\n1\n\t\n0\n\t\n0\n\t\n2",
+      "headerText": "مستجدات الأجندة السنوية\n\nهيئة الطرق والمواصلات\n\nيناير – سبتمبر 2026",
+      "rect": [
+        37.78125,
+        158.078125,
+        1084.734375,
+        591.640625
+      ],
+      "footerGap": 144.671875
+    },
+    "Option-B-All-A4-First-Page.pdf": {
+      "chartText": "الأجندة السنوية\n117\nالإجمالي\nمستويات الإنجاز حسب الربع\nعدد المواضيع 0–44\nالأجندة المعتمدة\n100\nالمواضيع المستجدة\n17\nالربع الأول\n27\nالإجمالي\nجاهز للعرض\n3\nقيد المراجعة\n1\nمنجز\n23\nالربع الثاني\n17\nالإجمالي\nجاهز للعرض\n5\nقيد المراجعة\n2\nقيد التطوير\n2\nمنجز\n8\nالربع الثالث\n10\nالإجمالي\nجاهز للعرض\n2\nقيد المراجعة\n1\nقيد التطوير\n5\nمنجز\n2\nالربع الرابع\n46\nالإجمالي\nقيد المراجعة\n1\nقيد التطوير\n44\nمنجز\n1\nالربع الأول\n7\nالإجمالي\nجاهز للعرض\n2\nمنجز\n5\nالربع الثاني\n2\nالإجمالي\nمنجز\n2\nالربع الثالث\n6\nالإجمالي\nجاهز للعرض\n4\nقيد المراجعة\n1\nمنجز\n1\nالربع الرابع\n2\nالإجمالي\nقيد التطوير\n1\nمنجز\n1",
+      "headerText": "مستجدات الأجندة السنوية\n\nيناير – سبتمبر 2026",
+      "rect": [
+        37.78125,
+        134.015625,
+        1084.734375,
+        668.9375
+      ],
+      "footerGap": 67.375
+    },
+    "Option-B-Entity-A4-First-Page.pdf": {
+      "chartText": "الأجندة السنوية\n10\nالإجمالي\nمستويات الإنجاز حسب الربع\nعدد المواضيع 0–3\nالأجندة المعتمدة\n8\nالمواضيع المستجدة\n2\nالربع الأول\n3\nالإجمالي\nمنجز\n3\nالربع الثاني\n2\nالإجمالي\nجاهز للعرض\n1\nمنجز\n1\nالربع الثالث\n1\nالإجمالي\nقيد التطوير\n1\nالربع الرابع\n2\nالإجمالي\nقيد التطوير\n2\nالربع الأول\n1\nالإجمالي\nمنجز\n1\nالربع الثاني\n1\nالإجمالي\nمنجز\n1",
+      "headerText": "مستجدات الأجندة السنوية\n\nهيئة الطرق والمواصلات\n\nيناير – سبتمبر 2026",
+      "rect": [
+        37.78125,
+        158.078125,
+        1084.734375,
+        551.359375
+      ],
+      "footerGap": 184.953125
+    }
+  },
+  "offlineExternalRequests": [],
+  "verdict": "PASS",
+  "limits": [
+    "Illustrative fixture, not operational workbook.",
+    "A4 files are first-page chart proofs, not complete report exports.",
+    "No application files changed.",
+    "Visual and targeted programmatic checks are not accessibility certification."
+  ]
+}

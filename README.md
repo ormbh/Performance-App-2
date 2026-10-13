@@ -20,3 +20,5 @@ Previous release: [v144 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs
 [Agenda report — design illustrations](Agenda-Report-Concept/README.md) · [Download agenda concept ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Agenda-Report-Concept.zip). Preview only; v145 remains unchanged pending approval.
 
 [Agenda illustrations — Revision 2](Agenda-Report-Concept-Revision-2/README.md) · [Download revised concept ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Agenda-Report-Concept-Revision-2.zip). Redesigned filtered charts together on the first A4 landscape page, first-page-only entity/period header and wider topic/entity tables. Illustration only; app unchanged.
+
+[Agenda chart options — Revision 3](Agenda-Chart-Options-Revision-3/README.md) · [Download chart review ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Agenda-Chart-Options-Revision-3.zip). Compare the requested status-row/quarter-column transpose with directly labelled quarter panels; offline interactive review, filtered examples and A4 landscape first-page proofs. Illustrations only; app unchanged.
