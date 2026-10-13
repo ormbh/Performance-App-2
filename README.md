@@ -1,4 +1,14 @@
-# Performance App v150
+# Performance App v151
+
+[Download app — v151](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v151.zip) · [Verification](Saytara-Verification-v151.md) · [Layout screenshots](Agenda-Layout-v151/README.md)
+
+One-line deadline headers, consistent approved/emerging section titles, centered cover text, and hidden empty approved table sections. Existing chart bars are kept.
+
+[Vertical quarter illustration — review only](Agenda-Quarter-Distribution-Concept/quarter-distribution-preview.png) · [Interactive offline concept ZIP](TEC_Agenda_Quarter_Concept.zip). The concept uses the supplied screenshot data and has not been applied to the app.
+
+Extract the complete app ZIP and open **index.html**. No source workbook is included.
+
+# Previous release — v150
 
 [Download app — v150 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v150.zip) · [Verification](Saytara-Verification-v150.md) · [Screenshots](Agenda-Visibility-v150/README.md)
 

@@ -1,0 +1,87 @@
+{
+  "source": "User screenshot: approved 100, emerging 17",
+  "pageErrors": [],
+  "fonts": "loaded",
+  "desktopOverflow": false,
+  "chartData": [
+    {
+      "id": "approved",
+      "total": 100,
+      "quarters": [
+        {
+          "count": 27,
+          "share": 27,
+          "ready": 3,
+          "review": 1,
+          "dev": 0,
+          "done": 23
+        },
+        {
+          "count": 17,
+          "share": 17,
+          "ready": 5,
+          "review": 2,
+          "dev": 1,
+          "done": 9
+        },
+        {
+          "count": 10,
+          "share": 10,
+          "ready": 2,
+          "review": 1,
+          "dev": 5,
+          "done": 2
+        },
+        {
+          "count": 46,
+          "share": 46,
+          "ready": 0,
+          "review": 1,
+          "dev": 44,
+          "done": 1
+        }
+      ]
+    },
+    {
+      "id": "emerging",
+      "total": 17,
+      "quarters": [
+        {
+          "count": 7,
+          "share": 41.17647058823529,
+          "ready": 2,
+          "review": 0,
+          "dev": 0,
+          "done": 5
+        },
+        {
+          "count": 2,
+          "share": 11.76470588235294,
+          "ready": 0,
+          "review": 0,
+          "dev": 0,
+          "done": 2
+        },
+        {
+          "count": 6,
+          "share": 35.294117647058826,
+          "ready": 4,
+          "review": 1,
+          "dev": 0,
+          "done": 1
+        },
+        {
+          "count": 2,
+          "share": 11.76470588235294,
+          "ready": 0,
+          "review": 0,
+          "dev": 1,
+          "done": 1
+        }
+      ]
+    }
+  ],
+  "keyboardQ4": "الربع الرابع · 46 / 100\n\nمنجز 1\nقيد التطوير 44\nقيد المراجعة 1\nجاهز للعرض –",
+  "expandedTable": "الحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\nمنجز\t23\t9\t2\t1\nقيد التطوير\t–\t1\t5\t44\nقيد المراجعة\t1\t2\t1\t1\nجاهز للعرض\t3\t5\t2\t–\nالإجمالي\t27\t17\t10\t46",
+  "mobileOverflow": false
+}

@@ -1,0 +1,546 @@
+{
+  "version": 151,
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "cutoff": "2026-09-30",
+    "illustrative": true
+  },
+  "checks": [
+    {
+      "check": "long-text 1440 chart scale removed",
+      "pass": true
+    },
+    {
+      "check": "long-text 1440 definitions below chart / no viewport overflow",
+      "pass": true
+    },
+    {
+      "check": "long-text 1440 source keys retained",
+      "pass": true
+    },
+    {
+      "check": "long-text 1440 entity column retained in each table",
+      "pass": true
+    },
+    {
+      "check": "long-text 768 chart scale removed",
+      "pass": true
+    },
+    {
+      "check": "long-text 768 definitions below chart / no viewport overflow",
+      "pass": true
+    },
+    {
+      "check": "long-text 768 source keys retained",
+      "pass": true
+    },
+    {
+      "check": "long-text 768 entity column retained in each table",
+      "pass": true
+    },
+    {
+      "check": "long-text 390 chart scale removed",
+      "pass": true
+    },
+    {
+      "check": "long-text 390 definitions below chart / no viewport overflow",
+      "pass": true
+    },
+    {
+      "check": "long-text 390 source keys retained",
+      "pass": true
+    },
+    {
+      "check": "long-text 390 entity column retained in each table",
+      "pass": true
+    },
+    {
+      "check": "long-text native PDF A4 landscape",
+      "pass": true
+    },
+    {
+      "check": "long-text native PDF planned page count",
+      "pass": true
+    },
+    {
+      "check": "long-text cover covers full297x210mm page",
+      "pass": true
+    },
+    {
+      "check": "long-text native cover photo reaches all page edges",
+      "pass": true
+    },
+    {
+      "check": "long-text no cover copyright or page count",
+      "pass": true
+    },
+    {
+      "check": "long-text charts and definitions whole on physical page2",
+      "pass": true
+    },
+    {
+      "check": "long-text chart page no cover remnants",
+      "pass": true
+    },
+    {
+      "check": "long-text PDF chart scale absent",
+      "pass": true
+    },
+    {
+      "check": "long-text native cover text exact",
+      "pass": true
+    },
+    {
+      "check": "long-text native chart text exact",
+      "pass": true
+    },
+    {
+      "check": "long-text native definitions text exact",
+      "pass": true
+    },
+    {
+      "check": "long-text selected entity retained under cover title",
+      "pass": true
+    },
+    {
+      "check": "long-text exact detail source keys in PDF",
+      "pass": true
+    },
+    {
+      "check": "long-text actual PDF headings/entity names/all table cells complete",
+      "pass": true
+    },
+    {
+      "check": "long-text details begin physical page3+",
+      "pass": true
+    },
+    {
+      "check": "long-text copyright and correct numbering start physical page2",
+      "pass": true
+    },
+    {
+      "check": "long-text all native text within page",
+      "pass": true
+    },
+    {
+      "check": "long-text PDF cover text group centered both axes",
+      "pass": true
+    },
+    {
+      "check": "long-text PDF cover period includes complete 2026",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "screen": [
+    {
+      "scope": "long-text",
+      "width": 1440,
+      "pass": true
+    },
+    {
+      "scope": "long-text",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "scope": "long-text",
+      "width": 390,
+      "pass": true
+    }
+  ],
+  "pdf": [
+    {
+      "scope": "long-text",
+      "pages": 3,
+      "sourceRows": 2,
+      "pass": true,
+      "sha256": "ca988d544246bd930edeaa796a20b4cc8c18bb38560f2c1adf736cb0c72db3d3"
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "layout": [
+    {
+      "scope": "long-text",
+      "screenWidth": 1440,
+      "geometry": {
+        "cover": null,
+        "copy": null,
+        "copyText": null,
+        "copyChildren": [],
+        "sectionHeads": [
+          {
+            "text": "المواضيع المستجدة",
+            "style": {
+              "font": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+              "size": "30px",
+              "weight": "400",
+              "lineHeight": "42px",
+              "color": "rgb(51, 51, 51)"
+            },
+            "rect": {
+              "x": 48,
+              "y": 1332.25,
+              "w": 1344,
+              "h": 42
+            }
+          }
+        ],
+        "contexts": [
+          {
+            "text": "(عدد المواضيع: 2)",
+            "style": {
+              "font": "\"TEC Dubai\", sans-serif",
+              "size": "14px",
+              "weight": "400",
+              "lineHeight": "22.4px",
+              "color": "rgb(117, 107, 95)"
+            },
+            "rect": {
+              "x": 48,
+              "y": 1386.25,
+              "w": 1344,
+              "h": 22.390625
+            }
+          }
+        ],
+        "deadline": [],
+        "jumpLinks": [
+          {
+            "text": "الملخص التنفيذي",
+            "href": "#report-dashboard"
+          },
+          {
+            "text": "المواضيع المستجدة",
+            "href": "#agenda-emerging"
+          }
+        ],
+        "emptySections": [],
+        "tableBounds": [
+          {
+            "table": {
+              "x": 49,
+              "y": 1425.640625,
+              "w": 1342,
+              "h": 331.546875
+            },
+            "rows": [
+              {
+                "x": 49,
+                "y": 1486.4375,
+                "w": 1342,
+                "h": 135.375
+              },
+              {
+                "x": 49,
+                "y": 1621.8125,
+                "w": 1342,
+                "h": 135.375
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "long-text",
+      "screenWidth": 768,
+      "geometry": {
+        "cover": null,
+        "copy": null,
+        "copyText": null,
+        "copyChildren": [],
+        "sectionHeads": [
+          {
+            "text": "المواضيع المستجدة",
+            "style": {
+              "font": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+              "size": "30px",
+              "weight": "400",
+              "lineHeight": "42px",
+              "color": "rgb(51, 51, 51)"
+            },
+            "rect": {
+              "x": 32,
+              "y": 1555.40625,
+              "w": 704,
+              "h": 42
+            }
+          }
+        ],
+        "contexts": [
+          {
+            "text": "(عدد المواضيع: 2)",
+            "style": {
+              "font": "\"TEC Dubai\", sans-serif",
+              "size": "14px",
+              "weight": "400",
+              "lineHeight": "22.4px",
+              "color": "rgb(117, 107, 95)"
+            },
+            "rect": {
+              "x": 32,
+              "y": 1609.40625,
+              "w": 704,
+              "h": 22.390625
+            }
+          }
+        ],
+        "deadline": [],
+        "jumpLinks": [
+          {
+            "text": "الملخص التنفيذي",
+            "href": "#report-dashboard"
+          },
+          {
+            "text": "المواضيع المستجدة",
+            "href": "#agenda-emerging"
+          }
+        ],
+        "emptySections": [],
+        "tableBounds": [
+          {
+            "table": {
+              "x": -204,
+              "y": 1647.796875,
+              "w": 940,
+              "h": 611.125
+            },
+            "rows": [
+              {
+                "x": -204,
+                "y": 1647.796875,
+                "w": 940,
+                "h": 298.5625
+              },
+              {
+                "x": -204,
+                "y": 1960.359375,
+                "w": 940,
+                "h": 298.5625
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "long-text",
+      "screenWidth": 390,
+      "geometry": {
+        "cover": null,
+        "copy": null,
+        "copyText": null,
+        "copyChildren": [],
+        "sectionHeads": [
+          {
+            "text": "المواضيع المستجدة",
+            "style": {
+              "font": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+              "size": "30px",
+              "weight": "400",
+              "lineHeight": "42px",
+              "color": "rgb(51, 51, 51)"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2215.375,
+              "w": 358,
+              "h": 42
+            }
+          }
+        ],
+        "contexts": [
+          {
+            "text": "(عدد المواضيع: 2)",
+            "style": {
+              "font": "\"TEC Dubai\", sans-serif",
+              "size": "14px",
+              "weight": "400",
+              "lineHeight": "22.4px",
+              "color": "rgb(117, 107, 95)"
+            },
+            "rect": {
+              "x": 16,
+              "y": 2269.375,
+              "w": 358,
+              "h": 22.390625
+            }
+          }
+        ],
+        "deadline": [],
+        "jumpLinks": [
+          {
+            "text": "الملخص التنفيذي",
+            "href": "#report-dashboard"
+          },
+          {
+            "text": "المواضيع المستجدة",
+            "href": "#agenda-emerging"
+          }
+        ],
+        "emptySections": [],
+        "tableBounds": [
+          {
+            "table": {
+              "x": 16,
+              "y": 2307.765625,
+              "w": 358,
+              "h": 1109.84375
+            },
+            "rows": [
+              {
+                "x": 16,
+                "y": 2307.765625,
+                "w": 358,
+                "h": 547.921875
+              },
+              {
+                "x": 16,
+                "y": 2869.6875,
+                "w": 358,
+                "h": 547.921875
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "long-text",
+      "pdf": true,
+      "geometry": {
+        "cover": {
+          "x": 76.0625,
+          "y": 0,
+          "w": 1122.515625,
+          "h": 793.6875
+        },
+        "copy": {
+          "x": 197,
+          "y": 313.5546875,
+          "w": 880.640625,
+          "h": 166.578125
+        },
+        "copyText": "مستجدات الأجندة السنوية\n\nجهة توضيحية لاختبار التفاف اسم الجهة الطويل والتنسيق بين فرق التخطيط الاستراتيجي والمتابعة التنفيذية وتطوير الخدمات الحكومية المشتركة\n\nيناير – سبتمبر 2026",
+        "copyChildren": [
+          {
+            "text": "مستجدات الأجندة السنوية",
+            "rect": {
+              "x": 479.296875,
+              "y": 313.5546875,
+              "w": 316.046875,
+              "h": 44.796875
+            },
+            "style": {
+              "font": "\"TEC DIN\", sans-serif",
+              "size": "32px",
+              "weight": "400",
+              "lineHeight": "44.8px",
+              "color": "rgb(51, 51, 51)"
+            }
+          },
+          {
+            "text": "جهة توضيحية لاختبار التفاف اسم الجهة الطويل والتنسيق بين فرق التخطيط الاستراتيجي والمتابعة التنفيذية وتطوير الخدمات الحكومية المشتركة",
+            "rect": {
+              "x": 197,
+              "y": 377.2421875,
+              "w": 880.640625,
+              "h": 56
+            },
+            "style": {
+              "font": "\"TEC Dubai\", sans-serif",
+              "size": "18.6667px",
+              "weight": "400",
+              "lineHeight": "28px",
+              "color": "rgb(79, 78, 78)"
+            }
+          },
+          {
+            "text": "يناير – سبتمبر 2026",
+            "rect": {
+              "x": 566.125,
+              "y": 452.1328125,
+              "w": 142.40625,
+              "h": 28
+            },
+            "style": {
+              "font": "\"TEC Dubai\", sans-serif",
+              "size": "18.6667px",
+              "weight": "400",
+              "lineHeight": "28px",
+              "color": "rgb(79, 78, 78)"
+            }
+          }
+        ],
+        "sectionHeads": [
+          {
+            "text": "المواضيع المستجدة",
+            "style": {
+              "font": "\"TEC DIN\", sans-serif",
+              "size": "21.3333px",
+              "weight": "400",
+              "lineHeight": "29.8667px",
+              "color": "rgb(51, 51, 51)"
+            },
+            "rect": {
+              "x": 76.078125,
+              "y": 1410.359375,
+              "w": 1046.921875,
+              "h": 29.859375
+            }
+          }
+        ],
+        "contexts": [
+          {
+            "text": "(عدد المواضيع: 2)",
+            "style": {
+              "font": "\"TEC Dubai\", sans-serif",
+              "size": "16px",
+              "weight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(79, 78, 78)"
+            },
+            "rect": {
+              "x": 76.078125,
+              "y": 1443.984375,
+              "w": 1046.921875,
+              "h": 24
+            }
+          }
+        ],
+        "deadline": [],
+        "jumpLinks": [],
+        "emptySections": [],
+        "tableBounds": [
+          {
+            "table": {
+              "x": 76.078125,
+              "y": 1479.3125,
+              "w": 1046.921875,
+              "h": 287.265625
+            },
+            "rows": [
+              {
+                "x": 76.078125,
+                "y": 1526.765625,
+                "w": 1046.921875,
+                "h": 119.65625
+              },
+              {
+                "x": 76.078125,
+                "y": 1646.421875,
+                "w": 1046.921875,
+                "h": 119.65625
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "verdict": "PASS",
+  "note": "Isolated in-memory mutation of two illustrative topic/entity names for wrapping only. Workbook unchanged."
+}
