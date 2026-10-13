@@ -1,0 +1,19 @@
+{
+  "build": 153,
+  "zipSha256": "af8177845c2d4bc8a627e36303c7956b8b38ceee4df8d70a82d5c353a0de4231",
+  "manifestFiles": 206,
+  "crc": "PASS",
+  "extractedHashes": "PASS",
+  "sourceChanges": [
+    "assets/css/tec-agenda-print.css",
+    "assets/css/tec-agenda-matrix.css",
+    "assets/js/views/agenda-matrix.js",
+    "assets/js/views/agenda-print.js"
+  ],
+  "sourceModelsAndUnrelatedAssetsUnchanged": true,
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "64c9364364b2dcd7c651bbade0bbba69fd3071803cc50b75291a495b606984fe",
+    "assets/css/app-bundle.css": "4f95bf22e506b18cfcd56c9eb03fb9b2a71a181ed69bb08ec409afbd9546f758",
+    "assets/css/print-measure-bundle.css": "64107bd46c252dd3504170d613c9a7cd1c3112c9ff286e4a4e2249f99a69366d"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "verdict": "PASS",
+  "checks": [
+    {
+      "scope": "all",
+      "nativeSegmentsChecked": 22,
+      "nativeChartImages": 0
+    },
+    {
+      "scope": "entity",
+      "nativeSegmentsChecked": 7,
+      "nativeChartImages": 0
+    },
+    {
+      "scope": "approved-only",
+      "nativeSegmentsChecked": 4,
+      "nativeChartImages": 0
+    },
+    {
+      "scope": "emerging-only",
+      "nativeSegmentsChecked": 2,
+      "nativeChartImages": 0
+    },
+    {
+      "scope": "empty",
+      "nativeSegmentsChecked": 0,
+      "nativeChartImages": 0
+    },
+    {
+      "scope": "synthetic-five-periods",
+      "nativeSegmentsChecked": 9,
+      "nativeChartImages": 0
+    },
+    {
+      "scope": "synthetic-one-late",
+      "nativeSegmentsChecked": 1,
+      "nativeChartImages": 0
+    }
+  ],
+  "issues": []
+}

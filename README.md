@@ -1,4 +1,14 @@
-# Performance App v152
+# Performance App v153
+
+[Download app — v153](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v153.zip) · [Verification](Saytara-Verification-v153.md) · [Applied charts and PDF preview](Agenda-Charts-v153/README.md)
+
+The agenda uses the approved vertical quarter-count chart on screen and in the native PDF. Both categories share a count axis; status segments, filtered scope and the original definitions are preserved. Percentages and selected-quarter ratio lines are removed.
+
+Charts and definitions stay together after the cover on one A4 landscape content page. Empty categories hide, and phone layouts preserve access to counts, quarter selection and detailed values. The centered search controls from v152 remain included.
+
+Extract the complete app ZIP and open **index.html**. No source workbook is included.
+
+# Previous release — v152
 
 [Download app — v152](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v152.zip) · [Verification](Saytara-Verification-v152.md) · [Search layout](Search-Actions-v152/README.md)
 
