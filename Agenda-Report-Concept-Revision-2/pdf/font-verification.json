@@ -1,0 +1,142 @@
+{
+  "All": {
+    "fonts": [
+      {
+        "type": "Type3",
+        "name": "/AAAAAA+DINNextArabic-Regular",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 32,
+        "embedded": true,
+        "unicodeMap": true
+      },
+      {
+        "type": "Type3",
+        "name": "/AAAAAA+DINNextArabic-Regular",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 8,
+        "embedded": true,
+        "unicodeMap": true
+      },
+      {
+        "type": "Type3",
+        "name": "/AAAAAA+DINNextArabic-Regular",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 13,
+        "embedded": true,
+        "unicodeMap": true
+      },
+      {
+        "type": "Type3",
+        "name": "/BAAAAA+Dubai-Regular",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 62,
+        "embedded": true,
+        "unicodeMap": true
+      },
+      {
+        "type": "Type3",
+        "name": "/BAAAAA+Dubai-Regular",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 58,
+        "embedded": true,
+        "unicodeMap": true
+      },
+      {
+        "type": "Type3",
+        "name": "/BAAAAA+Dubai-Regular",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 5,
+        "embedded": true,
+        "unicodeMap": true
+      },
+      {
+        "type": "Type3",
+        "name": "/CAAAAA+Dubai-Bold",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 16,
+        "embedded": true,
+        "unicodeMap": true
+      },
+      {
+        "type": "Type3",
+        "name": "/CAAAAA+Dubai-Bold",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 20,
+        "embedded": true,
+        "unicodeMap": true
+      }
+    ],
+    "allSelfContained": true,
+    "allUnicodeMapped": true
+  },
+  "Entity": {
+    "fonts": [
+      {
+        "type": "Type3",
+        "name": "/AAAAAA+DINNextArabic-Regular",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 32,
+        "embedded": true,
+        "unicodeMap": true
+      },
+      {
+        "type": "Type3",
+        "name": "/AAAAAA+DINNextArabic-Regular",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 8,
+        "embedded": true,
+        "unicodeMap": true
+      },
+      {
+        "type": "Type3",
+        "name": "/AAAAAA+DINNextArabic-Regular",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 11,
+        "embedded": true,
+        "unicodeMap": true
+      },
+      {
+        "type": "Type3",
+        "name": "/BAAAAA+Dubai-Regular",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 50,
+        "embedded": true,
+        "unicodeMap": true
+      },
+      {
+        "type": "Type3",
+        "name": "/BAAAAA+Dubai-Regular",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 56,
+        "embedded": true,
+        "unicodeMap": true
+      },
+      {
+        "type": "Type3",
+        "name": "/BAAAAA+Dubai-Regular",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 4,
+        "embedded": true,
+        "unicodeMap": true
+      },
+      {
+        "type": "Type3",
+        "name": "/CAAAAA+Dubai-Bold",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 16,
+        "embedded": true,
+        "unicodeMap": true
+      },
+      {
+        "type": "Type3",
+        "name": "/CAAAAA+Dubai-Bold",
+        "nativeFontBytes": 0,
+        "embeddedGlyphStreams": 20,
+        "embedded": true,
+        "unicodeMap": true
+      }
+    ],
+    "allSelfContained": true,
+    "allUnicodeMapped": true
+  }
+}

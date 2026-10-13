@@ -1,0 +1,160 @@
+{
+  "all": {
+    "externalRequests": [],
+    "widths": {
+      "1440": {
+        "docWidth": 1440,
+        "width": 1440,
+        "images": [
+          {
+            "complete": true,
+            "width": 2048
+          },
+          {
+            "complete": true,
+            "width": 2382
+          }
+        ],
+        "fonts": [
+          {
+            "name": "TEC Dubai",
+            "weight": "400 500"
+          },
+          {
+            "name": "TEC Dubai",
+            "weight": "600 800"
+          },
+          {
+            "name": "TEC DIN",
+            "weight": "400"
+          },
+          {
+            "name": "TEC DIN LT",
+            "weight": "400"
+          }
+        ],
+        "rows": 117,
+        "charts": 1,
+        "headerName": null,
+        "bodyFont": "16px / 25.6px \"TEC Dubai\", sans-serif",
+        "chartLabelFont": "16px"
+      },
+      "390": {
+        "docWidth": 390,
+        "width": 390,
+        "images": [
+          {
+            "complete": true,
+            "width": 2048
+          },
+          {
+            "complete": true,
+            "width": 2382
+          }
+        ],
+        "fonts": [
+          {
+            "name": "TEC Dubai",
+            "weight": "400 500"
+          },
+          {
+            "name": "TEC Dubai",
+            "weight": "600 800"
+          },
+          {
+            "name": "TEC DIN",
+            "weight": "400"
+          },
+          {
+            "name": "TEC DIN LT",
+            "weight": "400"
+          }
+        ],
+        "rows": 117,
+        "charts": 1,
+        "headerName": null,
+        "bodyFont": "16px / 25.6px \"TEC Dubai\", sans-serif",
+        "chartLabelFont": "16px"
+      }
+    }
+  },
+  "entity": {
+    "externalRequests": [],
+    "widths": {
+      "1440": {
+        "docWidth": 1440,
+        "width": 1440,
+        "images": [
+          {
+            "complete": true,
+            "width": 2048
+          },
+          {
+            "complete": true,
+            "width": 2382
+          }
+        ],
+        "fonts": [
+          {
+            "name": "TEC Dubai",
+            "weight": "400 500"
+          },
+          {
+            "name": "TEC Dubai",
+            "weight": "600 800"
+          },
+          {
+            "name": "TEC DIN",
+            "weight": "400"
+          },
+          {
+            "name": "TEC DIN LT",
+            "weight": "400"
+          }
+        ],
+        "rows": 10,
+        "charts": 1,
+        "headerName": "هيئة الطرق والمواصلات",
+        "bodyFont": "16px / 25.6px \"TEC Dubai\", sans-serif",
+        "chartLabelFont": "16px"
+      },
+      "390": {
+        "docWidth": 390,
+        "width": 390,
+        "images": [
+          {
+            "complete": true,
+            "width": 2048
+          },
+          {
+            "complete": true,
+            "width": 2382
+          }
+        ],
+        "fonts": [
+          {
+            "name": "TEC Dubai",
+            "weight": "400 500"
+          },
+          {
+            "name": "TEC Dubai",
+            "weight": "600 800"
+          },
+          {
+            "name": "TEC DIN",
+            "weight": "400"
+          },
+          {
+            "name": "TEC DIN LT",
+            "weight": "400"
+          }
+        ],
+        "rows": 10,
+        "charts": 1,
+        "headerName": "هيئة الطرق والمواصلات",
+        "bodyFont": "16px / 25.6px \"TEC Dubai\", sans-serif",
+        "chartLabelFont": "16px"
+      }
+    }
+  }
+}

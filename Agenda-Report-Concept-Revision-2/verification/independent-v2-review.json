@@ -1,0 +1,1168 @@
+{
+  "stage": "Independent revision2 illustration QA",
+  "fixtureSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "cases": {
+    "all": {
+      "checks": {
+        "orderedRecordsAndCellText": true,
+        "modelUnchanged": true,
+        "total": true,
+        "plannedTotal": true,
+        "plannedKeys": true,
+        "plannedStatusCounts": true,
+        "plannedPercentages": true,
+        "plannedQuarterOrder": true,
+        "plannedالربع الأول": true,
+        "plannedالربع الثاني": true,
+        "plannedالربع الثالث": true,
+        "plannedالربع الرابع": true,
+        "emergingTotal": true,
+        "emergingKeys": true,
+        "emergingStatusCounts": true,
+        "emergingPercentages": true,
+        "emergingQuarterOrder": true,
+        "emergingالربع الأول": true,
+        "emergingالربع الثاني": true,
+        "emergingالربع الثالث": true,
+        "emergingالربع الرابع": true,
+        "scale": true,
+        "renderedBarScale": true
+      },
+      "totals": {
+        "planned": 100,
+        "emerging": 17,
+        "other": 0
+      },
+      "widths": {
+        "1440": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "1024": {
+          "width": 1024,
+          "documentWidth": 1024,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "768": {
+          "width": 768,
+          "documentWidth": 768,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "390": {
+          "width": 390,
+          "documentWidth": 390,
+          "overflows": [
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            }
+          ],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "320": {
+          "width": 320,
+          "documentWidth": 320,
+          "overflows": [
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            }
+          ],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        }
+      },
+      "pageErrors": [],
+      "illustrativeBrowserMutation": null,
+      "sourceNotesSpecimen": false
+    },
+    "entity": {
+      "checks": {
+        "orderedRecordsAndCellText": true,
+        "modelUnchanged": true,
+        "total": true,
+        "plannedTotal": true,
+        "plannedKeys": true,
+        "plannedStatusCounts": true,
+        "plannedPercentages": true,
+        "plannedQuarterOrder": true,
+        "plannedالربع الأول": true,
+        "plannedالربع الثاني": true,
+        "plannedالربع الثالث": true,
+        "plannedالربع الرابع": true,
+        "emergingTotal": true,
+        "emergingKeys": true,
+        "emergingStatusCounts": true,
+        "emergingPercentages": true,
+        "emergingQuarterOrder": true,
+        "emergingالربع الأول": true,
+        "emergingالربع الثاني": true,
+        "scale": true,
+        "renderedBarScale": true
+      },
+      "totals": {
+        "planned": 8,
+        "emerging": 2,
+        "other": 0
+      },
+      "widths": {
+        "1440": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "1024": {
+          "width": 1024,
+          "documentWidth": 1024,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "768": {
+          "width": 768,
+          "documentWidth": 768,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "390": {
+          "width": 390,
+          "documentWidth": 390,
+          "overflows": [
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            }
+          ],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "320": {
+          "width": 320,
+          "documentWidth": 320,
+          "overflows": [
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            }
+          ],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        }
+      },
+      "pageErrors": [],
+      "illustrativeBrowserMutation": null,
+      "sourceNotesSpecimen": true
+    },
+    "sparse": {
+      "checks": {
+        "orderedRecordsAndCellText": true,
+        "modelUnchanged": true,
+        "total": true,
+        "plannedTotal": true,
+        "plannedKeys": true,
+        "plannedStatusCounts": true,
+        "plannedPercentages": true,
+        "plannedQuarterOrder": true,
+        "plannedالربع الرابع": true,
+        "emergingTotal": true,
+        "emergingKeys": true,
+        "emergingStatusCounts": true,
+        "emergingPercentages": true,
+        "emergingQuarterOrder": true,
+        "scale": true,
+        "renderedBarScale": true
+      },
+      "totals": {
+        "planned": 1,
+        "emerging": 0,
+        "other": 0
+      },
+      "widths": {
+        "1440": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "1024": {
+          "width": 1024,
+          "documentWidth": 1024,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "768": {
+          "width": 768,
+          "documentWidth": 768,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "390": {
+          "width": 390,
+          "documentWidth": 390,
+          "overflows": [
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            }
+          ],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "320": {
+          "width": 320,
+          "documentWidth": 320,
+          "overflows": [
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            }
+          ],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        }
+      },
+      "pageErrors": [],
+      "illustrativeBrowserMutation": null,
+      "sourceNotesSpecimen": false
+    },
+    "empty": {
+      "checks": {
+        "orderedRecordsAndCellText": true,
+        "modelUnchanged": true,
+        "total": true,
+        "plannedTotal": true,
+        "plannedKeys": true,
+        "plannedStatusCounts": true,
+        "plannedPercentages": true,
+        "plannedQuarterOrder": true,
+        "emergingTotal": true,
+        "emergingKeys": true,
+        "emergingStatusCounts": true,
+        "emergingPercentages": true,
+        "emergingQuarterOrder": true,
+        "scale": true,
+        "renderedBarScale": true
+      },
+      "totals": {
+        "planned": 0,
+        "emerging": 0,
+        "other": 0
+      },
+      "widths": {
+        "1440": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "1024": {
+          "width": 1024,
+          "documentWidth": 1024,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "768": {
+          "width": 768,
+          "documentWidth": 768,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "390": {
+          "width": 390,
+          "documentWidth": 390,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "320": {
+          "width": 320,
+          "documentWidth": 320,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        }
+      },
+      "pageErrors": [],
+      "illustrativeBrowserMutation": null,
+      "sourceNotesSpecimen": false
+    },
+    "emerging_only": {
+      "checks": {
+        "orderedRecordsAndCellText": true,
+        "modelUnchanged": true,
+        "total": true,
+        "emergingTotal": true,
+        "emergingKeys": true,
+        "emergingStatusCounts": true,
+        "emergingPercentages": true,
+        "emergingQuarterOrder": true,
+        "emergingالربع الأول": true,
+        "emergingالربع الثاني": true,
+        "emergingالربع الثالث": true,
+        "emergingالربع الرابع": true,
+        "scale": true,
+        "renderedBarScale": true
+      },
+      "totals": {
+        "planned": 0,
+        "emerging": 17,
+        "other": 0
+      },
+      "widths": {
+        "1440": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "المواضيع المستجدة",
+          "oldCharts": 0
+        },
+        "1024": {
+          "width": 1024,
+          "documentWidth": 1024,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "المواضيع المستجدة",
+          "oldCharts": 0
+        },
+        "768": {
+          "width": 768,
+          "documentWidth": 768,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "المواضيع المستجدة",
+          "oldCharts": 0
+        },
+        "390": {
+          "width": 390,
+          "documentWidth": 390,
+          "overflows": [
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            }
+          ],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "المواضيع المستجدة",
+          "oldCharts": 0
+        },
+        "320": {
+          "width": 320,
+          "documentWidth": 320,
+          "overflows": [
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            }
+          ],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "المواضيع المستجدة",
+          "oldCharts": 0
+        }
+      },
+      "pageErrors": [],
+      "illustrativeBrowserMutation": null,
+      "sourceNotesSpecimen": false
+    },
+    "two_entities": {
+      "checks": {
+        "orderedRecordsAndCellText": true,
+        "modelUnchanged": true,
+        "total": true,
+        "plannedTotal": true,
+        "plannedKeys": true,
+        "plannedStatusCounts": true,
+        "plannedPercentages": true,
+        "plannedQuarterOrder": true,
+        "plannedالربع الأول": true,
+        "plannedالربع الثاني": true,
+        "plannedالربع الثالث": true,
+        "plannedالربع الرابع": true,
+        "emergingTotal": true,
+        "emergingKeys": true,
+        "emergingStatusCounts": true,
+        "emergingPercentages": true,
+        "emergingQuarterOrder": true,
+        "emergingالربع الأول": true,
+        "emergingالربع الثاني": true,
+        "scale": true,
+        "renderedBarScale": true
+      },
+      "totals": {
+        "planned": 9,
+        "emerging": 2,
+        "other": 0
+      },
+      "widths": {
+        "1440": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "1024": {
+          "width": 1024,
+          "documentWidth": 1024,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "768": {
+          "width": 768,
+          "documentWidth": 768,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "390": {
+          "width": 390,
+          "documentWidth": 390,
+          "overflows": [
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            }
+          ],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "320": {
+          "width": 320,
+          "documentWidth": 320,
+          "overflows": [
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            }
+          ],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        }
+      },
+      "pageErrors": [],
+      "illustrativeBrowserMutation": null,
+      "sourceNotesSpecimen": false
+    },
+    "long_text": {
+      "checks": {
+        "orderedRecordsAndCellText": true,
+        "modelUnchanged": true,
+        "total": true,
+        "plannedTotal": true,
+        "plannedKeys": true,
+        "plannedStatusCounts": true,
+        "plannedPercentages": true,
+        "plannedQuarterOrder": true,
+        "plannedالربع الأول": true,
+        "plannedالربع الثاني": true,
+        "plannedالربع الثالث": true,
+        "plannedالربع الرابع": true,
+        "emergingTotal": true,
+        "emergingKeys": true,
+        "emergingStatusCounts": true,
+        "emergingPercentages": true,
+        "emergingQuarterOrder": true,
+        "emergingالربع الأول": true,
+        "emergingالربع الثاني": true,
+        "emergingالربع الثالث": true,
+        "emergingالربع الرابع": true,
+        "scale": true,
+        "renderedBarScale": true
+      },
+      "totals": {
+        "planned": 100,
+        "emerging": 17,
+        "other": 0
+      },
+      "widths": {
+        "1440": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "1024": {
+          "width": 1024,
+          "documentWidth": 1024,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "768": {
+          "width": 768,
+          "documentWidth": 768,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "390": {
+          "width": 390,
+          "documentWidth": 390,
+          "overflows": [
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            }
+          ],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "320": {
+          "width": 320,
+          "documentWidth": 320,
+          "overflows": [
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            }
+          ],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        }
+      },
+      "pageErrors": [],
+      "illustrativeBrowserMutation": "long",
+      "sourceNotesSpecimen": false
+    },
+    "undated": {
+      "checks": {
+        "orderedRecordsAndCellText": true,
+        "modelUnchanged": true,
+        "total": true,
+        "plannedTotal": true,
+        "plannedKeys": true,
+        "plannedStatusCounts": true,
+        "plannedPercentages": true,
+        "plannedQuarterOrder": true,
+        "plannedالربع الأول": true,
+        "plannedالربع الثاني": true,
+        "plannedالربع الثالث": true,
+        "plannedالربع الرابع": true,
+        "plannedundated": true,
+        "emergingTotal": true,
+        "emergingKeys": true,
+        "emergingStatusCounts": true,
+        "emergingPercentages": true,
+        "emergingQuarterOrder": true,
+        "emergingالربع الأول": true,
+        "emergingالربع الثاني": true,
+        "scale": true,
+        "renderedBarScale": true
+      },
+      "totals": {
+        "planned": 8,
+        "emerging": 2,
+        "other": 0
+      },
+      "widths": {
+        "1440": {
+          "width": 1440,
+          "documentWidth": 1440,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "1024": {
+          "width": 1024,
+          "documentWidth": 1024,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "768": {
+          "width": 768,
+          "documentWidth": 768,
+          "overflows": [],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "390": {
+          "width": 390,
+          "documentWidth": 390,
+          "overflows": [
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            }
+          ],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        },
+        "320": {
+          "width": 320,
+          "documentWidth": 320,
+          "overflows": [
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            },
+            {
+              "tag": "TR",
+              "cls": "",
+              "text": "مالموضوعالجهة المعنيةموعد الإنجازمستويات الإنجاز"
+            },
+            {
+              "tag": "TH",
+              "cls": "",
+              "text": "مستويات الإنجاز"
+            }
+          ],
+          "clippedText": [],
+          "sourceNotes": 0,
+          "heading": "الأجندة المعتمدة",
+          "oldCharts": 0
+        }
+      },
+      "pageErrors": [],
+      "illustrativeBrowserMutation": "undated",
+      "sourceNotesSpecimen": false
+    }
+  },
+  "productionFilesUnchanged": true
+}

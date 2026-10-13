@@ -1,0 +1,4022 @@
+{
+  "fixtureSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "stage": "illustration-only",
+  "cases": {
+    "all": {
+      "filename": "Agenda-All-Revision-2.pdf",
+      "sha256": "40384aff290298a6cb204e75846060827daa052d8bd38611dc4b63ba54bb8f56",
+      "revision": {
+        "stage": "illustration-only",
+        "spec": {
+          "stage": "illustration-only",
+          "mainLabel": "الأجندة المعتمدة",
+          "total": 117,
+          "planned": 100,
+          "emerging": 17,
+          "other": 0,
+          "year": 2026,
+          "sourcePeriod": "حتى تاريخ 30/09/2026",
+          "sourceDate": "30/09/2026",
+          "statuses": [
+            {
+              "name": "جاهز للعرض",
+              "color": "#ABA394"
+            },
+            {
+              "name": "قيد المراجعة",
+              "color": "#756B5F"
+            },
+            {
+              "name": "قيد التطوير",
+              "color": "#756B5F"
+            },
+            {
+              "name": "منجز",
+              "color": "#01831E"
+            }
+          ],
+          "cohorts": [
+            {
+              "id": "approved",
+              "name": "الأجندة المعتمدة",
+              "total": 100,
+              "recordKeys": [
+                "agenda-2",
+                "agenda-6",
+                "agenda-111",
+                "agenda-55",
+                "agenda-12",
+                "agenda-25",
+                "agenda-28",
+                "agenda-29",
+                "agenda-30",
+                "agenda-32",
+                "agenda-51",
+                "agenda-52",
+                "agenda-56",
+                "agenda-57",
+                "agenda-58",
+                "agenda-59",
+                "agenda-60",
+                "agenda-61",
+                "agenda-62",
+                "agenda-63",
+                "agenda-87",
+                "agenda-95",
+                "agenda-105",
+                "agenda-112",
+                "agenda-113",
+                "agenda-117",
+                "agenda-118",
+                "agenda-70",
+                "agenda-71",
+                "agenda-72",
+                "agenda-76",
+                "agenda-78",
+                "agenda-68",
+                "agenda-69",
+                "agenda-39",
+                "agenda-42",
+                "agenda-3",
+                "agenda-5",
+                "agenda-7",
+                "agenda-15",
+                "agenda-24",
+                "agenda-67",
+                "agenda-77",
+                "agenda-79",
+                "agenda-14",
+                "agenda-74",
+                "agenda-54",
+                "agenda-35",
+                "agenda-36",
+                "agenda-46",
+                "agenda-64",
+                "agenda-65",
+                "agenda-4",
+                "agenda-116",
+                "agenda-96",
+                "agenda-16",
+                "agenda-17",
+                "agenda-23",
+                "agenda-26",
+                "agenda-31",
+                "agenda-33",
+                "agenda-34",
+                "agenda-37",
+                "agenda-38",
+                "agenda-40",
+                "agenda-41",
+                "agenda-43",
+                "agenda-44",
+                "agenda-45",
+                "agenda-47",
+                "agenda-48",
+                "agenda-53",
+                "agenda-66",
+                "agenda-73",
+                "agenda-75",
+                "agenda-80",
+                "agenda-81",
+                "agenda-82",
+                "agenda-83",
+                "agenda-84",
+                "agenda-86",
+                "agenda-88",
+                "agenda-89",
+                "agenda-91",
+                "agenda-92",
+                "agenda-94",
+                "agenda-97",
+                "agenda-98",
+                "agenda-100",
+                "agenda-101",
+                "agenda-102",
+                "agenda-103",
+                "agenda-104",
+                "agenda-106",
+                "agenda-107",
+                "agenda-108",
+                "agenda-109",
+                "agenda-110",
+                "agenda-115",
+                "agenda-93"
+              ],
+              "totals": [
+                {
+                  "name": "جاهز للعرض",
+                  "count": 10,
+                  "percentage": "10%"
+                },
+                {
+                  "name": "قيد المراجعة",
+                  "count": 5,
+                  "percentage": "5%"
+                },
+                {
+                  "name": "قيد التطوير",
+                  "count": 51,
+                  "percentage": "51%"
+                },
+                {
+                  "name": "منجز",
+                  "count": 34,
+                  "percentage": "34%"
+                }
+              ],
+              "quarters": [
+                {
+                  "key": "الربع الأول",
+                  "name": "الربع الأول",
+                  "total": 27,
+                  "recordKeys": [
+                    "agenda-2",
+                    "agenda-6",
+                    "agenda-111",
+                    "agenda-55",
+                    "agenda-12",
+                    "agenda-25",
+                    "agenda-28",
+                    "agenda-29",
+                    "agenda-30",
+                    "agenda-32",
+                    "agenda-51",
+                    "agenda-52",
+                    "agenda-56",
+                    "agenda-57",
+                    "agenda-58",
+                    "agenda-59",
+                    "agenda-60",
+                    "agenda-61",
+                    "agenda-62",
+                    "agenda-63",
+                    "agenda-87",
+                    "agenda-95",
+                    "agenda-105",
+                    "agenda-112",
+                    "agenda-113",
+                    "agenda-117",
+                    "agenda-118"
+                  ],
+                  "cells": [
+                    {
+                      "name": "جاهز للعرض",
+                      "count": 3,
+                      "color": "#ABA394"
+                    },
+                    {
+                      "name": "قيد المراجعة",
+                      "count": 1,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "قيد التطوير",
+                      "count": 0,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "منجز",
+                      "count": 23,
+                      "color": "#01831E"
+                    }
+                  ]
+                },
+                {
+                  "key": "الربع الثاني",
+                  "name": "الربع الثاني",
+                  "total": 17,
+                  "recordKeys": [
+                    "agenda-70",
+                    "agenda-71",
+                    "agenda-72",
+                    "agenda-76",
+                    "agenda-78",
+                    "agenda-68",
+                    "agenda-69",
+                    "agenda-39",
+                    "agenda-42",
+                    "agenda-3",
+                    "agenda-5",
+                    "agenda-7",
+                    "agenda-15",
+                    "agenda-24",
+                    "agenda-67",
+                    "agenda-77",
+                    "agenda-79"
+                  ],
+                  "cells": [
+                    {
+                      "name": "جاهز للعرض",
+                      "count": 5,
+                      "color": "#ABA394"
+                    },
+                    {
+                      "name": "قيد المراجعة",
+                      "count": 2,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "قيد التطوير",
+                      "count": 2,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "منجز",
+                      "count": 8,
+                      "color": "#01831E"
+                    }
+                  ]
+                },
+                {
+                  "key": "الربع الثالث",
+                  "name": "الربع الثالث",
+                  "total": 10,
+                  "recordKeys": [
+                    "agenda-14",
+                    "agenda-74",
+                    "agenda-54",
+                    "agenda-35",
+                    "agenda-36",
+                    "agenda-46",
+                    "agenda-64",
+                    "agenda-65",
+                    "agenda-4",
+                    "agenda-116"
+                  ],
+                  "cells": [
+                    {
+                      "name": "جاهز للعرض",
+                      "count": 2,
+                      "color": "#ABA394"
+                    },
+                    {
+                      "name": "قيد المراجعة",
+                      "count": 1,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "قيد التطوير",
+                      "count": 5,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "منجز",
+                      "count": 2,
+                      "color": "#01831E"
+                    }
+                  ]
+                },
+                {
+                  "key": "الربع الرابع",
+                  "name": "الربع الرابع",
+                  "total": 46,
+                  "recordKeys": [
+                    "agenda-96",
+                    "agenda-16",
+                    "agenda-17",
+                    "agenda-23",
+                    "agenda-26",
+                    "agenda-31",
+                    "agenda-33",
+                    "agenda-34",
+                    "agenda-37",
+                    "agenda-38",
+                    "agenda-40",
+                    "agenda-41",
+                    "agenda-43",
+                    "agenda-44",
+                    "agenda-45",
+                    "agenda-47",
+                    "agenda-48",
+                    "agenda-53",
+                    "agenda-66",
+                    "agenda-73",
+                    "agenda-75",
+                    "agenda-80",
+                    "agenda-81",
+                    "agenda-82",
+                    "agenda-83",
+                    "agenda-84",
+                    "agenda-86",
+                    "agenda-88",
+                    "agenda-89",
+                    "agenda-91",
+                    "agenda-92",
+                    "agenda-94",
+                    "agenda-97",
+                    "agenda-98",
+                    "agenda-100",
+                    "agenda-101",
+                    "agenda-102",
+                    "agenda-103",
+                    "agenda-104",
+                    "agenda-106",
+                    "agenda-107",
+                    "agenda-108",
+                    "agenda-109",
+                    "agenda-110",
+                    "agenda-115",
+                    "agenda-93"
+                  ],
+                  "cells": [
+                    {
+                      "name": "جاهز للعرض",
+                      "count": 0,
+                      "color": "#ABA394"
+                    },
+                    {
+                      "name": "قيد المراجعة",
+                      "count": 1,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "قيد التطوير",
+                      "count": 44,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "منجز",
+                      "count": 1,
+                      "color": "#01831E"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "emerging",
+              "name": "المواضيع المستجدة",
+              "total": 17,
+              "recordKeys": [
+                "agenda-90",
+                "agenda-99",
+                "agenda-8",
+                "agenda-9",
+                "agenda-10",
+                "agenda-11",
+                "agenda-114",
+                "agenda-19",
+                "agenda-85",
+                "agenda-13",
+                "agenda-20",
+                "agenda-21",
+                "agenda-22",
+                "agenda-27",
+                "agenda-50",
+                "agenda-18",
+                "agenda-49"
+              ],
+              "totals": [
+                {
+                  "name": "جاهز للعرض",
+                  "count": 6,
+                  "percentage": "35.3%"
+                },
+                {
+                  "name": "قيد المراجعة",
+                  "count": 1,
+                  "percentage": "5.9%"
+                },
+                {
+                  "name": "قيد التطوير",
+                  "count": 1,
+                  "percentage": "5.9%"
+                },
+                {
+                  "name": "منجز",
+                  "count": 9,
+                  "percentage": "52.9%"
+                }
+              ],
+              "quarters": [
+                {
+                  "key": "الربع الأول",
+                  "name": "الربع الأول",
+                  "total": 7,
+                  "recordKeys": [
+                    "agenda-90",
+                    "agenda-99",
+                    "agenda-8",
+                    "agenda-9",
+                    "agenda-10",
+                    "agenda-11",
+                    "agenda-114"
+                  ],
+                  "cells": [
+                    {
+                      "name": "جاهز للعرض",
+                      "count": 2,
+                      "color": "#ABA394"
+                    },
+                    {
+                      "name": "قيد المراجعة",
+                      "count": 0,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "قيد التطوير",
+                      "count": 0,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "منجز",
+                      "count": 5,
+                      "color": "#01831E"
+                    }
+                  ]
+                },
+                {
+                  "key": "الربع الثاني",
+                  "name": "الربع الثاني",
+                  "total": 2,
+                  "recordKeys": [
+                    "agenda-19",
+                    "agenda-85"
+                  ],
+                  "cells": [
+                    {
+                      "name": "جاهز للعرض",
+                      "count": 0,
+                      "color": "#ABA394"
+                    },
+                    {
+                      "name": "قيد المراجعة",
+                      "count": 0,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "قيد التطوير",
+                      "count": 0,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "منجز",
+                      "count": 2,
+                      "color": "#01831E"
+                    }
+                  ]
+                },
+                {
+                  "key": "الربع الثالث",
+                  "name": "الربع الثالث",
+                  "total": 6,
+                  "recordKeys": [
+                    "agenda-13",
+                    "agenda-20",
+                    "agenda-21",
+                    "agenda-22",
+                    "agenda-27",
+                    "agenda-50"
+                  ],
+                  "cells": [
+                    {
+                      "name": "جاهز للعرض",
+                      "count": 4,
+                      "color": "#ABA394"
+                    },
+                    {
+                      "name": "قيد المراجعة",
+                      "count": 1,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "قيد التطوير",
+                      "count": 0,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "منجز",
+                      "count": 1,
+                      "color": "#01831E"
+                    }
+                  ]
+                },
+                {
+                  "key": "الربع الرابع",
+                  "name": "الربع الرابع",
+                  "total": 2,
+                  "recordKeys": [
+                    "agenda-18",
+                    "agenda-49"
+                  ],
+                  "cells": [
+                    {
+                      "name": "جاهز للعرض",
+                      "count": 0,
+                      "color": "#ABA394"
+                    },
+                    {
+                      "name": "قيد المراجعة",
+                      "count": 0,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "قيد التطوير",
+                      "count": 1,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "منجز",
+                      "count": 1,
+                      "color": "#01831E"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "scale": {
+            "min": 0,
+            "max": 44,
+            "unit": "عدد المواضيع"
+          },
+          "sourceRecordKeys": [
+            "agenda-2",
+            "agenda-6",
+            "agenda-90",
+            "agenda-99",
+            "agenda-111",
+            "agenda-55",
+            "agenda-8",
+            "agenda-9",
+            "agenda-10",
+            "agenda-11",
+            "agenda-12",
+            "agenda-25",
+            "agenda-28",
+            "agenda-29",
+            "agenda-30",
+            "agenda-32",
+            "agenda-51",
+            "agenda-52",
+            "agenda-56",
+            "agenda-57",
+            "agenda-58",
+            "agenda-59",
+            "agenda-60",
+            "agenda-61",
+            "agenda-62",
+            "agenda-63",
+            "agenda-87",
+            "agenda-95",
+            "agenda-105",
+            "agenda-112",
+            "agenda-113",
+            "agenda-114",
+            "agenda-117",
+            "agenda-118",
+            "agenda-70",
+            "agenda-71",
+            "agenda-72",
+            "agenda-76",
+            "agenda-78",
+            "agenda-68",
+            "agenda-69",
+            "agenda-39",
+            "agenda-42",
+            "agenda-3",
+            "agenda-5",
+            "agenda-7",
+            "agenda-15",
+            "agenda-19",
+            "agenda-24",
+            "agenda-67",
+            "agenda-77",
+            "agenda-79",
+            "agenda-85",
+            "agenda-13",
+            "agenda-14",
+            "agenda-20",
+            "agenda-21",
+            "agenda-22",
+            "agenda-74",
+            "agenda-27",
+            "agenda-54",
+            "agenda-35",
+            "agenda-36",
+            "agenda-46",
+            "agenda-64",
+            "agenda-65",
+            "agenda-4",
+            "agenda-50",
+            "agenda-116",
+            "agenda-96",
+            "agenda-16",
+            "agenda-17",
+            "agenda-18",
+            "agenda-23",
+            "agenda-26",
+            "agenda-31",
+            "agenda-33",
+            "agenda-34",
+            "agenda-37",
+            "agenda-38",
+            "agenda-40",
+            "agenda-41",
+            "agenda-43",
+            "agenda-44",
+            "agenda-45",
+            "agenda-47",
+            "agenda-48",
+            "agenda-53",
+            "agenda-66",
+            "agenda-73",
+            "agenda-75",
+            "agenda-80",
+            "agenda-81",
+            "agenda-82",
+            "agenda-83",
+            "agenda-84",
+            "agenda-86",
+            "agenda-88",
+            "agenda-89",
+            "agenda-91",
+            "agenda-92",
+            "agenda-94",
+            "agenda-97",
+            "agenda-98",
+            "agenda-100",
+            "agenda-101",
+            "agenda-102",
+            "agenda-103",
+            "agenda-104",
+            "agenda-106",
+            "agenda-107",
+            "agenda-108",
+            "agenda-109",
+            "agenda-110",
+            "agenda-115",
+            "agenda-49",
+            "agenda-93"
+          ]
+        },
+        "tableKeys": [
+          "agenda-2",
+          "agenda-6",
+          "agenda-111",
+          "agenda-55",
+          "agenda-12",
+          "agenda-25",
+          "agenda-28",
+          "agenda-29",
+          "agenda-30",
+          "agenda-32",
+          "agenda-51",
+          "agenda-52",
+          "agenda-56",
+          "agenda-57",
+          "agenda-58",
+          "agenda-59",
+          "agenda-60",
+          "agenda-61",
+          "agenda-62",
+          "agenda-63",
+          "agenda-87",
+          "agenda-95",
+          "agenda-105",
+          "agenda-112",
+          "agenda-113",
+          "agenda-117",
+          "agenda-118",
+          "agenda-70",
+          "agenda-71",
+          "agenda-72",
+          "agenda-76",
+          "agenda-78",
+          "agenda-68",
+          "agenda-69",
+          "agenda-39",
+          "agenda-42",
+          "agenda-3",
+          "agenda-5",
+          "agenda-7",
+          "agenda-15",
+          "agenda-24",
+          "agenda-67",
+          "agenda-77",
+          "agenda-79",
+          "agenda-14",
+          "agenda-74",
+          "agenda-54",
+          "agenda-35",
+          "agenda-36",
+          "agenda-46",
+          "agenda-64",
+          "agenda-65",
+          "agenda-4",
+          "agenda-116",
+          "agenda-96",
+          "agenda-16",
+          "agenda-17",
+          "agenda-23",
+          "agenda-26",
+          "agenda-31",
+          "agenda-33",
+          "agenda-34",
+          "agenda-37",
+          "agenda-38",
+          "agenda-40",
+          "agenda-41",
+          "agenda-43",
+          "agenda-44",
+          "agenda-45",
+          "agenda-47",
+          "agenda-48",
+          "agenda-53",
+          "agenda-66",
+          "agenda-73",
+          "agenda-75",
+          "agenda-80",
+          "agenda-81",
+          "agenda-82",
+          "agenda-83",
+          "agenda-84",
+          "agenda-86",
+          "agenda-88",
+          "agenda-89",
+          "agenda-91",
+          "agenda-92",
+          "agenda-94",
+          "agenda-97",
+          "agenda-98",
+          "agenda-100",
+          "agenda-101",
+          "agenda-102",
+          "agenda-103",
+          "agenda-104",
+          "agenda-106",
+          "agenda-107",
+          "agenda-108",
+          "agenda-109",
+          "agenda-110",
+          "agenda-115",
+          "agenda-93",
+          "agenda-90",
+          "agenda-99",
+          "agenda-8",
+          "agenda-9",
+          "agenda-10",
+          "agenda-11",
+          "agenda-114",
+          "agenda-19",
+          "agenda-85",
+          "agenda-13",
+          "agenda-20",
+          "agenda-21",
+          "agenda-22",
+          "agenda-27",
+          "agenda-50",
+          "agenda-18",
+          "agenda-49"
+        ],
+        "removedSourceNoteSections": 0
+      },
+      "pagination": {
+        "pages": 12,
+        "expectedKeys": [
+          "agenda-2",
+          "agenda-6",
+          "agenda-111",
+          "agenda-55",
+          "agenda-12",
+          "agenda-25",
+          "agenda-28",
+          "agenda-29",
+          "agenda-30",
+          "agenda-32",
+          "agenda-51",
+          "agenda-52",
+          "agenda-56",
+          "agenda-57",
+          "agenda-58",
+          "agenda-59",
+          "agenda-60",
+          "agenda-61",
+          "agenda-62",
+          "agenda-63",
+          "agenda-87",
+          "agenda-95",
+          "agenda-105",
+          "agenda-112",
+          "agenda-113",
+          "agenda-117",
+          "agenda-118",
+          "agenda-70",
+          "agenda-71",
+          "agenda-72",
+          "agenda-76",
+          "agenda-78",
+          "agenda-68",
+          "agenda-69",
+          "agenda-39",
+          "agenda-42",
+          "agenda-3",
+          "agenda-5",
+          "agenda-7",
+          "agenda-15",
+          "agenda-24",
+          "agenda-67",
+          "agenda-77",
+          "agenda-79",
+          "agenda-14",
+          "agenda-74",
+          "agenda-54",
+          "agenda-35",
+          "agenda-36",
+          "agenda-46",
+          "agenda-64",
+          "agenda-65",
+          "agenda-4",
+          "agenda-116",
+          "agenda-96",
+          "agenda-16",
+          "agenda-17",
+          "agenda-23",
+          "agenda-26",
+          "agenda-31",
+          "agenda-33",
+          "agenda-34",
+          "agenda-37",
+          "agenda-38",
+          "agenda-40",
+          "agenda-41",
+          "agenda-43",
+          "agenda-44",
+          "agenda-45",
+          "agenda-47",
+          "agenda-48",
+          "agenda-53",
+          "agenda-66",
+          "agenda-73",
+          "agenda-75",
+          "agenda-80",
+          "agenda-81",
+          "agenda-82",
+          "agenda-83",
+          "agenda-84",
+          "agenda-86",
+          "agenda-88",
+          "agenda-89",
+          "agenda-91",
+          "agenda-92",
+          "agenda-94",
+          "agenda-97",
+          "agenda-98",
+          "agenda-100",
+          "agenda-101",
+          "agenda-102",
+          "agenda-103",
+          "agenda-104",
+          "agenda-106",
+          "agenda-107",
+          "agenda-108",
+          "agenda-109",
+          "agenda-110",
+          "agenda-115",
+          "agenda-93",
+          "agenda-90",
+          "agenda-99",
+          "agenda-8",
+          "agenda-9",
+          "agenda-10",
+          "agenda-11",
+          "agenda-114",
+          "agenda-19",
+          "agenda-85",
+          "agenda-13",
+          "agenda-20",
+          "agenda-21",
+          "agenda-22",
+          "agenda-27",
+          "agenda-50",
+          "agenda-18",
+          "agenda-49"
+        ],
+        "actualKeys": [
+          "agenda-2",
+          "agenda-6",
+          "agenda-111",
+          "agenda-55",
+          "agenda-12",
+          "agenda-25",
+          "agenda-28",
+          "agenda-29",
+          "agenda-30",
+          "agenda-32",
+          "agenda-51",
+          "agenda-52",
+          "agenda-56",
+          "agenda-57",
+          "agenda-58",
+          "agenda-59",
+          "agenda-60",
+          "agenda-61",
+          "agenda-62",
+          "agenda-63",
+          "agenda-87",
+          "agenda-95",
+          "agenda-105",
+          "agenda-112",
+          "agenda-113",
+          "agenda-117",
+          "agenda-118",
+          "agenda-70",
+          "agenda-71",
+          "agenda-72",
+          "agenda-76",
+          "agenda-78",
+          "agenda-68",
+          "agenda-69",
+          "agenda-39",
+          "agenda-42",
+          "agenda-3",
+          "agenda-5",
+          "agenda-7",
+          "agenda-15",
+          "agenda-24",
+          "agenda-67",
+          "agenda-77",
+          "agenda-79",
+          "agenda-14",
+          "agenda-74",
+          "agenda-54",
+          "agenda-35",
+          "agenda-36",
+          "agenda-46",
+          "agenda-64",
+          "agenda-65",
+          "agenda-4",
+          "agenda-116",
+          "agenda-96",
+          "agenda-16",
+          "agenda-17",
+          "agenda-23",
+          "agenda-26",
+          "agenda-31",
+          "agenda-33",
+          "agenda-34",
+          "agenda-37",
+          "agenda-38",
+          "agenda-40",
+          "agenda-41",
+          "agenda-43",
+          "agenda-44",
+          "agenda-45",
+          "agenda-47",
+          "agenda-48",
+          "agenda-53",
+          "agenda-66",
+          "agenda-73",
+          "agenda-75",
+          "agenda-80",
+          "agenda-81",
+          "agenda-82",
+          "agenda-83",
+          "agenda-84",
+          "agenda-86",
+          "agenda-88",
+          "agenda-89",
+          "agenda-91",
+          "agenda-92",
+          "agenda-94",
+          "agenda-97",
+          "agenda-98",
+          "agenda-100",
+          "agenda-101",
+          "agenda-102",
+          "agenda-103",
+          "agenda-104",
+          "agenda-106",
+          "agenda-107",
+          "agenda-108",
+          "agenda-109",
+          "agenda-110",
+          "agenda-115",
+          "agenda-93",
+          "agenda-90",
+          "agenda-99",
+          "agenda-8",
+          "agenda-9",
+          "agenda-10",
+          "agenda-11",
+          "agenda-114",
+          "agenda-19",
+          "agenda-85",
+          "agenda-13",
+          "agenda-20",
+          "agenda-21",
+          "agenda-22",
+          "agenda-27",
+          "agenda-50",
+          "agenda-18",
+          "agenda-49"
+        ],
+        "firstPage": {
+          "masthead": 81.125,
+          "overview": 489.71875,
+          "available": 688,
+          "used": 688
+        },
+        "entity": "",
+        "period": "يناير – سبتمبر 2026",
+        "headers": 1,
+        "sourceNotes": 0,
+        "tableStyles": [
+          {
+            "body": "16px",
+            "head": "18px"
+          },
+          {
+            "body": "16px",
+            "head": "18px"
+          },
+          {
+            "body": "16px",
+            "head": "18px"
+          },
+          {
+            "body": "16px",
+            "head": "18px"
+          },
+          {
+            "body": "16px",
+            "head": "18px"
+          },
+          {
+            "body": "16px",
+            "head": "18px"
+          },
+          {
+            "body": "16px",
+            "head": "18px"
+          },
+          {
+            "body": "16px",
+            "head": "18px"
+          },
+          {
+            "body": "16px",
+            "head": "18px"
+          },
+          {
+            "body": "16px",
+            "head": "18px"
+          },
+          {
+            "body": "16px",
+            "head": "18px"
+          },
+          {
+            "body": "16px",
+            "head": "18px"
+          }
+        ],
+        "pageBodies": [
+          {
+            "page": 1,
+            "height": 688,
+            "used": 688,
+            "rows": 0,
+            "overview": 1
+          },
+          {
+            "page": 2,
+            "height": 688,
+            "used": 688,
+            "rows": 12,
+            "overview": 0
+          },
+          {
+            "page": 3,
+            "height": 688,
+            "used": 688,
+            "rows": 12,
+            "overview": 0
+          },
+          {
+            "page": 4,
+            "height": 688,
+            "used": 688,
+            "rows": 9,
+            "overview": 0
+          },
+          {
+            "page": 5,
+            "height": 688,
+            "used": 688,
+            "rows": 11,
+            "overview": 0
+          },
+          {
+            "page": 6,
+            "height": 688,
+            "used": 688,
+            "rows": 10,
+            "overview": 0
+          },
+          {
+            "page": 7,
+            "height": 688,
+            "used": 688,
+            "rows": 12,
+            "overview": 0
+          },
+          {
+            "page": 8,
+            "height": 688,
+            "used": 688,
+            "rows": 12,
+            "overview": 0
+          },
+          {
+            "page": 9,
+            "height": 688,
+            "used": 688,
+            "rows": 12,
+            "overview": 0
+          },
+          {
+            "page": 10,
+            "height": 688,
+            "used": 688,
+            "rows": 10,
+            "overview": 0
+          },
+          {
+            "page": 11,
+            "height": 688,
+            "used": 688,
+            "rows": 12,
+            "overview": 0
+          },
+          {
+            "page": 12,
+            "height": 688,
+            "used": 688,
+            "rows": 5,
+            "overview": 0
+          }
+        ]
+      },
+      "source": {
+        "keys": [
+          "agenda-2",
+          "agenda-6",
+          "agenda-111",
+          "agenda-55",
+          "agenda-12",
+          "agenda-25",
+          "agenda-28",
+          "agenda-29",
+          "agenda-30",
+          "agenda-32",
+          "agenda-51",
+          "agenda-52",
+          "agenda-56",
+          "agenda-57",
+          "agenda-58",
+          "agenda-59",
+          "agenda-60",
+          "agenda-61",
+          "agenda-62",
+          "agenda-63",
+          "agenda-87",
+          "agenda-95",
+          "agenda-105",
+          "agenda-112",
+          "agenda-113",
+          "agenda-117",
+          "agenda-118",
+          "agenda-70",
+          "agenda-71",
+          "agenda-72",
+          "agenda-76",
+          "agenda-78",
+          "agenda-68",
+          "agenda-69",
+          "agenda-39",
+          "agenda-42",
+          "agenda-3",
+          "agenda-5",
+          "agenda-7",
+          "agenda-15",
+          "agenda-24",
+          "agenda-67",
+          "agenda-77",
+          "agenda-79",
+          "agenda-14",
+          "agenda-74",
+          "agenda-54",
+          "agenda-35",
+          "agenda-36",
+          "agenda-46",
+          "agenda-64",
+          "agenda-65",
+          "agenda-4",
+          "agenda-116",
+          "agenda-96",
+          "agenda-16",
+          "agenda-17",
+          "agenda-23",
+          "agenda-26",
+          "agenda-31",
+          "agenda-33",
+          "agenda-34",
+          "agenda-37",
+          "agenda-38",
+          "agenda-40",
+          "agenda-41",
+          "agenda-43",
+          "agenda-44",
+          "agenda-45",
+          "agenda-47",
+          "agenda-48",
+          "agenda-53",
+          "agenda-66",
+          "agenda-73",
+          "agenda-75",
+          "agenda-80",
+          "agenda-81",
+          "agenda-82",
+          "agenda-83",
+          "agenda-84",
+          "agenda-86",
+          "agenda-88",
+          "agenda-89",
+          "agenda-91",
+          "agenda-92",
+          "agenda-94",
+          "agenda-97",
+          "agenda-98",
+          "agenda-100",
+          "agenda-101",
+          "agenda-102",
+          "agenda-103",
+          "agenda-104",
+          "agenda-106",
+          "agenda-107",
+          "agenda-108",
+          "agenda-109",
+          "agenda-110",
+          "agenda-115",
+          "agenda-93",
+          "agenda-90",
+          "agenda-99",
+          "agenda-8",
+          "agenda-9",
+          "agenda-10",
+          "agenda-11",
+          "agenda-114",
+          "agenda-19",
+          "agenda-85",
+          "agenda-13",
+          "agenda-20",
+          "agenda-21",
+          "agenda-22",
+          "agenda-27",
+          "agenda-50",
+          "agenda-18",
+          "agenda-49"
+        ],
+        "cells": [
+          {
+            "key": "agenda-2",
+            "values": [
+              "1",
+              "دائرة الأراضي والأملاك",
+              "موضوع توضيحي 001",
+              "الربع الأول",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-6",
+            "values": [
+              "2",
+              "دائرة الاقتصاد والسياحة بدبي",
+              "موضوع توضيحي 005",
+              "الربع الأول",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-111",
+            "values": [
+              "3",
+              "مؤسسة الموانئ والجمارك والمنطقة الحرة",
+              "موضوع توضيحي 110",
+              "الربع الأول",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-55",
+            "values": [
+              "4",
+              "بلدية دبي",
+              "موضوع توضيحي 054",
+              "الربع الأول",
+              "قيد المراجعة"
+            ]
+          },
+          {
+            "key": "agenda-12",
+            "values": [
+              "5",
+              "جمارك دبي",
+              "موضوع توضيحي 011",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-25",
+            "values": [
+              "6",
+              "هيئة دبي الرقمية",
+              "موضوع توضيحي 024",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-28",
+            "values": [
+              "7",
+              "هيئة تنمية المجتمع",
+              "موضوع توضيحي 027",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-29",
+            "values": [
+              "8",
+              "هيئة المعرفة والتنمية البشرية",
+              "موضوع توضيحي 028",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-30",
+            "values": [
+              "9",
+              "هيئة تنمية المجتمع",
+              "موضوع توضيحي 029",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-32",
+            "values": [
+              "10",
+              "هيئة الثقافة والفنون في دبي",
+              "موضوع توضيحي 031",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-51",
+            "values": [
+              "11",
+              "القيادة العامة لشرطة دبي",
+              "موضوع توضيحي 050",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-52",
+            "values": [
+              "12",
+              "القيادة العامة لشرطة دبي",
+              "موضوع توضيحي 051",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-56",
+            "values": [
+              "13",
+              "النيابة العامة",
+              "موضوع توضيحي 055",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-57",
+            "values": [
+              "14",
+              "اللجنة العليا للتشريعات في إمارة دبي",
+              "موضوع توضيحي 056",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-58",
+            "values": [
+              "15",
+              "هيئة الصحة بدبي",
+              "موضوع توضيحي 057",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-59",
+            "values": [
+              "16",
+              "مؤسسة دبي لخدمات الإسعاف",
+              "موضوع توضيحي 058",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-60",
+            "values": [
+              "17",
+              "مركز دبي للمرونة",
+              "موضوع توضيحي 059",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-61",
+            "values": [
+              "18",
+              "اللجنة العليا للتخطيط الحضري",
+              "موضوع توضيحي 060",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-62",
+            "values": [
+              "19",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 061",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-63",
+            "values": [
+              "20",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 062",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-87",
+            "values": [
+              "21",
+              "محاكم دبي",
+              "موضوع توضيحي 086",
+              "الربع الرابع",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-95",
+            "values": [
+              "22",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 094",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-105",
+            "values": [
+              "23",
+              "هيئة دبي للبيئة والتغير المناخي",
+              "موضوع توضيحي 104",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-112",
+            "values": [
+              "24",
+              "القيادة العامة لشرطة دبي",
+              "موضوع توضيحي 111",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-113",
+            "values": [
+              "25",
+              "محاكم دبي",
+              "موضوع توضيحي 112",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-117",
+            "values": [
+              "26",
+              "مؤسسة دبي الصحية",
+              "موضوع توضيحي 116",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-118",
+            "values": [
+              "27",
+              "هيئة الصحة بدبي",
+              "موضوع توضيحي 117",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-70",
+            "values": [
+              "1",
+              "هيئة الصحة بدبي",
+              "موضوع توضيحي 069",
+              "الربع الثاني",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-71",
+            "values": [
+              "2",
+              "اللجنة العليا للتخطيط الحضري",
+              "موضوع توضيحي 070",
+              "الربع الثاني",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-72",
+            "values": [
+              "3",
+              "اللجنة العليا للتخطيط الحضري",
+              "موضوع توضيحي 071",
+              "الربع الثاني",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-76",
+            "values": [
+              "4",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 075",
+              "الربع الثاني",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-78",
+            "values": [
+              "5",
+              "بلدية دبي",
+              "موضوع توضيحي 077",
+              "الربع الثاني",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-68",
+            "values": [
+              "6",
+              "مؤسسة الموانئ والجمارك والمنطقة الحرة",
+              "موضوع توضيحي 067",
+              "الربع الثاني",
+              "قيد المراجعة"
+            ]
+          },
+          {
+            "key": "agenda-69",
+            "values": [
+              "7",
+              "بلدية دبي",
+              "موضوع توضيحي 068",
+              "الربع الثاني",
+              "قيد المراجعة"
+            ]
+          },
+          {
+            "key": "agenda-39",
+            "values": [
+              "8",
+              "هيئة تنمية المجتمع",
+              "موضوع توضيحي 038",
+              "الربع الثاني",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-42",
+            "values": [
+              "9",
+              "هيئة تنمية المجتمع",
+              "موضوع توضيحي 041",
+              "الربع الثاني",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-3",
+            "values": [
+              "10",
+              "سلطة مركز دبي المالي العالمي",
+              "موضوع توضيحي 002",
+              "الربع الثاني",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-5",
+            "values": [
+              "11",
+              "دائرة الاقتصاد والسياحة بدبي",
+              "موضوع توضيحي 004",
+              "الربع الثاني",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-7",
+            "values": [
+              "12",
+              "دائرة الاقتصاد والسياحة بدبي",
+              "موضوع توضيحي 006",
+              "الربع الثاني",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-15",
+            "values": [
+              "13",
+              "جمارك دبي",
+              "موضوع توضيحي 014",
+              "الربع الثاني",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-24",
+            "values": [
+              "14",
+              "هيئة دبي الرقمية",
+              "موضوع توضيحي 023",
+              "الربع الثاني",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-67",
+            "values": [
+              "15",
+              "القيادة العامة لشرطة دبي",
+              "موضوع توضيحي 066",
+              "الربع الثاني",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-77",
+            "values": [
+              "16",
+              "اللجنة العليا للتخطيط الحضري",
+              "موضوع توضيحي 076",
+              "الربع الثاني",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-79",
+            "values": [
+              "17",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 078",
+              "الربع الثاني",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-14",
+            "values": [
+              "1",
+              "دائرة الأراضي والأملاك",
+              "موضوع توضيحي 013",
+              "الربع الثالث",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-74",
+            "values": [
+              "2",
+              "القيادة العامة للدفاع المدني - دبي",
+              "موضوع توضيحي 073",
+              "الربع الثالث",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-54",
+            "values": [
+              "3",
+              "مركز إرادة للعلاج والتأهيل في دبي",
+              "موضوع توضيحي 053",
+              "الربع الثالث",
+              "قيد المراجعة"
+            ]
+          },
+          {
+            "key": "agenda-35",
+            "values": [
+              "4",
+              "هيئة الثقافة والفنون في دبي",
+              "موضوع توضيحي 034",
+              "الربع الثالث",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-36",
+            "values": [
+              "5",
+              "مؤسسة الأوقاف وإدارة أموال القُصّر في دبي",
+              "موضوع توضيحي 035",
+              "الربع الثالث",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-46",
+            "values": [
+              "6",
+              "مؤسسة الأوقاف وإدارة أموال القُصّر في دبي",
+              "موضوع توضيحي 045",
+              "الربع الثالث",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-64",
+            "values": [
+              "7",
+              "بلدية دبي",
+              "موضوع توضيحي 063",
+              "الربع الثالث",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-65",
+            "values": [
+              "8",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 064",
+              "الربع الثالث",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-4",
+            "values": [
+              "9",
+              "جمارك دبي",
+              "موضوع توضيحي 003",
+              "الربع الثالث",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-116",
+            "values": [
+              "10",
+              "مؤسسة دبي لخدمات الإسعاف",
+              "موضوع توضيحي 115",
+              "الربع الثالث",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-96",
+            "values": [
+              "1",
+              "مؤسسة دبي للمطارات",
+              "موضوع توضيحي 095",
+              "الربع الرابع",
+              "قيد المراجعة"
+            ]
+          },
+          {
+            "key": "agenda-16",
+            "values": [
+              "2",
+              "دائرة الأراضي والأملاك",
+              "موضوع توضيحي 015",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-17",
+            "values": [
+              "3",
+              "دائرة المالية",
+              "موضوع توضيحي 016",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-23",
+            "values": [
+              "4",
+              "هيئة دبي الرقمية",
+              "موضوع توضيحي 022",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-26",
+            "values": [
+              "5",
+              "هيئة دبي الرقمية",
+              "موضوع توضيحي 025",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-31",
+            "values": [
+              "6",
+              "دائرة الموارد البشرية لحكومة دبي",
+              "موضوع توضيحي 030",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-33",
+            "values": [
+              "7",
+              "مؤسسة محمد بن راشد للإسكان",
+              "موضوع توضيحي 032",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-34",
+            "values": [
+              "8",
+              "هيئة الثقافة والفنون في دبي",
+              "موضوع توضيحي 033",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-37",
+            "values": [
+              "9",
+              "مؤسسة محمد بن راشد للإسكان",
+              "موضوع توضيحي 036",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-38",
+            "values": [
+              "10",
+              "هيئة المعرفة والتنمية البشرية",
+              "موضوع توضيحي 037",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-40",
+            "values": [
+              "11",
+              "دائرة الموارد البشرية لحكومة دبي",
+              "موضوع توضيحي 039",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-41",
+            "values": [
+              "12",
+              "دائرة الموارد البشرية لحكومة دبي",
+              "موضوع توضيحي 040",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-43",
+            "values": [
+              "13",
+              "هيئة الثقافة والفنون في دبي",
+              "موضوع توضيحي 042",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-44",
+            "values": [
+              "14",
+              "هيئة الثقافة والفنون في دبي",
+              "موضوع توضيحي 043",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-45",
+            "values": [
+              "15",
+              "دائرة الموارد البشرية لحكومة دبي",
+              "موضوع توضيحي 044",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-47",
+            "values": [
+              "16",
+              "هيئة تنمية المجتمع",
+              "موضوع توضيحي 046",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-48",
+            "values": [
+              "17",
+              "هيئة الثقافة والفنون في دبي",
+              "موضوع توضيحي 047",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-53",
+            "values": [
+              "18",
+              "القيادة العامة لشرطة دبي",
+              "موضوع توضيحي 052",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-66",
+            "values": [
+              "19",
+              "اللجنة العليا للتخطيط الحضري",
+              "موضوع توضيحي 065",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-73",
+            "values": [
+              "20",
+              "اللجنة العليا للتخطيط الحضري",
+              "موضوع توضيحي 072",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-75",
+            "values": [
+              "21",
+              "هيئة الصحة بدبي",
+              "موضوع توضيحي 074",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-80",
+            "values": [
+              "22",
+              "القيادة العامة لشرطة دبي",
+              "موضوع توضيحي 079",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-81",
+            "values": [
+              "23",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 080",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-82",
+            "values": [
+              "24",
+              "النيابة العامة",
+              "موضوع توضيحي 081",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-83",
+            "values": [
+              "25",
+              "محاكم مركز دبي المالي العالمي",
+              "موضوع توضيحي 082",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-84",
+            "values": [
+              "26",
+              "مؤسسة دبي الصحية",
+              "موضوع توضيحي 083",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-86",
+            "values": [
+              "27",
+              "مؤسسة دبي الصحية",
+              "موضوع توضيحي 085",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-88",
+            "values": [
+              "28",
+              "مؤسسة دبي الصحية",
+              "موضوع توضيحي 087",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-89",
+            "values": [
+              "29",
+              "محاكم دبي",
+              "موضوع توضيحي 088",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-91",
+            "values": [
+              "30",
+              "مؤسسة دبي لخدمات الإسعاف",
+              "موضوع توضيحي 090",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-92",
+            "values": [
+              "31",
+              "مركز دبي للأمن الإلكتروني",
+              "موضوع توضيحي 091",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-94",
+            "values": [
+              "32",
+              "هيئة الصحة بدبي",
+              "موضوع توضيحي 093",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-97",
+            "values": [
+              "33",
+              "بلدية دبي",
+              "موضوع توضيحي 096",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-98",
+            "values": [
+              "34",
+              "مؤسسة الاتصالات المتخصصة (نداء)",
+              "موضوع توضيحي 097",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-100",
+            "values": [
+              "35",
+              "مركز الإمارات العالمي للاعتماد",
+              "موضوع توضيحي 099",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-101",
+            "values": [
+              "36",
+              "اللجنة العليا للتخطيط الحضري",
+              "موضوع توضيحي 100",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-102",
+            "values": [
+              "37",
+              "هيئة دبي للبيئة والتغير المناخي",
+              "موضوع توضيحي 101",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-103",
+            "values": [
+              "38",
+              "بلدية دبي",
+              "موضوع توضيحي 102",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-104",
+            "values": [
+              "39",
+              "هيئة دبي للبيئة والتغير المناخي",
+              "موضوع توضيحي 103",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-106",
+            "values": [
+              "40",
+              "هيئة دبي للبيئة والتغير المناخي",
+              "موضوع توضيحي 105",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-107",
+            "values": [
+              "41",
+              "هيئة دبي للطيران المدني",
+              "موضوع توضيحي 106",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-108",
+            "values": [
+              "42",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 107",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-109",
+            "values": [
+              "43",
+              "جمارك دبي",
+              "موضوع توضيحي 108",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-110",
+            "values": [
+              "44",
+              "اللجنة العليا للتخطيط الحضري",
+              "موضوع توضيحي 109",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-115",
+            "values": [
+              "45",
+              "القيادة العامة للدفاع المدني - دبي",
+              "موضوع توضيحي 114",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-93",
+            "values": [
+              "46",
+              "مؤسسة دبي لخدمات الإسعاف",
+              "موضوع توضيحي 092",
+              "الربع الرابع",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-90",
+            "values": [
+              "1",
+              "موضوع توضيحي 089",
+              "الربع الأول",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-99",
+            "values": [
+              "2",
+              "موضوع توضيحي 098",
+              "الربع الأول",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-8",
+            "values": [
+              "3",
+              "موضوع توضيحي 007",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-9",
+            "values": [
+              "4",
+              "موضوع توضيحي 008",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-10",
+            "values": [
+              "5",
+              "موضوع توضيحي 009",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-11",
+            "values": [
+              "6",
+              "موضوع توضيحي 010",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-114",
+            "values": [
+              "7",
+              "موضوع توضيحي 113",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-19",
+            "values": [
+              "8",
+              "موضوع توضيحي 018",
+              "الربع الثاني",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-85",
+            "values": [
+              "9",
+              "موضوع توضيحي 084",
+              "الربع الثاني",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-13",
+            "values": [
+              "10",
+              "موضوع توضيحي 012",
+              "الربع الثالث",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-20",
+            "values": [
+              "11",
+              "موضوع توضيحي 019",
+              "الربع الثالث",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-21",
+            "values": [
+              "12",
+              "موضوع توضيحي 020",
+              "الربع الثالث",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-22",
+            "values": [
+              "13",
+              "موضوع توضيحي 021",
+              "الربع الثالث",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-27",
+            "values": [
+              "14",
+              "موضوع توضيحي 026",
+              "الربع الثالث",
+              "قيد المراجعة"
+            ]
+          },
+          {
+            "key": "agenda-50",
+            "values": [
+              "15",
+              "موضوع توضيحي 049",
+              "الربع الثالث",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-18",
+            "values": [
+              "16",
+              "موضوع توضيحي 017",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-49",
+            "values": [
+              "17",
+              "موضوع توضيحي 048",
+              "الربع الرابع",
+              "منجز"
+            ]
+          }
+        ]
+      },
+      "pages": [
+        {
+          "page": 1,
+          "widthPt": 841.9199829101562,
+          "heightPt": 594.9599609375,
+          "text": "مستجدات األجندة السنوية\n2026 يناير – سبتمبر\nاألجندة السنوية117\nاإلجمالي\nمستويات اإلنجاز حسب الربع0–44 عدد المواضيع\nاألجندة المعتمدة100المواضيع المستجدة17\nالربع\nجاهز للعرض\nقيد المراجعة\nقيد التطوير\nمنجز\nاإلجمالي\nالربع األول27\nالربع الثاني17\nالربع الثالث10\nالربع الرابع46\nاإلجمالي10\n10%\n5\n5%\n51\n51%\n34\n34%\n100\nالربع\nجاهز للعرض\nقيد المراجعة\nقيد التطوير\nمنجز\nاإلجمالي\nالربع األول7\nالربع الثاني2\nالربع الثالث6\nالربع الرابع2\nاإلجمالي6\n35.3%\n1\n5.9%\n1\n5.9%\n9\n52.9%\n17\n3\n1\n0\n23\n5\n2\n2\n8\n2\n1\n5\n2\n0\n1\n44\n1\n2\n0\n0\n5\n0\n0\n0\n2\n4\n1\n0\n1\n0\n0\n1\n1\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر12  من1 صفحة\n",
+          "fonts": [
+            [
+              5,
+              "n/a",
+              "Type3",
+              "",
+              "F5",
+              ""
+            ],
+            [
+              6,
+              "n/a",
+              "Type3",
+              "",
+              "F6",
+              ""
+            ],
+            [
+              7,
+              "n/a",
+              "Type3",
+              "",
+              "F7",
+              ""
+            ],
+            [
+              8,
+              "n/a",
+              "Type3",
+              "",
+              "F8",
+              ""
+            ],
+            [
+              9,
+              "n/a",
+              "Type3",
+              "",
+              "F9",
+              ""
+            ],
+            [
+              13,
+              "n/a",
+              "Type3",
+              "",
+              "F13",
+              ""
+            ]
+          ],
+          "drawings": 607
+        },
+        {
+          "page": 2,
+          "widthPt": 841.9199829101562,
+          "heightPt": 594.9599609375,
+          "text": ")27 :األجندة المعتمدة · الربع األول (عدد المواضيع\nم\nالموضوع\nالجهة المعنية\nموعد\nاإلنجاز\nمستويات اإلنجاز\n1\n001 موضوع توضيحي\nدائرة األراضي واألمالك\nالربع األول\nجاهز للعرض\n2\n005 موضوع توضيحي\nدائرة االقتصاد والسياحة بدبي\nالربع األول\nجاهز للعرض\n3\n110 موضوع توضيحي\nمؤسسة الموانئ والجمارك والمنطقة الحرة\nالربع األول\nجاهز للعرض\n4\n054 موضوع توضيحي\nبلدية دبي\nالربع األول\nقيد المراجعة\n5\n011 موضوع توضيحي\nجمارك دبي\nالربع األول\nمنجز\n6\n024 موضوع توضيحي\nهيئة دبي الرقمية\nالربع األول\nمنجز\n7\n027 موضوع توضيحي\nهيئة تنمية المجتمع\nالربع األول\nمنجز\n8\n028 موضوع توضيحي\nهيئة المعرفة والتنمية البشرية\nالربع األول\nمنجز\n9\n029 موضوع توضيحي\nهيئة تنمية المجتمع\nالربع األول\nمنجز\n10\n031 موضوع توضيحي\nهيئة الثقافة والفنون في دبي\nالربع األول\nمنجز\n11\n050 موضوع توضيحي\nالقيادة العامة لشرطة دبي\nالربع األول\nمنجز\n12\n051 موضوع توضيحي\nالقيادة العامة لشرطة دبي\nالربع األول\nمنجز\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر12  من2 صفحة\n",
+          "fonts": [
+            [
+              5,
+              "n/a",
+              "Type3",
+              "",
+              "F5",
+              ""
+            ],
+            [
+              6,
+              "n/a",
+              "Type3",
+              "",
+              "F6",
+              ""
+            ],
+            [
+              7,
+              "n/a",
+              "Type3",
+              "",
+              "F7",
+              ""
+            ],
+            [
+              8,
+              "n/a",
+              "Type3",
+              "",
+              "F8",
+              ""
+            ],
+            [
+              9,
+              "n/a",
+              "Type3",
+              "",
+              "F9",
+              ""
+            ],
+            [
+              13,
+              "n/a",
+              "Type3",
+              "",
+              "F13",
+              ""
+            ],
+            [
+              16,
+              "n/a",
+              "Type3",
+              "",
+              "F16",
+              ""
+            ],
+            [
+              17,
+              "n/a",
+              "Type3",
+              "",
+              "F17",
+              ""
+            ]
+          ],
+          "drawings": 903
+        },
+        {
+          "page": 3,
+          "widthPt": 841.9199829101562,
+          "heightPt": 594.9599609375,
+          "text": ") — تابع27 :األجندة المعتمدة · الربع األول (عدد المواضيع\nم\nالموضوع\nالجهة المعنية\nموعد\nاإلنجاز\nمستويات اإلنجاز\n13\n055 موضوع توضيحي\nالنيابة العامة\nالربع األول\nمنجز\n14\n056 موضوع توضيحي\nاللجنة العليا للتشريعات في إمارة دبي\nالربع األول\nمنجز\n15\n057 موضوع توضيحي\nهيئة الصحة بدبي\nالربع األول\nمنجز\n16\n058 موضوع توضيحي\nمؤسسة دبي لخدمات اإلسعاف\nالربع األول\nمنجز\n17\n059 موضوع توضيحي\nمركز دبي للمرونة\nالربع األول\nمنجز\n18\n060 موضوع توضيحي\nاللجنة العليا للتخطيط الحضري\nالربع األول\nمنجز\n19\n061 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع األول\nمنجز\n20\n062 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع األول\nمنجز\n21\n086 موضوع توضيحي\nمحاكم دبي\nالربع الرابع\nمنجز\n22\n094 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع األول\nمنجز\n23\n104 موضوع توضيحي\nهيئة دبي للبيئة والتغير المناخي\nالربع األول\nمنجز\n24\n111 موضوع توضيحي\nالقيادة العامة لشرطة دبي\nالربع األول\nمنجز\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر12  من3 صفحة\n",
+          "fonts": [
+            [
+              5,
+              "n/a",
+              "Type3",
+              "",
+              "F5",
+              ""
+            ],
+            [
+              6,
+              "n/a",
+              "Type3",
+              "",
+              "F6",
+              ""
+            ],
+            [
+              7,
+              "n/a",
+              "Type3",
+              "",
+              "F7",
+              ""
+            ],
+            [
+              8,
+              "n/a",
+              "Type3",
+              "",
+              "F8",
+              ""
+            ],
+            [
+              9,
+              "n/a",
+              "Type3",
+              "",
+              "F9",
+              ""
+            ],
+            [
+              13,
+              "n/a",
+              "Type3",
+              "",
+              "F13",
+              ""
+            ],
+            [
+              16,
+              "n/a",
+              "Type3",
+              "",
+              "F16",
+              ""
+            ],
+            [
+              17,
+              "n/a",
+              "Type3",
+              "",
+              "F17",
+              ""
+            ]
+          ],
+          "drawings": 896
+        },
+        {
+          "page": 4,
+          "widthPt": 841.9199829101562,
+          "heightPt": 594.9599609375,
+          "text": ") — تابع27 :األجندة المعتمدة · الربع األول (عدد المواضيع\nم\nالموضوع\nالجهة المعنية\nموعد\nاإلنجاز\nمستويات اإلنجاز\n25\n112 موضوع توضيحي\nمحاكم دبي\nالربع األول\nمنجز\n26\n116 موضوع توضيحي\nمؤسسة دبي الصحية\nالربع األول\nمنجز\n27\n117 موضوع توضيحي\nهيئة الصحة بدبي\nالربع األول\nمنجز\n)17 :األجندة المعتمدة · الربع الثاني (عدد المواضيع\nم\nالموضوع\nالجهة المعنية\nموعد\nاإلنجاز\nمستويات اإلنجاز\n1\n069 موضوع توضيحي\nهيئة الصحة بدبي\nالربع الثاني\nجاهز للعرض\n2\n070 موضوع توضيحي\nاللجنة العليا للتخطيط الحضري\nالربع الثاني\nجاهز للعرض\n3\n071 موضوع توضيحي\nاللجنة العليا للتخطيط الحضري\nالربع الثاني\nجاهز للعرض\n4\n075 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع الثاني\nجاهز للعرض\n5\n077 موضوع توضيحي\nبلدية دبي\nالربع الثاني\nجاهز للعرض\n6\n067 موضوع توضيحي\nمؤسسة الموانئ والجمارك والمنطقة الحرة\nالربع الثاني\nقيد المراجعة\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر12  من4 صفحة\n",
+          "fonts": [
+            [
+              5,
+              "n/a",
+              "Type3",
+              "",
+              "F5",
+              ""
+            ],
+            [
+              6,
+              "n/a",
+              "Type3",
+              "",
+              "F6",
+              ""
+            ],
+            [
+              7,
+              "n/a",
+              "Type3",
+              "",
+              "F7",
+              ""
+            ],
+            [
+              8,
+              "n/a",
+              "Type3",
+              "",
+              "F8",
+              ""
+            ],
+            [
+              9,
+              "n/a",
+              "Type3",
+              "",
+              "F9",
+              ""
+            ],
+            [
+              13,
+              "n/a",
+              "Type3",
+              "",
+              "F13",
+              ""
+            ],
+            [
+              16,
+              "n/a",
+              "Type3",
+              "",
+              "F16",
+              ""
+            ],
+            [
+              17,
+              "n/a",
+              "Type3",
+              "",
+              "F17",
+              ""
+            ]
+          ],
+          "drawings": 835
+        },
+        {
+          "page": 5,
+          "widthPt": 841.9199829101562,
+          "heightPt": 594.9599609375,
+          "text": ") — تابع17 :األجندة المعتمدة · الربع الثاني (عدد المواضيع\nم\nالموضوع\nالجهة المعنية\nموعد\nاإلنجاز\nمستويات اإلنجاز\n7\n068 موضوع توضيحي\nبلدية دبي\nالربع الثاني\nقيد المراجعة\n8\n038 موضوع توضيحي\nهيئة تنمية المجتمع\nالربع الثاني\nقيد التطوير\n9\n041 موضوع توضيحي\nهيئة تنمية المجتمع\nالربع الثاني\nقيد التطوير\n10\n002 موضوع توضيحي\nسلطة مركز دبي المالي العالمي\nالربع الثاني\nمنجز\n11\n004 موضوع توضيحي\nدائرة االقتصاد والسياحة بدبي\nالربع الثاني\nمنجز\n12\n006 موضوع توضيحي\nدائرة االقتصاد والسياحة بدبي\nالربع الثاني\nمنجز\n13\n014 موضوع توضيحي\nجمارك دبي\nالربع الثاني\nمنجز\n14\n023 موضوع توضيحي\nهيئة دبي الرقمية\nالربع الثاني\nمنجز\n15\n066 موضوع توضيحي\nالقيادة العامة لشرطة دبي\nالربع الثاني\nمنجز\n16\n076 موضوع توضيحي\nاللجنة العليا للتخطيط الحضري\nالربع الثاني\nمنجز\n17\n078 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع الثاني\nمنجز\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر12  من5 صفحة\n",
+          "fonts": [
+            [
+              5,
+              "n/a",
+              "Type3",
+              "",
+              "F5",
+              ""
+            ],
+            [
+              6,
+              "n/a",
+              "Type3",
+              "",
+              "F6",
+              ""
+            ],
+            [
+              7,
+              "n/a",
+              "Type3",
+              "",
+              "F7",
+              ""
+            ],
+            [
+              8,
+              "n/a",
+              "Type3",
+              "",
+              "F8",
+              ""
+            ],
+            [
+              9,
+              "n/a",
+              "Type3",
+              "",
+              "F9",
+              ""
+            ],
+            [
+              13,
+              "n/a",
+              "Type3",
+              "",
+              "F13",
+              ""
+            ],
+            [
+              16,
+              "n/a",
+              "Type3",
+              "",
+              "F16",
+              ""
+            ],
+            [
+              17,
+              "n/a",
+              "Type3",
+              "",
+              "F17",
+              ""
+            ]
+          ],
+          "drawings": 865
+        },
+        {
+          "page": 6,
+          "widthPt": 841.9199829101562,
+          "heightPt": 594.9599609375,
+          "text": ")10 :األجندة المعتمدة · الربع الثالث (عدد المواضيع\nم\nالموضوع\nالجهة المعنية\nموعد\nاإلنجاز\nمستويات اإلنجاز\n1\n013 موضوع توضيحي\nدائرة األراضي واألمالك\nالربع الثالث\nجاهز للعرض\n2\n073 موضوع توضيحي\n دبي- القيادة العامة للدفاع المدني\nالربع الثالث\nجاهز للعرض\n3\n053 موضوع توضيحي\nمركز إرادة للعالج والتأهيل في دبي\nالربع الثالث\nقيد المراجعة\n4\n034 موضوع توضيحي\nهيئة الثقافة والفنون في دبي\nالربع الثالث\nقيد التطوير\n5\n035 موضوع توضيحي\nمؤسسة األوقاف وإدارة أموال ال ُ ُقّ ّصر في دبي\nالربع الثالث\nقيد التطوير\n6\n045 موضوع توضيحي\nمؤسسة األوقاف وإدارة أموال ال ُ ُقّ ّصر في دبي\nالربع الثالث\nقيد التطوير\n7\n063 موضوع توضيحي\nبلدية دبي\nالربع الثالث\nقيد التطوير\n8\n064 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع الثالث\nقيد التطوير\n9\n003 موضوع توضيحي\nجمارك دبي\nالربع الثالث\nمنجز\n10\n115 موضوع توضيحي\nمؤسسة دبي لخدمات اإلسعاف\nالربع الثالث\nمنجز\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر12  من6 صفحة\n",
+          "fonts": [
+            [
+              5,
+              "n/a",
+              "Type3",
+              "",
+              "F5",
+              ""
+            ],
+            [
+              6,
+              "n/a",
+              "Type3",
+              "",
+              "F6",
+              ""
+            ],
+            [
+              7,
+              "n/a",
+              "Type3",
+              "",
+              "F7",
+              ""
+            ],
+            [
+              8,
+              "n/a",
+              "Type3",
+              "",
+              "F8",
+              ""
+            ],
+            [
+              9,
+              "n/a",
+              "Type3",
+              "",
+              "F9",
+              ""
+            ],
+            [
+              13,
+              "n/a",
+              "Type3",
+              "",
+              "F13",
+              ""
+            ],
+            [
+              16,
+              "n/a",
+              "Type3",
+              "",
+              "F16",
+              ""
+            ],
+            [
+              17,
+              "n/a",
+              "Type3",
+              "",
+              "F17",
+              ""
+            ]
+          ],
+          "drawings": 859
+        },
+        {
+          "page": 7,
+          "widthPt": 841.9199829101562,
+          "heightPt": 594.9599609375,
+          "text": ")46 :األجندة المعتمدة · الربع الرابع (عدد المواضيع\nم\nالموضوع\nالجهة المعنية\nموعد\nاإلنجاز\nمستويات اإلنجاز\n1\n095 موضوع توضيحي\nمؤسسة دبي للمطارات\nالربع الرابع\nقيد المراجعة\n2\n015 موضوع توضيحي\nدائرة األراضي واألمالك\nالربع الرابع\nقيد التطوير\n3\n016 موضوع توضيحي\nدائرة المالية\nالربع الرابع\nقيد التطوير\n4\n022 موضوع توضيحي\nهيئة دبي الرقمية\nالربع الرابع\nقيد التطوير\n5\n025 موضوع توضيحي\nهيئة دبي الرقمية\nالربع الرابع\nقيد التطوير\n6\n030 موضوع توضيحي\nدائرة الموارد البشرية لحكومة دبي\nالربع الرابع\nقيد التطوير\n7\n032 موضوع توضيحي\nمؤسسة محمد بن راشد لإلسكان\nالربع الرابع\nقيد التطوير\n8\n033 موضوع توضيحي\nهيئة الثقافة والفنون في دبي\nالربع الرابع\nقيد التطوير\n9\n036 موضوع توضيحي\nمؤسسة محمد بن راشد لإلسكان\nالربع الرابع\nقيد التطوير\n10\n037 موضوع توضيحي\nهيئة المعرفة والتنمية البشرية\nالربع الرابع\nقيد التطوير\n11\n039 موضوع توضيحي\nدائرة الموارد البشرية لحكومة دبي\nالربع الرابع\nقيد التطوير\n12\n040 موضوع توضيحي\nدائرة الموارد البشرية لحكومة دبي\nالربع الرابع\nقيد التطوير\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر12  من7 صفحة\n",
+          "fonts": [
+            [
+              5,
+              "n/a",
+              "Type3",
+              "",
+              "F5",
+              ""
+            ],
+            [
+              6,
+              "n/a",
+              "Type3",
+              "",
+              "F6",
+              ""
+            ],
+            [
+              7,
+              "n/a",
+              "Type3",
+              "",
+              "F7",
+              ""
+            ],
+            [
+              8,
+              "n/a",
+              "Type3",
+              "",
+              "F8",
+              ""
+            ],
+            [
+              9,
+              "n/a",
+              "Type3",
+              "",
+              "F9",
+              ""
+            ],
+            [
+              13,
+              "n/a",
+              "Type3",
+              "",
+              "F13",
+              ""
+            ],
+            [
+              16,
+              "n/a",
+              "Type3",
+              "",
+              "F16",
+              ""
+            ],
+            [
+              17,
+              "n/a",
+              "Type3",
+              "",
+              "F17",
+              ""
+            ]
+          ],
+          "drawings": 1001
+        },
+        {
+          "page": 8,
+          "widthPt": 841.9199829101562,
+          "heightPt": 594.9599609375,
+          "text": ") — تابع46 :األجندة المعتمدة · الربع الرابع (عدد المواضيع\nم\nالموضوع\nالجهة المعنية\nموعد\nاإلنجاز\nمستويات اإلنجاز\n13\n042 موضوع توضيحي\nهيئة الثقافة والفنون في دبي\nالربع الرابع\nقيد التطوير\n14\n043 موضوع توضيحي\nهيئة الثقافة والفنون في دبي\nالربع الرابع\nقيد التطوير\n15\n044 موضوع توضيحي\nدائرة الموارد البشرية لحكومة دبي\nالربع الرابع\nقيد التطوير\n16\n046 موضوع توضيحي\nهيئة تنمية المجتمع\nالربع الرابع\nقيد التطوير\n17\n047 موضوع توضيحي\nهيئة الثقافة والفنون في دبي\nالربع الرابع\nقيد التطوير\n18\n052 موضوع توضيحي\nالقيادة العامة لشرطة دبي\nالربع الرابع\nقيد التطوير\n19\n065 موضوع توضيحي\nاللجنة العليا للتخطيط الحضري\nالربع الرابع\nقيد التطوير\n20\n072 موضوع توضيحي\nاللجنة العليا للتخطيط الحضري\nالربع الرابع\nقيد التطوير\n21\n074 موضوع توضيحي\nهيئة الصحة بدبي\nالربع الرابع\nقيد التطوير\n22\n079 موضوع توضيحي\nالقيادة العامة لشرطة دبي\nالربع الرابع\nقيد التطوير\n23\n080 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع الرابع\nقيد التطوير\n24\n081 موضوع توضيحي\nالنيابة العامة\nالربع الرابع\nقيد التطوير\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر12  من8 صفحة\n",
+          "fonts": [
+            [
+              5,
+              "n/a",
+              "Type3",
+              "",
+              "F5",
+              ""
+            ],
+            [
+              6,
+              "n/a",
+              "Type3",
+              "",
+              "F6",
+              ""
+            ],
+            [
+              7,
+              "n/a",
+              "Type3",
+              "",
+              "F7",
+              ""
+            ],
+            [
+              8,
+              "n/a",
+              "Type3",
+              "",
+              "F8",
+              ""
+            ],
+            [
+              9,
+              "n/a",
+              "Type3",
+              "",
+              "F9",
+              ""
+            ],
+            [
+              13,
+              "n/a",
+              "Type3",
+              "",
+              "F13",
+              ""
+            ],
+            [
+              16,
+              "n/a",
+              "Type3",
+              "",
+              "F16",
+              ""
+            ],
+            [
+              17,
+              "n/a",
+              "Type3",
+              "",
+              "F17",
+              ""
+            ]
+          ],
+          "drawings": 1015
+        },
+        {
+          "page": 9,
+          "widthPt": 841.9199829101562,
+          "heightPt": 594.9599609375,
+          "text": ") — تابع46 :األجندة المعتمدة · الربع الرابع (عدد المواضيع\nم\nالموضوع\nالجهة المعنية\nموعد\nاإلنجاز\nمستويات اإلنجاز\n25\n082 موضوع توضيحي\nمحاكم مركز دبي المالي العالمي\nالربع الرابع\nقيد التطوير\n26\n083 موضوع توضيحي\nمؤسسة دبي الصحية\nالربع الرابع\nقيد التطوير\n27\n085 موضوع توضيحي\nمؤسسة دبي الصحية\nالربع الرابع\nقيد التطوير\n28\n087 موضوع توضيحي\nمؤسسة دبي الصحية\nالربع الرابع\nقيد التطوير\n29\n088 موضوع توضيحي\nمحاكم دبي\nالربع الرابع\nقيد التطوير\n30\n090 موضوع توضيحي\nمؤسسة دبي لخدمات اإلسعاف\nالربع الرابع\nقيد التطوير\n31\n091 موضوع توضيحي\nمركز دبي لألمن اإللكتروني\nالربع الرابع\nقيد التطوير\n32\n093 موضوع توضيحي\nهيئة الصحة بدبي\nالربع الرابع\nقيد التطوير\n33\n096 موضوع توضيحي\nبلدية دبي\nالربع الرابع\nقيد التطوير\n34\n097 موضوع توضيحي)مؤسسة االتصاالت المتخصصة (نداء\nالربع الرابع\nقيد التطوير\n35\n099 موضوع توضيحي\nمركز اإلمارات العالمي لالعتماد\nالربع الرابع\nقيد التطوير\n36\n100 موضوع توضيحي\nاللجنة العليا للتخطيط الحضري\nالربع الرابع\nقيد التطوير\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر12  من9 صفحة\n",
+          "fonts": [
+            [
+              5,
+              "n/a",
+              "Type3",
+              "",
+              "F5",
+              ""
+            ],
+            [
+              6,
+              "n/a",
+              "Type3",
+              "",
+              "F6",
+              ""
+            ],
+            [
+              7,
+              "n/a",
+              "Type3",
+              "",
+              "F7",
+              ""
+            ],
+            [
+              8,
+              "n/a",
+              "Type3",
+              "",
+              "F8",
+              ""
+            ],
+            [
+              9,
+              "n/a",
+              "Type3",
+              "",
+              "F9",
+              ""
+            ],
+            [
+              13,
+              "n/a",
+              "Type3",
+              "",
+              "F13",
+              ""
+            ],
+            [
+              16,
+              "n/a",
+              "Type3",
+              "",
+              "F16",
+              ""
+            ],
+            [
+              17,
+              "n/a",
+              "Type3",
+              "",
+              "F17",
+              ""
+            ]
+          ],
+          "drawings": 978
+        },
+        {
+          "page": 10,
+          "widthPt": 841.9199829101562,
+          "heightPt": 594.9599609375,
+          "text": ") — تابع46 :األجندة المعتمدة · الربع الرابع (عدد المواضيع\nم\nالموضوع\nالجهة المعنية\nموعد\nاإلنجاز\nمستويات اإلنجاز\n37\n101 موضوع توضيحي\nهيئة دبي للبيئة والتغير المناخي\nالربع الرابع\nقيد التطوير\n38\n102 موضوع توضيحي\nبلدية دبي\nالربع الرابع\nقيد التطوير\n39\n103 موضوع توضيحي\nهيئة دبي للبيئة والتغير المناخي\nالربع الرابع\nقيد التطوير\n40\n105 موضوع توضيحي\nهيئة دبي للبيئة والتغير المناخي\nالربع الرابع\nقيد التطوير\n41\n106 موضوع توضيحي\nهيئة دبي للطيران المدني\nالربع الرابع\nقيد التطوير\n42\n107 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع الرابع\nقيد التطوير\n43\n108 موضوع توضيحي\nجمارك دبي\nالربع الرابع\nقيد التطوير\n44\n109 موضوع توضيحي\nاللجنة العليا للتخطيط الحضري\nالربع الرابع\nقيد التطوير\n45\n114 موضوع توضيحي\n دبي- القيادة العامة للدفاع المدني\nالربع الرابع\nقيد التطوير\n46\n092 موضوع توضيحي\nمؤسسة دبي لخدمات اإلسعاف\nالربع الرابع\nمنجز\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر12  من10 صفحة\n",
+          "fonts": [
+            [
+              5,
+              "n/a",
+              "Type3",
+              "",
+              "F5",
+              ""
+            ],
+            [
+              6,
+              "n/a",
+              "Type3",
+              "",
+              "F6",
+              ""
+            ],
+            [
+              7,
+              "n/a",
+              "Type3",
+              "",
+              "F7",
+              ""
+            ],
+            [
+              8,
+              "n/a",
+              "Type3",
+              "",
+              "F8",
+              ""
+            ],
+            [
+              9,
+              "n/a",
+              "Type3",
+              "",
+              "F9",
+              ""
+            ],
+            [
+              13,
+              "n/a",
+              "Type3",
+              "",
+              "F13",
+              ""
+            ],
+            [
+              16,
+              "n/a",
+              "Type3",
+              "",
+              "F16",
+              ""
+            ],
+            [
+              17,
+              "n/a",
+              "Type3",
+              "",
+              "F17",
+              ""
+            ]
+          ],
+          "drawings": 872
+        },
+        {
+          "page": 11,
+          "widthPt": 841.9199829101562,
+          "heightPt": 594.9599609375,
+          "text": ")17 : (عدد المواضيع2026 ملحق المواضيع المستجدة\nم\nالموضوع\nالربع\nمستويات اإلنجاز\n1\n089 موضوع توضيحي\nالربع األول\nجاهز للعرض\n2\n098 موضوع توضيحي\nالربع األول\nجاهز للعرض\n3\n007 موضوع توضيحي\nالربع األول\nمنجز\n4\n008 موضوع توضيحي\nالربع األول\nمنجز\n5\n009 موضوع توضيحي\nالربع األول\nمنجز\n6\n010 موضوع توضيحي\nالربع األول\nمنجز\n7\n113 موضوع توضيحي\nالربع األول\nمنجز\n8\n018 موضوع توضيحي\nالربع الثاني\nمنجز\n9\n084 موضوع توضيحي\nالربع الثاني\nمنجز\n10\n012 موضوع توضيحي\nالربع الثالث\nجاهز للعرض\n11\n019 موضوع توضيحي\nالربع الثالث\nجاهز للعرض\n12\n020 موضوع توضيحي\nالربع الثالث\nجاهز للعرض\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر12  من11 صفحة\n",
+          "fonts": [
+            [
+              5,
+              "n/a",
+              "Type3",
+              "",
+              "F5",
+              ""
+            ],
+            [
+              6,
+              "n/a",
+              "Type3",
+              "",
+              "F6",
+              ""
+            ],
+            [
+              7,
+              "n/a",
+              "Type3",
+              "",
+              "F7",
+              ""
+            ],
+            [
+              8,
+              "n/a",
+              "Type3",
+              "",
+              "F8",
+              ""
+            ],
+            [
+              9,
+              "n/a",
+              "Type3",
+              "",
+              "F9",
+              ""
+            ],
+            [
+              13,
+              "n/a",
+              "Type3",
+              "",
+              "F13",
+              ""
+            ],
+            [
+              16,
+              "n/a",
+              "Type3",
+              "",
+              "F16",
+              ""
+            ],
+            [
+              17,
+              "n/a",
+              "Type3",
+              "",
+              "F17",
+              ""
+            ]
+          ],
+          "drawings": 647
+        },
+        {
+          "page": 12,
+          "widthPt": 841.9199829101562,
+          "heightPt": 594.9599609375,
+          "text": ") — تابع17 : (عدد المواضيع2026 ملحق المواضيع المستجدة\nم\nالموضوع\nالربع\nمستويات اإلنجاز\n13\n021 موضوع توضيحي\nالربع الثالث\nجاهز للعرض\n14\n026 موضوع توضيحي\nالربع الثالث\nقيد المراجعة\n15\n049 موضوع توضيحي\nالربع الثالث\nمنجز\n16\n017 موضوع توضيحي\nالربع الرابع\nقيد التطوير\n17\n048 موضوع توضيحي\nالربع الرابع\nمنجز\n.%46 . وتبلغ حصة الربع الرابع من أحدث المواعيد المسجلة10 المواضيع الجاهزة للعرض )، وبلغ عدد%34( 100  من أصل34 المواضيع المنجزة ضمن األجندة السنوية بلغ عدد\nتعريفات مستويات اإلنجاز\nمتأخر\nتأخر إنجاز الموضوع حسب الحالة المسجلة\nجاهز للعرض\nاكتمل إعداد الموضوع وهو جاهز للعرض على المجلس المختص\nقيد المراجعة\nاستلمته األمانة العامة من الجهة المعنية وتتم مراجعته من قبل فريقها\nقيد التطوير\nجاري تطوير الموضوع من قبل الجهة الحكومية مع ا ّ ّطالع األمانة العامة على مستجدات التطوير\nمنجز\nتم عرضه وإصدار قرار باعتماده من المجلس التنفيذي أو إقراره من مجلس الشؤون االستراتيجية\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر12  من12 صفحة\n",
+          "fonts": [
+            [
+              5,
+              "n/a",
+              "Type3",
+              "",
+              "F5",
+              ""
+            ],
+            [
+              6,
+              "n/a",
+              "Type3",
+              "",
+              "F6",
+              ""
+            ],
+            [
+              7,
+              "n/a",
+              "Type3",
+              "",
+              "F7",
+              ""
+            ],
+            [
+              8,
+              "n/a",
+              "Type3",
+              "",
+              "F8",
+              ""
+            ],
+            [
+              9,
+              "n/a",
+              "Type3",
+              "",
+              "F9",
+              ""
+            ],
+            [
+              13,
+              "n/a",
+              "Type3",
+              "",
+              "F13",
+              ""
+            ],
+            [
+              16,
+              "n/a",
+              "Type3",
+              "",
+              "F16",
+              ""
+            ],
+            [
+              17,
+              "n/a",
+              "Type3",
+              "",
+              "F17",
+              ""
+            ]
+          ],
+          "drawings": 840
+        }
+      ]
+    },
+    "entity": {
+      "filename": "Agenda-Entity-Revision-2.pdf",
+      "sha256": "debeb6d271dd1553fafc40ac4a41c0821d519db3188ee57fe65222d70fcf1c1b",
+      "revision": {
+        "stage": "illustration-only",
+        "spec": {
+          "stage": "illustration-only",
+          "mainLabel": "الأجندة المعتمدة",
+          "total": 10,
+          "planned": 8,
+          "emerging": 2,
+          "other": 0,
+          "year": 2026,
+          "sourcePeriod": "حتى تاريخ 30/09/2026",
+          "sourceDate": "30/09/2026",
+          "statuses": [
+            {
+              "name": "جاهز للعرض",
+              "color": "#ABA394"
+            },
+            {
+              "name": "قيد التطوير",
+              "color": "#756B5F"
+            },
+            {
+              "name": "منجز",
+              "color": "#01831E"
+            }
+          ],
+          "cohorts": [
+            {
+              "id": "approved",
+              "name": "الأجندة المعتمدة",
+              "total": 8,
+              "recordKeys": [
+                "agenda-62",
+                "agenda-63",
+                "agenda-95",
+                "agenda-76",
+                "agenda-79",
+                "agenda-65",
+                "agenda-81",
+                "agenda-108"
+              ],
+              "totals": [
+                {
+                  "name": "جاهز للعرض",
+                  "count": 1,
+                  "percentage": "12.5%"
+                },
+                {
+                  "name": "قيد التطوير",
+                  "count": 3,
+                  "percentage": "37.5%"
+                },
+                {
+                  "name": "منجز",
+                  "count": 4,
+                  "percentage": "50%"
+                }
+              ],
+              "quarters": [
+                {
+                  "key": "الربع الأول",
+                  "name": "الربع الأول",
+                  "total": 3,
+                  "recordKeys": [
+                    "agenda-62",
+                    "agenda-63",
+                    "agenda-95"
+                  ],
+                  "cells": [
+                    {
+                      "name": "جاهز للعرض",
+                      "count": 0,
+                      "color": "#ABA394"
+                    },
+                    {
+                      "name": "قيد التطوير",
+                      "count": 0,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "منجز",
+                      "count": 3,
+                      "color": "#01831E"
+                    }
+                  ]
+                },
+                {
+                  "key": "الربع الثاني",
+                  "name": "الربع الثاني",
+                  "total": 2,
+                  "recordKeys": [
+                    "agenda-76",
+                    "agenda-79"
+                  ],
+                  "cells": [
+                    {
+                      "name": "جاهز للعرض",
+                      "count": 1,
+                      "color": "#ABA394"
+                    },
+                    {
+                      "name": "قيد التطوير",
+                      "count": 0,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "منجز",
+                      "count": 1,
+                      "color": "#01831E"
+                    }
+                  ]
+                },
+                {
+                  "key": "الربع الثالث",
+                  "name": "الربع الثالث",
+                  "total": 1,
+                  "recordKeys": [
+                    "agenda-65"
+                  ],
+                  "cells": [
+                    {
+                      "name": "جاهز للعرض",
+                      "count": 0,
+                      "color": "#ABA394"
+                    },
+                    {
+                      "name": "قيد التطوير",
+                      "count": 1,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "منجز",
+                      "count": 0,
+                      "color": "#01831E"
+                    }
+                  ]
+                },
+                {
+                  "key": "الربع الرابع",
+                  "name": "الربع الرابع",
+                  "total": 2,
+                  "recordKeys": [
+                    "agenda-81",
+                    "agenda-108"
+                  ],
+                  "cells": [
+                    {
+                      "name": "جاهز للعرض",
+                      "count": 0,
+                      "color": "#ABA394"
+                    },
+                    {
+                      "name": "قيد التطوير",
+                      "count": 2,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "منجز",
+                      "count": 0,
+                      "color": "#01831E"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "emerging",
+              "name": "المواضيع المستجدة",
+              "total": 2,
+              "recordKeys": [
+                "agenda-114",
+                "agenda-85"
+              ],
+              "totals": [
+                {
+                  "name": "جاهز للعرض",
+                  "count": 0,
+                  "percentage": "0%"
+                },
+                {
+                  "name": "قيد التطوير",
+                  "count": 0,
+                  "percentage": "0%"
+                },
+                {
+                  "name": "منجز",
+                  "count": 2,
+                  "percentage": "100%"
+                }
+              ],
+              "quarters": [
+                {
+                  "key": "الربع الأول",
+                  "name": "الربع الأول",
+                  "total": 1,
+                  "recordKeys": [
+                    "agenda-114"
+                  ],
+                  "cells": [
+                    {
+                      "name": "جاهز للعرض",
+                      "count": 0,
+                      "color": "#ABA394"
+                    },
+                    {
+                      "name": "قيد التطوير",
+                      "count": 0,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "منجز",
+                      "count": 1,
+                      "color": "#01831E"
+                    }
+                  ]
+                },
+                {
+                  "key": "الربع الثاني",
+                  "name": "الربع الثاني",
+                  "total": 1,
+                  "recordKeys": [
+                    "agenda-85"
+                  ],
+                  "cells": [
+                    {
+                      "name": "جاهز للعرض",
+                      "count": 0,
+                      "color": "#ABA394"
+                    },
+                    {
+                      "name": "قيد التطوير",
+                      "count": 0,
+                      "color": "#756B5F"
+                    },
+                    {
+                      "name": "منجز",
+                      "count": 1,
+                      "color": "#01831E"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "scale": {
+            "min": 0,
+            "max": 3,
+            "unit": "عدد المواضيع"
+          },
+          "sourceRecordKeys": [
+            "agenda-62",
+            "agenda-63",
+            "agenda-95",
+            "agenda-114",
+            "agenda-76",
+            "agenda-79",
+            "agenda-85",
+            "agenda-65",
+            "agenda-81",
+            "agenda-108"
+          ]
+        },
+        "tableKeys": [
+          "agenda-62",
+          "agenda-63",
+          "agenda-95",
+          "agenda-76",
+          "agenda-79",
+          "agenda-65",
+          "agenda-81",
+          "agenda-108",
+          "agenda-114",
+          "agenda-85"
+        ],
+        "removedSourceNoteSections": 0
+      },
+      "pagination": {
+        "pages": 3,
+        "expectedKeys": [
+          "agenda-62",
+          "agenda-63",
+          "agenda-95",
+          "agenda-76",
+          "agenda-79",
+          "agenda-65",
+          "agenda-81",
+          "agenda-108",
+          "agenda-114",
+          "agenda-85"
+        ],
+        "actualKeys": [
+          "agenda-62",
+          "agenda-63",
+          "agenda-95",
+          "agenda-76",
+          "agenda-79",
+          "agenda-65",
+          "agenda-81",
+          "agenda-108",
+          "agenda-114",
+          "agenda-85"
+        ],
+        "firstPage": {
+          "masthead": 105.1875,
+          "overview": 489.71875,
+          "available": 688,
+          "used": 688
+        },
+        "entity": "هيئة الطرق والمواصلات",
+        "period": "يناير – سبتمبر 2026",
+        "headers": 1,
+        "sourceNotes": 0,
+        "tableStyles": [
+          {
+            "body": "16px",
+            "head": "18px"
+          },
+          {
+            "body": "16px",
+            "head": "18px"
+          },
+          {
+            "body": "16px",
+            "head": "18px"
+          },
+          {
+            "body": "16px",
+            "head": "18px"
+          },
+          {
+            "body": "16px",
+            "head": "18px"
+          }
+        ],
+        "pageBodies": [
+          {
+            "page": 1,
+            "height": 688,
+            "used": 688,
+            "rows": 0,
+            "overview": 1
+          },
+          {
+            "page": 2,
+            "height": 688,
+            "used": 688,
+            "rows": 6,
+            "overview": 0
+          },
+          {
+            "page": 3,
+            "height": 688,
+            "used": 688,
+            "rows": 4,
+            "overview": 0
+          }
+        ]
+      },
+      "source": {
+        "keys": [
+          "agenda-62",
+          "agenda-63",
+          "agenda-95",
+          "agenda-76",
+          "agenda-79",
+          "agenda-65",
+          "agenda-81",
+          "agenda-108",
+          "agenda-114",
+          "agenda-85"
+        ],
+        "cells": [
+          {
+            "key": "agenda-62",
+            "values": [
+              "1",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 061",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-63",
+            "values": [
+              "2",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 062",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-95",
+            "values": [
+              "3",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 094",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-76",
+            "values": [
+              "1",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 075",
+              "الربع الثاني",
+              "جاهز للعرض"
+            ]
+          },
+          {
+            "key": "agenda-79",
+            "values": [
+              "2",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 078",
+              "الربع الثاني",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-65",
+            "values": [
+              "1",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 064",
+              "الربع الثالث",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-81",
+            "values": [
+              "1",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 080",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-108",
+            "values": [
+              "2",
+              "هيئة الطرق والمواصلات",
+              "موضوع توضيحي 107",
+              "الربع الرابع",
+              "قيد التطوير"
+            ]
+          },
+          {
+            "key": "agenda-114",
+            "values": [
+              "1",
+              "موضوع توضيحي 113",
+              "الربع الأول",
+              "منجز"
+            ]
+          },
+          {
+            "key": "agenda-85",
+            "values": [
+              "2",
+              "موضوع توضيحي 084",
+              "الربع الثاني",
+              "منجز"
+            ]
+          }
+        ]
+      },
+      "pages": [
+        {
+          "page": 1,
+          "widthPt": 841.9199829101562,
+          "heightPt": 594.9599609375,
+          "text": "مستجدات األجندة السنوية\nهيئة الطرق والمواصالت\n2026 يناير – سبتمبر\nاألجندة السنوية10\nاإلجمالي\nمستويات اإلنجاز حسب الربع0–3 عدد المواضيع\nاألجندة المعتمدة8المواضيع المستجدة2\nالربع\nجاهز للعرض\nقيد التطوير\nمنجز\nاإلجمالي\nالربع األول3\nالربع الثاني2\nالربع الثالث1\nالربع الرابع2\nاإلجمالي1\n12.5%\n3\n37.5%\n4\n50%\n8\nالربع\nجاهز للعرض\nقيد التطوير\nمنجز\nاإلجمالي\nالربع األول1\nالربع الثاني1\nاإلجمالي0\n0%\n0\n0%\n2\n100%\n2\n0\n0\n3\n1\n0\n1\n0\n1\n0\n0\n2\n0\n0\n0\n1\n0\n0\n1\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر3  من1 صفحة\n",
+          "fonts": [
+            [
+              5,
+              "n/a",
+              "Type3",
+              "",
+              "F5",
+              ""
+            ],
+            [
+              6,
+              "n/a",
+              "Type3",
+              "",
+              "F6",
+              ""
+            ],
+            [
+              7,
+              "n/a",
+              "Type3",
+              "",
+              "F7",
+              ""
+            ],
+            [
+              8,
+              "n/a",
+              "Type3",
+              "",
+              "F8",
+              ""
+            ],
+            [
+              9,
+              "n/a",
+              "Type3",
+              "",
+              "F9",
+              ""
+            ],
+            [
+              13,
+              "n/a",
+              "Type3",
+              "",
+              "F13",
+              ""
+            ]
+          ],
+          "drawings": 488
+        },
+        {
+          "page": 2,
+          "widthPt": 841.9199829101562,
+          "heightPt": 594.9599609375,
+          "text": ")3 :األجندة المعتمدة · الربع األول (عدد المواضيع\nم\nالموضوع\nالجهة المعنية\nموعد\nاإلنجاز\nمستويات اإلنجاز\n1\n061 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع األول\nمنجز\n2\n062 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع األول\nمنجز\n3\n094 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع األول\nمنجز\n)2 :األجندة المعتمدة · الربع الثاني (عدد المواضيع\nم\nالموضوع\nالجهة المعنية\nموعد\nاإلنجاز\nمستويات اإلنجاز\n1\n075 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع الثاني\nجاهز للعرض\n2\n078 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع الثاني\nمنجز\n)1 :األجندة المعتمدة · الربع الثالث (عدد المواضيع\nم\nالموضوع\nالجهة المعنية\nموعد\nاإلنجاز\nمستويات اإلنجاز\n1\n064 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع الثالث\nقيد التطوير\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر3  من2 صفحة\n",
+          "fonts": [
+            [
+              5,
+              "n/a",
+              "Type3",
+              "",
+              "F5",
+              ""
+            ],
+            [
+              6,
+              "n/a",
+              "Type3",
+              "",
+              "F6",
+              ""
+            ],
+            [
+              7,
+              "n/a",
+              "Type3",
+              "",
+              "F7",
+              ""
+            ],
+            [
+              8,
+              "n/a",
+              "Type3",
+              "",
+              "F8",
+              ""
+            ],
+            [
+              9,
+              "n/a",
+              "Type3",
+              "",
+              "F9",
+              ""
+            ],
+            [
+              13,
+              "n/a",
+              "Type3",
+              "",
+              "F13",
+              ""
+            ],
+            [
+              16,
+              "n/a",
+              "Type3",
+              "",
+              "F16",
+              ""
+            ],
+            [
+              17,
+              "n/a",
+              "Type3",
+              "",
+              "F17",
+              ""
+            ]
+          ],
+          "drawings": 722
+        },
+        {
+          "page": 3,
+          "widthPt": 841.9199829101562,
+          "heightPt": 594.9599609375,
+          "text": ")2 :األجندة المعتمدة · الربع الرابع (عدد المواضيع\nم\nالموضوع\nالجهة المعنية\nموعد\nاإلنجاز\nمستويات اإلنجاز\n1\n080 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع الرابع\nقيد التطوير\n2\n107 موضوع توضيحي\nهيئة الطرق والمواصالت\nالربع الرابع\nقيد التطوير\n)2 : (عدد المواضيع2026 ملحق المواضيع المستجدة\nم\nالموضوع\nالربع\nمستويات اإلنجاز\n1\n113 موضوع توضيحي\nالربع األول\nمنجز\n2\n084 موضوع توضيحي\nالربع الثاني\nمنجز\n.%25 . وتبلغ حصة الربع الرابع من أحدث المواعيد المسجلة1 المواضيع الجاهزة للعرض )، وبلغ عدد%50( 8  من أصل4 المواضيع المنجزة ضمن األجندة السنوية بلغ عدد\nتعريفات مستويات اإلنجاز\nمتأخر\nتأخر إنجاز الموضوع حسب الحالة المسجلة\nجاهز للعرض\nاكتمل إعداد الموضوع وهو جاهز للعرض على المجلس المختص\nقيد المراجعة\nاستلمته األمانة العامة من الجهة المعنية وتتم مراجعته من قبل فريقها\nقيد التطوير\nجاري تطوير الموضوع من قبل الجهة الحكومية مع ا ّ ّطالع األمانة العامة على مستجدات التطوير\nمنجز\nتم عرضه وإصدار قرار باعتماده من المجلس التنفيذي أو إقراره من مجلس الشؤون االستراتيجية\n · جميع الحقوق محفوظة2026 © األمانة العامة للمجلس التنفيذي إلمارة دبي · حقوق النشر3  من3 صفحة\n",
+          "fonts": [
+            [
+              5,
+              "n/a",
+              "Type3",
+              "",
+              "F5",
+              ""
+            ],
+            [
+              6,
+              "n/a",
+              "Type3",
+              "",
+              "F6",
+              ""
+            ],
+            [
+              7,
+              "n/a",
+              "Type3",
+              "",
+              "F7",
+              ""
+            ],
+            [
+              8,
+              "n/a",
+              "Type3",
+              "",
+              "F8",
+              ""
+            ],
+            [
+              9,
+              "n/a",
+              "Type3",
+              "",
+              "F9",
+              ""
+            ],
+            [
+              13,
+              "n/a",
+              "Type3",
+              "",
+              "F13",
+              ""
+            ],
+            [
+              16,
+              "n/a",
+              "Type3",
+              "",
+              "F16",
+              ""
+            ],
+            [
+              17,
+              "n/a",
+              "Type3",
+              "",
+              "F17",
+              ""
+            ]
+          ],
+          "drawings": 909
+        }
+      ]
+    }
+  }
+}

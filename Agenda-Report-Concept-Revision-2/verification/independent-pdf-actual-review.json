@@ -1,0 +1,344 @@
+{
+  "all": {
+    "sha256": "40384aff290298a6cb204e75846060827daa052d8bd38611dc4b63ba54bb8f56",
+    "pages": 12,
+    "recordCount": 117,
+    "expectedCount": 117,
+    "orderedRecordsMatch": true,
+    "firstPageOnlyReportMasthead": true,
+    "firstPageOnlyMonthRange": true,
+    "sourceAppendixAbsent": true,
+    "allChartsOnPageOneVisuallyVerified": true,
+    "noClippingOrOverlapVisuallyVerified": true,
+    "fontsEmbeddedAsVectorGlyphPrograms": true,
+    "fonts": {
+      "5": {
+        "type": "Type3",
+        "fontName": "AAAAAA+DINNextArabic-Regular",
+        "embeddedGlyphPrograms": 32,
+        "embeddedGlyphBytes": 18539,
+        "unicodeMapBytes": 670,
+        "embedded": true
+      },
+      "6": {
+        "type": "Type3",
+        "fontName": "AAAAAA+DINNextArabic-Regular",
+        "embeddedGlyphPrograms": 8,
+        "embeddedGlyphBytes": 3527,
+        "unicodeMapBytes": 404,
+        "embedded": true
+      },
+      "7": {
+        "type": "Type3",
+        "fontName": "AAAAAA+DINNextArabic-Regular",
+        "embeddedGlyphPrograms": 13,
+        "embeddedGlyphBytes": 4396,
+        "unicodeMapBytes": 457,
+        "embedded": true
+      },
+      "8": {
+        "type": "Type3",
+        "fontName": "BAAAAA+Dubai-Regular",
+        "embeddedGlyphPrograms": 62,
+        "embeddedGlyphBytes": 23008,
+        "unicodeMapBytes": 955,
+        "embedded": true
+      },
+      "9": {
+        "type": "Type3",
+        "fontName": "BAAAAA+Dubai-Regular",
+        "embeddedGlyphPrograms": 58,
+        "embeddedGlyphBytes": 25406,
+        "unicodeMapBytes": 1029,
+        "embedded": true
+      },
+      "13": {
+        "type": "Type3",
+        "fontName": "BAAAAA+Dubai-Regular",
+        "embeddedGlyphPrograms": 5,
+        "embeddedGlyphBytes": 1995,
+        "unicodeMapBytes": 368,
+        "embedded": true
+      },
+      "16": {
+        "type": "Type3",
+        "fontName": "CAAAAA+Dubai-Bold",
+        "embeddedGlyphPrograms": 16,
+        "embeddedGlyphBytes": 6023,
+        "unicodeMapBytes": 501,
+        "embedded": true
+      },
+      "17": {
+        "type": "Type3",
+        "fontName": "CAAAAA+Dubai-Bold",
+        "embeddedGlyphPrograms": 20,
+        "embeddedGlyphBytes": 7321,
+        "unicodeMapBytes": 573,
+        "embedded": true
+      }
+    },
+    "pageDetails": [
+      {
+        "page": 1,
+        "sizeMm": [
+          297.01,
+          209.89
+        ],
+        "textOutside10mmInset": [],
+        "reportMasthead": true,
+        "monthRange": true,
+        "containsSourceAppendix": false,
+        "visuallyReviewed": true
+      },
+      {
+        "page": 2,
+        "sizeMm": [
+          297.01,
+          209.89
+        ],
+        "textOutside10mmInset": [],
+        "reportMasthead": false,
+        "monthRange": false,
+        "containsSourceAppendix": false,
+        "visuallyReviewed": true
+      },
+      {
+        "page": 3,
+        "sizeMm": [
+          297.01,
+          209.89
+        ],
+        "textOutside10mmInset": [],
+        "reportMasthead": false,
+        "monthRange": false,
+        "containsSourceAppendix": false,
+        "visuallyReviewed": true
+      },
+      {
+        "page": 4,
+        "sizeMm": [
+          297.01,
+          209.89
+        ],
+        "textOutside10mmInset": [],
+        "reportMasthead": false,
+        "monthRange": false,
+        "containsSourceAppendix": false,
+        "visuallyReviewed": true
+      },
+      {
+        "page": 5,
+        "sizeMm": [
+          297.01,
+          209.89
+        ],
+        "textOutside10mmInset": [],
+        "reportMasthead": false,
+        "monthRange": false,
+        "containsSourceAppendix": false,
+        "visuallyReviewed": true
+      },
+      {
+        "page": 6,
+        "sizeMm": [
+          297.01,
+          209.89
+        ],
+        "textOutside10mmInset": [],
+        "reportMasthead": false,
+        "monthRange": false,
+        "containsSourceAppendix": false,
+        "visuallyReviewed": true
+      },
+      {
+        "page": 7,
+        "sizeMm": [
+          297.01,
+          209.89
+        ],
+        "textOutside10mmInset": [],
+        "reportMasthead": false,
+        "monthRange": false,
+        "containsSourceAppendix": false,
+        "visuallyReviewed": true
+      },
+      {
+        "page": 8,
+        "sizeMm": [
+          297.01,
+          209.89
+        ],
+        "textOutside10mmInset": [],
+        "reportMasthead": false,
+        "monthRange": false,
+        "containsSourceAppendix": false,
+        "visuallyReviewed": true
+      },
+      {
+        "page": 9,
+        "sizeMm": [
+          297.01,
+          209.89
+        ],
+        "textOutside10mmInset": [],
+        "reportMasthead": false,
+        "monthRange": false,
+        "containsSourceAppendix": false,
+        "visuallyReviewed": true
+      },
+      {
+        "page": 10,
+        "sizeMm": [
+          297.01,
+          209.89
+        ],
+        "textOutside10mmInset": [],
+        "reportMasthead": false,
+        "monthRange": false,
+        "containsSourceAppendix": false,
+        "visuallyReviewed": true
+      },
+      {
+        "page": 11,
+        "sizeMm": [
+          297.01,
+          209.89
+        ],
+        "textOutside10mmInset": [],
+        "reportMasthead": false,
+        "monthRange": false,
+        "containsSourceAppendix": false,
+        "visuallyReviewed": true
+      },
+      {
+        "page": 12,
+        "sizeMm": [
+          297.01,
+          209.89
+        ],
+        "textOutside10mmInset": [],
+        "reportMasthead": false,
+        "monthRange": false,
+        "containsSourceAppendix": false,
+        "visuallyReviewed": true
+      }
+    ]
+  },
+  "entity": {
+    "sha256": "debeb6d271dd1553fafc40ac4a41c0821d519db3188ee57fe65222d70fcf1c1b",
+    "pages": 3,
+    "recordCount": 10,
+    "expectedCount": 10,
+    "orderedRecordsMatch": true,
+    "firstPageOnlyReportMasthead": true,
+    "firstPageOnlyMonthRange": true,
+    "sourceAppendixAbsent": true,
+    "allChartsOnPageOneVisuallyVerified": true,
+    "noClippingOrOverlapVisuallyVerified": true,
+    "fontsEmbeddedAsVectorGlyphPrograms": true,
+    "fonts": {
+      "5": {
+        "type": "Type3",
+        "fontName": "AAAAAA+DINNextArabic-Regular",
+        "embeddedGlyphPrograms": 32,
+        "embeddedGlyphBytes": 18539,
+        "unicodeMapBytes": 670,
+        "embedded": true
+      },
+      "6": {
+        "type": "Type3",
+        "fontName": "AAAAAA+DINNextArabic-Regular",
+        "embeddedGlyphPrograms": 8,
+        "embeddedGlyphBytes": 3527,
+        "unicodeMapBytes": 404,
+        "embedded": true
+      },
+      "7": {
+        "type": "Type3",
+        "fontName": "AAAAAA+DINNextArabic-Regular",
+        "embeddedGlyphPrograms": 11,
+        "embeddedGlyphBytes": 3862,
+        "unicodeMapBytes": 428,
+        "embedded": true
+      },
+      "8": {
+        "type": "Type3",
+        "fontName": "BAAAAA+Dubai-Regular",
+        "embeddedGlyphPrograms": 50,
+        "embeddedGlyphBytes": 21287,
+        "unicodeMapBytes": 933,
+        "embedded": true
+      },
+      "9": {
+        "type": "Type3",
+        "fontName": "BAAAAA+Dubai-Regular",
+        "embeddedGlyphPrograms": 56,
+        "embeddedGlyphBytes": 19967,
+        "unicodeMapBytes": 914,
+        "embedded": true
+      },
+      "13": {
+        "type": "Type3",
+        "fontName": "BAAAAA+Dubai-Regular",
+        "embeddedGlyphPrograms": 4,
+        "embeddedGlyphBytes": 1674,
+        "unicodeMapBytes": 356,
+        "embedded": true
+      },
+      "16": {
+        "type": "Type3",
+        "fontName": "CAAAAA+Dubai-Bold",
+        "embeddedGlyphPrograms": 16,
+        "embeddedGlyphBytes": 6023,
+        "unicodeMapBytes": 501,
+        "embedded": true
+      },
+      "17": {
+        "type": "Type3",
+        "fontName": "CAAAAA+Dubai-Bold",
+        "embeddedGlyphPrograms": 20,
+        "embeddedGlyphBytes": 7321,
+        "unicodeMapBytes": 573,
+        "embedded": true
+      }
+    },
+    "pageDetails": [
+      {
+        "page": 1,
+        "sizeMm": [
+          297.01,
+          209.89
+        ],
+        "textOutside10mmInset": [],
+        "reportMasthead": true,
+        "monthRange": true,
+        "containsSourceAppendix": false,
+        "visuallyReviewed": true
+      },
+      {
+        "page": 2,
+        "sizeMm": [
+          297.01,
+          209.89
+        ],
+        "textOutside10mmInset": [],
+        "reportMasthead": false,
+        "monthRange": false,
+        "containsSourceAppendix": false,
+        "visuallyReviewed": true
+      },
+      {
+        "page": 3,
+        "sizeMm": [
+          297.01,
+          209.89
+        ],
+        "textOutside10mmInset": [],
+        "reportMasthead": false,
+        "monthRange": false,
+        "containsSourceAppendix": false,
+        "visuallyReviewed": true
+      }
+    ]
+  }
+}
