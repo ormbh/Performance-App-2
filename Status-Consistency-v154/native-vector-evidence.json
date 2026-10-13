@@ -1,0 +1,46 @@
+{
+  "verdict": "PASS",
+  "checks": [
+    {
+      "scope": "all",
+      "nativeSegmentsChecked": 22,
+      "nativeChartImages": 0
+    },
+    {
+      "scope": "entity",
+      "nativeSegmentsChecked": 7,
+      "nativeChartImages": 0
+    },
+    {
+      "scope": "approved-only",
+      "nativeSegmentsChecked": 4,
+      "nativeChartImages": 0
+    },
+    {
+      "scope": "emerging-only",
+      "nativeSegmentsChecked": 2,
+      "nativeChartImages": 0
+    },
+    {
+      "scope": "empty",
+      "nativeSegmentsChecked": 0,
+      "nativeChartImages": 0
+    },
+    {
+      "scope": "synthetic-five-periods",
+      "nativeSegmentsChecked": 9,
+      "nativeChartImages": 0
+    },
+    {
+      "scope": "synthetic-one-late",
+      "nativeSegmentsChecked": 1,
+      "nativeChartImages": 0
+    }
+  ],
+  "issues": [],
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "aa2ee878d8cd3b1e386f3e291914046a5f56e3019fff4597c996dbd5be4fa44b",
+    "assets/css/app-bundle.css": "39e525cd82e23121fd376ab18056876cd3863a9a0f5bb1eeb1e790d264cfa9d1",
+    "assets/css/print-measure-bundle.css": "955c16b134acb5a305213c9f510b34fd5ec0cb3620ef8116da39709f52cc3a17"
+  }
+}

@@ -1,10 +1,10 @@
 # TEC Apple-Inspired Design Principles
 
-**Consolidated edition · 13 October 2026**
+**Revision 21 · 13 October 2026 · Performance App v154**
 
 The approved monthly dashboard establishes a reusable visual language for the TEC app. Apply its hierarchy, typography, surfaces, spacing, controls and alignment to equivalent roles across pages. Preserve the distinct purpose, content and calculations of each page.
 
-This document consolidates approved rules through Performance App v145 and the instruction to standardize the approach across the app. It records the approved implementation; the document itself does not change the app. The proposed additional-status disclosure and top follow-up shortcut are excluded. The separate entity-report redesign remains a concept.
+This document consolidates approved rules through Performance App v154, including unified status appearances and agenda quarter-chart interactions and export totals. It records the approved implementation; the document itself does not change the app. The proposed additional-status disclosure and top follow-up shortcut are excluded. The separate entity-report redesign remains a concept.
 
 ## 1. The approach
 
@@ -56,11 +56,11 @@ Do not apply a blanket font size to all text or table descendants. Retain separa
 | --- | --- | --- |
 | Charcoal | `#333333` | Headings and default figures |
 | Ink | `#4F4E4E` | Table text, metric names, essential labels and explanations |
-| Taupe | `#756B5F` | Minor metadata, neutral changes, field boundaries, active/allocation bar fills |
+| Taupe | `#756B5F` | Minor metadata, neutral changes, field boundaries and allocation bar fills |
 | Teal | `#115E67` | Primary actions, selected navigation, focus, spending and measurement bars |
 | Burgundy | `#651D32` | Frozen/held statuses, cancelled accents, existing destructive/error treatments |
 | Grey | `#808080` | Existing large or decorative elements |
-| Stone | `#ABA394` | Ready-for-presentation bar segment |
+| Stone | `#ABA394` | Existing non-status category and decorative roles; no longer the ready-status identity |
 | Silver | `#C8C7C7` | Unclassified segments, dividers and disabled borders |
 | Linen | `#EFEBE7` | Page canvas, table headers, quiet category boxes and bar tracks |
 | Paper | `#FCFBFB` | Cards, table body, fields and text on filled controls/badges |
@@ -69,9 +69,9 @@ Do not apply a blanket font size to all text or table descendants. Retain separa
 | Completed Green | `#01831E` | Completed values and favorable changes |
 | Late Red | `#C00000` | Late values and adverse changes |
 
-Use these pairings without new unapproved tints or blanket opacity. Chart fills and badge fills are separate mappings: a ready-status bar is Stone; its badge is Teal. Keep status text visible so color is never the only identifier.
+Use these pairings without new unapproved tints or blanket opacity. **One status uses the same fill, readable ink and border across badges, chart marks, legends, native PDFs and PowerPoint exports.** The badge appearance is the reference; the former separate chart-status palette is superseded. For example, **جاهز للعرض is Teal everywhere**, and work/review uses Mist with Teal ink and borders. Give Paper and pale chart marks a visible boundary so they do not disappear into the canvas. Keep status names and exact values available; color is never the only identifier.
 
-| Badge | Text | Fill / border |
+| Status appearance: badge / chart mark / legend swatch | Ink on the fill | Fill / border |
 | --- | --- | --- |
 | منجز | Paper | Green / Green |
 | متأخر | Paper | Red / Red |
@@ -83,8 +83,11 @@ Use these pairings without new unapproved tints or blanket opacity. Chart fills 
 | لم يبدأ | Paper | Ink / Ink |
 | مقاس | Teal | Mist / Teal |
 | غير مقاس / لا ينطبق | Paper | Ink / Ink |
+| Unknown / missing | Ink | Paper / Silver |
 
-Aliases share appearance only. Do not merge their source statuses or rename records.
+Aliases share appearance only. Do not merge their source statuses or rename records. Resolve supported presentation aliases through the shared status helper, including frozen/held Arabic labels. A colored fill must not be reused as text if that makes a pale label unreadable. Plain status names and counts remain Ink except the explicitly approved completed Green and late Red emphasis. Financial allocations, spending, measurement coverage, source quantities and change arrows retain their independent meanings; a status-color update must not recolor them.
+
+Use the same appearance mapping when generating native chart fills, marker borders, in-mark labels, legend swatches and export chart series. Verify both effective browser styles and generated export colors. Preserve chart data, status order and exact totals while changing presentation.
 
 ## 4. Layout, spacing and component geometry
 
@@ -115,7 +118,7 @@ Use a 2px Teal focus ring with a 2px offset. Primary actions use Paper text on C
 
 - Use the approved logo, title and required report date. Remove repeated explanatory labels beneath page, section, portfolio, card and table titles, including search and upload titles, and remove their reserved spacing.
 - Keep the search title at 36px between the approved logo and search-field positions, with the approved upward placement. Reuse that search composition; do not shift the logo or field to compensate for title spacing.
-- Search home shows the application menu without separate monthly/project links. Other pages show **Search + the current destination**, with remaining destinations in the menu. Keep agenda, council and HH report destinations available from every page's menu.
+- Search home places the application menu beside **بحث في التقرير**, with the menu, search action and **عرض جميع النتائج** centered together beneath the field, without separate monthly/project links. Other pages show **Search + the current destination**, with remaining destinations in the menu. Keep agenda, council and HH report destinations available from every page's menu.
 - Mark the current destination with a 2px Teal underline, using a transparent background. Maintain at least 44px link targets.
 - Separate navigation from task actions by position and spacing. Reflow the toolbar below 700px. Use a Teal primary action and a Paper/Teal secondary action where applicable.
 - Place applicable core filters below navigation as separate fields, with the scope summary beneath. Keep their field labels. Avoid an extra enclosing filter panel.
@@ -148,7 +151,7 @@ Use a 2px Teal focus ring with a 2px offset. Primary actions use Paper text on C
 | Bar | Meaning | Treatment |
 | --- | --- | --- |
 | Completion | Completed / full eligible total | Green on Linen; remainder means not completed |
-| Status distribution | Disjoint statuses sharing one total | Existing Green, Taupe, Stone, Red and Silver mapping |
+| Status distribution | Disjoint statuses sharing one total | Shared status fill / ink / border mapping from section 3, matching badges and exports |
 | Allocation | Source-defined allocation ratio | Solid Taupe; retain approved budget denominator |
 | Spending | Source-defined invoice-spending ratio | Solid Teal; retain approved budget denominator |
 | Strategy measurement | Measured / registered indicators | Solid Teal on Linen; not a completion or finance measure |
@@ -170,6 +173,17 @@ The budgeted-project denominator includes statuses absent from headline figures.
 A valid zero numerator over a positive denominator shows **0%**. Preserve existing count/table conventions that display a true zero as **–**; this presentation does not make a zero equivalent to missing data. Missing, nonfinite, negative or impossible values and zero denominators produce no completion bar/caption. Suppress a distribution caption if its bar is invalid; suppress legislation distribution and caption if cohorts overlap. Do not apply these completion captions to financial or strategy measurement bars.
 
 Financial bars stay solid even when some source values are unavailable. Remove hatching, completeness markers and repeated availability notes such as **قيم متاحة: 59 من 61**. Do not replace them with a new marker, note or tooltip. Missing values must still retain their source semantics and calculation eligibility.
+
+### Agenda quarter charts and totals
+
+- Use vertical stacked quarter columns with exact topic counts. Approved agenda stays physically right and emerging topics left. Use a shared zero-based whole-count axis across visible categories, with one count above each quarter and no percentage or quarter/total ratio captions.
+- Hide empty categories. Preserve the union and source order of active quarters, the explicit undated group and any additional eligible category. A category’s missing intersection with another active quarter is a true zero and displays a dash.
+- Under each chart, show **الإجمالي حسب الحالة** and that category’s totals by status across all its quarters within the active filters. These status totals must sum to the category total. Do not use the first quarter as the default summary.
+- No quarter is selected on initial render or after a filter change. Hover and keyboard focus do not replace the totals. Clicking a quarter, or activating it with Enter/Space, shows only its status values with its quarter name; omit ratios and percentages. Clicking that quarter again or pressing Escape restores totals; clicking outside a quarter restores totals.
+- Remove persistent and hover outlines around bars. Keep a visible keyboard-only focus cue. Arrow keys move focus without changing the status summary. Retain accessible names and the expandable underlying count table.
+- Keep the original **تعريفات مستويات الإنجاز** below the charts, with swatches matching the shared status appearance. Only completed and late standalone status counts/text use Green and Red; neutral labels stay readable.
+- Native PDF always includes aggregate totals by status below each chart, even when a quarter is currently active on screen. Keep charts, status totals and full definitions together on the first content page after the cover. Recover whitespace before reducing chart space; do not shrink the page or clip labels/definitions to force a fit.
+- Keep chart labels at 9pt and quarter counts at 16pt in A4 landscape PDF. Status-summary labels use 10.5pt and values 12pt. Verify short, dense, filtered, single-category and undated layouts with the actual downloaded PDF.
 
 ## 8. Approved monthly composition details
 
@@ -207,7 +221,8 @@ The primary report action is **تنزيل PDF**, with **إعدادات PDF** whe
 
 No A3. Preserve report-specific templates; these PDF rules do not redefine workbook sheet layouts or PowerPoint slides.
 
-- **First header:** logo and report title including **- لتاريخ DD/MM/YYYY**, followed by the restored sector/unit scope. Use the report date and actual selected scope. Entity selection still filters the data but its field is omitted from the exported header.
+- **Monthly first header:** logo and report title including **- لتاريخ DD/MM/YYYY**, followed by the restored sector/unit scope. Use the report date and actual selected scope. Entity selection still filters the data but its field is omitted from the exported header.
+- **Agenda cover:** full-bleed A4 landscape image with title, selected entity (when selected) and month-to-month year centered horizontally and vertically. No footer or page number on the cover. Start copyright and content-page numbering on physical page 2, excluding the cover from the total. Keep the entity column, category titles and topic counts in the detail tables; omit empty category sections and the source-notes appendix.
 - **Continuation:** no repeated report masthead. Repeat table column headings in multipage tables where needed.
 - **Footer:** copyright and page numbers only.
 - **Continuous monthly:** full-page Linen, including margins, with Paper cards. Use 8mm top/side insets and 16mm bottom reserve; 281mm content width; 8mm column gap; 6mm card padding and stacked-card gap; 3.5mm table-cell padding. Projects stay physically left, executive portfolios right, with full-width follow-ups below. A single portfolio fills the content width. Measure height after fonts/images are ready and include footer clearance. Do not derive height from the viewport.
@@ -241,4 +256,4 @@ For a new direction, illustrate first. For approved implementation, continue wit
 
 Verify relevant desktop, tablet, phone and export states; long Arabic/mixed-script labels; selected scope; zeros/missing values; actual source totals and denominators; and interactions changed by the work. Record passes and remaining limitations accurately. A documents-only update does not establish that every app page has already been migrated or newly tested.
 
-**Source basis:** the approved user decisions and the [Revision 19 design standard](https://raw.githubusercontent.com/ormbh/Performance-App-2/286a705e3fb5ab61c748e472833817f7b73908a4/Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-19.md), interpreted with later instructions taking precedence. The official filename registry remains in the [v144 app package](https://raw.githubusercontent.com/ormbh/Performance-App-2/286a705e3fb5ab61c748e472833817f7b73908a4/Performance-App-v144.zip). These links provide provenance; the bundled skill and principles are readable offline.
+**Source basis:** the latest user instructions of 13 October 2026 for v154 and earlier approved decisions. The new status palette and agenda behavior supersede conflicting earlier chart/selection rules. Historical reference: the [Revision 19 design standard](https://raw.githubusercontent.com/ormbh/Performance-App-2/286a705e3fb5ab61c748e472833817f7b73908a4/Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-19.md), interpreted with later instructions taking precedence. The official filename registry remains in the [v144 app package](https://raw.githubusercontent.com/ormbh/Performance-App-2/286a705e3fb5ab61c748e472833817f7b73908a4/Performance-App-v144.zip). These links provide provenance; the bundled skill and principles are readable offline.

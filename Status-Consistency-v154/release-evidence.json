@@ -1,0 +1,35 @@
+{
+  "build": 154,
+  "zipSha256": "e130785d620434bdbde528cb94359d6b7b1780c8d4450c76b233426d356e2b0d",
+  "manifestFiles": 208,
+  "crc": "PASS",
+  "extractedHashes": "PASS",
+  "sourceChanges": [
+    "assets/css/projects-pmo.css",
+    "assets/css/portfolio-delivery.css",
+    "assets/css/tec-agenda-print.css",
+    "assets/css/tec-apple-monthly.css",
+    "assets/css/tec-agenda-matrix.css",
+    "assets/js/reports/council-export.js",
+    "assets/js/reports/agenda.js",
+    "assets/js/reports/hh.js",
+    "assets/js/views/entities.js",
+    "assets/js/views/portfolio-delivery.js",
+    "assets/js/views/council.js",
+    "assets/js/views/common.js",
+    "assets/js/views/agenda.js",
+    "assets/js/views/reports.js",
+    "assets/js/views/agenda-matrix.js",
+    "assets/js/views/projects-pmo.js",
+    "assets/js/views/dashboard.js",
+    "assets/js/views/agenda-print.js"
+  ],
+  "sourceModelsUnchanged": true,
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "a60e2e2bac7f9e62d2da70d931e8f8ef9e615844a4e768ccaf6b816d1c1dd782",
+    "assets/css/app-bundle.css": "39e525cd82e23121fd376ab18056876cd3863a9a0f5bb1eeb1e790d264cfa9d1",
+    "assets/css/print-measure-bundle.css": "955c16b134acb5a305213c9f510b34fd5ec0cb3620ef8116da39709f52cc3a17"
+  },
+  "designRevision": 21,
+  "pptVisualRender": "NOT RUN: Office/LibreOffice unavailable; native chart data and package structure verified"
+}

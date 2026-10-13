@@ -1,0 +1,843 @@
+{
+  "checks": [
+    {
+      "check": "v154 chart bundle loaded",
+      "pass": true
+    },
+    {
+      "check": "1920 no document horizontal overflow",
+      "pass": true
+    },
+    {
+      "check": "1920 panel0 starts with full status totals",
+      "pass": true
+    },
+    {
+      "check": "1920 panel1 starts with full status totals",
+      "pass": true
+    },
+    {
+      "check": "1440 no document horizontal overflow",
+      "pass": true
+    },
+    {
+      "check": "1440 panel0 starts with full status totals",
+      "pass": true
+    },
+    {
+      "check": "1440 panel1 starts with full status totals",
+      "pass": true
+    },
+    {
+      "check": "1100 no document horizontal overflow",
+      "pass": true
+    },
+    {
+      "check": "1100 panel0 starts with full status totals",
+      "pass": true
+    },
+    {
+      "check": "1100 panel1 starts with full status totals",
+      "pass": true
+    },
+    {
+      "check": "768 no document horizontal overflow",
+      "pass": true
+    },
+    {
+      "check": "768 panel0 starts with full status totals",
+      "pass": true
+    },
+    {
+      "check": "768 panel1 starts with full status totals",
+      "pass": true
+    },
+    {
+      "check": "390 no document horizontal overflow",
+      "pass": true
+    },
+    {
+      "check": "390 panel0 starts with full status totals",
+      "pass": true
+    },
+    {
+      "check": "390 panel1 starts with full status totals",
+      "pass": true
+    },
+    {
+      "check": "360 no document horizontal overflow",
+      "pass": true
+    },
+    {
+      "check": "360 panel0 starts with full status totals",
+      "pass": true
+    },
+    {
+      "check": "360 panel1 starts with full status totals",
+      "pass": true
+    },
+    {
+      "check": "1440 hover leaves totals",
+      "pass": true
+    },
+    {
+      "check": "1440 hover has no selected outline",
+      "pass": true
+    },
+    {
+      "check": "1440 focus leaves totals",
+      "pass": true
+    },
+    {
+      "check": "1440 End focus leaves totals",
+      "pass": true
+    },
+    {
+      "check": "1440 End moves focus to last quarter",
+      "pass": true
+    },
+    {
+      "check": "1440 keyboard focus cue visible",
+      "pass": true
+    },
+    {
+      "check": "1440 Enter shows exact activated quarter",
+      "pass": true
+    },
+    {
+      "check": "1440 Home focus does not change activated values",
+      "pass": true
+    },
+    {
+      "check": "1440 Escape resets totals",
+      "pass": true
+    },
+    {
+      "check": "1440 click activates quarter",
+      "pass": true
+    },
+    {
+      "check": "1440 selected quarter has no persistent outline",
+      "pass": true
+    },
+    {
+      "check": "1440 repeated click returns totals",
+      "pass": true
+    },
+    {
+      "check": "1440 outside bar click resets totals",
+      "pass": true
+    },
+    {
+      "check": "1440 Space activates",
+      "pass": true
+    },
+    {
+      "check": "1440 repeated Space resets",
+      "pass": true
+    },
+    {
+      "check": "1440 selecting another panel restores first totals",
+      "pass": true
+    },
+    {
+      "check": "1440 zero values are dashes",
+      "pass": true
+    },
+    {
+      "check": "390 hover leaves totals",
+      "pass": true
+    },
+    {
+      "check": "390 hover has no selected outline",
+      "pass": true
+    },
+    {
+      "check": "390 focus leaves totals",
+      "pass": true
+    },
+    {
+      "check": "390 End focus leaves totals",
+      "pass": true
+    },
+    {
+      "check": "390 End moves focus to last quarter",
+      "pass": true
+    },
+    {
+      "check": "390 keyboard focus cue visible",
+      "pass": true
+    },
+    {
+      "check": "390 Enter shows exact activated quarter",
+      "pass": true
+    },
+    {
+      "check": "390 Home focus does not change activated values",
+      "pass": true
+    },
+    {
+      "check": "390 Escape resets totals",
+      "pass": true
+    },
+    {
+      "check": "390 click activates quarter",
+      "pass": true
+    },
+    {
+      "check": "390 selected quarter has no persistent outline",
+      "pass": true
+    },
+    {
+      "check": "390 repeated click returns totals",
+      "pass": true
+    },
+    {
+      "check": "390 outside bar click resets totals",
+      "pass": true
+    },
+    {
+      "check": "390 Space activates",
+      "pass": true
+    },
+    {
+      "check": "390 repeated Space resets",
+      "pass": true
+    },
+    {
+      "check": "390 selecting another panel restores first totals",
+      "pass": true
+    },
+    {
+      "check": "390 zero values are dashes",
+      "pass": true
+    },
+    {
+      "check": "approved-only 1440 no document overflow",
+      "pass": true
+    },
+    {
+      "check": "approved-only 1440 correct filtered totals",
+      "pass": true
+    },
+    {
+      "check": "approved-only 390 no document overflow",
+      "pass": true
+    },
+    {
+      "check": "approved-only 390 correct filtered totals",
+      "pass": true
+    },
+    {
+      "check": "approved-only 360 no document overflow",
+      "pass": true
+    },
+    {
+      "check": "approved-only 360 correct filtered totals",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 1440 no document overflow",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 1440 correct filtered totals",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 390 no document overflow",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 390 correct filtered totals",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 360 no document overflow",
+      "pass": true
+    },
+    {
+      "check": "emerging-only 360 correct filtered totals",
+      "pass": true
+    },
+    {
+      "check": "empty 1440 no document overflow",
+      "pass": true
+    },
+    {
+      "check": "empty 390 no document overflow",
+      "pass": true
+    },
+    {
+      "check": "empty 360 no document overflow",
+      "pass": true
+    },
+    {
+      "check": "empty scope has no chart category",
+      "pass": true
+    }
+  ],
+  "screens": [
+    {
+      "width": 1920,
+      "scroll": 1920,
+      "panels": [
+        {
+          "width": 875,
+          "labels": [
+            {
+              "text": "الربع الأول",
+              "w": 67.65625,
+              "h": 30
+            },
+            {
+              "text": "الربع الثاني",
+              "w": 68.1875,
+              "h": 30
+            },
+            {
+              "text": "الربع الثالث",
+              "w": 75.234375,
+              "h": 30
+            },
+            {
+              "text": "الربع الرابع",
+              "w": 69.828125,
+              "h": 30
+            }
+          ],
+          "targets": [
+            {
+              "w": 127.419921875,
+              "h": 243.44000244140625
+            },
+            {
+              "w": 127.419921875,
+              "h": 196.239990234375
+            },
+            {
+              "w": 127.419921875,
+              "h": 163.20001220703125
+            },
+            {
+              "w": 127.419921875,
+              "h": 333.1199951171875
+            }
+          ]
+        },
+        {
+          "width": 875,
+          "labels": [
+            {
+              "text": "الربع الأول",
+              "w": 67.65625,
+              "h": 30
+            },
+            {
+              "text": "الربع الثاني",
+              "w": 68.1875,
+              "h": 30
+            },
+            {
+              "text": "الربع الثالث",
+              "w": 75.234375,
+              "h": 30
+            },
+            {
+              "text": "الربع الرابع",
+              "w": 69.828125,
+              "h": 30
+            }
+          ],
+          "targets": [
+            {
+              "w": 127.41998291015625,
+              "h": 149.0400390625
+            },
+            {
+              "w": 127.42001342773438,
+              "h": 125.44000244140625
+            },
+            {
+              "w": 127.42001342773438,
+              "h": 144.32000732421875
+            },
+            {
+              "w": 127.41998291015625,
+              "h": 125.44000244140625
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "panels": [
+        {
+          "width": 635,
+          "labels": [
+            {
+              "text": "الربع الأول",
+              "w": 60.84375,
+              "h": 27
+            },
+            {
+              "text": "الربع الثاني",
+              "w": 61.328125,
+              "h": 27
+            },
+            {
+              "text": "الربع الثالث",
+              "w": 67.65625,
+              "h": 27
+            },
+            {
+              "text": "الربع الرابع",
+              "w": 62.796875,
+              "h": 27
+            }
+          ],
+          "targets": [
+            {
+              "w": 114.676025390625,
+              "h": 219.09234619140625
+            },
+            {
+              "w": 114.676025390625,
+              "h": 176.613037109375
+            },
+            {
+              "w": 114.676025390625,
+              "h": 146.87750244140625
+            },
+            {
+              "w": 114.67608642578125,
+              "h": 299.802978515625
+            }
+          ]
+        },
+        {
+          "width": 635,
+          "labels": [
+            {
+              "text": "الربع الأول",
+              "w": 60.84375,
+              "h": 27
+            },
+            {
+              "text": "الربع الثاني",
+              "w": 61.328125,
+              "h": 27
+            },
+            {
+              "text": "الربع الثالث",
+              "w": 67.65625,
+              "h": 27
+            },
+            {
+              "text": "الربع الرابع",
+              "w": 62.796875,
+              "h": 27
+            }
+          ],
+          "targets": [
+            {
+              "w": 114.67608642578125,
+              "h": 134.13372802734375
+            },
+            {
+              "w": 114.67608642578125,
+              "h": 112.89410400390625
+            },
+            {
+              "w": 114.67608642578125,
+              "h": 129.88580322265625
+            },
+            {
+              "w": 114.67607116699219,
+              "h": 112.89410400390625
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1100,
+      "scroll": 1100,
+      "panels": [
+        {
+          "width": 954,
+          "labels": [
+            {
+              "text": "الربع الأول",
+              "w": 68.59381103515625,
+              "h": 31
+            },
+            {
+              "text": "الربع الثاني",
+              "w": 69.14056396484375,
+              "h": 31
+            },
+            {
+              "text": "الربع الثالث",
+              "w": 76.28128051757812,
+              "h": 31
+            },
+            {
+              "text": "الربع الرابع",
+              "w": 70.796875,
+              "h": 31
+            }
+          ],
+          "targets": [
+            {
+              "w": 129.26666259765625,
+              "h": 246.96807861328125
+            },
+            {
+              "w": 129.26666259765625,
+              "h": 199.08404541015625
+            },
+            {
+              "w": 129.26666259765625,
+              "h": 165.565185546875
+            },
+            {
+              "w": 129.26666259765625,
+              "h": 337.94781494140625
+            }
+          ]
+        },
+        {
+          "width": 954,
+          "labels": [
+            {
+              "text": "الربع الأول",
+              "w": 68.59381103515625,
+              "h": 31
+            },
+            {
+              "text": "الربع الثاني",
+              "w": 69.14056396484375,
+              "h": 31
+            },
+            {
+              "text": "الربع الثالث",
+              "w": 76.28128051757812,
+              "h": 31
+            },
+            {
+              "text": "الربع الرابع",
+              "w": 70.796875,
+              "h": 31
+            }
+          ],
+          "targets": [
+            {
+              "w": 129.26666259765625,
+              "h": 151.199951171875
+            },
+            {
+              "w": 129.26666259765625,
+              "h": 127.2579345703125
+            },
+            {
+              "w": 129.26666259765625,
+              "h": 146.41162109375
+            },
+            {
+              "w": 129.26666259765625,
+              "h": 127.2579345703125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "panels": [
+        {
+          "width": 654,
+          "labels": [
+            {
+              "text": "الربع الأول",
+              "w": 62.84381103515625,
+              "h": 28
+            },
+            {
+              "text": "الربع الثاني",
+              "w": 63.34375,
+              "h": 28
+            },
+            {
+              "text": "الربع الثالث",
+              "w": 69.875,
+              "h": 28
+            },
+            {
+              "text": "الربع الرابع",
+              "w": 64.85939025878906,
+              "h": 28
+            }
+          ],
+          "targets": [
+            {
+              "w": 118.39828491210938,
+              "h": 226.20367431640625
+            },
+            {
+              "w": 118.39828491210938,
+              "h": 182.3455810546875
+            },
+            {
+              "w": 118.39826965332031,
+              "h": 151.6448974609375
+            },
+            {
+              "w": 118.39825439453125,
+              "h": 309.5340576171875
+            }
+          ]
+        },
+        {
+          "width": 654,
+          "labels": [
+            {
+              "text": "الربع الأول",
+              "w": 62.84381103515625,
+              "h": 28
+            },
+            {
+              "text": "الربع الثاني",
+              "w": 63.34375,
+              "h": 28
+            },
+            {
+              "text": "الربع الثالث",
+              "w": 69.875,
+              "h": 28
+            },
+            {
+              "text": "الربع الرابع",
+              "w": 64.85939025878906,
+              "h": 28
+            }
+          ],
+          "targets": [
+            {
+              "w": 118.39828491210938,
+              "h": 138.487548828125
+            },
+            {
+              "w": 118.39828491210938,
+              "h": 116.5584716796875
+            },
+            {
+              "w": 118.39826965332031,
+              "h": 134.1016845703125
+            },
+            {
+              "w": 118.39825439453125,
+              "h": 116.5584716796875
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "panels": [
+        {
+          "width": 324,
+          "labels": [
+            {
+              "text": "ربع 1",
+              "w": 29.3526611328125,
+              "h": 24
+            },
+            {
+              "text": "ربع 2",
+              "w": 29.352676391601562,
+              "h": 24
+            },
+            {
+              "text": "ربع 3",
+              "w": 29.352691650390625,
+              "h": 24
+            },
+            {
+              "text": "ربع 4",
+              "w": 29.352691650390625,
+              "h": 24
+            }
+          ],
+          "targets": [
+            {
+              "w": 56.8475341796875,
+              "h": 108.6090087890625
+            },
+            {
+              "w": 56.84751892089844,
+              "h": 87.55105590820312
+            },
+            {
+              "w": 56.84751892089844,
+              "h": 72.81048583984375
+            },
+            {
+              "w": 56.847511291503906,
+              "h": 148.61907958984375
+            }
+          ]
+        },
+        {
+          "width": 324,
+          "labels": [
+            {
+              "text": "ربع 1",
+              "w": 29.3526611328125,
+              "h": 24
+            },
+            {
+              "text": "ربع 2",
+              "w": 29.352676391601562,
+              "h": 24
+            },
+            {
+              "text": "ربع 3",
+              "w": 29.352691650390625,
+              "h": 24
+            },
+            {
+              "text": "ربع 4",
+              "w": 29.352691650390625,
+              "h": 24
+            }
+          ],
+          "targets": [
+            {
+              "w": 56.8475341796875,
+              "h": 66.49310302734375
+            },
+            {
+              "w": 56.84751892089844,
+              "h": 55.96417236328125
+            },
+            {
+              "w": 56.84751892089844,
+              "h": 64.3873291015625
+            },
+            {
+              "w": 56.847511291503906,
+              "h": 55.96417236328125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "scroll": 360,
+      "panels": [
+        {
+          "width": 294,
+          "labels": [
+            {
+              "text": "ربع 1",
+              "w": 26.187484741210938,
+              "h": 21
+            },
+            {
+              "text": "ربع 2",
+              "w": 26.1875,
+              "h": 21
+            },
+            {
+              "text": "ربع 3",
+              "w": 26.1875,
+              "h": 21
+            },
+            {
+              "text": "ربع 4",
+              "w": 26.1875,
+              "h": 21
+            }
+          ],
+          "targets": [
+            {
+              "w": 50.96607971191406,
+              "h": 97.372314453125
+            },
+            {
+              "w": 50.96607971191406,
+              "h": 78.4930419921875
+            },
+            {
+              "w": 50.96607208251953,
+              "h": 65.27752685546875
+            },
+            {
+              "w": 50.96607208251953,
+              "h": 133.24295043945312
+            }
+          ]
+        },
+        {
+          "width": 294,
+          "labels": [
+            {
+              "text": "ربع 1",
+              "w": 26.187484741210938,
+              "h": 21
+            },
+            {
+              "text": "ربع 2",
+              "w": 26.1875,
+              "h": 21
+            },
+            {
+              "text": "ربع 3",
+              "w": 26.1875,
+              "h": 21
+            },
+            {
+              "text": "ربع 4",
+              "w": 26.1875,
+              "h": 21
+            }
+          ],
+          "targets": [
+            {
+              "w": 50.96607971191406,
+              "h": 59.61370849609375
+            },
+            {
+              "w": 50.96607971191406,
+              "h": 50.174072265625
+            },
+            {
+              "w": 50.96607208251953,
+              "h": 57.725830078125
+            },
+            {
+              "w": 50.96607208251953,
+              "h": 50.174072265625
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "issues": [],
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "aa2ee878d8cd3b1e386f3e291914046a5f56e3019fff4597c996dbd5be4fa44b",
+    "assets/css/app-bundle.css": "39e525cd82e23121fd376ab18056876cd3863a9a0f5bb1eeb1e790d264cfa9d1",
+    "assets/css/print-measure-bundle.css": "955c16b134acb5a305213c9f510b34fd5ec0cb3620ef8116da39709f52cc3a17"
+  },
+  "fixtureSHA256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "verdict": "PASS"
+}

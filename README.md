@@ -1,4 +1,14 @@
-# Performance App v153
+# Performance App v154
+
+[Download app — v154](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v154.zip) · [Updated TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles.zip) · [Revision 21](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-21.md) · [Preview](Status-Consistency-v154/README.md) · [Verification](Saytara-Verification-v154.md)
+
+Status colors now follow one shared mapping across badges, charts, legends and exports. The agenda shows totals by status beneath each chart by default; clicking a quarter shows its breakdown. The persistent bar outline is removed, with keyboard focus preserved. PDF always shows aggregate status totals with the original definitions together after the cover.
+
+Desktop, phone and native PDF checks passed. PowerPoint chart values, status colors and editable package structure were verified; an Office visual render was unavailable.
+
+Extract the complete app ZIP and open **index.html**. No source workbook is included.
+
+# Previous release — v153
 
 [Download app — v153](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v153.zip) · [Verification](Saytara-Verification-v153.md) · [Applied charts and PDF preview](Agenda-Charts-v153/README.md)
 

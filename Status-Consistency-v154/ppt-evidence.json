@@ -1,0 +1,209 @@
+{
+  "version": 154,
+  "fixture": "/workspace/saytara-work/monthly-apple-preview/ILLUSTRATIVE-monthly-preview.xlsx",
+  "fixtureSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "illustrative": true,
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "a60e2e2bac7f9e62d2da70d931e8f8ef9e615844a4e768ccaf6b816d1c1dd782",
+    "assets/css/app-bundle.css": "39e525cd82e23121fd376ab18056876cd3863a9a0f5bb1eeb1e790d264cfa9d1",
+    "assets/css/print-measure-bundle.css": "955c16b134acb5a305213c9f510b34fd5ec0cb3620ef8116da39709f52cc3a17"
+  },
+  "checks": [
+    {
+      "check": "all actual browser PPTX exports completed",
+      "pass": true
+    },
+    {
+      "check": "agenda source records and summary unchanged",
+      "pass": true
+    },
+    {
+      "check": "agenda export leaves loaded source unchanged",
+      "pass": true
+    },
+    {
+      "check": "agenda slide count unchanged",
+      "pass": true
+    },
+    {
+      "check": "agenda ZIP CRC valid",
+      "pass": true
+    },
+    {
+      "check": "agenda all OOXML parts parse",
+      "pass": true
+    },
+    {
+      "check": "agenda native editable chart count unchanged",
+      "pass": true
+    },
+    {
+      "check": "agenda every chart series/category/count cache unchanged",
+      "pass": true
+    },
+    {
+      "check": "agenda embedded editable chart workbooks byte-identical",
+      "pass": true
+    },
+    {
+      "check": "agenda actual native status fills and borders match shared palette",
+      "pass": true
+    },
+    {
+      "check": "agenda all slide text and values unchanged",
+      "pass": true
+    },
+    {
+      "check": "agenda native status table text uses readable canonical ink",
+      "pass": true
+    },
+    {
+      "check": "council source records and summary unchanged",
+      "pass": true
+    },
+    {
+      "check": "council export leaves loaded source unchanged",
+      "pass": true
+    },
+    {
+      "check": "council slide count unchanged",
+      "pass": true
+    },
+    {
+      "check": "council ZIP CRC valid",
+      "pass": true
+    },
+    {
+      "check": "council all OOXML parts parse",
+      "pass": true
+    },
+    {
+      "check": "council native editable chart count unchanged",
+      "pass": true
+    },
+    {
+      "check": "council every chart series/category/count cache unchanged",
+      "pass": true
+    },
+    {
+      "check": "council embedded editable chart workbooks byte-identical",
+      "pass": true
+    },
+    {
+      "check": "council ppt/charts/chart2.xml non-status categorical styling preserved",
+      "pass": true
+    },
+    {
+      "check": "council ppt/charts/chart3.xml non-status categorical styling preserved",
+      "pass": true
+    },
+    {
+      "check": "council actual native status fills and borders match shared palette",
+      "pass": true
+    },
+    {
+      "check": "council all slide text and values unchanged",
+      "pass": true
+    },
+    {
+      "check": "council native status table text uses readable canonical ink",
+      "pass": true
+    },
+    {
+      "check": "hh source records and summary unchanged",
+      "pass": true
+    },
+    {
+      "check": "hh export leaves loaded source unchanged",
+      "pass": true
+    },
+    {
+      "check": "hh slide count unchanged",
+      "pass": true
+    },
+    {
+      "check": "hh ZIP CRC valid",
+      "pass": true
+    },
+    {
+      "check": "hh all OOXML parts parse",
+      "pass": true
+    },
+    {
+      "check": "hh native editable chart count unchanged",
+      "pass": true
+    },
+    {
+      "check": "hh every chart series/category/count cache unchanged",
+      "pass": true
+    },
+    {
+      "check": "hh embedded editable chart workbooks byte-identical",
+      "pass": true
+    },
+    {
+      "check": "hh actual native status fills and borders match shared palette",
+      "pass": true
+    },
+    {
+      "check": "hh all slide text and values unchanged",
+      "pass": true
+    },
+    {
+      "check": "hh native status table text uses readable canonical ink",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "records": [
+    {
+      "kind": "agenda",
+      "slides": 14,
+      "charts": 9,
+      "editableWorkbooks": 9,
+      "statusColorsSeen": [
+        "جاهز للعرض",
+        "قيد التطوير",
+        "قيد المراجعة",
+        "منجز"
+      ],
+      "statusTableCells": 117,
+      "sourceRows": 117,
+      "artifactSha256": "6fbe64dfe4c6fdaef52aa0363f6f2ece1f62da5f8e3e35f15265d1d6e94202db"
+    },
+    {
+      "kind": "council",
+      "slides": 47,
+      "charts": 3,
+      "editableWorkbooks": 3,
+      "statusColorsSeen": [
+        "بدون حالة",
+        "قيد التطوير",
+        "قيد المراجعة",
+        "منجز"
+      ],
+      "statusTableCells": 126,
+      "sourceRows": 70,
+      "artifactSha256": "44daf0a22e408cc2057a13fed8fb7ad88848f6f696f60c9c926ed4082373f4e9"
+    },
+    {
+      "kind": "hh",
+      "slides": 77,
+      "charts": 1,
+      "editableWorkbooks": 1,
+      "statusColorsSeen": [
+        "حالات أخرى",
+        "قيد التطوير",
+        "قيد المراجعة",
+        "منجز"
+      ],
+      "statusTableCells": 61,
+      "sourceRows": 62,
+      "artifactSha256": "cffe2238dd8b71115067706993f607533264b8b0c655f618fd02253d025ebbd5"
+    }
+  ],
+  "limitations": [
+    "Generated PPTX package, native chart caches, embedded workbooks, source record keys, status fills/borders and editable text were inspected. No PowerPoint/LibreOffice rendering engine is installed, so Office visual rendering was not verified."
+  ],
+  "verdict": "PASS"
+}

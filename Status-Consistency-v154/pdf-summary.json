@@ -1,0 +1,1125 @@
+{
+  "version": 154,
+  "verdict": "PASS",
+  "source": "monthly-apple-preview/ILLUSTRATIVE-monthly-preview.xlsx",
+  "sourceSHA256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "aa2ee878d8cd3b1e386f3e291914046a5f56e3019fff4597c996dbd5be4fa44b",
+    "assets/css/app-bundle.css": "39e525cd82e23121fd376ab18056876cd3863a9a0f5bb1eeb1e790d264cfa9d1",
+    "assets/css/print-measure-bundle.css": "955c16b134acb5a305213c9f510b34fd5ec0cb3620ef8116da39709f52cc3a17"
+  },
+  "checks": [
+    {
+      "name": "evidence.json no JS errors",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all status totals reset before PDF",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all every aggregate count matches chart data",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all chart totals and definitions stay together inside 182mm",
+      "pass": true,
+      "details": 179.14358723958333
+    },
+    {
+      "name": "all interactive affordances removed",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all native chart vectors/text, no raster chart",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 0",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 20",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 30",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 40",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 50",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 27",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font الربع الأول",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 17",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font الربع الثاني",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font الربع الثالث",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 46",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font الربع الرابع",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 0",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 20",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 30",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 40",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 50",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 7",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font الربع الأول",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font الربع الثاني",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font الربع الثالث",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font 2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all SVG font الربع الرابع",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all A4 landscape pages",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all PDF page 1 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "all PDF page 2 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "all PDF page 3 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "all PDF page 4 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "all PDF page 5 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "all PDF page 6 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "all PDF page 7 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "all PDF page 8 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "all PDF page 9 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "all PDF page 10 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "all PDF page 11 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "all PDF page 12 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "all PDF page 13 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "all PDF page 14 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "one status totals reset before PDF",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "one every aggregate count matches chart data",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "one chart totals and definitions stay together inside 182mm",
+      "pass": true,
+      "details": 179.14358723958333
+    },
+    {
+      "name": "one interactive affordances removed",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "one native chart vectors/text, no raster chart",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "one SVG font 0",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "one SVG font 1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "one SVG font 1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "one SVG font الربع الأول",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "one SVG font 1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "one SVG font الربع الثالث",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "one A4 landscape pages",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "one PDF page 1 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "one PDF page 2 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "one PDF page 3 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "click-export status totals reset before PDF",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export every aggregate count matches chart data",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export chart totals and definitions stay together inside 182mm",
+      "pass": true,
+      "details": 179.14358723958333
+    },
+    {
+      "name": "click-export interactive affordances removed",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export native chart vectors/text, no raster chart",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 0",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 20",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 30",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 40",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 50",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 27",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font الربع الأول",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 17",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font الربع الثاني",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font الربع الثالث",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 46",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font الربع الرابع",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 0",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 10",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 20",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 30",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 40",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 50",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 7",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font الربع الأول",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font الربع الثاني",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font الربع الثالث",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font 2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export SVG font الربع الرابع",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export A4 landscape pages",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "click-export PDF page 1 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "click-export PDF page 2 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "click-export PDF page 3 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "click-export PDF page 4 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "click-export PDF page 5 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "click-export PDF page 6 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "click-export PDF page 7 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "click-export PDF page 8 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "click-export PDF page 9 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "click-export PDF page 10 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "click-export PDF page 11 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "click-export PDF page 12 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "click-export PDF page 13 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "click-export PDF page 14 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "dense-evidence.json no JS errors",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods status totals reset before PDF",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods every aggregate count matches chart data",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods chart totals and definitions stay together inside 182mm",
+      "pass": true,
+      "details": 180.49130859374998
+    },
+    {
+      "name": "synthetic-five-periods interactive affordances removed",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods native chart vectors/text, no raster chart",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 0",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 8",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 7",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font ربع 1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font ربع 2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font ربع 3",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font ربع 4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font مواضيع غيرمحددةالموعد",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 0",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 8",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font ربع 1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font –",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font ربع 2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font –",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font ربع 3",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font –",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font ربع 4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font مواضيع غيرمحددةالموعد",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 0",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 6",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 8",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font –",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font ربع 1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font –",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font ربع 2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font –",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font ربع 3",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font 1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font ربع 4",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font –",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods SVG font مواضيع غيرمحددةالموعد",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods A4 landscape pages",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-five-periods PDF page 1 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-five-periods PDF page 2 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-five-periods PDF page 3 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-five-periods PDF page 4 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-five-periods PDF page 5 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-one-late status totals reset before PDF",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-one-late every aggregate count matches chart data",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-one-late chart totals and definitions stay together inside 182mm",
+      "pass": true,
+      "details": 179.14358723958333
+    },
+    {
+      "name": "synthetic-one-late interactive affordances removed",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-one-late native chart vectors/text, no raster chart",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-one-late SVG font 0",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-one-late SVG font 1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-one-late SVG font 1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-one-late SVG font مواضيع غيرمحددة الموعد",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-one-late A4 landscape pages",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-one-late PDF page 1 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-one-late PDF page 2 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-one-late PDF page 3 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-large-quarter status totals reset before PDF",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter every aggregate count matches chart data",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter chart totals and definitions stay together inside 182mm",
+      "pass": true,
+      "details": 179.14358723958333
+    },
+    {
+      "name": "synthetic-large-quarter interactive affordances removed",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter native chart vectors/text, no raster chart",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font 0",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font 50",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font 100",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font 150",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font 127",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font الربع الأول",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font –",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font الربع الثالث",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font 0",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font 50",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font 100",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font 150",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font –",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font الربع الأول",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font 2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter SVG font الربع الثالث",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter A4 landscape pages",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "synthetic-large-quarter PDF page 1 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-large-quarter PDF page 2 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-large-quarter PDF page 3 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-large-quarter PDF page 4 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-large-quarter PDF page 5 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-large-quarter PDF page 6 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-large-quarter PDF page 7 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-large-quarter PDF page 8 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-large-quarter PDF page 9 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-large-quarter PDF page 10 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-large-quarter PDF page 11 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-large-quarter PDF page 12 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-large-quarter PDF page 13 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-large-quarter PDF page 14 text in page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "synthetic-large-quarter PDF page 15 text in page bounds",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "scopes": [
+    "all",
+    "one",
+    "click-export",
+    "synthetic-five-periods",
+    "synthetic-one-late",
+    "synthetic-large-quarter"
+  ],
+  "visualReview": [
+    "all-page2.png",
+    "one-page2.png",
+    "synthetic-five-periods-page2.png"
+  ],
+  "limitations": [
+    "Synthetic cases clone records in runtime only, not authoritative workbook records.",
+    "Managed Chromium loopback served local offline-capable app; cold file:// shell not exercised."
+  ]
+}

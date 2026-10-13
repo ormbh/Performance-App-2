@@ -1,0 +1,519 @@
+{
+  "version": 154,
+  "synthetic": true,
+  "purpose": "Exercise every status palette category through the native HH PowerPoint chart, legend, card and master table; not source report results.",
+  "checks": [
+    {
+      "check": "synthetic native PPTX ZIP valid",
+      "pass": true
+    },
+    {
+      "check": "all synthetic source records retained",
+      "pass": true
+    },
+    {
+      "check": "منجز native series fill and border",
+      "pass": true
+    },
+    {
+      "check": "منجز exact native count remains one",
+      "pass": true
+    },
+    {
+      "check": "متأخر native series fill and border",
+      "pass": true
+    },
+    {
+      "check": "متأخر exact native count remains one",
+      "pass": true
+    },
+    {
+      "check": "جاهز للعرض native series fill and border",
+      "pass": true
+    },
+    {
+      "check": "جاهز للعرض exact native count remains one",
+      "pass": true
+    },
+    {
+      "check": "قيد المراجعة native series fill and border",
+      "pass": true
+    },
+    {
+      "check": "قيد المراجعة exact native count remains one",
+      "pass": true
+    },
+    {
+      "check": "قيد العمل native series fill and border",
+      "pass": true
+    },
+    {
+      "check": "قيد العمل exact native count remains one",
+      "pass": true
+    },
+    {
+      "check": "معلق native series fill and border",
+      "pass": true
+    },
+    {
+      "check": "معلق exact native count remains one",
+      "pass": true
+    },
+    {
+      "check": "ملغى native series fill and border",
+      "pass": true
+    },
+    {
+      "check": "ملغى exact native count remains one",
+      "pass": true
+    },
+    {
+      "check": "منقول native series fill and border",
+      "pass": true
+    },
+    {
+      "check": "منقول exact native count remains one",
+      "pass": true
+    },
+    {
+      "check": "لم يبدأ native series fill and border",
+      "pass": true
+    },
+    {
+      "check": "لم يبدأ exact native count remains one",
+      "pass": true
+    },
+    {
+      "check": "مقاس native series fill and border",
+      "pass": true
+    },
+    {
+      "check": "مقاس exact native count remains one",
+      "pass": true
+    },
+    {
+      "check": "غير مقاس native series fill and border",
+      "pass": true
+    },
+    {
+      "check": "غير مقاس exact native count remains one",
+      "pass": true
+    },
+    {
+      "check": "لا ينطبق native series fill and border",
+      "pass": true
+    },
+    {
+      "check": "لا ينطبق exact native count remains one",
+      "pass": true
+    },
+    {
+      "check": "اختبار حالة غير معروفة native series fill and border",
+      "pass": true
+    },
+    {
+      "check": "اختبار حالة غير معروفة exact native count remains one",
+      "pass": true
+    },
+    {
+      "check": "all status categories represented in native chart",
+      "pass": true
+    },
+    {
+      "check": "منجز native project card readable status ink",
+      "pass": true
+    },
+    {
+      "check": "منجز native master table readable status ink",
+      "pass": true
+    },
+    {
+      "check": "منجز editable legend marker fill and border",
+      "pass": true
+    },
+    {
+      "check": "متأخر native project card readable status ink",
+      "pass": true
+    },
+    {
+      "check": "متأخر native master table readable status ink",
+      "pass": true
+    },
+    {
+      "check": "متأخر editable legend marker fill and border",
+      "pass": true
+    },
+    {
+      "check": "جاهز للعرض native project card readable status ink",
+      "pass": true
+    },
+    {
+      "check": "جاهز للعرض native master table readable status ink",
+      "pass": true
+    },
+    {
+      "check": "جاهز للعرض editable legend marker fill and border",
+      "pass": true
+    },
+    {
+      "check": "قيد المراجعة native project card readable status ink",
+      "pass": true
+    },
+    {
+      "check": "قيد المراجعة native master table readable status ink",
+      "pass": true
+    },
+    {
+      "check": "قيد المراجعة editable legend marker fill and border",
+      "pass": true
+    },
+    {
+      "check": "قيد العمل native project card readable status ink",
+      "pass": true
+    },
+    {
+      "check": "قيد العمل native master table readable status ink",
+      "pass": true
+    },
+    {
+      "check": "قيد العمل editable legend marker fill and border",
+      "pass": true
+    },
+    {
+      "check": "معلق native project card readable status ink",
+      "pass": true
+    },
+    {
+      "check": "معلق native master table readable status ink",
+      "pass": true
+    },
+    {
+      "check": "معلق editable legend marker fill and border",
+      "pass": true
+    },
+    {
+      "check": "ملغى native project card readable status ink",
+      "pass": true
+    },
+    {
+      "check": "ملغى native master table readable status ink",
+      "pass": true
+    },
+    {
+      "check": "ملغى editable legend marker fill and border",
+      "pass": true
+    },
+    {
+      "check": "منقول native project card readable status ink",
+      "pass": true
+    },
+    {
+      "check": "منقول native master table readable status ink",
+      "pass": true
+    },
+    {
+      "check": "منقول editable legend marker fill and border",
+      "pass": true
+    },
+    {
+      "check": "لم يبدأ native project card readable status ink",
+      "pass": true
+    },
+    {
+      "check": "لم يبدأ native master table readable status ink",
+      "pass": true
+    },
+    {
+      "check": "لم يبدأ editable legend marker fill and border",
+      "pass": true
+    },
+    {
+      "check": "مقاس native project card readable status ink",
+      "pass": true
+    },
+    {
+      "check": "مقاس native master table readable status ink",
+      "pass": true
+    },
+    {
+      "check": "مقاس editable legend marker fill and border",
+      "pass": true
+    },
+    {
+      "check": "غير مقاس native project card readable status ink",
+      "pass": true
+    },
+    {
+      "check": "غير مقاس native master table readable status ink",
+      "pass": true
+    },
+    {
+      "check": "غير مقاس editable legend marker fill and border",
+      "pass": true
+    },
+    {
+      "check": "لا ينطبق native project card readable status ink",
+      "pass": true
+    },
+    {
+      "check": "لا ينطبق native master table readable status ink",
+      "pass": true
+    },
+    {
+      "check": "لا ينطبق editable legend marker fill and border",
+      "pass": true
+    },
+    {
+      "check": "اختبار حالة غير معروفة native project card readable status ink",
+      "pass": true
+    },
+    {
+      "check": "اختبار حالة غير معروفة native master table readable status ink",
+      "pass": true
+    },
+    {
+      "check": "اختبار حالة غير معروفة editable legend marker fill and border",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "labels": [
+    "منجز",
+    "متأخر",
+    "جاهز للعرض",
+    "قيد المراجعة",
+    "قيد العمل",
+    "معلق",
+    "ملغى",
+    "منقول",
+    "لم يبدأ",
+    "مقاس",
+    "غير مقاس",
+    "لا ينطبق",
+    "اختبار حالة غير معروفة"
+  ],
+  "palette": {
+    "منجز": {
+      "fill": "#01831E",
+      "ink": "#FCFBFB",
+      "border": "#01831E"
+    },
+    "متأخر": {
+      "fill": "#C00000",
+      "ink": "#FCFBFB",
+      "border": "#C00000"
+    },
+    "جاهز للعرض": {
+      "fill": "#115E67",
+      "ink": "#FCFBFB",
+      "border": "#115E67"
+    },
+    "قيد المراجعة": {
+      "fill": "#D9E1E2",
+      "ink": "#115E67",
+      "border": "#115E67"
+    },
+    "قيد العمل": {
+      "fill": "#D9E1E2",
+      "ink": "#115E67",
+      "border": "#115E67"
+    },
+    "معلق": {
+      "fill": "#651D32",
+      "ink": "#FCFBFB",
+      "border": "#651D32"
+    },
+    "ملغى": {
+      "fill": "#E7E0D3",
+      "ink": "#651D32",
+      "border": "#651D32"
+    },
+    "منقول": {
+      "fill": "#FCFBFB",
+      "ink": "#115E67",
+      "border": "#115E67"
+    },
+    "لم يبدأ": {
+      "fill": "#4F4E4E",
+      "ink": "#FCFBFB",
+      "border": "#4F4E4E"
+    },
+    "مقاس": {
+      "fill": "#D9E1E2",
+      "ink": "#115E67",
+      "border": "#115E67"
+    },
+    "غير مقاس": {
+      "fill": "#4F4E4E",
+      "ink": "#FCFBFB",
+      "border": "#4F4E4E"
+    },
+    "لا ينطبق": {
+      "fill": "#4F4E4E",
+      "ink": "#FCFBFB",
+      "border": "#4F4E4E"
+    },
+    "اختبار حالة غير معروفة": {
+      "fill": "#FCFBFB",
+      "ink": "#4F4E4E",
+      "border": "#C8C7C7"
+    }
+  },
+  "keys": [
+    "SYNTH-PPT-0",
+    "SYNTH-PPT-1",
+    "SYNTH-PPT-2",
+    "SYNTH-PPT-3",
+    "SYNTH-PPT-4",
+    "SYNTH-PPT-5",
+    "SYNTH-PPT-6",
+    "SYNTH-PPT-7",
+    "SYNTH-PPT-8",
+    "SYNTH-PPT-9",
+    "SYNTH-PPT-10",
+    "SYNTH-PPT-11",
+    "SYNTH-PPT-12"
+  ],
+  "result": {
+    "slides": 20,
+    "summary": {
+      "inProgress": 3,
+      "leadInProgress": 3,
+      "otherOpen": 9,
+      "leadOtherOpen": 9,
+      "leadOnly": true,
+      "total": 13,
+      "lead": 13,
+      "done": 1,
+      "leadDone": 1,
+      "remaining": 12,
+      "leadRemaining": 12,
+      "added": null,
+      "leadAdded": null,
+      "names": [
+        "منجز",
+        "متأخر",
+        "جاهز للعرض",
+        "قيد المراجعة",
+        "قيد العمل",
+        "معلق",
+        "ملغى",
+        "منقول",
+        "لم يبدأ",
+        "مقاس",
+        "غير مقاس",
+        "لا ينطبق",
+        "اختبار حالة غير معروفة"
+      ],
+      "statuses": [
+        {
+          "name": "منجز",
+          "total": 1,
+          "lead": 1
+        },
+        {
+          "name": "متأخر",
+          "total": 1,
+          "lead": 1
+        },
+        {
+          "name": "جاهز للعرض",
+          "total": 1,
+          "lead": 1
+        },
+        {
+          "name": "قيد المراجعة",
+          "total": 1,
+          "lead": 1
+        },
+        {
+          "name": "قيد العمل",
+          "total": 1,
+          "lead": 1
+        },
+        {
+          "name": "معلق",
+          "total": 1,
+          "lead": 1
+        },
+        {
+          "name": "ملغى",
+          "total": 1,
+          "lead": 1
+        },
+        {
+          "name": "منقول",
+          "total": 1,
+          "lead": 1
+        },
+        {
+          "name": "لم يبدأ",
+          "total": 1,
+          "lead": 1
+        },
+        {
+          "name": "مقاس",
+          "total": 1,
+          "lead": 1
+        },
+        {
+          "name": "غير مقاس",
+          "total": 1,
+          "lead": 1
+        },
+        {
+          "name": "لا ينطبق",
+          "total": 1,
+          "lead": 1
+        },
+        {
+          "name": "اختبار حالة غير معروفة",
+          "total": 1,
+          "lead": 1
+        }
+      ],
+      "sectors": [
+        {
+          "name": "قطاع التحقق",
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "keys": [
+      "SYNTH-PPT-0",
+      "SYNTH-PPT-1",
+      "SYNTH-PPT-2",
+      "SYNTH-PPT-3",
+      "SYNTH-PPT-4",
+      "SYNTH-PPT-5",
+      "SYNTH-PPT-6",
+      "SYNTH-PPT-7",
+      "SYNTH-PPT-8",
+      "SYNTH-PPT-9",
+      "SYNTH-PPT-10",
+      "SYNTH-PPT-11",
+      "SYNTH-PPT-12"
+    ]
+  },
+  "artifactSha256": "5bed33617990bbcd4c781e2389a2e15bb606d27253382362f398fe352e95761c",
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "a60e2e2bac7f9e62d2da70d931e8f8ef9e615844a4e768ccaf6b816d1c1dd782",
+    "assets/css/app-bundle.css": "39e525cd82e23121fd376ab18056876cd3863a9a0f5bb1eeb1e790d264cfa9d1",
+    "assets/css/print-measure-bundle.css": "955c16b134acb5a305213c9f510b34fd5ec0cb3620ef8116da39709f52cc3a17"
+  },
+  "verdict": "PASS"
+}

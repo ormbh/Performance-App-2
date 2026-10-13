@@ -1,0 +1,1049 @@
+{
+  "verdict": "PASS",
+  "provenance": "Rendered shared badge component cases plus actual fixture agenda tables/chart/legend",
+  "issues": [],
+  "components": [
+    {
+      "label": "منجز",
+      "category": "done",
+      "badgeClass": "st st-done",
+      "actual": {
+        "fill": "rgb(1, 131, 30)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(1, 131, 30)"
+      },
+      "expected": {
+        "fill": "rgb(1, 131, 30)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(1, 131, 30)"
+      }
+    },
+    {
+      "label": "متأخر",
+      "category": "delayed",
+      "badgeClass": "st st-delayed",
+      "actual": {
+        "fill": "rgb(192, 0, 0)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(192, 0, 0)"
+      },
+      "expected": {
+        "fill": "rgb(192, 0, 0)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(192, 0, 0)"
+      }
+    },
+    {
+      "label": "جاهز للعرض",
+      "category": "ready",
+      "badgeClass": "st st-ready",
+      "actual": {
+        "fill": "rgb(17, 94, 103)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(17, 94, 103)"
+      },
+      "expected": {
+        "fill": "rgb(17, 94, 103)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(17, 94, 103)"
+      }
+    },
+    {
+      "label": "قيد العمل",
+      "category": "progress",
+      "badgeClass": "st st-progress",
+      "actual": {
+        "fill": "rgb(217, 225, 226)",
+        "ink": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)"
+      },
+      "expected": {
+        "fill": "rgb(217, 225, 226)",
+        "ink": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)"
+      }
+    },
+    {
+      "label": "قيد التطوير",
+      "category": "progress",
+      "badgeClass": "st st-progress",
+      "actual": {
+        "fill": "rgb(217, 225, 226)",
+        "ink": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)"
+      },
+      "expected": {
+        "fill": "rgb(217, 225, 226)",
+        "ink": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)"
+      }
+    },
+    {
+      "label": "قيد الإجراء",
+      "category": "progress",
+      "badgeClass": "st st-progress",
+      "actual": {
+        "fill": "rgb(217, 225, 226)",
+        "ink": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)"
+      },
+      "expected": {
+        "fill": "rgb(217, 225, 226)",
+        "ink": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)"
+      }
+    },
+    {
+      "label": "قيد المراجعة",
+      "category": "review",
+      "badgeClass": "st st-review",
+      "actual": {
+        "fill": "rgb(217, 225, 226)",
+        "ink": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)"
+      },
+      "expected": {
+        "fill": "rgb(217, 225, 226)",
+        "ink": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)"
+      }
+    },
+    {
+      "label": "مجمّد",
+      "category": "other",
+      "badgeClass": "st st-hold",
+      "actual": {
+        "fill": "rgb(101, 29, 50)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(101, 29, 50)"
+      },
+      "expected": {
+        "fill": "rgb(101, 29, 50)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(101, 29, 50)"
+      }
+    },
+    {
+      "label": "مجمد",
+      "category": "other",
+      "badgeClass": "st st-hold",
+      "actual": {
+        "fill": "rgb(101, 29, 50)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(101, 29, 50)"
+      },
+      "expected": {
+        "fill": "rgb(101, 29, 50)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(101, 29, 50)"
+      }
+    },
+    {
+      "label": "معلّق",
+      "category": "other",
+      "badgeClass": "st st-hold",
+      "actual": {
+        "fill": "rgb(101, 29, 50)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(101, 29, 50)"
+      },
+      "expected": {
+        "fill": "rgb(101, 29, 50)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(101, 29, 50)"
+      }
+    },
+    {
+      "label": "ملغى",
+      "category": "cancelled",
+      "badgeClass": "st st-cancelled",
+      "actual": {
+        "fill": "rgb(231, 224, 211)",
+        "ink": "rgb(101, 29, 50)",
+        "border": "rgb(101, 29, 50)"
+      },
+      "expected": {
+        "fill": "rgb(231, 224, 211)",
+        "ink": "rgb(101, 29, 50)",
+        "border": "rgb(101, 29, 50)"
+      }
+    },
+    {
+      "label": "منقول",
+      "category": "transferred",
+      "badgeClass": "st st-transferred",
+      "actual": {
+        "fill": "rgb(252, 251, 251)",
+        "ink": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)"
+      },
+      "expected": {
+        "fill": "rgb(252, 251, 251)",
+        "ink": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)"
+      }
+    },
+    {
+      "label": "لم يبدأ",
+      "category": "notStarted",
+      "badgeClass": "st st-notStarted",
+      "actual": {
+        "fill": "rgb(79, 78, 78)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(79, 78, 78)"
+      },
+      "expected": {
+        "fill": "rgb(79, 78, 78)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(79, 78, 78)"
+      }
+    },
+    {
+      "label": "مقاس",
+      "category": "other",
+      "badgeClass": "st st-measured",
+      "actual": {
+        "fill": "rgb(217, 225, 226)",
+        "ink": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)"
+      },
+      "expected": {
+        "fill": "rgb(217, 225, 226)",
+        "ink": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)"
+      }
+    },
+    {
+      "label": "غير مقاس",
+      "category": "other",
+      "badgeClass": "st st-notMeasured",
+      "actual": {
+        "fill": "rgb(79, 78, 78)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(79, 78, 78)"
+      },
+      "expected": {
+        "fill": "rgb(79, 78, 78)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(79, 78, 78)"
+      }
+    },
+    {
+      "label": "لا ينطبق",
+      "category": "other",
+      "badgeClass": "st st-notApplicable",
+      "actual": {
+        "fill": "rgb(79, 78, 78)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(79, 78, 78)"
+      },
+      "expected": {
+        "fill": "rgb(79, 78, 78)",
+        "ink": "rgb(252, 251, 251)",
+        "border": "rgb(79, 78, 78)"
+      }
+    },
+    {
+      "label": "حالة غير معروفة",
+      "category": "other",
+      "badgeClass": "st st-other",
+      "actual": {
+        "fill": "rgb(252, 251, 251)",
+        "ink": "rgb(79, 78, 78)",
+        "border": "rgb(200, 199, 199)"
+      },
+      "expected": {
+        "fill": "rgb(252, 251, 251)",
+        "ink": "rgb(79, 78, 78)",
+        "border": "rgb(200, 199, 199)"
+      }
+    }
+  ],
+  "actualAgenda": {
+    "badges": [
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "قيد المراجعة",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "قيد المراجعة",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد المراجعة",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "قيد المراجعة",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "قيد المراجعة",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "قيد المراجعة",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)"
+      }
+    ],
+    "segments": [
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)",
+        "border": "rgb(1, 131, 30)",
+        "expectedBorder": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "قيد المراجعة",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)",
+        "border": "rgb(1, 131, 30)",
+        "expectedBorder": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "قيد المراجعة",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)",
+        "border": "rgb(1, 131, 30)",
+        "expectedBorder": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "قيد المراجعة",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)",
+        "border": "rgb(1, 131, 30)",
+        "expectedBorder": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "قيد المراجعة",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)",
+        "border": "rgb(1, 131, 30)",
+        "expectedBorder": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)",
+        "border": "rgb(1, 131, 30)",
+        "expectedBorder": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)",
+        "border": "rgb(1, 131, 30)",
+        "expectedBorder": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "قيد المراجعة",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)",
+        "border": "rgb(1, 131, 30)",
+        "expectedBorder": "rgb(1, 131, 30)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      }
+    ],
+    "legend": [
+      {
+        "label": "متأخر",
+        "fill": "rgb(192, 0, 0)",
+        "expected": "rgb(192, 0, 0)",
+        "border": "rgb(192, 0, 0)",
+        "expectedBorder": "rgb(192, 0, 0)"
+      },
+      {
+        "label": "جاهز للعرض",
+        "fill": "rgb(17, 94, 103)",
+        "expected": "rgb(17, 94, 103)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "قيد المراجعة",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "قيد التطوير",
+        "fill": "rgb(217, 225, 226)",
+        "expected": "rgb(217, 225, 226)",
+        "border": "rgb(17, 94, 103)",
+        "expectedBorder": "rgb(17, 94, 103)"
+      },
+      {
+        "label": "منجز",
+        "fill": "rgb(1, 131, 30)",
+        "expected": "rgb(1, 131, 30)",
+        "border": "rgb(1, 131, 30)",
+        "expectedBorder": "rgb(1, 131, 30)"
+      }
+    ]
+  },
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "aa2ee878d8cd3b1e386f3e291914046a5f56e3019fff4597c996dbd5be4fa44b",
+    "assets/css/app-bundle.css": "39e525cd82e23121fd376ab18056876cd3863a9a0f5bb1eeb1e790d264cfa9d1",
+    "assets/css/print-measure-bundle.css": "955c16b134acb5a305213c9f510b34fd5ec0cb3620ef8116da39709f52cc3a17"
+  }
+}

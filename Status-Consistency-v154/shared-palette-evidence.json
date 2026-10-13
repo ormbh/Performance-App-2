@@ -1,0 +1,614 @@
+{
+  "version": 154,
+  "checks": [
+    {
+      "check": "Resolver done",
+      "pass": true
+    },
+    {
+      "check": "Resolver delayed",
+      "pass": true
+    },
+    {
+      "check": "Resolver ready",
+      "pass": true
+    },
+    {
+      "check": "Resolver progress",
+      "pass": true
+    },
+    {
+      "check": "Resolver review",
+      "pass": true
+    },
+    {
+      "check": "Resolver measured",
+      "pass": true
+    },
+    {
+      "check": "Resolver hold",
+      "pass": true
+    },
+    {
+      "check": "Resolver cancelled",
+      "pass": true
+    },
+    {
+      "check": "Resolver transferred",
+      "pass": true
+    },
+    {
+      "check": "Resolver notStarted",
+      "pass": true
+    },
+    {
+      "check": "Resolver unmeasured",
+      "pass": true
+    },
+    {
+      "check": "Resolver notApplicable",
+      "pass": true
+    },
+    {
+      "check": "Resolver other",
+      "pass": true
+    },
+    {
+      "check": "Resolver none",
+      "pass": true
+    },
+    {
+      "check": "Alias مجمد",
+      "pass": true
+    },
+    {
+      "check": "Alias معلّق",
+      "pass": true
+    },
+    {
+      "check": "Alias معلق",
+      "pass": true
+    },
+    {
+      "check": "Alias frozen",
+      "pass": true
+    },
+    {
+      "check": "Alias قيد التطوير",
+      "pass": true
+    },
+    {
+      "check": "Alias قيد الإجراء",
+      "pass": true
+    },
+    {
+      "check": "Alias قيد التنفيذ",
+      "pass": true
+    },
+    {
+      "check": "Alias جاري العمل",
+      "pass": true
+    },
+    {
+      "check": "Alias active",
+      "pass": true
+    },
+    {
+      "check": "Alias notMeasured",
+      "pass": true
+    },
+    {
+      "check": "Effective badge palette done",
+      "pass": true
+    },
+    {
+      "check": "Effective badge palette delayed",
+      "pass": true
+    },
+    {
+      "check": "Effective badge palette ready",
+      "pass": true
+    },
+    {
+      "check": "Effective badge palette progress",
+      "pass": true
+    },
+    {
+      "check": "Effective badge palette review",
+      "pass": true
+    },
+    {
+      "check": "Effective badge palette measured",
+      "pass": true
+    },
+    {
+      "check": "Effective badge palette hold",
+      "pass": true
+    },
+    {
+      "check": "Effective badge palette cancelled",
+      "pass": true
+    },
+    {
+      "check": "Effective badge palette transferred",
+      "pass": true
+    },
+    {
+      "check": "Effective badge palette notStarted",
+      "pass": true
+    },
+    {
+      "check": "Effective badge palette unmeasured",
+      "pass": true
+    },
+    {
+      "check": "Effective badge palette notApplicable",
+      "pass": true
+    },
+    {
+      "check": "Effective badge palette other",
+      "pass": true
+    },
+    {
+      "check": "Effective badge palette none",
+      "pass": true
+    },
+    {
+      "check": "Agenda segments same canonical fill/border",
+      "pass": true
+    },
+    {
+      "check": "Monthly status distribution colors and borders",
+      "pass": true
+    },
+    {
+      "check": "Council chart canonical palette",
+      "pass": true
+    },
+    {
+      "check": "Council metric text never uses pale fill",
+      "pass": true
+    },
+    {
+      "check": "HH chart legend canonical palette",
+      "pass": true
+    },
+    {
+      "check": "Project calendar status palette",
+      "pass": true
+    },
+    {
+      "check": "All palette renders leave source records unchanged",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "fixtureSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "appearances": [
+    {
+      "cat": "done",
+      "label": "منجز",
+      "category": {
+        "fill": "#01831E",
+        "ink": "#FCFBFB",
+        "border": "#01831E"
+      },
+      "name": {
+        "fill": "#01831E",
+        "ink": "#FCFBFB",
+        "border": "#01831E"
+      },
+      "fill": "#01831E",
+      "ink": "#FCFBFB",
+      "border": "#01831E"
+    },
+    {
+      "cat": "delayed",
+      "label": "متأخر",
+      "category": {
+        "fill": "#C00000",
+        "ink": "#FCFBFB",
+        "border": "#C00000"
+      },
+      "name": {
+        "fill": "#C00000",
+        "ink": "#FCFBFB",
+        "border": "#C00000"
+      },
+      "fill": "#C00000",
+      "ink": "#FCFBFB",
+      "border": "#C00000"
+    },
+    {
+      "cat": "ready",
+      "label": "جاهز للعرض",
+      "category": {
+        "fill": "#115E67",
+        "ink": "#FCFBFB",
+        "border": "#115E67"
+      },
+      "name": {
+        "fill": "#115E67",
+        "ink": "#FCFBFB",
+        "border": "#115E67"
+      },
+      "fill": "#115E67",
+      "ink": "#FCFBFB",
+      "border": "#115E67"
+    },
+    {
+      "cat": "progress",
+      "label": "قيد العمل",
+      "category": {
+        "fill": "#D9E1E2",
+        "ink": "#115E67",
+        "border": "#115E67"
+      },
+      "name": {
+        "fill": "#D9E1E2",
+        "ink": "#115E67",
+        "border": "#115E67"
+      },
+      "fill": "#D9E1E2",
+      "ink": "#115E67",
+      "border": "#115E67"
+    },
+    {
+      "cat": "review",
+      "label": "قيد المراجعة",
+      "category": {
+        "fill": "#D9E1E2",
+        "ink": "#115E67",
+        "border": "#115E67"
+      },
+      "name": {
+        "fill": "#D9E1E2",
+        "ink": "#115E67",
+        "border": "#115E67"
+      },
+      "fill": "#D9E1E2",
+      "ink": "#115E67",
+      "border": "#115E67"
+    },
+    {
+      "cat": "measured",
+      "label": "مقاس",
+      "category": {
+        "fill": "#D9E1E2",
+        "ink": "#115E67",
+        "border": "#115E67"
+      },
+      "name": {
+        "fill": "#D9E1E2",
+        "ink": "#115E67",
+        "border": "#115E67"
+      },
+      "fill": "#D9E1E2",
+      "ink": "#115E67",
+      "border": "#115E67"
+    },
+    {
+      "cat": "hold",
+      "label": "مجمّد",
+      "category": {
+        "fill": "#651D32",
+        "ink": "#FCFBFB",
+        "border": "#651D32"
+      },
+      "name": {
+        "fill": "#651D32",
+        "ink": "#FCFBFB",
+        "border": "#651D32"
+      },
+      "fill": "#651D32",
+      "ink": "#FCFBFB",
+      "border": "#651D32"
+    },
+    {
+      "cat": "cancelled",
+      "label": "ملغى",
+      "category": {
+        "fill": "#E7E0D3",
+        "ink": "#651D32",
+        "border": "#651D32"
+      },
+      "name": {
+        "fill": "#E7E0D3",
+        "ink": "#651D32",
+        "border": "#651D32"
+      },
+      "fill": "#E7E0D3",
+      "ink": "#651D32",
+      "border": "#651D32"
+    },
+    {
+      "cat": "transferred",
+      "label": "منقول",
+      "category": {
+        "fill": "#FCFBFB",
+        "ink": "#115E67",
+        "border": "#115E67"
+      },
+      "name": {
+        "fill": "#FCFBFB",
+        "ink": "#115E67",
+        "border": "#115E67"
+      },
+      "fill": "#FCFBFB",
+      "ink": "#115E67",
+      "border": "#115E67"
+    },
+    {
+      "cat": "notStarted",
+      "label": "لم يبدأ",
+      "category": {
+        "fill": "#4F4E4E",
+        "ink": "#FCFBFB",
+        "border": "#4F4E4E"
+      },
+      "name": {
+        "fill": "#4F4E4E",
+        "ink": "#FCFBFB",
+        "border": "#4F4E4E"
+      },
+      "fill": "#4F4E4E",
+      "ink": "#FCFBFB",
+      "border": "#4F4E4E"
+    },
+    {
+      "cat": "unmeasured",
+      "label": "غير مقاس",
+      "category": {
+        "fill": "#4F4E4E",
+        "ink": "#FCFBFB",
+        "border": "#4F4E4E"
+      },
+      "name": {
+        "fill": "#4F4E4E",
+        "ink": "#FCFBFB",
+        "border": "#4F4E4E"
+      },
+      "fill": "#4F4E4E",
+      "ink": "#FCFBFB",
+      "border": "#4F4E4E"
+    },
+    {
+      "cat": "notApplicable",
+      "label": "لا ينطبق",
+      "category": {
+        "fill": "#4F4E4E",
+        "ink": "#FCFBFB",
+        "border": "#4F4E4E"
+      },
+      "name": {
+        "fill": "#4F4E4E",
+        "ink": "#FCFBFB",
+        "border": "#4F4E4E"
+      },
+      "fill": "#4F4E4E",
+      "ink": "#FCFBFB",
+      "border": "#4F4E4E"
+    },
+    {
+      "cat": "other",
+      "label": "حالة غير معروفة",
+      "category": {
+        "fill": "#FCFBFB",
+        "ink": "#4F4E4E",
+        "border": "#C8C7C7"
+      },
+      "name": {
+        "fill": "#FCFBFB",
+        "ink": "#4F4E4E",
+        "border": "#C8C7C7"
+      },
+      "fill": "#FCFBFB",
+      "ink": "#4F4E4E",
+      "border": "#C8C7C7"
+    },
+    {
+      "cat": "none",
+      "label": "غير مسجل",
+      "category": {
+        "fill": "#FCFBFB",
+        "ink": "#4F4E4E",
+        "border": "#C8C7C7"
+      },
+      "name": {
+        "fill": "#FCFBFB",
+        "ink": "#4F4E4E",
+        "border": "#C8C7C7"
+      },
+      "fill": "#FCFBFB",
+      "ink": "#4F4E4E",
+      "border": "#C8C7C7"
+    }
+  ],
+  "agendaLegend": [
+    {
+      "name": "متأخر",
+      "fill": "rgb(192, 0, 0)",
+      "border": "rgb(192, 0, 0)",
+      "want": {
+        "fill": "#C00000",
+        "ink": "#FCFBFB",
+        "border": "#C00000"
+      }
+    },
+    {
+      "name": "جاهز للعرض",
+      "fill": "rgb(17, 94, 103)",
+      "border": "rgb(17, 94, 103)",
+      "want": {
+        "fill": "#115E67",
+        "ink": "#FCFBFB",
+        "border": "#115E67"
+      }
+    },
+    {
+      "name": "قيد المراجعة",
+      "fill": "rgb(217, 225, 226)",
+      "border": "rgb(17, 94, 103)",
+      "want": {
+        "fill": "#D9E1E2",
+        "ink": "#115E67",
+        "border": "#115E67"
+      }
+    },
+    {
+      "name": "قيد التطوير",
+      "fill": "rgb(217, 225, 226)",
+      "border": "rgb(17, 94, 103)",
+      "want": {
+        "fill": "#D9E1E2",
+        "ink": "#115E67",
+        "border": "#115E67"
+      }
+    },
+    {
+      "name": "منجز",
+      "fill": "rgb(1, 131, 30)",
+      "border": "rgb(1, 131, 30)",
+      "want": {
+        "fill": "#01831E",
+        "ink": "#FCFBFB",
+        "border": "#01831E"
+      }
+    }
+  ],
+  "monthly": [
+    {
+      "key": "agendaDone",
+      "tone": "apple-fill-complete",
+      "fill": "rgb(1, 131, 30)",
+      "border": "rgb(1, 131, 30)",
+      "width": "36.7521%"
+    },
+    {
+      "key": "agendaReady",
+      "tone": "apple-fill-ready",
+      "fill": "rgb(17, 94, 103)",
+      "border": "rgb(17, 94, 103)",
+      "width": "13.6752%"
+    },
+    {
+      "key": "agendaProgress",
+      "tone": "apple-fill-active",
+      "fill": "rgb(217, 225, 226)",
+      "border": "rgb(17, 94, 103)",
+      "width": "49.5726%"
+    },
+    {
+      "key": "councilDone",
+      "tone": "apple-fill-complete",
+      "fill": "rgb(1, 131, 30)",
+      "border": "rgb(1, 131, 30)",
+      "width": "54.2857%"
+    },
+    {
+      "key": "councilProgress",
+      "tone": "apple-fill-active",
+      "fill": "rgb(217, 225, 226)",
+      "border": "rgb(17, 94, 103)",
+      "width": "44.2857%"
+    },
+    {
+      "key": "unclassified",
+      "tone": "apple-fill-unknown",
+      "fill": "rgb(252, 251, 251)",
+      "border": "rgb(200, 199, 199)",
+      "width": "1.42857%"
+    },
+    {
+      "key": "legLate",
+      "tone": "apple-fill-late",
+      "fill": "rgb(192, 0, 0)",
+      "border": "rgb(192, 0, 0)",
+      "width": "1.04712%"
+    },
+    {
+      "key": "legOnTime",
+      "tone": "apple-fill-complete",
+      "fill": "rgb(1, 131, 30)",
+      "border": "rgb(1, 131, 30)",
+      "width": "79.5812%"
+    },
+    {
+      "key": "legOverrun",
+      "tone": "apple-fill-complete-after",
+      "fill": "rgb(1, 131, 30)",
+      "border": "rgb(1, 131, 30)",
+      "width": "14.6597%"
+    },
+    {
+      "key": "legPending",
+      "tone": "apple-fill-active",
+      "fill": "rgb(217, 225, 226)",
+      "border": "rgb(17, 94, 103)",
+      "width": "4.71204%"
+    }
+  ],
+  "project": [
+    {
+      "cls": "pd-stack-segment pd-status-completed",
+      "fill": "rgb(1, 131, 30)",
+      "border": "rgb(1, 131, 30)",
+      "width": "100%"
+    },
+    {
+      "cls": "pd-stack-segment pd-status-working",
+      "fill": "rgb(217, 225, 226)",
+      "border": "rgb(17, 94, 103)",
+      "width": "100%"
+    },
+    {
+      "cls": "pd-stack-segment pd-status-completed",
+      "fill": "rgb(1, 131, 30)",
+      "border": "rgb(1, 131, 30)",
+      "width": "11.3924%"
+    },
+    {
+      "cls": "pd-stack-segment pd-status-working",
+      "fill": "rgb(217, 225, 226)",
+      "border": "rgb(17, 94, 103)",
+      "width": "72.1519%"
+    },
+    {
+      "cls": "pd-stack-segment pd-status-notstarted",
+      "fill": "rgb(79, 78, 78)",
+      "border": "rgb(79, 78, 78)",
+      "width": "8.86076%"
+    },
+    {
+      "cls": "pd-stack-segment pd-status-suspended",
+      "fill": "rgb(101, 29, 50)",
+      "border": "rgb(101, 29, 50)",
+      "width": "3.79747%"
+    },
+    {
+      "cls": "pd-stack-segment pd-status-transferred",
+      "fill": "rgb(252, 251, 251)",
+      "border": "rgb(17, 94, 103)",
+      "width": "2.53165%"
+    },
+    {
+      "cls": "pd-stack-segment pd-status-cancelled",
+      "fill": "rgb(231, 224, 211)",
+      "border": "rgb(101, 29, 50)",
+      "width": "1.26582%"
+    },
+    {
+      "cls": "pd-stack-segment pd-status-working",
+      "fill": "rgb(217, 225, 226)",
+      "border": "rgb(17, 94, 103)",
+      "width": "100%"
+    }
+  ],
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "aa2ee878d8cd3b1e386f3e291914046a5f56e3019fff4597c996dbd5be4fa44b",
+    "assets/css/app-bundle.css": "39e525cd82e23121fd376ab18056876cd3863a9a0f5bb1eeb1e790d264cfa9d1",
+    "assets/css/print-measure-bundle.css": "955c16b134acb5a305213c9f510b34fd5ec0cb3620ef8116da39709f52cc3a17"
+  },
+  "verdict": "PASS"
+}

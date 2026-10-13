@@ -1,3 +1,5 @@
+> Current standard: [Revision 21](TEC-Apple-Inspired-Design-Standard-Revision-21.md). Its unified status appearance and agenda totals/interaction rules supersede conflicting historical passages below.
+
 # Revision 20 — approved search results and clearer search prompt
 
 Approved on 13 October 2026. Applies the search results concept to the working app while retaining the approved search-home logo/title/field composition, TEC assets, source data and search-matching rules.
