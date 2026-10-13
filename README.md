@@ -16,3 +16,5 @@ Extract the complete ZIP and open **index.html** with its **assets** folder besi
 [Applied screenshots](Search-Results-v145/README.md) · [Updated TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles/SKILL.md) · [Download standard ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Design-Standard-Revision-20.zip)
 
 Previous release: [v144 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v144.zip) · [v144 verification](Saytara-Verification-v144.md). Prior releases and concepts are preserved.
+
+[Agenda report — design illustrations](Agenda-Report-Concept/README.md) · [Download agenda concept ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Agenda-Report-Concept.zip). Preview only; v145 remains unchanged pending approval.

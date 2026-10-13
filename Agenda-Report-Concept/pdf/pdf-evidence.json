@@ -1,0 +1,672 @@
+{
+  "fixtureSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "scopeEntity": "هيئة الطرق والمواصلات",
+  "data": {
+    "total": 10,
+    "planned": [
+      {
+        "key": "agenda-62",
+        "title": "موضوع توضيحي 061",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "منجز",
+        "quarter": "الربع الأول"
+      },
+      {
+        "key": "agenda-63",
+        "title": "موضوع توضيحي 062",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "منجز",
+        "quarter": "الربع الأول"
+      },
+      {
+        "key": "agenda-95",
+        "title": "موضوع توضيحي 094",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "منجز",
+        "quarter": "الربع الأول"
+      },
+      {
+        "key": "agenda-76",
+        "title": "موضوع توضيحي 075",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "جاهز للعرض",
+        "quarter": "الربع الثاني"
+      },
+      {
+        "key": "agenda-79",
+        "title": "موضوع توضيحي 078",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "منجز",
+        "quarter": "الربع الثاني"
+      },
+      {
+        "key": "agenda-65",
+        "title": "موضوع توضيحي 064",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "قيد التطوير",
+        "quarter": "الربع الثالث"
+      },
+      {
+        "key": "agenda-81",
+        "title": "موضوع توضيحي 080",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "قيد التطوير",
+        "quarter": "الربع الرابع"
+      },
+      {
+        "key": "agenda-108",
+        "title": "موضوع توضيحي 107",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "قيد التطوير",
+        "quarter": "الربع الرابع"
+      }
+    ],
+    "emerging": [
+      {
+        "key": "agenda-114",
+        "title": "موضوع توضيحي 113",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "منجز"
+      },
+      {
+        "key": "agenda-85",
+        "title": "موضوع توضيحي 084",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "منجز"
+      }
+    ],
+    "other": [],
+    "rows": [
+      "agenda-62",
+      "agenda-63",
+      "agenda-95",
+      "agenda-76",
+      "agenda-79",
+      "agenda-65",
+      "agenda-81",
+      "agenda-108",
+      "agenda-114",
+      "agenda-85"
+    ],
+    "sourceNotes": 0
+  },
+  "before": {
+    "file": "Agenda-Before.pdf",
+    "sha256": "12dff97dd142462f22d8b32d2fb2b55e4d9e26fb9f277bc623d386196bdb3798",
+    "pages": [
+      {
+        "page": 1,
+        "width": 841.8897705078125,
+        "height": 595.2755737304688,
+        "text": "  لتاريخ- مستجدات الأجندة السنوية30/09/2026\n :القطاع\nجميع القطاعات · \n :الوحدة التنظيمية\nجميع الوحدات التنظيمية\nمحتويات التقرير\n01الملخص التنفيذي8\n02جداول المواضيع8\n03ملحق المواضيع المستجدة2\n5  من1 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+        "drawings": 7,
+        "fonts": [
+          [
+            11,
+            "cid",
+            "Type0",
+            "CZZZZZ+DINNextArabic-Regular",
+            "F2",
+            "Identity-H"
+          ],
+          [
+            12,
+            "cid",
+            "Type0",
+            "DZZZZZ+Dubai-Regular",
+            "F3",
+            "Identity-H"
+          ],
+          [
+            13,
+            "cid",
+            "Type0",
+            "EZZZZZ+Dubai-Bold",
+            "F4",
+            "Identity-H"
+          ]
+        ]
+      },
+      {
+        "page": 2,
+        "width": 841.8897705078125,
+        "height": 595.2755737304688,
+        "text": " بلغ عدد\nالمواضيع المنجزة )، وبلغ عدد%50( 8  من أصل4  ضمن الأجندة السنوية\nالمواضيع الجاهزة للعرض.%25 . وتبلغ حصة الربع الرابع من أحدث المواعيد المسجلة1 \n30/09/2026 حتى تاريخ\n 2026 الأجندة السنوية)8 :(عدد المواضيع\n الأجندة المعتمدة8\n المستجد2\n الإجمالي10\nتوزيع المواضيع بحسب مستويات الإنجاز\nجاهز للعرض\n1\n12.5%\nقيد التطوير\n3\n37.5%\nمنجز\n4\n50%\nالربع الأول\n :عدد المواضيع3\n3\nمنجز\nالربع الثاني\n :عدد المواضيع2\n1\nجاهز للعرض\n1\nمنجز\nالربع الثالث\n :عدد المواضيع1\n1\nقيد التطوير\nالربع الرابع\n :عدد المواضيع2\n2\nقيد التطوير\n5  من2 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+        "drawings": 27,
+        "fonts": [
+          [
+            12,
+            "cid",
+            "Type0",
+            "DZZZZZ+Dubai-Regular",
+            "F3",
+            "Identity-H"
+          ],
+          [
+            13,
+            "cid",
+            "Type0",
+            "EZZZZZ+Dubai-Bold",
+            "F4",
+            "Identity-H"
+          ],
+          [
+            11,
+            "cid",
+            "Type0",
+            "CZZZZZ+DINNextArabic-Regular",
+            "F2",
+            "Identity-H"
+          ],
+          [
+            17,
+            "ttf",
+            "Type0",
+            "FZZZZZ+DINNextLTArabic-Regular",
+            "F5",
+            "Identity-H"
+          ]
+        ]
+      },
+      {
+        "page": 3,
+        "width": 841.8897705078125,
+        "height": 595.2755737304688,
+        "text": "تعريفات مستويات الإنجاز\nمتأخر\nتأخر إنجاز الموضوع حسب الحالة المسجلة\nجاهز للعرض\nاكتمل إعداد الموضوع وهو جاهز للعرض على\nالمجلس المختص\nقيد المراجعة\nاستلمته الأمانة العامة من الجهة المعنية وتتم\nمراجعته من قبل فريقها\nقيد التطوير\nجاري تطوير الموضوع من قبل الجهة الحكومية مع\nاطّ لاع الأمانة العامة على مستجدات التطوير\nمنجز\nتم عرضه وإصدار قرار باعتماده من المجلس\nالتنفيذي أو إقراره من مجلس الشؤون الاستراتيجية\n  – الربع الأول2026 الأجندة السنوية)3 :(عدد المواضيع\nم\nالجهة المعنية\nالموضوع\nموعد الإنجاز\nمستويات الإنجاز\n1هيئة الطرق والمواصلات061 موضوع توضيحي\nالربع الأول\nمنجز\n2هيئة الطرق والمواصلات062 موضوع توضيحي\nالربع الأول\nمنجز\n3هيئة الطرق والمواصلات094 موضوع توضيحي\nالربع الأول\nمنجز\n  – الربع الثاني2026 الأجندة السنوية)2 :(عدد المواضيع\nم\nالجهة المعنية\nالموضوع\nموعد الإنجاز\nمستويات الإنجاز\n1هيئة الطرق والمواصلات075 موضوع توضيحي\nالربع الثاني\nجاهز للعرض\n2هيئة الطرق والمواصلات078 موضوع توضيحي\nالربع الثاني\nمنجز\n5  من3 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+        "drawings": 120,
+        "fonts": [
+          [
+            11,
+            "cid",
+            "Type0",
+            "CZZZZZ+DINNextArabic-Regular",
+            "F2",
+            "Identity-H"
+          ],
+          [
+            12,
+            "cid",
+            "Type0",
+            "DZZZZZ+Dubai-Regular",
+            "F3",
+            "Identity-H"
+          ],
+          [
+            13,
+            "cid",
+            "Type0",
+            "EZZZZZ+Dubai-Bold",
+            "F4",
+            "Identity-H"
+          ]
+        ]
+      },
+      {
+        "page": 4,
+        "width": 841.8897705078125,
+        "height": 595.2755737304688,
+        "text": "  – الربع الثالث2026 الأجندة السنوية)1 :(عدد المواضيع\nم\nالجهة المعنية\nالموضوع\nموعد الإنجاز\nمستويات الإنجاز\n1هيئة الطرق والمواصلات064 موضوع توضيحي\nالربع الثالث\nقيد التطوير\n  – الربع الرابع2026 الأجندة السنوية)2 :(عدد المواضيع\nم\nالجهة المعنية\nالموضوع\nموعد الإنجاز\nمستويات الإنجاز\n1هيئة الطرق والمواصلات080 موضوع توضيحي\nالربع الرابع\nقيد التطوير\n2هيئة الطرق والمواصلات107 موضوع توضيحي\nالربع الرابع\nقيد التطوير\n 2026 ملحق المواضيع المستجدة)2 :(عدد المواضيع\nم\nالموضوع\nالربع\nمستويات الإنجاز\n1\n113 موضوع توضيحي\nالربع الأول\nمنجز\n2\n084 موضوع توضيحي\nالربع الثاني\nمنجز\n5  من4 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+        "drawings": 150,
+        "fonts": [
+          [
+            11,
+            "cid",
+            "Type0",
+            "CZZZZZ+DINNextArabic-Regular",
+            "F2",
+            "Identity-H"
+          ],
+          [
+            12,
+            "cid",
+            "Type0",
+            "DZZZZZ+Dubai-Regular",
+            "F3",
+            "Identity-H"
+          ],
+          [
+            13,
+            "cid",
+            "Type0",
+            "EZZZZZ+Dubai-Bold",
+            "F4",
+            "Identity-H"
+          ]
+        ]
+      },
+      {
+        "page": 5,
+        "width": 841.8897705078125,
+        "height": 595.2755737304688,
+        "text": "الربع الأول\n :عدد المواضيع1\nمنجز1\nالربع الثاني\n :عدد المواضيع1\nمنجز1\n5  من5 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+        "drawings": 8,
+        "fonts": [
+          [
+            11,
+            "cid",
+            "Type0",
+            "CZZZZZ+DINNextArabic-Regular",
+            "F2",
+            "Identity-H"
+          ],
+          [
+            12,
+            "cid",
+            "Type0",
+            "DZZZZZ+Dubai-Regular",
+            "F3",
+            "Identity-H"
+          ],
+          [
+            13,
+            "cid",
+            "Type0",
+            "EZZZZZ+Dubai-Bold",
+            "F4",
+            "Identity-H"
+          ],
+          [
+            17,
+            "ttf",
+            "Type0",
+            "FZZZZZ+DINNextLTArabic-Regular",
+            "F5",
+            "Identity-H"
+          ]
+        ]
+      }
+    ],
+    "embeddedFonts": {
+      "CZZZZZ+DINNextArabic-Regular": {
+        "format": "cid",
+        "embeddedBytes": 8354
+      },
+      "DZZZZZ+Dubai-Regular": {
+        "format": "cid",
+        "embeddedBytes": 10000
+      },
+      "EZZZZZ+Dubai-Bold": {
+        "format": "cid",
+        "embeddedBytes": 5653
+      },
+      "FZZZZZ+DINNextLTArabic-Regular": {
+        "format": "ttf",
+        "embeddedBytes": 2055
+      }
+    },
+    "nativeTextCharacters": 2705,
+    "vectorDrawingCount": 312,
+    "A4LandscapeAllPages": true,
+    "visualReview": "All 5 pages rendered and inspected at 150%: Arabic shaping, labels, figures, table rows, margins, footer clearance. Before source-notes appendix is empty in selected illustrative fixture."
+  },
+  "afterSource": {
+    "total": 10,
+    "planned": [
+      {
+        "key": "agenda-62",
+        "title": "موضوع توضيحي 061",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "منجز",
+        "quarter": "الربع الأول"
+      },
+      {
+        "key": "agenda-63",
+        "title": "موضوع توضيحي 062",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "منجز",
+        "quarter": "الربع الأول"
+      },
+      {
+        "key": "agenda-95",
+        "title": "موضوع توضيحي 094",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "منجز",
+        "quarter": "الربع الأول"
+      },
+      {
+        "key": "agenda-76",
+        "title": "موضوع توضيحي 075",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "جاهز للعرض",
+        "quarter": "الربع الثاني"
+      },
+      {
+        "key": "agenda-79",
+        "title": "موضوع توضيحي 078",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "منجز",
+        "quarter": "الربع الثاني"
+      },
+      {
+        "key": "agenda-65",
+        "title": "موضوع توضيحي 064",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "قيد التطوير",
+        "quarter": "الربع الثالث"
+      },
+      {
+        "key": "agenda-81",
+        "title": "موضوع توضيحي 080",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "قيد التطوير",
+        "quarter": "الربع الرابع"
+      },
+      {
+        "key": "agenda-108",
+        "title": "موضوع توضيحي 107",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "قيد التطوير",
+        "quarter": "الربع الرابع"
+      }
+    ],
+    "emerging": [
+      {
+        "key": "agenda-114",
+        "title": "موضوع توضيحي 113",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "منجز"
+      },
+      {
+        "key": "agenda-85",
+        "title": "موضوع توضيحي 084",
+        "entity": "هيئة الطرق والمواصلات",
+        "status": "منجز"
+      }
+    ],
+    "other": [],
+    "rows": [
+      "agenda-62",
+      "agenda-63",
+      "agenda-95",
+      "agenda-76",
+      "agenda-79",
+      "agenda-65",
+      "agenda-81",
+      "agenda-108",
+      "agenda-114",
+      "agenda-85"
+    ],
+    "sourceNotes": 0
+  },
+  "after": {
+    "file": "Agenda-After-Concept.pdf",
+    "sha256": "e25aa2a4279645b0aafc9ffa3a26541b8883d7b2ce88aa5732ca765575134d1a",
+    "pages": [
+      {
+        "page": 1,
+        "width": 841.8897705078125,
+        "height": 595.2755737304688,
+        "text": "  لتاريخ- مستجدات الأجندة السنوية30/09/2026\nهيئة الطرق والمواصلات\n :القطاع\nجميع القطاعات · \n :الوحدة التنظيمية\nجميع الوحدات التنظيمية\nمحتويات التقرير\n01الملخص التنفيذي8 :عدد المواضيع\n02جداول المواضيع8 :عدد المواضيع\n03ملحق المواضيع المستجدة2 :عدد المواضيع\n5  من1 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+        "drawings": 7,
+        "fonts": [
+          [
+            11,
+            "cid",
+            "Type0",
+            "CZZZZZ+DINNextArabic-Regular",
+            "F2",
+            "Identity-H"
+          ],
+          [
+            12,
+            "cid",
+            "Type0",
+            "DZZZZZ+Dubai-Regular",
+            "F3",
+            "Identity-H"
+          ],
+          [
+            13,
+            "cid",
+            "Type0",
+            "EZZZZZ+Dubai-Bold",
+            "F4",
+            "Identity-H"
+          ]
+        ]
+      },
+      {
+        "page": 2,
+        "width": 841.8897705078125,
+        "height": 595.2755737304688,
+        "text": "الملخص التنفيذي\nالأجندة السنوية10\nالإجمالي\nالأجندة المعتمدة8المواضيع المستجدة2\nمستويات إنجاز الأجندة المعتمدة\nجاهز للعرض\n1\n12.5%\nقيد التطوير\n3\n37.5%\nمنجز\n4\n50%\nموعد الإنجاز حسب الربع\nالربع الأول\n :عدد المواضيع3\n3\nمنجز\nالربع الثاني\n :عدد المواضيع2\n1\nجاهز للعرض\n1\nمنجز\nالربع الثالث\n :عدد المواضيع1\n1\nقيد التطوير\nالربع الرابع\n :عدد المواضيع2\n2\nقيد التطوير\n5  من2 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+        "drawings": 26,
+        "fonts": [
+          [
+            11,
+            "cid",
+            "Type0",
+            "CZZZZZ+DINNextArabic-Regular",
+            "F2",
+            "Identity-H"
+          ],
+          [
+            17,
+            "ttf",
+            "Type0",
+            "FZZZZZ+DINNextLTArabic-Regular",
+            "F5",
+            "Identity-H"
+          ],
+          [
+            12,
+            "cid",
+            "Type0",
+            "DZZZZZ+Dubai-Regular",
+            "F3",
+            "Identity-H"
+          ]
+        ]
+      },
+      {
+        "page": 3,
+        "width": 841.8897705078125,
+        "height": 595.2755737304688,
+        "text": "تعريفات مستويات الإنجاز\nمتأخر\nتأخر إنجاز الموضوع حسب الحالة المسجلة\nجاهز للعرض\nاكتمل إعداد الموضوع وهو جاهز للعرض على\nالمجلس المختص\nقيد المراجعة\nاستلمته الأمانة العامة من الجهة المعنية وتتم\nمراجعته من قبل فريقها\nقيد التطوير\nجاري تطوير الموضوع من قبل الجهة الحكومية مع\nاطّ لاع الأمانة العامة على مستجدات التطوير\nمنجز\nتم عرضه وإصدار قرار باعتماده من المجلس\nالتنفيذي أو إقراره من مجلس الشؤون الاستراتيجية\n بلغ عدد\nالمواضيع المنجزة )، وبلغ عدد%50( 8  من أصل4  ضمن الأجندة السنوية\nالمواضيع الجاهزة للعرض.%25 . وتبلغ حصة الربع الرابع من أحدث المواعيد المسجلة1 \n  – الربع الأول2026 الأجندة السنوية)3 :(عدد المواضيع\nم\nالجهة المعنية\nالموضوع\nموعد الإنجاز\nمستويات الإنجاز\n1هيئة الطرق والمواصلات061 موضوع توضيحي\nالربع الأول\nمنجز\n2هيئة الطرق والمواصلات062 موضوع توضيحي\nالربع الأول\nمنجز\n3هيئة الطرق والمواصلات094 موضوع توضيحي\nالربع الأول\nمنجز\n  – الربع الثاني2026 الأجندة السنوية)2 :(عدد المواضيع\nم\nالجهة المعنية\nالموضوع\nموعد الإنجاز\nمستويات الإنجاز\n1هيئة الطرق والمواصلات075 موضوع توضيحي\nالربع الثاني\nجاهز للعرض\n2هيئة الطرق والمواصلات078 موضوع توضيحي\nالربع الثاني\nمنجز\n5  من3 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+        "drawings": 87,
+        "fonts": [
+          [
+            11,
+            "cid",
+            "Type0",
+            "CZZZZZ+DINNextArabic-Regular",
+            "F2",
+            "Identity-H"
+          ],
+          [
+            12,
+            "cid",
+            "Type0",
+            "DZZZZZ+Dubai-Regular",
+            "F3",
+            "Identity-H"
+          ],
+          [
+            13,
+            "cid",
+            "Type0",
+            "EZZZZZ+Dubai-Bold",
+            "F4",
+            "Identity-H"
+          ]
+        ]
+      },
+      {
+        "page": 4,
+        "width": 841.8897705078125,
+        "height": 595.2755737304688,
+        "text": "  – الربع الثالث2026 الأجندة السنوية)1 :(عدد المواضيع\nم\nالجهة المعنية\nالموضوع\nموعد الإنجاز\nمستويات الإنجاز\n1هيئة الطرق والمواصلات064 موضوع توضيحي\nالربع الثالث\nقيد التطوير\n  – الربع الرابع2026 الأجندة السنوية)2 :(عدد المواضيع\nم\nالجهة المعنية\nالموضوع\nموعد الإنجاز\nمستويات الإنجاز\n1هيئة الطرق والمواصلات080 موضوع توضيحي\nالربع الرابع\nقيد التطوير\n2هيئة الطرق والمواصلات107 موضوع توضيحي\nالربع الرابع\nقيد التطوير\n5  من4 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+        "drawings": 62,
+        "fonts": [
+          [
+            11,
+            "cid",
+            "Type0",
+            "CZZZZZ+DINNextArabic-Regular",
+            "F2",
+            "Identity-H"
+          ],
+          [
+            12,
+            "cid",
+            "Type0",
+            "DZZZZZ+Dubai-Regular",
+            "F3",
+            "Identity-H"
+          ],
+          [
+            13,
+            "cid",
+            "Type0",
+            "EZZZZZ+Dubai-Bold",
+            "F4",
+            "Identity-H"
+          ]
+        ]
+      },
+      {
+        "page": 5,
+        "width": 841.8897705078125,
+        "height": 595.2755737304688,
+        "text": " 2026 ملحق المواضيع المستجدة)2 :(عدد المواضيع\nم\nالموضوع\nالربع\nمستويات الإنجاز\n1\n113 موضوع توضيحي\nالربع الأول\nمنجز\n2\n084 موضوع توضيحي\nالربع الثاني\nمنجز\nالربع الأول\n :عدد المواضيع1\nمنجز1\nالربع الثاني\n :عدد المواضيع1\nمنجز1\n5  من5 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+        "drawings": 36,
+        "fonts": [
+          [
+            11,
+            "cid",
+            "Type0",
+            "CZZZZZ+DINNextArabic-Regular",
+            "F2",
+            "Identity-H"
+          ],
+          [
+            12,
+            "cid",
+            "Type0",
+            "DZZZZZ+Dubai-Regular",
+            "F3",
+            "Identity-H"
+          ],
+          [
+            13,
+            "cid",
+            "Type0",
+            "EZZZZZ+Dubai-Bold",
+            "F4",
+            "Identity-H"
+          ],
+          [
+            17,
+            "ttf",
+            "Type0",
+            "FZZZZZ+DINNextLTArabic-Regular",
+            "F5",
+            "Identity-H"
+          ]
+        ]
+      }
+    ],
+    "embeddedFonts": {
+      "CZZZZZ+DINNextArabic-Regular": {
+        "format": "cid",
+        "embeddedBytes": 8670
+      },
+      "DZZZZZ+Dubai-Regular": {
+        "format": "cid",
+        "embeddedBytes": 9746
+      },
+      "EZZZZZ+Dubai-Bold": {
+        "format": "cid",
+        "embeddedBytes": 4983
+      },
+      "FZZZZZ+DINNextLTArabic-Regular": {
+        "format": "ttf",
+        "embeddedBytes": 2835
+      }
+    },
+    "nativeTextCharacters": 2765,
+    "vectorDrawingCount": 218,
+    "A4LandscapeAllPages": true,
+    "visualReview": "All 5 pages rendered and inspected at 150%: Arabic shaping, labels, figures, table rows, margins, footer clearance. Before source-notes appendix is empty in selected illustrative fixture."
+  },
+  "afterNativeExport": {
+    "name": "مستجدات الأجندة السنوية.pdf",
+    "pages": 5,
+    "nativeTextLines": 171,
+    "widthMM": 297,
+    "heightMM": 210,
+    "prepared": {
+      "keys": [
+        "agenda-62",
+        "agenda-63",
+        "agenda-95",
+        "agenda-76",
+        "agenda-79",
+        "agenda-65",
+        "agenda-81",
+        "agenda-108",
+        "agenda-114",
+        "agenda-85"
+      ],
+      "header": "مستجدات الأجندة السنوية - لتاريخ 30/09/2026\n\nهيئة الطرق والمواصلات\n\nالقطاع: جميع القطاعات · الوحدة التنظيمية: جميع الوحدات التنظيمية",
+      "appendix": 0,
+      "scope": {
+        "widthMM": 297,
+        "contentWidthMM": 277,
+        "heightMM": 210,
+        "contentHeightPx": 2485
+      },
+      "tableStyles": [
+        {
+          "body": "16px",
+          "head": "18px",
+          "width": 1044.921875
+        },
+        {
+          "body": "16px",
+          "head": "18px",
+          "width": 1044.921875
+        },
+        {
+          "body": "16px",
+          "head": "18px",
+          "width": 1044.921875
+        },
+        {
+          "body": "16px",
+          "head": "18px",
+          "width": 1044.921875
+        },
+        {
+          "body": "16px",
+          "head": "18px",
+          "width": 1044.921875
+        }
+      ],
+      "headings": [
+        "الملخص التنفيذي",
+        "الأجندة السنوية 2026 – الربع الأول (عدد المواضيع: 3)",
+        "الأجندة السنوية 2026 – الربع الثاني (عدد المواضيع: 2)",
+        "الأجندة السنوية 2026 – الربع الثالث (عدد المواضيع: 1)",
+        "الأجندة السنوية 2026 – الربع الرابع (عدد المواضيع: 2)",
+        "ملحق المواضيع المستجدة 2026 (عدد المواضيع: 2)"
+      ]
+    }
+  },
+  "checks": {
+    "sameExactOrderedKeys": true,
+    "samePlannedAndEmergingRecords": true,
+    "selectedEntityInHeader": true,
+    "fontsEmbedded": true,
+    "appendixAbsentInSelectedAfterFixture": true,
+    "allPdfFontsHaveEmbeddedBytes": true,
+    "allPagesA4Landscape": true
+  },
+  "limits": [
+    "Illustration only: production app files and release v145 remain unchanged.",
+    "After PDF uses current offline native PDF engine on a temporary browser DOM and preview CSS; it is not an implemented production export change.",
+    "Selected illustrative entity has no source-notes appendix rows. The removal example is illustrated separately by the root agent using a clearly labelled controlled specimen.",
+    "No operational workbook was supplied; source values are illustrative.",
+    "This is visual/source/output verification, not PDF accessibility certification."
+  ]
+}

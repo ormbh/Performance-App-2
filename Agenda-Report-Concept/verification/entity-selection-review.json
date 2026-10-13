@@ -1,0 +1,17 @@
+[
+  {
+    "case": "multiple",
+    "entityText": "هيئة الطرق والمواصلات ⁦+1⁩",
+    "total": 14
+  },
+  {
+    "case": "multiple-reversed",
+    "entityText": "دائرة الأراضي والأملاك ⁦+1⁩",
+    "total": 14
+  },
+  {
+    "case": "all-selected",
+    "entityText": "",
+    "total": 117
+  }
+]

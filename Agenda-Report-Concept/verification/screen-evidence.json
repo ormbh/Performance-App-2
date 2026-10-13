@@ -1,0 +1,921 @@
+{
+  "mode": "Preview only; v145 and source workbook unchanged",
+  "fixtureSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "cases": {
+    "all": {
+      "before": {
+        "keys": [
+          "agenda-2",
+          "agenda-6",
+          "agenda-111",
+          "agenda-55",
+          "agenda-12",
+          "agenda-25",
+          "agenda-28",
+          "agenda-29",
+          "agenda-30",
+          "agenda-32",
+          "agenda-51",
+          "agenda-52",
+          "agenda-56",
+          "agenda-57",
+          "agenda-58",
+          "agenda-59",
+          "agenda-60",
+          "agenda-61",
+          "agenda-62",
+          "agenda-63",
+          "agenda-87",
+          "agenda-95",
+          "agenda-105",
+          "agenda-112",
+          "agenda-113",
+          "agenda-117",
+          "agenda-118",
+          "agenda-70",
+          "agenda-71",
+          "agenda-72",
+          "agenda-76",
+          "agenda-78",
+          "agenda-68",
+          "agenda-69",
+          "agenda-39",
+          "agenda-42",
+          "agenda-3",
+          "agenda-5",
+          "agenda-7",
+          "agenda-15",
+          "agenda-24",
+          "agenda-67",
+          "agenda-77",
+          "agenda-79",
+          "agenda-14",
+          "agenda-74",
+          "agenda-54",
+          "agenda-35",
+          "agenda-36",
+          "agenda-46",
+          "agenda-64",
+          "agenda-65",
+          "agenda-4",
+          "agenda-116",
+          "agenda-96",
+          "agenda-16",
+          "agenda-17",
+          "agenda-23",
+          "agenda-26",
+          "agenda-31",
+          "agenda-33",
+          "agenda-34",
+          "agenda-37",
+          "agenda-38",
+          "agenda-40",
+          "agenda-41",
+          "agenda-43",
+          "agenda-44",
+          "agenda-45",
+          "agenda-47",
+          "agenda-48",
+          "agenda-53",
+          "agenda-66",
+          "agenda-73",
+          "agenda-75",
+          "agenda-80",
+          "agenda-81",
+          "agenda-82",
+          "agenda-83",
+          "agenda-84",
+          "agenda-86",
+          "agenda-88",
+          "agenda-89",
+          "agenda-91",
+          "agenda-92",
+          "agenda-94",
+          "agenda-97",
+          "agenda-98",
+          "agenda-100",
+          "agenda-101",
+          "agenda-102",
+          "agenda-103",
+          "agenda-104",
+          "agenda-106",
+          "agenda-107",
+          "agenda-108",
+          "agenda-109",
+          "agenda-110",
+          "agenda-115",
+          "agenda-93",
+          "agenda-90",
+          "agenda-99",
+          "agenda-8",
+          "agenda-9",
+          "agenda-10",
+          "agenda-11",
+          "agenda-114",
+          "agenda-19",
+          "agenda-85",
+          "agenda-13",
+          "agenda-20",
+          "agenda-21",
+          "agenda-22",
+          "agenda-27",
+          "agenda-50",
+          "agenda-18",
+          "agenda-49"
+        ],
+        "charts": [
+          {
+            "label": "جاهز للعرض",
+            "value": "3"
+          },
+          {
+            "label": "قيد المراجعة",
+            "value": "1"
+          },
+          {
+            "label": "منجز",
+            "value": "23"
+          },
+          {
+            "label": "جاهز للعرض",
+            "value": "5"
+          },
+          {
+            "label": "قيد المراجعة",
+            "value": "2"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "2"
+          },
+          {
+            "label": "منجز",
+            "value": "8"
+          },
+          {
+            "label": "جاهز للعرض",
+            "value": "2"
+          },
+          {
+            "label": "قيد المراجعة",
+            "value": "1"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "5"
+          },
+          {
+            "label": "منجز",
+            "value": "2"
+          },
+          {
+            "label": "قيد المراجعة",
+            "value": "1"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "44"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          },
+          {
+            "label": "جاهز للعرض",
+            "value": "2"
+          },
+          {
+            "label": "منجز",
+            "value": "5"
+          },
+          {
+            "label": "منجز",
+            "value": "2"
+          },
+          {
+            "label": "جاهز للعرض",
+            "value": "4"
+          },
+          {
+            "label": "قيد المراجعة",
+            "value": "1"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "1"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          }
+        ],
+        "pie": [
+          {
+            "status": "جاهز للعرض",
+            "value": "10",
+            "percent": "10"
+          },
+          {
+            "status": "قيد المراجعة",
+            "value": "5",
+            "percent": "5"
+          },
+          {
+            "status": "قيد التطوير",
+            "value": "51",
+            "percent": "51"
+          },
+          {
+            "status": "منجز",
+            "value": "34",
+            "percent": "34"
+          }
+        ],
+        "sourceNotes": 0
+      },
+      "after": {
+        "keys": [
+          "agenda-2",
+          "agenda-6",
+          "agenda-111",
+          "agenda-55",
+          "agenda-12",
+          "agenda-25",
+          "agenda-28",
+          "agenda-29",
+          "agenda-30",
+          "agenda-32",
+          "agenda-51",
+          "agenda-52",
+          "agenda-56",
+          "agenda-57",
+          "agenda-58",
+          "agenda-59",
+          "agenda-60",
+          "agenda-61",
+          "agenda-62",
+          "agenda-63",
+          "agenda-87",
+          "agenda-95",
+          "agenda-105",
+          "agenda-112",
+          "agenda-113",
+          "agenda-117",
+          "agenda-118",
+          "agenda-70",
+          "agenda-71",
+          "agenda-72",
+          "agenda-76",
+          "agenda-78",
+          "agenda-68",
+          "agenda-69",
+          "agenda-39",
+          "agenda-42",
+          "agenda-3",
+          "agenda-5",
+          "agenda-7",
+          "agenda-15",
+          "agenda-24",
+          "agenda-67",
+          "agenda-77",
+          "agenda-79",
+          "agenda-14",
+          "agenda-74",
+          "agenda-54",
+          "agenda-35",
+          "agenda-36",
+          "agenda-46",
+          "agenda-64",
+          "agenda-65",
+          "agenda-4",
+          "agenda-116",
+          "agenda-96",
+          "agenda-16",
+          "agenda-17",
+          "agenda-23",
+          "agenda-26",
+          "agenda-31",
+          "agenda-33",
+          "agenda-34",
+          "agenda-37",
+          "agenda-38",
+          "agenda-40",
+          "agenda-41",
+          "agenda-43",
+          "agenda-44",
+          "agenda-45",
+          "agenda-47",
+          "agenda-48",
+          "agenda-53",
+          "agenda-66",
+          "agenda-73",
+          "agenda-75",
+          "agenda-80",
+          "agenda-81",
+          "agenda-82",
+          "agenda-83",
+          "agenda-84",
+          "agenda-86",
+          "agenda-88",
+          "agenda-89",
+          "agenda-91",
+          "agenda-92",
+          "agenda-94",
+          "agenda-97",
+          "agenda-98",
+          "agenda-100",
+          "agenda-101",
+          "agenda-102",
+          "agenda-103",
+          "agenda-104",
+          "agenda-106",
+          "agenda-107",
+          "agenda-108",
+          "agenda-109",
+          "agenda-110",
+          "agenda-115",
+          "agenda-93",
+          "agenda-90",
+          "agenda-99",
+          "agenda-8",
+          "agenda-9",
+          "agenda-10",
+          "agenda-11",
+          "agenda-114",
+          "agenda-19",
+          "agenda-85",
+          "agenda-13",
+          "agenda-20",
+          "agenda-21",
+          "agenda-22",
+          "agenda-27",
+          "agenda-50",
+          "agenda-18",
+          "agenda-49"
+        ],
+        "charts": [
+          {
+            "label": "جاهز للعرض",
+            "value": "3"
+          },
+          {
+            "label": "قيد المراجعة",
+            "value": "1"
+          },
+          {
+            "label": "منجز",
+            "value": "23"
+          },
+          {
+            "label": "جاهز للعرض",
+            "value": "5"
+          },
+          {
+            "label": "قيد المراجعة",
+            "value": "2"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "2"
+          },
+          {
+            "label": "منجز",
+            "value": "8"
+          },
+          {
+            "label": "جاهز للعرض",
+            "value": "2"
+          },
+          {
+            "label": "قيد المراجعة",
+            "value": "1"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "5"
+          },
+          {
+            "label": "منجز",
+            "value": "2"
+          },
+          {
+            "label": "قيد المراجعة",
+            "value": "1"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "44"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          },
+          {
+            "label": "جاهز للعرض",
+            "value": "2"
+          },
+          {
+            "label": "منجز",
+            "value": "5"
+          },
+          {
+            "label": "منجز",
+            "value": "2"
+          },
+          {
+            "label": "جاهز للعرض",
+            "value": "4"
+          },
+          {
+            "label": "قيد المراجعة",
+            "value": "1"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "1"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          }
+        ],
+        "pie": [
+          {
+            "status": "جاهز للعرض",
+            "value": "10",
+            "percent": "10"
+          },
+          {
+            "status": "قيد المراجعة",
+            "value": "5",
+            "percent": "5"
+          },
+          {
+            "status": "قيد التطوير",
+            "value": "51",
+            "percent": "51"
+          },
+          {
+            "status": "منجز",
+            "value": "34",
+            "percent": "34"
+          }
+        ],
+        "sourceNotes": 0
+      },
+      "transform": {
+        "total": 117,
+        "planned": 100,
+        "emerging": 17,
+        "other": 0,
+        "main": 100,
+        "selectedEntity": "",
+        "sourceNotesRemoved": 0,
+        "recordKeys": [
+          "agenda-2",
+          "agenda-6",
+          "agenda-111",
+          "agenda-55",
+          "agenda-12",
+          "agenda-25",
+          "agenda-28",
+          "agenda-29",
+          "agenda-30",
+          "agenda-32",
+          "agenda-51",
+          "agenda-52",
+          "agenda-56",
+          "agenda-57",
+          "agenda-58",
+          "agenda-59",
+          "agenda-60",
+          "agenda-61",
+          "agenda-62",
+          "agenda-63",
+          "agenda-87",
+          "agenda-95",
+          "agenda-105",
+          "agenda-112",
+          "agenda-113",
+          "agenda-117",
+          "agenda-118",
+          "agenda-70",
+          "agenda-71",
+          "agenda-72",
+          "agenda-76",
+          "agenda-78",
+          "agenda-68",
+          "agenda-69",
+          "agenda-39",
+          "agenda-42",
+          "agenda-3",
+          "agenda-5",
+          "agenda-7",
+          "agenda-15",
+          "agenda-24",
+          "agenda-67",
+          "agenda-77",
+          "agenda-79",
+          "agenda-14",
+          "agenda-74",
+          "agenda-54",
+          "agenda-35",
+          "agenda-36",
+          "agenda-46",
+          "agenda-64",
+          "agenda-65",
+          "agenda-4",
+          "agenda-116",
+          "agenda-96",
+          "agenda-16",
+          "agenda-17",
+          "agenda-23",
+          "agenda-26",
+          "agenda-31",
+          "agenda-33",
+          "agenda-34",
+          "agenda-37",
+          "agenda-38",
+          "agenda-40",
+          "agenda-41",
+          "agenda-43",
+          "agenda-44",
+          "agenda-45",
+          "agenda-47",
+          "agenda-48",
+          "agenda-53",
+          "agenda-66",
+          "agenda-73",
+          "agenda-75",
+          "agenda-80",
+          "agenda-81",
+          "agenda-82",
+          "agenda-83",
+          "agenda-84",
+          "agenda-86",
+          "agenda-88",
+          "agenda-89",
+          "agenda-91",
+          "agenda-92",
+          "agenda-94",
+          "agenda-97",
+          "agenda-98",
+          "agenda-100",
+          "agenda-101",
+          "agenda-102",
+          "agenda-103",
+          "agenda-104",
+          "agenda-106",
+          "agenda-107",
+          "agenda-108",
+          "agenda-109",
+          "agenda-110",
+          "agenda-115",
+          "agenda-93",
+          "agenda-90",
+          "agenda-99",
+          "agenda-8",
+          "agenda-9",
+          "agenda-10",
+          "agenda-11",
+          "agenda-114",
+          "agenda-19",
+          "agenda-85",
+          "agenda-13",
+          "agenda-20",
+          "agenda-21",
+          "agenda-22",
+          "agenda-27",
+          "agenda-50",
+          "agenda-18",
+          "agenda-49"
+        ],
+        "chartValues": [
+          {
+            "label": "جاهز للعرض",
+            "value": "3"
+          },
+          {
+            "label": "قيد المراجعة",
+            "value": "1"
+          },
+          {
+            "label": "منجز",
+            "value": "23"
+          },
+          {
+            "label": "جاهز للعرض",
+            "value": "5"
+          },
+          {
+            "label": "قيد المراجعة",
+            "value": "2"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "2"
+          },
+          {
+            "label": "منجز",
+            "value": "8"
+          },
+          {
+            "label": "جاهز للعرض",
+            "value": "2"
+          },
+          {
+            "label": "قيد المراجعة",
+            "value": "1"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "5"
+          },
+          {
+            "label": "منجز",
+            "value": "2"
+          },
+          {
+            "label": "قيد المراجعة",
+            "value": "1"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "44"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          },
+          {
+            "label": "جاهز للعرض",
+            "value": "2"
+          },
+          {
+            "label": "منجز",
+            "value": "5"
+          },
+          {
+            "label": "منجز",
+            "value": "2"
+          },
+          {
+            "label": "جاهز للعرض",
+            "value": "4"
+          },
+          {
+            "label": "قيد المراجعة",
+            "value": "1"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "1"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          }
+        ],
+        "stage": "illustration-only"
+      },
+      "viewports": [
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "firstSummaryY": 543.96875,
+          "entity": null
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "firstSummaryY": 596.953125,
+          "entity": null
+        },
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "firstSummaryY": 596.953125,
+          "entity": null
+        }
+      ],
+      "dataUnchanged": true
+    },
+    "entity": {
+      "before": {
+        "keys": [
+          "agenda-62",
+          "agenda-63",
+          "agenda-95",
+          "agenda-76",
+          "agenda-79",
+          "agenda-65",
+          "agenda-81",
+          "agenda-108",
+          "agenda-114",
+          "agenda-85"
+        ],
+        "charts": [
+          {
+            "label": "منجز",
+            "value": "3"
+          },
+          {
+            "label": "جاهز للعرض",
+            "value": "1"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "1"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "2"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          }
+        ],
+        "pie": [
+          {
+            "status": "جاهز للعرض",
+            "value": "1",
+            "percent": "12.5"
+          },
+          {
+            "status": "قيد التطوير",
+            "value": "3",
+            "percent": "37.5"
+          },
+          {
+            "status": "منجز",
+            "value": "4",
+            "percent": "50"
+          }
+        ],
+        "sourceNotes": 0
+      },
+      "after": {
+        "keys": [
+          "agenda-62",
+          "agenda-63",
+          "agenda-95",
+          "agenda-76",
+          "agenda-79",
+          "agenda-65",
+          "agenda-81",
+          "agenda-108",
+          "agenda-114",
+          "agenda-85"
+        ],
+        "charts": [
+          {
+            "label": "منجز",
+            "value": "3"
+          },
+          {
+            "label": "جاهز للعرض",
+            "value": "1"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "1"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "2"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          }
+        ],
+        "pie": [
+          {
+            "status": "جاهز للعرض",
+            "value": "1",
+            "percent": "12.5"
+          },
+          {
+            "status": "قيد التطوير",
+            "value": "3",
+            "percent": "37.5"
+          },
+          {
+            "status": "منجز",
+            "value": "4",
+            "percent": "50"
+          }
+        ],
+        "sourceNotes": 0
+      },
+      "transform": {
+        "total": 10,
+        "planned": 8,
+        "emerging": 2,
+        "other": 0,
+        "main": 8,
+        "selectedEntity": "هيئة الطرق والمواصلات",
+        "sourceNotesRemoved": 0,
+        "recordKeys": [
+          "agenda-62",
+          "agenda-63",
+          "agenda-95",
+          "agenda-76",
+          "agenda-79",
+          "agenda-65",
+          "agenda-81",
+          "agenda-108",
+          "agenda-114",
+          "agenda-85"
+        ],
+        "chartValues": [
+          {
+            "label": "منجز",
+            "value": "3"
+          },
+          {
+            "label": "جاهز للعرض",
+            "value": "1"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "1"
+          },
+          {
+            "label": "قيد التطوير",
+            "value": "2"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          },
+          {
+            "label": "منجز",
+            "value": "1"
+          }
+        ],
+        "stage": "illustration-only"
+      },
+      "viewports": [
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "firstSummaryY": 575.96875,
+          "entity": "هيئة الطرق والمواصلات"
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "firstSummaryY": 648.125,
+          "entity": "هيئة الطرق والمواصلات"
+        },
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "firstSummaryY": 670.515625,
+          "entity": "هيئة الطرق والمواصلات"
+        }
+      ],
+      "dataUnchanged": true
+    }
+  },
+  "appendixSpecimen": {
+    "syntheticNote": true,
+    "sourceWorkbookModified": false,
+    "appendixAbsent": true,
+    "emergingRetained": true
+  }
+}

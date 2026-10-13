@@ -1,0 +1,52 @@
+{
+  "Agenda-all-Preview.html": {
+    "rows": 117,
+    "bodyFont": "16px",
+    "headFont": "18px",
+    "fontDubai": true,
+    "fontDin": true,
+    "allImages": true,
+    "title": "مستجدات الأجندة السنوية",
+    "entity": "",
+    "sourceAppendix": false,
+    "emerging": true,
+    "visibleEditorBackground": "rgb(252, 251, 251)",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "phone": {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "tableDisplay": "grid",
+      "bodyFont": "16px"
+    },
+    "networkRequests": [],
+    "pageErrors": [],
+    "delivery": "Self-contained HTML rendered with networking offline via set_content. Native file navigation is blocked by managed browser policy ERR_BLOCKED_BY_ADMINISTRATOR; not a preview failure.",
+    "sha256": "f12f942d3dbfbd03760e66db59eebd6f6dba3a9707b04b900c75e41fc3ddef6a"
+  },
+  "Agenda-entity-Preview.html": {
+    "rows": 10,
+    "bodyFont": "16px",
+    "headFont": "18px",
+    "fontDubai": true,
+    "fontDin": true,
+    "allImages": true,
+    "title": "مستجدات الأجندة السنوية",
+    "entity": "هيئة الطرق والمواصلات",
+    "sourceAppendix": false,
+    "emerging": true,
+    "visibleEditorBackground": "rgb(252, 251, 251)",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "phone": {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "tableDisplay": "grid",
+      "bodyFont": "16px"
+    },
+    "networkRequests": [],
+    "pageErrors": [],
+    "delivery": "Self-contained HTML rendered with networking offline via set_content. Native file navigation is blocked by managed browser policy ERR_BLOCKED_BY_ADMINISTRATOR; not a preview failure.",
+    "sha256": "cb981934865f9b6e3547a13597c6c2da70a1f8d26d02ce925948967cfb90a690"
+  }
+}

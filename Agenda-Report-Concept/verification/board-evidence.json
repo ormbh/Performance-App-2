@@ -1,0 +1,38 @@
+{
+  "desktop": {
+    "x": 0,
+    "y": 0,
+    "width": 1506,
+    "height": 2335
+  },
+  "summary": {
+    "x": 0,
+    "y": 0,
+    "width": 2828,
+    "height": 1949
+  },
+  "tables": {
+    "x": 0,
+    "y": 0,
+    "width": 1506,
+    "height": 1775
+  },
+  "phone": {
+    "x": 0,
+    "y": 0,
+    "width": 1288,
+    "height": 1097
+  },
+  "entity": {
+    "x": 0,
+    "y": 0,
+    "width": 1506,
+    "height": 1902.1875
+  },
+  "pdf": {
+    "x": 0,
+    "y": 0,
+    "width": 2618,
+    "height": 3207.78125
+  }
+}
