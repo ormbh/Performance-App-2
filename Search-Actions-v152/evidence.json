@@ -1,0 +1,503 @@
+{
+  "cases": [
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "baseline": {
+        "logo": {
+          "x": 605,
+          "y": 324.8125,
+          "width": 230,
+          "height": 73.78125
+        },
+        "title": {
+          "x": 612.96875,
+          "y": 415.3843688964844,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        "field": {
+          "x": 380,
+          "y": 495.78125,
+          "width": 680,
+          "height": 64
+        },
+        "trigger": {
+          "x": 1348,
+          "y": 24,
+          "width": 44,
+          "height": 44
+        },
+        "search": {
+          "x": 739.21875,
+          "y": 583.78125,
+          "width": 118.453125,
+          "height": 44
+        },
+        "browse": {
+          "x": 582.34375,
+          "y": 583.78125,
+          "width": 144.875,
+          "height": 44
+        },
+        "scrollWidth": 1440,
+        "innerWidth": 1440
+      },
+      "candidate": {
+        "logo": {
+          "x": 605,
+          "y": 324.8125,
+          "width": 230,
+          "height": 73.78125
+        },
+        "title": {
+          "x": 612.96875,
+          "y": 415.3843688964844,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        "field": {
+          "x": 380,
+          "y": 495.78125,
+          "width": 680,
+          "height": 64
+        },
+        "trigger": {
+          "x": 841.671875,
+          "y": 583.78125,
+          "width": 44,
+          "height": 44
+        },
+        "search": {
+          "x": 711.21875,
+          "y": 583.78125,
+          "width": 118.453125,
+          "height": 44
+        },
+        "browse": {
+          "x": 554.34375,
+          "y": 583.78125,
+          "width": 144.875,
+          "height": 44
+        },
+        "scrollWidth": 1440,
+        "innerWidth": 1440
+      },
+      "group_center": 720.0078125,
+      "control_vertical_centers": [
+        605.78125,
+        605.78125,
+        605.78125
+      ],
+      "menu": {
+        "x": 565.671875,
+        "y": 117.78125,
+        "width": 320,
+        "height": 458
+      },
+      "keyboard_and_click": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "baseline": {
+        "logo": {
+          "x": 269,
+          "y": 336.8125,
+          "width": 230,
+          "height": 73.78125
+        },
+        "title": {
+          "x": 276.96875,
+          "y": 427.3843688964844,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        "field": {
+          "x": 44,
+          "y": 507.78125,
+          "width": 680,
+          "height": 64
+        },
+        "trigger": {
+          "x": 692,
+          "y": 24,
+          "width": 44,
+          "height": 44
+        },
+        "search": {
+          "x": 403.21875,
+          "y": 595.78125,
+          "width": 118.453125,
+          "height": 44
+        },
+        "browse": {
+          "x": 246.34375,
+          "y": 595.78125,
+          "width": 144.875,
+          "height": 44
+        },
+        "scrollWidth": 768,
+        "innerWidth": 768
+      },
+      "candidate": {
+        "logo": {
+          "x": 269,
+          "y": 336.8125,
+          "width": 230,
+          "height": 73.78125
+        },
+        "title": {
+          "x": 276.96875,
+          "y": 427.3843688964844,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        "field": {
+          "x": 44,
+          "y": 507.78125,
+          "width": 680,
+          "height": 64
+        },
+        "trigger": {
+          "x": 505.671875,
+          "y": 595.78125,
+          "width": 44,
+          "height": 44
+        },
+        "search": {
+          "x": 375.21875,
+          "y": 595.78125,
+          "width": 118.453125,
+          "height": 44
+        },
+        "browse": {
+          "x": 218.34375,
+          "y": 595.78125,
+          "width": 144.875,
+          "height": 44
+        },
+        "scrollWidth": 768,
+        "innerWidth": 768
+      },
+      "group_center": 384.0078125,
+      "control_vertical_centers": [
+        617.78125,
+        617.78125,
+        617.78125
+      ],
+      "menu": {
+        "x": 229.671875,
+        "y": 129.78125,
+        "width": 320,
+        "height": 458
+      },
+      "keyboard_and_click": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "baseline": {
+        "logo": {
+          "x": 95,
+          "y": 248.4375,
+          "width": 200,
+          "height": 64.15625
+        },
+        "title": {
+          "x": 87.96875,
+          "y": 325.3843688964844,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        "field": {
+          "x": 16,
+          "y": 401.78125,
+          "width": 358,
+          "height": 60
+        },
+        "trigger": {
+          "x": 330,
+          "y": 16,
+          "width": 44,
+          "height": 44
+        },
+        "search": {
+          "x": 212.21875,
+          "y": 485.78125,
+          "width": 118.453125,
+          "height": 44
+        },
+        "browse": {
+          "x": 59.34375,
+          "y": 485.78125,
+          "width": 144.875,
+          "height": 44
+        },
+        "scrollWidth": 390,
+        "innerWidth": 390
+      },
+      "candidate": {
+        "logo": {
+          "x": 95,
+          "y": 248.4375,
+          "width": 200,
+          "height": 64.15625
+        },
+        "title": {
+          "x": 87.96875,
+          "y": 325.3843688964844,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        "field": {
+          "x": 16,
+          "y": 401.78125,
+          "width": 358,
+          "height": 60
+        },
+        "trigger": {
+          "x": 312.671875,
+          "y": 485.78125,
+          "width": 44,
+          "height": 44
+        },
+        "search": {
+          "x": 186.21875,
+          "y": 485.78125,
+          "width": 118.453125,
+          "height": 44
+        },
+        "browse": {
+          "x": 33.34375,
+          "y": 485.78125,
+          "width": 144.875,
+          "height": 44
+        },
+        "scrollWidth": 390,
+        "innerWidth": 390
+      },
+      "group_center": 195.0078125,
+      "control_vertical_centers": [
+        507.78125,
+        507.78125,
+        507.78125
+      ],
+      "menu": {
+        "x": 36.671875,
+        "y": 19.78125,
+        "width": 320,
+        "height": 458
+      },
+      "keyboard_and_click": true
+    },
+    {
+      "viewport": [
+        320,
+        640
+      ],
+      "baseline": {
+        "logo": {
+          "x": 60,
+          "y": 146.4375,
+          "width": 200,
+          "height": 64.15625
+        },
+        "title": {
+          "x": 52.96875,
+          "y": 223.38436889648438,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        "field": {
+          "x": 16,
+          "y": 299.78125,
+          "width": 288,
+          "height": 60
+        },
+        "trigger": {
+          "x": 260,
+          "y": 16,
+          "width": 44,
+          "height": 44
+        },
+        "search": {
+          "x": 177.21875,
+          "y": 383.78125,
+          "width": 118.453125,
+          "height": 44
+        },
+        "browse": {
+          "x": 24.34375,
+          "y": 383.78125,
+          "width": 144.875,
+          "height": 44
+        },
+        "scrollWidth": 320,
+        "innerWidth": 320
+      },
+      "candidate": {
+        "logo": {
+          "x": 60,
+          "y": 146.4375,
+          "width": 200,
+          "height": 64.15625
+        },
+        "title": {
+          "x": 52.96875,
+          "y": 223.38436889648438,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        "field": {
+          "x": 16,
+          "y": 299.78125,
+          "width": 288,
+          "height": 60
+        },
+        "trigger": {
+          "x": 257.671875,
+          "y": 383.78125,
+          "width": 44,
+          "height": 44
+        },
+        "search": {
+          "x": 151.21875,
+          "y": 383.78125,
+          "width": 102.453125,
+          "height": 44
+        },
+        "browse": {
+          "x": 18.34375,
+          "y": 383.78125,
+          "width": 128.875,
+          "height": 44
+        },
+        "scrollWidth": 320,
+        "innerWidth": 320
+      },
+      "group_center": 160.0078125,
+      "control_vertical_centers": [
+        405.78125,
+        405.78125,
+        405.78125
+      ],
+      "menu": {
+        "x": 12,
+        "y": 12,
+        "width": 296,
+        "height": 458
+      },
+      "keyboard_and_click": true
+    },
+    {
+      "viewport": [
+        390,
+        400
+      ],
+      "baseline": {
+        "logo": {
+          "x": 95,
+          "y": 124,
+          "width": 200,
+          "height": 64.15625
+        },
+        "title": {
+          "x": 87.96875,
+          "y": 200.94686889648438,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        "field": {
+          "x": 16,
+          "y": 277.34375,
+          "width": 358,
+          "height": 60
+        },
+        "trigger": {
+          "x": 330,
+          "y": 16,
+          "width": 44,
+          "height": 44
+        },
+        "search": {
+          "x": 212.21875,
+          "y": 361.34375,
+          "width": 118.453125,
+          "height": 44
+        },
+        "browse": {
+          "x": 59.34375,
+          "y": 361.34375,
+          "width": 144.875,
+          "height": 44
+        },
+        "scrollWidth": 390,
+        "innerWidth": 390
+      },
+      "candidate": {
+        "logo": {
+          "x": 95,
+          "y": 124,
+          "width": 200,
+          "height": 64.15625
+        },
+        "title": {
+          "x": 87.96875,
+          "y": 200.94686889648438,
+          "width": 214.0625,
+          "height": 50.390625
+        },
+        "field": {
+          "x": 16,
+          "y": 277.34375,
+          "width": 358,
+          "height": 60
+        },
+        "trigger": {
+          "x": 312.671875,
+          "y": 361.34375,
+          "width": 44,
+          "height": 44
+        },
+        "search": {
+          "x": 186.21875,
+          "y": 361.34375,
+          "width": 118.453125,
+          "height": 44
+        },
+        "browse": {
+          "x": 33.34375,
+          "y": 361.34375,
+          "width": 144.875,
+          "height": 44
+        },
+        "scrollWidth": 390,
+        "innerWidth": 390
+      },
+      "group_center": 195.0078125,
+      "control_vertical_centers": [
+        383.34375,
+        383.34375,
+        383.34375
+      ],
+      "menu": {
+        "x": 36.671875,
+        "y": 12,
+        "width": 320,
+        "height": 376
+      },
+      "keyboard_and_click": true
+    }
+  ],
+  "errors": [],
+  "source_injection": false,
+  "search_navigation": true,
+  "browse_navigation": true
+}

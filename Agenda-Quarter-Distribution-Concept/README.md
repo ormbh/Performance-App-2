@@ -1,11 +1,15 @@
-# Agenda quarter chart — review-only concept
+# Agenda quarter chart — revised review concept
 
-Open `TEC_Agenda_Quarter_Concept.html` directly. The fonts, source values, styling and interaction are embedded; it needs no network connection. The complete concept ZIP also includes `index.html`, the editable equivalent with local font assets.
+Open `TEC_Agenda_Quarter_Concept.html` directly. Fonts, source values, styling and interactions are embedded; it needs no network connection. The complete concept ZIP also includes `index.html` and its local font assets.
 
-The source is the screenshot supplied in this conversation, not a new workbook analysis. Approved agenda: 100 items; emerging topics: 17 items. The heights use each quarter count divided by its category total. Both panels share a 0–100% scale. The counts above columns remain absolute counts. Status segments use exact source counts and the approved palette. Review and development share Taupe, separated with fine lines and explicitly named in the selected quarter details.
+This revision uses topic counts on a shared zero-to-50 scale. Counts above columns and quarter names below remain. Percentages and the selected-quarter ratio lines have been removed. Both panels use the same count scale; heights are not normalized by category total.
 
-Quarter 1 is on the right. Focus or select a quarter for its exact status values. Expand the details table for all counts. Zeroes display as dashes. No late records occur in the screenshot; the concept does not manufacture a late segment.
+The original **تعريفات مستويات الإنجاز** legend is restored below both charts, with all five source definitions and their approved swatches. Only done and late status text uses Green and Red. Late remains in the definitions even though this screenshot contains no late records. Review and development retain the same Taupe; fine separators and the text breakdown distinguish them.
 
-The concept is not applied to the app. It does not modify the app’s charts, source data or PDF export.
+The source is the screenshot supplied in this conversation. Approved agenda: 100 items; emerging topics: 17 items. All counts and status breakdowns remain identical to the earlier concept. This is not a new workbook analysis.
 
-Verified: exact totals and quarter status counts; fonts loaded; no JavaScript errors; keyboard access to quarter details; no document overflow at 1640px and 390px. Desktop preview is the primary review composition. No native app PDF is claimed or included.
+Quarter 1 is on the right. Focus or select a quarter for its exact status values. The visible ratio heading is omitted; the quarter remains identified to assistive technology. Expand the details table for all counts. True zero values display as dashes.
+
+This illustration is for review. It is not applied to the app or its PDF export.
+
+Verified: totals and quarter counts, common count scale, removed percentage/ratio labels, exact source definitions, fonts loaded, no JavaScript errors, keyboard access, expanded count table, and no desktop/phone document overflow at 1640px and 390px. Standalone HTML renders with the browser context offline. No native app PDF is included or claimed.

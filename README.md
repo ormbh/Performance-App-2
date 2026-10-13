@@ -1,4 +1,14 @@
-# Performance App v151
+# Performance App v152
+
+[Download app — v152](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v152.zip) · [Verification](Saytara-Verification-v152.md) · [Search layout](Search-Actions-v152/README.md)
+
+The menu sits beside **بحث في التقرير**. All three search controls are centered together under the field and aligned vertically, with a menu that stays within desktop and phone viewports.
+
+[Revised quarter-chart illustration — review only](Agenda-Quarter-Distribution-Concept/quarter-distribution-preview.png) · [Interactive offline concept ZIP](TEC_Agenda_Quarter_Concept.zip). The concept now uses counts, removes percentage and quarter-ratio labels, and restores the original **تعريفات مستويات الإنجاز** legend. It has not been applied to the app.
+
+Extract the complete app ZIP and open **index.html**. No source workbook is included.
+
+# Previous release — v151
 
 [Download app — v151](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v151.zip) · [Verification](Saytara-Verification-v151.md) · [Layout screenshots](Agenda-Layout-v151/README.md)
 
