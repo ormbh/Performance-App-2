@@ -1,0 +1,27 @@
+{
+  "baselineUnchanged": true,
+  "changed": [
+    "DESIGN-STANDARD.md",
+    "README.md",
+    "SHA256SUMS",
+    "assets/css/app-bundle.css",
+    "assets/css/print-measure-bundle.css",
+    "assets/js/app-bundle.js",
+    "assets/js/model/util.js",
+    "assets/js/views/agenda.js",
+    "assets/js/views/pdf-download.js",
+    "assets/js/views/print-pagination.js",
+    "index.html",
+    "tools/build-bundles.py"
+  ],
+  "added": [
+    "AGENDA-DESIGN-v146.md",
+    "VERIFICATION-v146.md",
+    "assets/css/tec-agenda-print.css",
+    "assets/css/tec-agenda-matrix.css",
+    "assets/css/tec-agenda-workspace.css",
+    "assets/js/views/agenda-matrix.js",
+    "assets/js/views/agenda-print.js"
+  ],
+  "removed": []
+}

@@ -1,4 +1,21 @@
-# Performance App v145
+# Performance App v146
+
+[Download app — v146 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v146.zip) · [Verification](Saytara-Verification-v146.md) · [Applied agenda screenshots](Agenda-Report-v146/README.md)
+
+The approved agenda page and offline PDF are implemented:
+
+- Zero counts as **–**; only late and completed status names colored.
+- Shared legend; filtered status/quarter visibility; percentages and duplicate bottom-left totals removed.
+- Both charts together on the first A4 landscape page, with title, selected entity and reporting period shown once.
+- Wider topic/entity tables and removal of the agenda source-notes appendix.
+
+Verified across desktop/phone layouts, filtered/empty/late cases, actual PDF downloads and fresh ZIP extraction. Native offline PDF works after local assets load; cold file-origin launch is blocked in the managed test browser. See verification for scope and limits.
+
+Extract the complete ZIP and open **index.html** with its **assets** folder beside it. No source workbook is included. The approved monthly dashboard and search remain in this release.
+
+[TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles/SKILL.md) · [Agenda-specific approved rules](Agenda-Report-v146/AGENDA-DESIGN-v146.md)
+
+# Previous release — v145
 
 [Download app — v145 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v145.zip) · [Verification](Saytara-Verification-v145.md) · [Design standard — Revision 20](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-20.md)
 
@@ -17,12 +34,12 @@ Extract the complete ZIP and open **index.html** with its **assets** folder besi
 
 Previous release: [v144 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v144.zip) · [v144 verification](Saytara-Verification-v144.md). Prior releases and concepts are preserved.
 
-[Agenda report — design illustrations](Agenda-Report-Concept/README.md) · [Download agenda concept ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Agenda-Report-Concept.zip). Preview only; v145 remains unchanged pending approval.
+[Agenda report — design illustrations](Agenda-Report-Concept/README.md) · [Download agenda concept ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Agenda-Report-Concept.zip). Historical preview; superseded by the approved v146 implementation.
 
-[Agenda illustrations — Revision 2](Agenda-Report-Concept-Revision-2/README.md) · [Download revised concept ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Agenda-Report-Concept-Revision-2.zip). Redesigned filtered charts together on the first A4 landscape page, first-page-only entity/period header and wider topic/entity tables. Illustration only; app unchanged.
+[Agenda illustrations — Revision 2](Agenda-Report-Concept-Revision-2/README.md) · [Download revised concept ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Agenda-Report-Concept-Revision-2.zip). Redesigned filtered charts together on the first A4 landscape page, first-page-only entity/period header and wider topic/entity tables. Historical illustration.
 
-[Agenda chart options — Revision 3](Agenda-Chart-Options-Revision-3/README.md) · [Download chart review ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Agenda-Chart-Options-Revision-3.zip). Compare the requested status-row/quarter-column transpose with directly labelled quarter panels; offline interactive review, filtered examples and A4 landscape first-page proofs. Illustrations only; app unchanged.
+[Agenda chart options — Revision 3](Agenda-Chart-Options-Revision-3/README.md) · [Download chart review ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Agenda-Chart-Options-Revision-3.zip). Compare the requested status-row/quarter-column transpose with directly labelled quarter panels; offline interactive review, filtered examples and A4 landscape first-page proofs. Historical illustrations.
 
-[Agenda chart comparison — Revision 4](Agenda-Chart-Options-Revision-4/README.md) · [Download all three alternatives](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Agenda-Chart-Options-Revision-4.zip). Removes repeated chart totals and aligns the status heading; compares grouped horizontal bars, vertical quarter columns and text without bars. Includes offline review, filtered examples and eight A4 first-page proofs. Illustrations only; app unchanged.
+[Agenda chart comparison — Revision 4](Agenda-Chart-Options-Revision-4/README.md) · [Download all three alternatives](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Agenda-Chart-Options-Revision-4.zip). Removes repeated chart totals and aligns the status heading; compares grouped horizontal bars, vertical quarter columns and text without bars. Includes offline review, filtered examples and eight A4 first-page proofs. Historical illustrations.
 
-[Agenda chart — Revision 5](Agenda-Chart-Options-Revision-5/README.md) · [Download revised original concept](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Agenda-Chart-Options-Revision-5.zip). Original matrix with colored status names and a shared legend; percentages and bottom-left grand totals removed. Includes before/after, offline review and two A4 first-page proofs. Illustration only; app unchanged.
+[Agenda chart — Revision 5](Agenda-Chart-Options-Revision-5/README.md) · [Download revised original concept](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/TEC-Agenda-Chart-Options-Revision-5.zip). Original matrix with colored status names and a shared legend; percentages and bottom-left grand totals removed. Includes before/after, offline review and two A4 first-page proofs. Historical illustration.

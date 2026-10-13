@@ -1,0 +1,48 @@
+{
+  "method": "Select glyphs from full-page raw text by actual cell rectangle; compare source word/number multiset to allow RTL/LTR extraction order. Direct PyMuPDF clipped extraction was avoided because it introduced a phantom zero-width lam absent in whole-page raw glyph data.",
+  "cases": [
+    {
+      "scope": "all",
+      "titleCells": 117,
+      "failures": 0,
+      "pdfSHA256": "010eb791fbe428f6d548e46d310b8c057046bbcab3eee575030bbf24c0858787"
+    },
+    {
+      "scope": "entity",
+      "titleCells": 10,
+      "failures": 0,
+      "pdfSHA256": "ffc5e9f5d46a370af9b249c173db9487c666aae3aaf1805ce6c3868d97e20bce"
+    },
+    {
+      "scope": "sparse",
+      "titleCells": 1,
+      "failures": 0,
+      "pdfSHA256": "ce30fde0f941a6ef03f9329a83788261b4b11756a8c892112f955751877f7bf0"
+    },
+    {
+      "scope": "empty",
+      "titleCells": 0,
+      "failures": 0,
+      "pdfSHA256": "f05b1936869f652874bde9c6ac785772ba5a10f5d1422557816ba9e699fccf40"
+    },
+    {
+      "scope": "emerging_only",
+      "titleCells": 17,
+      "failures": 0,
+      "pdfSHA256": "771f2097f52e216af86470061dbbfd3a2affc64f5f856cda3535a54505b0acef"
+    },
+    {
+      "scope": "two_entities",
+      "titleCells": 11,
+      "failures": 0,
+      "pdfSHA256": "25d7075a85320f5db08930b71cf86316dafc11d9b00e889115a180bac14d303b"
+    },
+    {
+      "scope": "synthetic",
+      "titleCells": 6,
+      "failures": 0,
+      "pdfSHA256": "b2fbe8e51fa07144c0a330f6fef66784ecf81f9a0702882720a668bce77078f3"
+    }
+  ],
+  "issues": []
+}

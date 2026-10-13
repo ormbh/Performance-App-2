@@ -1,0 +1,46 @@
+{
+  "145-council": {
+    "pages": 30,
+    "geometry": {
+      "widthMM": 297,
+      "contentWidthMM": 277,
+      "heightMM": 210,
+      "contentHeightPx": 17249
+    },
+    "lines": 1220,
+    "ops": 3583
+  },
+  "145-hh": {
+    "pages": 71,
+    "geometry": {
+      "widthMM": 297,
+      "contentWidthMM": 277,
+      "heightMM": 210,
+      "contentHeightPx": 30139.40625
+    },
+    "lines": 1734,
+    "ops": 3172
+  },
+  "146-council": {
+    "pages": 30,
+    "geometry": {
+      "widthMM": 297,
+      "contentWidthMM": 277,
+      "heightMM": 210,
+      "contentHeightPx": 17249
+    },
+    "lines": 1220,
+    "ops": 3583
+  },
+  "146-hh": {
+    "pages": 71,
+    "geometry": {
+      "widthMM": 297,
+      "contentWidthMM": 277,
+      "heightMM": 210,
+      "contentHeightPx": 30139.40625
+    },
+    "lines": 1734,
+    "ops": 3172
+  }
+}

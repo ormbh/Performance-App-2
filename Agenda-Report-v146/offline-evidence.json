@@ -1,0 +1,16 @@
+{
+  "offlineAfterPriming": true,
+  "internetRequests": [],
+  "offlineRequests": [
+    "http://127.0.0.1:8916/Performance-App-v146/assets/css/print-measure-bundle.css?v=146",
+    "http://127.0.0.1:8916/Performance-App-v146/assets/img/tec-red.png",
+    "http://127.0.0.1:8916/Performance-App-v146/assets/fonts/Dubai-Regular.otf",
+    "http://127.0.0.1:8916/Performance-App-v146/assets/fonts/Dubai-Bold.otf",
+    "http://127.0.0.1:8916/Performance-App-v146/assets/fonts/DIN-Next-Arabic-Regular.otf",
+    "http://127.0.0.1:8916/Performance-App-v146/assets/fonts/DIN-Next-LT-Arabic-Regular.ttf",
+    "blob:http://127.0.0.1:8916/57d0cba5-6f95-4924-97e6-97d306a8d254"
+  ],
+  "failed": [],
+  "error": "",
+  "toast": "تم تنزيل PDF"
+}

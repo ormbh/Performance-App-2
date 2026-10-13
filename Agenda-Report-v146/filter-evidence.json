@@ -1,0 +1,46 @@
+[
+  {
+    "name": "desktop corefilters expanded without redundant toggle",
+    "pass": true
+  },
+  {
+    "name": "first selected entity plusN belowtitle",
+    "pass": true
+  },
+  {
+    "name": "entity multiunion11",
+    "pass": true
+  },
+  {
+    "name": "fullselectioncompactall",
+    "pass": true
+  },
+  {
+    "name": "allentities titleline omitted",
+    "pass": true
+  },
+  {
+    "name": "phonefilterstoggle opensallfourfields",
+    "pass": true
+  },
+  {
+    "name": "typefilteremerging17",
+    "pass": true
+  },
+  {
+    "name": "Escape restoresfiltertriggerfocus",
+    "pass": true
+  },
+  {
+    "name": "resetrestores117",
+    "pass": true
+  },
+  {
+    "name": "resetalllabel",
+    "pass": true
+  },
+  {
+    "name": "phonecollapsearia",
+    "pass": true
+  }
+]

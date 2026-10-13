@@ -1,0 +1,280 @@
+{
+  "stage": "Fresh v146 ZIP extraction smoke",
+  "checks": [
+    {
+      "check": "fresh extraction runtime identical to fully tested bundle",
+      "pass": true
+    },
+    {
+      "check": "fresh entity scope source counts10/8/2",
+      "pass": true
+    },
+    {
+      "check": "fresh entity source record keys/text unchanged",
+      "pass": true
+    },
+    {
+      "check": "fresh 1440 no chart/page overflow",
+      "pass": true
+    },
+    {
+      "check": "fresh 1440 zero dashes",
+      "pass": true
+    },
+    {
+      "check": "fresh 1440 zero bars absent",
+      "pass": true
+    },
+    {
+      "check": "fresh 1440 only late/done status names colored",
+      "pass": true
+    },
+    {
+      "check": "fresh 1440 legend active statuses",
+      "pass": true
+    },
+    {
+      "check": "fresh 390 no chart/page overflow",
+      "pass": true
+    },
+    {
+      "check": "fresh 390 zero dashes",
+      "pass": true
+    },
+    {
+      "check": "fresh 390 zero bars absent",
+      "pass": true
+    },
+    {
+      "check": "fresh 390 only late/done status names colored",
+      "pass": true
+    },
+    {
+      "check": "fresh 390 legend active statuses",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity native PDF A4 landscape",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity chart entire first PDF page",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity native page count matches plan",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity all table row keys included",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity appendix absent from actual PDF",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity first-page title restored",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity no repeated title",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF source title cell preserved",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF source title cell preserved",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF source title cell preserved",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF source title cell preserved",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF source title cell preserved",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF source title cell preserved",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF source title cell preserved",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF source title cell preserved",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF source title cell preserved",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF source title cell preserved",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity page 1 text within page",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity page 1 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity page 2 text within page",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity page 2 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity page 3 text within page",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity page 3 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity page 4 text within page",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity page 4 copyright/pages",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF chart numeric tokens",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity print DOM late/done label colors",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF late/done only label colors",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity print DOM late/done label colors",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF late/done only label colors",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity print DOM late/done label colors",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF late/done only label colors",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity print DOM late/done label colors",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF late/done only label colors",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity print DOM late/done label colors",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF late/done only label colors",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity print DOM late/done label colors",
+      "pass": true
+    },
+    {
+      "check": "extracted-entity actual PDF late/done only label colors",
+      "pass": true
+    },
+    {
+      "check": "fresh first-page selected entity under report title",
+      "pass": true
+    },
+    {
+      "check": "fresh actual PDF selected entity in first-page header",
+      "pass": true
+    },
+    {
+      "check": "fresh actual PDF month range",
+      "pass": true
+    },
+    {
+      "check": "fresh no repeated report header in continuation pages",
+      "pass": true
+    },
+    {
+      "check": "fresh no runtime errors",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "pdf": [
+    {
+      "scope": "extracted-entity",
+      "pages": 4,
+      "filename": "مستجدات الأجندة السنوية.pdf",
+      "pass": true,
+      "sha256": "9299e544936bcf59a0ea215b6c95e200e2f761e090148f7e02b2f9170b37161f",
+      "sourceRows": 10
+    }
+  ],
+  "screen": [
+    {
+      "width": 1440,
+      "total": 10,
+      "statuses": [
+        "جاهز للعرض",
+        "قيد التطوير",
+        "منجز"
+      ],
+      "quarters": [
+        "الربع الأول",
+        "الربع الثاني",
+        "الربع الثالث",
+        "الربع الرابع"
+      ]
+    },
+    {
+      "width": 390,
+      "total": 10,
+      "statuses": [
+        "جاهز للعرض",
+        "قيد التطوير",
+        "منجز"
+      ],
+      "quarters": [
+        "الربع الأول",
+        "الربع الثاني",
+        "الربع الثالث",
+        "الربع الرابع"
+      ]
+    }
+  ],
+  "errors": [],
+  "extractedRoot": "/workspace/saytara-work/release-check-v146/Performance-App-v146",
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "a0396df8c1a17b92047b5c078d0254e0682ee93c876ef899fa055e104cd2079e",
+    "assets/css/app-bundle.css": "3c9ec3dcb89e45e1ceedeb8f29976514e91c7e17c0cebf73df28d58960f4fb34",
+    "assets/css/print-measure-bundle.css": "899ddcf543018ffdb83988bff1caac88dc88a516f5685863f525c2f04fe12c49"
+  },
+  "verdict": "PASS"
+}
