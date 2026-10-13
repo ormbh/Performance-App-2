@@ -1,0 +1,481 @@
+{
+  "stage": "Independent QA of original matrix, colored labels and legend illustration only",
+  "sourceChecks": [
+    {
+      "fixture": "ILLUSTRATIVE-monthly-preview.xlsx",
+      "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+      "v3PreviouslyVerifiedAgainstLiveV145": true,
+      "allSixSpecificationsUnchanged": true
+    }
+  ],
+  "screenChecks": [
+    {
+      "scope": "all",
+      "width": 1440,
+      "pass": true,
+      "total": 117,
+      "commonTrackWidthSpreadPx": 0.03125
+    },
+    {
+      "scope": "all",
+      "width": 1024,
+      "pass": true,
+      "total": 117,
+      "commonTrackWidthSpreadPx": 0.046875
+    },
+    {
+      "scope": "all",
+      "width": 768,
+      "pass": true,
+      "total": 117,
+      "commonTrackWidthSpreadPx": 0.03125
+    },
+    {
+      "scope": "all",
+      "width": 390,
+      "pass": true,
+      "total": 117,
+      "commonTrackWidthSpreadPx": 0
+    },
+    {
+      "scope": "all",
+      "width": 320,
+      "pass": true,
+      "total": 117,
+      "commonTrackWidthSpreadPx": 0.0
+    },
+    {
+      "scope": "entity",
+      "width": 1440,
+      "pass": true,
+      "total": 10,
+      "commonTrackWidthSpreadPx": 0.03125
+    },
+    {
+      "scope": "entity",
+      "width": 1024,
+      "pass": true,
+      "total": 10,
+      "commonTrackWidthSpreadPx": 0.046875
+    },
+    {
+      "scope": "entity",
+      "width": 768,
+      "pass": true,
+      "total": 10,
+      "commonTrackWidthSpreadPx": 0.03125
+    },
+    {
+      "scope": "entity",
+      "width": 390,
+      "pass": true,
+      "total": 10,
+      "commonTrackWidthSpreadPx": 0
+    },
+    {
+      "scope": "entity",
+      "width": 320,
+      "pass": true,
+      "total": 10,
+      "commonTrackWidthSpreadPx": 0.0
+    },
+    {
+      "scope": "sparse",
+      "width": 1440,
+      "pass": true,
+      "total": 1,
+      "commonTrackWidthSpreadPx": 0.0
+    },
+    {
+      "scope": "sparse",
+      "width": 1024,
+      "pass": true,
+      "total": 1,
+      "commonTrackWidthSpreadPx": 0.0
+    },
+    {
+      "scope": "sparse",
+      "width": 768,
+      "pass": true,
+      "total": 1,
+      "commonTrackWidthSpreadPx": 0.0
+    },
+    {
+      "scope": "sparse",
+      "width": 390,
+      "pass": true,
+      "total": 1,
+      "commonTrackWidthSpreadPx": 0
+    },
+    {
+      "scope": "sparse",
+      "width": 320,
+      "pass": true,
+      "total": 1,
+      "commonTrackWidthSpreadPx": 0
+    },
+    {
+      "scope": "empty",
+      "width": 1440,
+      "pass": true,
+      "total": 0,
+      "commonTrackWidthSpreadPx": 0
+    },
+    {
+      "scope": "empty",
+      "width": 1024,
+      "pass": true,
+      "total": 0,
+      "commonTrackWidthSpreadPx": 0
+    },
+    {
+      "scope": "empty",
+      "width": 768,
+      "pass": true,
+      "total": 0,
+      "commonTrackWidthSpreadPx": 0
+    },
+    {
+      "scope": "empty",
+      "width": 390,
+      "pass": true,
+      "total": 0,
+      "commonTrackWidthSpreadPx": 0
+    },
+    {
+      "scope": "empty",
+      "width": 320,
+      "pass": true,
+      "total": 0,
+      "commonTrackWidthSpreadPx": 0
+    },
+    {
+      "scope": "multiple",
+      "width": 1440,
+      "pass": true,
+      "total": 11,
+      "commonTrackWidthSpreadPx": 0.03125
+    },
+    {
+      "scope": "multiple",
+      "width": 1024,
+      "pass": true,
+      "total": 11,
+      "commonTrackWidthSpreadPx": 0.046875
+    },
+    {
+      "scope": "multiple",
+      "width": 768,
+      "pass": true,
+      "total": 11,
+      "commonTrackWidthSpreadPx": 0.03125
+    },
+    {
+      "scope": "multiple",
+      "width": 390,
+      "pass": true,
+      "total": 11,
+      "commonTrackWidthSpreadPx": 0
+    },
+    {
+      "scope": "multiple",
+      "width": 320,
+      "pass": true,
+      "total": 11,
+      "commonTrackWidthSpreadPx": 0.0
+    },
+    {
+      "scope": "emerging",
+      "width": 1440,
+      "pass": true,
+      "total": 17,
+      "commonTrackWidthSpreadPx": 0.046875
+    },
+    {
+      "scope": "emerging",
+      "width": 1024,
+      "pass": true,
+      "total": 17,
+      "commonTrackWidthSpreadPx": 0.0
+    },
+    {
+      "scope": "emerging",
+      "width": 768,
+      "pass": true,
+      "total": 17,
+      "commonTrackWidthSpreadPx": 0.03125
+    },
+    {
+      "scope": "emerging",
+      "width": 390,
+      "pass": true,
+      "total": 17,
+      "commonTrackWidthSpreadPx": 0
+    },
+    {
+      "scope": "emerging",
+      "width": 320,
+      "pass": true,
+      "total": 17,
+      "commonTrackWidthSpreadPx": 0.0
+    }
+  ],
+  "pdfChecks": [
+    {
+      "file": "Agenda-A-All-A4-First-Page.pdf",
+      "pass": true,
+      "pageCount": 1,
+      "sizePt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "textBoundsPt": [
+        28.3359375,
+        30.107999801635742,
+        813.54833984375,
+        566.4854736328125
+      ],
+      "fonts": [
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "embeddedBytes": 8604,
+          "glyphPrograms": false,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        }
+      ],
+      "sha256": "880a47788364afd3046e1cfa1d3eec49980ffd527c942137e968e97187ce6fb9"
+    },
+    {
+      "file": "Agenda-A-Entity-A4-First-Page.pdf",
+      "pass": true,
+      "pageCount": 1,
+      "sizePt": [
+        841.9199829101562,
+        594.9599609375
+      ],
+      "textBoundsPt": [
+        28.3359375,
+        30.107999801635742,
+        813.54833984375,
+        566.4854736328125
+      ],
+      "fonts": [
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "embeddedBytes": 7508,
+          "glyphPrograms": false,
+          "unicode": true
+        },
+        {
+          "name": "",
+          "type": "Type3",
+          "embeddedBytes": 0,
+          "glyphPrograms": true,
+          "unicode": true
+        }
+      ],
+      "sha256": "1b92017b46530bdb2fad995791dc9f6cc9bd46ec6da5df6f8e3765962ebc83f0"
+    }
+  ],
+  "issues": [],
+  "HTMLSHA256": "50b39685c46681fae33ab806f5e78087ad265f740833b5518d440e9bc9790fa4",
+  "printDOM": {
+    "all": {
+      "chartText": "الأجندة السنوية\n117\nالإجمالي\nمستويات الإنجاز حسب الربع\nعدد المواضيع 0–44\nجاهز للعرض\nقيد المراجعة\nقيد التطوير\nمنجز\nالأجندة المعتمدة\n100\nالمواضيع المستجدة\n17\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\tالإجمالي\nجاهز للعرض\t\n3\n\t\n5\n\t\n2\n\t\n0\n\t\n10\n\nقيد المراجعة\t\n1\n\t\n2\n\t\n1\n\t\n1\n\t\n5\n\nقيد التطوير\t\n0\n\t\n2\n\t\n5\n\t\n44\n\t\n51\n\nمنجز\t\n23\n\t\n8\n\t\n2\n\t\n1\n\t\n34\n\nالإجمالي\t\n27\n\t\n17\n\t\n10\n\t\n46\n\t\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\tالإجمالي\nجاهز للعرض\t\n2\n\t\n0\n\t\n4\n\t\n0\n\t\n6\n\nقيد المراجعة\t\n0\n\t\n0\n\t\n1\n\t\n0\n\t\n1\n\nقيد التطوير\t\n0\n\t\n0\n\t\n0\n\t\n1\n\t\n1\n\nمنجز\t\n5\n\t\n2\n\t\n1\n\t\n1\n\t\n9\n\nالإجمالي\t\n7\n\t\n2\n\t\n6\n\t\n2\n\t",
+      "headerText": "مستجدات الأجندة السنوية\n\nيناير – سبتمبر 2026",
+      "rect": [
+        37.78125,
+        134.015625,
+        1084.734375,
+        618.734375
+      ],
+      "footerGap": 117.578125,
+      "alignments": [
+        {
+          "heading": 1382.34375,
+          "names": [
+            1382.34375,
+            1382.34375,
+            1382.34375,
+            1382.34375,
+            1382.34375
+          ]
+        },
+        {
+          "heading": 865.53125,
+          "names": [
+            865.53125,
+            865.53125,
+            865.53125,
+            865.53125,
+            865.53125
+          ]
+        }
+      ]
+    },
+    "entity": {
+      "chartText": "الأجندة السنوية\n10\nالإجمالي\nمستويات الإنجاز حسب الربع\nعدد المواضيع 0–3\nجاهز للعرض\nقيد التطوير\nمنجز\nالأجندة المعتمدة\n8\nالمواضيع المستجدة\n2\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\tالإجمالي\nجاهز للعرض\t\n0\n\t\n1\n\t\n0\n\t\n0\n\t\n1\n\nقيد التطوير\t\n0\n\t\n0\n\t\n1\n\t\n2\n\t\n3\n\nمنجز\t\n3\n\t\n1\n\t\n0\n\t\n0\n\t\n4\n\nالإجمالي\t\n3\n\t\n2\n\t\n1\n\t\n2\n\t\nالحالة\tالربع الأول\tالربع الثاني\tالربع الثالث\tالربع الرابع\tالإجمالي\nجاهز للعرض\t\n0\n\t\n0\n\t\n0\n\t\n0\n\t\n0\n\nقيد التطوير\t\n0\n\t\n0\n\t\n0\n\t\n0\n\t\n0\n\nمنجز\t\n1\n\t\n1\n\t\n0\n\t\n0\n\t\n2\n\nالإجمالي\t\n1\n\t\n1\n\t\n0\n\t\n0\n\t",
+      "headerText": "مستجدات الأجندة السنوية\n\nهيئة الطرق والمواصلات\n\nيناير – سبتمبر 2026",
+      "rect": [
+        37.78125,
+        158.078125,
+        1084.734375,
+        596.4375
+      ],
+      "footerGap": 139.875,
+      "alignments": [
+        {
+          "heading": 1382.34375,
+          "names": [
+            1382.34375,
+            1382.34375,
+            1382.34375,
+            1382.34375
+          ]
+        },
+        {
+          "heading": 865.53125,
+          "names": [
+            865.53125,
+            865.53125,
+            865.53125,
+            865.53125
+          ]
+        }
+      ]
+    }
+  },
+  "offlineExternalRequests": [],
+  "contrast": [
+    {
+      "foreground": "#ABA394",
+      "background": "#FCFBFB",
+      "status": "جاهز للعرض",
+      "ratio": 2.4209,
+      "normalTextAA": false
+    },
+    {
+      "foreground": "#756B5F",
+      "background": "#FCFBFB",
+      "status": "قيد المراجعة",
+      "ratio": 5.0515,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "#756B5F",
+      "background": "#FCFBFB",
+      "status": "قيد التطوير",
+      "ratio": 5.0515,
+      "normalTextAA": true
+    },
+    {
+      "foreground": "#01831E",
+      "background": "#FCFBFB",
+      "status": "منجز",
+      "ratio": 4.7652,
+      "normalTextAA": true
+    }
+  ],
+  "appFiles": {
+    "count": 188,
+    "changed": []
+  },
+  "verdict": "PASS WITH CONTRAST LIMITATION",
+  "limits": [
+    "Illustrative source fixture only.",
+    "First-page chart proofs only, not complete report exports.",
+    "Targeted visual/DOM checks are not accessibility certification.",
+    "No application changes.",
+    "Data values checked against unchanged Revision 3 specifications; no new workbook recalculation or live app reconciliation was performed for this styling-only revision.",
+    "Stone status text has 2.4209:1 contrast against Paper and fails WCAG AA normal-text contrast; original source color preserved as requested."
+  ],
+  "fixtureHashMatched": true,
+  "visualInspection": {
+    "files": [
+      "a-all-1440.png",
+      "a-all-390.png",
+      "Agenda-A-All-A4-First-Page.png",
+      "Agenda-A-Entity-A4-First-Page.png"
+    ],
+    "result": "No clipped labels, misplaced counts, unexpected status/quarter order or chart/page splitting observed. Ready-for-presentation label is visibly lighter; contrast limitation is recorded separately."
+  }
+}
