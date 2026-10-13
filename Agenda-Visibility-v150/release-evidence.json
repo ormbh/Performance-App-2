@@ -1,0 +1,14 @@
+{
+  "build": "150",
+  "zipSha256": "f262820c357a66a69b6f8dd4a003381da68e0f0eca68a1eefddc2f6c8b2d2f51",
+  "manifestFiles": 201,
+  "crc": "PASS",
+  "extractedHashes": "PASS",
+  "modelUnchanged": true,
+  "extraction": "/workspace/saytara-work/release-check-v150-imvbjt99/Performance-App-v150",
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "56a57b5d940cb5e183fefae61e1eaf9fe45fd78c84582c4388cb977dff709317",
+    "assets/css/app-bundle.css": "d1dad59f5bc9a8390c22d2073d7c03160eee0d014d33e0515ed198e0a75e8013",
+    "assets/css/print-measure-bundle.css": "9a06bead8a2d90e8a20689b7258461f52661da26c670955ecdc817be3c295295"
+  }
+}

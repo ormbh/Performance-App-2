@@ -1,4 +1,12 @@
-# Performance App v149
+# Performance App v150
+
+[Download app — v150 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v150.zip) · [Verification](Saytara-Verification-v150.md) · [Screenshots](Agenda-Visibility-v150/README.md)
+
+Empty agenda chart categories are hidden. A single populated category fills the available width on screen and in PDF. This includes the full-page cover, numbering/copyright from the second physical page, emerging-topic title/count/entity column, and removed chart scale note from v149.
+
+Extract the complete ZIP and open **index.html**. PDF generation uses the bundled offline engine. No source workbook is included.
+
+# Previous release — v149
 
 [Download app — v149 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v149.zip) · [Verification](Saytara-Verification-v149.md) · [Screenshots](Agenda-Corrections-v149/README.md)
 
