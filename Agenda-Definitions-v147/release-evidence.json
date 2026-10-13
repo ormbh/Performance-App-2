@@ -1,0 +1,9 @@
+{
+  "build": "147",
+  "zipSha256": "ceeddb8f2921181c3f334b079bf4f9c46c82134c14dc65238ef6119d5cd49abe",
+  "manifestFiles": 195,
+  "crc": "PASS",
+  "extractedHashes": "PASS",
+  "modelUnchanged": true,
+  "extraction": "/workspace/saytara-work/release-check-v147-r0ytz_zj/Performance-App-v147"
+}

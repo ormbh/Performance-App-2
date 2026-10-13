@@ -1,4 +1,10 @@
-# Performance App v146
+# Performance App v147
+
+[Download app — v147 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v147.zip) · [Verification](Saytara-Verification-v147.md) · [Screenshot](Agenda-Definitions-v147/README.md)
+
+**تعريفات مستويات الإنجاز** now appears directly beneath the agenda chart, before the tables. PDF content follows the same order; the definitions continue on the next page when required by the existing type sizes and margins. The strategy card now labels the pair **المؤشرات المعتمدة / المؤشرات المقاسة**, matching approved on the right and measured on the left. Extract the complete ZIP and open **index.html**.
+
+# Previous release — v146
 
 [Download app — v146 ZIP](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v146.zip) · [Verification](Saytara-Verification-v146.md) · [Applied agenda screenshots](Agenda-Report-v146/README.md)
 
