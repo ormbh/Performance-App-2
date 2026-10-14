@@ -7,7 +7,7 @@ description: Standardize TEC and Saytara dashboards and related interfaces using
 
 Use a consistent, restrained design approach across the TEC app: clear hierarchy, readable information, deliberate spacing and predictable interactions. Preserve TEC identity and the meaning of the data.
 
-**Edition:** 14 October 2026. Revision 25: consolidates approved decisions for v158, applying shared presentation roles throughout agenda and special-project report pages. Removes the instruction to add agenda count-matrix pages to print/PDF and the HH main-list PM column. Retains report-specific source content, chart orientations and definitions, the approved monthly legislation card, numeric progress without circular indicators, and shared status/zero/missing rules. This is design guidance; publishing or installing it does not change the app or establish implementation or verification.
+**Edition:** 14 October 2026. Revision 26: the approved shared agenda/special-project report composition, compact legends with larger plots, aligned table columns and numbering, actual PDF contents references and links, standardized cover titles and final notes/recommendations. Detailed updates are exclusive to special projects. Preserve all source meanings, data checks and previously approved monthly behavior. Verification is separate from documentation.
 
 Read [TEC Apple-Inspired Design Principles](references/TEC-Apple-Inspired-Design-Principles.md) before using this skill. It contains the current tokens, component rules, monthly exceptions and PDF profiles. Both files form one self-contained skill package.
 
@@ -36,7 +36,7 @@ Read [TEC Apple-Inspired Design Principles](references/TEC-Apple-Inspired-Design
 - Keep text essential. Remove repeated explanations beneath titles and their empty spacing. Preserve field labels, real record notes, units, definitions and retained source diagnostics. Specific approved removals in the principles document take precedence.
 - Use the existing navigation pattern and one clear primary action for each task. Add controls only when requested or already approved.
 - Keep card height content-driven. Standardize padding and alignment without forcing all cards to equal height or filling empty space with decorative content.
-- For the agenda and HH report pages, apply shared roles to headers, navigation/actions, controls and filters, cards, chart framing, detailed legends, section headings, tables, detail fields, responsive layouts and print. Preserve the separate content, chart orientations, source scope and legend definitions. The HH main list omits the PM column; manager data and meaningful project-detail fields remain.
+- For agenda and HH, apply the shared contents → charts/compact legend → records → applicable details → notes/recommendations structure. PDF adds a centered full-bleed cover first and actual contents page references. Align common table columns and record numbers. Only HH has detailed updates; retain source fields, orientations and definitions. The HH main list omits PM; its meaningful detail field remains.
 
 ## 4. Preserve the meaning of visualizations
 

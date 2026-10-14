@@ -1,0 +1,42 @@
+{
+  "build": 161,
+  "verdict": "PASS",
+  "zipSha256": "022645a58968e4a41e454750991aa3f618df3bd5515388b0d6902a33a82a8133",
+  "files": 229,
+  "crc": "PASS",
+  "fileHashes": "PASS",
+  "checks": {
+    "screen-and-content": 410,
+    "pdf": 50,
+    "pptx": 92,
+    "monthly-smoke": 15
+  },
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "86e45fae176c7113282ad3469f41a106b6699eef5b7228019f3ae4878927f1e8",
+    "assets/css/app-bundle.css": "68bbe13e375feb6eaacd7cdf84c822022756242bfe26789666d3d9dd6f2c8f6d",
+    "assets/css/print-measure-bundle.css": "adb6e6e6892025c6f66d13e2796f0715147da7c257b2590df9769523edacbb97"
+  },
+  "changes": [
+    "DESIGN-PRINCIPLES-v161.md",
+    "DESIGN-STANDARD.md",
+    "README.md",
+    "REPORT-CONSISTENCY-v161.md",
+    "VERIFICATION-v161.md",
+    "assets/css/app-bundle.css",
+    "assets/css/print-measure-bundle.css",
+    "assets/css/tec-report-consistency-revision26.css",
+    "assets/js/app-bundle.js",
+    "assets/js/model/util.js",
+    "assets/js/reports/agenda.js",
+    "assets/js/reports/hh.js",
+    "assets/js/views/agenda-matrix.js",
+    "assets/js/views/agenda-print.js",
+    "assets/js/views/agenda.js",
+    "assets/js/views/hh-charts.js",
+    "assets/js/views/pdf-download.js",
+    "assets/js/views/reports.js",
+    "index.html",
+    "tools/build-bundles.py"
+  ],
+  "designRevision": 26
+}

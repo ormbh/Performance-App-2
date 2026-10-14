@@ -1,4 +1,12 @@
-# Performance App v160
+# Performance App v161
+
+[Download app — v161](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v161.zip) · [Full approach and previews](Report-Consistency-v161/README.md) · [Updated TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles.zip) · [Verification](Saytara-Verification-v161.md)
+
+Agenda and special-project reports now share contents, section and table order, continuous numbering, cover-title treatment, notes/recommendations and compact legends with larger charts. **المستجدات التفصيلية** remains exclusive to special projects. PDF contents uses actual page references and internal links, with numbering and copyright starting after the cover.
+
+Extract the complete ZIP and open **index.html**. No workbook is bundled. Source records, dashboard calculations and approved data checks remain unchanged. TEC design Revision 26 is current.
+
+# Previous release — v160
 
 [Download app — v160](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v160.zip) · [Data-observation policy](Data-Observations-v160/DATA-CHECKS-POLICY.md) · [Verification](Saytara-Verification-v160.md)
 

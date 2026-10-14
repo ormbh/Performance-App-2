@@ -1,0 +1,2866 @@
+{
+  "version": 161,
+  "fixture": {
+    "path": "/workspace/saytara-work/monthly-apple-preview/ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+  },
+  "checks": [
+    {
+      "name": "v160 items unchanged",
+      "pass": true
+    },
+    {
+      "name": "v160 metric unchanged",
+      "pass": true
+    },
+    {
+      "name": "v160 snapshot unchanged",
+      "pass": true
+    },
+    {
+      "name": "v160 issues unchanged",
+      "pass": true
+    },
+    {
+      "name": "agenda all v160 source scope unchanged",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1440 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1440 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1440 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1440 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1440 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1440 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1440 no added agenda detail cards",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1440 agenda proportional bars and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1024 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1024 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1024 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1024 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1024 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1024 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1024 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1024 no added agenda detail cards",
+      "pass": true
+    },
+    {
+      "name": "agenda all 1024 agenda proportional bars and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "agenda all 768 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda all 768 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "agenda all 768 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "agenda all 768 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "agenda all 768 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "agenda all 768 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "agenda all 768 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "agenda all 768 no added agenda detail cards",
+      "pass": true
+    },
+    {
+      "name": "agenda all 768 agenda proportional bars and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "agenda all 699 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda all 699 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "agenda all 699 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "agenda all 699 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "agenda all 699 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "agenda all 699 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "agenda all 699 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "agenda all 699 no added agenda detail cards",
+      "pass": true
+    },
+    {
+      "name": "agenda all 699 agenda proportional bars and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "agenda all 650 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda all 650 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "agenda all 650 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "agenda all 650 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "agenda all 650 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "agenda all 650 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "agenda all 650 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "agenda all 650 no added agenda detail cards",
+      "pass": true
+    },
+    {
+      "name": "agenda all 650 agenda proportional bars and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "agenda all 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda all 390 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "agenda all 390 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "agenda all 390 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "agenda all 390 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "agenda all 390 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "agenda all 390 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "agenda all 390 no added agenda detail cards",
+      "pass": true
+    },
+    {
+      "name": "agenda all 390 agenda proportional bars and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "agenda all 320 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda all 320 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "agenda all 320 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "agenda all 320 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "agenda all 320 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "agenda all 320 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "agenda all 320 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "agenda all 320 no added agenda detail cards",
+      "pass": true
+    },
+    {
+      "name": "agenda all 320 agenda proportional bars and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "agenda contents keyboard jump moves focus to destination",
+      "pass": true
+    },
+    {
+      "name": "agenda quarter keyboard activation shows explicit selection",
+      "pass": true
+    },
+    {
+      "name": "agenda Escape restores status totals",
+      "pass": true
+    },
+    {
+      "name": "agenda default title includes report year",
+      "pass": true
+    },
+    {
+      "name": "agenda default month-range period",
+      "pass": true
+    },
+    {
+      "name": "agenda single v160 source scope unchanged",
+      "pass": true
+    },
+    {
+      "name": "agenda single 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda single 1440 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "agenda single 1440 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "agenda single 1440 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "agenda single 1440 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "agenda single 1440 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "agenda single 1440 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "agenda single 1440 no added agenda detail cards",
+      "pass": true
+    },
+    {
+      "name": "agenda single 1440 agenda proportional bars and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "agenda single 768 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda single 768 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "agenda single 768 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "agenda single 768 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "agenda single 768 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "agenda single 768 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "agenda single 768 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "agenda single 768 no added agenda detail cards",
+      "pass": true
+    },
+    {
+      "name": "agenda single 768 agenda proportional bars and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "agenda single 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda single 390 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "agenda single 390 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "agenda single 390 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "agenda single 390 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "agenda single 390 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "agenda single 390 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "agenda single 390 no added agenda detail cards",
+      "pass": true
+    },
+    {
+      "name": "agenda single 390 agenda proportional bars and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "agenda single eligible cohort uses one chart",
+      "pass": true
+    },
+    {
+      "name": "agenda empty 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda empty 1440 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "agenda empty 1440 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "agenda empty 1440 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "agenda empty 1440 one clear zero-result state",
+      "pass": true
+    },
+    {
+      "name": "agenda empty 1440 empty scope omits contents charts legends records",
+      "pass": true
+    },
+    {
+      "name": "agenda empty 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda empty 390 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "agenda empty 390 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "agenda empty 390 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "agenda empty 390 one clear zero-result state",
+      "pass": true
+    },
+    {
+      "name": "agenda empty 390 empty scope omits contents charts legends records",
+      "pass": true
+    },
+    {
+      "name": "agenda custom report title retained",
+      "pass": true
+    },
+    {
+      "name": "agenda custom period retained",
+      "pass": true
+    },
+    {
+      "name": "agenda notes update while typing",
+      "pass": true
+    },
+    {
+      "name": "agenda contents updates when notes populated",
+      "pass": true
+    },
+    {
+      "name": "agenda additional report notes follow all records and details",
+      "pass": true
+    },
+    {
+      "name": "agenda long Arabic recommendations preserved completely",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes actual pages match measured plan",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes A4 landscape",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes native PDF text in page bounds",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes cover has no contents or record links",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes internal PDF link destinations valid",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes charts kept on one page",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes defs kept on one page",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes exported contents present",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes actual PDF has internal annotations",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes contents page has working internal links",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes contents page numbers match actual linked content pages",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes contents immediately after cover",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes charts after contents",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes charts and detailed legend share content page",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes agenda export uses aggregate status totals",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes cover full bleed without footer",
+      "pass": true
+    },
+    {
+      "name": "agenda-long-notes footer numbering excludes cover",
+      "pass": true
+    },
+    {
+      "name": "agenda all28 Arabic recommendations survive PDF pagination exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 1 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 2 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 3 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 4 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 5 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 6 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 7 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 8 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 9 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 10 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 11 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 12 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 13 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 14 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 15 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 16 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 17 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 18 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 19 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 20 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 21 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 22 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 23 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 24 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 25 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 26 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 27 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda recommendation 28 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda actual PDF preserves Arabic note exactly once",
+      "pass": true
+    },
+    {
+      "name": "agenda empty notes removed from contents immediately",
+      "pass": true
+    },
+    {
+      "name": "hh all v160 source scope unchanged",
+      "pass": true
+    },
+    {
+      "name": "hh all 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "hh all 1440 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "hh all 1440 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "hh all 1440 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "hh all 1440 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "hh all 1440 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "hh all 1440 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "hh all 1440 project detail sequence matches master list",
+      "pass": true
+    },
+    {
+      "name": "hh all 1440 detail numbers match corresponding table rows",
+      "pass": true
+    },
+    {
+      "name": "hh all 1440 HH proportional bars endpoint totals and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "hh all 1024 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "hh all 1024 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "hh all 1024 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "hh all 1024 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "hh all 1024 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "hh all 1024 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "hh all 1024 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "hh all 1024 project detail sequence matches master list",
+      "pass": true
+    },
+    {
+      "name": "hh all 1024 detail numbers match corresponding table rows",
+      "pass": true
+    },
+    {
+      "name": "hh all 1024 HH proportional bars endpoint totals and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "hh all 768 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "hh all 768 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "hh all 768 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "hh all 768 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "hh all 768 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "hh all 768 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "hh all 768 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "hh all 768 project detail sequence matches master list",
+      "pass": true
+    },
+    {
+      "name": "hh all 768 detail numbers match corresponding table rows",
+      "pass": true
+    },
+    {
+      "name": "hh all 768 HH proportional bars endpoint totals and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "hh all 699 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "hh all 699 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "hh all 699 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "hh all 699 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "hh all 699 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "hh all 699 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "hh all 699 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "hh all 699 project detail sequence matches master list",
+      "pass": true
+    },
+    {
+      "name": "hh all 699 detail numbers match corresponding table rows",
+      "pass": true
+    },
+    {
+      "name": "hh all 699 HH proportional bars endpoint totals and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "hh all 650 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "hh all 650 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "hh all 650 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "hh all 650 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "hh all 650 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "hh all 650 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "hh all 650 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "hh all 650 project detail sequence matches master list",
+      "pass": true
+    },
+    {
+      "name": "hh all 650 detail numbers match corresponding table rows",
+      "pass": true
+    },
+    {
+      "name": "hh all 650 HH proportional bars endpoint totals and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "hh all 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "hh all 390 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "hh all 390 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "hh all 390 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "hh all 390 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "hh all 390 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "hh all 390 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "hh all 390 project detail sequence matches master list",
+      "pass": true
+    },
+    {
+      "name": "hh all 390 detail numbers match corresponding table rows",
+      "pass": true
+    },
+    {
+      "name": "hh all 390 HH proportional bars endpoint totals and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "hh all 320 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "hh all 320 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "hh all 320 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "hh all 320 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "hh all 320 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "hh all 320 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "hh all 320 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "hh all 320 project detail sequence matches master list",
+      "pass": true
+    },
+    {
+      "name": "hh all 320 detail numbers match corresponding table rows",
+      "pass": true
+    },
+    {
+      "name": "hh all 320 HH proportional bars endpoint totals and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "hh contents keyboard jump moves focus to destination",
+      "pass": true
+    },
+    {
+      "name": "HH master row keyboard link opens matching detail card",
+      "pass": true
+    },
+    {
+      "name": "hh default title includes report year",
+      "pass": true
+    },
+    {
+      "name": "hh default month-range period",
+      "pass": true
+    },
+    {
+      "name": "hh single v160 source scope unchanged",
+      "pass": true
+    },
+    {
+      "name": "hh single 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "hh single 1440 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "hh single 1440 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "hh single 1440 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "hh single 1440 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "hh single 1440 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "hh single 1440 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "hh single 1440 project detail sequence matches master list",
+      "pass": true
+    },
+    {
+      "name": "hh single 1440 detail numbers match corresponding table rows",
+      "pass": true
+    },
+    {
+      "name": "hh single 1440 HH proportional bars endpoint totals and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "hh single 768 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "hh single 768 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "hh single 768 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "hh single 768 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "hh single 768 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "hh single 768 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "hh single 768 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "hh single 768 project detail sequence matches master list",
+      "pass": true
+    },
+    {
+      "name": "hh single 768 detail numbers match corresponding table rows",
+      "pass": true
+    },
+    {
+      "name": "hh single 768 HH proportional bars endpoint totals and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "hh single 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "hh single 390 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "hh single 390 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "hh single 390 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "hh single 390 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "hh single 390 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "hh single 390 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "hh single 390 project detail sequence matches master list",
+      "pass": true
+    },
+    {
+      "name": "hh single 390 detail numbers match corresponding table rows",
+      "pass": true
+    },
+    {
+      "name": "hh single 390 HH proportional bars endpoint totals and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "hh single eligible cohort uses one chart",
+      "pass": true
+    },
+    {
+      "name": "hh empty 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "hh empty 1440 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "hh empty 1440 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "hh empty 1440 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "hh empty 1440 one clear zero-result state",
+      "pass": true
+    },
+    {
+      "name": "hh empty 1440 empty scope omits contents charts legends records",
+      "pass": true
+    },
+    {
+      "name": "hh empty 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "hh empty 390 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "hh empty 390 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "hh empty 390 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "hh empty 390 one clear zero-result state",
+      "pass": true
+    },
+    {
+      "name": "hh empty 390 empty scope omits contents charts legends records",
+      "pass": true
+    },
+    {
+      "name": "hh custom report title retained",
+      "pass": true
+    },
+    {
+      "name": "hh custom period retained",
+      "pass": true
+    },
+    {
+      "name": "hh notes update while typing",
+      "pass": true
+    },
+    {
+      "name": "hh contents updates when notes populated",
+      "pass": true
+    },
+    {
+      "name": "hh additional report notes follow all records and details",
+      "pass": true
+    },
+    {
+      "name": "hh long Arabic recommendations preserved completely",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes actual pages match measured plan",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes A4 landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes native PDF text in page bounds",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes cover has no contents or record links",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes internal PDF link destinations valid",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes charts kept on one page",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes defs kept on one page",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes exported contents present",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes actual PDF has internal annotations",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes contents page has working internal links",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes contents page numbers match actual linked content pages",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes contents immediately after cover",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes charts after contents",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes charts and detailed legend share content page",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes agenda export uses aggregate status totals",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes cover full bleed without footer",
+      "pass": true
+    },
+    {
+      "name": "hh-long-notes footer numbering excludes cover",
+      "pass": true
+    },
+    {
+      "name": "hh all28 Arabic recommendations survive PDF pagination exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 1 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 2 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 3 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 4 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 5 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 6 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 7 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 8 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 9 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 10 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 11 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 12 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 13 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 14 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 15 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 16 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 17 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 18 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 19 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 20 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 21 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 22 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 23 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 24 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 25 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 26 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 27 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh recommendation 28 preserves complete text exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh actual PDF preserves Arabic note exactly once",
+      "pass": true
+    },
+    {
+      "name": "hh empty notes removed from contents immediately",
+      "pass": true
+    },
+    {
+      "name": "hh tec v160 source scope unchanged",
+      "pass": true
+    },
+    {
+      "name": "hh tec 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "hh tec 1440 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "hh tec 1440 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "hh tec 1440 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "hh tec 1440 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "hh tec 1440 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "hh tec 1440 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "hh tec 1440 project detail sequence matches master list",
+      "pass": true
+    },
+    {
+      "name": "hh tec 1440 detail numbers match corresponding table rows",
+      "pass": true
+    },
+    {
+      "name": "hh tec 1440 HH proportional bars endpoint totals and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "hh lead v160 source scope unchanged",
+      "pass": true
+    },
+    {
+      "name": "hh lead 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "hh lead 1440 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "hh lead 1440 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "hh lead 1440 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "hh lead 1440 contents links all target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "hh lead 1440 populated report has no empty message",
+      "pass": true
+    },
+    {
+      "name": "hh lead 1440 shared status and deadline headers",
+      "pass": true
+    },
+    {
+      "name": "hh lead 1440 project detail sequence matches master list",
+      "pass": true
+    },
+    {
+      "name": "hh lead 1440 detail numbers match corresponding table rows",
+      "pass": true
+    },
+    {
+      "name": "hh lead 1440 HH proportional bars endpoint totals and readable in-bar numbers",
+      "pass": true
+    },
+    {
+      "name": "hh intersection 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "hh intersection 1440 table follows approved source ordering",
+      "pass": true
+    },
+    {
+      "name": "hh intersection 1440 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "hh intersection 1440 stable data-report-number association",
+      "pass": true
+    },
+    {
+      "name": "hh intersection 1440 one clear zero-result state",
+      "pass": true
+    },
+    {
+      "name": "hh intersection 1440 empty scope omits contents charts legends records",
+      "pass": true
+    },
+    {
+      "name": "all interactions and exports leave source records unchanged",
+      "pass": true
+    },
+    {
+      "name": "no browser runtime errors",
+      "pass": true
+    },
+    {
+      "name": "no external network requests",
+      "pass": true
+    },
+    {
+      "name": "fixture workbook unchanged",
+      "pass": true
+    },
+    {
+      "name": "final build items unchanged from v160",
+      "pass": true
+    },
+    {
+      "name": "final build metric unchanged from v160",
+      "pass": true
+    },
+    {
+      "name": "final build snapshot unchanged from v160",
+      "pass": true
+    },
+    {
+      "name": "final build issues unchanged from v160",
+      "pass": true
+    },
+    {
+      "name": "final clean-session HH title includes source year",
+      "pass": true
+    },
+    {
+      "name": "final clean-session HH month-range period",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final actual pages match measured plan",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final A4 landscape",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final native PDF text in page bounds",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final cover has no contents or record links",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final internal PDF link destinations valid",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final charts kept on one page",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final defs kept on one page",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final exported contents present",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final actual PDF has internal annotations",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final contents page has working internal links",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final contents page numbers match actual linked content pages",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final contents immediately after cover",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final charts after contents",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final charts and detailed legend share content page",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final agenda export uses aggregate status totals",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final cover full bleed without footer",
+      "pass": true
+    },
+    {
+      "name": "agenda-all-final footer numbering excludes cover",
+      "pass": true
+    },
+    {
+      "name": "final actual agenda chart PDF preserves grand total117",
+      "pass": true
+    },
+    {
+      "name": "actual PDF contents has no placeholder page numbers",
+      "pass": true
+    },
+    {
+      "name": "controlled additional agenda category retained",
+      "pass": true
+    },
+    {
+      "name": "controlled chart cohort order matches report sequence",
+      "pass": true
+    },
+    {
+      "name": "controlled other topic follows emerging with continuous numbering",
+      "pass": true
+    },
+    {
+      "name": "controlled contents follows displayed cohort sequence",
+      "pass": true
+    },
+    {
+      "name": "controlled three-cohort agenda no viewport overflow768",
+      "pass": true
+    },
+    {
+      "name": "controlled three-cohort agenda no viewport overflow390",
+      "pass": true
+    },
+    {
+      "name": "controlled copies leave actual source records unchanged",
+      "pass": true
+    },
+    {
+      "name": "final runtime no browser errors",
+      "pass": true
+    },
+    {
+      "name": "final runtime no external requests",
+      "pass": true
+    },
+    {
+      "name": "final browser loaded exact final artifact app-bundle.css",
+      "pass": true
+    },
+    {
+      "name": "final browser loaded exact final artifact app-bundle.js",
+      "pass": true
+    },
+    {
+      "name": "final browser loaded exact final artifact print-measure-bundle.css",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screens": [
+    {
+      "kind": "agenda",
+      "scope": "all",
+      "width": 1440,
+      "title": "مستجدات الأجندة السنوية 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 117,
+      "cards": 0,
+      "charts": 2,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 224,
+          "y": 370.96875,
+          "w": 1168,
+          "h": 162
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المواضيع: 117\n02\nالأجندة المعتمدة\nعدد المواضيع: 100\n03\nالمواضيع المستجدة\nعدد المواضيع: 17",
+        "links": [
+          {
+            "target": "report-dashboard",
+            "text": "01\nالملخص التنفيذي\nعدد المواضيع: 117",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالأجندة المعتمدة\nعدد المواضيع: 100",
+            "exists": true
+          },
+          {
+            "target": "agenda-emerging",
+            "text": "03\nالمواضيع المستجدة\nعدد المواضيع: 17",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "agenda",
+      "scope": "all",
+      "width": 1024,
+      "title": "مستجدات الأجندة السنوية 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 117,
+      "cards": 0,
+      "charts": 2,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 224,
+          "y": -230.03125,
+          "w": 752,
+          "h": 208
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المواضيع: 117\n02\nالأجندة المعتمدة\nعدد المواضيع: 100\n03\nالمواضيع المستجدة\nعدد المواضيع: 17",
+        "links": [
+          {
+            "target": "report-dashboard",
+            "text": "01\nالملخص التنفيذي\nعدد المواضيع: 117",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالأجندة المعتمدة\nعدد المواضيع: 100",
+            "exists": true
+          },
+          {
+            "target": "agenda-emerging",
+            "text": "03\nالمواضيع المستجدة\nعدد المواضيع: 17",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "agenda",
+      "scope": "all",
+      "width": 768,
+      "title": "مستجدات الأجندة السنوية 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 117,
+      "cards": 0,
+      "charts": 2,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 208,
+          "y": -142.03125,
+          "w": 528,
+          "h": 208
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المواضيع: 117\n02\nالأجندة المعتمدة\nعدد المواضيع: 100\n03\nالمواضيع المستجدة\nعدد المواضيع: 17",
+        "links": [
+          {
+            "target": "report-dashboard",
+            "text": "01\nالملخص التنفيذي\nعدد المواضيع: 117",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالأجندة المعتمدة\nعدد المواضيع: 100",
+            "exists": true
+          },
+          {
+            "target": "agenda-emerging",
+            "text": "03\nالمواضيع المستجدة\nعدد المواضيع: 17",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "agenda",
+      "scope": "all",
+      "width": 699,
+      "title": "مستجدات الأجندة السنوية 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 117,
+      "cards": 0,
+      "charts": 2,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 16,
+          "y": -151.84375,
+          "w": 667,
+          "h": 277
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المواضيع: 117\n02\nالأجندة المعتمدة\nعدد المواضيع: 100\n03\nالمواضيع المستجدة\nعدد المواضيع: 17",
+        "links": [
+          {
+            "target": "report-dashboard",
+            "text": "01\nالملخص التنفيذي\nعدد المواضيع: 117",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالأجندة المعتمدة\nعدد المواضيع: 100",
+            "exists": true
+          },
+          {
+            "target": "agenda-emerging",
+            "text": "03\nالمواضيع المستجدة\nعدد المواضيع: 17",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "agenda",
+      "scope": "all",
+      "width": 650,
+      "title": "مستجدات الأجندة السنوية 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 117,
+      "cards": 0,
+      "charts": 2,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 16,
+          "y": -151.84375,
+          "w": 618,
+          "h": 277
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المواضيع: 117\n02\nالأجندة المعتمدة\nعدد المواضيع: 100\n03\nالمواضيع المستجدة\nعدد المواضيع: 17",
+        "links": [
+          {
+            "target": "report-dashboard",
+            "text": "01\nالملخص التنفيذي\nعدد المواضيع: 117",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالأجندة المعتمدة\nعدد المواضيع: 100",
+            "exists": true
+          },
+          {
+            "target": "agenda-emerging",
+            "text": "03\nالمواضيع المستجدة\nعدد المواضيع: 17",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "agenda",
+      "scope": "all",
+      "width": 390,
+      "title": "مستجدات الأجندة السنوية 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 117,
+      "cards": 0,
+      "charts": 2,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 16,
+          "y": -151.65625,
+          "w": 358,
+          "h": 277
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المواضيع: 117\n02\nالأجندة المعتمدة\nعدد المواضيع: 100\n03\nالمواضيع المستجدة\nعدد المواضيع: 17",
+        "links": [
+          {
+            "target": "report-dashboard",
+            "text": "01\nالملخص التنفيذي\nعدد المواضيع: 117",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالأجندة المعتمدة\nعدد المواضيع: 100",
+            "exists": true
+          },
+          {
+            "target": "agenda-emerging",
+            "text": "03\nالمواضيع المستجدة\nعدد المواضيع: 17",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "agenda",
+      "scope": "all",
+      "width": 320,
+      "title": "مستجدات الأجندة السنوية 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 117,
+      "cards": 0,
+      "charts": 2,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 16,
+          "y": -396.65625,
+          "w": 288,
+          "h": 277
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المواضيع: 117\n02\nالأجندة المعتمدة\nعدد المواضيع: 100\n03\nالمواضيع المستجدة\nعدد المواضيع: 17",
+        "links": [
+          {
+            "target": "report-dashboard",
+            "text": "01\nالملخص التنفيذي\nعدد المواضيع: 117",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالأجندة المعتمدة\nعدد المواضيع: 100",
+            "exists": true
+          },
+          {
+            "target": "agenda-emerging",
+            "text": "03\nالمواضيع المستجدة\nعدد المواضيع: 17",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "agenda",
+      "scope": "single",
+      "width": 1440,
+      "title": "مستجدات الأجندة السنوية 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 2,
+      "cards": 0,
+      "charts": 1,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 224,
+          "y": 406.171875,
+          "w": 1168,
+          "h": 116
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المواضيع: 2\n02\nالمواضيع المستجدة\nعدد المواضيع: 2",
+        "links": [
+          {
+            "target": "report-dashboard",
+            "text": "01\nالملخص التنفيذي\nعدد المواضيع: 2",
+            "exists": true
+          },
+          {
+            "target": "agenda-emerging",
+            "text": "02\nالمواضيع المستجدة\nعدد المواضيع: 2",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "agenda",
+      "scope": "single",
+      "width": 768,
+      "title": "مستجدات الأجندة السنوية 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 2,
+      "cards": 0,
+      "charts": 1,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 208,
+          "y": -60.828125,
+          "w": 528,
+          "h": 162
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المواضيع: 2\n02\nالمواضيع المستجدة\nعدد المواضيع: 2",
+        "links": [
+          {
+            "target": "report-dashboard",
+            "text": "01\nالملخص التنفيذي\nعدد المواضيع: 2",
+            "exists": true
+          },
+          {
+            "target": "agenda-emerging",
+            "text": "02\nالمواضيع المستجدة\nعدد المواضيع: 2",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "agenda",
+      "scope": "single",
+      "width": 390,
+      "title": "مستجدات الأجندة السنوية 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 2,
+      "cards": 0,
+      "charts": 1,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 16,
+          "y": 3.328125,
+          "w": 358,
+          "h": 208
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المواضيع: 2\n02\nالمواضيع المستجدة\nعدد المواضيع: 2",
+        "links": [
+          {
+            "target": "report-dashboard",
+            "text": "01\nالملخص التنفيذي\nعدد المواضيع: 2",
+            "exists": true
+          },
+          {
+            "target": "agenda-emerging",
+            "text": "02\nالمواضيع المستجدة\nعدد المواضيع: 2",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "agenda",
+      "scope": "empty",
+      "width": 1440,
+      "title": "مستجدات الأجندة السنوية 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 0,
+      "cards": 0,
+      "charts": 0,
+      "legend": 0,
+      "contents": null
+    },
+    {
+      "kind": "agenda",
+      "scope": "empty",
+      "width": 390,
+      "title": "مستجدات الأجندة السنوية 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 0,
+      "cards": 0,
+      "charts": 0,
+      "legend": 0,
+      "contents": null
+    },
+    {
+      "kind": "hh",
+      "scope": "all",
+      "width": 1440,
+      "title": "مستجدات المشاريع الخاصة 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 62,
+      "cards": 62,
+      "charts": 2,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 224,
+          "y": 370.96875,
+          "w": 1168,
+          "h": 162
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المشاريع: 62\n02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62\n03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39\n04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+        "links": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "hh",
+      "scope": "all",
+      "width": 1024,
+      "title": "مستجدات المشاريع الخاصة 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 62,
+      "cards": 62,
+      "charts": 2,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 224,
+          "y": -603.03125,
+          "w": 752,
+          "h": 254
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المشاريع: 62\n02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62\n03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39\n04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+        "links": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "hh",
+      "scope": "all",
+      "width": 768,
+      "title": "مستجدات المشاريع الخاصة 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 62,
+      "cards": 62,
+      "charts": 2,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 208,
+          "y": -515.03125,
+          "w": 528,
+          "h": 254
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المشاريع: 62\n02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62\n03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39\n04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+        "links": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "hh",
+      "scope": "all",
+      "width": 699,
+      "title": "مستجدات المشاريع الخاصة 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 62,
+      "cards": 62,
+      "charts": 2,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 16,
+          "y": -524.84375,
+          "w": 667,
+          "h": 346
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المشاريع: 62\n02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62\n03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39\n04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+        "links": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "hh",
+      "scope": "all",
+      "width": 650,
+      "title": "مستجدات المشاريع الخاصة 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 62,
+      "cards": 62,
+      "charts": 2,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 16,
+          "y": -524.84375,
+          "w": 618,
+          "h": 346
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المشاريع: 62\n02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62\n03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39\n04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+        "links": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "hh",
+      "scope": "all",
+      "width": 390,
+      "title": "مستجدات المشاريع الخاصة 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 62,
+      "cards": 62,
+      "charts": 2,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 16,
+          "y": -525.65625,
+          "w": 358,
+          "h": 346
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المشاريع: 62\n02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62\n03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39\n04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+        "links": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "hh",
+      "scope": "all",
+      "width": 320,
+      "title": "مستجدات المشاريع الخاصة 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 62,
+      "cards": 62,
+      "charts": 2,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 16,
+          "y": -1093.65625,
+          "w": 288,
+          "h": 394
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المشاريع: 62\n02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62\n03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39\n04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+        "links": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "hh",
+      "scope": "single",
+      "width": 1440,
+      "title": "مستجدات المشاريع الخاصة 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 6,
+      "cards": 6,
+      "charts": 1,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 224,
+          "y": 348.578125,
+          "w": 1168,
+          "h": 162
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المشاريع: 6\n02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 6\n03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 5\n04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 1",
+        "links": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 6",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 6",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 5",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 1",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "hh",
+      "scope": "single",
+      "width": 768,
+      "title": "مستجدات المشاريع الخاصة 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 6,
+      "cards": 6,
+      "charts": 1,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 208,
+          "y": -54.421875,
+          "w": 528,
+          "h": 254
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المشاريع: 6\n02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 6\n03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 5\n04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 1",
+        "links": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 6",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 6",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 5",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 1",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "hh",
+      "scope": "single",
+      "width": 390,
+      "title": "مستجدات المشاريع الخاصة 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 6,
+      "cards": 6,
+      "charts": 1,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 16,
+          "y": 9.734375,
+          "w": 358,
+          "h": 346
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المشاريع: 6\n02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 6\n03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 5\n04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 1",
+        "links": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 6",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 6",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 5",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 1",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "hh",
+      "scope": "empty",
+      "width": 1440,
+      "title": "مستجدات المشاريع الخاصة 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 0,
+      "cards": 0,
+      "charts": 0,
+      "legend": 0,
+      "contents": null
+    },
+    {
+      "kind": "hh",
+      "scope": "empty",
+      "width": 390,
+      "title": "مستجدات المشاريع الخاصة 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 0,
+      "cards": 0,
+      "charts": 0,
+      "legend": 0,
+      "contents": null
+    },
+    {
+      "kind": "hh",
+      "scope": "tec",
+      "width": 1440,
+      "title": "مستجدات المشاريع الخاصة 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 38,
+      "cards": 38,
+      "charts": 1,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 224,
+          "y": 372.578125,
+          "w": 1168,
+          "h": 162
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المشاريع: 38\n02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 38\n03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 27\n04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 11",
+        "links": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 38",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 38",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 27",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 11",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "hh",
+      "scope": "lead",
+      "width": 1440,
+      "title": "مستجدات المشاريع الخاصة 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 24,
+      "cards": 24,
+      "charts": 1,
+      "legend": 1,
+      "contents": {
+        "rect": {
+          "x": 224,
+          "y": 372.578125,
+          "w": 1168,
+          "h": 162
+        },
+        "id": "report-contents",
+        "text": "محتويات التقرير\n01\nالملخص التنفيذي\nعدد المشاريع: 24\n02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 24\n03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 12\n04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 12",
+        "links": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 24",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 24",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 12",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 12",
+            "exists": true
+          }
+        ]
+      }
+    },
+    {
+      "kind": "hh",
+      "scope": "intersection",
+      "width": 1440,
+      "title": "مستجدات المشاريع الخاصة 2026",
+      "period": "يناير – سبتمبر 2026",
+      "rows": 0,
+      "cards": 0,
+      "charts": 0,
+      "legend": 0,
+      "contents": null
+    }
+  ],
+  "pdfs": [
+    {
+      "name": "agenda-long-notes",
+      "pages": 6,
+      "sha256": "b883c4c03d5fc232d5f635155bcbefb5c519dafde858aaa3fe85f8e35094f1b3",
+      "chartPages": [
+        2
+      ],
+      "definitionPages": [
+        2
+      ],
+      "contentsReferences": [
+        {
+          "targetPhysicalPage": 3,
+          "printedNumbers": [
+            "2"
+          ],
+          "text": "الملخص التنفيذي2"
+        },
+        {
+          "targetPhysicalPage": 4,
+          "printedNumbers": [
+            "3"
+          ],
+          "text": "المواضيع المستجدة3"
+        },
+        {
+          "targetPhysicalPage": 5,
+          "printedNumbers": [
+            "4"
+          ],
+          "text": "ملاحظات وتوصيات4"
+        }
+      ],
+      "links": [
+        {
+          "sourcePage": 1,
+          "targetPage": 2,
+          "kind": 4
+        },
+        {
+          "sourcePage": 1,
+          "targetPage": 3,
+          "kind": 4
+        },
+        {
+          "sourcePage": 1,
+          "targetPage": 4,
+          "kind": 4
+        }
+      ]
+    },
+    {
+      "name": "hh-long-notes",
+      "pages": 12,
+      "sha256": "99a35019ac600161bd9b56883680afcc36726bdd8dd80f99f4d5136a6fb24d0c",
+      "chartPages": [
+        2
+      ],
+      "definitionPages": [
+        2
+      ],
+      "contentsReferences": [
+        {
+          "targetPhysicalPage": 3,
+          "printedNumbers": [
+            "2"
+          ],
+          "text": "الملخص التنفيذي2"
+        },
+        {
+          "targetPhysicalPage": 4,
+          "printedNumbers": [
+            "3"
+          ],
+          "text": "القائمة الرئيسية للمشاريع3"
+        },
+        {
+          "targetPhysicalPage": 5,
+          "printedNumbers": [
+            "4"
+          ],
+          "text": "المستجدات التفصيلية للمشاريع قيد المتابعة4"
+        },
+        {
+          "targetPhysicalPage": 10,
+          "printedNumbers": [
+            "9"
+          ],
+          "text": "المستجدات التفصيلية للمشاريع المنجزة9"
+        },
+        {
+          "targetPhysicalPage": 11,
+          "printedNumbers": [
+            "10"
+          ],
+          "text": "ملاحظات وتوصيات10"
+        }
+      ],
+      "links": [
+        {
+          "sourcePage": 1,
+          "targetPage": 2,
+          "kind": 4
+        },
+        {
+          "sourcePage": 1,
+          "targetPage": 3,
+          "kind": 4
+        },
+        {
+          "sourcePage": 1,
+          "targetPage": 4,
+          "kind": 4
+        },
+        {
+          "sourcePage": 1,
+          "targetPage": 9,
+          "kind": 4
+        },
+        {
+          "sourcePage": 1,
+          "targetPage": 10,
+          "kind": 4
+        },
+        {
+          "sourcePage": 3,
+          "targetPage": 4,
+          "kind": 4
+        },
+        {
+          "sourcePage": 3,
+          "targetPage": 4,
+          "kind": 4
+        },
+        {
+          "sourcePage": 3,
+          "targetPage": 5,
+          "kind": 4
+        },
+        {
+          "sourcePage": 3,
+          "targetPage": 5,
+          "kind": 4
+        },
+        {
+          "sourcePage": 3,
+          "targetPage": 6,
+          "kind": 4
+        },
+        {
+          "sourcePage": 3,
+          "targetPage": 6,
+          "kind": 4
+        },
+        {
+          "sourcePage": 3,
+          "targetPage": 7,
+          "kind": 4
+        },
+        {
+          "sourcePage": 3,
+          "targetPage": 7,
+          "kind": 4
+        },
+        {
+          "sourcePage": 3,
+          "targetPage": 8,
+          "kind": 4
+        },
+        {
+          "sourcePage": 3,
+          "targetPage": 8,
+          "kind": 4
+        },
+        {
+          "sourcePage": 3,
+          "targetPage": 9,
+          "kind": 4
+        },
+        {
+          "sourcePage": 3,
+          "targetPage": 9,
+          "kind": 4
+        }
+      ]
+    },
+    {
+      "name": "agenda-all-final",
+      "pages": 15,
+      "sha256": "75b493a4fa85e80e4ecd42acd2a5c22fc88827be06f3857b1415e7bcdc776210",
+      "chartPages": [
+        2
+      ],
+      "definitionPages": [
+        2
+      ],
+      "contentsReferences": [
+        {
+          "targetPhysicalPage": 3,
+          "printedNumbers": [
+            "2"
+          ],
+          "text": "الملخص التنفيذي2"
+        },
+        {
+          "targetPhysicalPage": 4,
+          "printedNumbers": [
+            "3"
+          ],
+          "text": "الأجندة المعتمدة3"
+        },
+        {
+          "targetPhysicalPage": 14,
+          "printedNumbers": [
+            "13"
+          ],
+          "text": "المواضيع المستجدة13"
+        }
+      ],
+      "links": [
+        {
+          "sourcePage": 1,
+          "targetPage": 2,
+          "kind": 4
+        },
+        {
+          "sourcePage": 1,
+          "targetPage": 3,
+          "kind": 4
+        },
+        {
+          "sourcePage": 1,
+          "targetPage": 13,
+          "kind": 4
+        }
+      ]
+    }
+  ],
+  "loadedAssetHashes": {
+    "app-bundle.css": "68bbe13e375feb6eaacd7cdf84c822022756242bfe26789666d3d9dd6f2c8f6d",
+    "app-bundle.js": "86e45fae176c7113282ad3469f41a106b6699eef5b7228019f3ae4878927f1e8",
+    "print-measure-bundle.css": "adb6e6e6892025c6f66d13e2796f0715147da7c257b2590df9769523edacbb97"
+  },
+  "verdict": "PASS",
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "86e45fae176c7113282ad3469f41a106b6699eef5b7228019f3ae4878927f1e8",
+    "assets/css/app-bundle.css": "68bbe13e375feb6eaacd7cdf84c822022756242bfe26789666d3d9dd6f2c8f6d",
+    "assets/css/print-measure-bundle.css": "adb6e6e6892025c6f66d13e2796f0715147da7c257b2590df9769523edacbb97"
+  },
+  "finalVerification": "Fresh browser with final integration build; PDF paragraph completeness, native contents links, controlled source-copy scenarios, and loaded artifact hashes verified.",
+  "visualReview": {
+    "result": "PASS",
+    "reviewed": [
+      "agenda-long-notes-page-5.png",
+      "agenda-long-notes-page-6.png",
+      "hh-long-notes-page-11.png",
+      "hh-long-notes-page-12.png",
+      "agenda-all-final-page-3.png",
+      "hh-all-1440-top.png",
+      "agenda-all-390-charts.png",
+      "hh-all-390-charts.png"
+    ],
+    "findings": [
+      "Recommendation 21 is complete before the page break; recommendation 22 starts next page; all Arabic text and terminal punctuation visible.",
+      "Agenda total 117, chart panels, status totals and compact detailed legend fit the same A4 content page.",
+      "Clean HH title includes source year and January–September period.",
+      "Phone chart labels and totals remain legible within panels."
+    ]
+  },
+  "finalStatus": "Complete. 410 checks passed, zero issues. No pending QA writes."
+}

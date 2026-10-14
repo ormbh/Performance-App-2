@@ -1,4 +1,20 @@
-# TEC Apple-Inspired Design Standard — Revision 25
+# TEC Apple-Inspired Design Standard — Revision 26
+
+**14 October 2026 · Performance App v161**
+
+Read [Revision 26](TEC-Apple-Inspired-Design-Standard-Revision-26.md) for the current consolidated standard. Agenda and special-project reports share contents/navigation, section sequence, table-column order, continuous numbering, compact legends, notes/recommendations and cover-title treatment. **المستجدات التفصيلية** occurs only in special projects.
+
+PDF order is cover, contents with actual page references and links, charts with full definitions, records, applicable details and final notes. Page numbering and copyright start after the cover. Smaller legends enlarge chart space while preserving the complete definitions. Source fields, chart orientation, status meanings and data-quality checks remain intact.
+
+[Full approach and applied previews](../Report-Consistency-v161/README.md) · [Verification](../Saytara-Verification-v161.md) · [Updated skill and principles](../TEC-Apple-Inspired-Skill-and-Principles.zip)
+
+Revision 26 supersedes conflicting historical section-order, cover-title, table-order and legend-size clauses. Earlier releases retain their original verification scope.
+
+---
+
+## Historical standards
+
+### Revision 25
 
 **14 October 2026 · Performance App v158**
 

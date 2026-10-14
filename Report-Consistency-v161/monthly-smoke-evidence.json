@@ -1,0 +1,99 @@
+{
+  "version": 161,
+  "kind": "One actual A4 monthly PDF smoke using existing illustrative workbook",
+  "checks": [
+    {
+      "name": "parsed source records exactly match v160",
+      "pass": true
+    },
+    {
+      "name": "all monthly metric counts exactly match v160",
+      "pass": true
+    },
+    {
+      "name": "actual monthly PDF page count matches plan",
+      "pass": true
+    },
+    {
+      "name": "monthly export remains A4 portrait",
+      "pass": true
+    },
+    {
+      "name": "monthly content retains native text operations",
+      "pass": true
+    },
+    {
+      "name": "report contents/page-number injection does not affect monthly PDF",
+      "pass": true
+    },
+    {
+      "name": "all monthly native text remains within PDF bounds",
+      "pass": true
+    },
+    {
+      "name": "copyright footer appears on every monthly page",
+      "pass": true
+    },
+    {
+      "name": "monthly footer page numbers retained",
+      "pass": true
+    },
+    {
+      "name": "source legislation total/completed/ongoing values retained in print",
+      "pass": true
+    },
+    {
+      "name": "source legislation figures present as actual extractable PDF text",
+      "pass": true
+    },
+    {
+      "name": "actual PDF download leaves source values unchanged",
+      "pass": true
+    },
+    {
+      "name": "actual PDF download leaves dashboard metrics unchanged",
+      "pass": true
+    },
+    {
+      "name": "no browser runtime errors",
+      "pass": true
+    },
+    {
+      "name": "no external network requested",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screens": [],
+  "pdfs": [
+    {
+      "path": "/workspace/saytara-work/v161-qa/monthly-smoke/monthly-a4.pdf",
+      "pages": 3,
+      "sha256": "0e6fb411887622d25f8f6c231ac56d9c5f10d136faf2106423aac86f9a4a865d",
+      "nativeTextOps": 235,
+      "footers": [
+        "3  من1 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر",
+        "3  من2 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر",
+        "3  من3 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر"
+      ],
+      "links": 0
+    }
+  ],
+  "loadedAssetHashes": {
+    "app-bundle.css": "68bbe13e375feb6eaacd7cdf84c822022756242bfe26789666d3d9dd6f2c8f6d",
+    "app-bundle.js": "86e45fae176c7113282ad3469f41a106b6699eef5b7228019f3ae4878927f1e8",
+    "print-measure-bundle.css": "adb6e6e6892025c6f66d13e2796f0715147da7c257b2590df9769523edacbb97"
+  },
+  "verdict": "PASS",
+  "visualReview": {
+    "pagesReviewed": [
+      1
+    ],
+    "screenshots": [
+      "monthly-page-1.png"
+    ],
+    "result": "PASS after final PDF glyph bounds fix: source figures, Arabic text, cards, copyright and page footer remain readable; no contents page injected."
+  }
+}

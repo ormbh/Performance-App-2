@@ -1,0 +1,621 @@
+{
+  "checks": [
+    {
+      "name": "agenda-all ZIP CRC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all actual slide count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all contents is second physical slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all contents page column named",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all shared cover title and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all footer excludes cover and copyright on body",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all active contents links",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all every slide link resolves",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all chart and full legend share first summary slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all detailed legend on chart slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all status totals caption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all notes and recommendations are final sections",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all final sections in contents",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all source record once in master tables",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all continuous table number",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all table order matches scoped source sequence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all shared RTL table column sequence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all native editable chart count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all native chart counts reconcile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all agenda has no special project detail sections",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all printed page references match destinations",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-all native text shape boxes within slide bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all ZIP CRC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all actual slide count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all contents is second physical slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all contents page column named",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all shared cover title and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all footer excludes cover and copyright on body",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all active contents links",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all every slide link resolves",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all chart and full legend share first summary slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all detailed legend on chart slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all status totals caption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all notes and recommendations are final sections",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all final sections in contents",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all source record once in master tables",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all continuous table number",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all table order matches scoped source sequence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all shared RTL table column sequence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all native editable chart count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all native chart counts reconcile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all detail numbers match master order",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all leadership terminology consistent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all printed page references match destinations",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-all native text shape boxes within slide bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered ZIP CRC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered actual slide count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered contents is second physical slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered contents page column named",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered shared cover title and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered footer excludes cover and copyright on body",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered active contents links",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered every slide link resolves",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered chart and full legend share first summary slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered detailed legend on chart slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered status totals caption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered notes and recommendations are final sections",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered final sections in contents",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered source record once in master tables",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered continuous table number",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered table order matches scoped source sequence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered shared RTL table column sequence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered native editable chart count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered native chart counts reconcile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered agenda has no special project detail sections",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered printed page references match destinations",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-filtered native text shape boxes within slide bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered ZIP CRC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered actual slide count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered contents is second physical slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered contents page column named",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered shared cover title and period",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered footer excludes cover and copyright on body",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered active contents links",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered every slide link resolves",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered chart and full legend share first summary slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered detailed legend on chart slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered status totals caption",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered notes and recommendations are final sections",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered final sections in contents",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered source record once in master tables",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered continuous table number",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered table order matches scoped source sequence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered shared RTL table column sequence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered native editable chart count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered native chart counts reconcile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered detail numbers match master order",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered leadership terminology consistent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered printed page references match destinations",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-filtered native text shape boxes within slide bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no browser errors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no external data requests",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "results": [
+    {
+      "name": "agenda-all",
+      "result": {
+        "slides": 17,
+        "charts": 2,
+        "counts": [
+          100.0,
+          17.0
+        ],
+        "tableRows": 117,
+        "contentsPageRefs": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            13,
+            13
+          ],
+          [
+            15,
+            15
+          ],
+          [
+            16,
+            16
+          ]
+        ],
+        "chartPhysicalPages": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "hh-all",
+      "result": {
+        "slides": 74,
+        "charts": 2,
+        "counts": [
+          24.0,
+          38.0
+        ],
+        "tableRows": 62,
+        "contentsPageRefs": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            49,
+            49
+          ],
+          [
+            72,
+            72
+          ],
+          [
+            73,
+            73
+          ]
+        ],
+        "chartPhysicalPages": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "agenda-filtered",
+      "result": {
+        "slides": 6,
+        "charts": 1,
+        "counts": [
+          2.0
+        ],
+        "tableRows": 2,
+        "contentsPageRefs": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "chartPhysicalPages": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "hh-filtered",
+      "result": {
+        "slides": 18,
+        "charts": 1,
+        "counts": [
+          11.0
+        ],
+        "tableRows": 11,
+        "contentsPageRefs": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            15,
+            15
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            17,
+            17
+          ]
+        ],
+        "chartPhysicalPages": [
+          3
+        ]
+      }
+    }
+  ],
+  "verdict": "PASS",
+  "limits": [
+    "Native XML/data/relationship checks only; no Office/LibreOffice renderer available."
+  ],
+  "errors": []
+}

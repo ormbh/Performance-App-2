@@ -1,0 +1,615 @@
+{
+  "checks": [
+    {
+      "name": "agenda-all actual pages match plan",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "agenda-all record keys preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "agenda-all source untouched",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "agenda-all native links resolve to existing pages",
+      "pass": true,
+      "details": [
+        [
+          1,
+          {
+            "kind": 4,
+            "xref": 20,
+            "from": "Rect(28.34645652770996, 108.924560546875, 813.537841796875, 153.338623046875)",
+            "page": 2,
+            "to": "Point(28.346457, 566.92916)",
+            "zoom": 0.0,
+            "nameddest": "report-dashboard",
+            "id": ""
+          }
+        ],
+        [
+          1,
+          {
+            "kind": 4,
+            "xref": 22,
+            "from": "Rect(28.34645652770996, 153.338623046875, 813.537841796875, 197.752685546875)",
+            "page": 3,
+            "to": "Point(28.346457, 566.92916)",
+            "zoom": 0.0,
+            "nameddest": "report-table",
+            "id": ""
+          }
+        ],
+        [
+          1,
+          {
+            "kind": 4,
+            "xref": 24,
+            "from": "Rect(28.34645652770996, 197.752685546875, 813.537841796875, 242.166748046875)",
+            "page": 13,
+            "to": "Point(28.346457, 474.27546)",
+            "zoom": 0.0,
+            "nameddest": "agenda-emerging",
+            "id": ""
+          }
+        ]
+      ]
+    },
+    {
+      "name": "agenda-all TOC every row links",
+      "pass": true,
+      "details": {
+        "links": 3,
+        "targets": [
+          "report-dashboard",
+          "report-table",
+          "agenda-emerging"
+        ]
+      }
+    },
+    {
+      "name": "agenda-all charts and legend fit single page",
+      "pass": true,
+      "details": 661.140625
+    },
+    {
+      "name": "hh-all actual pages match plan",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all record keys preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all source untouched",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all native links resolve to existing pages",
+      "pass": true,
+      "details": [
+        [
+          1,
+          {
+            "kind": 4,
+            "xref": 20,
+            "from": "Rect(28.34645652770996, 108.924560546875, 813.537841796875, 153.338623046875)",
+            "page": 2,
+            "to": "Point(28.346457, 566.92916)",
+            "zoom": 0.0,
+            "nameddest": "hh-summary",
+            "id": ""
+          }
+        ],
+        [
+          1,
+          {
+            "kind": 4,
+            "xref": 22,
+            "from": "Rect(28.34645652770996, 153.338623046875, 813.537841796875, 197.752685546875)",
+            "page": 3,
+            "to": "Point(28.346457, 566.92916)",
+            "zoom": 0.0,
+            "nameddest": "report-table",
+            "id": ""
+          }
+        ],
+        [
+          1,
+          {
+            "kind": 4,
+            "xref": 24,
+            "from": "Rect(28.34645652770996, 197.752685546875, 813.537841796875, 242.166748046875)",
+            "page": 9,
+            "to": "Point(28.346457, 566.92916)",
+            "zoom": 0.0,
+            "nameddest": "hh-followup",
+            "id": ""
+          }
+        ],
+        [
+          1,
+          {
+            "kind": 4,
+            "xref": 26,
+            "from": "Rect(28.34645652770996, 242.166748046875, 813.537841796875, 286.580810546875)",
+            "page": 48,
+            "to": "Point(28.346457, 566.92916)",
+            "zoom": 0.0,
+            "nameddest": "hh-completed",
+            "id": ""
+          }
+        ],
+        [
+          3,
+          {
+            "kind": 4,
+            "xref": 36,
+            "from": "Rect(652.908935546875, 100.393310546875, 672.350341796875, 120.643310546875)",
+            "page": 9,
+            "to": "Point(28.346457, 522.8432)",
+            "zoom": 0.0,
+            "nameddest": "topic-special-6",
+            "id": ""
+          }
+        ],
+        [
+          3,
+          {
+            "kind": 4,
+            "xref": 38,
+            "from": "Rect(672.350341796875, 100.393310546875, 775.615966796875, 120.643310546875)",
+            "page": 9,
+            "to": "Point(28.346457, 522.8432)",
+            "zoom": 0.0,
+            "nameddest": "topic-special-6",
+            "id": ""
+          }
+        ]
+      ]
+    },
+    {
+      "name": "hh-all TOC every row links",
+      "pass": true,
+      "details": {
+        "links": 4,
+        "targets": [
+          "hh-summary",
+          "report-table",
+          "hh-followup",
+          "hh-completed"
+        ]
+      }
+    },
+    {
+      "name": "hh-all charts and legend fit single page",
+      "pass": true,
+      "details": 678.09375
+    },
+    {
+      "name": "hh-all project rows have native detail links",
+      "pass": true,
+      "details": {
+        "totalLinks": 128,
+        "records": 62
+      }
+    },
+    {
+      "name": "agenda-emerging actual pages match plan",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "agenda-emerging record keys preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "agenda-emerging source untouched",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "agenda-emerging native links resolve to existing pages",
+      "pass": true,
+      "details": [
+        [
+          1,
+          {
+            "kind": 4,
+            "xref": 20,
+            "from": "Rect(28.34645652770996, 108.924560546875, 813.537841796875, 153.338623046875)",
+            "page": 2,
+            "to": "Point(28.346457, 566.92916)",
+            "zoom": 0.0,
+            "nameddest": "report-dashboard",
+            "id": ""
+          }
+        ],
+        [
+          1,
+          {
+            "kind": 4,
+            "xref": 22,
+            "from": "Rect(28.34645652770996, 153.338623046875, 813.537841796875, 197.752685546875)",
+            "page": 3,
+            "to": "Point(28.346457, 566.92916)",
+            "zoom": 0.0,
+            "nameddest": "agenda-emerging",
+            "id": ""
+          }
+        ]
+      ]
+    },
+    {
+      "name": "agenda-emerging TOC every row links",
+      "pass": true,
+      "details": {
+        "links": 2,
+        "targets": [
+          "report-dashboard",
+          "agenda-emerging"
+        ]
+      }
+    },
+    {
+      "name": "agenda-emerging charts and legend fit single page",
+      "pass": true,
+      "details": 661.140625
+    },
+    {
+      "name": "hh-tec-only actual pages match plan",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec-only record keys preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec-only source untouched",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec-only native links resolve to existing pages",
+      "pass": true,
+      "details": [
+        [
+          1,
+          {
+            "kind": 4,
+            "xref": 20,
+            "from": "Rect(28.34645652770996, 108.924560546875, 813.537841796875, 153.338623046875)",
+            "page": 2,
+            "to": "Point(28.346457, 566.92916)",
+            "zoom": 0.0,
+            "nameddest": "hh-summary",
+            "id": ""
+          }
+        ],
+        [
+          1,
+          {
+            "kind": 4,
+            "xref": 22,
+            "from": "Rect(28.34645652770996, 153.338623046875, 813.537841796875, 197.752685546875)",
+            "page": 3,
+            "to": "Point(28.346457, 566.92916)",
+            "zoom": 0.0,
+            "nameddest": "report-table",
+            "id": ""
+          }
+        ],
+        [
+          1,
+          {
+            "kind": 4,
+            "xref": 24,
+            "from": "Rect(28.34645652770996, 197.752685546875, 813.537841796875, 242.166748046875)",
+            "page": 4,
+            "to": "Point(28.346457, 566.92916)",
+            "zoom": 0.0,
+            "nameddest": "hh-followup",
+            "id": ""
+          }
+        ],
+        [
+          1,
+          {
+            "kind": 4,
+            "xref": 26,
+            "from": "Rect(28.34645652770996, 242.166748046875, 813.537841796875, 286.580810546875)",
+            "page": 9,
+            "to": "Point(28.346457, 566.92916)",
+            "zoom": 0.0,
+            "nameddest": "hh-completed",
+            "id": ""
+          }
+        ],
+        [
+          3,
+          {
+            "kind": 4,
+            "xref": 36,
+            "from": "Rect(652.908935546875, 100.393310546875, 672.350341796875, 120.643310546875)",
+            "page": 4,
+            "to": "Point(28.346457, 522.8432)",
+            "zoom": 0.0,
+            "nameddest": "topic-special-30",
+            "id": ""
+          }
+        ],
+        [
+          3,
+          {
+            "kind": 4,
+            "xref": 38,
+            "from": "Rect(672.350341796875, 100.393310546875, 775.615966796875, 120.643310546875)",
+            "page": 4,
+            "to": "Point(28.346457, 522.8432)",
+            "zoom": 0.0,
+            "nameddest": "topic-special-30",
+            "id": ""
+          }
+        ]
+      ]
+    },
+    {
+      "name": "hh-tec-only TOC every row links",
+      "pass": true,
+      "details": {
+        "links": 4,
+        "targets": [
+          "hh-summary",
+          "report-table",
+          "hh-followup",
+          "hh-completed"
+        ]
+      }
+    },
+    {
+      "name": "hh-tec-only charts and legend fit single page",
+      "pass": true,
+      "details": 429.09375
+    },
+    {
+      "name": "hh-tec-only project rows have native detail links",
+      "pass": true,
+      "details": {
+        "totalLinks": 16,
+        "records": 6
+      }
+    },
+    {
+      "name": "agenda-empty actual pages match plan",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "agenda-empty record keys preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "agenda-empty source untouched",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "agenda-empty native links resolve to existing pages",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "agenda-empty empty scope cover plus one message",
+      "pass": true,
+      "details": 2
+    },
+    {
+      "name": "agenda-empty empty scope no contents or links",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-empty actual pages match plan",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-empty record keys preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-empty source untouched",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-empty native links resolve to existing pages",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hh-empty empty scope cover plus one message",
+      "pass": true,
+      "details": 2
+    },
+    {
+      "name": "hh-empty empty scope no contents or links",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "No runtime errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "No external requests",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "agenda-all actual rendered text within page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "agenda-all actual printed TOC numbers match target pages",
+      "pass": true,
+      "details": [
+        {
+          "page": 2,
+          "nums": [
+            "2"
+          ],
+          "pass": true
+        },
+        {
+          "page": 3,
+          "nums": [
+            "3"
+          ],
+          "pass": true
+        },
+        {
+          "page": 13,
+          "nums": [
+            "13"
+          ],
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "hh-all actual rendered text within page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hh-all actual printed TOC numbers match target pages",
+      "pass": true,
+      "details": [
+        {
+          "page": 2,
+          "nums": [
+            "2"
+          ],
+          "pass": true
+        },
+        {
+          "page": 3,
+          "nums": [
+            "3"
+          ],
+          "pass": true
+        },
+        {
+          "page": 9,
+          "nums": [
+            "9"
+          ],
+          "pass": true
+        },
+        {
+          "page": 48,
+          "nums": [
+            "48"
+          ],
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "agenda-emerging actual rendered text within page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "agenda-emerging actual printed TOC numbers match target pages",
+      "pass": true,
+      "details": [
+        {
+          "page": 2,
+          "nums": [
+            "2"
+          ],
+          "pass": true
+        },
+        {
+          "page": 3,
+          "nums": [
+            "3"
+          ],
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "hh-tec-only actual rendered text within page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hh-tec-only actual printed TOC numbers match target pages",
+      "pass": true,
+      "details": [
+        {
+          "page": 2,
+          "nums": [
+            "2"
+          ],
+          "pass": true
+        },
+        {
+          "page": 3,
+          "nums": [
+            "3"
+          ],
+          "pass": true
+        },
+        {
+          "page": 4,
+          "nums": [
+            "4"
+          ],
+          "pass": true
+        },
+        {
+          "page": 9,
+          "nums": [
+            "9"
+          ],
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "agenda-empty actual rendered text within page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hh-empty actual rendered text within page bounds",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "verdict": "PASS",
+  "testedBuildHashes": {
+    "assets/js/app-bundle.js": "86e45fae176c7113282ad3469f41a106b6699eef5b7228019f3ae4878927f1e8",
+    "assets/css/app-bundle.css": "68bbe13e375feb6eaacd7cdf84c822022756242bfe26789666d3d9dd6f2c8f6d",
+    "assets/css/print-measure-bundle.css": "adb6e6e6892025c6f66d13e2796f0715147da7c257b2590df9769523edacbb97"
+  }
+}
