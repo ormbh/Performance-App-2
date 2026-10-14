@@ -1,9 +1,9 @@
 # Performance App
 
-[Download the current app — v163](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v163.zip)
+[Download the current app — v164](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v164.zip)
 
 Extract the ZIP and open **index.html**. Keep its **assets** folder and **manifest.webmanifest** beside it, then select your report workbook. No workbook is bundled.
 
-Council decisions now use issuing-body status charts and the approved six-column table. Decision number, issuing body and meeting date appear above the full latest-decision text; empty reference fields are omitted. Screen and export share the same report structure, colors and source scope.
+v164 fixes PDF downloads containing the legacy Office square-bullet character U+F0A7. Source text and the approved Arabic fonts are preserved.
 
-The ZIP contains only the app and a short start guide. [Principles and audit results](docs/README.md) and [earlier releases](archive/README.md) are separate.
+The ZIP contains only the app and a short start guide. [Principles and verification](docs/README.md) and [earlier releases](archive/README.md) are separate.

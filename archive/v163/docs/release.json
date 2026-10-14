@@ -1,0 +1,61 @@
+{
+  "build": 163,
+  "designRevision": 28,
+  "verdict": "PASS_WITH_RECORDED_LIMITS",
+  "zip": "Performance-App-v163.zip",
+  "zipSha256": "17ca723f8589c8f92563e7cfe85487711779b317ffea5306e38fcbf974935a1f",
+  "fileCount": 26,
+  "runtimeFiles": {
+    "README.txt": "9c856b38a303394b6cde83fea47c321f9ad75335511eaf5811c8ee00ad6a16a4",
+    "assets/css/app-bundle.css": "85f803fec7a85da7cc73a51c8cfa47a06fdf56a9161cfbf9e907715f898addd8",
+    "assets/css/print-measure-bundle.css": "d95e63c90e73122ad49aacda31a4b41569b3666f64bc9d0f50d0c4beced0b4c3",
+    "assets/fonts/DIN-Next-Arabic-Regular.otf": "9c2c15f517e786908c1fa917650f3723953aba6ef3fe0a3a7439c78fc0105715",
+    "assets/fonts/DIN-Next-LT-Arabic-Regular.ttf": "a96ab4c40a249f58bc245e6610ab2488cfd3580cfa776a1ad2a92788baf49dcd",
+    "assets/fonts/Dubai-Bold.otf": "299b7e9a156e5c938a1c82605f29eefe48579811c21c571c3a4625d74f48676d",
+    "assets/fonts/Dubai-Regular.otf": "025504c5514f902ce95e39d1c765f8bc65561d89c46024ef20e3f5d59503b2e2",
+    "assets/fonts/OFL.txt": "1b806a2fb734929564b7562be413412feeb041f165940e9094b84c523cf10bed",
+    "assets/icons/app-192.png": "4ed57658565a9a1cb9c6a811009b95e45256f2ad2051e76cfdda5862aae6a9a5",
+    "assets/icons/app-512.png": "d1c62b79ca9781af65c8bd2e076691b5a42584d1250aa813080649a30c52ce05",
+    "assets/icons/apple-touch-icon.png": "8f8a9ef26be7263d90f042fd3fa528a06179dc28a190f35b072390ceff9011f7",
+    "assets/img/agenda-cover.jpg": "d158ae2851d7ecc15072764c25560ee5d4a05f1db1c6faf8113e2c1a05b405ab",
+    "assets/img/agenda-logos.png": "903f29bb3ca1027ca5e992fefb0428e7c9fd55db5f91603f9def8a7ccf40f155",
+    "assets/img/search-background.png": "89ade61e25d179566c84df6f1fac2b6a7fd7b378834c480da0b92a6e377e5bca",
+    "assets/img/search-mashrabiya.jpg": "9f9e86ce18b75524867fdfe9edb144051465b66fb0f93b2a2fe7bfa41286c2ff",
+    "assets/img/tec-positive.png": "fcab6fe27d22f816a93016e0cbcb3c38432fe2ef8885a3f313e6a0efe86151ef",
+    "assets/img/tec-red.png": "abafeddbf4c7cc66a5f2c25e997ee4ce90b517a5ea0b15f38398d396c68680cf",
+    "assets/js/app-bundle.js": "62f3771edc0bc424d3c452b92c768398f2b79356350025a1df9e396968901acb",
+    "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528",
+    "assets/js/reports/agenda-fonts.js": "6f876e00ca7bb0954d796006096e574b424e09b101c37733566ea6fafe674dc3",
+    "assets/js/reports/agenda-template.js": "54f822bc3f695a5d20fab29eaa44d3fd1ec8e4e3d9693bc45dc58af8431fa22b",
+    "assets/js/reports/hh-template.js": "6304a88ac40fb87c936a13f2f663ca223e4a13318f578790ffbcf86b020108a0",
+    "assets/vendor/offline-pdf-LICENSES.txt": "55cf60144f8249cdd177adbf81fe30af773b5bb034acf68efd27db9f86f04521",
+    "assets/vendor/tec-pdf-symbols-LICENSE.txt": "f32df582a2aab128c07b2f7e36e7b928dc5f6bd82657b905c04f91459f9e5cf9",
+    "index.html": "ed5bc996009c390f26764063ba7dc5ca97468c311a7be4952ebd39b5dda78763",
+    "manifest.webmanifest": "b3ed8e7dc3299eb031ca9254ff3ef6fa0190e48ebb9e1a074a77dc451745e912"
+  },
+  "checks": {
+    "council-audit": 474,
+    "screen": 32,
+    "visual": 36,
+    "pdf": 132,
+    "pdf-cells": 5,
+    "powerpoint": 142,
+    "clean-powerpoint": 28,
+    "clean-runtime": 30
+  },
+  "sourceFixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "illustrative": true,
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+  },
+  "limits": [
+    "Production workbook reconciliation not run.",
+    "Native Office rendering/edit exercise unavailable.",
+    "Managed Chromium file:// opening blocked before application code; local HTTP minimal runtime verified."
+  ],
+  "previousRelease": {
+    "commit": "c3ee46b1f472ba610a0eee8e2e75679a6ec78c85",
+    "zip": "archive/v162/Performance-App-v162.zip",
+    "sha256": "db72bd96d133d464d3c936043d1cf73470a7e1bbfc789eccd4618cec70d3e867"
+  }
+}

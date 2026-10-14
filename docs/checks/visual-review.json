@@ -1,0 +1,42 @@
+{
+  "verdict": "PASS",
+  "scope": "Focused review of actual PDF renders from final v164 assets; controlled QA text.",
+  "checks": [
+    {
+      "file": "clean-ui/clean-runtime-ui-page-5.png",
+      "sha256": "6529bd5077046ae0b3cbb30e49a1dfe9a9a7a79775df19a2e7bd88b99f4ac9af",
+      "pass": true,
+      "observation": "Clean UI download: both square characters visible; Arabic and six-column layout readable."
+    },
+    {
+      "file": "release164/council-mixed-square-long-glyph-page-5.png",
+      "sha256": "c1c8baee2d1a8c77f259c9d503ba14f2550010d1c2c48ecb24aa65ed765b9622",
+      "pass": true,
+      "observation": "Council full decision and notes: squares visible; text fits source cells."
+    },
+    {
+      "file": "release164/council-mixed-square-long-glyph-page-6.png",
+      "sha256": "9b9a18369c915eb4442d6dc2947843fe3d5438a84365369da80e21f38f8fe2e7",
+      "pass": true,
+      "observation": "Council continuation: repeated headings, Arabic wrapping and square glyphs remain readable within page margins."
+    },
+    {
+      "file": "release164/agenda-editorial-square-glyph-page-5.png",
+      "sha256": "e3dba94b0794969c5e8b128fcb0901df48a3b36dd424b719207f781436f17c3d",
+      "pass": true,
+      "observation": "Agenda notes: both square characters visible with readable Arabic."
+    },
+    {
+      "file": "release164/hh-editorial-square-glyph-page-41.png",
+      "sha256": "3de98afa1d2eb0292dc22573278716b15059ada5ef79743ec502b3f34591e8f4",
+      "pass": true,
+      "observation": "Special-project notes: both square characters visible with readable Arabic."
+    },
+    {
+      "file": "release164/projects-editorial-square-glyph-page-1.png",
+      "sha256": "1ab4841689e49f0df64015bf307854f7675689d8df215b8c377f20ac11d26a42",
+      "pass": true,
+      "observation": "General projects shared export: square bullets visible with no missing-glyph boxes."
+    }
+  ]
+}

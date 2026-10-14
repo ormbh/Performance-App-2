@@ -1,0 +1,109 @@
+{
+  "checks": [
+    {
+      "name": "actual download button returns PDF",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "download filename extension PDF",
+      "pass": true,
+      "detail": "مستجدات قرارات المجالس 2026.pdf"
+    },
+    {
+      "name": "raw source unchanged after UI download",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "live table text unchanged after UI download",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "legacy bullets exact count",
+      "pass": true,
+      "detail": 2
+    },
+    {
+      "name": "standard square exact count",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "marker once UIGLYPHLEGACY",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "marker once UIGLYPHSTANDARD",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "marker once UIGLYPHNOTES",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "no replacement glyphs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Arabic prose selectable",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PDF engine cache bust uses current build",
+      "pass": true,
+      "detail": [
+        "http://127.0.0.1:36663/v164-clean/Performance-App/assets/js/lib/offline-pdf-engine.js?v=164"
+      ]
+    },
+    {
+      "name": "no external runtime request",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no browser error",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "runtime": "v164-clean/Performance-App",
+  "requests": [
+    "http://127.0.0.1:36663/v164-clean/Performance-App/index.html",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/css/app-bundle.css?v=164",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/js/app-bundle.js?v=164",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/img/tec-red.png",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/fonts/Dubai-Regular.otf",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/fonts/DIN-Next-Arabic-Regular.otf",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/img/tec-red.png",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/img/tec-red.png",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/img/tec-red.png",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/img/tec-red.png",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/img/tec-red.png",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/fonts/DIN-Next-LT-Arabic-Regular.ttf",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/fonts/Dubai-Bold.otf",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/img/tec-red.png",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/img/tec-red.png",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/css/print-measure-bundle.css?v=164",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/js/lib/offline-pdf-engine.js?v=164",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/img/tec-red.png",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/img/tec-red.png",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/img/agenda-cover.jpg",
+    "http://127.0.0.1:36663/v164-clean/Performance-App/assets/img/agenda-logos.png"
+  ],
+  "pages": 6,
+  "pdfSha256": "9048a814398df8886e050363a71019500e636edf2e77102ee6c062d6333ebe64",
+  "runtimeEngineSha256": "647b32e4d4481fbc4df6edfa77ac71853131448ea4602d6b054f713ef6ee7069",
+  "assetHashes": {
+    "app-bundle.css": "85f803fec7a85da7cc73a51c8cfa47a06fdf56a9161cfbf9e907715f898addd8",
+    "app-bundle.js": "b64869ed1e456265faf5e679a0e7757618234185197c43f00e8cfbb9b2658b4c",
+    "print-measure-bundle.css": "79a00c0ebf2c15120229f80e042e46eefec346f043b1353be3883101a8f060f2"
+  },
+  "verdict": "PASS"
+}

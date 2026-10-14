@@ -1,0 +1,583 @@
+{
+  "version": 164,
+  "app": "Performance-App-v164",
+  "checks": [
+    {
+      "name": "illustrative source imports all 672 records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-mixed-square-long source state preserved byte for byte",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-mixed-square-long native PDF download completes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-mixed-square-long actual PDF pages match plan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-mixed-square-long no replacement characters",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-mixed-square-long exact U+F0A7 source count",
+      "pass": true,
+      "detail": {
+        "expected": 21,
+        "actual": 21
+      }
+    },
+    {
+      "name": "council-mixed-square-long exact U+25AA source count",
+      "pass": true,
+      "detail": {
+        "expected": 21,
+        "actual": 21
+      }
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST001",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST002",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST003",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST004",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST005",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST006",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST007",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST008",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST009",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST010",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST011",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST012",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST013",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST014",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST015",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST016",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST017",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST018",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST019",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST020",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST021",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST022",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST023",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHLATEST024",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES001",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES002",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES003",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES004",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES005",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES006",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES007",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES008",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES009",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES010",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES011",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES012",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES013",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES014",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES015",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES016",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES017",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long exact marker GLYPHNOTES018",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "council-mixed-square-long complete Arabic paragraph",
+      "pass": true,
+      "detail": {
+        "expected": 24,
+        "actual": 24
+      }
+    },
+    {
+      "name": "council-mixed-square-long complete Arabic paragraph",
+      "pass": true,
+      "detail": {
+        "expected": 18,
+        "actual": 18
+      }
+    },
+    {
+      "name": "council-mixed-square-long native text within page bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "print clone preserves original legacy and standard Unicode",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-ordinary-regression source state preserved byte for byte",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-ordinary-regression native PDF download completes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-ordinary-regression actual PDF pages match plan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-ordinary-regression no replacement characters",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-ordinary-regression native text within page bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "ordinary PDF selectable text exactly matches v163",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-editorial-square source state preserved byte for byte",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-editorial-square native PDF download completes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-editorial-square actual PDF pages match plan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-editorial-square no replacement characters",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda-editorial-square exact U+F0A7 source count",
+      "pass": true,
+      "detail": {
+        "expected": 1,
+        "actual": 1
+      }
+    },
+    {
+      "name": "agenda-editorial-square exact U+25AA source count",
+      "pass": true,
+      "detail": {
+        "expected": 1,
+        "actual": 1
+      }
+    },
+    {
+      "name": "agenda-editorial-square exact marker GLYPHLEGACY",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "agenda-editorial-square exact marker GLYPHSTANDARD",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "agenda-editorial-square complete Arabic paragraph",
+      "pass": true,
+      "detail": {
+        "expected": 2,
+        "actual": 2
+      }
+    },
+    {
+      "name": "agenda-editorial-square native text within page bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "hh-editorial-square source state preserved byte for byte",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-editorial-square native PDF download completes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-editorial-square actual PDF pages match plan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-editorial-square no replacement characters",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh-editorial-square exact U+F0A7 source count",
+      "pass": true,
+      "detail": {
+        "expected": 1,
+        "actual": 1
+      }
+    },
+    {
+      "name": "hh-editorial-square exact U+25AA source count",
+      "pass": true,
+      "detail": {
+        "expected": 1,
+        "actual": 1
+      }
+    },
+    {
+      "name": "hh-editorial-square exact marker GLYPHLEGACY",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "hh-editorial-square exact marker GLYPHSTANDARD",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "hh-editorial-square complete Arabic paragraph",
+      "pass": true,
+      "detail": {
+        "expected": 2,
+        "actual": 2
+      }
+    },
+    {
+      "name": "hh-editorial-square native text within page bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "projects-editorial-square source state preserved byte for byte",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "projects-editorial-square native PDF download completes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "projects-editorial-square actual PDF pages match plan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "projects-editorial-square no replacement characters",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "projects-editorial-square exact U+F0A7 source count",
+      "pass": true,
+      "detail": {
+        "expected": 1,
+        "actual": 1
+      }
+    },
+    {
+      "name": "projects-editorial-square exact U+25AA source count",
+      "pass": true,
+      "detail": {
+        "expected": 1,
+        "actual": 1
+      }
+    },
+    {
+      "name": "projects-editorial-square exact marker GLYPHLEGACY",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "projects-editorial-square exact marker GLYPHSTANDARD",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "projects-editorial-square complete Arabic paragraph",
+      "pass": true,
+      "detail": {
+        "expected": 2,
+        "actual": 2
+      }
+    },
+    {
+      "name": "projects-editorial-square native text within page bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "unknown-pua-still-rejected source state preserved byte for byte",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unknown-pua-still-rejected explicitly fails with Unsupported glyph in approved PDF font: U+E123",
+      "pass": true,
+      "detail": "Unsupported glyph in approved PDF font: U+E123"
+    },
+    {
+      "name": "no unexpected browser errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "offline export makes no external requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "pdfs": [
+    {
+      "name": "council-mixed-square-long",
+      "pages": 10,
+      "sha256": "5bb317a23c27ef5d16ef74899ad7dcdda99d3d8853070606e3a4195258519bc5",
+      "counts": {
+        "U+F0A7": 21,
+        "U+25AA": 21
+      },
+      "glyphPages": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "name": "council-ordinary-regression",
+      "pages": 3,
+      "sha256": "38a49c256eba09551ad4eeebd6b1ca68ab7df4c7a3a99455410005f690d6f827",
+      "counts": {
+        "U+F0A7": 0,
+        "U+25AA": 0
+      },
+      "glyphPages": []
+    },
+    {
+      "name": "agenda-editorial-square",
+      "pages": 5,
+      "sha256": "e14a056474770b3d237dee6aa667bb5f7bafecc5570497396c7a398752831d14",
+      "counts": {
+        "U+F0A7": 1,
+        "U+25AA": 1
+      },
+      "glyphPages": [
+        4
+      ]
+    },
+    {
+      "name": "hh-editorial-square",
+      "pages": 41,
+      "sha256": "e61f3c2c7e8739b44159b3aaa8599bae3a1a233c74727e17811a731ae8ecca0f",
+      "counts": {
+        "U+F0A7": 1,
+        "U+25AA": 1
+      },
+      "glyphPages": [
+        40
+      ]
+    },
+    {
+      "name": "projects-editorial-square",
+      "pages": 7,
+      "sha256": "20c9d2a70d372a57cf203516724499652a20a117780629c79ee5fb7547d59d84",
+      "counts": {
+        "U+F0A7": 1,
+        "U+25AA": 1
+      },
+      "glyphPages": [
+        0
+      ]
+    }
+  ],
+  "fixture": "/workspace/saytara-work/monthly-apple-preview/ILLUSTRATIVE-monthly-preview.xlsx",
+  "fixtureSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "sourceRecords": 672,
+  "verdict": "PASS",
+  "assetHashes": {
+    "app-bundle.css": "85f803fec7a85da7cc73a51c8cfa47a06fdf56a9161cfbf9e907715f898addd8",
+    "app-bundle.js": "b64869ed1e456265faf5e679a0e7757618234185197c43f00e8cfbb9b2658b4c",
+    "print-measure-bundle.css": "79a00c0ebf2c15120229f80e042e46eefec346f043b1353be3883101a8f060f2"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "version": 163,
+  "app": "Performance-App-v163",
+  "checks": [
+    {
+      "name": "illustrative source imports all 672 records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-controlled-original-error source state preserved byte for byte",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-controlled-original-error explicitly fails with Unsupported glyph in approved PDF font: U+F0A7",
+      "pass": true,
+      "detail": "Unsupported glyph in approved PDF font: U+F0A7"
+    },
+    {
+      "name": "council-ordinary-regression source state preserved byte for byte",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-ordinary-regression native PDF download completes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-ordinary-regression actual PDF pages match plan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-ordinary-regression no replacement characters",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council-ordinary-regression native text within page bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no unexpected browser errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "offline export makes no external requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "pdfs": [
+    {
+      "name": "council-ordinary-regression",
+      "pages": 3,
+      "sha256": "1e21fce7dbac63ac485a0cba52c9e1a4b29b09bfa0f9b7c98504b82446f45788",
+      "counts": {
+        "U+F0A7": 0,
+        "U+25AA": 0
+      },
+      "glyphPages": []
+    }
+  ],
+  "fixture": "/workspace/saytara-work/monthly-apple-preview/ILLUSTRATIVE-monthly-preview.xlsx",
+  "fixtureSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "sourceRecords": 672,
+  "verdict": "PASS",
+  "assetHashes": {
+    "app-bundle.css": "85f803fec7a85da7cc73a51c8cfa47a06fdf56a9161cfbf9e907715f898addd8",
+    "app-bundle.js": "62f3771edc0bc424d3c452b92c768398f2b79356350025a1df9e396968901acb",
+    "print-measure-bundle.css": "d95e63c90e73122ad49aacda31a4b41569b3666f64bc9d0f50d0c4beced0b4c3"
+  }
+}

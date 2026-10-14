@@ -1,9 +1,9 @@
 # Current documentation
 
+- [PDF compatibility verification — v164](Verification-v164.md)
 - [Design principles — Revision 28](TEC-Design-Principles.md)
-- [Updated TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles.zip)
-- [Verification, audit basis and limitations](Verification-v163.md)
+- [TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles.zip)
 - [Release checksum and runtime file list](release.json)
-- [Council PDF chart preview](previews/council-summary-pdf.png) · [Six-column table preview](previews/council-table-pdf.png)
+- [PDF square-bullet preview](previews/pdf-square-bullets.png)
 
-Previews use illustrative or controlled test data. The app download includes only runtime files, required license notices and a short start guide. Documentation, evidence and readable development source remain separate.
+The preview uses controlled QA text. The download includes only runtime files, required licenses and a short start guide. Earlier report verification remains with the archived releases.
