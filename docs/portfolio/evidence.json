@@ -1,0 +1,1574 @@
+{
+  "stage": "Audit and review illustrations only; no runtime, release or design-principles change",
+  "dataAudit": {
+    "stage": "Audit and illustration only; no application/source edits",
+    "runtime": "Clean v166",
+    "source": {
+      "sha256": "1638e2d9e194c21d8d8e258a2bcad7c121cbeb9a4f529f90cea632f212cc66f2",
+      "sourceSheet": "مشاريع_الأمانة",
+      "cutoff": "2026-09-30",
+      "cutoffCell": "Logic!B1",
+      "cutoffKind": "fixed",
+      "rawRows": 84,
+      "namedRows": 0,
+      "hiddenRows": 0,
+      "worksheetFilter": null,
+      "formulaCells": 168,
+      "formulaCellsWithCachedValues": 84,
+      "todayFormulaCells": 0,
+      "blankEntityField": "No source entity column; approved mapping assigns every budget project to General Secretariat.",
+      "refresh": "Existing cached values read; JavaScript source-rule calculations observed. No workbook save, Office recalculation or Power Query refresh performed."
+    },
+    "attachmentRuntime": {
+      "source": {
+        "name": "Saytara_2026_Mold_v2.xlsx",
+        "fileName": "Saytara_2026_Mold_v2.xlsx",
+        "year": 2026,
+        "today": 46295,
+        "sourceDateKind": "fixed"
+      },
+      "sourceRows": 84,
+      "namedRows": 0,
+      "rawStatus": {
+        "Active": 61,
+        "Frozen": 3,
+        "Completed": 10,
+        "Not Started": 7,
+        "Transferred": 2,
+        "Cancelled": 1
+      },
+      "titleCells": 0,
+      "financialKnown": 0,
+      "projectTotal": 0,
+      "finance": [
+        {
+          "key": "approved",
+          "value": null,
+          "known": 0
+        },
+        {
+          "key": "revised",
+          "value": null,
+          "known": 0
+        },
+        {
+          "key": "committed",
+          "value": null,
+          "known": 0
+        },
+        {
+          "key": "nonCommitted",
+          "value": null,
+          "known": 0
+        },
+        {
+          "key": "workDone",
+          "value": null,
+          "known": 0
+        },
+        {
+          "key": "spent",
+          "value": null,
+          "known": 0
+        }
+      ],
+      "monthlyTotal": 0,
+      "monthlyBudget": {
+        "approved": 0,
+        "spent": 0,
+        "allocated": 0,
+        "unallocated": 0,
+        "approvedOriginal": 0
+      },
+      "body": "القطاع\nجميع القطاعات\nالوحدة التنظيمية\nجميع الوحدات\nالجهة المعنية\nجميع الجهات\n\nالنطاق: جميع المشاريع\n\nالمزيد من التصفية\n\nعدد المشاريع: – من أصل – · جميع المشاريع\n\n84 سجلاً بدون عنوان في المصدر؛ قد لا تشملها إجماليات القالب.\nمراجعة البيانات\nلا توجد مشاريع مسماة قابلة للحساب\n\nعدد المشاريع القابلة للحساب: –\n\nيحتوي النطاق على 84 صفاً بلا اسم مشروع. تستبعدها معادلات القالب من الإجمالي؛ راجع أسماء المشاريع في المصدر.\n\nمراجعة بيانات المصدر\nاختيار ملف آخر\nتعريف المؤشرات",
+      "emptyType": "source-titles",
+      "sha256": "1638e2d9e194c21d8d8e258a2bcad7c121cbeb9a4f529f90cea632f212cc66f2"
+    },
+    "illustrativeFixture": {
+      "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+      "namedProjects": 84,
+      "provenance": "Locally generated anonymized illustration workbook; amounts and labels are illustrative, not real source figures."
+    },
+    "illustrativeTotals": {
+      "projects": 84,
+      "completed": 10,
+      "active": 61,
+      "notStarted": 7,
+      "frozen": 3,
+      "cancelled": 1,
+      "transferred": 2,
+      "unknown": 0,
+      "overdue": 0,
+      "followup": 6,
+      "completionPercent": 11.904761904761903,
+      "meanProgressPercent": 38.86904761904762,
+      "moneyUnit": "AED",
+      "finance": [
+        {
+          "key": "approved",
+          "value": 52447500,
+          "known": 84,
+          "total": 84,
+          "available": true
+        },
+        {
+          "key": "revised",
+          "value": 58275000,
+          "known": 84,
+          "total": 84,
+          "available": true
+        },
+        {
+          "key": "committed",
+          "value": 46620000,
+          "known": 84,
+          "total": 84,
+          "available": true
+        },
+        {
+          "key": "nonCommitted",
+          "value": 11655000,
+          "known": 84,
+          "total": 84,
+          "available": true
+        },
+        {
+          "key": "workDone",
+          "value": 23018125,
+          "known": 84,
+          "total": 84,
+          "available": true
+        },
+        {
+          "key": "spent",
+          "value": 20396250,
+          "known": 84,
+          "total": 84,
+          "available": true
+        }
+      ],
+      "schedule": [
+        {
+          "year": 2026,
+          "total": 81,
+          "quarters": [
+            {
+              "key": "Q1",
+              "total": 0,
+              "statusCounts": {
+                "completed": 0,
+                "active": 0,
+                "notStarted": 0,
+                "suspended": 0,
+                "cancelled": 0,
+                "transferred": 0,
+                "unknown": 0
+              },
+              "months": []
+            },
+            {
+              "key": "Q2",
+              "total": 1,
+              "statusCounts": {
+                "completed": 1,
+                "active": 0,
+                "notStarted": 0,
+                "suspended": 0,
+                "cancelled": 0,
+                "transferred": 0,
+                "unknown": 0
+              },
+              "months": [
+                {
+                  "id": "schedule:month:2026-06",
+                  "key": "2026-06",
+                  "name": "يونيو",
+                  "total": 1,
+                  "completed": 1,
+                  "overdue": 0,
+                  "statusCounts": {
+                    "completed": 1,
+                    "active": 0,
+                    "notStarted": 0,
+                    "suspended": 0,
+                    "cancelled": 0,
+                    "transferred": 0,
+                    "unknown": 0
+                  },
+                  "budget": {
+                    "value": 912500,
+                    "known": 1,
+                    "total": 1
+                  },
+                  "progress": {
+                    "value": 100,
+                    "known": 1,
+                    "total": 1
+                  }
+                }
+              ]
+            },
+            {
+              "key": "Q3",
+              "total": 0,
+              "statusCounts": {
+                "completed": 0,
+                "active": 0,
+                "notStarted": 0,
+                "suspended": 0,
+                "cancelled": 0,
+                "transferred": 0,
+                "unknown": 0
+              },
+              "months": []
+            },
+            {
+              "key": "Q4",
+              "total": 80,
+              "statusCounts": {
+                "completed": 9,
+                "active": 58,
+                "notStarted": 7,
+                "suspended": 3,
+                "cancelled": 1,
+                "transferred": 2,
+                "unknown": 0
+              },
+              "months": [
+                {
+                  "id": "schedule:month:2026-10",
+                  "key": "2026-10",
+                  "name": "أكتوبر",
+                  "total": 1,
+                  "completed": 0,
+                  "overdue": 0,
+                  "statusCounts": {
+                    "completed": 0,
+                    "active": 1,
+                    "notStarted": 0,
+                    "suspended": 0,
+                    "cancelled": 0,
+                    "transferred": 0,
+                    "unknown": 0
+                  },
+                  "budget": {
+                    "value": 1012500,
+                    "known": 1,
+                    "total": 1
+                  },
+                  "progress": {
+                    "value": 75,
+                    "known": 1,
+                    "total": 1
+                  }
+                },
+                {
+                  "id": "schedule:month:2026-12",
+                  "key": "2026-12",
+                  "name": "ديسمبر",
+                  "total": 79,
+                  "completed": 9,
+                  "overdue": 0,
+                  "statusCounts": {
+                    "completed": 9,
+                    "active": 57,
+                    "notStarted": 7,
+                    "suspended": 3,
+                    "cancelled": 1,
+                    "transferred": 2,
+                    "unknown": 0
+                  },
+                  "budget": {
+                    "value": 54287500,
+                    "known": 79,
+                    "total": 79
+                  },
+                  "progress": {
+                    "value": 38.54430379746835,
+                    "known": 79,
+                    "total": 79
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2027,
+          "total": 3,
+          "quarters": [
+            {
+              "key": "Q1",
+              "total": 3,
+              "statusCounts": {
+                "completed": 0,
+                "active": 3,
+                "notStarted": 0,
+                "suspended": 0,
+                "cancelled": 0,
+                "transferred": 0,
+                "unknown": 0
+              },
+              "months": [
+                {
+                  "id": "schedule:month:2027-02",
+                  "key": "2027-02",
+                  "name": "فبراير",
+                  "total": 3,
+                  "completed": 0,
+                  "overdue": 0,
+                  "statusCounts": {
+                    "completed": 0,
+                    "active": 3,
+                    "notStarted": 0,
+                    "suspended": 0,
+                    "cancelled": 0,
+                    "transferred": 0,
+                    "unknown": 0
+                  },
+                  "budget": {
+                    "value": 2062500,
+                    "known": 3,
+                    "total": 3
+                  },
+                  "progress": {
+                    "value": 15,
+                    "known": 3,
+                    "total": 3
+                  }
+                }
+              ]
+            },
+            {
+              "key": "Q2",
+              "total": 0,
+              "statusCounts": {
+                "completed": 0,
+                "active": 0,
+                "notStarted": 0,
+                "suspended": 0,
+                "cancelled": 0,
+                "transferred": 0,
+                "unknown": 0
+              },
+              "months": []
+            },
+            {
+              "key": "Q3",
+              "total": 0,
+              "statusCounts": {
+                "completed": 0,
+                "active": 0,
+                "notStarted": 0,
+                "suspended": 0,
+                "cancelled": 0,
+                "transferred": 0,
+                "unknown": 0
+              },
+              "months": []
+            },
+            {
+              "key": "Q4",
+              "total": 0,
+              "statusCounts": {
+                "completed": 0,
+                "active": 0,
+                "notStarted": 0,
+                "suspended": 0,
+                "cancelled": 0,
+                "transferred": 0,
+                "unknown": 0
+              },
+              "months": []
+            }
+          ]
+        }
+      ]
+    },
+    "checks": [
+      {
+        "name": "illustrative 84 named budget project records",
+        "pass": true
+      },
+      {
+        "name": "illustrative disjoint statuses reconcile",
+        "pass": true
+      },
+      {
+        "name": "illustrative organizational grouping conserves rows",
+        "pass": true
+      },
+      {
+        "name": "illustrative year quarter month grouping conserves rows",
+        "pass": true
+      },
+      {
+        "name": "illustrative all selection rows remain within scope",
+        "pass": true
+      },
+      {
+        "name": "illustrative no fabricated history",
+        "pass": true
+      },
+      {
+        "name": "illustrative source statuses preserved",
+        "pass": true,
+        "detail": {
+          "active": 61,
+          "frozen": 3,
+          "completed": 10,
+          "not started": 7,
+          "transferred": 2,
+          "cancelled": 1
+        }
+      },
+      {
+        "name": "illustrative mean progress uses valid numeric rows only",
+        "pass": true
+      },
+      {
+        "name": "illustrative all exact filter union/intersection membership",
+        "pass": true,
+        "detail": {
+          "expected": 84,
+          "actual": 84
+        }
+      },
+      {
+        "name": "illustrative all workspace/report exact same records",
+        "pass": true
+      },
+      {
+        "name": "illustrative all monthly total same organizational scope",
+        "pass": true
+      },
+      {
+        "name": "illustrative sector-union exact filter union/intersection membership",
+        "pass": true,
+        "detail": {
+          "expected": 40,
+          "actual": 40
+        }
+      },
+      {
+        "name": "illustrative sector-union workspace/report exact same records",
+        "pass": true
+      },
+      {
+        "name": "illustrative sector-union monthly total same organizational scope",
+        "pass": true
+      },
+      {
+        "name": "illustrative unit-union exact filter union/intersection membership",
+        "pass": true,
+        "detail": {
+          "expected": 11,
+          "actual": 11
+        }
+      },
+      {
+        "name": "illustrative unit-union workspace/report exact same records",
+        "pass": true
+      },
+      {
+        "name": "illustrative unit-union monthly total same organizational scope",
+        "pass": true
+      },
+      {
+        "name": "illustrative intersection exact filter union/intersection membership",
+        "pass": true,
+        "detail": {
+          "expected": 11,
+          "actual": 11
+        }
+      },
+      {
+        "name": "illustrative intersection workspace/report exact same records",
+        "pass": true
+      },
+      {
+        "name": "illustrative intersection monthly total same organizational scope",
+        "pass": true
+      },
+      {
+        "name": "illustrative parent-entity exact filter union/intersection membership",
+        "pass": true,
+        "detail": {
+          "expected": 84,
+          "actual": 84
+        }
+      },
+      {
+        "name": "illustrative parent-entity workspace/report exact same records",
+        "pass": true
+      },
+      {
+        "name": "illustrative parent-entity monthly total same organizational scope",
+        "pass": true
+      },
+      {
+        "name": "illustrative entity-union exact filter union/intersection membership",
+        "pass": true,
+        "detail": {
+          "expected": 84,
+          "actual": 84
+        }
+      },
+      {
+        "name": "illustrative entity-union workspace/report exact same records",
+        "pass": true
+      },
+      {
+        "name": "illustrative entity-union monthly total same organizational scope",
+        "pass": true
+      },
+      {
+        "name": "illustrative empty-entity exact filter union/intersection membership",
+        "pass": true,
+        "detail": {
+          "expected": 0,
+          "actual": 0
+        }
+      },
+      {
+        "name": "illustrative empty-entity workspace/report exact same records",
+        "pass": true
+      },
+      {
+        "name": "illustrative empty-entity monthly total same organizational scope",
+        "pass": true
+      },
+      {
+        "name": "illustrative type-priority exact filter union/intersection membership",
+        "pass": true,
+        "detail": {
+          "expected": 59,
+          "actual": 59
+        }
+      },
+      {
+        "name": "illustrative type-priority workspace/report exact same records",
+        "pass": true
+      },
+      {
+        "name": "illustrative status-union exact filter union/intersection membership",
+        "pass": true,
+        "detail": {
+          "expected": 71,
+          "actual": 71
+        }
+      },
+      {
+        "name": "illustrative status-union workspace/report exact same records",
+        "pass": true
+      },
+      {
+        "name": "illustrative quarter-other exact filter union/intersection membership",
+        "pass": true,
+        "detail": {
+          "expected": 3,
+          "actual": 3
+        }
+      },
+      {
+        "name": "illustrative quarter-other workspace/report exact same records",
+        "pass": true
+      },
+      {
+        "name": "illustrative pm-union exact filter union/intersection membership",
+        "pass": true,
+        "detail": {
+          "expected": 56,
+          "actual": 56
+        }
+      },
+      {
+        "name": "illustrative pm-union workspace/report exact same records",
+        "pass": true
+      },
+      {
+        "name": "illustrative actual status drill exact rows",
+        "pass": true
+      },
+      {
+        "name": "illustrative actual report link preserves exact active scope",
+        "pass": true
+      },
+      {
+        "name": "illustrative no mutation of source records",
+        "pass": true
+      },
+      {
+        "name": "Independent attachment 84 raw rows and zero named rows",
+        "pass": true
+      },
+      {
+        "name": "Fresh context source loading confirmed independently",
+        "pass": true
+      },
+      {
+        "name": "Source cutoff fixed 30 September 2026",
+        "pass": true
+      },
+      {
+        "name": "Source bytes unchanged after audit",
+        "pass": true
+      },
+      {
+        "name": "No hidden project rows",
+        "pass": true
+      },
+      {
+        "name": "No TODAY formulas in project sheet",
+        "pass": true
+      },
+      {
+        "name": "Independent attachment approved missing remains unavailable",
+        "pass": true
+      },
+      {
+        "name": "Independent attachment revised missing remains unavailable",
+        "pass": true
+      },
+      {
+        "name": "Independent attachment committed missing remains unavailable",
+        "pass": true
+      },
+      {
+        "name": "Independent attachment nonCommitted missing remains unavailable",
+        "pass": true
+      },
+      {
+        "name": "Independent attachment workDone missing remains unavailable",
+        "pass": true
+      },
+      {
+        "name": "Independent attachment spent missing remains unavailable",
+        "pass": true
+      },
+      {
+        "name": "Independent status source cells",
+        "pass": true
+      },
+      {
+        "name": "Fixture all portfolio records use parent entity mapping",
+        "pass": true
+      },
+      {
+        "name": "Fixture approved finance amount recorded",
+        "pass": true
+      },
+      {
+        "name": "Fixture year totals reconcile 81 plus 3",
+        "pass": true
+      },
+      {
+        "name": "Fixture priority intersections reconcile",
+        "pass": true
+      },
+      {
+        "name": "Status complete ratio differs from mean recorded progress",
+        "pass": true
+      },
+      {
+        "name": "Manager weighted ranking formula 4b10d057",
+        "pass": true
+      },
+      {
+        "name": "Manager ranking score descending 4b10d057",
+        "pass": true
+      },
+      {
+        "name": "Follow-up disjoint eligible source statuses 4b10d057",
+        "pass": true
+      },
+      {
+        "name": "Controlled numeric zero counted while missing excluded",
+        "pass": true
+      },
+      {
+        "name": "Controlled progress mean excludes missing, retains zero",
+        "pass": true
+      },
+      {
+        "name": "Controlled spending ratio uses matched positive budget cohort",
+        "pass": true
+      },
+      {
+        "name": "Controlled valid decimal money text accepted",
+        "pass": true
+      },
+      {
+        "name": "Consistent numeric parsing across monthly and portfolio for invalid text",
+        "pass": false
+      },
+      {
+        "name": "Controlled unknown and missing status retained in total",
+        "pass": true
+      },
+      {
+        "name": "Controlled unknown status never becomes active",
+        "pass": true
+      },
+      {
+        "name": "Controlled unknown status blocks weighted manager rank",
+        "pass": true
+      },
+      {
+        "name": "Controlled schedule unknown caveat exists",
+        "pass": true
+      },
+      {
+        "name": "Controlled status distribution fully represents every source status",
+        "pass": false
+      },
+      {
+        "name": "Controlled missing entire status field not zero",
+        "pass": true
+      },
+      {
+        "name": "Controlled undated retained separately",
+        "pass": true
+      },
+      {
+        "name": "Controlled future year not moved into current quarters",
+        "pass": true
+      },
+      {
+        "name": "Controlled overdue based on month end and open state",
+        "pass": true
+      },
+      {
+        "name": "Controlled negative money not silently clamped",
+        "pass": true
+      },
+      {
+        "name": "Controlled invalid paired denominator excludes negative budget",
+        "pass": true
+      },
+      {
+        "name": "Controlled incomplete financial coverage suppresses weighted rank",
+        "pass": true
+      },
+      {
+        "name": "Controlled untitled row excluded from named project count",
+        "pass": true
+      },
+      {
+        "name": "Controlled differing monthly all-row money scope retained",
+        "pass": true
+      },
+      {
+        "name": "Controlled missing manager retained separately",
+        "pass": true
+      },
+      {
+        "name": "Controlled unknown organizational rows preserved",
+        "pass": true
+      },
+      {
+        "name": "Controlled parent entity mapping remains explicit",
+        "pass": true
+      },
+      {
+        "name": "Browser no uncaught errors or external runtime requests",
+        "pass": true
+      }
+    ],
+    "findings": [
+      {
+        "id": "S1",
+        "severity": "source completeness limitation",
+        "observed": "Available attachment has84 project rows with retained status/type/priority/date/progress fields, but zero project titles, managers or financial values. Fresh browser context correctly renders zero named projects and warns84untitledrows. The previous mixed-upload browser audit waited only for an existing state.data and accidentally retained the fixture; those attachment-derived assertions were discarded.",
+        "recommendation": "Label all populated proposals as illustrative. Reconcile current operational totals against a complete named-project source; do not claim generated fixture amounts came from the available attachment."
+      },
+      {
+        "id": "D1",
+        "severity": "conditional numeric inconsistency",
+        "observed": "On the anonymized fixture all 84 project figures reconcile; the current attachment has no named project rows or financial values. In a controlled text-money case, monthly and legacy report parsing accepts 0x10 as 16, while the active portfolio parser rejects it. Portfolio approved amount 1,200.50 versus monthly 1,216.50.",
+        "recommendation": "Reuse the strict decimal financial reader and the same eligibility-aware totals/drillsets. Preserve valid decimal text as recorded values, flag text types through existing data checks, and never silently interpret non-decimal text as money.",
+        "scope": "Controlled case; not present in available source."
+      },
+      {
+        "id": "D2",
+        "severity": "conditional chart completeness / wording inconsistency",
+        "observed": "A controlled month containing one completed and two unknown/missing-status projects shows total 3, one completed segment of width 1/3, and no segment/count for the remaining two. A footnote explicitly retains unclassified records, but another sentence says every bar distributes statuses to 100%. Overall status footnote retains the unknown count; source records and totals are not lost.",
+        "recommendation": "Represent neutral Other consistently in status and time distributions and provide its count, or make the partial-coverage explanation precise. Do not reclassify unknown records as active.",
+        "scope": "Controlled case; actual source has no unknown project statuses."
+      },
+      {
+        "id": "D3",
+        "severity": "scope caveat, not a numerical defect",
+        "observed": "Portfolio financial totals include named projects. Monthly source formulas aggregate all project-sheet financial rows, including untitled rows. Controlled named100+untitled900 produces portfolio100/monthly1000 with excluded-row diagnostics. The current attachment has84untitledrowswithfinancialsblank; the illustrativefixturehaszero untitledrows.",
+        "recommendation": "Keep each approved population explicit and retain diagnostics. Changing either denominator would require a deliberate definition decision; do not silently force equality."
+      },
+      {
+        "id": "D4",
+        "severity": "presentation consistency",
+        "observed": "Frozen is shown as مجمّد in portfolioDelivery and معلق in generic status/drill/monthly treatment; same source group. Count and record membership agree.",
+        "recommendation": "Choose the shared approved display label and palette across summary, legend and tables while preserving source Frozen and existing filters."
+      }
+    ],
+    "limitations": [
+      "Available attachment has fixed 30 September 2026 cutoff; it is not established as the latest operational workbook.",
+      "No previous/current snapshot audit requested; current missing history correctly shows no fabricated portfolio comparison.",
+      "Data audit did not export PDF. Independent UI/PDF audit is separate.",
+      "All illustrated project titles, manager labels and amounts come from the generated fixture. No actual-source financial reconciliation is claimed. Attachment source field completeness independently verified with XLSX XML/openpyxl plus fresh browser context."
+    ],
+    "sourceUnchanged": true,
+    "verdict": "Audit completed: illustrative fixture reconciles; actual attachment is incomplete (84 unnamed project rows, no financial values); two controlled consistency failures remain for proposed correction."
+  },
+  "illustrationChecks": {
+    "stage": "Independent review of design illustrations only; no application implementation certification",
+    "sourceQualification": "All illustrated counts, money, manager labels and project names use the anonymized example workbook only. The available uploaded workbook has blank budget project titles/managers/financial fields and does not establish these operational totals.",
+    "fixtureSHA256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "cutoff": "2026-09-30",
+    "verdict": "PASS for illustrated composition and fixture reconciliation",
+    "checks": [
+      {
+        "name": "scoped_total",
+        "expected": 84,
+        "observed": 84,
+        "passed": true
+      },
+      {
+        "name": "status_partition",
+        "expected": {
+          "completed": 10,
+          "active": 61,
+          "notStarted": 7,
+          "suspended": 3,
+          "cancelled": 1,
+          "transferred": 2,
+          "unknown": 0
+        },
+        "observed": {
+          "completed": 10,
+          "active": 61,
+          "notStarted": 7,
+          "suspended": 3,
+          "cancelled": 1,
+          "transferred": 2,
+          "unknown": 0
+        },
+        "passed": true
+      },
+      {
+        "name": "status_sum",
+        "expected": 84,
+        "observed": 84,
+        "passed": true
+      },
+      {
+        "name": "year_partition",
+        "expected": [
+          [
+            2026,
+            81
+          ],
+          [
+            2027,
+            3
+          ]
+        ],
+        "observed": [
+          [
+            2026,
+            81
+          ],
+          [
+            2027,
+            3
+          ]
+        ],
+        "passed": true
+      },
+      {
+        "name": "quarter_partition_2026",
+        "expected": [
+          0,
+          1,
+          0,
+          80
+        ],
+        "observed": [
+          0,
+          1,
+          0,
+          80
+        ],
+        "passed": true
+      },
+      {
+        "name": "month_partition",
+        "expected": [
+          [
+            "2026-06",
+            1
+          ],
+          [
+            "2026-10",
+            1
+          ],
+          [
+            "2026-12",
+            79
+          ],
+          [
+            "2027-02",
+            3
+          ]
+        ],
+        "observed": [
+          [
+            "2026-06",
+            1
+          ],
+          [
+            "2026-10",
+            1
+          ],
+          [
+            "2026-12",
+            79
+          ],
+          [
+            "2027-02",
+            3
+          ]
+        ],
+        "passed": true
+      },
+      {
+        "name": "six_followups",
+        "expected": 6,
+        "observed": 6,
+        "passed": true
+      },
+      {
+        "name": "all_followup_progress_zero",
+        "expected": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "observed": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "passed": true
+      },
+      {
+        "name": "completed_ratio_1dp",
+        "expected": 11.9,
+        "observed": 11.9,
+        "passed": true
+      },
+      {
+        "name": "mean_recorded_progress_1dp",
+        "expected": 38.9,
+        "observed": 38.9,
+        "passed": true
+      },
+      {
+        "name": "invoice_ratio",
+        "expected": 35,
+        "observed": 35,
+        "passed": true
+      },
+      {
+        "name": "allocation_ratio",
+        "expected": 80,
+        "observed": 80,
+        "passed": true
+      },
+      {
+        "name": "finance_values",
+        "expected": {
+          "approved": 52447500,
+          "revised": 58275000,
+          "committed": 46620000,
+          "nonCommitted": 11655000,
+          "workDone": 23018125,
+          "spent": 20396250
+        },
+        "observed": {
+          "approved": 52447500,
+          "revised": 58275000,
+          "committed": 46620000,
+          "nonCommitted": 11655000,
+          "workDone": 23018125,
+          "spent": 20396250
+        },
+        "passed": true
+      },
+      {
+        "name": "high_medium_priority",
+        "expected": [
+          67,
+          17,
+          0
+        ],
+        "observed": [
+          67,
+          17,
+          0
+        ],
+        "passed": true
+      },
+      {
+        "name": "no_fabricated_history",
+        "expected": false,
+        "observed": false,
+        "passed": true
+      },
+      {
+        "name": "fixture_manager_names",
+        "expected": true,
+        "observed": true,
+        "passed": true
+      },
+      {
+        "name": "fixture_project_names",
+        "expected": true,
+        "observed": true,
+        "passed": true
+      },
+      {
+        "name": "schedule_all_records_reconciled",
+        "expected": 84,
+        "observed": 84,
+        "passed": true
+      },
+      {
+        "name": "viewport_containment_1560",
+        "passed": true
+      },
+      {
+        "name": "approved_fonts_loaded_1560",
+        "passed": true
+      },
+      {
+        "name": "visible_in_bar_labels_fit_at_minimum_16px_1560",
+        "passed": true
+      },
+      {
+        "name": "status_counts_visible_exactly_once_1560",
+        "passed": true,
+        "detail": [
+          [
+            "10"
+          ],
+          [
+            "61"
+          ],
+          [
+            "7"
+          ],
+          [
+            "3"
+          ],
+          [
+            "2"
+          ],
+          [
+            "1"
+          ]
+        ]
+      },
+      {
+        "name": "shared_79_scale_pixel_geometry_1560",
+        "passed": true
+      },
+      {
+        "name": "viewport_containment_390",
+        "passed": true
+      },
+      {
+        "name": "approved_fonts_loaded_390",
+        "passed": true
+      },
+      {
+        "name": "visible_in_bar_labels_fit_at_minimum_16px_390",
+        "passed": true
+      },
+      {
+        "name": "status_counts_visible_exactly_once_390",
+        "passed": true,
+        "detail": [
+          [
+            "10"
+          ],
+          [
+            "61"
+          ],
+          [
+            "7"
+          ],
+          [
+            "3"
+          ],
+          [
+            "2"
+          ],
+          [
+            "1"
+          ]
+        ]
+      },
+      {
+        "name": "shared_79_scale_pixel_geometry_390",
+        "passed": true
+      },
+      {
+        "name": "viewport_containment_320",
+        "passed": true
+      },
+      {
+        "name": "approved_fonts_loaded_320",
+        "passed": true
+      },
+      {
+        "name": "visible_in_bar_labels_fit_at_minimum_16px_320",
+        "passed": true
+      },
+      {
+        "name": "status_counts_visible_exactly_once_320",
+        "passed": true,
+        "detail": [
+          [
+            "10"
+          ],
+          [
+            "61"
+          ],
+          [
+            "7"
+          ],
+          [
+            "3"
+          ],
+          [
+            "2"
+          ],
+          [
+            "1"
+          ]
+        ]
+      },
+      {
+        "name": "shared_79_scale_pixel_geometry_320",
+        "passed": true
+      },
+      {
+        "name": "budget_physically_right",
+        "passed": true
+      },
+      {
+        "name": "main_table_sequence",
+        "passed": true
+      },
+      {
+        "name": "followup_table_sequence",
+        "passed": true
+      },
+      {
+        "name": "all_followup_zero_progress_as_dash",
+        "passed": true
+      },
+      {
+        "name": "five_blank_followup_notes",
+        "passed": true
+      },
+      {
+        "name": "full_main_list_excerpt_label",
+        "passed": true
+      },
+      {
+        "name": "illustrative_notice_explicit",
+        "passed": true
+      },
+      {
+        "name": "scope_date_remains_september_2026",
+        "passed": true
+      },
+      {
+        "name": "no_generated_missing_placeholders",
+        "passed": true
+      },
+      {
+        "name": "no_source_filename_field",
+        "passed": true
+      },
+      {
+        "name": "no_detailed_update_section",
+        "passed": true
+      },
+      {
+        "name": "completed_plain_label_green",
+        "passed": true
+      },
+      {
+        "name": "all_prototype_anchors_exist",
+        "passed": true
+      },
+      {
+        "name": "headline_exact_measures",
+        "passed": true
+      },
+      {
+        "name": "month_endpoints",
+        "passed": true
+      },
+      {
+        "name": "priority_count_endpoints",
+        "passed": true
+      },
+      {
+        "name": "no_empty_quarter_groups",
+        "passed": true
+      }
+    ],
+    "artifactSHA256": {
+      "portfolio-status-manager-proposal.png": "cb4b67f5f865795fddf033cf5db0ea53f60d01bd3f5f4dc3551b6b9bb6af0e7b",
+      "portfolio-priority-proposal.png": "3191e4688255ddefd89de0eb64706ab255c6f4c974079d41a1a21e02c9451111",
+      "portfolio-followup-table-proposal.png": "02ba6d5e2f488623980b33714f7ca608fd739162f7d3d92eba3c2c8632e7bd18",
+      "portfolio-main-list-proposal.png": "f219a9ca54af64aa99beab5ef23363d2f58c4ee29c4e1b614835d7da1f25ece9",
+      "portfolio-mobile-proposal.png": "c507ae64526fb4e2dc52a66757bcab79f29f434227323084e6e593a77a947cc1",
+      "portfolio-overview-proposal.png": "16cadcc68e26c26ad2910f5a3f6e56c86d9f9821adc9668e41f4378c4a620bf3",
+      "portfolio-full-page-proposal.png": "d394229d4322fa1c07a126f91c30a3214a9021db61042e39571547d85dd0fe3e",
+      "portfolio-charts-proposal.png": "f05ddc4c7b9717509e1cf664c2dffabeaa826e5a6a70fe9070fa9b9ce056b81d",
+      "index.html": "3012243a5c54d3d56d9de302cfa63d03e780bb222666d027c2beb3645f7f63ed"
+    },
+    "notRun": [
+      "Implementation of proposed filters, live report/record navigation and downloads",
+      "Proposed PDF pagination or cross-format output",
+      "Screen-reader and accessibility certification",
+      "Current operational totals from a complete populated source"
+    ]
+  },
+  "rendererChecks": {
+    "stage": "review illustration; production unchanged",
+    "checks": [
+      {
+        "name": "approved fonts loaded",
+        "pass": true
+      },
+      {
+        "name": "no JS errors",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "name": "desktop viewport no overflow",
+        "pass": true
+      },
+      {
+        "name": "budget physically right of schedule",
+        "pass": true
+      },
+      {
+        "name": "all follow-up rows retained",
+        "pass": true
+      },
+      {
+        "name": "six record-table base columns match",
+        "pass": true
+      },
+      {
+        "name": "follow-up append notes after shared columns",
+        "pass": true
+      },
+      {
+        "name": "follow-up zeros all dash",
+        "pass": true
+      },
+      {
+        "name": "true blank notes retained",
+        "pass": true
+      },
+      {
+        "name": "no percent captions under quarter counts",
+        "pass": true
+      },
+      {
+        "name": "all proposed chart widths retain numeric geometry",
+        "pass": true
+      },
+      {
+        "name": "schedule common79 scale",
+        "pass": true
+      },
+      {
+        "name": "schedule totals at bar endpoints",
+        "pass": true
+      },
+      {
+        "name": "priority counts totals at bar endpoints",
+        "pass": true
+      },
+      {
+        "name": "mobile 390 viewport no overflow",
+        "pass": true
+      },
+      {
+        "name": "mobile 390 readable in-bar figures",
+        "pass": true
+      },
+      {
+        "name": "mobile 320 viewport no overflow",
+        "pass": true
+      },
+      {
+        "name": "mobile 320 readable in-bar figures",
+        "pass": true
+      }
+    ],
+    "verdict": "PASS"
+  },
+  "chartSpecification": {
+    "stage": "review illustration only",
+    "dataFile": "../data/illustration-data.json",
+    "statusOrder": [
+      "completed",
+      "active",
+      "notStarted",
+      "suspended",
+      "transferred",
+      "cancelled",
+      "unknown"
+    ],
+    "countMax": 61,
+    "budgetMax": 42400000,
+    "scheduleMax": 79,
+    "scheduleEncoding": "count-scaled month stacks proposed instead of current 100% stacks",
+    "priorityCountMax": 70,
+    "priorityBudgetMax": 50000000,
+    "sourceTotals": {
+      "total": 84,
+      "groupTotal": 84,
+      "uniqueKeys": 84,
+      "passed": true
+    },
+    "recordsPreview": [
+      "مشروع استراتيجي توضيحي 001",
+      "مشروع استراتيجي توضيحي 002",
+      "مشروع استراتيجي توضيحي 003",
+      "مشروع استراتيجي توضيحي 004",
+      "مشروع استراتيجي توضيحي 005",
+      "مشروع استراتيجي توضيحي 006"
+    ]
+  },
+  "existingRuntimeUI": {
+    "input": "Generated anonymized illustrative fixture only",
+    "widths": [
+      1440,
+      390,
+      320
+    ],
+    "pageContainment": true,
+    "nativePDF": {
+      "pages": 6,
+      "sizes": [
+        [
+          595.28,
+          841.89
+        ],
+        [
+          595.28,
+          841.89
+        ],
+        [
+          595.28,
+          841.89
+        ],
+        [
+          595.28,
+          841.89
+        ],
+        [
+          595.28,
+          841.89
+        ],
+        [
+          595.28,
+          841.89
+        ]
+      ],
+      "offPageText": [],
+      "footers": [
+        "6  من1 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+        "6  من2 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+        "6  من3 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+        "6  من4 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+        "6  من5 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+        "6  من6 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n"
+      ]
+    },
+    "limitation": "Existing v166 export only; not a PDF of the proposed new layout. No source operational-total validation."
+  },
+  "unchangedRelease": {
+    "build": 166,
+    "zipSha256": "de52212e47f5848ac405d94f28e77eb190b903dedf51b6452748ceef7848ac74",
+    "checks": [
+      {
+        "path": "README.txt",
+        "pass": true
+      },
+      {
+        "path": "assets/css/app-bundle.css",
+        "pass": true
+      },
+      {
+        "path": "assets/css/print-measure-bundle.css",
+        "pass": true
+      },
+      {
+        "path": "assets/fonts/DIN-Next-Arabic-Regular.otf",
+        "pass": true
+      },
+      {
+        "path": "assets/fonts/DIN-Next-LT-Arabic-Regular.ttf",
+        "pass": true
+      },
+      {
+        "path": "assets/fonts/Dubai-Bold.otf",
+        "pass": true
+      },
+      {
+        "path": "assets/fonts/Dubai-Regular.otf",
+        "pass": true
+      },
+      {
+        "path": "assets/fonts/OFL.txt",
+        "pass": true
+      },
+      {
+        "path": "assets/icons/app-192.png",
+        "pass": true
+      },
+      {
+        "path": "assets/icons/app-512.png",
+        "pass": true
+      },
+      {
+        "path": "assets/icons/apple-touch-icon.png",
+        "pass": true
+      },
+      {
+        "path": "assets/img/agenda-cover.jpg",
+        "pass": true
+      },
+      {
+        "path": "assets/img/agenda-logos.png",
+        "pass": true
+      },
+      {
+        "path": "assets/img/search-background.png",
+        "pass": true
+      },
+      {
+        "path": "assets/img/search-mashrabiya.jpg",
+        "pass": true
+      },
+      {
+        "path": "assets/img/tec-positive.png",
+        "pass": true
+      },
+      {
+        "path": "assets/img/tec-red.png",
+        "pass": true
+      },
+      {
+        "path": "assets/js/app-bundle.js",
+        "pass": true
+      },
+      {
+        "path": "assets/js/lib/offline-pdf-engine.js",
+        "pass": true
+      },
+      {
+        "path": "assets/js/reports/agenda-fonts.js",
+        "pass": true
+      },
+      {
+        "path": "assets/js/reports/agenda-template.js",
+        "pass": true
+      },
+      {
+        "path": "assets/js/reports/hh-template.js",
+        "pass": true
+      },
+      {
+        "path": "assets/vendor/offline-pdf-LICENSES.txt",
+        "pass": true
+      },
+      {
+        "path": "assets/vendor/tec-pdf-symbols-LICENSE.txt",
+        "pass": true
+      },
+      {
+        "path": "index.html",
+        "pass": true
+      },
+      {
+        "path": "manifest.webmanifest",
+        "pass": true
+      }
+    ]
+  },
+  "publishedIllustrationFiles": [
+    {
+      "path": "portfolio-charts-proposal.png",
+      "bytes": 111067,
+      "sha256": "f05ddc4c7b9717509e1cf664c2dffabeaa826e5a6a70fe9070fa9b9ce056b81d"
+    },
+    {
+      "path": "portfolio-followup-table-proposal.png",
+      "bytes": 150351,
+      "sha256": "02ba6d5e2f488623980b33714f7ca608fd739162f7d3d92eba3c2c8632e7bd18"
+    },
+    {
+      "path": "portfolio-full-page-proposal.png",
+      "bytes": 554777,
+      "sha256": "d394229d4322fa1c07a126f91c30a3214a9021db61042e39571547d85dd0fe3e"
+    },
+    {
+      "path": "portfolio-main-list-proposal.png",
+      "bytes": 159514,
+      "sha256": "f219a9ca54af64aa99beab5ef23363d2f58c4ee29c4e1b614835d7da1f25ece9"
+    },
+    {
+      "path": "portfolio-mobile-proposal.png",
+      "bytes": 376401,
+      "sha256": "c507ae64526fb4e2dc52a66757bcab79f29f434227323084e6e593a77a947cc1"
+    },
+    {
+      "path": "portfolio-overview-proposal.png",
+      "bytes": 190978,
+      "sha256": "16cadcc68e26c26ad2910f5a3f6e56c86d9f9821adc9668e41f4378c4a620bf3"
+    },
+    {
+      "path": "portfolio-priority-proposal.png",
+      "bytes": 50359,
+      "sha256": "3191e4688255ddefd89de0eb64706ab255c6f4c974079d41a1a21e02c9451111"
+    },
+    {
+      "path": "portfolio-status-manager-proposal.png",
+      "bytes": 174989,
+      "sha256": "cb4b67f5f865795fddf033cf5db0ea53f60d01bd3f5f4dc3551b6b9bb6af0e7b"
+    },
+    {
+      "path": "review.html",
+      "bytes": 1249141,
+      "sha256": "3012243a5c54d3d56d9de302cfa63d03e780bb222666d027c2beb3645f7f63ed"
+    }
+  ]
+}
