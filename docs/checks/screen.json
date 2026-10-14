@@ -1,1610 +1,182 @@
 {
+  "version": 167,
   "verdict": "PASS",
-  "checks": [
+  "verificationDate": "2026-10-15",
+  "browser": "Chromium 151.0.7922.173 on Debian 13; headless Playwright",
+  "viewports": [
+    1560,
+    768,
+    390,
+    320
+  ],
+  "loadedAssetHashes": {
+    "app-bundle.css": "d45d61a7394312bc26e645ae5cb87aa932236b3c79039fb9343439595d803b41",
+    "app-bundle.js": "de97997f4846608d0486ba99346e995e175e65b3624cae69e156fde76d1dbf58"
+  },
+  "finalRuntimeHashes": {
+    "assets/js/app-bundle.js": "de97997f4846608d0486ba99346e995e175e65b3624cae69e156fde76d1dbf58",
+    "assets/css/app-bundle.css": "d45d61a7394312bc26e645ae5cb87aa932236b3c79039fb9343439595d803b41",
+    "assets/css/print-measure-bundle.css": "584a4e3541fc24637812f8778f205443dc253d3d06cfd2a0c8ff72251018cdce"
+  },
+  "comprehensiveVerification": {
+    "build": "5",
+    "checks": 440,
+    "suites": [
+      {
+        "suite": "Scope and navigation",
+        "checks": 123,
+        "passed": 123,
+        "verdict": "PASS",
+        "loadedAssetHashes": {
+          "app-bundle.css": "c63b86873e88fcf69653a8bc5dcb027003d20590ddc528bcccfa25b8eb952421",
+          "app-bundle.js": "de97997f4846608d0486ba99346e995e175e65b3624cae69e156fde76d1dbf58"
+        }
+      },
+      {
+        "suite": "Chart geometry and status roles",
+        "checks": 62,
+        "passed": 62,
+        "verdict": "PASS",
+        "loadedAssetHashes": {
+          "app-bundle.css": "c63b86873e88fcf69653a8bc5dcb027003d20590ddc528bcccfa25b8eb952421",
+          "app-bundle.js": "de97997f4846608d0486ba99346e995e175e65b3624cae69e156fde76d1dbf58"
+        }
+      },
+      {
+        "suite": "Controlled missing/zero/unknown/long values",
+        "checks": 21,
+        "passed": 21,
+        "verdict": "PASS",
+        "loadedAssetHashes": {
+          "app-bundle.css": "c63b86873e88fcf69653a8bc5dcb027003d20590ddc528bcccfa25b8eb952421",
+          "app-bundle.js": "de97997f4846608d0486ba99346e995e175e65b3624cae69e156fde76d1dbf58"
+        }
+      },
+      {
+        "suite": "Keyboard and filter controls",
+        "checks": 30,
+        "passed": 30,
+        "verdict": "PASS",
+        "loadedAssetHashes": {
+          "app-bundle.css": "c63b86873e88fcf69653a8bc5dcb027003d20590ddc528bcccfa25b8eb952421",
+          "app-bundle.js": "de97997f4846608d0486ba99346e995e175e65b3624cae69e156fde76d1dbf58"
+        }
+      },
+      {
+        "suite": "Editorial contents and metadata",
+        "checks": 9,
+        "passed": 9,
+        "verdict": "PASS",
+        "loadedAssetHashes": {
+          "app-bundle.css": "c63b86873e88fcf69653a8bc5dcb027003d20590ddc528bcccfa25b8eb952421",
+          "app-bundle.js": "de97997f4846608d0486ba99346e995e175e65b3624cae69e156fde76d1dbf58"
+        }
+      },
+      {
+        "suite": "All visible chart/metric drill links",
+        "checks": 185,
+        "passed": 185,
+        "verdict": "PASS",
+        "loadedAssetHashes": {
+          "app-bundle.css": "c63b86873e88fcf69653a8bc5dcb027003d20590ddc528bcccfa25b8eb952421",
+          "app-bundle.js": "de97997f4846608d0486ba99346e995e175e65b3624cae69e156fde76d1dbf58"
+        }
+      },
+      {
+        "suite": "Native mobile table scrolling and empty follow-up",
+        "checks": 10,
+        "passed": 10,
+        "verdict": "PASS",
+        "loadedAssetHashes": {
+          "app-bundle.css": "c63b86873e88fcf69653a8bc5dcb027003d20590ddc528bcccfa25b8eb952421",
+          "app-bundle.js": "de97997f4846608d0486ba99346e995e175e65b3624cae69e156fde76d1dbf58"
+        }
+      }
+    ]
+  },
+  "finalTargetedBinding": {
+    "build": "6",
+    "checks": 8,
+    "verdict": "PASS",
+    "javascriptUnchanged": true,
+    "onlyChange": "Phone-only priority-row padding and no-wrap for Arabic labels. The print-measure build places this addition under @media not all.",
+    "priorityLabels": [
+      {
+        "text": "عالية",
+        "lines": 1,
+        "inside": true,
+        "font": "14px"
+      },
+      {
+        "text": "متوسطة",
+        "lines": 1,
+        "inside": true,
+        "font": "14px"
+      },
+      {
+        "text": "عالية",
+        "lines": 1,
+        "inside": true,
+        "font": "14px"
+      },
+      {
+        "text": "متوسطة",
+        "lines": 1,
+        "inside": true,
+        "font": "14px"
+      }
+    ],
+    "viewportOverflow": false,
+    "smallAxisMidpoint": 1.5
+  },
+  "sources": [
     {
-      "name": "1560 no overflow",
-      "pass": true
+      "role": "Anonymized illustrative fixture",
+      "fileName": "ILLUSTRATIVE-monthly-preview.xlsx",
+      "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+      "rawPortfolioRows": 84,
+      "eligibleNamedProjects": 84,
+      "sourceCutoff": "30 September 2026",
+      "identityCheck": "Fresh browser context; loaded filename and distinguishing named-project content verified; workbook bytes unchanged"
     },
     {
-      "name": "1560 figures aligned",
-      "pass": true
-    },
-    {
-      "name": "1560 count labels fit",
-      "pass": true
-    },
-    {
-      "name": "1560 footer44px",
-      "pass": true
-    },
-    {
-      "name": "1560 missingnotes blank",
-      "pass": true
-    },
-    {
-      "name": "1440 no overflow",
-      "pass": true
-    },
-    {
-      "name": "1440 figures aligned",
-      "pass": true
-    },
-    {
-      "name": "1440 count labels fit",
-      "pass": true
-    },
-    {
-      "name": "1440 footer44px",
-      "pass": true
-    },
-    {
-      "name": "1440 missingnotes blank",
-      "pass": true
-    },
-    {
-      "name": "768 no overflow",
-      "pass": true
-    },
-    {
-      "name": "768 figures aligned",
-      "pass": true
-    },
-    {
-      "name": "768 count labels fit",
-      "pass": true
-    },
-    {
-      "name": "768 footer44px",
-      "pass": true
-    },
-    {
-      "name": "768 missingnotes blank",
-      "pass": true
-    },
-    {
-      "name": "390 no overflow",
-      "pass": true
-    },
-    {
-      "name": "390 figures aligned",
-      "pass": true
-    },
-    {
-      "name": "390 count labels fit",
-      "pass": true
-    },
-    {
-      "name": "390 footer44px",
-      "pass": true
-    },
-    {
-      "name": "390 missingnotes blank",
-      "pass": true
-    },
-    {
-      "name": "320 no overflow",
-      "pass": true
-    },
-    {
-      "name": "320 figures aligned",
-      "pass": true
-    },
-    {
-      "name": "320 count labels fit",
-      "pass": true
-    },
-    {
-      "name": "320 footer44px",
-      "pass": true
-    },
-    {
-      "name": "320 missingnotes blank",
-      "pass": true
-    },
-    {
-      "name": "desktop portfolio positions",
-      "pass": true
-    },
-    {
-      "name": "done labels green",
-      "pass": true
-    },
-    {
-      "name": "ready labels teal",
-      "pass": true
+      "role": "Supplied incomplete attachment",
+      "fileName": "Saytara_2026_Mold_v2.xlsx",
+      "sha256": "1638e2d9e194c21d8d8e258a2bcad7c121cbeb9a4f529f90cea632f212cc66f2",
+      "rawPortfolioRows": 84,
+      "eligibleNamedProjects": 0,
+      "sourceCutoff": "30 September 2026",
+      "identityCheck": "Fresh browser context; loaded filename and distinguishing named-project content verified; workbook bytes unchanged"
     }
   ],
-  "assets": {
-    "app-bundle.css": "14b0cb32e88a853d1c6c52d548a87af5b579584da9b95549faae54552f2ddeb6",
-    "app-bundle.js": "51ab13e0d1908b59bdd4d9e5be738815bd69336bce513468b85fe2a99e543bdd",
-    "print-measure-bundle.css": "6e18d22b7682cd9e4d73f51e67e175aaf250f40dd8235090e49c520a8390644a"
+  "coverage": [
+    "All eight project filters, union within each axis and cross-axis intersection; exact report membership and reset.",
+    "92 actual visible chart/metric drill actions, exact record-key membership, return destination and preserved scope.",
+    "Main list has six shared columns; follow-up has those six plus complete notes; extra project context remains attached to the correct record.",
+    "True numeric zero is a dash; absent financial/progress values are blank; missing classification remains a neutral accounted-for population.",
+    "Shared month count scale79, monthly counts1/1/79/3, true segment proportions, fitting in-bar counts and endpoint totals.",
+    "Completed plain labels are green; status marks share palette; financial, recorded-progress and completed-count measures remain distinct.",
+    "Mobile records use contained labeled horizontal-scroll regions, retain every column including blank notes, and scroll using ArrowLeft.",
+    "Fresh incomplete attachment yields zero named projects and an explicit source-title notice, not illustration data or fabricated charts.",
+    "Populated editorial notes appear at the end and gain a live contents link; clearing notes removes it. Custom report metadata preserves the source calculation cutoff."
+  ],
+  "independentPdfVisualReview": {
+    "status": "PASS",
+    "source": "Actual native exports produced by separate PDF QA harness",
+    "inspected": [
+      "Six-page overview contact sheet",
+      "Overview schedule page2",
+      "Status chart and compact legend page3",
+      "Follow-up continuation page6",
+      "Main-list first page",
+      "Custom-title first page",
+      "Fresh incomplete-attachment single page"
+    ],
+    "observed": "Readable Arabic, native chart text, same counts and source scope, continuation headers, one-line deadline header and footer pagination. Detailed PDF suite and final-build binding are separate evidence."
   },
-  "widths": {
-    "1560": {
-      "overflow": false,
-      "barLabels": [
-        {
-          "count": "43",
-          "fit": "true",
-          "width": 26.01593017578125,
-          "room": 238.234375,
-          "visible": true,
-          "color": "rgb(252, 251, 251)",
-          "rect": {
-            "x": 1350.875,
-            "y": 810.734375,
-            "w": 26.03125,
-            "h": 24
-          },
-          "parent": {
-            "x": 1240.765625,
-            "y": 804.734375,
-            "w": 246.234375,
-            "h": 36
-          }
-        },
-        {
-          "count": "16",
-          "fit": "true",
-          "width": 26.01593017578125,
-          "room": 83.609375,
-          "visible": true,
-          "color": "rgb(252, 251, 251)",
-          "rect": {
-            "x": 1181.953125,
-            "y": 810.734375,
-            "w": 26.03125,
-            "h": 24
-          },
-          "parent": {
-            "x": 1149.15625,
-            "y": 804.734375,
-            "w": 91.609375,
-            "h": 36
-          }
-        },
-        {
-          "count": "58",
-          "fit": "true",
-          "width": 26.01593017578125,
-          "room": 324.125,
-          "visible": true,
-          "color": "rgb(17, 94, 103)",
-          "rect": {
-            "x": 970.078125,
-            "y": 810.734375,
-            "w": 26.03125,
-            "h": 24
-          },
-          "parent": {
-            "x": 817.03125,
-            "y": 804.734375,
-            "w": 332.125,
-            "h": 36
-          }
-        },
-        {
-          "count": "38",
-          "fit": "true",
-          "width": 26.01593017578125,
-          "room": 355.703125,
-          "visible": true,
-          "color": "rgb(252, 251, 251)",
-          "rect": {
-            "x": 1292.140625,
-            "y": 1279.5,
-            "w": 26.03125,
-            "h": 24
-          },
-          "parent": {
-            "x": 1123.296875,
-            "y": 1273.5,
-            "w": 363.703125,
-            "h": 36
-          }
-        },
-        {
-          "count": "31",
-          "fit": "true",
-          "width": 26.01593017578125,
-          "room": 288.703125,
-          "visible": true,
-          "color": "rgb(17, 94, 103)",
-          "rect": {
-            "x": 961.9375,
-            "y": 1279.5,
-            "w": 26.03125,
-            "h": 24
-          },
-          "parent": {
-            "x": 826.59375,
-            "y": 1273.5,
-            "w": 296.703125,
-            "h": 36
-          }
-        },
-        {
-          "count": "1",
-          "fit": "false",
-          "width": 13.007965087890625,
-          "room": 1.5625,
-          "visible": false,
-          "color": "rgb(79, 78, 78)",
-          "rect": {
-            "x": 815.296875,
-            "y": 1279.5,
-            "w": 13.015625,
-            "h": 24
-          },
-          "parent": {
-            "x": 817.03125,
-            "y": 1273.5,
-            "w": 9.5625,
-            "h": 36
-          }
-        }
-      ],
-      "labels": [
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "جاهز للعرض",
-          "color": "rgb(17, 94, 103)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        }
-      ],
-      "rows": [
-        {
-          "ys": [
-            716.546875,
-            716.546875,
-            716.546875
-          ]
-        },
-        {
-          "ys": [
-            1185.3125,
-            1185.3125
-          ]
-        },
-        {
-          "ys": [
-            694.953125,
-            694.953125
-          ]
-        },
-        {
-          "ys": [
-            694.953125,
-            694.953125,
-            694.953125
-          ]
-        },
-        {
-          "ys": [
-            1167.921875,
-            1167.921875,
-            1167.921875
-          ]
-        }
-      ],
-      "footers": [
-        {
-          "text": "تقرير الأجندة السنوية\n←",
-          "target": {
-            "x": 1339.28125,
-            "y": 908.125,
-            "w": 147.71875,
-            "h": 44
-          },
-          "rect": {
-            "x": 817,
-            "y": 895.125,
-            "w": 670,
-            "h": 57
-          }
-        },
-        {
-          "text": "تقرير قرارات المجالس\n←",
-          "target": {
-            "x": 1333.421875,
-            "y": 1412.6875,
-            "w": 153.578125,
-            "h": 44
-          },
-          "rect": {
-            "x": 817,
-            "y": 1399.6875,
-            "w": 670,
-            "h": 57
-          }
-        },
-        {
-          "text": "عرض التشريعات\n←",
-          "target": {
-            "x": 1359.453125,
-            "y": 1913.453125,
-            "w": 127.546875,
-            "h": 44
-          },
-          "rect": {
-            "x": 817,
-            "y": 1900.453125,
-            "w": 670,
-            "h": 57
-          }
-        },
-        {
-          "text": "عرض المؤشرات\n←",
-          "target": {
-            "x": 1364.40625,
-            "y": 2267.828125,
-            "w": 122.59375,
-            "h": 44
-          },
-          "rect": {
-            "x": 817,
-            "y": 2254.828125,
-            "w": 670,
-            "h": 57
-          }
-        },
-        {
-          "text": "تقرير المشاريع الخاصة\n←",
-          "target": {
-            "x": 585.234375,
-            "y": 890.734375,
-            "w": 157.765625,
-            "h": 44
-          },
-          "rect": {
-            "x": 73,
-            "y": 877.734375,
-            "w": 670,
-            "h": 57
-          }
-        },
-        {
-          "text": "محفظة المشاريع\n←",
-          "target": {
-            "x": 616.453125,
-            "y": 1878.875,
-            "w": 126.546875,
-            "h": 44
-          },
-          "rect": {
-            "x": 73,
-            "y": 1865.875,
-            "w": 670,
-            "h": 57
-          }
-        }
-      ],
-      "legend": "دليل الألوان\nمتأخر\nمنجز\nجاهز للعرض\nقيد العمل / قيد المراجعة / قيد التطوير\nحالات أخرى",
-      "missing": "<span data-value-state=\"missing\" title=\"غير متاح\" aria-label=\"غير متاح\"></span>",
-      "zero": "<span data-value-state=\"zero\" title=\"صفر\" aria-label=\"صفر\">-</span>",
-      "followNotes": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "ملاحظة توضيحية: يتطلب البند مراجعة المستجدات وتأكيد الخطوة المقبلة مع الوحدة المعنية.",
-        "",
-        ""
-      ],
-      "projectX": 48,
-      "executiveX": 792
-    },
-    "1440": {
-      "overflow": false,
-      "barLabels": [
-        {
-          "count": "43",
-          "fit": "true",
-          "width": 26.01593017578125,
-          "room": 216.1875,
-          "visible": true,
-          "color": "rgb(252, 251, 251)",
-          "rect": {
-            "x": 1241.890625,
-            "y": -770.265625,
-            "w": 26.03125,
-            "h": 24
-          },
-          "parent": {
-            "x": 1142.8125,
-            "y": -776.265625,
-            "w": 224.1875,
-            "h": 36
-          }
-        },
-        {
-          "count": "16",
-          "fit": "true",
-          "width": 26.01593017578125,
-          "room": 75.40625,
-          "visible": true,
-          "color": "rgb(252, 251, 251)",
-          "rect": {
-            "x": 1088.09375,
-            "y": -770.265625,
-            "w": 26.03125,
-            "h": 24
-          },
-          "parent": {
-            "x": 1059.40625,
-            "y": -776.265625,
-            "w": 83.40625,
-            "h": 36
-          }
-        },
-        {
-          "count": "58",
-          "fit": "true",
-          "width": 26.01593017578125,
-          "room": 294.390625,
-          "visible": true,
-          "color": "rgb(17, 94, 103)",
-          "rect": {
-            "x": 895.203125,
-            "y": -770.265625,
-            "w": 26.03125,
-            "h": 24
-          },
-          "parent": {
-            "x": 757.015625,
-            "y": -776.265625,
-            "w": 302.390625,
-            "h": 36
-          }
-        },
-        {
-          "count": "38",
-          "fit": "true",
-          "width": 26.01593017578125,
-          "room": 323.140625,
-          "visible": true,
-          "color": "rgb(252, 251, 251)",
-          "rect": {
-            "x": 1188.421875,
-            "y": -301.5,
-            "w": 26.03125,
-            "h": 24
-          },
-          "parent": {
-            "x": 1035.859375,
-            "y": -307.5,
-            "w": 331.140625,
-            "h": 36
-          }
-        },
-        {
-          "count": "31",
-          "fit": "true",
-          "width": 26.01593017578125,
-          "room": 262.140625,
-          "visible": true,
-          "color": "rgb(17, 94, 103)",
-          "rect": {
-            "x": 887.78125,
-            "y": -301.5,
-            "w": 26.03125,
-            "h": 24
-          },
-          "parent": {
-            "x": 765.71875,
-            "y": -307.5,
-            "w": 270.140625,
-            "h": 36
-          }
-        },
-        {
-          "count": "1",
-          "fit": "false",
-          "width": 13.007965087890625,
-          "room": 0.703125,
-          "visible": false,
-          "color": "rgb(79, 78, 78)",
-          "rect": {
-            "x": 754.859375,
-            "y": -301.5,
-            "w": 13.015625,
-            "h": 24
-          },
-          "parent": {
-            "x": 757.015625,
-            "y": -307.5,
-            "w": 8.703125,
-            "h": 36
-          }
-        }
-      ],
-      "labels": [
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "جاهز للعرض",
-          "color": "rgb(17, 94, 103)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        }
-      ],
-      "rows": [
-        {
-          "ys": [
-            -864.453125,
-            -864.453125,
-            -864.453125
-          ]
-        },
-        {
-          "ys": [
-            -395.6875,
-            -395.6875
-          ]
-        },
-        {
-          "ys": [
-            -886.046875,
-            -886.046875
-          ]
-        },
-        {
-          "ys": [
-            -886.046875,
-            -886.046875,
-            -886.046875
-          ]
-        },
-        {
-          "ys": [
-            -413.078125,
-            -413.078125,
-            -413.078125
-          ]
-        }
-      ],
-      "footers": [
-        {
-          "text": "تقرير الأجندة السنوية\n←",
-          "target": {
-            "x": 1219.28125,
-            "y": -672.875,
-            "w": 147.71875,
-            "h": 44
-          },
-          "rect": {
-            "x": 757,
-            "y": -685.875,
-            "w": 610,
-            "h": 57
-          }
-        },
-        {
-          "text": "تقرير قرارات المجالس\n←",
-          "target": {
-            "x": 1213.421875,
-            "y": -168.3125,
-            "w": 153.578125,
-            "h": 44
-          },
-          "rect": {
-            "x": 757,
-            "y": -181.3125,
-            "w": 610,
-            "h": 57
-          }
-        },
-        {
-          "text": "عرض التشريعات\n←",
-          "target": {
-            "x": 1239.453125,
-            "y": 332.453125,
-            "w": 127.546875,
-            "h": 44
-          },
-          "rect": {
-            "x": 757,
-            "y": 319.453125,
-            "w": 610,
-            "h": 57
-          }
-        },
-        {
-          "text": "عرض المؤشرات\n←",
-          "target": {
-            "x": 1244.40625,
-            "y": 686.828125,
-            "w": 122.59375,
-            "h": 44
-          },
-          "rect": {
-            "x": 757,
-            "y": 673.828125,
-            "w": 610,
-            "h": 57
-          }
-        },
-        {
-          "text": "تقرير المشاريع الخاصة\n←",
-          "target": {
-            "x": 525.234375,
-            "y": -690.265625,
-            "w": 157.765625,
-            "h": 44
-          },
-          "rect": {
-            "x": 73,
-            "y": -703.265625,
-            "w": 610,
-            "h": 57
-          }
-        },
-        {
-          "text": "محفظة المشاريع\n←",
-          "target": {
-            "x": 556.453125,
-            "y": 297.875,
-            "w": 126.546875,
-            "h": 44
-          },
-          "rect": {
-            "x": 73,
-            "y": 284.875,
-            "w": 610,
-            "h": 57
-          }
-        }
-      ],
-      "legend": "دليل الألوان\nمتأخر\nمنجز\nجاهز للعرض\nقيد العمل / قيد المراجعة / قيد التطوير\nحالات أخرى",
-      "missing": "<span data-value-state=\"missing\" title=\"غير متاح\" aria-label=\"غير متاح\"></span>",
-      "zero": "<span data-value-state=\"zero\" title=\"صفر\" aria-label=\"صفر\">-</span>",
-      "followNotes": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "ملاحظة توضيحية: يتطلب البند مراجعة المستجدات وتأكيد الخطوة المقبلة مع الوحدة المعنية.",
-        "",
-        ""
-      ],
-      "projectX": 48,
-      "executiveX": 732
-    },
-    "768": {
-      "overflow": false,
-      "barLabels": [
-        {
-          "count": "43",
-          "fit": "true",
-          "width": 26.01593017578125,
-          "room": 232.34375,
-          "visible": true,
-          "color": "rgb(252, 251, 251)",
-          "rect": {
-            "x": 577.8125,
-            "y": -776.265625,
-            "w": 26.03125,
-            "h": 24
-          },
-          "parent": {
-            "x": 470.65625,
-            "y": -782.265625,
-            "w": 240.34375,
-            "h": 36
-          }
-        },
-        {
-          "count": "16",
-          "fit": "true",
-          "width": 26.01593017578125,
-          "room": 81.421875,
-          "visible": true,
-          "color": "rgb(252, 251, 251)",
-          "rect": {
-            "x": 412.9375,
-            "y": -776.265625,
-            "w": 26.03125,
-            "h": 24
-          },
-          "parent": {
-            "x": 381.234375,
-            "y": -782.265625,
-            "w": 89.421875,
-            "h": 36
-          }
-        },
-        {
-          "count": "58",
-          "fit": "true",
-          "width": 26.01593017578125,
-          "room": 316.203125,
-          "visible": true,
-          "color": "rgb(17, 94, 103)",
-          "rect": {
-            "x": 206.125,
-            "y": -776.265625,
-            "w": 26.03125,
-            "h": 24
-          },
-          "parent": {
-            "x": 57.03125,
-            "y": -782.265625,
-            "w": 324.203125,
-            "h": 36
-          }
-        },
-        {
-          "count": "38",
-          "fit": "true",
-          "width": 26.01593017578125,
-          "room": 347.015625,
-          "visible": true,
-          "color": "rgb(252, 251, 251)",
-          "rect": {
-            "x": 520.484375,
-            "y": -307.5,
-            "w": 26.03125,
-            "h": 24
-          },
-          "parent": {
-            "x": 355.984375,
-            "y": -313.5,
-            "w": 355.015625,
-            "h": 36
-          }
-        },
-        {
-          "count": "31",
-          "fit": "true",
-          "width": 26.01593017578125,
-          "room": 281.625,
-          "visible": true,
-          "color": "rgb(17, 94, 103)",
-          "rect": {
-            "x": 198.15625,
-            "y": -307.5,
-            "w": 26.03125,
-            "h": 24
-          },
-          "parent": {
-            "x": 66.359375,
-            "y": -313.5,
-            "w": 289.625,
-            "h": 36
-          }
-        },
-        {
-          "count": "1",
-          "fit": "false",
-          "width": 13.007965087890625,
-          "room": 1.328125,
-          "visible": false,
-          "color": "rgb(79, 78, 78)",
-          "rect": {
-            "x": 55.1875,
-            "y": -307.5,
-            "w": 13.015625,
-            "h": 24
-          },
-          "parent": {
-            "x": 57.03125,
-            "y": -313.5,
-            "w": 9.328125,
-            "h": 36
-          }
-        }
-      ],
-      "labels": [
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "جاهز للعرض",
-          "color": "rgb(17, 94, 103)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        }
-      ],
-      "rows": [
-        {
-          "ys": [
-            -870.453125,
-            -870.453125,
-            -870.453125
-          ]
-        },
-        {
-          "ys": [
-            -401.6875,
-            -401.6875
-          ]
-        },
-        {
-          "ys": [
-            1097.8125,
-            1097.8125
-          ]
-        },
-        {
-          "ys": [
-            1097.8125,
-            1097.8125,
-            1097.8125
-          ]
-        },
-        {
-          "ys": [
-            1570.78125,
-            1570.78125,
-            1570.78125
-          ]
-        }
-      ],
-      "footers": [
-        {
-          "text": "تقرير الأجندة السنوية\n←",
-          "target": {
-            "x": 563.28125,
-            "y": -678.875,
-            "w": 147.71875,
-            "h": 44
-          },
-          "rect": {
-            "x": 57,
-            "y": -691.875,
-            "w": 654,
-            "h": 57
-          }
-        },
-        {
-          "text": "تقرير قرارات المجالس\n←",
-          "target": {
-            "x": 557.421875,
-            "y": -174.3125,
-            "w": 153.578125,
-            "h": 44
-          },
-          "rect": {
-            "x": 57,
-            "y": -187.3125,
-            "w": 654,
-            "h": 57
-          }
-        },
-        {
-          "text": "عرض التشريعات\n←",
-          "target": {
-            "x": 583.453125,
-            "y": 326.453125,
-            "w": 127.546875,
-            "h": 44
-          },
-          "rect": {
-            "x": 57,
-            "y": 313.453125,
-            "w": 654,
-            "h": 57
-          }
-        },
-        {
-          "text": "عرض المؤشرات\n←",
-          "target": {
-            "x": 588.40625,
-            "y": 680.828125,
-            "w": 122.59375,
-            "h": 44
-          },
-          "rect": {
-            "x": 57,
-            "y": 667.828125,
-            "w": 654,
-            "h": 57
-          }
-        },
-        {
-          "text": "تقرير المشاريع الخاصة\n←",
-          "target": {
-            "x": 553.234375,
-            "y": 1293.59375,
-            "w": 157.765625,
-            "h": 44
-          },
-          "rect": {
-            "x": 57,
-            "y": 1280.59375,
-            "w": 654,
-            "h": 57
-          }
-        },
-        {
-          "text": "محفظة المشاريع\n←",
-          "target": {
-            "x": 584.453125,
-            "y": 2277.734375,
-            "w": 126.546875,
-            "h": 44
-          },
-          "rect": {
-            "x": 57,
-            "y": 2264.734375,
-            "w": 654,
-            "h": 57
-          }
-        }
-      ],
-      "legend": "دليل الألوان\nمتأخر\nمنجز\nجاهز للعرض\nقيد العمل / قيد المراجعة / قيد التطوير\nحالات أخرى",
-      "missing": "<span data-value-state=\"missing\" title=\"غير متاح\" aria-label=\"غير متاح\"></span>",
-      "zero": "<span data-value-state=\"zero\" title=\"صفر\" aria-label=\"صفر\">-</span>",
-      "followNotes": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "ملاحظة توضيحية: يتطلب البند مراجعة المستجدات وتأكيد الخطوة المقبلة مع الوحدة المعنية.",
-        "",
-        ""
-      ],
-      "projectX": 32,
-      "executiveX": 32
-    },
-    "390": {
-      "overflow": false,
-      "barLabels": [
-        {
-          "count": "43",
-          "fit": "true",
-          "width": 21.67999267578125,
-          "room": 111.0625,
-          "visible": true,
-          "color": "rgb(252, 251, 251)",
-          "rect": {
-            "x": 286.625,
-            "y": -384.296875,
-            "w": 21.6875,
-            "h": 20
-          },
-          "parent": {
-            "x": 237.9375,
-            "y": -390.296875,
-            "w": 119.0625,
-            "h": 32
-          }
-        },
-        {
-          "count": "16",
-          "fit": "true",
-          "width": 21.67999267578125,
-          "room": 36.296875,
-          "visible": true,
-          "color": "rgb(252, 251, 251)",
-          "rect": {
-            "x": 204.953125,
-            "y": -384.296875,
-            "w": 21.6875,
-            "h": 20
-          },
-          "parent": {
-            "x": 193.640625,
-            "y": -390.296875,
-            "w": 44.296875,
-            "h": 32
-          }
-        },
-        {
-          "count": "58",
-          "fit": "true",
-          "width": 21.67999267578125,
-          "room": 152.609375,
-          "visible": true,
-          "color": "rgb(17, 94, 103)",
-          "rect": {
-            "x": 102.5,
-            "y": -384.296875,
-            "w": 21.6875,
-            "h": 20
-          },
-          "parent": {
-            "x": 33.03125,
-            "y": -390.296875,
-            "w": 160.609375,
-            "h": 32
-          }
-        },
-        {
-          "count": "38",
-          "fit": "true",
-          "width": 21.67999267578125,
-          "room": 167.875,
-          "visible": true,
-          "color": "rgb(252, 251, 251)",
-          "rect": {
-            "x": 258.21875,
-            "y": 55.46875,
-            "w": 21.6875,
-            "h": 20
-          },
-          "parent": {
-            "x": 181.125,
-            "y": 49.46875,
-            "w": 175.875,
-            "h": 32
-          }
-        },
-        {
-          "count": "31",
-          "fit": "true",
-          "width": 21.67999267578125,
-          "room": 135.484375,
-          "visible": true,
-          "color": "rgb(17, 94, 103)",
-          "rect": {
-            "x": 98.546875,
-            "y": 55.46875,
-            "w": 21.6875,
-            "h": 20
-          },
-          "parent": {
-            "x": 37.640625,
-            "y": 49.46875,
-            "w": 143.484375,
-            "h": 32
-          }
-        },
-        {
-          "count": "1",
-          "fit": "false",
-          "width": 10.839996337890625,
-          "room": -3.375,
-          "visible": false,
-          "color": "rgb(79, 78, 78)",
-          "rect": {
-            "x": 29.90625,
-            "y": 55.46875,
-            "w": 10.84375,
-            "h": 20
-          },
-          "parent": {
-            "x": 33.015625,
-            "y": 49.46875,
-            "w": 4.625,
-            "h": 32
-          }
-        }
-      ],
-      "labels": [
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "جاهز للعرض",
-          "color": "rgb(17, 94, 103)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        }
-      ],
-      "rows": [
-        {
-          "ys": [
-            -478.484375,
-            -478.484375,
-            -478.484375
-          ]
-        },
-        {
-          "ys": [
-            -38.71875,
-            -38.71875
-          ]
-        },
-        {
-          "ys": [
-            1569.9375,
-            1569.9375
-          ]
-        },
-        {
-          "ys": [
-            1792.703125,
-            1792.703125,
-            1792.703125
-          ]
-        },
-        {
-          "ys": [
-            2242.671875,
-            2242.671875,
-            2242.671875
-          ]
-        }
-      ],
-      "footers": [
-        {
-          "text": "تقرير الأجندة السنوية\n←",
-          "target": {
-            "x": 209.28125,
-            "y": -290.90625,
-            "w": 147.71875,
-            "h": 44
-          },
-          "rect": {
-            "x": 33,
-            "y": -303.90625,
-            "w": 324,
-            "h": 57
-          }
-        },
-        {
-          "text": "تقرير قرارات المجالس\n←",
-          "target": {
-            "x": 203.421875,
-            "y": 184.65625,
-            "w": 153.578125,
-            "h": 44
-          },
-          "rect": {
-            "x": 33,
-            "y": 171.65625,
-            "w": 324,
-            "h": 57
-          }
-        },
-        {
-          "text": "عرض التشريعات\n←",
-          "target": {
-            "x": 229.453125,
-            "y": 661.421875,
-            "w": 127.546875,
-            "h": 44
-          },
-          "rect": {
-            "x": 33,
-            "y": 648.421875,
-            "w": 324,
-            "h": 57
-          }
-        },
-        {
-          "text": "عرض المؤشرات\n←",
-          "target": {
-            "x": 234.40625,
-            "y": 1198.359375,
-            "w": 122.59375,
-            "h": 44
-          },
-          "rect": {
-            "x": 33,
-            "y": 1185.359375,
-            "w": 324,
-            "h": 57
-          }
-        },
-        {
-          "text": "تقرير المشاريع الخاصة\n←",
-          "target": {
-            "x": 199.234375,
-            "y": 1988.484375,
-            "w": 157.765625,
-            "h": 44
-          },
-          "rect": {
-            "x": 33,
-            "y": 1975.484375,
-            "w": 324,
-            "h": 57
-          }
-        },
-        {
-          "text": "محفظة المشاريع\n←",
-          "target": {
-            "x": 230.453125,
-            "y": 2939.015625,
-            "w": 126.546875,
-            "h": 44
-          },
-          "rect": {
-            "x": 33,
-            "y": 2926.015625,
-            "w": 324,
-            "h": 57
-          }
-        }
-      ],
-      "legend": "دليل الألوان\nمتأخر\nمنجز\nجاهز للعرض\nقيد العمل / قيد المراجعة / قيد التطوير\nحالات أخرى",
-      "missing": "<span data-value-state=\"missing\" title=\"غير متاح\" aria-label=\"غير متاح\"></span>",
-      "zero": "<span data-value-state=\"zero\" title=\"صفر\" aria-label=\"صفر\">-</span>",
-      "followNotes": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "ملاحظة توضيحية: يتطلب البند مراجعة المستجدات وتأكيد الخطوة المقبلة مع الوحدة المعنية.",
-        "",
-        ""
-      ],
-      "projectX": 16,
-      "executiveX": 16
-    },
-    "320": {
-      "overflow": false,
-      "barLabels": [
-        {
-          "count": "43",
-          "fit": "true",
-          "width": 21.67999267578125,
-          "room": 85.34375,
-          "visible": true,
-          "color": "rgb(252, 251, 251)",
-          "rect": {
-            "x": 229.484375,
-            "y": 1264.296875,
-            "w": 21.6875,
-            "h": 20
-          },
-          "parent": {
-            "x": 193.65625,
-            "y": 1258.296875,
-            "w": 93.34375,
-            "h": 32
-          }
-        },
-        {
-          "count": "16",
-          "fit": "true",
-          "width": 21.67999267578125,
-          "room": 26.734375,
-          "visible": true,
-          "color": "rgb(252, 251, 251)",
-          "rect": {
-            "x": 165.453125,
-            "y": 1264.296875,
-            "w": 21.6875,
-            "h": 20
-          },
-          "parent": {
-            "x": 158.921875,
-            "y": 1258.296875,
-            "w": 34.734375,
-            "h": 32
-          }
-        },
-        {
-          "count": "58",
-          "fit": "true",
-          "width": 21.67999267578125,
-          "room": 117.90625,
-          "visible": true,
-          "color": "rgb(17, 94, 103)",
-          "rect": {
-            "x": 85.125,
-            "y": 1264.296875,
-            "w": 21.6875,
-            "h": 20
-          },
-          "parent": {
-            "x": 33.015625,
-            "y": 1258.296875,
-            "w": 125.90625,
-            "h": 32
-          }
-        },
-        {
-          "count": "38",
-          "fit": "true",
-          "width": 21.67999267578125,
-          "room": 129.875,
-          "visible": true,
-          "color": "rgb(252, 251, 251)",
-          "rect": {
-            "x": 207.21875,
-            "y": 1704.0625,
-            "w": 21.6875,
-            "h": 20
-          },
-          "parent": {
-            "x": 149.125,
-            "y": 1698.0625,
-            "w": 137.875,
-            "h": 32
-          }
-        },
-        {
-          "count": "31",
-          "fit": "true",
-          "width": 21.67999267578125,
-          "room": 104.484375,
-          "visible": true,
-          "color": "rgb(17, 94, 103)",
-          "rect": {
-            "x": 82.046875,
-            "y": 1704.0625,
-            "w": 21.6875,
-            "h": 20
-          },
-          "parent": {
-            "x": 36.640625,
-            "y": 1698.0625,
-            "w": 112.484375,
-            "h": 32
-          }
-        },
-        {
-          "count": "1",
-          "fit": "false",
-          "width": 10.839996337890625,
-          "room": -4.375,
-          "visible": false,
-          "color": "rgb(79, 78, 78)",
-          "rect": {
-            "x": 29.40625,
-            "y": 1704.0625,
-            "w": 10.84375,
-            "h": 20
-          },
-          "parent": {
-            "x": 33.015625,
-            "y": 1698.0625,
-            "w": 3.625,
-            "h": 32
-          }
-        }
-      ],
-      "labels": [
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "جاهز للعرض",
-          "color": "rgb(17, 94, 103)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        },
-        {
-          "text": "منجز",
-          "color": "rgb(1, 131, 30)"
-        }
-      ],
-      "rows": [
-        {
-          "ys": [
-            1170.109375,
-            1170.109375,
-            1170.109375
-          ]
-        },
-        {
-          "ys": [
-            1609.875,
-            1609.875
-          ]
-        },
-        {
-          "ys": [
-            3285.71875,
-            3285.71875
-          ]
-        },
-        {
-          "ys": [
-            3508.484375,
-            3508.484375,
-            3508.484375
-          ]
-        },
-        {
-          "ys": [
-            4000.828125,
-            4000.828125,
-            4000.828125
-          ]
-        }
-      ],
-      "footers": [
-        {
-          "text": "تقرير الأجندة السنوية\n←",
-          "target": {
-            "x": 139.28125,
-            "y": 1357.6875,
-            "w": 147.71875,
-            "h": 44
-          },
-          "rect": {
-            "x": 33,
-            "y": 1344.6875,
-            "w": 254,
-            "h": 57
-          }
-        },
-        {
-          "text": "تقرير قرارات المجالس\n←",
-          "target": {
-            "x": 133.421875,
-            "y": 1833.25,
-            "w": 153.578125,
-            "h": 44
-          },
-          "rect": {
-            "x": 33,
-            "y": 1820.25,
-            "w": 254,
-            "h": 57
-          }
-        },
-        {
-          "text": "عرض التشريعات\n←",
-          "target": {
-            "x": 159.453125,
-            "y": 2338.015625,
-            "w": 127.546875,
-            "h": 44
-          },
-          "rect": {
-            "x": 33,
-            "y": 2325.015625,
-            "w": 254,
-            "h": 57
-          }
-        },
-        {
-          "text": "عرض المؤشرات\n←",
-          "target": {
-            "x": 164.40625,
-            "y": 2914.140625,
-            "w": 122.59375,
-            "h": 44
-          },
-          "rect": {
-            "x": 33,
-            "y": 2901.140625,
-            "w": 254,
-            "h": 57
-          }
-        },
-        {
-          "text": "تقرير المشاريع الخاصة\n←",
-          "target": {
-            "x": 129.234375,
-            "y": 3721.046875,
-            "w": 157.765625,
-            "h": 44
-          },
-          "rect": {
-            "x": 33,
-            "y": 3708.046875,
-            "w": 254,
-            "h": 57
-          }
-        },
-        {
-          "text": "محفظة المشاريع\n←",
-          "target": {
-            "x": 160.453125,
-            "y": 4783.15625,
-            "w": 126.546875,
-            "h": 44
-          },
-          "rect": {
-            "x": 33,
-            "y": 4770.15625,
-            "w": 254,
-            "h": 57
-          }
-        }
-      ],
-      "legend": "دليل الألوان\nمتأخر\nمنجز\nجاهز للعرض\nقيد العمل / قيد المراجعة / قيد التطوير\nحالات أخرى",
-      "missing": "<span data-value-state=\"missing\" title=\"غير متاح\" aria-label=\"غير متاح\"></span>",
-      "zero": "<span data-value-state=\"zero\" title=\"صفر\" aria-label=\"صفر\">-</span>",
-      "followNotes": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "ملاحظة توضيحية: يتطلب البند مراجعة المستجدات وتأكيد الخطوة المقبلة مع الوحدة المعنية.",
-        "",
-        ""
-      ],
-      "projectX": 16,
-      "executiveX": 16
-    }
-  },
-  "browserErrors": []
+  "limits": [
+    "The supplied attachment has84 untitled budget-project rows and zero eligible named projects. Populated-chart verification uses an explicitly illustrative fixture, not operational claims.",
+    "Keyboard, DOM and visual checks do not certify screen-reader support or WCAG conformance.",
+    "No PowerPoint/workbook editing or refresh was part of this change."
+  ]
 }

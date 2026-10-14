@@ -1,1012 +1,261 @@
 {
-  "version": 166,
-  "scope": "Actual native monthly screen/PDF checks on approved monthly runtime; source totals are dated 2026-09-30, not asserted current operational data.",
   "verdict": "PASS",
-  "sources": [
+  "source": {
+    "fixture": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+  },
+  "attachment": {
+    "sha256": "1638e2d9e194c21d8d8e258a2bcad7c121cbeb9a4f529f90cea632f212cc66f2",
+    "eligible": 0,
+    "raw": 84
+  },
+  "assets": {
+    "app-bundle.css": "d45d61a7394312bc26e645ae5cb87aa932236b3c79039fb9343439595d803b41",
+    "app-bundle.js": "de97997f4846608d0486ba99346e995e175e65b3624cae69e156fde76d1dbf58",
+    "print-measure-bundle.css": "584a4e3541fc24637812f8778f205443dc253d3d06cfd2a0c8ff72251018cdce"
+  },
+  "checks": {
+    "total": 185,
+    "passed": 185,
+    "failed": []
+  },
+  "scope": "Native PDF verification on exact clean v167 build. Populated-layout figures are anonymized illustrative data; actual supplied attachment has zero eligible named projects.",
+  "cases": [
     {
-      "name": "ILLUSTRATIVE-monthly-preview.xlsx",
-      "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+      "name": "portfolio-all",
+      "pages": 6,
+      "sha256": "326b3e79a59fe954dc9f6c2753a94d47e2a5c6903023fb37d4bd52d412669c52",
+      "bytes": 242082,
+      "sourceRows": 6,
+      "nativeTextLines": 413
     },
     {
-      "name": "Saytara_2026_Mold_v2.xlsx",
-      "sha256": "1638e2d9e194c21d8d8e258a2bcad7c121cbeb9a4f529f90cea632f212cc66f2"
+      "name": "portfolio-report",
+      "pages": 6,
+      "sha256": "d010909f473ae9f820f49b4170c15fc2a3a03691d6272b4aa173d13d15880257",
+      "bytes": 242222,
+      "sourceRows": 6,
+      "nativeTextLines": 414
+    },
+    {
+      "name": "portfolio-compact",
+      "pages": 6,
+      "sha256": "1983afde1fda5bebf3a422c5816ac2b0c13921bb1bc08e0c8c23f0ae842012d0",
+      "bytes": 241939,
+      "sourceRows": 6,
+      "nativeTextLines": 413
+    },
+    {
+      "name": "portfolio-completed",
+      "pages": 5,
+      "sha256": "eacd2a7a6376cd4894cceb594a7bc3fec4d74934ba94f1ade9a7c5bb0a82fba5",
+      "bytes": 221804,
+      "sourceRows": 0,
+      "nativeTextLines": 210
+    },
+    {
+      "name": "portfolio-empty",
+      "pages": 1,
+      "sha256": "654695b3063d6b97a3b6029e9a7950f5403d59ef7886f7e127f96fa04739ab4d",
+      "bytes": 181154,
+      "sourceRows": 0,
+      "nativeTextLines": 11
+    },
+    {
+      "name": "portfolio-mainlist",
+      "pages": 14,
+      "sha256": "493eabacc585d4092fcbaf8e88aad68744fa6bcb8d4534b61400e9b24e090bfb",
+      "bytes": 268498,
+      "sourceRows": 84,
+      "nativeTextLines": 1554
+    },
+    {
+      "name": "portfolio-custom",
+      "pages": 6,
+      "sha256": "2290183a79855c058ba8244bef605b19ae46fae0ede4a1d2cac826b8cf15a66c",
+      "bytes": 242174,
+      "sourceRows": 6,
+      "nativeTextLines": 415
+    },
+    {
+      "name": "portfolio-long-notes",
+      "pages": 20,
+      "sha256": "543e9b36184e2d9a804aa798b07016d058358466cb139027778522489c851c88",
+      "bytes": 322741,
+      "sourceRows": 6,
+      "nativeTextLines": 923
+    },
+    {
+      "name": "portfolio-actual-attachment",
+      "pages": 1,
+      "sha256": "eaad4d7126b95b4a35757d387fa6f5c41a446c3d651d209d97e00e6e61e2818e",
+      "bytes": 181725,
+      "sourceRows": 0,
+      "nativeTextLines": 12
+    },
+    {
+      "name": "portfolio-final-build",
+      "pages": 6,
+      "sha256": "a9603058a157cf86c8b69eea235f1c77b7b8121d8b2398d57462c277352b7c6a",
+      "bytes": 242082,
+      "sourceRows": 6,
+      "nativeTextLines": 413
+    },
+    {
+      "name": "ILLUSTRATIVE-portfolio-v167",
+      "pages": 6,
+      "sha256": "9d01edb96d07128b9a5694e3f2ebac4cb290d7e2a03775ea0d82c485049840fc",
+      "bytes": 242374,
+      "sourceRows": 6,
+      "nativeTextLines": 414
     }
   ],
-  "runtimeHashes": {
-    "assets/js/app-bundle.js": "51ab13e0d1908b59bdd4d9e5be738815bd69336bce513468b85fe2a99e543bdd",
-    "assets/css/app-bundle.css": "14b0cb32e88a853d1c6c52d548a87af5b579584da9b95549faae54552f2ddeb6",
-    "assets/css/print-measure-bundle.css": "6e18d22b7682cd9e4d73f51e67e175aaf250f40dd8235090e49c520a8390644a",
-    "assets/js/lib/offline-pdf-engine.js": "647b32e4d4481fbc4df6edfa77ac71853131448ea4602d6b054f713ef6ee7069"
-  },
-  "loadedAssetHashes": {
-    "app-bundle.css": "14b0cb32e88a853d1c6c52d548a87af5b579584da9b95549faae54552f2ddeb6",
-    "app-bundle.js": "51ab13e0d1908b59bdd4d9e5be738815bd69336bce513468b85fe2a99e543bdd",
-    "print-measure-bundle.css": "6e18d22b7682cd9e4d73f51e67e175aaf250f40dd8235090e49c520a8390644a"
-  },
-  "checks": [
+  "artifacts": [
     {
-      "name": "fixture-full-screen no desktop overflow",
-      "pass": true
+      "name": "ILLUSTRATIVE-portfolio-v167.pdf",
+      "sha256": "9d01edb96d07128b9a5694e3f2ebac4cb290d7e2a03775ea0d82c485049840fc",
+      "bytes": 242374
     },
     {
-      "name": "fixture-full-screen status labels and values share approved colors",
-      "pass": true
+      "name": "ILLUSTRATIVE-portfolio-v167-page-1.png",
+      "sha256": "40706225cbe287c3d221c49616a1c8df1f3452e0573f88c901fe86acb35e7fd8",
+      "bytes": 85921
     },
     {
-      "name": "fixture-full-screen total caption beneath number",
-      "pass": true
+      "name": "ILLUSTRATIVE-portfolio-v167-page-3.png",
+      "sha256": "bf21ff23800b9fc14529dbfd52d8c0546539c98750d4105ea5d51100e114d9ea",
+      "bytes": 77085
     },
     {
-      "name": "fixture-full-screen absent notes blank",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous actual page count equals native plan",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous approved page width",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous approved page height/profile",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous export leaves source records unchanged",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous every expected metric retained in actual native PDF",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous screen/PDF metric text parity",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous status labels and values share approved colors",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous total caption beneath number",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous each fitting summary card whole",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous projects left / executive right",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous approved PDF requester-note omission",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous missing follow-up notes blank",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous page 1 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous page 1 copyright",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous native text inside physical pages",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous visible in-bar counts fit their segments",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous normal-width status bars contain counts",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous compact legend retained once in actual plan",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous compact legend retained once in actual PDF text",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous illustrative follow-up identifiers occur exactly once",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 actual page count equals native plan",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 approved page width",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 approved page height/profile",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 export leaves source records unchanged",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 every expected metric retained in actual native PDF",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 screen/PDF metric text parity",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 status labels and values share approved colors",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 total caption beneath number",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 each fitting summary card whole",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 projects left / executive right",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 approved PDF requester-note omission",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 missing follow-up notes blank",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 page 1 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 page 1 copyright",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 page 2 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 page 2 copyright",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 page 3 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 page 3 copyright",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 page 4 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 page 4 copyright",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 native text inside physical pages",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 visible in-bar counts fit their segments",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 normal-width status bars contain counts",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 compact legend retained once in actual plan",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 compact legend retained once in actual PDF text",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 illustrative follow-up identifiers occur exactly once",
-      "pass": true
-    },
-    {
-      "name": "fixture monthly 768 no viewport overflow",
-      "pass": true
-    },
-    {
-      "name": "fixture monthly 390 no viewport overflow",
-      "pass": true
-    },
-    {
-      "name": "fixture monthly 320 no viewport overflow",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-screen no desktop overflow",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-screen status labels and values share approved colors",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-screen total caption beneath number",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-screen absent notes blank",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous actual page count equals native plan",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous approved page width",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous approved page height/profile",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous export leaves source records unchanged",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous every expected metric retained in actual native PDF",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous screen/PDF metric text parity",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous status labels and values share approved colors",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous total caption beneath number",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous each fitting summary card whole",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous projects left / executive right",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous approved PDF requester-note omission",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous missing follow-up notes blank",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous page 1 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous page 1 copyright",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous native text inside physical pages",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous compact legend retained once in actual plan",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous compact legend retained once in actual PDF text",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous illustrative follow-up identifiers occur exactly once",
-      "pass": true
-    },
-    {
-      "name": "fixture filtered continuous preserves scope header",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 actual page count equals native plan",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 approved page width",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 approved page height/profile",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 export leaves source records unchanged",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 every expected metric retained in actual native PDF",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 screen/PDF metric text parity",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 status labels and values share approved colors",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 total caption beneath number",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 each fitting summary card whole",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 projects left / executive right",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 approved PDF requester-note omission",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 missing follow-up notes blank",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 page 1 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 page 1 copyright",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 native text inside physical pages",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 compact legend retained once in actual plan",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 compact legend retained once in actual PDF text",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 illustrative follow-up identifiers occur exactly once",
-      "pass": true
-    },
-    {
-      "name": "fixture filtered a4 preserves scope header",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-screen no desktop overflow",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-screen status labels and values share approved colors",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-screen total caption beneath number",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-screen absent notes blank",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous actual page count equals native plan",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous approved page width",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous approved page height/profile",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous export leaves source records unchanged",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous every expected metric retained in actual native PDF",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous screen/PDF metric text parity",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous status labels and values share approved colors",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous total caption beneath number",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous each fitting summary card whole",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous projects left / executive right",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous approved PDF requester-note omission",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous missing follow-up notes blank",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous page 1 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous page 1 copyright",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous native text inside physical pages",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous visible in-bar counts fit their segments",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous normal-width status bars contain counts",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous compact legend retained once in actual plan",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous compact legend retained once in actual PDF text",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous illustrative follow-up identifiers occur exactly once",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 actual page count equals native plan",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 approved page width",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 approved page height/profile",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 export leaves source records unchanged",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 every expected metric retained in actual native PDF",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 screen/PDF metric text parity",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 status labels and values share approved colors",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 total caption beneath number",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 each fitting summary card whole",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 projects left / executive right",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 approved PDF requester-note omission",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 missing follow-up notes blank",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 page 1 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 page 1 copyright",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 page 2 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 page 2 copyright",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 page 3 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 page 3 copyright",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 page 4 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 page 4 copyright",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 native text inside physical pages",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 visible in-bar counts fit their segments",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 normal-width status bars contain counts",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 compact legend retained once in actual plan",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 compact legend retained once in actual PDF text",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 illustrative follow-up identifiers occur exactly once",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-screen no desktop overflow",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-screen status labels and values share approved colors",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-screen total caption beneath number",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-screen absent notes blank",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 actual page count equals native plan",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 approved page width",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 approved page height/profile",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 export leaves source records unchanged",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 every expected metric retained in actual native PDF",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 screen/PDF metric text parity",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 status labels and values share approved colors",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 total caption beneath number",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 each fitting summary card whole",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 projects left / executive right",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 approved PDF requester-note omission",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 missing follow-up notes blank",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 page 1 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 page 1 copyright",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 native text inside physical pages",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 compact legend retained once in actual plan",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 compact legend retained once in actual PDF text",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 illustrative follow-up identifiers occur exactly once",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-screen no desktop overflow",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-screen status labels and values share approved colors",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-screen total caption beneath number",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-screen absent notes blank",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 actual page count equals native plan",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 approved page width",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 approved page height/profile",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 export leaves source records unchanged",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 every expected metric retained in actual native PDF",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 screen/PDF metric text parity",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 status labels and values share approved colors",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 total caption beneath number",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 each fitting summary card whole",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 projects left / executive right",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 approved PDF requester-note omission",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 missing follow-up notes blank",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 page 1 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 page 1 copyright",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 page 2 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 page 2 copyright",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 page 3 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 page 3 copyright",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 page 4 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 page 4 copyright",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 page 5 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 page 5 copyright",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 page 6 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 page 6 copyright",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 page 7 correct pagination",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 page 7 copyright",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 native text inside physical pages",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 visible in-bar counts fit their segments",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 normal-width status bars contain counts",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 compact legend retained once in actual plan",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 compact legend retained once in actual PDF text",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 illustrative follow-up identifiers occur exactly once",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 legacy and Unicode square glyphs preserved in PDF text",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 every controlled long-note marker preserved",
-      "pass": true
-    },
-    {
-      "name": "no browser runtime errors",
-      "pass": true
-    },
-    {
-      "name": "offline runtime makes no external requests",
-      "pass": true
-    },
-    {
-      "name": "ILLUSTRATIVE-monthly-preview.xlsx workbook bytes unchanged",
-      "pass": true
-    },
-    {
-      "name": "Saytara_2026_Mold_v2.xlsx workbook bytes unchanged",
-      "pass": true
-    },
-    {
-      "name": "empty scope actual A4 one readable page",
-      "pass": true
-    },
-    {
-      "name": "empty scope actual PDF hides every empty portfolio",
-      "pass": true
-    },
-    {
-      "name": "empty scope actual PDF retains empty-state message",
-      "pass": true
-    },
-    {
-      "name": "empty scope does not display unused status legend",
-      "pass": true
-    },
-    {
-      "name": "empty scope actual PDF footer and page count",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-continuous no-followup comparison-source note remains in actual PDF",
-      "pass": true
-    },
-    {
-      "name": "fixture-filtered-a4 no-followup comparison-source note remains in actual PDF",
-      "pass": true
-    },
-    {
-      "name": "attachment-filtered-a4 no-followup comparison-source note remains in actual PDF",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-continuous every visible segment count appears in actual PDF",
-      "pass": true
-    },
-    {
-      "name": "fixture-full-a4 every visible segment count appears in actual PDF",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-continuous every visible segment count appears in actual PDF",
-      "pass": true
-    },
-    {
-      "name": "attachment-full-a4 every visible segment count appears in actual PDF",
-      "pass": true
-    },
-    {
-      "name": "controlled-long-notes-a4 every visible segment count appears in actual PDF",
-      "pass": true
+      "name": "ILLUSTRATIVE-portfolio-v167-page-6.png",
+      "sha256": "2bf2444f944232d14a0a3d9ed697a8ca8c912b8ac1c592f7f8469574059649dc",
+      "bytes": 98198
     }
   ],
-  "exports": [
+  "nativeStructure": [
     {
-      "name": "fixture-full-continuous",
-      "layout": "continuous",
-      "pages": 1,
-      "sha256": "1abd775c22856f2674889e6662a0e6379d1314fe7a4fa88202ba1f755c8874c7",
-      "widthMM": 297.0000023735894,
-      "heightMM": 753.0000325520833
+      "name": "portfolio-all",
+      "embeddedFontNames": [
+        "DINNextArabic-Regular",
+        "Dubai-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold"
+      ],
+      "nativeVectorShapes": 494,
+      "imageObjects": 1,
+      "extractedTextCharacters": 5837
     },
     {
-      "name": "fixture-full-a4",
-      "layout": "a4",
-      "pages": 4,
-      "sha256": "dc870de2d6f0e142ec49c528bcf5c3fd1668c1f3356b20f96ac04394c5f4ad27",
-      "widthMM": 209.9999940660265,
-      "heightMM": 297.0000023735894
+      "name": "portfolio-report",
+      "embeddedFontNames": [
+        "DINNextArabic-Regular",
+        "Dubai-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold"
+      ],
+      "nativeVectorShapes": 494,
+      "imageObjects": 1,
+      "extractedTextCharacters": 6047
     },
     {
-      "name": "fixture-filtered-continuous",
-      "layout": "continuous",
-      "pages": 1,
-      "sha256": "40356145a580ac01d3c62583d51ac42e598b4584089bec41910b3792e3d1547c",
-      "widthMM": 297.0000023735894,
-      "heightMM": 213.00000474717882
+      "name": "portfolio-compact",
+      "embeddedFontNames": [
+        "DINNextArabic-Regular",
+        "Dubai-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold"
+      ],
+      "nativeVectorShapes": 494,
+      "imageObjects": 1,
+      "extractedTextCharacters": 5837
     },
     {
-      "name": "fixture-filtered-a4",
-      "layout": "a4",
-      "pages": 1,
-      "sha256": "f0c3265d6ba648a83352874220e0548465a9fdafda5c865cd73718471f6bd27e",
-      "widthMM": 209.9999940660265,
-      "heightMM": 297.0000023735894
+      "name": "portfolio-completed",
+      "embeddedFontNames": [
+        "DINNextArabic-Regular",
+        "Dubai-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold"
+      ],
+      "nativeVectorShapes": 232,
+      "imageObjects": 1,
+      "extractedTextCharacters": 3669
     },
     {
-      "name": "attachment-full-continuous",
-      "layout": "continuous",
-      "pages": 1,
-      "sha256": "c8b5d64f7e1b18452da2aec0739e02750d0fdc1e4bbea95de77e18e0f2dd3cd8",
-      "widthMM": 297.0000023735894,
-      "heightMM": 753.0000325520833
+      "name": "portfolio-empty",
+      "embeddedFontNames": [
+        "DINNextArabic-Regular",
+        "Dubai-Regular",
+        "DINNextLTArabic-Regular"
+      ],
+      "nativeVectorShapes": 4,
+      "imageObjects": 1,
+      "extractedTextCharacters": 328
     },
     {
-      "name": "attachment-full-a4",
-      "layout": "a4",
-      "pages": 4,
-      "sha256": "21f76280a45edd2723b0045b42d732d728e3d0b92f83b1959a1c336900ac6751",
-      "widthMM": 209.9999940660265,
-      "heightMM": 297.0000023735894
+      "name": "portfolio-mainlist",
+      "embeddedFontNames": [
+        "DINNextArabic-Regular",
+        "Dubai-Regular",
+        "Dubai-Bold",
+        "DINNextLTArabic-Regular"
+      ],
+      "nativeVectorShapes": 1512,
+      "imageObjects": 1,
+      "extractedTextCharacters": 20953
     },
     {
-      "name": "attachment-filtered-a4",
-      "layout": "a4",
-      "pages": 1,
-      "sha256": "aff4ccc9f54a777544a50faf8842919f139479cb3011da417ae2fb59f4da9fae",
-      "widthMM": 209.9999940660265,
-      "heightMM": 297.0000023735894
+      "name": "portfolio-custom",
+      "embeddedFontNames": [
+        "DINNextArabic-Regular",
+        "Dubai-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold"
+      ],
+      "nativeVectorShapes": 494,
+      "imageObjects": 1,
+      "extractedTextCharacters": 6060
     },
     {
-      "name": "controlled-long-notes-a4",
-      "layout": "a4",
-      "pages": 7,
-      "sha256": "fc748a3ee0ec5dc81f0a9d73c87d31b5a6dc15954a1f361ba7feacdb5f4087eb",
-      "widthMM": 209.9999940660265,
-      "heightMM": 297.0000023735894
+      "name": "portfolio-long-notes",
+      "embeddedFontNames": [
+        "DINNextArabic-Regular",
+        "Dubai-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold"
+      ],
+      "nativeVectorShapes": 1594,
+      "imageObjects": 1,
+      "extractedTextCharacters": 16023
     },
     {
-      "name": "controlled-empty-a4",
-      "layout": "a4",
-      "pages": 1,
-      "sha256": "b55ff2705eebdd4ed2de2eb0006bb2e5558773d845e7b2e75fe7abad338b5196",
-      "widthMM": 209.9999940660265,
-      "heightMM": 297.0000023735894
+      "name": "portfolio-actual-attachment",
+      "embeddedFontNames": [
+        "DINNextArabic-Regular",
+        "Dubai-Regular",
+        "DINNextLTArabic-Regular"
+      ],
+      "nativeVectorShapes": 4,
+      "imageObjects": 1,
+      "extractedTextCharacters": 444
+    },
+    {
+      "name": "ILLUSTRATIVE-portfolio-v167",
+      "embeddedFontNames": [
+        "DINNextArabic-Regular",
+        "Dubai-Regular",
+        "DINNextLTArabic-Regular",
+        "Dubai-Bold"
+      ],
+      "nativeVectorShapes": 494,
+      "imageObjects": 1,
+      "extractedTextCharacters": 6073
     }
   ],
-  "visualInspection": {
-    "status": "PASS",
-    "artifacts": [
-      "fixture-full-a4-page-1.png",
-      "fixture-full-a4-page-2.png",
-      "fixture-full-a4-page-3.png",
-      "fixture-full-a4-page-4.png",
-      "fixture-full-continuous-part-1.png",
-      "fixture-full-continuous-part-2.png",
-      "fixture-full-continuous-part-3.png",
-      "fixture-full-continuous-part-4.png",
-      "fixture-filtered-a4-page-1.png",
-      "controlled-long-notes-a4-page-3.png",
-      "controlled-long-notes-a4-page-4.png",
-      "controlled-long-notes-a4-page-5.png",
-      "controlled-long-notes-a4-page-6.png",
-      "controlled-long-notes-a4-page-7.png",
-      "controlled-empty-a4-page-1.png"
-    ],
-    "findings": "Readable Arabic and native counts; whole fitting cards; correct physical columns; shared legend; no orphan border; full notes and table headings preserved; long-row identity top aligned. Final screen-only CSS refinement rerun confirmed unchanged PDF content and passed identical checks."
+  "comprehensiveBuildAssets": {
+    "app-bundle.css": "c63b86873e88fcf69653a8bc5dcb027003d20590ddc528bcccfa25b8eb952421",
+    "app-bundle.js": "de97997f4846608d0486ba99346e995e175e65b3624cae69e156fde76d1dbf58",
+    "print-measure-bundle.css": "1d2e7ebbf58265646d751d8c234f23697fdfafaa48edc000bdb77ce43b650f9f"
   },
-  "privacy": "Only aggregate assertions, runtime hashes and illustrative artifact names are included here. Attachment record titles, notes and extracted PDF text remain local."
+  "finalBinding": "Screen-only narrow priority label CSS changed after the comprehensive export set; final clean download geometry, source lines, ordered rows, charts and labels match the comprehensive build exactly."
 }

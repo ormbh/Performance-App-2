@@ -1,0 +1,411 @@
+{
+  "scope": "Controlled source-level data behavior; no operational workbook claim",
+  "checks": [
+    {
+      "name": "number zero same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": 0,
+        "portfolio": 0,
+        "report": 0
+      }
+    },
+    {
+      "name": "number zero preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "number zero drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "decimal number same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": 123.45,
+        "portfolio": 123.45,
+        "report": 123.45
+      }
+    },
+    {
+      "name": "decimal number preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "decimal number drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "negative number same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": -2,
+        "portfolio": -2,
+        "report": -2
+      }
+    },
+    {
+      "name": "negative number preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "negative number drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "finite numeric text same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": 1200.5,
+        "portfolio": 1200.5,
+        "report": 1200.5
+      }
+    },
+    {
+      "name": "finite numeric text preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "finite numeric text drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "spaced numeric text same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": 1200.5,
+        "portfolio": 1200.5,
+        "report": 1200.5
+      }
+    },
+    {
+      "name": "spaced numeric text preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "spaced numeric text drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "scientific text same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": 1250,
+        "portfolio": 1250,
+        "report": 1250
+      }
+    },
+    {
+      "name": "scientific text preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "scientific text drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "fractional text same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": 0.25,
+        "portfolio": 0.25,
+        "report": 0.25
+      }
+    },
+    {
+      "name": "fractional text preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "fractional text drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "recorded text zero same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": 0,
+        "portfolio": 0,
+        "report": 0
+      }
+    },
+    {
+      "name": "recorded text zero preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "recorded text zero drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "hexadecimal text same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": null,
+        "portfolio": null,
+        "report": null
+      }
+    },
+    {
+      "name": "hexadecimal text preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "hexadecimal text drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "binary text same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": null,
+        "portfolio": null,
+        "report": null
+      }
+    },
+    {
+      "name": "binary text preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "binary text drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "empty text same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": null,
+        "portfolio": null,
+        "report": null
+      }
+    },
+    {
+      "name": "empty text preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "empty text drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "missing cell same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": null,
+        "portfolio": null,
+        "report": null
+      }
+    },
+    {
+      "name": "missing cell preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "missing cell drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "boolean cell same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": null,
+        "portfolio": null,
+        "report": null
+      }
+    },
+    {
+      "name": "boolean cell preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "boolean cell drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "error cell same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": null,
+        "portfolio": null,
+        "report": null
+      }
+    },
+    {
+      "name": "error cell preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "error cell drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "nonfinite number same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": null,
+        "portfolio": null,
+        "report": null
+      }
+    },
+    {
+      "name": "nonfinite number preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "nonfinite number drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "nonfinite text same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": null,
+        "portfolio": null,
+        "report": null
+      }
+    },
+    {
+      "name": "nonfinite text preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "nonfinite text drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "wrong typed number same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": null,
+        "portfolio": null,
+        "report": null
+      }
+    },
+    {
+      "name": "wrong typed number preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "wrong typed number drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "text date same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": null,
+        "portfolio": null,
+        "report": null
+      }
+    },
+    {
+      "name": "text date preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "text date drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "currency text same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": null,
+        "portfolio": null,
+        "report": null
+      }
+    },
+    {
+      "name": "currency text preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "currency text drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "percent text same financial eligibility",
+      "pass": true,
+      "details": {
+        "shared": null,
+        "portfolio": null,
+        "report": null
+      }
+    },
+    {
+      "name": "percent text preserves source cell",
+      "pass": true
+    },
+    {
+      "name": "percent text drill eligibility agrees",
+      "pass": true
+    },
+    {
+      "name": "generic Excel helper remains unchanged",
+      "pass": true
+    },
+    {
+      "name": "controlled monthly and report amount reconcile",
+      "pass": true,
+      "details": {
+        "monthly": 1200.5,
+        "report": {
+          "value": 1200.5,
+          "known": 2,
+          "total": 4
+        }
+      }
+    },
+    {
+      "name": "financial drill retains known zero only",
+      "pass": true
+    },
+    {
+      "name": "different source SUM and named populations preserved",
+      "pass": true
+    },
+    {
+      "name": "legacy cached budget delta is unavailable",
+      "pass": true
+    },
+    {
+      "name": "legacy guard leaves project count history available",
+      "pass": true
+    },
+    {
+      "name": "matching contract cached budget keeps legitimate delta",
+      "pass": true
+    },
+    {
+      "name": "uploaded raw previous rows use same contract",
+      "pass": true
+    },
+    {
+      "name": "Frozen raw and legacy filter tokens remain exact",
+      "pass": true
+    },
+    {
+      "name": "Frozen category is not added to lateness",
+      "pass": true
+    },
+    {
+      "name": "Frozen badge uses approved display term",
+      "pass": true
+    },
+    {
+      "name": "Frozen schema mapping is display-only",
+      "pass": true
+    },
+    {
+      "name": "portfolio report default title includes source year",
+      "pass": true
+    },
+    {
+      "name": "explicit report metadata preserved",
+      "pass": true
+    }
+  ],
+  "total": 74,
+  "passed": 74
+}

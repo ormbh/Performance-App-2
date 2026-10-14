@@ -1,0 +1,50 @@
+{
+  "verdict": "PASS",
+  "checks": 361,
+  "passed": 361,
+  "issues": [],
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+  },
+  "assetHashes": {
+    "app-bundle.css": "d45d61a7394312bc26e645ae5cb87aa932236b3c79039fb9343439595d803b41",
+    "app-bundle.js": "de97997f4846608d0486ba99346e995e175e65b3624cae69e156fde76d1dbf58"
+  },
+  "scope": "Independent data and cross-report regression; anonymized illustrative fixture and isolated in-memory controls, no source edits.",
+  "numericControls": 28,
+  "actualFinancialDrillCases": 20,
+  "currentCounts": {
+    "projects": 84,
+    "completed": 10,
+    "active": 61,
+    "notStarted": 7,
+    "frozen": 3,
+    "cancelled": 1,
+    "transferred": 2,
+    "followup": 6
+  },
+  "historicalPolicy": "Unmarked or mismatched aggregate financial history is unavailable; full previous raw workbooks recompute with the same strict decimal contract. Matching marked caches preserve zero and valid changes.",
+  "limitations": [
+    "Anonymized fixture and isolated controls establish software regression behavior; they do not certify a current populated operational workbook.",
+    "This check covers data, filters and model/API behavior. Arabic visual quality, PDF page content and pagination are verified separately by the visual/export QA agent."
+  ],
+  "comprehensiveRegressionAssetHashes": {
+    "app-bundle.css": "e2096d3ce4965124e0205f96982a247cfeaf2b5d2b5dae5ef0b1944f88fd475b",
+    "app-bundle.js": "a7633195f54ffc42099983cfd38054d617172b8b39ce5339949133388af74cb9"
+  },
+  "finalReleaseBinding": {
+    "verdict": "PASS",
+    "checks": 20,
+    "passed": 20,
+    "issues": [],
+    "scope": "Focused final release binding after UI-only changes; comprehensive regression evidence remains from build2.",
+    "modelFingerprintsEqual": true
+  },
+  "finalCssBinding": {
+    "verdict": "PASS",
+    "checks": 2,
+    "passed": 2,
+    "scope": "CSS-only final delivery binding; JavaScript is unchanged from the final 20-check smoke. Model regression was not repeated."
+  }
+}
