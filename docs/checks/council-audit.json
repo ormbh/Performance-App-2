@@ -1,0 +1,5526 @@
+{
+  "version": 163,
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "illustrative": true
+  },
+  "checks": [
+    {
+      "name": "v162 items exactly unchanged",
+      "pass": true
+    },
+    {
+      "name": "v162 metric exactly unchanged",
+      "pass": true
+    },
+    {
+      "name": "v162 snapshot exactly unchanged",
+      "pass": true
+    },
+    {
+      "name": "v162 issues exactly unchanged",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council all 1440 first issuer right in columns or first in responsive vertical flow",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council all 1024 first issuer right in columns or first in responsive vertical flow",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council all 768 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council all 650 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council all 390 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council all 320 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council governance 1440 first issuer right in columns or first in responsive vertical flow",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council governance 390 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council police 1440 first issuer right in columns or first in responsive vertical flow",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council police 390 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 1440 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council tec-only 390 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 1440 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council unknown-only 390 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council letter 1440 first issuer right in columns or first in responsive vertical flow",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council letter 390 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council closed 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council closed 1440 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council closed 1440 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council closed 1440 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council closed 1440 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council closed 1440 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council closed 1440 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council closed 1440 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council closed 1440 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council closed 1440 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council closed 1440 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council closed 1440 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council closed 1440 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council closed 1440 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council closed 1440 no all-zero eligibility chart",
+      "pass": true
+    },
+    {
+      "name": "Council closed 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council closed 390 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council closed 390 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council closed 390 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council closed 390 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council closed 390 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council closed 390 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council closed 390 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council closed 390 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council closed 390 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council closed 390 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council closed 390 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council closed 390 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council closed 390 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council closed 390 no all-zero eligibility chart",
+      "pass": true
+    },
+    {
+      "name": "Council empty 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council empty 1440 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council empty 1440 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council empty 1440 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council empty 1440 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council empty 1440 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council empty 1440 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council empty 1440 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council empty 1440 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council empty 1440 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council empty 1440 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council empty 1440 one clean empty state without charts or tables",
+      "pass": true
+    },
+    {
+      "name": "Council empty 1440 no all-zero eligibility chart",
+      "pass": true
+    },
+    {
+      "name": "Council empty 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council empty 390 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council empty 390 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council empty 390 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council empty 390 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council empty 390 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council empty 390 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council empty 390 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council empty 390 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council empty 390 all eligible and status metrics equal v162",
+      "pass": true
+    },
+    {
+      "name": "Council empty 390 business-rule scope keys unchanged from v162",
+      "pass": true
+    },
+    {
+      "name": "Council empty 390 one clean empty state without charts or tables",
+      "pass": true
+    },
+    {
+      "name": "Council empty 390 no all-zero eligibility chart",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 1440 first issuer right in columns or first in responsive vertical flow",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 768 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 390 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 no screen cover individual cards or source-note appendix",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 exact six RTL table headers",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 rows follow model year quarter groups and eligibility sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 every scoped decision appears exactly once",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 continuous visible report serials across both sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 full texts and only populated decision metadata above latest text",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 exact chronological meeting days inside quarter",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 contents links target rendered sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 contents follows populated summary and table sections",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 page section sequence matches contents",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 populated scope no empty message",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 issuer chart total includes all eligible decisions only",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 one shared detailed legend",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 issuer panel DOM order follows shared spec",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 TEC first SAC second blank issuer last",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 chart record keys partition eligible source without omissions",
+      "pass": true
+    },
+    {
+      "name": "Council controlled 320 common scale nonzero bars and readable counts",
+      "pass": true
+    },
+    {
+      "name": "controlled long Arabic latest and notes preserved completely",
+      "pass": true
+    },
+    {
+      "name": "partial metadata omits blank number/date labels and separators",
+      "pass": true
+    },
+    {
+      "name": "completely blank latest cell has no labels separators or elements",
+      "pass": true
+    },
+    {
+      "name": "controlled unknown issuer and unknown status retained in four eligible issuer panels",
+      "pass": true
+    },
+    {
+      "name": "unknown recorded status retained in table",
+      "pass": true
+    },
+    {
+      "name": "contents keyboard jump focuses correct section",
+      "pass": true
+    },
+    {
+      "name": "editorial updates while typing",
+      "pass": true
+    },
+    {
+      "name": "live notes add contents link",
+      "pass": true
+    },
+    {
+      "name": "report notes follow all decision tables",
+      "pass": true
+    },
+    {
+      "name": "clearing notes removes contents link",
+      "pass": true
+    },
+    {
+      "name": "all filtering and controlled copies leave original records metrics and observations unchanged",
+      "pass": true
+    },
+    {
+      "name": "no browser errors",
+      "pass": true
+    },
+    {
+      "name": "no external requests",
+      "pass": true
+    },
+    {
+      "name": "illustrative workbook bytes unchanged",
+      "pass": true
+    },
+    {
+      "name": "browser loaded exact final artifact app-bundle.css",
+      "pass": true
+    },
+    {
+      "name": "browser loaded exact final artifact app-bundle.js",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screens": [
+    {
+      "scope": "all",
+      "width": 1440,
+      "counts": {
+        "all": 164,
+        "total": 70,
+        "excluded": 94,
+        "done": 38,
+        "progress": 31,
+        "late": 0,
+        "unknown": 1
+      },
+      "rowCount": 164,
+      "chart": {
+        "total": 70,
+        "max": 30,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 45,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 732,
+              "y": 778.546875,
+              "w": 660,
+              "h": 456.390625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 3,
+                "bar": {
+                  "x": 1152.875,
+                  "y": 939.4375,
+                  "w": 39.53125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 939.4375,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "3",
+                "endText": "3"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 12,
+                "bar": {
+                  "x": 1034.25,
+                  "y": 1011.4375,
+                  "w": 158.15625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 1011.4375,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 19.511871337890625,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "12",
+                "endText": "12"
+              },
+              {
+                "status": "منجز",
+                "count": 29,
+                "bar": {
+                  "x": 810.1875,
+                  "y": 1083.4375,
+                  "w": 382.21875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 1083.4375,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 19.511871337890625,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "29",
+                "endText": "29"
+              },
+              {
+                "status": "بدون حالة",
+                "count": 1,
+                "bar": {
+                  "x": 1179.234375,
+                  "y": 1163.9375,
+                  "w": 13.171875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 1163.9375,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "false",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": false,
+                "endVisible": true,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "مجلس الشؤون الاستراتيجية",
+            "total": 9,
+            "title": "مجلس الشؤون الاستراتيجية",
+            "rect": {
+              "x": 48,
+              "y": 778.546875,
+              "w": 660,
+              "h": 384.390625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 2,
+                "bar": {
+                  "x": 482.046875,
+                  "y": 939.4375,
+                  "w": 26.359375,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 939.4375,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 5,
+                "bar": {
+                  "x": 442.515625,
+                  "y": 1011.4375,
+                  "w": 65.890625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 1011.4375,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "5",
+                "endText": "5"
+              },
+              {
+                "status": "منجز",
+                "count": 2,
+                "bar": {
+                  "x": 482.046875,
+                  "y": 1091.9375,
+                  "w": 26.359375,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 1091.9375,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              }
+            ]
+          },
+          {
+            "issuer": "",
+            "total": 16,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 732,
+              "y": 1258.9375,
+              "w": 660,
+              "h": 312.390625
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 9,
+                "bar": {
+                  "x": 1073.796875,
+                  "y": 1419.828125,
+                  "w": 118.609375,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 1419.828125,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "9",
+                "endText": "9"
+              },
+              {
+                "status": "منجز",
+                "count": 7,
+                "bar": {
+                  "x": 1100.15625,
+                  "y": 1500.328125,
+                  "w": 92.25,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 1500.328125,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "7",
+                "endText": "7"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "all",
+      "width": 1024,
+      "counts": {
+        "all": 164,
+        "total": 70,
+        "excluded": 94,
+        "done": 38,
+        "progress": 31,
+        "late": 0,
+        "unknown": 1
+      },
+      "rowCount": 164,
+      "chart": {
+        "total": 70,
+        "max": 30,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 45,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 48,
+              "y": 165.546875,
+              "w": 928,
+              "h": 456.390625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 3,
+                "bar": {
+                  "x": 647.375,
+                  "y": 326.4375,
+                  "w": 59.359375,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 326.4375,
+                  "w": 633.734375,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "3",
+                "endText": "3"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 12,
+                "bar": {
+                  "x": 469.25,
+                  "y": 398.4375,
+                  "w": 237.484375,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 398.4375,
+                  "w": 633.734375,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 19.511871337890625,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "12",
+                "endText": "12"
+              },
+              {
+                "status": "منجز",
+                "count": 29,
+                "bar": {
+                  "x": 132.796875,
+                  "y": 470.4375,
+                  "w": 573.9375,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 470.4375,
+                  "w": 633.734375,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 19.511871337890625,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "29",
+                "endText": "29"
+              },
+              {
+                "status": "بدون حالة",
+                "count": 1,
+                "bar": {
+                  "x": 686.953125,
+                  "y": 550.9375,
+                  "w": 19.78125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 550.9375,
+                  "w": 633.734375,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "مجلس الشؤون الاستراتيجية",
+            "total": 9,
+            "title": "مجلس الشؤون الاستراتيجية",
+            "rect": {
+              "x": 48,
+              "y": 645.9375,
+              "w": 928,
+              "h": 384.390625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 2,
+                "bar": {
+                  "x": 667.15625,
+                  "y": 806.828125,
+                  "w": 39.578125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 806.828125,
+                  "w": 633.734375,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 5,
+                "bar": {
+                  "x": 607.78125,
+                  "y": 878.828125,
+                  "w": 98.953125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 878.828125,
+                  "w": 633.734375,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "5",
+                "endText": "5"
+              },
+              {
+                "status": "منجز",
+                "count": 2,
+                "bar": {
+                  "x": 667.15625,
+                  "y": 959.328125,
+                  "w": 39.578125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 959.328125,
+                  "w": 633.734375,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              }
+            ]
+          },
+          {
+            "issuer": "",
+            "total": 16,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 48,
+              "y": 1054.328125,
+              "w": 928,
+              "h": 312.390625
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 9,
+                "bar": {
+                  "x": 528.625,
+                  "y": 1215.21875,
+                  "w": 178.109375,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 1215.21875,
+                  "w": 633.734375,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "9",
+                "endText": "9"
+              },
+              {
+                "status": "منجز",
+                "count": 7,
+                "bar": {
+                  "x": 568.203125,
+                  "y": 1295.71875,
+                  "w": 138.53125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 1295.71875,
+                  "w": 633.734375,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "7",
+                "endText": "7"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "all",
+      "width": 768,
+      "counts": {
+        "all": 164,
+        "total": 70,
+        "excluded": 94,
+        "done": 38,
+        "progress": 31,
+        "late": 0,
+        "unknown": 1
+      },
+      "rowCount": 164,
+      "chart": {
+        "total": 70,
+        "max": 30,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 45,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 32,
+              "y": 253.546875,
+              "w": 704,
+              "h": 456.390625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 3,
+                "bar": {
+                  "x": 482.171875,
+                  "y": 414.4375,
+                  "w": 42.796875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 57,
+                  "y": 414.4375,
+                  "w": 467.96875,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "3",
+                "endText": "3"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 12,
+                "bar": {
+                  "x": 353.78125,
+                  "y": 486.4375,
+                  "w": 171.1875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 57,
+                  "y": 486.4375,
+                  "w": 467.96875,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 19.511871337890625,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "12",
+                "endText": "12"
+              },
+              {
+                "status": "منجز",
+                "count": 29,
+                "bar": {
+                  "x": 111.265625,
+                  "y": 558.4375,
+                  "w": 413.703125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 57,
+                  "y": 558.4375,
+                  "w": 467.96875,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 19.511871337890625,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "29",
+                "endText": "29"
+              },
+              {
+                "status": "بدون حالة",
+                "count": 1,
+                "bar": {
+                  "x": 510.703125,
+                  "y": 638.9375,
+                  "w": 14.265625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 57,
+                  "y": 638.9375,
+                  "w": 467.96875,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "false",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": false,
+                "endVisible": true,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "مجلس الشؤون الاستراتيجية",
+            "total": 9,
+            "title": "مجلس الشؤون الاستراتيجية",
+            "rect": {
+              "x": 32,
+              "y": 733.9375,
+              "w": 704,
+              "h": 384.390625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 2,
+                "bar": {
+                  "x": 496.4375,
+                  "y": 894.828125,
+                  "w": 28.53125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 57,
+                  "y": 894.828125,
+                  "w": 467.96875,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 5,
+                "bar": {
+                  "x": 453.65625,
+                  "y": 966.828125,
+                  "w": 71.3125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 57,
+                  "y": 966.828125,
+                  "w": 467.96875,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "5",
+                "endText": "5"
+              },
+              {
+                "status": "منجز",
+                "count": 2,
+                "bar": {
+                  "x": 496.4375,
+                  "y": 1047.328125,
+                  "w": 28.53125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 57,
+                  "y": 1047.328125,
+                  "w": 467.96875,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              }
+            ]
+          },
+          {
+            "issuer": "",
+            "total": 16,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 32,
+              "y": 1142.328125,
+              "w": 704,
+              "h": 312.390625
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 9,
+                "bar": {
+                  "x": 396.578125,
+                  "y": 1303.21875,
+                  "w": 128.390625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 57,
+                  "y": 1303.21875,
+                  "w": 467.96875,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "9",
+                "endText": "9"
+              },
+              {
+                "status": "منجز",
+                "count": 7,
+                "bar": {
+                  "x": 425.109375,
+                  "y": 1383.71875,
+                  "w": 99.859375,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 57,
+                  "y": 1383.71875,
+                  "w": 467.96875,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "7",
+                "endText": "7"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "all",
+      "width": 650,
+      "counts": {
+        "all": 164,
+        "total": 70,
+        "excluded": 94,
+        "done": 38,
+        "progress": 31,
+        "late": 0,
+        "unknown": 1
+      },
+      "rowCount": 164,
+      "chart": {
+        "total": 70,
+        "max": 30,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 45,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 16,
+              "y": 364.734375,
+              "w": 618,
+              "h": 536.171875
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 3,
+                "bar": {
+                  "x": 562.609375,
+                  "y": 521.71875,
+                  "w": 54.390625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 521.71875,
+                  "w": 584,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "3",
+                "endText": "3"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 12,
+                "bar": {
+                  "x": 399.40625,
+                  "y": 628.3125,
+                  "w": 217.59375,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 628.3125,
+                  "w": 584,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 19.511871337890625,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "12",
+                "endText": "12"
+              },
+              {
+                "status": "منجز",
+                "count": 29,
+                "bar": {
+                  "x": 91.140625,
+                  "y": 734.90625,
+                  "w": 525.859375,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 734.90625,
+                  "w": 584,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 19.511871337890625,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "29",
+                "endText": "29"
+              },
+              {
+                "status": "بدون حالة",
+                "count": 1,
+                "bar": {
+                  "x": 598.875,
+                  "y": 846.296875,
+                  "w": 18.125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 846.296875,
+                  "w": 584,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "false",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": false,
+                "endVisible": true,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "مجلس الشؤون الاستراتيجية",
+            "total": 9,
+            "title": "مجلس الشؤون الاستراتيجية",
+            "rect": {
+              "x": 16,
+              "y": 916.90625,
+              "w": 618,
+              "h": 429.578125
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 2,
+                "bar": {
+                  "x": 580.734375,
+                  "y": 1073.890625,
+                  "w": 36.265625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1073.890625,
+                  "w": 584,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 5,
+                "bar": {
+                  "x": 526.34375,
+                  "y": 1180.484375,
+                  "w": 90.65625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1180.484375,
+                  "w": 584,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "5",
+                "endText": "5"
+              },
+              {
+                "status": "منجز",
+                "count": 2,
+                "bar": {
+                  "x": 580.734375,
+                  "y": 1291.875,
+                  "w": 36.265625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1291.875,
+                  "w": 584,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              }
+            ]
+          },
+          {
+            "issuer": "",
+            "total": 16,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 16,
+              "y": 1362.484375,
+              "w": 618,
+              "h": 322.984375
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 9,
+                "bar": {
+                  "x": 453.8125,
+                  "y": 1519.46875,
+                  "w": 163.1875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1519.46875,
+                  "w": 584,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "9",
+                "endText": "9"
+              },
+              {
+                "status": "منجز",
+                "count": 7,
+                "bar": {
+                  "x": 490.078125,
+                  "y": 1630.859375,
+                  "w": 126.921875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1630.859375,
+                  "w": 584,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "7",
+                "endText": "7"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "all",
+      "width": 390,
+      "counts": {
+        "all": 164,
+        "total": 70,
+        "excluded": 94,
+        "done": 38,
+        "progress": 31,
+        "late": 0,
+        "unknown": 1
+      },
+      "rowCount": 164,
+      "chart": {
+        "total": 70,
+        "max": 30,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 45,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 16,
+              "y": 434.5,
+              "w": 358,
+              "h": 536.171875
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 3,
+                "bar": {
+                  "x": 328.609375,
+                  "y": 591.484375,
+                  "w": 28.390625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 591.484375,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "3",
+                "endText": "3"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 12,
+                "bar": {
+                  "x": 243.40625,
+                  "y": 698.078125,
+                  "w": 113.59375,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 698.078125,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 19.511871337890625,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "12",
+                "endText": "12"
+              },
+              {
+                "status": "منجز",
+                "count": 29,
+                "bar": {
+                  "x": 82.46875,
+                  "y": 804.671875,
+                  "w": 274.53125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 804.671875,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 19.511871337890625,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "29",
+                "endText": "29"
+              },
+              {
+                "status": "بدون حالة",
+                "count": 1,
+                "bar": {
+                  "x": 347.546875,
+                  "y": 916.0625,
+                  "w": 9.453125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 916.0625,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "false",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": false,
+                "endVisible": true,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "مجلس الشؤون الاستراتيجية",
+            "total": 9,
+            "title": "مجلس الشؤون الاستراتيجية",
+            "rect": {
+              "x": 16,
+              "y": 986.671875,
+              "w": 358,
+              "h": 437.5625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 2,
+                "bar": {
+                  "x": 338.078125,
+                  "y": 1151.640625,
+                  "w": 18.921875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1151.640625,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "false",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": false,
+                "endVisible": true,
+                "insideText": "2",
+                "endText": "2"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 5,
+                "bar": {
+                  "x": 309.671875,
+                  "y": 1258.234375,
+                  "w": 47.328125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1258.234375,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "5",
+                "endText": "5"
+              },
+              {
+                "status": "منجز",
+                "count": 2,
+                "bar": {
+                  "x": 338.078125,
+                  "y": 1369.625,
+                  "w": 18.921875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1369.625,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "false",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": false,
+                "endVisible": true,
+                "insideText": "2",
+                "endText": "2"
+              }
+            ]
+          },
+          {
+            "issuer": "",
+            "total": 16,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 16,
+              "y": 1440.234375,
+              "w": 358,
+              "h": 330.96875
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 9,
+                "bar": {
+                  "x": 271.8125,
+                  "y": 1605.203125,
+                  "w": 85.1875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1605.203125,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "9",
+                "endText": "9"
+              },
+              {
+                "status": "منجز",
+                "count": 7,
+                "bar": {
+                  "x": 290.734375,
+                  "y": 1716.59375,
+                  "w": 66.265625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1716.59375,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "7",
+                "endText": "7"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "all",
+      "width": 320,
+      "counts": {
+        "all": 164,
+        "total": 70,
+        "excluded": 94,
+        "done": 38,
+        "progress": 31,
+        "late": 0,
+        "unknown": 1
+      },
+      "rowCount": 164,
+      "chart": {
+        "total": 70,
+        "max": 30,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 45,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 16,
+              "y": 243.484375,
+              "w": 288,
+              "h": 536.171875
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 3,
+                "bar": {
+                  "x": 265.609375,
+                  "y": 400.46875,
+                  "w": 21.390625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 400.46875,
+                  "w": 254,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "3",
+                "endText": "3"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 12,
+                "bar": {
+                  "x": 201.40625,
+                  "y": 507.0625,
+                  "w": 85.59375,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 507.0625,
+                  "w": 254,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 19.511871337890625,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "12",
+                "endText": "12"
+              },
+              {
+                "status": "منجز",
+                "count": 29,
+                "bar": {
+                  "x": 80.140625,
+                  "y": 613.65625,
+                  "w": 206.859375,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 613.65625,
+                  "w": 254,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 19.511871337890625,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "29",
+                "endText": "29"
+              },
+              {
+                "status": "بدون حالة",
+                "count": 1,
+                "bar": {
+                  "x": 279.875,
+                  "y": 725.046875,
+                  "w": 7.125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 725.046875,
+                  "w": 254,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "false",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": false,
+                "endVisible": true,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "مجلس الشؤون الاستراتيجية",
+            "total": 9,
+            "title": "مجلس الشؤون الاستراتيجية",
+            "rect": {
+              "x": 16,
+              "y": 795.65625,
+              "w": 288,
+              "h": 437.5625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 2,
+                "bar": {
+                  "x": 272.734375,
+                  "y": 960.625,
+                  "w": 14.265625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 960.625,
+                  "w": 254,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "false",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": false,
+                "endVisible": true,
+                "insideText": "2",
+                "endText": "2"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 5,
+                "bar": {
+                  "x": 251.34375,
+                  "y": 1067.21875,
+                  "w": 35.65625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1067.21875,
+                  "w": 254,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "5",
+                "endText": "5"
+              },
+              {
+                "status": "منجز",
+                "count": 2,
+                "bar": {
+                  "x": 272.734375,
+                  "y": 1178.609375,
+                  "w": 14.265625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1178.609375,
+                  "w": 254,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "false",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": false,
+                "endVisible": true,
+                "insideText": "2",
+                "endText": "2"
+              }
+            ]
+          },
+          {
+            "issuer": "",
+            "total": 16,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 16,
+              "y": 1249.21875,
+              "w": 288,
+              "h": 330.96875
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 9,
+                "bar": {
+                  "x": 222.8125,
+                  "y": 1414.1875,
+                  "w": 64.1875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1414.1875,
+                  "w": 254,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "9",
+                "endText": "9"
+              },
+              {
+                "status": "منجز",
+                "count": 7,
+                "bar": {
+                  "x": 237.078125,
+                  "y": 1525.578125,
+                  "w": 49.921875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1525.578125,
+                  "w": 254,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "7",
+                "endText": "7"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "governance",
+      "width": 1440,
+      "counts": {
+        "all": 13,
+        "total": 8,
+        "excluded": 5,
+        "done": 1,
+        "progress": 7,
+        "late": 0,
+        "unknown": 0
+      },
+      "rowCount": 13,
+      "chart": {
+        "total": 8,
+        "max": 2,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 3,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 732,
+              "y": 780.15625,
+              "w": 660,
+              "h": 312.390625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 2,
+                "bar": {
+                  "x": 797,
+                  "y": 941.046875,
+                  "w": 395.40625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 941.046875,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 1,
+                "bar": {
+                  "x": 994.703125,
+                  "y": 1021.546875,
+                  "w": 197.703125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 1021.546875,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "مجلس الشؤون الاستراتيجية",
+            "total": 5,
+            "title": "مجلس الشؤون الاستراتيجية",
+            "rect": {
+              "x": 48,
+              "y": 780.15625,
+              "w": 660,
+              "h": 384.390625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 2,
+                "bar": {
+                  "x": 113,
+                  "y": 941.046875,
+                  "w": 395.40625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 941.046875,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 2,
+                "bar": {
+                  "x": 113,
+                  "y": 1013.046875,
+                  "w": 395.40625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 1013.046875,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              },
+              {
+                "status": "منجز",
+                "count": 1,
+                "bar": {
+                  "x": 310.703125,
+                  "y": 1093.546875,
+                  "w": 197.703125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 1093.546875,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "governance",
+      "width": 390,
+      "counts": {
+        "all": 13,
+        "total": 8,
+        "excluded": 5,
+        "done": 1,
+        "progress": 7,
+        "late": 0,
+        "unknown": 0
+      },
+      "rowCount": 13,
+      "chart": {
+        "total": 8,
+        "max": 2,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 3,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 16,
+              "y": 1126.5,
+              "w": 358,
+              "h": 322.984375
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 2,
+                "bar": {
+                  "x": 73,
+                  "y": 1283.484375,
+                  "w": 284,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1283.484375,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 1,
+                "bar": {
+                  "x": 215,
+                  "y": 1394.875,
+                  "w": 142,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1394.875,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "مجلس الشؤون الاستراتيجية",
+            "total": 5,
+            "title": "مجلس الشؤون الاستراتيجية",
+            "rect": {
+              "x": 16,
+              "y": 1465.484375,
+              "w": 358,
+              "h": 437.5625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 2,
+                "bar": {
+                  "x": 73,
+                  "y": 1630.453125,
+                  "w": 284,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1630.453125,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 2,
+                "bar": {
+                  "x": 73,
+                  "y": 1737.046875,
+                  "w": 284,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1737.046875,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              },
+              {
+                "status": "منجز",
+                "count": 1,
+                "bar": {
+                  "x": 215,
+                  "y": 1848.4375,
+                  "w": 142,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1848.4375,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "police",
+      "width": 1440,
+      "counts": {
+        "all": 7,
+        "total": 3,
+        "excluded": 4,
+        "done": 1,
+        "progress": 2,
+        "late": 0,
+        "unknown": 0
+      },
+      "rowCount": 7,
+      "chart": {
+        "total": 3,
+        "max": 1,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 2,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 732,
+              "y": 813.75,
+              "w": 660,
+              "h": 312.390625
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 1,
+                "bar": {
+                  "x": 797,
+                  "y": 974.640625,
+                  "w": 395.40625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 974.640625,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              },
+              {
+                "status": "منجز",
+                "count": 1,
+                "bar": {
+                  "x": 797,
+                  "y": 1055.140625,
+                  "w": 395.40625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 1055.140625,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "",
+            "total": 1,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 48,
+              "y": 813.75,
+              "w": 660,
+              "h": 240.390625
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 1,
+                "bar": {
+                  "x": 113,
+                  "y": 983.140625,
+                  "w": 395.40625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 983.140625,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "police",
+      "width": 390,
+      "counts": {
+        "all": 7,
+        "total": 3,
+        "excluded": 4,
+        "done": 1,
+        "progress": 2,
+        "late": 0,
+        "unknown": 0
+      },
+      "rowCount": 7,
+      "chart": {
+        "total": 3,
+        "max": 1,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 2,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 16,
+              "y": 1160.09375,
+              "w": 358,
+              "h": 322.984375
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 1,
+                "bar": {
+                  "x": 73,
+                  "y": 1317.078125,
+                  "w": 284,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1317.078125,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              },
+              {
+                "status": "منجز",
+                "count": 1,
+                "bar": {
+                  "x": 73,
+                  "y": 1428.46875,
+                  "w": 284,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1428.46875,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "",
+            "total": 1,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 16,
+              "y": 1499.078125,
+              "w": 358,
+              "h": 224.375
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 1,
+                "bar": {
+                  "x": 73,
+                  "y": 1668.84375,
+                  "w": 284,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1668.84375,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "tec-only",
+      "width": 1440,
+      "counts": {
+        "all": 21,
+        "total": 6,
+        "excluded": 15,
+        "done": 6,
+        "progress": 0,
+        "late": 0,
+        "unknown": 0
+      },
+      "rowCount": 21,
+      "chart": {
+        "total": 6,
+        "max": 6,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 6,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 48,
+              "y": 813.75,
+              "w": 1344,
+              "h": 240.390625
+            },
+            "rows": [
+              {
+                "status": "منجز",
+                "count": 6,
+                "bar": {
+                  "x": 113,
+                  "y": 983.140625,
+                  "w": 901.5625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 983.140625,
+                  "w": 941.5625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "6",
+                "endText": "6"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "tec-only",
+      "width": 390,
+      "counts": {
+        "all": 21,
+        "total": 6,
+        "excluded": 15,
+        "done": 6,
+        "progress": 0,
+        "late": 0,
+        "unknown": 0
+      },
+      "rowCount": 21,
+      "chart": {
+        "total": 6,
+        "max": 6,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 6,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 16,
+              "y": 1064.09375,
+              "w": 358,
+              "h": 216.390625
+            },
+            "rows": [
+              {
+                "status": "منجز",
+                "count": 6,
+                "bar": {
+                  "x": 73,
+                  "y": 1225.875,
+                  "w": 284,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1225.875,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "6",
+                "endText": "6"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "unknown-only",
+      "width": 1440,
+      "counts": {
+        "all": 2,
+        "total": 2,
+        "excluded": 0,
+        "done": 0,
+        "progress": 2,
+        "late": 0,
+        "unknown": 0
+      },
+      "rowCount": 2,
+      "chart": {
+        "total": 2,
+        "max": 2,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "",
+            "total": 2,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 48,
+              "y": 767.75,
+              "w": 1344,
+              "h": 240.390625
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 2,
+                "bar": {
+                  "x": 113,
+                  "y": 937.140625,
+                  "w": 901.5625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 937.140625,
+                  "w": 941.5625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "unknown-only",
+      "width": 390,
+      "counts": {
+        "all": 2,
+        "total": 2,
+        "excluded": 0,
+        "done": 0,
+        "progress": 2,
+        "late": 0,
+        "unknown": 0
+      },
+      "rowCount": 2,
+      "chart": {
+        "total": 2,
+        "max": 2,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "",
+            "total": 2,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 16,
+              "y": 1041.09375,
+              "w": 358,
+              "h": 224.375
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 2,
+                "bar": {
+                  "x": 73,
+                  "y": 1210.859375,
+                  "w": 284,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1210.859375,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "letter",
+      "width": 1440,
+      "counts": {
+        "all": 26,
+        "total": 26,
+        "excluded": 0,
+        "done": 20,
+        "progress": 6,
+        "late": 0,
+        "unknown": 0
+      },
+      "rowCount": 26,
+      "chart": {
+        "total": 26,
+        "max": 20,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 19,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 732,
+              "y": 734.15625,
+              "w": 660,
+              "h": 384.390625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 1,
+                "bar": {
+                  "x": 1172.640625,
+                  "y": 895.046875,
+                  "w": 19.765625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 895.046875,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 2,
+                "bar": {
+                  "x": 1152.875,
+                  "y": 967.046875,
+                  "w": 39.53125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 967.046875,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              },
+              {
+                "status": "منجز",
+                "count": 16,
+                "bar": {
+                  "x": 876.09375,
+                  "y": 1047.546875,
+                  "w": 316.3125,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 1047.546875,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 19.511871337890625,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "16",
+                "endText": "16"
+              }
+            ]
+          },
+          {
+            "issuer": "مجلس الشؤون الاستراتيجية",
+            "total": 1,
+            "title": "مجلس الشؤون الاستراتيجية",
+            "rect": {
+              "x": 48,
+              "y": 734.15625,
+              "w": 660,
+              "h": 240.390625
+            },
+            "rows": [
+              {
+                "status": "منجز",
+                "count": 1,
+                "bar": {
+                  "x": 488.640625,
+                  "y": 903.546875,
+                  "w": 19.765625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 903.546875,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "",
+            "total": 6,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 732,
+              "y": 1142.546875,
+              "w": 660,
+              "h": 312.390625
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 3,
+                "bar": {
+                  "x": 1133.109375,
+                  "y": 1303.4375,
+                  "w": 59.296875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 1303.4375,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "3",
+                "endText": "3"
+              },
+              {
+                "status": "منجز",
+                "count": 3,
+                "bar": {
+                  "x": 1133.109375,
+                  "y": 1383.9375,
+                  "w": 59.296875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 1383.9375,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "3",
+                "endText": "3"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "letter",
+      "width": 390,
+      "counts": {
+        "all": 26,
+        "total": 26,
+        "excluded": 0,
+        "done": 20,
+        "progress": 6,
+        "late": 0,
+        "unknown": 0
+      },
+      "rowCount": 26,
+      "chart": {
+        "total": 26,
+        "max": 20,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 19,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 16,
+              "y": 1057.5,
+              "w": 358,
+              "h": 429.578125
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 1,
+                "bar": {
+                  "x": 342.8125,
+                  "y": 1214.484375,
+                  "w": 14.1875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1214.484375,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "false",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": false,
+                "endVisible": true,
+                "insideText": "1",
+                "endText": "1"
+              },
+              {
+                "status": "قيد التطوير",
+                "count": 2,
+                "bar": {
+                  "x": 328.609375,
+                  "y": 1321.078125,
+                  "w": 28.390625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1321.078125,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "2",
+                "endText": "2"
+              },
+              {
+                "status": "منجز",
+                "count": 16,
+                "bar": {
+                  "x": 129.8125,
+                  "y": 1432.46875,
+                  "w": 227.1875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1432.46875,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 19.511871337890625,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "16",
+                "endText": "16"
+              }
+            ]
+          },
+          {
+            "issuer": "مجلس الشؤون الاستراتيجية",
+            "total": 1,
+            "title": "مجلس الشؤون الاستراتيجية",
+            "rect": {
+              "x": 16,
+              "y": 1503.078125,
+              "w": 358,
+              "h": 224.375
+            },
+            "rows": [
+              {
+                "status": "منجز",
+                "count": 1,
+                "bar": {
+                  "x": 342.8125,
+                  "y": 1672.84375,
+                  "w": 14.1875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1672.84375,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "false",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": false,
+                "endVisible": true,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "",
+            "total": 6,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 16,
+              "y": 1743.453125,
+              "w": 358,
+              "h": 330.96875
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 3,
+                "bar": {
+                  "x": 314.40625,
+                  "y": 1908.421875,
+                  "w": 42.59375,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1908.421875,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "3",
+                "endText": "3"
+              },
+              {
+                "status": "منجز",
+                "count": 3,
+                "bar": {
+                  "x": 314.40625,
+                  "y": 2019.8125,
+                  "w": 42.59375,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 2019.8125,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "3",
+                "endText": "3"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "closed",
+      "width": 1440,
+      "counts": {
+        "all": 54,
+        "total": 0,
+        "excluded": 54,
+        "done": 0,
+        "progress": 0,
+        "late": 0,
+        "unknown": 0
+      },
+      "rowCount": 54,
+      "chart": null
+    },
+    {
+      "scope": "closed",
+      "width": 390,
+      "counts": {
+        "all": 54,
+        "total": 0,
+        "excluded": 54,
+        "done": 0,
+        "progress": 0,
+        "late": 0,
+        "unknown": 0
+      },
+      "rowCount": 54,
+      "chart": null
+    },
+    {
+      "scope": "empty",
+      "width": 1440,
+      "counts": {
+        "all": 0,
+        "total": 0,
+        "excluded": 0,
+        "done": 0,
+        "progress": 0,
+        "late": 0,
+        "unknown": 0
+      },
+      "rowCount": 0,
+      "chart": null
+    },
+    {
+      "scope": "empty",
+      "width": 390,
+      "counts": {
+        "all": 0,
+        "total": 0,
+        "excluded": 0,
+        "done": 0,
+        "progress": 0,
+        "late": 0,
+        "unknown": 0
+      },
+      "rowCount": 0,
+      "chart": null
+    },
+    {
+      "scope": "controlled",
+      "width": 1440,
+      "counts": {
+        "all": 5,
+        "total": 4,
+        "excluded": 1,
+        "done": 1,
+        "progress": 2,
+        "late": 0,
+        "unknown": 1
+      },
+      "rowCount": 5,
+      "chart": {
+        "total": 4,
+        "max": 1,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 1,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 732,
+              "y": 813.75,
+              "w": 660,
+              "h": 240.390625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 1,
+                "bar": {
+                  "x": 797,
+                  "y": 983.140625,
+                  "w": 395.40625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 983.140625,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "مجلس الشؤون الاستراتيجية",
+            "total": 1,
+            "title": "مجلس الشؤون الاستراتيجية",
+            "rect": {
+              "x": 48,
+              "y": 813.75,
+              "w": 660,
+              "h": 240.390625
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 1,
+                "bar": {
+                  "x": 113,
+                  "y": 983.140625,
+                  "w": 395.40625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 983.140625,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "جهة إصدار إضافية",
+            "total": 1,
+            "title": "جهة إصدار إضافية",
+            "rect": {
+              "x": 732,
+              "y": 1078.140625,
+              "w": 660,
+              "h": 240.390625
+            },
+            "rows": [
+              {
+                "status": "منجز",
+                "count": 1,
+                "bar": {
+                  "x": 797,
+                  "y": 1247.53125,
+                  "w": 395.40625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 757,
+                  "y": 1247.53125,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "",
+            "total": 1,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 48,
+              "y": 1078.140625,
+              "w": 660,
+              "h": 240.390625
+            },
+            "rows": [
+              {
+                "status": "حالة تجريبية للمراجعة",
+                "count": 1,
+                "bar": {
+                  "x": 113,
+                  "y": 1247.53125,
+                  "w": 395.40625,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 73,
+                  "y": 1247.53125,
+                  "w": 435.40625,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "controlled",
+      "width": 768,
+      "counts": {
+        "all": 5,
+        "total": 4,
+        "excluded": 1,
+        "done": 1,
+        "progress": 2,
+        "late": 0,
+        "unknown": 1
+      },
+      "rowCount": 5,
+      "chart": {
+        "total": 4,
+        "max": 1,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 1,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 32,
+              "y": 498.75,
+              "w": 704,
+              "h": 240.390625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 1,
+                "bar": {
+                  "x": 97,
+                  "y": 668.140625,
+                  "w": 427.96875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 57,
+                  "y": 668.140625,
+                  "w": 467.96875,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "مجلس الشؤون الاستراتيجية",
+            "total": 1,
+            "title": "مجلس الشؤون الاستراتيجية",
+            "rect": {
+              "x": 32,
+              "y": 763.140625,
+              "w": 704,
+              "h": 240.390625
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 1,
+                "bar": {
+                  "x": 97,
+                  "y": 932.53125,
+                  "w": 427.96875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 57,
+                  "y": 932.53125,
+                  "w": 467.96875,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "جهة إصدار إضافية",
+            "total": 1,
+            "title": "جهة إصدار إضافية",
+            "rect": {
+              "x": 32,
+              "y": 1027.53125,
+              "w": 704,
+              "h": 240.390625
+            },
+            "rows": [
+              {
+                "status": "منجز",
+                "count": 1,
+                "bar": {
+                  "x": 97,
+                  "y": 1196.921875,
+                  "w": 427.96875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 57,
+                  "y": 1196.921875,
+                  "w": 467.96875,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "",
+            "total": 1,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 32,
+              "y": 1291.921875,
+              "w": 704,
+              "h": 240.390625
+            },
+            "rows": [
+              {
+                "status": "حالة تجريبية للمراجعة",
+                "count": 1,
+                "bar": {
+                  "x": 97,
+                  "y": 1461.3125,
+                  "w": 427.96875,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 57,
+                  "y": 1461.3125,
+                  "w": 467.96875,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "controlled",
+      "width": 390,
+      "counts": {
+        "all": 5,
+        "total": 4,
+        "excluded": 1,
+        "done": 1,
+        "progress": 2,
+        "late": 0,
+        "unknown": 1
+      },
+      "rowCount": 5,
+      "chart": {
+        "total": 4,
+        "max": 1,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 1,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 16,
+              "y": 731.09375,
+              "w": 358,
+              "h": 216.390625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 1,
+                "bar": {
+                  "x": 73,
+                  "y": 892.875,
+                  "w": 284,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 892.875,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "مجلس الشؤون الاستراتيجية",
+            "total": 1,
+            "title": "مجلس الشؤون الاستراتيجية",
+            "rect": {
+              "x": 16,
+              "y": 963.484375,
+              "w": 358,
+              "h": 224.375
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 1,
+                "bar": {
+                  "x": 73,
+                  "y": 1133.25,
+                  "w": 284,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1133.25,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "جهة إصدار إضافية",
+            "total": 1,
+            "title": "جهة إصدار إضافية",
+            "rect": {
+              "x": 16,
+              "y": 1203.859375,
+              "w": 358,
+              "h": 216.390625
+            },
+            "rows": [
+              {
+                "status": "منجز",
+                "count": 1,
+                "bar": {
+                  "x": 73,
+                  "y": 1365.640625,
+                  "w": 284,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1365.640625,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "",
+            "total": 1,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 16,
+              "y": 1436.25,
+              "w": 358,
+              "h": 224.375
+            },
+            "rows": [
+              {
+                "status": "حالة تجريبية للمراجعة",
+                "count": 1,
+                "bar": {
+                  "x": 73,
+                  "y": 1606.015625,
+                  "w": 284,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1606.015625,
+                  "w": 324,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scope": "controlled",
+      "width": 320,
+      "counts": {
+        "all": 5,
+        "total": 4,
+        "excluded": 1,
+        "done": 1,
+        "progress": 2,
+        "late": 0,
+        "unknown": 1
+      },
+      "rowCount": 5,
+      "chart": {
+        "total": 4,
+        "max": 1,
+        "legend": 1,
+        "panels": [
+          {
+            "issuer": "المجلس التنفيذي",
+            "total": 1,
+            "title": "المجلس التنفيذي",
+            "rect": {
+              "x": 16,
+              "y": 243.46875,
+              "w": 288,
+              "h": 216.390625
+            },
+            "rows": [
+              {
+                "status": "قيد المراجعة",
+                "count": 1,
+                "bar": {
+                  "x": 73,
+                  "y": 405.25,
+                  "w": 214,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 405.25,
+                  "w": 254,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "مجلس الشؤون الاستراتيجية",
+            "total": 1,
+            "title": "مجلس الشؤون الاستراتيجية",
+            "rect": {
+              "x": 16,
+              "y": 475.859375,
+              "w": 288,
+              "h": 224.375
+            },
+            "rows": [
+              {
+                "status": "قيد التطوير",
+                "count": 1,
+                "bar": {
+                  "x": 73,
+                  "y": 645.625,
+                  "w": 214,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 645.625,
+                  "w": 254,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "جهة إصدار إضافية",
+            "total": 1,
+            "title": "جهة إصدار إضافية",
+            "rect": {
+              "x": 16,
+              "y": 716.234375,
+              "w": 288,
+              "h": 216.390625
+            },
+            "rows": [
+              {
+                "status": "منجز",
+                "count": 1,
+                "bar": {
+                  "x": 73,
+                  "y": 878.015625,
+                  "w": 214,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 878.015625,
+                  "w": 254,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          },
+          {
+            "issuer": "",
+            "total": 1,
+            "title": "قرارات دون جهة إصدار محددة",
+            "rect": {
+              "x": 16,
+              "y": 948.625,
+              "w": 288,
+              "h": 224.375
+            },
+            "rows": [
+              {
+                "status": "حالة تجريبية للمراجعة",
+                "count": 1,
+                "bar": {
+                  "x": 73,
+                  "y": 1118.390625,
+                  "w": 214,
+                  "h": 36
+                },
+                "cell": {
+                  "x": 33,
+                  "y": 1118.390625,
+                  "w": 254,
+                  "h": 36
+                },
+                "plotPadding": 40,
+                "fits": "true",
+                "inkWidth": 9.755935668945312,
+                "inkHeight": 13,
+                "insideVisible": true,
+                "endVisible": false,
+                "insideText": "1",
+                "endText": "1"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "pdfs": [],
+  "loadedAssetHashes": {
+    "app-bundle.css": "85f803fec7a85da7cc73a51c8cfa47a06fdf56a9161cfbf9e907715f898addd8",
+    "app-bundle.js": "62f3771edc0bc424d3c452b92c768398f2b79356350025a1df9e396968901acb"
+  },
+  "verdict": "PASS",
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "62f3771edc0bc424d3c452b92c768398f2b79356350025a1df9e396968901acb",
+    "assets/css/app-bundle.css": "85f803fec7a85da7cc73a51c8cfa47a06fdf56a9161cfbf9e907715f898addd8",
+    "assets/css/print-measure-bundle.css": "d95e63c90e73122ad49aacda31a4b41569b3666f64bc9d0f50d0c4beced0b4c3"
+  }
+}

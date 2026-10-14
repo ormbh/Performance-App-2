@@ -1,0 +1,35 @@
+{
+  "verdict": "PASS",
+  "checks": [
+    {
+      "name": "council-empty every actual PDF cell retains source words and numbers exactly",
+      "pass": true,
+      "details": [],
+      "cellsChecked": 0
+    },
+    {
+      "name": "council-other-only every actual PDF cell retains source words and numbers exactly",
+      "pass": true,
+      "details": [],
+      "cellsChecked": 324
+    },
+    {
+      "name": "council-entity every actual PDF cell retains source words and numbers exactly",
+      "pass": true,
+      "details": [],
+      "cellsChecked": 24
+    },
+    {
+      "name": "council-all every actual PDF cell retains source words and numbers exactly",
+      "pass": true,
+      "details": [],
+      "cellsChecked": 984
+    },
+    {
+      "name": "council-controlled every actual PDF cell retains source words and numbers exactly",
+      "pass": true,
+      "details": [],
+      "cellsChecked": 30
+    }
+  ]
+}

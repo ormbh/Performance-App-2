@@ -2,447 +2,702 @@
   "verdict": "PASS",
   "checks": [
     {
-      "name": "all source records unchanged",
+      "name": "all source data unchanged",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all ZIP CRC",
+      "name": "all ZIP CRC intact",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all slide count",
+      "name": "all package slide count agrees",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all one summary slide",
+      "name": "all cover has no footer",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all report title and one scoped total",
+      "name": "all standard cover title",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all actual scoped total",
+      "name": "all full selected entity on cover",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all title right total left",
+      "name": "all copyright on body slides",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all full definitions and cohort status summaries retained",
+      "name": "all body page numbering starts at one",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all no separate metrics/completion summary",
+      "name": "all all internal relationships resolve",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all source cohort charts reconcile",
+      "name": "all native fonts embedded",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all all source project detail cards preserved",
+      "name": "all continuous eligible then other numbering",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all leadership badges preserved",
+      "name": "all model row order retained",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all populated sector retained",
+      "name": "all retired source/card sections absent",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all populated department retained",
+      "name": "all exact six native RTL table headers",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all project manager retained",
+      "name": "all six cells per table row",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all no duplicate leadership details",
+      "name": "all positive table column widths",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all no visible repeated card number",
+      "name": "all every source title present",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all detail group heading once per populated group",
+      "name": "all one native chart per nonempty issuer panel",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all internal report numbering retained",
+      "name": "all المجلس التنفيذي source status palette",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all leadership badge Mist fill and Teal border",
+      "name": "all المجلس التنفيذي editable inbar labels with fallback",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all all internal links resolve",
+      "name": "all المجلس التنفيذي legible 12pt chart numbers",
       "pass": true,
       "detail": null
     },
     {
-      "name": "all native shape bounds fit slide",
+      "name": "all المجلس التنفيذي embedded editable workbook reconciles",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit source records unchanged",
+      "name": "all مجلس الشؤون الاستراتيجية source status palette",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit ZIP CRC",
+      "name": "all مجلس الشؤون الاستراتيجية editable inbar labels with fallback",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit slide count",
+      "name": "all مجلس الشؤون الاستراتيجية legible 12pt chart numbers",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit one summary slide",
+      "name": "all مجلس الشؤون الاستراتيجية embedded editable workbook reconciles",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit report title and one scoped total",
+      "name": "all قرارات دون جهة إصدار محددة source status palette",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit actual scoped total",
+      "name": "all قرارات دون جهة إصدار محددة editable inbar labels with fallback",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit title right total left",
+      "name": "all قرارات دون جهة إصدار محددة legible 12pt chart numbers",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit full definitions and cohort status summaries retained",
+      "name": "all قرارات دون جهة إصدار محددة embedded editable workbook reconciles",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit no separate metrics/completion summary",
+      "name": "all chart data/status categories and shared native count scale",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit source cohort charts reconcile",
+      "name": "all at most two charts per slide",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit all source project detail cards preserved",
+      "name": "all full shared detailed legend on each chart slide",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit leadership badges preserved",
+      "name": "all identical physical bar scale across issuer slides",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit populated sector retained",
+      "name": "all clickable contents actual body page references",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit populated department retained",
+      "name": "all editable object bounds inside slide",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit project manager retained",
+      "name": "entity source data unchanged",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit no duplicate leadership details",
+      "name": "entity ZIP CRC intact",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit no visible repeated card number",
+      "name": "entity package slide count agrees",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit detail group heading once per populated group",
+      "name": "entity cover has no footer",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit internal report numbering retained",
+      "name": "entity standard cover title",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit leadership badge Mist fill and Teal border",
+      "name": "entity full selected entity on cover",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit all internal links resolve",
+      "name": "entity copyright on body slides",
       "pass": true,
       "detail": null
     },
     {
-      "name": "unit native shape bounds fit slide",
+      "name": "entity body page numbering starts at one",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec source records unchanged",
+      "name": "entity all internal relationships resolve",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec ZIP CRC",
+      "name": "entity native fonts embedded",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec slide count",
+      "name": "entity continuous eligible then other numbering",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec one summary slide",
+      "name": "entity model row order retained",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec report title and one scoped total",
+      "name": "entity retired source/card sections absent",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec actual scoped total",
+      "name": "entity exact six native RTL table headers",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec title right total left",
+      "name": "entity six cells per table row",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec full definitions and cohort status summaries retained",
+      "name": "entity positive table column widths",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec no separate metrics/completion summary",
+      "name": "entity every source title present",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec source cohort charts reconcile",
+      "name": "entity one native chart per nonempty issuer panel",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec all source project detail cards preserved",
+      "name": "entity المجلس التنفيذي source status palette",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec leadership badges preserved",
+      "name": "entity المجلس التنفيذي editable inbar labels with fallback",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec populated sector retained",
+      "name": "entity المجلس التنفيذي legible 12pt chart numbers",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec populated department retained",
+      "name": "entity المجلس التنفيذي embedded editable workbook reconciles",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec project manager retained",
+      "name": "entity قرارات دون جهة إصدار محددة source status palette",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec no duplicate leadership details",
+      "name": "entity قرارات دون جهة إصدار محددة editable inbar labels with fallback",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec no visible repeated card number",
+      "name": "entity قرارات دون جهة إصدار محددة legible 12pt chart numbers",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec detail group heading once per populated group",
+      "name": "entity قرارات دون جهة إصدار محددة embedded editable workbook reconciles",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec internal report numbering retained",
+      "name": "entity chart data/status categories and shared native count scale",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec leadership badge Mist fill and Teal border",
+      "name": "entity at most two charts per slide",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec all internal links resolve",
+      "name": "entity full shared detailed legend on each chart slide",
       "pass": true,
       "detail": null
     },
     {
-      "name": "tec native shape bounds fit slide",
+      "name": "entity identical physical bar scale across issuer slides",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label source records unchanged",
+      "name": "entity clickable contents actual body page references",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label ZIP CRC",
+      "name": "entity editable object bounds inside slide",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label slide count",
+      "name": "controlled source data unchanged",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label one summary slide",
+      "name": "controlled ZIP CRC intact",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label report title and one scoped total",
+      "name": "controlled package slide count agrees",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label actual scoped total",
+      "name": "controlled cover has no footer",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label title right total left",
+      "name": "controlled standard cover title",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label full definitions and cohort status summaries retained",
+      "name": "controlled full selected entity on cover",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label no separate metrics/completion summary",
+      "name": "controlled copyright on body slides",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label source cohort charts reconcile",
+      "name": "controlled body page numbering starts at one",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label all source project detail cards preserved",
+      "name": "controlled all internal relationships resolve",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label leadership badges preserved",
+      "name": "controlled native fonts embedded",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label populated sector retained",
+      "name": "controlled continuous eligible then other numbering",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label populated department retained",
+      "name": "controlled model row order retained",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label project manager retained",
+      "name": "controlled retired source/card sections absent",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label no duplicate leadership details",
+      "name": "controlled exact six native RTL table headers",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label no visible repeated card number",
+      "name": "controlled six cells per table row",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label detail group heading once per populated group",
+      "name": "controlled positive table column widths",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label internal report numbering retained",
+      "name": "controlled every source title present",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label leadership badge Mist fill and Teal border",
+      "name": "controlled one native chart per nonempty issuer panel",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label unrelated leadership narrative retained",
+      "name": "controlled المجلس التنفيذي source status palette",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label all internal links resolve",
+      "name": "controlled المجلس التنفيذي editable inbar labels with fallback",
       "pass": true,
       "detail": null
     },
     {
-      "name": "duplicate-label native shape bounds fit slide",
+      "name": "controlled المجلس التنفيذي legible 12pt chart numbers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled المجلس التنفيذي embedded editable workbook reconciles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled مجلس الشؤون الاستراتيجية source status palette",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled مجلس الشؤون الاستراتيجية editable inbar labels with fallback",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled مجلس الشؤون الاستراتيجية legible 12pt chart numbers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled مجلس الشؤون الاستراتيجية embedded editable workbook reconciles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled جهة إصدار إضافية source status palette",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled جهة إصدار إضافية editable inbar labels with fallback",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled جهة إصدار إضافية legible 12pt chart numbers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled جهة إصدار إضافية embedded editable workbook reconciles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled قرارات دون جهة إصدار محددة source status palette",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled قرارات دون جهة إصدار محددة editable inbar labels with fallback",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled قرارات دون جهة إصدار محددة legible 12pt chart numbers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled قرارات دون جهة إصدار محددة embedded editable workbook reconciles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled chart data/status categories and shared native count scale",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled at most two charts per slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled full shared detailed legend on each chart slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled identical physical bar scale across issuer slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled clickable contents actual body page references",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled editable object bounds inside slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled all 51 long narrative markers exactly once",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled all long source paragraphs complete",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled fully blank latest and notes cells stay empty",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled partial metadata omits empty labels",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled long row safely continues across native slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled extra and blank issuers retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled incomplete meeting dates discoverable",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility source data unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility ZIP CRC intact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility package slide count agrees",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility cover has no footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility standard cover title",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility full selected entity on cover",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility copyright on body slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility body page numbering starts at one",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility all internal relationships resolve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility native fonts embedded",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility continuous eligible then other numbering",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility model row order retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility retired source/card sections absent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility exact six native RTL table headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility six cells per table row",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility positive table column widths",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility every source title present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility one native chart per nonempty issuer panel",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility chart data/status categories and shared native count scale",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility at most two charts per slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility full shared detailed legend on each chart slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility identical physical bar scale across issuer slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility clickable contents actual body page references",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility editable object bounds inside slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility unavailable eligibility retained without invented classification",
       "pass": true,
       "detail": null
     },
@@ -460,52 +715,40 @@
   "results": [
     {
       "name": "all",
-      "result": {
-        "slides": 72,
-        "charts": 2,
-        "counts": [
-          24.0,
-          38.0
-        ],
-        "records": 62
-      }
+      "records": 164,
+      "slides": 42,
+      "charts": 3,
+      "sha256": "4a022d1a62c2890f48e8b6c91fef95fb27be2a42af685c7451d6af9256dbef67"
     },
     {
-      "name": "unit",
-      "result": {
-        "slides": 16,
-        "charts": 1,
-        "counts": [
-          11.0
-        ],
-        "records": 11
-      }
+      "name": "entity",
+      "records": 4,
+      "slides": 7,
+      "charts": 2,
+      "sha256": "689e36c29538453d5e5f6fdde79d4e5a79f085e8d750f2a50a3e7f9ee2fb9143"
     },
     {
-      "name": "tec",
-      "result": {
-        "slides": 46,
-        "charts": 1,
-        "counts": [
-          38.0
-        ],
-        "records": 38
-      }
+      "name": "controlled",
+      "records": 5,
+      "slides": 13,
+      "charts": 4,
+      "sha256": "b2122650aa5f2610c85911227e1ea2d05b33ca6c7f51fa0aa779553b80cdc21c"
     },
     {
-      "name": "duplicate-label",
-      "result": {
-        "slides": 5,
-        "charts": 1,
-        "counts": [
-          1.0
-        ],
-        "records": 1
-      }
+      "name": "missing-eligibility",
+      "records": 5,
+      "slides": 11,
+      "charts": 0,
+      "sha256": "d4ae9c77562a9920ec032984acdc69a9e00a2af00ccbe815bab42d91e6ab9518"
     }
   ],
-  "runtime": "v162 generated bundle",
+  "sourceInjection": false,
+  "loadedAssetHashes": {
+    "app-bundle.css": "85f803fec7a85da7cc73a51c8cfa47a06fdf56a9161cfbf9e907715f898addd8",
+    "app-bundle.js": "62f3771edc0bc424d3c452b92c768398f2b79356350025a1df9e396968901acb"
+  },
+  "sourceHash": "e6361589c79907b46a01d52e2c5ff84e7493c2643d632f1dca9a2ed8bd77ccc3",
   "limits": [
-    "Native package/data/link/geometry verification; Office rendering unavailable."
+    "Native OOXML/data/package validation; Office renderer unavailable."
   ]
 }

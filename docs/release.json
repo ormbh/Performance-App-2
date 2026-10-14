@@ -1,14 +1,14 @@
 {
-  "build": 162,
-  "designRevision": 27,
-  "verdict": "PASS",
-  "zip": "Performance-App-v162.zip",
-  "zipSha256": "db72bd96d133d464d3c936043d1cf73470a7e1bbfc789eccd4618cec70d3e867",
+  "build": 163,
+  "designRevision": 28,
+  "verdict": "PASS_WITH_RECORDED_LIMITS",
+  "zip": "Performance-App-v163.zip",
+  "zipSha256": "17ca723f8589c8f92563e7cfe85487711779b317ffea5306e38fcbf974935a1f",
   "fileCount": 26,
   "runtimeFiles": {
-    "README.txt": "650db71cb3e260931d7fa667ce8179f3df7130953b7e112aabdbd0f247905438",
-    "assets/css/app-bundle.css": "4f8e123903da49cc579768720ae8970a93b2ebaa7dc47e1b9e81c428b1d7fcfb",
-    "assets/css/print-measure-bundle.css": "0f755afc1f4fcb986b646344e866b9ba7c3167ae2bf83591c6a80398e23723a3",
+    "README.txt": "9c856b38a303394b6cde83fea47c321f9ad75335511eaf5811c8ee00ad6a16a4",
+    "assets/css/app-bundle.css": "85f803fec7a85da7cc73a51c8cfa47a06fdf56a9161cfbf9e907715f898addd8",
+    "assets/css/print-measure-bundle.css": "d95e63c90e73122ad49aacda31a4b41569b3666f64bc9d0f50d0c4beced0b4c3",
     "assets/fonts/DIN-Next-Arabic-Regular.otf": "9c2c15f517e786908c1fa917650f3723953aba6ef3fe0a3a7439c78fc0105715",
     "assets/fonts/DIN-Next-LT-Arabic-Regular.ttf": "a96ab4c40a249f58bc245e6610ab2488cfd3580cfa776a1ad2a92788baf49dcd",
     "assets/fonts/Dubai-Bold.otf": "299b7e9a156e5c938a1c82605f29eefe48579811c21c571c3a4625d74f48676d",
@@ -23,27 +23,39 @@
     "assets/img/search-mashrabiya.jpg": "9f9e86ce18b75524867fdfe9edb144051465b66fb0f93b2a2fe7bfa41286c2ff",
     "assets/img/tec-positive.png": "fcab6fe27d22f816a93016e0cbcb3c38432fe2ef8885a3f313e6a0efe86151ef",
     "assets/img/tec-red.png": "abafeddbf4c7cc66a5f2c25e997ee4ce90b517a5ea0b15f38398d396c68680cf",
-    "assets/js/app-bundle.js": "c0be77d49aa5d55a73111b4071fd5404affb5180006d8c1c7dd667f766ed9d74",
+    "assets/js/app-bundle.js": "62f3771edc0bc424d3c452b92c768398f2b79356350025a1df9e396968901acb",
     "assets/js/lib/offline-pdf-engine.js": "8038eaa52e8aa4693e6f4d9141f51edfaf78be42621384e608ddfc81d5cb2528",
     "assets/js/reports/agenda-fonts.js": "6f876e00ca7bb0954d796006096e574b424e09b101c37733566ea6fafe674dc3",
     "assets/js/reports/agenda-template.js": "54f822bc3f695a5d20fab29eaa44d3fd1ec8e4e3d9693bc45dc58af8431fa22b",
     "assets/js/reports/hh-template.js": "6304a88ac40fb87c936a13f2f663ca223e4a13318f578790ffbcf86b020108a0",
     "assets/vendor/offline-pdf-LICENSES.txt": "55cf60144f8249cdd177adbf81fe30af773b5bb034acf68efd27db9f86f04521",
     "assets/vendor/tec-pdf-symbols-LICENSE.txt": "f32df582a2aab128c07b2f7e36e7b928dc5f6bd82657b905c04f91459f9e5cf9",
-    "index.html": "fc50af2ec66903771fc50a3f8f540874e3b2cc96777391fdd5352acc30262105",
+    "index.html": "ed5bc996009c390f26764063ba7dc5ca97468c311a7be4952ebd39b5dda78763",
     "manifest.webmanifest": "b3ed8e7dc3299eb031ca9254ff3ef6fa0190e48ebb9e1a074a77dc451745e912"
   },
-  "archivePreservedFiles": 1346,
-  "archivePreserved": true,
   "checks": {
-    "screen": 290,
-    "pdf": 90,
-    "powerpoint": 91,
-    "clean-runtime": 22,
-    "clean-powerpoint": 28
+    "council-audit": 474,
+    "screen": 32,
+    "visual": 36,
+    "pdf": 132,
+    "pdf-cells": 5,
+    "powerpoint": 142,
+    "clean-powerpoint": 28,
+    "clean-runtime": 30
   },
+  "sourceFixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "illustrative": true,
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+  },
+  "limits": [
+    "Production workbook reconciliation not run.",
+    "Native Office rendering/edit exercise unavailable.",
+    "Managed Chromium file:// opening blocked before application code; local HTTP minimal runtime verified."
+  ],
   "previousRelease": {
-    "commit": "299732a15513c1449ea8ef1565407e082850a086",
-    "sha256": "022645a58968e4a41e454750991aa3f618df3bd5515388b0d6902a33a82a8133"
+    "commit": "c3ee46b1f472ba610a0eee8e2e75679a6ec78c85",
+    "zip": "archive/v162/Performance-App-v162.zip",
+    "sha256": "db72bd96d133d464d3c936043d1cf73470a7e1bbfc789eccd4618cec70d3e867"
   }
 }

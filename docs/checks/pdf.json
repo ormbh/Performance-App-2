@@ -1,470 +1,730 @@
 {
-  "version": 162,
+  "version": 163,
+  "fixture": "ILLUSTRATIVE-monthly-preview.xlsx",
+  "runtime": "v163-clean/Performance-App",
   "checks": [
     {
-      "name": "hh-all actual pages match plan",
+      "name": "council-all actual pages match native plan",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-all record keys preserved",
+      "name": "council-all A4 landscape",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-all source untouched",
+      "name": "council-all ordered source record keys preserved",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-all internal links resolve",
+      "name": "council-all continuous serial numbers",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-all no separate summary card in PDF",
+      "name": "council-all source unchanged",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-all no repeated detail heading strips",
+      "name": "council-all exact six column headers",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-all leadership badges only for yes records",
-      "pass": true,
-      "details": {
-        "expected": 24,
-        "actual": 24
-      }
-    },
-    {
-      "name": "hh-all shared report-specific heading",
+      "name": "council-all no retired appendix or decision cards",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-all overall total reflects filtered source",
-      "pass": true,
-      "details": {
-        "shown": "62",
-        "expected": 62
-      }
-    },
-    {
-      "name": "hh-all title right and total left",
+      "name": "council-all cover no footer/page number",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-all cohort totals unchanged",
+      "name": "council-all internal links resolve",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-all every contents entry links",
+      "name": "council-all every contents entry linked",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-all header charts and legend fit one page",
-      "pass": true,
-      "details": 663.390625
-    },
-    {
-      "name": "hh-all retired summary metrics absent",
+      "name": "council-all printed contents page refs match destination",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-all actual PDF contains overall total and caption",
-      "pass": true,
-      "details": "المشاريع الخاصة62\nالإجمالي"
-    },
-    {
-      "name": "hh-all project rows link to detailed updates",
+      "name": "council-all page counter starts on second physical page",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-all printed contents pages match linked destinations",
+      "name": "council-all chart block1 within one page",
+      "pass": true,
+      "details": 567.25
+    },
+    {
+      "name": "council-all chart and full legend1 same page",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-all native PDF text within page bounds",
+      "name": "council-all chart block2 within one page",
       "pass": true,
-      "details": []
+      "details": 469.25
     },
     {
-      "name": "hh-all leadership badge stays whole on a page",
-      "pass": true,
-      "details": null
-    },
-    {
-      "name": "hh-all actual native leadership badge has teal outline",
+      "name": "council-all chart and full legend2 same page",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-all actual native leadership badge has mist fill",
+      "name": "council-all same physical count scale across all issuer pages",
+      "pass": true,
+      "details": [
+        10.625,
+        10.626302083333334,
+        10.626616379310345,
+        10.625,
+        10.625,
+        10.625,
+        10.625,
+        10.62673611111111,
+        10.625
+      ]
+    },
+    {
+      "name": "council-all page5 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership actual pages match plan",
+      "name": "council-all page6 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership record keys preserved",
+      "name": "council-all page7 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership source untouched",
+      "name": "council-all page8 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership internal links resolve",
+      "name": "council-all page9 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership no separate summary card in PDF",
+      "name": "council-all page10 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership no repeated detail heading strips",
+      "name": "council-all page11 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership leadership badges only for yes records",
-      "pass": true,
-      "details": {
-        "expected": 24,
-        "actual": 24
-      }
-    },
-    {
-      "name": "hh-leadership shared report-specific heading",
+      "name": "council-all page12 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership overall total reflects filtered source",
-      "pass": true,
-      "details": {
-        "shown": "24",
-        "expected": 24
-      }
-    },
-    {
-      "name": "hh-leadership title right and total left",
+      "name": "council-all page13 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership cohort totals unchanged",
+      "name": "council-all page14 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership every contents entry links",
+      "name": "council-all page15 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership header charts and legend fit one page",
-      "pass": true,
-      "details": 600.96875
-    },
-    {
-      "name": "hh-leadership retired summary metrics absent",
+      "name": "council-all page16 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership actual PDF contains overall total and caption",
-      "pass": true,
-      "details": "المشاريع الخاصة24\nالإجمالي"
-    },
-    {
-      "name": "hh-leadership project rows link to detailed updates",
+      "name": "council-all page17 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership printed contents pages match linked destinations",
+      "name": "council-all page18 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership native PDF text within page bounds",
-      "pass": true,
-      "details": []
-    },
-    {
-      "name": "hh-leadership leadership badge stays whole on a page",
+      "name": "council-all page19 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership actual native leadership badge has teal outline",
+      "name": "council-all page20 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-leadership actual native leadership badge has mist fill",
+      "name": "council-all page21 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-tec actual pages match plan",
+      "name": "council-all page22 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-tec record keys preserved",
+      "name": "council-all page23 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-tec source untouched",
+      "name": "council-all page24 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-tec internal links resolve",
+      "name": "council-all page25 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-tec no separate summary card in PDF",
+      "name": "council-all page26 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-tec no repeated detail heading strips",
+      "name": "council-all page27 repeated six column header",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-tec leadership badges only for yes records",
+      "name": "council-all every actual PDF cell retains source words and numbers exactly",
       "pass": true,
-      "details": {
-        "expected": 0,
-        "actual": 0
-      }
+      "details": [],
+      "cellsChecked": 984
     },
     {
-      "name": "hh-tec shared report-specific heading",
-      "pass": true,
-      "details": null
-    },
-    {
-      "name": "hh-tec overall total reflects filtered source",
-      "pass": true,
-      "details": {
-        "shown": "38",
-        "expected": 38
-      }
-    },
-    {
-      "name": "hh-tec title right and total left",
-      "pass": true,
-      "details": null
-    },
-    {
-      "name": "hh-tec cohort totals unchanged",
-      "pass": true,
-      "details": null
-    },
-    {
-      "name": "hh-tec every contents entry links",
-      "pass": true,
-      "details": null
-    },
-    {
-      "name": "hh-tec header charts and legend fit one page",
-      "pass": true,
-      "details": 653.390625
-    },
-    {
-      "name": "hh-tec retired summary metrics absent",
-      "pass": true,
-      "details": null
-    },
-    {
-      "name": "hh-tec actual PDF contains overall total and caption",
-      "pass": true,
-      "details": "المشاريع الخاصة38\nالإجمالي"
-    },
-    {
-      "name": "hh-tec project rows link to detailed updates",
-      "pass": true,
-      "details": null
-    },
-    {
-      "name": "hh-tec printed contents pages match linked destinations",
-      "pass": true,
-      "details": null
-    },
-    {
-      "name": "hh-tec native PDF text within page bounds",
+      "name": "council-all actual native text inside page bounds",
       "pass": true,
       "details": []
     },
     {
-      "name": "hh-single actual pages match plan",
+      "name": "council-entity actual pages match native plan",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-single record keys preserved",
+      "name": "council-entity A4 landscape",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-single source untouched",
+      "name": "council-entity ordered source record keys preserved",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-single internal links resolve",
+      "name": "council-entity continuous serial numbers",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-single no separate summary card in PDF",
+      "name": "council-entity source unchanged",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-single no repeated detail heading strips",
+      "name": "council-entity exact six column headers",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-single leadership badges only for yes records",
-      "pass": true,
-      "details": {
-        "expected": 0,
-        "actual": 0
-      }
-    },
-    {
-      "name": "hh-single shared report-specific heading",
+      "name": "council-entity no retired appendix or decision cards",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-single overall total reflects filtered source",
-      "pass": true,
-      "details": {
-        "shown": "6",
-        "expected": 6
-      }
-    },
-    {
-      "name": "hh-single title right and total left",
+      "name": "council-entity cover no footer/page number",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-single cohort totals unchanged",
+      "name": "council-entity internal links resolve",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-single every contents entry links",
+      "name": "council-entity every contents entry linked",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-single header charts and legend fit one page",
-      "pass": true,
-      "details": 453.96875
-    },
-    {
-      "name": "hh-single retired summary metrics absent",
+      "name": "council-entity printed contents page refs match destination",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-single actual PDF contains overall total and caption",
-      "pass": true,
-      "details": "المشاريع الخاصة6\nالإجمالي"
-    },
-    {
-      "name": "hh-single project rows link to detailed updates",
+      "name": "council-entity page counter starts on second physical page",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-single printed contents pages match linked destinations",
+      "name": "council-entity chart block1 within one page",
+      "pass": true,
+      "details": 370.703125
+    },
+    {
+      "name": "council-entity chart and full legend1 same page",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-single native PDF text within page bounds",
+      "name": "council-entity same physical count scale across all issuer pages",
+      "pass": true,
+      "details": [
+        159.40625,
+        159.40625
+      ]
+    },
+    {
+      "name": "council-entity page4 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-entity page5 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-entity every actual PDF cell retains source words and numbers exactly",
+      "pass": true,
+      "details": [],
+      "cellsChecked": 24
+    },
+    {
+      "name": "council-entity actual native text inside page bounds",
       "pass": true,
       "details": []
     },
     {
-      "name": "hh-empty actual pages match plan",
+      "name": "council-other-only actual pages match native plan",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-empty record keys preserved",
+      "name": "council-other-only A4 landscape",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-empty source untouched",
+      "name": "council-other-only ordered source record keys preserved",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-empty internal links resolve",
+      "name": "council-other-only continuous serial numbers",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-empty no separate summary card in PDF",
+      "name": "council-other-only source unchanged",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-empty no repeated detail heading strips",
+      "name": "council-other-only exact six column headers",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-empty leadership badges only for yes records",
+      "name": "council-other-only no retired appendix or decision cards",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-other-only cover no footer/page number",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-other-only internal links resolve",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-other-only every contents entry linked",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-other-only printed contents page refs match destination",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-other-only page counter starts on second physical page",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-other-only same physical count scale across all issuer pages",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "council-other-only page3 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-other-only page4 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-other-only page5 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-other-only page6 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-other-only page7 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-other-only page8 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-other-only page9 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-other-only page10 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-other-only every actual PDF cell retains source words and numbers exactly",
+      "pass": true,
+      "details": [],
+      "cellsChecked": 324
+    },
+    {
+      "name": "council-other-only actual native text inside page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "council-empty actual pages match native plan",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-empty A4 landscape",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-empty ordered source record keys preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-empty continuous serial numbers",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-empty source unchanged",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-empty exact six column headers",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-empty no retired appendix or decision cards",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-empty cover no footer/page number",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-empty internal links resolve",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-empty empty cover plus one message only",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-empty same physical count scale across all issuer pages",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "council-empty every actual PDF cell retains source words and numbers exactly",
+      "pass": true,
+      "details": [],
+      "cellsChecked": 0
+    },
+    {
+      "name": "council-empty actual native text inside page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "council-controlled actual pages match native plan",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled A4 landscape",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled ordered source record keys preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled continuous serial numbers",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled source unchanged",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled exact six column headers",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled no retired appendix or decision cards",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled cover no footer/page number",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled internal links resolve",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled every contents entry linked",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled printed contents page refs match destination",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled page counter starts on second physical page",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled chart block1 within one page",
+      "pass": true,
+      "details": 441.25
+    },
+    {
+      "name": "council-controlled chart and full legend1 same page",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled chart block2 within one page",
+      "pass": true,
+      "details": 441.25
+    },
+    {
+      "name": "council-controlled chart and full legend2 same page",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled same physical count scale across all issuer pages",
+      "pass": true,
+      "details": [
+        318.8125,
+        318.8125,
+        318.8125,
+        318.8125
+      ]
+    },
+    {
+      "name": "council-controlled page5 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled page6 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled page7 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled page8 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled page9 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled page10 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled page11 repeated six column header",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled every actual PDF cell retains source words and numbers exactly",
+      "pass": true,
+      "details": [],
+      "cellsChecked": 30
+    },
+    {
+      "name": "council-controlled all 51 paragraph tokens exactly once",
       "pass": true,
       "details": {
-        "expected": 0,
-        "actual": 0
+        "LATEST001": 1,
+        "LATEST002": 1,
+        "LATEST003": 1,
+        "LATEST004": 1,
+        "NOTES001": 1,
+        "NOTES002": 1,
+        "NOTES003": 1,
+        "LATEST005": 1,
+        "LATEST006": 1,
+        "LATEST007": 1,
+        "LATEST008": 1,
+        "LATEST009": 1,
+        "LATEST010": 1,
+        "LATEST011": 1,
+        "NOTES004": 1,
+        "NOTES005": 1,
+        "NOTES006": 1,
+        "NOTES007": 1,
+        "NOTES008": 1,
+        "LATEST012": 1,
+        "LATEST013": 1,
+        "LATEST014": 1,
+        "LATEST015": 1,
+        "LATEST016": 1,
+        "LATEST017": 1,
+        "NOTES009": 1,
+        "NOTES010": 1,
+        "NOTES011": 1,
+        "NOTES012": 1,
+        "LATEST018": 1,
+        "LATEST019": 1,
+        "LATEST020": 1,
+        "LATEST021": 1,
+        "LATEST022": 1,
+        "LATEST023": 1,
+        "LATEST024": 1,
+        "NOTES013": 1,
+        "NOTES014": 1,
+        "NOTES015": 1,
+        "NOTES016": 1,
+        "NOTES017": 1,
+        "LATEST025": 1,
+        "LATEST026": 1,
+        "LATEST027": 1,
+        "LATEST028": 1,
+        "NOTES018": 1,
+        "NOTES019": 1,
+        "NOTES020": 1,
+        "NOTES021": 1,
+        "NOTES022": 1,
+        "NOTES023": 1
       }
     },
     {
-      "name": "hh-empty empty scope cover plus one message",
+      "name": "council-controlled all 28 latest paragraphs complete",
       "pass": true,
-      "details": 2
+      "details": 28
     },
     {
-      "name": "hh-empty empty scope no contents chart header or legend",
+      "name": "council-controlled all 23 notes paragraphs complete",
+      "pass": true,
+      "details": 23
+    },
+    {
+      "name": "council-controlled metadata precedes full narrative",
       "pass": true,
       "details": null
     },
     {
-      "name": "hh-empty native PDF text within page bounds",
+      "name": "council-controlled missing number/date labels omitted",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled fully blank latest and notes remain empty",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled four actual issuer panels paired across two pages",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "council-controlled actual native text inside page bounds",
       "pass": true,
       "details": []
     },
@@ -481,79 +741,56 @@
   ],
   "pdfs": [
     {
-      "name": "hh-all",
-      "pages": 71,
-      "sourceTotal": 62,
-      "cohorts": [
-        {
-          "cohort": "leadership",
-          "total": 24
-        },
-        {
-          "cohort": "tec",
-          "total": 38
-        }
-      ],
-      "links": 128,
-      "sha256": "1515ee5765aeaa5f27a57751d8c9561aaa79f0ec043c5d6ddac0f9840fa93abb"
+      "name": "council-all",
+      "pages": 27,
+      "sourceRecords": 164,
+      "chartBlocks": 2,
+      "links": 3,
+      "sha256": "566dd64c683bc7424a0a4d5ae92704f20b61dc9b4b0e47c6b0eb5876eb872685"
     },
     {
-      "name": "hh-leadership",
-      "pages": 30,
-      "sourceTotal": 24,
-      "cohorts": [
-        {
-          "cohort": "leadership",
-          "total": 24
-        }
-      ],
-      "links": 52,
-      "sha256": "7d45d0b751ce9b4faf8b99edbcff79260668041a17a39b3ada8bd7ad08e3299d"
+      "name": "council-entity",
+      "pages": 5,
+      "sourceRecords": 4,
+      "chartBlocks": 1,
+      "links": 3,
+      "sha256": "3e7767fd6305223ce58b6b52857ae940df0ef557dfd1e6232f445a1c069caa46"
     },
     {
-      "name": "hh-tec",
-      "pages": 45,
-      "sourceTotal": 38,
-      "cohorts": [
-        {
-          "cohort": "tec",
-          "total": 38
-        }
-      ],
-      "links": 80,
-      "sha256": "d2420a84df5913b5f4afe576ce7be0d3120f7c11be91ed55e71b6920aafaee48"
-    },
-    {
-      "name": "hh-single",
+      "name": "council-other-only",
       "pages": 10,
-      "sourceTotal": 6,
-      "cohorts": [
-        {
-          "cohort": "tec",
-          "total": 6
-        }
-      ],
-      "links": 16,
-      "sha256": "1bf90db8144296696ef7c55219a14575f4ec5fe1f6c9d0277caca2fa1cd03fdd"
+      "sourceRecords": 54,
+      "chartBlocks": 0,
+      "links": 1,
+      "sha256": "bdf0719051db40c2bd4f79c81a2a84078ac250a18f0ada2a5d96b6d15b4a4e00"
     },
     {
-      "name": "hh-empty",
+      "name": "council-empty",
       "pages": 2,
-      "sourceTotal": 0,
-      "cohorts": [],
+      "sourceRecords": 0,
+      "chartBlocks": 0,
       "links": 0,
-      "sha256": "4055078c35adb4464ed7584cccb7067b57b350e93d8a7281214ef8c2c533bce3"
+      "sha256": "f0c5e4539c13e9793076071e37e2dae4fa5791d46f1ea2af4a482c598d588720"
+    },
+    {
+      "name": "council-controlled",
+      "pages": 11,
+      "sourceRecords": 5,
+      "chartBlocks": 2,
+      "links": 3,
+      "sha256": "cf04316df3e10d938bdcb33169224cd770247a50bae02f72a443b5de0dccfc34"
     }
   ],
   "verdict": "PASS",
   "loadedAssetHashes": {
-    "app-bundle.css": "4f8e123903da49cc579768720ae8970a93b2ebaa7dc47e1b9e81c428b1d7fcfb",
-    "app-bundle.js": "c0be77d49aa5d55a73111b4071fd5404affb5180006d8c1c7dd667f766ed9d74",
-    "print-measure-bundle.css": "0f755afc1f4fcb986b646344e866b9ba7c3167ae2bf83591c6a80398e23723a3"
+    "app-bundle.css": "85f803fec7a85da7cc73a51c8cfa47a06fdf56a9161cfbf9e907715f898addd8",
+    "app-bundle.js": "62f3771edc0bc424d3c452b92c768398f2b79356350025a1df9e396968901acb",
+    "print-measure-bundle.css": "d95e63c90e73122ad49aacda31a4b41569b3666f64bc9d0f50d0c4beced0b4c3"
   },
   "testedBuildHashes": {
-    "assets/js/app-bundle.js": "c0be77d49aa5d55a73111b4071fd5404affb5180006d8c1c7dd667f766ed9d74",
-    "assets/css/app-bundle.css": "4f8e123903da49cc579768720ae8970a93b2ebaa7dc47e1b9e81c428b1d7fcfb",
-    "assets/css/print-measure-bundle.css": "0f755afc1f4fcb986b646344e866b9ba7c3167ae2bf83591c6a80398e23723a3"
-  }
+    "assets/js/app-bundle.js": "62f3771edc0bc424d3c452b92c768398f2b79356350025a1df9e396968901acb",
+    "assets/css/app-bundle.css": "85f803fec7a85da7cc73a51c8cfa47a06fdf56a9161cfbf9e907715f898addd8",
+    "assets/css/print-measure-bundle.css": "d95e63c90e73122ad49aacda31a4b41569b3666f64bc9d0f50d0c4beced0b4c3"
+  },
+  "actualCellVerification": "verify_cells.py; Arabic/Latin runs tokenized separately to accommodate PDF extraction adjacency; every word and number compared per source cell."
 }

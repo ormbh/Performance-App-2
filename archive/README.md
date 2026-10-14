@@ -1,7 +1,8 @@
 # Archive
 
-[Earlier releases, previews and documentation](v118-v161/README.md) retain their original relative structure and file contents. The current app download is in the repository root.
+- [v162 clean app](v162/Performance-App-v162.zip) and [documentation](v162/docs/README.md).
+- [Earlier releases, previews and documentation](v118-v161/README.md).
+- [v163 readable development source](development/Performance-App-v163-source.zip).
+- [v162 readable development source](development/Performance-App-v162-source.zip).
 
-[v162 development source](development/Performance-App-v162-source.zip) includes readable source modules and the build tool. It is separate from the clean end-user package.
-
-The previous published repository remains accessible at commit `299732a15513c1449ea8ef1565407e082850a086`; commit-pinned links remain valid.
+The current clean app ZIP is in the repository root. Previous commit-pinned downloads remain valid; the v162 release commit is `c3ee46b1f472ba610a0eee8e2e75679a6ec78c85`.

@@ -1,0 +1,511 @@
+{
+  "verdict": "PASS",
+  "checks": [
+    {
+      "name": "all source records unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all ZIP CRC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all one summary slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all report title and one scoped total",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all actual scoped total",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all title right total left",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all full definitions and cohort status summaries retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all no separate metrics/completion summary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all source cohort charts reconcile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all all source project detail cards preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all leadership badges preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all populated sector retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all populated department retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all project manager retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all no duplicate leadership details",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all no visible repeated card number",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail group heading once per populated group",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all internal report numbering retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all leadership badge Mist fill and Teal border",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all all internal links resolve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native shape bounds fit slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit source records unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit ZIP CRC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit slide count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit one summary slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit report title and one scoped total",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit actual scoped total",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit title right total left",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit full definitions and cohort status summaries retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit no separate metrics/completion summary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit source cohort charts reconcile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit all source project detail cards preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit leadership badges preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit populated sector retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit populated department retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit project manager retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit no duplicate leadership details",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit no visible repeated card number",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit detail group heading once per populated group",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit internal report numbering retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit leadership badge Mist fill and Teal border",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit all internal links resolve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unit native shape bounds fit slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec source records unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec ZIP CRC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec slide count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec one summary slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec report title and one scoped total",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec actual scoped total",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec title right total left",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec full definitions and cohort status summaries retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec no separate metrics/completion summary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec source cohort charts reconcile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec all source project detail cards preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec leadership badges preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec populated sector retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec populated department retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec project manager retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec no duplicate leadership details",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec no visible repeated card number",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec detail group heading once per populated group",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec internal report numbering retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec leadership badge Mist fill and Teal border",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec all internal links resolve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "tec native shape bounds fit slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label source records unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label ZIP CRC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label slide count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label one summary slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label report title and one scoped total",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label actual scoped total",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label title right total left",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label full definitions and cohort status summaries retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label no separate metrics/completion summary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label source cohort charts reconcile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label all source project detail cards preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label leadership badges preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label populated sector retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label populated department retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label project manager retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label no duplicate leadership details",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label no visible repeated card number",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label detail group heading once per populated group",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label internal report numbering retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label leadership badge Mist fill and Teal border",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label unrelated leadership narrative retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label all internal links resolve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate-label native shape bounds fit slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no browser errors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no external requests",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "results": [
+    {
+      "name": "all",
+      "result": {
+        "slides": 72,
+        "charts": 2,
+        "counts": [
+          24.0,
+          38.0
+        ],
+        "records": 62
+      }
+    },
+    {
+      "name": "unit",
+      "result": {
+        "slides": 16,
+        "charts": 1,
+        "counts": [
+          11.0
+        ],
+        "records": 11
+      }
+    },
+    {
+      "name": "tec",
+      "result": {
+        "slides": 46,
+        "charts": 1,
+        "counts": [
+          38.0
+        ],
+        "records": 38
+      }
+    },
+    {
+      "name": "duplicate-label",
+      "result": {
+        "slides": 5,
+        "charts": 1,
+        "counts": [
+          1.0
+        ],
+        "records": 1
+      }
+    }
+  ],
+  "runtime": "v162 generated bundle",
+  "limits": [
+    "Native package/data/link/geometry verification; Office rendering unavailable."
+  ]
+}

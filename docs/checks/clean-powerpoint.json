@@ -1,8 +1,8 @@
 {
   "verdict": "PASS",
-  "runtime": "/workspace/saytara-work/v162-clean/Performance-App",
+  "runtime": "/workspace/saytara-work/v163-clean/Performance-App",
   "files": 26,
-  "jsHash": "c0be77d49aa5d55a73111b4071fd5404affb5180006d8c1c7dd667f766ed9d74",
+  "jsHash": "62f3771edc0bc424d3c452b92c768398f2b79356350025a1df9e396968901acb",
   "checks": [
     {
       "name": "agenda clean package actual download ZIP CRC",
@@ -153,11 +153,11 @@
       "fontFiles": 2,
       "lazy": [
         {
-          "path": "v162-clean/Performance-App/assets/js/reports/agenda-template.js",
+          "path": "v163-clean/Performance-App/assets/js/reports/agenda-template.js",
           "status": 200
         },
         {
-          "path": "v162-clean/Performance-App/assets/js/reports/agenda-fonts.js",
+          "path": "v163-clean/Performance-App/assets/js/reports/agenda-fonts.js",
           "status": 200
         }
       ],
@@ -170,11 +170,11 @@
       "fontFiles": 2,
       "lazy": [
         {
-          "path": "v162-clean/Performance-App/assets/js/reports/hh-template.js",
+          "path": "v163-clean/Performance-App/assets/js/reports/hh-template.js",
           "status": 200
         },
         {
-          "path": "v162-clean/Performance-App/assets/js/reports/agenda-fonts.js",
+          "path": "v163-clean/Performance-App/assets/js/reports/agenda-fonts.js",
           "status": 200
         }
       ],
@@ -183,19 +183,19 @@
     {
       "kind": "council",
       "sourceCount": 1,
-      "slides": 6,
+      "slides": 3,
       "fontFiles": 2,
       "lazy": [
         {
-          "path": "v162-clean/Performance-App/assets/js/reports/agenda-template.js",
+          "path": "v163-clean/Performance-App/assets/js/reports/agenda-template.js",
           "status": 200
         },
         {
-          "path": "v162-clean/Performance-App/assets/js/reports/agenda-fonts.js",
+          "path": "v163-clean/Performance-App/assets/js/reports/agenda-fonts.js",
           "status": 200
         }
       ],
-      "fileSha256": "4b7ec76fc3f9d815f61ea0bc49e3dad8f805689d50423320b6dc7ece5ef9a013"
+      "fileSha256": "570f7d157b0ac07ab2cf8083ee59f443bf427a5d9f6e30e3e501e68046fab88a"
     }
   ],
   "limits": [

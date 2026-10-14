@@ -1,0 +1,559 @@
+{
+  "version": 162,
+  "checks": [
+    {
+      "name": "hh-all actual pages match plan",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all record keys preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all source untouched",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all internal links resolve",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all no separate summary card in PDF",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all no repeated detail heading strips",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all leadership badges only for yes records",
+      "pass": true,
+      "details": {
+        "expected": 24,
+        "actual": 24
+      }
+    },
+    {
+      "name": "hh-all shared report-specific heading",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all overall total reflects filtered source",
+      "pass": true,
+      "details": {
+        "shown": "62",
+        "expected": 62
+      }
+    },
+    {
+      "name": "hh-all title right and total left",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all cohort totals unchanged",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all every contents entry links",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all header charts and legend fit one page",
+      "pass": true,
+      "details": 663.390625
+    },
+    {
+      "name": "hh-all retired summary metrics absent",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all actual PDF contains overall total and caption",
+      "pass": true,
+      "details": "المشاريع الخاصة62\nالإجمالي"
+    },
+    {
+      "name": "hh-all project rows link to detailed updates",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all printed contents pages match linked destinations",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all native PDF text within page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hh-all leadership badge stays whole on a page",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all actual native leadership badge has teal outline",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-all actual native leadership badge has mist fill",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership actual pages match plan",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership record keys preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership source untouched",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership internal links resolve",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership no separate summary card in PDF",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership no repeated detail heading strips",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership leadership badges only for yes records",
+      "pass": true,
+      "details": {
+        "expected": 24,
+        "actual": 24
+      }
+    },
+    {
+      "name": "hh-leadership shared report-specific heading",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership overall total reflects filtered source",
+      "pass": true,
+      "details": {
+        "shown": "24",
+        "expected": 24
+      }
+    },
+    {
+      "name": "hh-leadership title right and total left",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership cohort totals unchanged",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership every contents entry links",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership header charts and legend fit one page",
+      "pass": true,
+      "details": 600.96875
+    },
+    {
+      "name": "hh-leadership retired summary metrics absent",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership actual PDF contains overall total and caption",
+      "pass": true,
+      "details": "المشاريع الخاصة24\nالإجمالي"
+    },
+    {
+      "name": "hh-leadership project rows link to detailed updates",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership printed contents pages match linked destinations",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership native PDF text within page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hh-leadership leadership badge stays whole on a page",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership actual native leadership badge has teal outline",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-leadership actual native leadership badge has mist fill",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec actual pages match plan",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec record keys preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec source untouched",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec internal links resolve",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec no separate summary card in PDF",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec no repeated detail heading strips",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec leadership badges only for yes records",
+      "pass": true,
+      "details": {
+        "expected": 0,
+        "actual": 0
+      }
+    },
+    {
+      "name": "hh-tec shared report-specific heading",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec overall total reflects filtered source",
+      "pass": true,
+      "details": {
+        "shown": "38",
+        "expected": 38
+      }
+    },
+    {
+      "name": "hh-tec title right and total left",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec cohort totals unchanged",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec every contents entry links",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec header charts and legend fit one page",
+      "pass": true,
+      "details": 653.390625
+    },
+    {
+      "name": "hh-tec retired summary metrics absent",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec actual PDF contains overall total and caption",
+      "pass": true,
+      "details": "المشاريع الخاصة38\nالإجمالي"
+    },
+    {
+      "name": "hh-tec project rows link to detailed updates",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec printed contents pages match linked destinations",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-tec native PDF text within page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hh-single actual pages match plan",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-single record keys preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-single source untouched",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-single internal links resolve",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-single no separate summary card in PDF",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-single no repeated detail heading strips",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-single leadership badges only for yes records",
+      "pass": true,
+      "details": {
+        "expected": 0,
+        "actual": 0
+      }
+    },
+    {
+      "name": "hh-single shared report-specific heading",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-single overall total reflects filtered source",
+      "pass": true,
+      "details": {
+        "shown": "6",
+        "expected": 6
+      }
+    },
+    {
+      "name": "hh-single title right and total left",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-single cohort totals unchanged",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-single every contents entry links",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-single header charts and legend fit one page",
+      "pass": true,
+      "details": 453.96875
+    },
+    {
+      "name": "hh-single retired summary metrics absent",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-single actual PDF contains overall total and caption",
+      "pass": true,
+      "details": "المشاريع الخاصة6\nالإجمالي"
+    },
+    {
+      "name": "hh-single project rows link to detailed updates",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-single printed contents pages match linked destinations",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-single native PDF text within page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "hh-empty actual pages match plan",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-empty record keys preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-empty source untouched",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-empty internal links resolve",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-empty no separate summary card in PDF",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-empty no repeated detail heading strips",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-empty leadership badges only for yes records",
+      "pass": true,
+      "details": {
+        "expected": 0,
+        "actual": 0
+      }
+    },
+    {
+      "name": "hh-empty empty scope cover plus one message",
+      "pass": true,
+      "details": 2
+    },
+    {
+      "name": "hh-empty empty scope no contents chart header or legend",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "hh-empty native PDF text within page bounds",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "No runtime errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "No external requests",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "pdfs": [
+    {
+      "name": "hh-all",
+      "pages": 71,
+      "sourceTotal": 62,
+      "cohorts": [
+        {
+          "cohort": "leadership",
+          "total": 24
+        },
+        {
+          "cohort": "tec",
+          "total": 38
+        }
+      ],
+      "links": 128,
+      "sha256": "1515ee5765aeaa5f27a57751d8c9561aaa79f0ec043c5d6ddac0f9840fa93abb"
+    },
+    {
+      "name": "hh-leadership",
+      "pages": 30,
+      "sourceTotal": 24,
+      "cohorts": [
+        {
+          "cohort": "leadership",
+          "total": 24
+        }
+      ],
+      "links": 52,
+      "sha256": "7d45d0b751ce9b4faf8b99edbcff79260668041a17a39b3ada8bd7ad08e3299d"
+    },
+    {
+      "name": "hh-tec",
+      "pages": 45,
+      "sourceTotal": 38,
+      "cohorts": [
+        {
+          "cohort": "tec",
+          "total": 38
+        }
+      ],
+      "links": 80,
+      "sha256": "d2420a84df5913b5f4afe576ce7be0d3120f7c11be91ed55e71b6920aafaee48"
+    },
+    {
+      "name": "hh-single",
+      "pages": 10,
+      "sourceTotal": 6,
+      "cohorts": [
+        {
+          "cohort": "tec",
+          "total": 6
+        }
+      ],
+      "links": 16,
+      "sha256": "1bf90db8144296696ef7c55219a14575f4ec5fe1f6c9d0277caca2fa1cd03fdd"
+    },
+    {
+      "name": "hh-empty",
+      "pages": 2,
+      "sourceTotal": 0,
+      "cohorts": [],
+      "links": 0,
+      "sha256": "4055078c35adb4464ed7584cccb7067b57b350e93d8a7281214ef8c2c533bce3"
+    }
+  ],
+  "verdict": "PASS",
+  "loadedAssetHashes": {
+    "app-bundle.css": "4f8e123903da49cc579768720ae8970a93b2ebaa7dc47e1b9e81c428b1d7fcfb",
+    "app-bundle.js": "c0be77d49aa5d55a73111b4071fd5404affb5180006d8c1c7dd667f766ed9d74",
+    "print-measure-bundle.css": "0f755afc1f4fcb986b646344e866b9ba7c3167ae2bf83591c6a80398e23723a3"
+  },
+  "testedBuildHashes": {
+    "assets/js/app-bundle.js": "c0be77d49aa5d55a73111b4071fd5404affb5180006d8c1c7dd667f766ed9d74",
+    "assets/css/app-bundle.css": "4f8e123903da49cc579768720ae8970a93b2ebaa7dc47e1b9e81c428b1d7fcfb",
+    "assets/css/print-measure-bundle.css": "0f755afc1f4fcb986b646344e866b9ba7c3167ae2bf83591c6a80398e23723a3"
+  }
+}
