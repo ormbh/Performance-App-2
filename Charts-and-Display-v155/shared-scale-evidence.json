@@ -1,0 +1,21 @@
+{
+  "verdict": "PASS",
+  "checks": [
+    {
+      "name": "native agenda paired scale/viewBox/baseline equality",
+      "pass": true
+    }
+  ],
+  "pixelsPerCount": [
+    2.739326808763587,
+    2.7393310546875
+  ],
+  "baselines": [
+    1168.854248046875,
+    1168.854248046875
+  ],
+  "viewBoxes": [
+    "0 0 799.7622680664062 346.7100553512573",
+    "0 0 799.7622680664062 346.7100553512573"
+  ]
+}

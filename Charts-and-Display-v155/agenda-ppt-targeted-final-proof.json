@@ -1,0 +1,33 @@
+{
+  "proof": "Actual export from final app bundle without source injection",
+  "output": "/workspace/saytara-work/agenda155-ppt-qa/final-bundle/agenda-v155-all.pptx",
+  "pptxSha256": "13e96f17c22cb1771bd18e3fcd4ae3e87b7907f3777b4f6a83e63eaf0297ae43",
+  "appBundleSha256": "b1882c6e9178ab9aee3cab4b6ee4eb18f0b76f980a7c41a5518ef86ec2541205",
+  "agendaModuleSha256": "960a76468b5c3d9be4d13b634dea57f9ae6aa9c2591c6338aa389e3f75acaa3f",
+  "targetedMatrixChecks": [
+    {
+      "slide": "ppt/slides/slide3.xml",
+      "cohort": "الأجندة المعتمدة",
+      "bottomLeftTotal": "blank",
+      "zeroDashes": "neutral Ink",
+      "statusLabelsAndPositiveCounts": "shared canonical text colors",
+      "quarterTotals": "preserved"
+    },
+    {
+      "slide": "ppt/slides/slide4.xml",
+      "cohort": "المواضيع المستجدة",
+      "bottomLeftTotal": "blank",
+      "zeroDashes": "neutral Ink",
+      "statusLabelsAndPositiveCounts": "shared canonical text colors",
+      "quarterTotals": "preserved"
+    }
+  ],
+  "sourceTotal": 117,
+  "cohortTotals": [
+    100,
+    17
+  ],
+  "sourceUnchanged": true,
+  "nativeStructureChecks": "structure-checks.json",
+  "PowerPointVisualRendering": "Not run; PowerPoint/LibreOffice unavailable"
+}

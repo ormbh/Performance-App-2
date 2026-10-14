@@ -1,0 +1,181 @@
+{
+  "dashboard": {
+    "placeholders": [],
+    "zero": [],
+    "ready": [
+      {
+        "text": "جاهز للعرض",
+        "color": "rgb(17, 94, 103)",
+        "inBadge": false,
+        "html": "<span class=\"wb-stat-label\">جاهز للعرض</span>",
+        "parent": "<button type=\"button\" class=\"wb-stat-main\" data-act=\"drill\" data-metric=\"agendaReady\" aria-description=\"يفتح المواضيع المطابقة في علامة تبويب جديدة\" data-tip=\"t13\" aria-label=\"جاهز للعرض: 16 · يفتح في علامة تبويب جديدة\" title=\"جاهز للعرض: 16 · يفتح في علامة تبويب جديدة\"><span class=\"wb-stat-label\">جاهز للعرض</span><strong>16</strong></button>"
+      }
+    ]
+  },
+  "results": {
+    "placeholders": [],
+    "zero": [],
+    "ready": []
+  },
+  "projects": {
+    "placeholders": [],
+    "zero": [],
+    "ready": []
+  },
+  "entities": {
+    "placeholders": [],
+    "zero": [],
+    "ready": [
+      {
+        "text": "جاهز للعرض",
+        "color": "rgb(17, 94, 103)",
+        "inBadge": false,
+        "html": "<span style=\"color:#115E67 !important\">جاهز للعرض</span>",
+        "parent": "<p>الأجندة_السنوية · صف 111 · الحالة المسجلة: <span style=\"color:#115E67 !important\">جاهز للعرض</span></p>"
+      },
+      {
+        "text": "جاهز للعرض",
+        "color": "rgb(17, 94, 103)",
+        "inBadge": false,
+        "html": "<span style=\"color:#115E67 !important\">جاهز للعرض</span>",
+        "parent": "<p>الأجندة_السنوية · صف 90 · الحالة المسجلة: <span style=\"color:#115E67 !important\">جاهز للعرض</span></p>"
+      },
+      {
+        "text": "جاهز للعرض",
+        "color": "rgb(17, 94, 103)",
+        "inBadge": false,
+        "html": "<span style=\"color:#115E67 !important\">جاهز للعرض</span>",
+        "parent": "<p>الأجندة_السنوية · صف 99 · الحالة المسجلة: <span style=\"color:#115E67 !important\">جاهز للعرض</span></p>"
+      },
+      {
+        "text": "جاهز للعرض",
+        "color": "rgb(17, 94, 103)",
+        "inBadge": false,
+        "html": "<span style=\"color:#115E67 !important\">جاهز للعرض</span>",
+        "parent": "<button type=\"button\" class=\"is-open\" aria-label=\"الأجندة المعتمدة · جاهز للعرض · عدد المواضيع: 2 · يفتح في علامة تبويب جديدة\" data-act=\"entity-focus\" data-mode=\"records\" data-kind=\"portfolio:agenda:delivery-ready\" aria-description=\"يفتح النتائج المطابقة في علامة تبويب جديدة\" title=\"الأجندة المعتمدة · جاهز للعرض · عدد المواضيع: 2 · يفتح في علامة تبويب جديدة\"><span style=\"color:#115E67 !important\">جاهز للعرض</span><strong style=\"color:#115E67 !important\">2</strong></button>"
+      },
+      {
+        "text": "جاهز للعرض",
+        "color": "rgb(17, 94, 103)",
+        "inBadge": false,
+        "html": "<span class=\"entity-status-name\" style=\"color:#115E67 !important\">جاهز للعرض</span>",
+        "parent": "<button type=\"button\" class=\"entity-status-row\" data-act=\"entity-focus\" data-mode=\"records\" data-area=\"agenda\" data-status=\"جاهز للعرض\" aria-description=\"يفتح النتائج المطابقة في علامة تبويب جديدة\" aria-label=\"جاهز للعرض10 · يفتح في علامة تبويب جديدة\" title=\"جاهز للعرض10 · يفتح في علامة تبويب جديدة\"><span class=\"entity-status-name\" style=\"color:#115E67 !important\">جاهز للعرض</span><strong style=\"color:#115E67 !important\">10</strong><span class=\"entity-status-track\" aria-hidden=\"true\"><i style=\"width:10%;background:#115E67;border:1px solid #115E67\"></i></span></button>"
+      },
+      {
+        "text": "جاهز للعرض",
+        "color": "rgb(17, 94, 103)",
+        "inBadge": false,
+        "html": "<span style=\"color:#115E67 !important\">جاهز للعرض</span>",
+        "parent": "<button type=\"button\" class=\"is-open\" aria-label=\"مستجدات الأجندة · جاهز للعرض · عدد المواضيع: 4 · يفتح في علامة تبويب جديدة\" data-act=\"entity-focus\" data-mode=\"records\" data-kind=\"portfolio:agendaNew:delivery-ready\" aria-description=\"يفتح النتائج المطابقة في علامة تبويب جديدة\" title=\"مستجدات الأجندة · جاهز للعرض · عدد المواضيع: 4 · يفتح في علامة تبويب جديدة\"><span style=\"color:#115E67 !important\">جاهز للعرض</span><strong style=\"color:#115E67 !important\">4</strong></button>"
+      },
+      {
+        "text": "جاهز للعرض",
+        "color": "rgb(17, 94, 103)",
+        "inBadge": false,
+        "html": "<span class=\"entity-status-name\" style=\"color:#115E67 !important\">جاهز للعرض</span>",
+        "parent": "<button type=\"button\" class=\"entity-status-row\" data-act=\"entity-focus\" data-mode=\"records\" data-area=\"agendaNew\" data-status=\"جاهز للعرض\" aria-description=\"يفتح النتائج المطابقة في علامة تبويب جديدة\" aria-label=\"جاهز للعرض6 · يفتح في علامة تبويب جديدة\" title=\"جاهز للعرض6 · يفتح في علامة تبويب جديدة\"><span class=\"entity-status-name\" style=\"color:#115E67 !important\">جاهز للعرض</span><strong style=\"color:#115E67 !important\">6</strong><span class=\"entity-status-track\" aria-hidden=\"true\"><i style=\"width:35.294117647058826%;background:#115E67;border:1px solid #115E67\"></i></span></button>"
+      }
+    ]
+  },
+  "comparison": {
+    "placeholders": [],
+    "zero": [],
+    "ready": []
+  },
+  "checks": {
+    "placeholders": [],
+    "zero": [],
+    "ready": []
+  },
+  "checksRawEvidence": {
+    "cells": [
+      {
+        "shown": "-",
+        "raw": "0%",
+        "title": "0%"
+      },
+      {
+        "shown": "-",
+        "raw": "0%",
+        "title": "0%"
+      },
+      {
+        "shown": "-",
+        "raw": "0%",
+        "title": "0%"
+      },
+      {
+        "shown": "-",
+        "raw": "0%",
+        "title": "0%"
+      },
+      {
+        "shown": "-",
+        "raw": "0%",
+        "title": "0%"
+      },
+      {
+        "shown": "-",
+        "raw": "0%",
+        "title": "0%"
+      },
+      {
+        "shown": "-",
+        "raw": "0%",
+        "title": "0%"
+      },
+      {
+        "shown": "-",
+        "raw": "0%",
+        "title": "0%"
+      },
+      {
+        "shown": "-",
+        "raw": "0%",
+        "title": "0%"
+      },
+      {
+        "shown": "-",
+        "raw": "0%",
+        "title": "0%"
+      }
+    ],
+    "unchanged": true
+  },
+  "monthlyReady": [
+    {
+      "label": "جاهز للعرض",
+      "count": "16",
+      "labelColor": "rgb(17, 94, 103)",
+      "countColor": "rgb(17, 94, 103)"
+    },
+    {
+      "label": null,
+      "count": "16",
+      "labelColor": "rgb(17, 94, 103)",
+      "countColor": "rgb(17, 94, 103)"
+    }
+  ],
+  "syntheticCompletion": "<div class=\"wb-apple-meter\" role=\"img\" aria-label=\"نسبة المنجز 0%\"><span class=\"apple-fill-complete\" style=\"width:0%\"></span></div><p class=\"wb-meter-caption\" data-completion-total=\"agendaTotal\" data-completion-parts=\"agendaDone\"><span>نسبة المنجز</span><bdi dir=\"ltr\">-</bdi></p>",
+  "detail": {
+    "ready": {
+      "key": "agenda-2",
+      "status": "جاهز للعرض",
+      "statusColor": "rgb(17, 94, 103)",
+      "progress": null,
+      "badgeColor": "rgb(252, 251, 251)",
+      "sourceProgress": null
+    },
+    "zero": {
+      "key": "special-9",
+      "status": "قيد التطوير",
+      "statusColor": "rgb(79, 78, 78)",
+      "progress": "-",
+      "badgeColor": null,
+      "sourceProgress": 0
+    }
+  },
+  "rawSourceFieldsUnchanged": true,
+  "sourceMode": "Current source modules injected after workbook loading; integration bundle verified separately by root QA.",
+  "verdict": "PASS"
+}

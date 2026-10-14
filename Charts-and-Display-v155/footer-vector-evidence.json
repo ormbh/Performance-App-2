@@ -1,0 +1,46 @@
+{
+  "checks": [
+    {
+      "name": "hh-final/hh-all.pdf coverfooter and content pagecounter",
+      "pass": true
+    },
+    {
+      "name": "hh-final/hh-all.pdf native vector chart, no chart raster image",
+      "pass": true,
+      "drawings": 84,
+      "images": 0
+    },
+    {
+      "name": "hh-final/hh-tec-only.pdf coverfooter and content pagecounter",
+      "pass": true
+    },
+    {
+      "name": "hh-final/hh-tec-only.pdf native vector chart, no chart raster image",
+      "pass": true,
+      "drawings": 61,
+      "images": 0
+    },
+    {
+      "name": "agenda-final3/agenda-all.pdf coverfooter and content pagecounter",
+      "pass": true
+    },
+    {
+      "name": "agenda-final3/agenda-all.pdf native vector chart, no chart raster image",
+      "pass": true,
+      "drawings": 68,
+      "images": 0
+    },
+    {
+      "name": "agenda-final3/agenda-emerging-only.pdf coverfooter and content pagecounter",
+      "pass": true
+    },
+    {
+      "name": "agenda-final3/agenda-emerging-only.pdf native vector chart, no chart raster image",
+      "pass": true,
+      "drawings": 16,
+      "images": 0
+    }
+  ],
+  "issues": [],
+  "verdict": "PASS"
+}

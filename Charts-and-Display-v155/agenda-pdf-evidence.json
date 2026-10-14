@@ -1,0 +1,114 @@
+{
+  "version": 155,
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "illustrative": true
+  },
+  "checks": [
+    {
+      "name": "agenda-all page plan exact",
+      "pass": true
+    },
+    {
+      "name": "agenda-all A4 landscape",
+      "pass": true
+    },
+    {
+      "name": "agenda-all actual native text inside page bounds",
+      "pass": true
+    },
+    {
+      "name": "agenda-all chart whole on one page",
+      "pass": true
+    },
+    {
+      "name": "agenda-all definitions whole on one page",
+      "pass": true
+    },
+    {
+      "name": "agenda-all chart and definitions on same page",
+      "pass": true
+    },
+    {
+      "name": "agenda-all native chart operations retained",
+      "pass": true
+    },
+    {
+      "name": "agenda-all PDF has aggregate status totals",
+      "pass": true
+    },
+    {
+      "name": "agenda-emerging-only page plan exact",
+      "pass": true
+    },
+    {
+      "name": "agenda-emerging-only A4 landscape",
+      "pass": true
+    },
+    {
+      "name": "agenda-emerging-only actual native text inside page bounds",
+      "pass": true
+    },
+    {
+      "name": "agenda-emerging-only chart whole on one page",
+      "pass": true
+    },
+    {
+      "name": "agenda-emerging-only definitions whole on one page",
+      "pass": true
+    },
+    {
+      "name": "agenda-emerging-only chart and definitions on same page",
+      "pass": true
+    },
+    {
+      "name": "agenda-emerging-only native chart operations retained",
+      "pass": true
+    },
+    {
+      "name": "agenda-emerging-only PDF has aggregate status totals",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screens": [],
+  "pdfs": [
+    {
+      "name": "agenda-all",
+      "pages": 16,
+      "sha256": "1578d68c42dde16e863e042cd44afdfe135ab84b3fd88b7c6c05ce8040791232",
+      "chartPages": [
+        1
+      ],
+      "definitionPages": [
+        1
+      ],
+      "nativeSVGs": 34
+    },
+    {
+      "name": "agenda-emerging-only",
+      "pages": 4,
+      "sha256": "49190340cb23947ce5f26a634f83cdf85ba3f70f72e3b663e00795a6443951f1",
+      "chartPages": [
+        1
+      ],
+      "definitionPages": [
+        1
+      ],
+      "nativeSVGs": 4
+    }
+  ],
+  "loadedAssetHashes": {
+    "app-bundle.css": "cc507a72c51076c6ad01fd5b721481f619a3aff71eaa8f138e3f6c56fe0a95d3",
+    "app-bundle.js": "549d2616a061351b55ea8d3c656b1490648ea21538375c184c37cff5b5f46886",
+    "print-measure-bundle.css": "6d73857902cbed611e327de2fa24df9ed9eebce3811edef5aeb2bc3a0eb2e904"
+  },
+  "verdict": "PASS"
+}

@@ -1,0 +1,111 @@
+{
+  "version": 155,
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "illustrative": true
+  },
+  "checks": [
+    {
+      "name": "HH source missing progress table cells blank",
+      "pass": true
+    },
+    {
+      "name": "Monthly Ready labels and counts Teal",
+      "pass": true
+    },
+    {
+      "name": "Synthetic single record max1 at1440 all axis/inbar/total text within SVG",
+      "pass": true
+    },
+    {
+      "name": "Synthetic single record max1 at768 all axis/inbar/total text within SVG",
+      "pass": true
+    },
+    {
+      "name": "Synthetic single record max1 at390 all axis/inbar/total text within SVG",
+      "pass": true
+    },
+    {
+      "name": "Synthetic single record max1 at320 all axis/inbar/total text within SVG",
+      "pass": true
+    },
+    {
+      "name": "synthetic DOM-only chart leaves all workbook rows unchanged",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screens": [],
+  "pdfs": [],
+  "loadedAssetHashes": {
+    "app-bundle.css": "cc507a72c51076c6ad01fd5b721481f619a3aff71eaa8f138e3f6c56fe0a95d3",
+    "app-bundle.js": "549d2616a061351b55ea8d3c656b1490648ea21538375c184c37cff5b5f46886",
+    "print-measure-bundle.css": "6d73857902cbed611e327de2fa24df9ed9eebce3811edef5aeb2bc3a0eb2e904"
+  },
+  "scopes": {
+    "missingProgress": [
+      {
+        "key": "special-35",
+        "cell": ""
+      },
+      {
+        "key": "special-39",
+        "cell": ""
+      },
+      {
+        "key": "special-34",
+        "cell": ""
+      },
+      {
+        "key": "special-38",
+        "cell": ""
+      },
+      {
+        "key": "special-45",
+        "cell": ""
+      },
+      {
+        "key": "special-43",
+        "cell": ""
+      },
+      {
+        "key": "special-8",
+        "cell": ""
+      }
+    ],
+    "monthlyReady": [
+      {
+        "cls": "wb-stat  tec-status-text-ready",
+        "text": "جاهز للعرض16↑ +3",
+        "labels": [
+          {
+            "text": "جاهز للعرض",
+            "color": "rgb(17, 94, 103)"
+          },
+          {
+            "text": "16",
+            "color": "rgb(17, 94, 103)"
+          }
+        ]
+      },
+      {
+        "cls": "mp-metric  tec-status-text-ready",
+        "text": "جاهز للعرض16↑ +3",
+        "labels": [
+          {
+            "text": "جاهز للعرض",
+            "color": "rgb(17, 94, 103)"
+          },
+          {
+            "text": "16",
+            "color": "rgb(17, 94, 103)"
+          }
+        ]
+      }
+    ]
+  },
+  "verdict": "PASS"
+}

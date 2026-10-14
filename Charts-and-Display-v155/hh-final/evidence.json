@@ -1,0 +1,122 @@
+{
+  "version": 155,
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "illustrative": true
+  },
+  "checks": [
+    {
+      "name": "hh-all page plan exact",
+      "pass": true
+    },
+    {
+      "name": "hh-all A4 landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all actual native text inside page bounds",
+      "pass": true
+    },
+    {
+      "name": "hh-all chart whole on one page",
+      "pass": true
+    },
+    {
+      "name": "hh-all definitions whole on one page",
+      "pass": true
+    },
+    {
+      "name": "hh-all chart and definitions on same page",
+      "pass": true
+    },
+    {
+      "name": "hh-all native chart operations retained",
+      "pass": true
+    },
+    {
+      "name": "hh-all PDF has aggregate status totals",
+      "pass": true
+    },
+    {
+      "name": "hh-all every fixture count fits visibly inside its true bar",
+      "pass": true
+    },
+    {
+      "name": "hh-tec-only page plan exact",
+      "pass": true
+    },
+    {
+      "name": "hh-tec-only A4 landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-tec-only actual native text inside page bounds",
+      "pass": true
+    },
+    {
+      "name": "hh-tec-only chart whole on one page",
+      "pass": true
+    },
+    {
+      "name": "hh-tec-only definitions whole on one page",
+      "pass": true
+    },
+    {
+      "name": "hh-tec-only chart and definitions on same page",
+      "pass": true
+    },
+    {
+      "name": "hh-tec-only native chart operations retained",
+      "pass": true
+    },
+    {
+      "name": "hh-tec-only PDF has aggregate status totals",
+      "pass": true
+    },
+    {
+      "name": "hh-tec-only every fixture count fits visibly inside its true bar",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screens": [],
+  "pdfs": [
+    {
+      "name": "hh-all",
+      "pages": 72,
+      "sha256": "89dad87fe7efb4a09713ec8b18226a14353e650d3b76b5d1b1b5224c7b8d9f2d",
+      "chartPages": [
+        1
+      ],
+      "definitionPages": [
+        1
+      ],
+      "nativeSVGs": 0
+    },
+    {
+      "name": "hh-tec-only",
+      "pages": 46,
+      "sha256": "c40262f0a4c02161ff5bd32e36d41d985e26823260e2dc827b137b83210d976d",
+      "chartPages": [
+        1
+      ],
+      "definitionPages": [
+        1
+      ],
+      "nativeSVGs": 0
+    }
+  ],
+  "loadedAssetHashes": {
+    "app-bundle.css": "cc507a72c51076c6ad01fd5b721481f619a3aff71eaa8f138e3f6c56fe0a95d3",
+    "app-bundle.js": "b763219e771abff858017d36c659dcb756bf0ebf37f9917b4a2ab85f98987201",
+    "print-measure-bundle.css": "6d73857902cbed611e327de2fa24df9ed9eebce3811edef5aeb2bc3a0eb2e904"
+  },
+  "verdict": "PASS"
+}

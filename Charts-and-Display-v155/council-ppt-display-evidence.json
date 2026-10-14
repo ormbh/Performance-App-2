@@ -1,0 +1,96 @@
+{
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "illustrative": true
+  },
+  "representative": {
+    "chartValues": [
+      5,
+      26,
+      38,
+      1
+    ],
+    "legendColors": {
+      "قيد المراجعة": "4F4E4E",
+      "قيد التطوير": "4F4E4E",
+      "منجز": "01831E",
+      "بدون حالة": "4F4E4E"
+    },
+    "rawNumericCachesPreserved": true,
+    "nativeWorkbookValues": [
+      5,
+      26,
+      38,
+      1
+    ],
+    "axisZeroDashAndNumericCacheFormatIntact": true,
+    "generatedMissingBlank": true,
+    "zeroMetricDashPresent": true,
+    "slides": 47
+  },
+  "syntheticReady": {
+    "chartValues": [
+      5,
+      26,
+      37,
+      1,
+      1
+    ],
+    "legendColors": {
+      "قيد المراجعة": "4F4E4E",
+      "قيد التطوير": "4F4E4E",
+      "منجز": "01831E",
+      "جاهز للعرض": "115E67",
+      "بدون حالة": "4F4E4E"
+    },
+    "rawNumericCachesPreserved": true,
+    "nativeWorkbookValues": [
+      5,
+      26,
+      37,
+      1,
+      1
+    ],
+    "axisZeroDashAndNumericCacheFormatIntact": true,
+    "generatedMissingBlank": true,
+    "zeroMetricDashPresent": true,
+    "slides": 47
+  },
+  "sourceUnchanged": true,
+  "mobileFilterFix": [
+    {
+      "width": 390,
+      "doc": 390,
+      "buttons": [
+        {
+          "left": 203.515625,
+          "right": 348,
+          "width": 144.484375
+        },
+        {
+          "left": 42,
+          "right": 195.515625,
+          "width": 153.515625
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "doc": 320,
+      "buttons": [
+        {
+          "left": 42,
+          "right": 278,
+          "width": 236
+        },
+        {
+          "left": 42,
+          "right": 278,
+          "width": 236
+        }
+      ]
+    }
+  ],
+  "renderedPowerPoint": "not run: LibreOffice/PowerPoint unavailable"
+}

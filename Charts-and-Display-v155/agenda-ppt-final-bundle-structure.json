@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "scope": "all",
+      "total": 117,
+      "cohorts": [
+        100,
+        17
+      ],
+      "nativeCharts": 2,
+      "embeddedWorkbooks": 2,
+      "slides": 17,
+      "recordTables": 12,
+      "nativeObjectBounds": "pass",
+      "cacheWorkbookSourceReconciliation": "pass",
+      "labels12ptCentered": "pass",
+      "tinyLabelsSuppressedWithoutInflation": "pass",
+      "sourceUnchanged": true,
+      "renderer": "not run: PowerPoint and LibreOffice are unavailable"
+    }
+  ],
+  "pageErrors": [],
+  "sourceSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "moduleSha256": "960a76468b5c3d9be4d13b634dea57f9ae6aa9c2591c6338aa389e3f75acaa3f"
+}

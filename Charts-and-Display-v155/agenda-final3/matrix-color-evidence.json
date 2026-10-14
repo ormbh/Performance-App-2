@@ -1,0 +1,202 @@
+{
+  "checks": [
+    {
+      "name": "agenda-all.pdf page3 جاهز للعرض label/positivecounts statuscolor,zero dashneutral",
+      "pass": true
+    },
+    {
+      "name": "agenda-all.pdf page3 منجز label/positivecounts statuscolor,zero dashneutral",
+      "pass": true
+    },
+    {
+      "name": "agenda-all.pdf page4 جاهز للعرض label/positivecounts statuscolor,zero dashneutral",
+      "pass": true
+    },
+    {
+      "name": "agenda-all.pdf page4 منجز label/positivecounts statuscolor,zero dashneutral",
+      "pass": true
+    },
+    {
+      "name": "agenda-emerging-only.pdf page3 جاهز للعرض label/positivecounts statuscolor,zero dashneutral",
+      "pass": true
+    },
+    {
+      "name": "agenda-emerging-only.pdf page3 منجز label/positivecounts statuscolor,zero dashneutral",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "spans": [
+    {
+      "file": "agenda-all.pdf",
+      "page": 3,
+      "status": "جاهز للعرض",
+      "values": [
+        {
+          "text": "جاهز للعرض",
+          "color": "0x115e67"
+        },
+        {
+          "text": "3",
+          "color": "0x115e67"
+        },
+        {
+          "text": "5",
+          "color": "0x115e67"
+        },
+        {
+          "text": "2",
+          "color": "0x115e67"
+        },
+        {
+          "text": "–",
+          "color": "0x4f4e4e"
+        },
+        {
+          "text": "10",
+          "color": "0x115e67"
+        }
+      ]
+    },
+    {
+      "file": "agenda-all.pdf",
+      "page": 3,
+      "status": "منجز",
+      "values": [
+        {
+          "text": "منجز",
+          "color": "0x1831e"
+        },
+        {
+          "text": "23",
+          "color": "0x1831e"
+        },
+        {
+          "text": "8",
+          "color": "0x1831e"
+        },
+        {
+          "text": "2",
+          "color": "0x1831e"
+        },
+        {
+          "text": "1",
+          "color": "0x1831e"
+        },
+        {
+          "text": "34",
+          "color": "0x1831e"
+        }
+      ]
+    },
+    {
+      "file": "agenda-all.pdf",
+      "page": 4,
+      "status": "جاهز للعرض",
+      "values": [
+        {
+          "text": "جاهز للعرض",
+          "color": "0x115e67"
+        },
+        {
+          "text": "2",
+          "color": "0x115e67"
+        },
+        {
+          "text": "–",
+          "color": "0x4f4e4e"
+        },
+        {
+          "text": "4",
+          "color": "0x115e67"
+        },
+        {
+          "text": "–",
+          "color": "0x4f4e4e"
+        },
+        {
+          "text": "6",
+          "color": "0x115e67"
+        }
+      ]
+    },
+    {
+      "file": "agenda-all.pdf",
+      "page": 4,
+      "status": "منجز",
+      "values": [
+        {
+          "text": "منجز",
+          "color": "0x1831e"
+        },
+        {
+          "text": "5",
+          "color": "0x1831e"
+        },
+        {
+          "text": "2",
+          "color": "0x1831e"
+        },
+        {
+          "text": "1",
+          "color": "0x1831e"
+        },
+        {
+          "text": "1",
+          "color": "0x1831e"
+        },
+        {
+          "text": "9",
+          "color": "0x1831e"
+        }
+      ]
+    },
+    {
+      "file": "agenda-emerging-only.pdf",
+      "page": 3,
+      "status": "جاهز للعرض",
+      "values": [
+        {
+          "text": "جاهز للعرض",
+          "color": "0x115e67"
+        },
+        {
+          "text": "–",
+          "color": "0x4f4e4e"
+        },
+        {
+          "text": "1",
+          "color": "0x115e67"
+        },
+        {
+          "text": "1",
+          "color": "0x115e67"
+        }
+      ]
+    },
+    {
+      "file": "agenda-emerging-only.pdf",
+      "page": 3,
+      "status": "منجز",
+      "values": [
+        {
+          "text": "منجز",
+          "color": "0x1831e"
+        },
+        {
+          "text": "1",
+          "color": "0x1831e"
+        },
+        {
+          "text": "–",
+          "color": "0x4f4e4e"
+        },
+        {
+          "text": "1",
+          "color": "0x1831e"
+        }
+      ]
+    }
+  ],
+  "verdict": "PASS"
+}

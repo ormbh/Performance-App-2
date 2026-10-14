@@ -1,12 +1,14 @@
-[HH illustration — revision 3](HH-Report-Concept-R3/README.md) · [Charts and legend](HH-Report-Concept-R3/charts-desktop.png) · [Review PDF](HH-Report-Concept-R3/TEC_HH_Report_Review_R3.pdf) · [Offline concept ZIP](TEC_HH_Report_Concept_R3.zip)
+# Performance App v155
 
-Empty sector rows and empty cohorts disappear. Totals sit beside each bar endpoint; individual status labels below bars are removed. Aggregate status totals and the detailed legend remain.
+[Download app — v155](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v155.zip) · [Updated TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles.zip) · [Revision 22](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-22.md) · [Applied previews](Charts-and-Display-v155/README.md) · [Verification](Saytara-Verification-v155.md)
 
-[Agenda in-bar illustration](Agenda-In-Bar-Concept/README.md) · [Charts and original definitions](Agenda-In-Bar-Concept/Agenda-In-Bar-Paired.png) · [Review PDF](Agenda-In-Bar-Concept/Agenda-In-Bar-A4-Landscape.pdf) · [Offline concept ZIP](TEC_Agenda_In_Bar_Concept.zip)
+The approved HH and agenda charts are applied to the app and native PDF exports. Empty HH rows/cohorts hide, totals follow bar endpoints, and readable counts appear inside proportional status segments. The original agenda definitions and exact count details remain available.
 
-Agenda counts appear inside proportional segments where they fit legibly. Exact small counts remain available in quarter details and the count matrices. Both examples use illustrative data and are **review only**. The current application remains **v154**.
+Shared display rules now apply across app views and report exports: zero metrics show a dash, generated missing-value placeholders are blank, and ready-status labels/counts use Teal. Source records and calculations are preserved. The TEC skill and principles are updated to Revision 22.
 
-# Performance App v154
+Extract the complete app ZIP and open **index.html**. No source workbook is included. Desktop, phone, filters and native PDF checks passed. PowerPoint structure/data were checked; Office rendering was unavailable.
+
+# Previous release — v154
 
 [Download app — v154](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v154.zip) · [Updated TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles.zip) · [Revision 21](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-21.md) · [Preview](Status-Consistency-v154/README.md) · [Verification](Saytara-Verification-v154.md)
 

@@ -1,0 +1,86 @@
+{
+  "verdict": "PASS",
+  "checkCount": 263,
+  "source": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "illustrative": true
+  },
+  "suites": [
+    {
+      "evidence": "ui-final3/evidence.json",
+      "verdict": "PASS",
+      "checks": 205,
+      "sha256": "047b80ed6a975e269ed6fe41ab46ec6b221e7f9221da504aa094a5b808ff76fc",
+      "loadedAssets": {
+        "app-bundle.css": "cc507a72c51076c6ad01fd5b721481f619a3aff71eaa8f138e3f6c56fe0a95d3",
+        "app-bundle.js": "549d2616a061351b55ea8d3c656b1490648ea21538375c184c37cff5b5f46886"
+      }
+    },
+    {
+      "evidence": "focused-final2/evidence.json",
+      "verdict": "PASS",
+      "checks": 7,
+      "sha256": "9245700141a9639c0deb45b5f568901e0381fc6c007409e48ad2ad97d4648fcc",
+      "loadedAssets": {
+        "app-bundle.css": "cc507a72c51076c6ad01fd5b721481f619a3aff71eaa8f138e3f6c56fe0a95d3",
+        "app-bundle.js": "549d2616a061351b55ea8d3c656b1490648ea21538375c184c37cff5b5f46886",
+        "print-measure-bundle.css": "6d73857902cbed611e327de2fa24df9ed9eebce3811edef5aeb2bc3a0eb2e904"
+      }
+    },
+    {
+      "evidence": "hh-final/evidence.json",
+      "verdict": "PASS",
+      "checks": 19,
+      "sha256": "957675af846273606c7b4a9f631891b4b395f6004f1e7fbe8e15bc3d5b23bfb1",
+      "loadedAssets": {
+        "app-bundle.css": "cc507a72c51076c6ad01fd5b721481f619a3aff71eaa8f138e3f6c56fe0a95d3",
+        "app-bundle.js": "b763219e771abff858017d36c659dcb756bf0ebf37f9917b4a2ab85f98987201",
+        "print-measure-bundle.css": "6d73857902cbed611e327de2fa24df9ed9eebce3811edef5aeb2bc3a0eb2e904"
+      }
+    },
+    {
+      "evidence": "agenda-final3/evidence.json",
+      "verdict": "PASS",
+      "checks": 17,
+      "sha256": "0750708e4eb50f7c944f15aab83a11a6ce425a1a5b33df70fdc219988bb7e7b1",
+      "loadedAssets": {
+        "app-bundle.css": "cc507a72c51076c6ad01fd5b721481f619a3aff71eaa8f138e3f6c56fe0a95d3",
+        "app-bundle.js": "549d2616a061351b55ea8d3c656b1490648ea21538375c184c37cff5b5f46886",
+        "print-measure-bundle.css": "6d73857902cbed611e327de2fa24df9ed9eebce3811edef5aeb2bc3a0eb2e904"
+      }
+    },
+    {
+      "evidence": "agenda-final3/matrix-color-evidence.json",
+      "verdict": "PASS",
+      "checks": 6,
+      "sha256": "c6b441354e1b75c74c46732be4932c57e18335d0be1bfa0c17fdd3db1e8eee5d",
+      "loadedAssets": null
+    },
+    {
+      "evidence": "footer-vector-evidence.json",
+      "verdict": "PASS",
+      "checks": 8,
+      "sha256": "a89483beb5f889742e666d2f1722a1476441c0cd5ca487eb435fcae863142726",
+      "loadedAssets": null
+    },
+    {
+      "evidence": "shared-scale-evidence.json",
+      "verdict": "PASS",
+      "checks": 1,
+      "sha256": "7a66f124723d3e907886d50f7471ec711161cea560e02f976a1036b2a8d023df",
+      "loadedAssets": null
+    }
+  ],
+  "notes": [
+    "Actual HTTP-loaded hashes are retained per suite; final source code after HH PDF verification changed only agenda headroom and native count-matrix colors, both independently rechecked.",
+    "No source workbook or application source edited by independent QA.",
+    "Earlier diagnostic/failed folders are superseded; only evidence linked in this index contributes to the final verdict.",
+    "A subsequent isolated PPTX bottom-left total-cell correction is covered by the export agent follow-up; it does not modify the verified UI/PDF modules."
+  ],
+  "runtimeHashesAtFinalUiPdfVerification": {
+    "assets/js/app-bundle.js": "549d2616a061351b55ea8d3c656b1490648ea21538375c184c37cff5b5f46886",
+    "assets/css/app-bundle.css": "cc507a72c51076c6ad01fd5b721481f619a3aff71eaa8f138e3f6c56fe0a95d3",
+    "assets/css/print-measure-bundle.css": "6d73857902cbed611e327de2fa24df9ed9eebce3811edef5aeb2bc3a0eb2e904"
+  }
+}

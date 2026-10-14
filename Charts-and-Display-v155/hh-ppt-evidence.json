@@ -1,0 +1,46 @@
+{
+  "module": "assets/js/reports/hh.js",
+  "moduleSha256": "52a45ce4f4034ae97674c602d3bfb284f57aa836a6c7f97b2a36f0efa0127da9",
+  "exports": [
+    {
+      "path": "/workspace/saytara-work/v155-export-qa/hh-all.pptx",
+      "sha256": "ee427c5bb3810df5210026ba0f55e5092e0eda165f6040f025983bd0e97171c5",
+      "sourceUnchanged": true,
+      "chartCachesReconciled": true,
+      "visibleStandaloneZeros": 0,
+      "visibleExactMissingPlaceholder": 0,
+      "chartSlide": 2,
+      "cohortTotals": [
+        24,
+        38
+      ]
+    },
+    {
+      "path": "/workspace/saytara-work/v155-export-qa/hh-tec.pptx",
+      "sha256": "bd8acdcb7df75bc7188975f5f7fed0a0eff2319a0851bad868edc665edacc8c0",
+      "sourceUnchanged": true,
+      "chartCachesReconciled": true,
+      "visibleStandaloneZeros": 0,
+      "visibleExactMissingPlaceholder": 0,
+      "chartSlide": 2,
+      "cohortTotals": [
+        38
+      ]
+    },
+    {
+      "path": "/workspace/saytara-work/v155-export-qa/hh-leadership.pptx",
+      "sha256": "7e7ee1dedfb030692386cbb1672d681106391cf7b73a7ae5b54ced2df058ef58",
+      "sourceUnchanged": true,
+      "chartCachesReconciled": true,
+      "visibleStandaloneZeros": 0,
+      "visibleExactMissingPlaceholder": 0,
+      "chartSlide": 2,
+      "cohortTotals": [
+        24
+      ]
+    }
+  ],
+  "notRun": [
+    "Native PowerPoint rendering/editing; no renderer/native application installed."
+  ]
+}

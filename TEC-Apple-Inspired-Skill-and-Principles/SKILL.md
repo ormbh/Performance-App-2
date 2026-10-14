@@ -7,7 +7,7 @@ description: Standardize TEC and Saytara dashboards and related interfaces using
 
 Use a consistent, restrained design approach across the TEC app: clear hierarchy, readable information, deliberate spacing and predictable interactions. Preserve TEC identity and the meaning of the data.
 
-**Edition:** 13 October 2026. Revision 21: consolidates approved decisions through v154, including one shared status palette and agenda status totals with explicit quarter activation. This is design guidance; publishing or installing it does not change the app.
+**Edition:** 14 October 2026. Revision 22: consolidates approved decisions for v155, including HH cohort charts, readable in-bar counts, source-card cleanup and shared zero/missing/ready-text presentation. This is design guidance; publishing or installing it does not change the app.
 
 Read [TEC Apple-Inspired Design Principles](references/TEC-Apple-Inspired-Design-Principles.md) before using this skill. It contains the current tokens, component rules, monthly exceptions and PDF profiles. Both files form one self-contained skill package.
 
@@ -22,6 +22,7 @@ Read [TEC Apple-Inspired Design Principles](references/TEC-Apple-Inspired-Design
 ## 2. Preserve TEC identity
 
 - Reuse the supplied logo and actual approved Dubai and DIN font files. Preserve the logo's proportions and clear space. Do not redraw it or substitute SF Pro, SF Arabic, Helvetica or generic system fonts for delivery.
+- Plain **جاهز للعرض** labels and counts use Teal; completed uses Green and late uses Red. Text inside filled badges or chart marks uses the approved contrasting ink, including Paper on Teal.
 - Apply the exact color roles in the principles document. Use one status appearance mapping across badges, chart marks, legends and exports. Match status fill, readable ink and border; do not maintain a separate legacy chart-status palette. Keep unrelated financial, quantity and coverage colors in their own roles.
 - Use Apple-inspired hierarchy, restraint and usable interaction. This is the project's adaptation, not an official Apple or TEC brand manual or a claim of platform certification.
 - Use approved solid surfaces, modest radii and restrained depth. Keep analytics crisp; avoid decorative blur, glass, gradients, heavy shadows and status-colored sidebars.
@@ -38,7 +39,9 @@ Read [TEC Apple-Inspired Design Principles](references/TEC-Apple-Inspired-Design
 
 ## 4. Preserve the meaning of visualizations
 
-- Use exact data-driven charts. Preserve totals, eligible records, scales, denominators, zero/missing distinctions and filter scope.
+- Use exact data-driven charts. Preserve totals, eligible records, scales, denominators, zero/missing distinctions and filter scope. Put numbers inside proportional segments only when they fit legibly; keep exact small counts available through details and the exported matrix rather than enlarging segments or squeezing numerals.
+- HH leadership includes only explicit **نعم**; TEC includes all other records, including blank. Hide zero sector rows independently and hide empty cohort panels. Use one comparable zero-based scale, totals immediately beyond actual bar endpoints, aggregate status totals and the detailed HH legend. Omit individual status labels beneath HH bars.
+- Display true numeric zero as **–**, including zero percentages, without changing numeric data, geometry, sorting or accessible numeric values. Render generated **غير مسجل / غير مسجلة** placeholders as blank. Preserve dates, identifiers, narrative text and missing-state semantics. Hide source filenames in user-facing cards and their exports while retaining raw provenance.
 - Agenda quarter charts show per-category status totals by default. Only explicit quarter activation shows that quarter’s status breakdown; hover and keyboard focus alone must not change it. Keep keyboard focus visible without a persistent selected-bar outline. PDF always shows the aggregate status totals, independent of the last screen selection.
 - Identify whether a bar expresses completion, a status distribution, finance or measurement coverage before styling it. Do not interchange those meanings.
 - Use solid financial bars for complete and partial numeric coverage. Do not restore hatching, completeness markers or the removed availability notes.

@@ -1,10 +1,10 @@
 # TEC Apple-Inspired Design Principles
 
-**Revision 21 · 13 October 2026 · Performance App v154**
+**Revision 22 · 14 October 2026 · Performance App v155**
 
 The approved monthly dashboard establishes a reusable visual language for the TEC app. Apply its hierarchy, typography, surfaces, spacing, controls and alignment to equivalent roles across pages. Preserve the distinct purpose, content and calculations of each page.
 
-This document consolidates approved rules through Performance App v154, including unified status appearances and agenda quarter-chart interactions and export totals. It records the approved implementation; the document itself does not change the app. The proposed additional-status disclosure and top follow-up shortcut are excluded. The separate entity-report redesign remains a concept.
+This document consolidates approved rules for Performance App v155, including the approved HH revision 3 composition, agenda in-bar counts and shared display conventions. It records the approved design; release verification establishes what was implemented and tested. The document itself does not change the app. The proposed additional-status disclosure and top follow-up shortcut are excluded. The separate entity-report redesign remains a concept.
 
 ## 1. The approach
 
@@ -19,7 +19,7 @@ This document consolidates approved rules through Performance App v154, includin
 9. **Preserve data truth.** Styling must not change scope, formulas, denominators, recorded notes, source identities or the meaning of missing values.
 10. **Verify the result.** Inspect the real render and the requested interactions. Match claims to the checks actually performed.
 
-The latest user instruction overrides this document. Page-specific rules below take precedence over general patterns. Historical proposals and screenshots do not override later approvals.
+The latest user instruction overrides this document. Page-specific rules below take precedence over general patterns. Historical proposals and screenshots do not override later approvals. Revision 22 supersedes older instructions to show a numeric zero as `0%`, keep plain ready-status labels neutral, retain empty HH rows, put HH row totals in a fixed column, or show per-bar status captions. All earlier rules not changed here remain applicable.
 
 ## 2. Screen typography
 
@@ -85,9 +85,17 @@ Use these pairings without new unapproved tints or blanket opacity. **One status
 | غير مقاس / لا ينطبق | Paper | Ink / Ink |
 | Unknown / missing | Ink | Paper / Silver |
 
-Aliases share appearance only. Do not merge their source statuses or rename records. Resolve supported presentation aliases through the shared status helper, including frozen/held Arabic labels. A colored fill must not be reused as text if that makes a pale label unreadable. Plain status names and counts remain Ink except the explicitly approved completed Green and late Red emphasis. Financial allocations, spending, measurement coverage, source quantities and change arrows retain their independent meanings; a status-color update must not recolor them.
+Aliases share appearance only. Do not merge their source statuses or rename records. Resolve supported presentation aliases through the shared status helper, including frozen/held Arabic labels. A colored fill must not be reused as text if that makes a pale label unreadable. Plain status names and counts use Ink except **منجز** in Completed Green, **متأخر** in Late Red and **جاهز للعرض** in Teal. These plain-text roles apply across dashboard metrics, report cards, tables, legends and chart summaries. Text inside a filled badge or chart segment follows that fill’s readable-ink role: Paper on Teal, Green and Red; Teal on Mist. Do not put Teal text directly on a Teal segment. Financial allocations, spending, measurement coverage, source quantities and change arrows retain their independent meanings; a status-color update must not recolor them.
 
 Use the same appearance mapping when generating native chart fills, marker borders, in-mark labels, legend swatches and export chart series. Verify both effective browser styles and generated export colors. Preserve chart data, status order and exact totals while changing presentation.
+
+### Numeric zero, missing values and provenance
+
+- Across dashboard, search/results, cards, tables, charts and exports, render a true numeric zero as **–**. A zero percentage displays **–**, without a percent sign. A chart’s visible zero tick also uses **–**; its numeric baseline remains zero. Retain existing suppression of unchanged comparison arrows and empty status groups.
+- Apply the formatter at the presentation boundary. Preserve raw numeric values, denominators, sorting, filtering, scale geometry, formula inputs, accessible numeric values and machine-readable source exports. Do not replace zeros embedded in dates, identifiers, version numbers or narrative source text, or corrupt numeric input values.
+- Render generated missing-value placeholders such as **غير مسجل / غير مسجلة** as an empty value, preserving the field’s label and source association where the field remains. Retain the distinction between missing and a real zero internally. Do not erase substantive source notes or invent a value from a blank.
+- Omit the source filename field, including **Source.Name / ملف المصدر**, from user-facing report cards and their rendered exports. Keep provenance in the raw record and audit machinery. This does not remove the upload control’s chosen-file confirmation or rewrite source identities.
+- Recorded status and recorded progress are separate source fields. Do not infer **منجز** from 100% progress, force completed records to 100%, or derive an unrecorded status from the absence of a value.
 
 ## 4. Layout, spacing and component geometry
 
@@ -170,7 +178,7 @@ For the approved monthly completion captions, show only **نسبة المنجز*
 
 The budgeted-project denominator includes statuses absent from headline figures. Its Linen remainder means all not completed. Keep the existing headline composition without adding the rejected extra-status disclosure.
 
-A valid zero numerator over a positive denominator shows **0%**. Preserve existing count/table conventions that display a true zero as **–**; this presentation does not make a zero equivalent to missing data. Missing, nonfinite, negative or impossible values and zero denominators produce no completion bar/caption. Suppress a distribution caption if its bar is invalid; suppress legislation distribution and caption if cohorts overlap. Do not apply these completion captions to financial or strategy measurement bars.
+A valid zero numerator over a positive denominator keeps its zero completion geometry and displays **–** as the percentage value, with no percent sign. This presentation does not make a zero equivalent to missing data. Missing, nonfinite, negative or impossible values and zero denominators produce no completion bar/caption. Suppress a distribution caption if its bar is invalid; suppress legislation distribution and caption if cohorts overlap. Do not apply these completion captions to financial or strategy measurement bars.
 
 Financial bars stay solid even when some source values are unavailable. Remove hatching, completeness markers and repeated availability notes such as **قيم متاحة: 59 من 61**. Do not replace them with a new marker, note or tooltip. Missing values must still retain their source semantics and calculation eligibility.
 
@@ -181,9 +189,25 @@ Financial bars stay solid even when some source values are unavailable. Remove h
 - Under each chart, show **الإجمالي حسب الحالة** and that category’s totals by status across all its quarters within the active filters. These status totals must sum to the category total. Do not use the first quarter as the default summary.
 - No quarter is selected on initial render or after a filter change. Hover and keyboard focus do not replace the totals. Clicking a quarter, or activating it with Enter/Space, shows only its status values with its quarter name; omit ratios and percentages. Clicking that quarter again or pressing Escape restores totals; clicking outside a quarter restores totals.
 - Remove persistent and hover outlines around bars. Keep a visible keyboard-only focus cue. Arrow keys move focus without changing the status summary. Retain accessible names and the expandable underlying count table.
-- Keep the original **تعريفات مستويات الإنجاز** below the charts, with swatches matching the shared status appearance. Only completed and late standalone status counts/text use Green and Red; neutral labels stay readable.
+- Keep the original **تعريفات مستويات الإنجاز** below the charts without rewriting its definitions. Swatches match the shared status appearance. Standalone completed labels/counts use Green, late uses Red and ready uses Teal; other plain status text remains Ink.
 - Native PDF always includes aggregate totals by status below each chart, even when a quarter is currently active on screen. Keep charts, status totals and full definitions together on the first content page after the cover. Recover whitespace before reducing chart space; do not shrink the page or clip labels/definitions to force a fit.
-- Keep chart labels at 9pt and quarter counts at 16pt in A4 landscape PDF. Status-summary labels use 10.5pt and values 12pt. Verify short, dense, filtered, single-category and undated layouts with the actual downloaded PDF.
+- Put each nonzero status count inside its segment only when the supplied DIN numeral fits legibly with padding. Measure both available height and width at the actual rendered size. Screen in-bar figures are at least 16 CSS pixels; use approximately 12pt for in-bar figures in A4 PDF. Keep readable ink from the shared status mapping.
+- Preserve exact proportional segment geometry and the common count scale. Never inflate a small segment, alter the denominator, overlap labels, merge statuses or shrink numerals below their readable role just to show every in-bar count. Increase usable plot height and recover whitespace where appropriate; re-evaluate fit after reflow or filter changes.
+- Small counts that do not fit remain available through each quarter’s accessible description, explicit quarter activation and the expandable exact count matrix. Export the exact matrix as readable native text so omitted in-bar labels never hide values in the PDF. Let the matrix continue after the chart/definitions page as needed.
+- Keep axis/quarter labels at approximately 9pt and above-bar quarter totals at 16pt in A4 landscape PDF. Status-summary labels use 10.5pt and values 12pt. Verify short, dense, filtered, single-category and undated layouts with the actual downloaded PDF.
+
+### HH special-project charts and cards
+
+- Split the same active source scope into two disjoint cohorts: **مشاريع القيادة** includes only records explicitly marked **نعم**; **مشاريع الأمانة العامة** (TEC) includes every other record, including blank leadership classification. Do not drop unclassified records. The two cohort totals must reconcile to the scoped project total.
+- On a wide screen, place leadership physically right and TEC physically left in equal-width panels. Stack them at narrow widths. Hide an empty cohort panel and let the populated panel use the available width. If both are empty, use the existing report-level empty state rather than rendering empty charts or legends.
+- Group each cohort by the existing sector field in stable source/approved order. Hide a sector row when its count is zero **within that cohort**, independently of the other chart. Keep heights content-driven; do not add blank rows to align panels.
+- Use horizontal stacked count bars that extend leftward from the RTL zero baseline. Both visible cohorts share one zero-based whole-count scale, derived from the largest visible sector total. Recompute it from the active source scope; do not fix it to illustrative counts. Preserve each status segment’s exact count and order.
+- Put counts inside status segments only where they fit legibly, using the shared fill/ink/border mapping. Retain exact small values in accessible descriptions and readable exported detail when a label cannot fit. Keep bars proportional; do not stretch a one-project segment to create room for text.
+- Put each row’s total immediately beyond its actual filled-bar endpoint, with a readable gap and reserved edge clearance. In RTL this is to the left of the filled bar, not in a fixed far-left total column. Prevent clipping at the maximum row and at phone widths.
+- Remove the short status labels beneath individual bars. Retain **totals by status beneath each cohort chart**, within the same filter scope, and the shared detailed **تعريفات مستويات الإنجاز** below the pair. These totals reconcile to each cohort total. Use completed Green, late Red and ready Teal for plain status labels/counts.
+- Preserve the approved HH-specific legend wording and mark source-unclassified/other states honestly. Do not import agenda council-approval definitions as if they were HH business rules. Use the same source-derived status meaning in cards, bars, legend and exports.
+- Keep the two populated charts, their aggregate status totals and detailed legend together on the HH summary PDF content page when they fit. Use the landscape report profile, readable native text/vector marks and content-driven continuation for unusually long scopes; never clip rows or force a fixed page count.
+- Keep project title, recorded status/progress and meaningful populated source details in cards. Hide source filenames through the presentation layer only. The displayed reporting period remains report metadata unless an existing explicit date filter applies; redesign does not silently remove projects based on project start/end dates.
 
 ## 8. Approved monthly composition details
 
@@ -256,4 +280,4 @@ For a new direction, illustrate first. For approved implementation, continue wit
 
 Verify relevant desktop, tablet, phone and export states; long Arabic/mixed-script labels; selected scope; zeros/missing values; actual source totals and denominators; and interactions changed by the work. Record passes and remaining limitations accurately. A documents-only update does not establish that every app page has already been migrated or newly tested.
 
-**Source basis:** the latest user instructions of 13 October 2026 for v154 and earlier approved decisions. The new status palette and agenda behavior supersede conflicting earlier chart/selection rules. Historical reference: the [Revision 19 design standard](https://raw.githubusercontent.com/ormbh/Performance-App-2/286a705e3fb5ab61c748e472833817f7b73908a4/Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-19.md), interpreted with later instructions taking precedence. The official filename registry remains in the [v144 app package](https://raw.githubusercontent.com/ormbh/Performance-App-2/286a705e3fb5ab61c748e472833817f7b73908a4/Performance-App-v144.zip). These links provide provenance; the bundled skill and principles are readable offline.
+**Source basis:** the user’s 14 October 2026 approval to apply the [HH revision 3](https://github.com/ormbh/Performance-App-2/tree/cf191f53d68b077ca6e5f2c27bbc6bb292914246/HH-Report-Concept-R3) and [agenda in-bar illustration](https://github.com/ormbh/Performance-App-2/tree/cf191f53d68b077ca6e5f2c27bbc6bb292914246/Agenda-In-Bar-Concept), plus earlier approved decisions. The latest zero/missing, ready-text, HH visibility/total-placement and in-bar-count rules supersede conflicting historical clauses. Illustrative values establish the review’s scope only; never hardcode those totals or scales into the app. The existing legend wording, source identities and calculations retain their recorded meaning. Current implementation evidence belongs in **VERIFICATION-v155.md**; documentation alone is not a validation pass. Historical reference: the [Revision 19 design standard](https://raw.githubusercontent.com/ormbh/Performance-App-2/286a705e3fb5ab61c748e472833817f7b73908a4/Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-19.md), interpreted with later instructions taking precedence. The official filename registry remains in the [v144 app package](https://raw.githubusercontent.com/ormbh/Performance-App-2/286a705e3fb5ab61c748e472833817f7b73908a4/Performance-App-v144.zip). These links provide provenance; the bundled skill and principles are readable offline.

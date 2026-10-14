@@ -1,0 +1,80 @@
+[
+  {
+    "scope": "all",
+    "firstContentSlideHasChartsAndDefinitions": true,
+    "plainStatusTextColors": [
+      [
+        "متأخر",
+        "C00000"
+      ],
+      [
+        "جاهز للعرض",
+        "115E67"
+      ],
+      [
+        "قيد المراجعة",
+        "4F4E4E"
+      ],
+      [
+        "قيد التطوير",
+        "4F4E4E"
+      ],
+      [
+        "منجز",
+        "01831E"
+      ]
+    ]
+  },
+  {
+    "scope": "emerging",
+    "firstContentSlideHasChartsAndDefinitions": true,
+    "plainStatusTextColors": [
+      [
+        "متأخر",
+        "C00000"
+      ],
+      [
+        "جاهز للعرض",
+        "115E67"
+      ],
+      [
+        "قيد المراجعة",
+        "4F4E4E"
+      ],
+      [
+        "قيد التطوير",
+        "4F4E4E"
+      ],
+      [
+        "منجز",
+        "01831E"
+      ]
+    ]
+  },
+  {
+    "scope": "single_entity",
+    "firstContentSlideHasChartsAndDefinitions": true,
+    "plainStatusTextColors": [
+      [
+        "متأخر",
+        "C00000"
+      ],
+      [
+        "جاهز للعرض",
+        "115E67"
+      ],
+      [
+        "قيد المراجعة",
+        "4F4E4E"
+      ],
+      [
+        "قيد التطوير",
+        "4F4E4E"
+      ],
+      [
+        "منجز",
+        "01831E"
+      ]
+    ]
+  }
+]

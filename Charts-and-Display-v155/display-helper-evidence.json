@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "name": "True numeric zero displays a dash without percent suffix",
+      "pass": true
+    },
+    {
+      "name": "Small positive and negative values do not become zero",
+      "pass": true
+    },
+    {
+      "name": "Missing and zero remain distinct",
+      "pass": true
+    },
+    {
+      "name": "Raw numeric formatters remain numeric for geometry and source text",
+      "pass": true
+    },
+    {
+      "name": "Placeholder cleaning is whole-value only; IDs, dates and source prose survive",
+      "pass": true
+    },
+    {
+      "name": "Typed fields format metrics only; numeric identifiers and dates preserved",
+      "pass": true
+    },
+    {
+      "name": "Fallback arrays retain their structure for comparison fields",
+      "pass": true
+    },
+    {
+      "name": "Progress geometry stays zero while display uses dash",
+      "pass": true
+    },
+    {
+      "name": "Missing progress placeholders are empty",
+      "pass": true
+    },
+    {
+      "name": "Plain status colors and filled status ink are distinct",
+      "pass": true
+    },
+    {
+      "name": "Search metric displays show dash and exact source notes are preserved",
+      "pass": true
+    },
+    {
+      "name": "Blank filter caption empty, identity and selection retained",
+      "pass": true
+    },
+    {
+      "name": "Blank checkbox has an accessible name without visible placeholder",
+      "pass": true
+    },
+    {
+      "name": "Boolean Yes/No filters retain labels and raw values",
+      "pass": true
+    }
+  ],
+  "rawSourcePreserved": true
+}

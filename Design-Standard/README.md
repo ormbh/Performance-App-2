@@ -1,3 +1,17 @@
+# TEC Apple-Inspired Design Standard — Revision 22
+
+**14 October 2026 · Performance App v155**
+
+The current consolidated standard is [Revision 22](TEC-Apple-Inspired-Design-Standard-Revision-22.md). The matching [skill](../TEC-Apple-Inspired-Skill-and-Principles/SKILL.md) and [principles](../TEC-Apple-Inspired-Skill-and-Principles/references/TEC-Apple-Inspired-Design-Principles.md) form a self-contained package.
+
+This revision incorporates the approved HH paired charts and agenda in-bar counts: hide empty HH sector/cohort rows, put totals beside actual bar ends, retain chart status summaries and detailed legends, show in-bar counts only where readable, display numeric zero as **–**, leave generated **غير مسجل** placeholders blank, omit card source filenames and use Teal for ready labels/counts.
+
+**Precedence:** Revision 22 is the current rule set. Older content below is retained for historical detail and the official filename registry; its contradictory `0%`, separate badge/chart palette, neutral ready text and fixed HH totals/empty-row rules are superseded. No historical verification result establishes a v155 pass. Unchanged earlier rules remain applicable.
+
+---
+
+## Historical standards and registry
+
 # Revision 20 — approved search results and clearer search prompt
 
 Approved on 13 October 2026. Applies the search results concept to the working app while retaining the approved search-home logo/title/field composition, TEC assets, source data and search-matching rules.
