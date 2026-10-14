@@ -1,4 +1,12 @@
-# Performance App v158
+# Performance App v159
+
+[Download app — v159](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v159.zip) · [Data-observation policy](Data-Observations-v159/DATA-CHECKS-POLICY.md) · [Verification](Saytara-Verification-v159.md)
+
+Data observations now validate sector–department relationships and all applicable controlled values, while removing alerts for valid source situations. Original records, dashboard totals and historical comparison safeguards are preserved. Finance values and incomplete follow-up data use careful review wording. TEC design Revision 25 remains current.
+
+Extract the complete ZIP and open **index.html**. No workbook is bundled.
+
+# Previous release — v158
 
 [Download app — v158](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v158.zip) · [Updated TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles.zip) · [Revision 25](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-25.md) · [Verification](Saytara-Verification-v158.md)
 

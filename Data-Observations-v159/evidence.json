@@ -1,0 +1,1414 @@
+{
+  "version": 159,
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "illustrative": true
+  },
+  "checks": [
+    {
+      "name": "workbook source records and derived fields unchanged",
+      "pass": true
+    },
+    {
+      "name": "dashboard calculations unchanged",
+      "pass": true
+    },
+    {
+      "name": "historical comparison eligibility preserved",
+      "pass": true
+    },
+    {
+      "name": "all noisy observations removed",
+      "pass": true
+    },
+    {
+      "name": "retained actionable review: مفتاح الربط",
+      "pass": true
+    },
+    {
+      "name": "retained actionable review: سنة الاجتماع لا تطابق",
+      "pass": true
+    },
+    {
+      "name": "retained actionable review: منجز» ونسبة الإنجاز أقل",
+      "pass": true
+    },
+    {
+      "name": "negative budgets are finance reviews rather than confirmed errors",
+      "pass": true
+    },
+    {
+      "name": "negative unallocated budget is finance review",
+      "pass": true
+    },
+    {
+      "name": "correct approved sector/unit",
+      "pass": true
+    },
+    {
+      "name": "wrong sector/unit",
+      "pass": true
+    },
+    {
+      "name": "approved relationship overrides wrong workbook parent",
+      "pass": true
+    },
+    {
+      "name": "approved legacy alias valid",
+      "pass": true
+    },
+    {
+      "name": "unknown department even if added to workbook list",
+      "pass": true
+    },
+    {
+      "name": "zero completion remains valid",
+      "pass": true
+    },
+    {
+      "name": "blank lead valid TEC membership",
+      "pass": true
+    },
+    {
+      "name": "bare missing followup not an issue",
+      "pass": true
+    },
+    {
+      "name": "followup data requires review when type missing",
+      "pass": true
+    },
+    {
+      "name": "progress outside range one specific issue",
+      "pass": true
+    },
+    {
+      "name": "non-list numeric progress flagged",
+      "pass": true
+    },
+    {
+      "name": "valid percent membership",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value agenda.type",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value agenda.entity",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value agenda.sector",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value agenda.unit",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value agenda.status",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value agenda.quarter",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value agenda.month",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value agenda.year",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value agenda.newMonth",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value council.plan",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value council.issuer",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value council.year",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value council.entity",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value council.sector",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value council.unit",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value council.followup",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value council.status",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value council.progress",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value council.hasReport",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value legislation.sector",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value legislation.unit",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value legislation.year",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value special.lead",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value special.entity",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value special.sector",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value special.unit",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value special.startMonth",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value special.startYear",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value special.endMonth",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value special.endYear",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value special.status",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value special.progress",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value secretariat.sector",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value secretariat.unit",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value secretariat.priority",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value secretariat.ptype",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value secretariat.status",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value secretariat.progress",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value kpi.sector",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value kpi.unit",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value kpi.freq",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value kpi.strategic",
+      "pass": true
+    },
+    {
+      "name": "invalid controlled value kpi.operational",
+      "pass": true
+    },
+    {
+      "name": "data-notes page displays revised observations",
+      "pass": true
+    },
+    {
+      "name": "checks page no overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "checks page no overflow 390",
+      "pass": true
+    },
+    {
+      "name": "actual revised CSV download",
+      "pass": true
+    },
+    {
+      "name": "synthetic cases and export do not mutate source data",
+      "pass": true
+    },
+    {
+      "name": "no browser errors",
+      "pass": true
+    },
+    {
+      "name": "no external asset requests",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screens": [],
+  "pdfs": [],
+  "loadedAssetHashes": {
+    "app-bundle.css": "92dfabb92cc0a439fd86f9ad95e3f116cb41de7de34d04138e9bbde9abc5f596",
+    "app-bundle.js": "d43c61a1428582b5c699f49db2ef0be0d22dbad80c1cabc93d22d703d5b13cc7"
+  },
+  "controlledCases": [
+    {
+      "name": "negative unallocated budget is finance review",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "info",
+          "sheet": "مشاريع_الأمانة",
+          "row": "2",
+          "field": "Non-Committed",
+          "problem": "مراجعة مالية: قيمة غير المخصص سالبة؛ قد تكون تسوية أو تجاوزاً للمخصص",
+          "value": "-100",
+          "fix": "راجع القيمة مع المالية دون تغيير نطاق التقرير",
+          "key": "secretariat-2",
+          "pf": "secretariat"
+        }
+      ]
+    },
+    {
+      "name": "correct approved sector/unit",
+      "pass": true,
+      "rows": []
+    },
+    {
+      "name": "wrong sector/unit",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "مشاريع_الأمانة",
+          "row": "2",
+          "field": "Department / Section",
+          "problem": "القطاع لا يطابق القطاع المعتمد للوحدة التنظيمية: الحوكمة",
+          "value": "التنمية المستدامة · التشريعات الحكومية",
+          "fix": "راجع القطاع والوحدة وفق قائمة التنظيم المعتمدة؛ لم تُعدّل قيم المصدر",
+          "key": "secretariat-2",
+          "pf": "secretariat"
+        }
+      ]
+    },
+    {
+      "name": "approved relationship overrides wrong workbook parent",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "مشاريع_الأمانة",
+          "row": "2",
+          "field": "Department / Section",
+          "problem": "القطاع لا يطابق القطاع المعتمد للوحدة التنظيمية: الحوكمة",
+          "value": "التنمية المستدامة · التشريعات الحكومية",
+          "fix": "راجع القطاع والوحدة وفق قائمة التنظيم المعتمدة؛ لم تُعدّل قيم المصدر",
+          "key": "secretariat-2",
+          "pf": "secretariat"
+        }
+      ]
+    },
+    {
+      "name": "approved legacy alias valid",
+      "pass": true,
+      "rows": []
+    },
+    {
+      "name": "unknown department even if added to workbook list",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "مشاريع_الأمانة",
+          "row": "2",
+          "field": "Department / Section",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "قسم غير معتمد",
+          "fix": "اختر قيمة معتمدة من قائمة Department / Section",
+          "key": "secretariat-2",
+          "pf": "secretariat"
+        }
+      ]
+    },
+    {
+      "name": "zero completion remains valid",
+      "pass": true,
+      "rows": []
+    },
+    {
+      "name": "blank lead valid TEC membership",
+      "pass": true,
+      "rows": []
+    },
+    {
+      "name": "bare missing followup not an issue",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "سنة الاجتماع",
+          "problem": "سنة الاجتماع لا تطابق سنة تاريخ الاجتماع؛ حُفظت القيمتان كما وردتا في المصدر",
+          "value": "2024 · 29/11/2026",
+          "fix": "راجع السنة والتاريخ مع مسؤول البيانات؛ لم تُعدّل هوية القرار أو قيم المصدر",
+          "key": "council-2",
+          "pf": "council"
+        }
+      ]
+    },
+    {
+      "name": "followup data requires review when type missing",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "متطلبات المتابعة",
+          "problem": "متطلبات المتابعة فارغة مع وجود بيانات متابعة للقرار",
+          "value": "",
+          "fix": "راجع ما إذا كان القرار يتطلب متابعة وحدد القيمة المعتمدة؛ لم يُغيّر نطاق التقرير",
+          "key": "council-2",
+          "pf": "council"
+        },
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "سنة الاجتماع",
+          "problem": "سنة الاجتماع لا تطابق سنة تاريخ الاجتماع؛ حُفظت القيمتان كما وردتا في المصدر",
+          "value": "2024 · 29/11/2026",
+          "fix": "راجع السنة والتاريخ مع مسؤول البيانات؛ لم تُعدّل هوية القرار أو قيم المصدر",
+          "key": "council-2",
+          "pf": "council"
+        }
+      ]
+    },
+    {
+      "name": "progress outside range one specific issue",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "المشاريع_الخاصة",
+          "row": "2",
+          "field": "نسبة الإنجاز",
+          "problem": "نسبة الإنجاز خارج المدى 0% إلى 100%",
+          "value": "1.2",
+          "fix": "اختر نسبة من القائمة",
+          "key": "special-2",
+          "pf": "special"
+        }
+      ]
+    },
+    {
+      "name": "non-list numeric progress flagged",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "المشاريع_الخاصة",
+          "row": "2",
+          "field": "نسبة الإنجاز",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "0.123456789",
+          "fix": "اختر قيمة معتمدة من قائمة نسبة الإنجاز",
+          "key": "special-2",
+          "pf": "special"
+        },
+        {
+          "sev": "warn",
+          "sheet": "المشاريع_الخاصة",
+          "row": "2",
+          "field": "نسبة الإنجاز",
+          "problem": "مستوى الإنجاز «منجز» ونسبة الإنجاز أقل من 100%",
+          "value": "0.123456789",
+          "fix": "راجع الحالة ونسبة الإنجاز مع مسؤول البيانات",
+          "key": "special-2",
+          "pf": "special"
+        }
+      ]
+    },
+    {
+      "name": "valid percent membership",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "المشاريع_الخاصة",
+          "row": "2",
+          "field": "نسبة الإنجاز",
+          "problem": "مستوى الإنجاز «منجز» ونسبة الإنجاز أقل من 100%",
+          "value": "0.15",
+          "fix": "راجع الحالة ونسبة الإنجاز مع مسؤول البيانات",
+          "key": "special-2",
+          "pf": "special"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value agenda.type",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "الأجندة_السنوية",
+          "row": "2",
+          "field": "تصنيف الموضوع",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة تصنيف الموضوع",
+          "key": "agenda-2",
+          "pf": "agenda"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value agenda.entity",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "الأجندة_السنوية",
+          "row": "2",
+          "field": "الجهة المعنية",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة الجهة المعنية",
+          "key": "agenda-2",
+          "pf": "agenda"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value agenda.sector",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "الأجندة_السنوية",
+          "row": "2",
+          "field": "القطاع",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة القطاع",
+          "key": "agenda-2",
+          "pf": "agenda"
+        },
+        {
+          "sev": "warn",
+          "sheet": "الأجندة_السنوية",
+          "row": "2",
+          "field": "الإدارة",
+          "problem": "القطاع لا يطابق القطاع المعتمد للوحدة التنظيمية: الاقتصاد والتنمية الاجتماعية",
+          "value": "__outside_approved_list__ · السياسات والاستراتيجيات الاقتصادية",
+          "fix": "راجع القطاع والوحدة وفق قائمة التنظيم المعتمدة؛ لم تُعدّل قيم المصدر",
+          "key": "agenda-2",
+          "pf": "agenda"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value agenda.unit",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "الأجندة_السنوية",
+          "row": "2",
+          "field": "الإدارة",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة الإدارة",
+          "key": "agenda-2",
+          "pf": "agenda"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value agenda.status",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "الأجندة_السنوية",
+          "row": "2",
+          "field": "مستوى الإنجاز",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة مستوى الإنجاز",
+          "key": "agenda-2",
+          "pf": "agenda"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value agenda.quarter",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "الأجندة_السنوية",
+          "row": "2",
+          "field": "ربع الإنجاز",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة ربع الإنجاز",
+          "key": "agenda-2",
+          "pf": "agenda"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value agenda.month",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "الأجندة_السنوية",
+          "row": "2",
+          "field": "شهر الإنجاز",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة شهر الإنجاز",
+          "key": "agenda-2",
+          "pf": "agenda"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value agenda.year",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "الأجندة_السنوية",
+          "row": "2",
+          "field": "سنة الإنجاز",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة سنة الإنجاز",
+          "key": "agenda-2",
+          "pf": "agenda"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value agenda.newMonth",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "الأجندة_السنوية",
+          "row": "2",
+          "field": "الموعد الجديد إن وجد (شهر)",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة الموعد الجديد إن وجد (شهر)",
+          "key": "agenda-2",
+          "pf": "agenda"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value council.plan",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "ضمن خطة دبي أو أجنداتها",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة ضمن خطة دبي أو أجنداتها",
+          "key": "council-2",
+          "pf": "council"
+        },
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "سنة الاجتماع",
+          "problem": "سنة الاجتماع لا تطابق سنة تاريخ الاجتماع؛ حُفظت القيمتان كما وردتا في المصدر",
+          "value": "2024 · 29/11/2026",
+          "fix": "راجع السنة والتاريخ مع مسؤول البيانات؛ لم تُعدّل هوية القرار أو قيم المصدر",
+          "key": "council-2",
+          "pf": "council"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value council.issuer",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "صادر عن",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة صادر عن",
+          "key": "council-2",
+          "pf": "council"
+        },
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "سنة الاجتماع",
+          "problem": "سنة الاجتماع لا تطابق سنة تاريخ الاجتماع؛ حُفظت القيمتان كما وردتا في المصدر",
+          "value": "2024 · 29/11/2026",
+          "fix": "راجع السنة والتاريخ مع مسؤول البيانات؛ لم تُعدّل هوية القرار أو قيم المصدر",
+          "key": "council-2",
+          "pf": "council"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value council.year",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "سنة الاجتماع",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة سنة الاجتماع",
+          "key": "council-2",
+          "pf": "council"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value council.entity",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "الجهة المعنية",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة الجهة المعنية",
+          "key": "council-2",
+          "pf": "council"
+        },
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "سنة الاجتماع",
+          "problem": "سنة الاجتماع لا تطابق سنة تاريخ الاجتماع؛ حُفظت القيمتان كما وردتا في المصدر",
+          "value": "2024 · 29/11/2026",
+          "fix": "راجع السنة والتاريخ مع مسؤول البيانات؛ لم تُعدّل هوية القرار أو قيم المصدر",
+          "key": "council-2",
+          "pf": "council"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value council.sector",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "القطاع",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة القطاع",
+          "key": "council-2",
+          "pf": "council"
+        },
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "الإدارة",
+          "problem": "القطاع لا يطابق القطاع المعتمد للوحدة التنظيمية: الاقتصاد والتنمية الاجتماعية",
+          "value": "__outside_approved_list__ · السياسات والاستراتيجيات الاقتصادية",
+          "fix": "راجع القطاع والوحدة وفق قائمة التنظيم المعتمدة؛ لم تُعدّل قيم المصدر",
+          "key": "council-2",
+          "pf": "council"
+        },
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "سنة الاجتماع",
+          "problem": "سنة الاجتماع لا تطابق سنة تاريخ الاجتماع؛ حُفظت القيمتان كما وردتا في المصدر",
+          "value": "2024 · 29/11/2026",
+          "fix": "راجع السنة والتاريخ مع مسؤول البيانات؛ لم تُعدّل هوية القرار أو قيم المصدر",
+          "key": "council-2",
+          "pf": "council"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value council.unit",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "الإدارة",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة الإدارة",
+          "key": "council-2",
+          "pf": "council"
+        },
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "سنة الاجتماع",
+          "problem": "سنة الاجتماع لا تطابق سنة تاريخ الاجتماع؛ حُفظت القيمتان كما وردتا في المصدر",
+          "value": "2024 · 29/11/2026",
+          "fix": "راجع السنة والتاريخ مع مسؤول البيانات؛ لم تُعدّل هوية القرار أو قيم المصدر",
+          "key": "council-2",
+          "pf": "council"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value council.followup",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "متطلبات المتابعة",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة متطلبات المتابعة",
+          "key": "council-2",
+          "pf": "council"
+        },
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "سنة الاجتماع",
+          "problem": "سنة الاجتماع لا تطابق سنة تاريخ الاجتماع؛ حُفظت القيمتان كما وردتا في المصدر",
+          "value": "2024 · 29/11/2026",
+          "fix": "راجع السنة والتاريخ مع مسؤول البيانات؛ لم تُعدّل هوية القرار أو قيم المصدر",
+          "key": "council-2",
+          "pf": "council"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value council.status",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "مستوى الإنجاز",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة مستوى الإنجاز",
+          "key": "council-2",
+          "pf": "council"
+        },
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "سنة الاجتماع",
+          "problem": "سنة الاجتماع لا تطابق سنة تاريخ الاجتماع؛ حُفظت القيمتان كما وردتا في المصدر",
+          "value": "2024 · 29/11/2026",
+          "fix": "راجع السنة والتاريخ مع مسؤول البيانات؛ لم تُعدّل هوية القرار أو قيم المصدر",
+          "key": "council-2",
+          "pf": "council"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value council.progress",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "نسبه الإنجاز",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة نسبه الإنجاز",
+          "key": "council-2",
+          "pf": "council"
+        },
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "سنة الاجتماع",
+          "problem": "سنة الاجتماع لا تطابق سنة تاريخ الاجتماع؛ حُفظت القيمتان كما وردتا في المصدر",
+          "value": "2024 · 29/11/2026",
+          "fix": "راجع السنة والتاريخ مع مسؤول البيانات؛ لم تُعدّل هوية القرار أو قيم المصدر",
+          "key": "council-2",
+          "pf": "council"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value council.hasReport",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "يتوفر تقرير بالمستجدات؟",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة يتوفر تقرير بالمستجدات؟",
+          "key": "council-2",
+          "pf": "council"
+        },
+        {
+          "sev": "warn",
+          "sheet": "القرارات",
+          "row": "2",
+          "field": "سنة الاجتماع",
+          "problem": "سنة الاجتماع لا تطابق سنة تاريخ الاجتماع؛ حُفظت القيمتان كما وردتا في المصدر",
+          "value": "2024 · 29/11/2026",
+          "fix": "راجع السنة والتاريخ مع مسؤول البيانات؛ لم تُعدّل هوية القرار أو قيم المصدر",
+          "key": "council-2",
+          "pf": "council"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value legislation.sector",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "التشريعات",
+          "row": "2",
+          "field": "القطاع",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة القطاع",
+          "key": "legislation-2",
+          "pf": "legislation"
+        },
+        {
+          "sev": "warn",
+          "sheet": "التشريعات",
+          "row": "2",
+          "field": "الإدارة",
+          "problem": "القطاع لا يطابق القطاع المعتمد للوحدة التنظيمية: الاتصال الحكومي وشؤون الأمانة العامة",
+          "value": "__outside_approved_list__ · الاتصال الحكومي",
+          "fix": "راجع القطاع والوحدة وفق قائمة التنظيم المعتمدة؛ لم تُعدّل قيم المصدر",
+          "key": "legislation-2",
+          "pf": "legislation"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value legislation.unit",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "التشريعات",
+          "row": "2",
+          "field": "الإدارة",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة الإدارة",
+          "key": "legislation-2",
+          "pf": "legislation"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value legislation.year",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "التشريعات",
+          "row": "2",
+          "field": "السنة",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة السنة",
+          "key": "legislation-2",
+          "pf": "legislation"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value special.lead",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "المشاريع_الخاصة",
+          "row": "2",
+          "field": "مشاريع سموه",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة مشاريع سموه",
+          "key": "special-2",
+          "pf": "special"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value special.entity",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "المشاريع_الخاصة",
+          "row": "2",
+          "field": "الجهة المعنية",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة الجهة المعنية",
+          "key": "special-2",
+          "pf": "special"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value special.sector",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "المشاريع_الخاصة",
+          "row": "2",
+          "field": "القطاع",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة القطاع",
+          "key": "special-2",
+          "pf": "special"
+        },
+        {
+          "sev": "warn",
+          "sheet": "المشاريع_الخاصة",
+          "row": "2",
+          "field": "الإدارة",
+          "problem": "القطاع لا يطابق القطاع المعتمد للوحدة التنظيمية: الأمانة العامة للمجلس التنفيذي",
+          "value": "__outside_approved_list__ · مكتب خطة دبي",
+          "fix": "راجع القطاع والوحدة وفق قائمة التنظيم المعتمدة؛ لم تُعدّل قيم المصدر",
+          "key": "special-2",
+          "pf": "special"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value special.unit",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "المشاريع_الخاصة",
+          "row": "2",
+          "field": "الإدارة",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة الإدارة",
+          "key": "special-2",
+          "pf": "special"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value special.startMonth",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "المشاريع_الخاصة",
+          "row": "2",
+          "field": "بدء المشروع (الشهر)",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة بدء المشروع (الشهر)",
+          "key": "special-2",
+          "pf": "special"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value special.startYear",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "المشاريع_الخاصة",
+          "row": "2",
+          "field": "بدء المشروع (السنة)",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة بدء المشروع (السنة)",
+          "key": "special-2",
+          "pf": "special"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value special.endMonth",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "المشاريع_الخاصة",
+          "row": "2",
+          "field": "انتهاء المشروع (الشهر)",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة انتهاء المشروع (الشهر)",
+          "key": "special-2",
+          "pf": "special"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value special.endYear",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "المشاريع_الخاصة",
+          "row": "2",
+          "field": "انتهاء المشروع (السنة)",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة انتهاء المشروع (السنة)",
+          "key": "special-2",
+          "pf": "special"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value special.status",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "المشاريع_الخاصة",
+          "row": "2",
+          "field": "مستوى الإنجاز",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة مستوى الإنجاز",
+          "key": "special-2",
+          "pf": "special"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value special.progress",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "المشاريع_الخاصة",
+          "row": "2",
+          "field": "نسبة الإنجاز",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة نسبة الإنجاز",
+          "key": "special-2",
+          "pf": "special"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value secretariat.sector",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "مشاريع_الأمانة",
+          "row": "2",
+          "field": "Sector",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة Sector",
+          "key": "secretariat-2",
+          "pf": "secretariat"
+        },
+        {
+          "sev": "warn",
+          "sheet": "مشاريع_الأمانة",
+          "row": "2",
+          "field": "Department / Section",
+          "problem": "القطاع لا يطابق القطاع المعتمد للوحدة التنظيمية: الاتصال الحكومي وشؤون الأمانة العامة",
+          "value": "__outside_approved_list__ · الاتصال الحكومي",
+          "fix": "راجع القطاع والوحدة وفق قائمة التنظيم المعتمدة؛ لم تُعدّل قيم المصدر",
+          "key": "secretariat-2",
+          "pf": "secretariat"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value secretariat.unit",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "مشاريع_الأمانة",
+          "row": "2",
+          "field": "Department / Section",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة Department / Section",
+          "key": "secretariat-2",
+          "pf": "secretariat"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value secretariat.priority",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "مشاريع_الأمانة",
+          "row": "2",
+          "field": "Priority",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة Priority",
+          "key": "secretariat-2",
+          "pf": "secretariat"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value secretariat.ptype",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "مشاريع_الأمانة",
+          "row": "2",
+          "field": "Type",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة Type",
+          "key": "secretariat-2",
+          "pf": "secretariat"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value secretariat.status",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "مشاريع_الأمانة",
+          "row": "2",
+          "field": "Status",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة Status",
+          "key": "secretariat-2",
+          "pf": "secretariat"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value secretariat.progress",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "مشاريع_الأمانة",
+          "row": "2",
+          "field": "% Complete",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة % Complete",
+          "key": "secretariat-2",
+          "pf": "secretariat"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value kpi.sector",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "استراتيجية_الأمانة",
+          "row": "2",
+          "field": "القطاع",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة القطاع",
+          "key": "kpi-2",
+          "pf": "kpi"
+        },
+        {
+          "sev": "warn",
+          "sheet": "استراتيجية_الأمانة",
+          "row": "2",
+          "field": "الإدارة",
+          "problem": "القطاع لا يطابق القطاع المعتمد للوحدة التنظيمية: الاتصال الحكومي وشؤون الأمانة العامة",
+          "value": "__outside_approved_list__ · المشتريات والشؤون الإدارية",
+          "fix": "راجع القطاع والوحدة وفق قائمة التنظيم المعتمدة؛ لم تُعدّل قيم المصدر",
+          "key": "kpi-2",
+          "pf": "kpi"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value kpi.unit",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "استراتيجية_الأمانة",
+          "row": "2",
+          "field": "الإدارة",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة الإدارة",
+          "key": "kpi-2",
+          "pf": "kpi"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value kpi.freq",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "استراتيجية_الأمانة",
+          "row": "2",
+          "field": "دورية القياس",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة دورية القياس",
+          "key": "kpi-2",
+          "pf": "kpi"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value kpi.strategic",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "استراتيجية_الأمانة",
+          "row": "2",
+          "field": "الهدف الاستراتيجي",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة الهدف الاستراتيجي",
+          "key": "kpi-2",
+          "pf": "kpi"
+        }
+      ]
+    },
+    {
+      "name": "invalid controlled value kpi.operational",
+      "pass": true,
+      "rows": [
+        {
+          "sev": "warn",
+          "sheet": "استراتيجية_الأمانة",
+          "row": "2",
+          "field": "الأهداف التشغيلية",
+          "problem": "القيمة خارج قائمة القيم المعتمدة",
+          "value": "__outside_approved_list__",
+          "fix": "اختر قيمة معتمدة من قائمة الأهداف التشغيلية",
+          "key": "kpi-2",
+          "pf": "kpi"
+        }
+      ]
+    }
+  ],
+  "baselineIssueCount": 97,
+  "revisedIssueCount": 47,
+  "issuesByReason": {
+    "مجموع الحالات لا يطابق إجمالي قرارات المجالس": 1,
+    "سنة الاجتماع لا تطابق سنة تاريخ الاجتماع؛ حُفظت القيمتان كما وردتا في المصدر": 35,
+    "مفتاح الربط المعتمد غير مكتمل؛ الحقول الناقصة: رقم القرار": 1,
+    "مستوى الإنجاز «منجز» ونسبة الإنجاز أقل من 100%": 4,
+    "متطلبات المتابعة فارغة مع وجود بيانات متابعة للقرار": 4,
+    "للمؤشر نتيجة وليس له مستهدف": 1,
+    "نتيجة المؤشر صفر وحالة القياس غير محددة؛ لا يمكن تأكيد ما إذا كان الصفر نتيجة مقاسة": 1
+  },
+  "sourceRecords": 672,
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "d43c61a1428582b5c699f49db2ef0be0d22dbad80c1cabc93d22d703d5b13cc7",
+    "assets/css/app-bundle.css": "92dfabb92cc0a439fd86f9ad95e3f116cb41de7de34d04138e9bbde9abc5f596",
+    "assets/css/print-measure-bundle.css": "39ea72c9dba51fe349db3b97034b4154734c6f47ce6f6fd4d598308d27375675"
+  },
+  "verdict": "PASS"
+}
