@@ -1,0 +1,28 @@
+{
+  "kind": "cold file URL",
+  "checks": [
+    {
+      "name": "cold local-file check completed",
+      "pass": false,
+      "detail": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/saytara-work/v162-clean/Performance-App/index.html\nCall log:\n  - navigating to \"file:///workspace/saytara-work/v162-clean/Performance-App/index.html\", waiting until \"load\"\n"
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "blockedRequests": [],
+  "failedRequests": [],
+  "launch": "Playwright Chromium headless with default options; no custom browser flags or security overrides",
+  "sourceURL": "file:///workspace/saytara-work/v162-clean/Performance-App/index.html",
+  "exception": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/saytara-work/v162-clean/Performance-App/index.html\nCall log:\n  - navigating to \"file:///workspace/saytara-work/v162-clean/Performance-App/index.html\", waiting until \"load\"\n",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/saytara-work/v162-qa/file-smoke/check.py\", line 27, in <module>\n    page.goto(E['sourceURL'],wait_until='load',timeout=30000)\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 9875, in goto\n    self._sync(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py\", line 560, in goto\n    return await self._main_frame.goto(**locals_to_params(locals()))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py\", line 156, in goto\n    await self._channel.send(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 76, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 632, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.Error: Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/saytara-work/v162-clean/Performance-App/index.html\nCall log:\n  - navigating to \"file:///workspace/saytara-work/v162-clean/Performance-App/index.html\", waiting until \"load\"\n\n",
+  "verdict": "BLOCKED",
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "c0be77d49aa5d55a73111b4071fd5404affb5180006d8c1c7dd667f766ed9d74",
+    "assets/css/app-bundle.css": "4f8e123903da49cc579768720ae8970a93b2ebaa7dc47e1b9e81c428b1d7fcfb",
+    "assets/css/print-measure-bundle.css": "0f755afc1f4fcb986b646344e866b9ba7c3167ae2bf83591c6a80398e23723a3"
+  },
+  "blocker": "Managed Chromium rejected file:// navigation with net::ERR_BLOCKED_BY_ADMINISTRATOR before application execution.",
+  "applicationExecuted": false,
+  "rerunAttempted": false,
+  "securityOverridesUsed": false
+}

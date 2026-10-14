@@ -1,0 +1,116 @@
+{
+  "version": 162,
+  "deliveryRoot": "/workspace/saytara-work/v162-clean/Performance-App",
+  "checks": [
+    {
+      "name": "clean runtime imports unchanged items",
+      "pass": true
+    },
+    {
+      "name": "clean runtime imports unchanged metric",
+      "pass": true
+    },
+    {
+      "name": "clean runtime imports unchanged snapshot",
+      "pass": true
+    },
+    {
+      "name": "clean runtime imports unchanged issues",
+      "pass": true
+    },
+    {
+      "name": "clean runtime all HH overall total62",
+      "pass": true
+    },
+    {
+      "name": "clean runtime both HH cohort charts",
+      "pass": true
+    },
+    {
+      "name": "clean runtime removes rejected summaries strips and raw lead field",
+      "pass": true
+    },
+    {
+      "name": "clean runtime agenda total117 preserved",
+      "pass": true
+    },
+    {
+      "name": "clean runtime filtered leadership scope total1",
+      "pass": true
+    },
+    {
+      "name": "clean runtime keeps one leadership badge beside project title",
+      "pass": true
+    },
+    {
+      "name": "clean native PDF retains simplified report and one leadership badge",
+      "pass": true
+    },
+    {
+      "name": "clean native PDF contains cover contents charts table and detail",
+      "pass": true
+    },
+    {
+      "name": "clean native PDF internal links resolve",
+      "pass": true
+    },
+    {
+      "name": "clean native PDF Arabic text remains within page bounds",
+      "pass": true
+    },
+    {
+      "name": "clean export leaves source records unchanged",
+      "pass": true
+    },
+    {
+      "name": "clean runtime requests have no404s",
+      "pass": true
+    },
+    {
+      "name": "clean runtime no browser errors",
+      "pass": true
+    },
+    {
+      "name": "clean runtime uses local assets only",
+      "pass": true
+    },
+    {
+      "name": "clean delivery contains exactly26 files",
+      "pass": true
+    },
+    {
+      "name": "clean browser loaded exact artifact app-bundle.css",
+      "pass": true
+    },
+    {
+      "name": "clean browser loaded exact artifact app-bundle.js",
+      "pass": true
+    },
+    {
+      "name": "clean browser loaded exact artifact print-measure-bundle.css",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screens": [],
+  "pdfs": [
+    {
+      "path": "/workspace/saytara-work/v162-qa/delivery/clean-hh-lead.pdf",
+      "pages": 5,
+      "sha256": "f72db8bdea9debf52e4ca71e3eecda6494edf0205ec05adc0da407d565239e09"
+    }
+  ],
+  "loadedAssetHashes": {
+    "app-bundle.css": "4f8e123903da49cc579768720ae8970a93b2ebaa7dc47e1b9e81c428b1d7fcfb",
+    "app-bundle.js": "c0be77d49aa5d55a73111b4071fd5404affb5180006d8c1c7dd667f766ed9d74",
+    "print-measure-bundle.css": "0f755afc1f4fcb986b646344e866b9ba7c3167ae2bf83591c6a80398e23723a3"
+  },
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "c0be77d49aa5d55a73111b4071fd5404affb5180006d8c1c7dd667f766ed9d74",
+    "assets/css/app-bundle.css": "4f8e123903da49cc579768720ae8970a93b2ebaa7dc47e1b9e81c428b1d7fcfb",
+    "assets/css/print-measure-bundle.css": "0f755afc1f4fcb986b646344e866b9ba7c3167ae2bf83591c6a80398e23723a3"
+  },
+  "verdict": "PASS"
+}

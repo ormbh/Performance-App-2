@@ -1,0 +1,7338 @@
+{
+  "version": 162,
+  "checks": [
+    {
+      "name": "v161 items exactly unchanged",
+      "pass": true
+    },
+    {
+      "name": "v161 metric exactly unchanged",
+      "pass": true
+    },
+    {
+      "name": "v161 snapshot exactly unchanged",
+      "pass": true
+    },
+    {
+      "name": "v161 issues exactly unchanged",
+      "pass": true
+    },
+    {
+      "name": "all chart source specification unchanged",
+      "pass": true
+    },
+    {
+      "name": "all underlying summary metrics unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 one overall total equals filtered projects",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 title and overall total aligned without overlap",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 populated cohort totals reconcile to overall total",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 detailed legend retained with populated charts",
+      "pass": true
+    },
+    {
+      "name": "HH all 1440 bar proportions endpoint totals and label fit",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 one overall total equals filtered projects",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 title and overall total aligned without overlap",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 populated cohort totals reconcile to overall total",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 detailed legend retained with populated charts",
+      "pass": true
+    },
+    {
+      "name": "HH all 1024 bar proportions endpoint totals and label fit",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 one overall total equals filtered projects",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 title and overall total aligned without overlap",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 populated cohort totals reconcile to overall total",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 detailed legend retained with populated charts",
+      "pass": true
+    },
+    {
+      "name": "HH all 768 bar proportions endpoint totals and label fit",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 one overall total equals filtered projects",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 title and overall total aligned without overlap",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 populated cohort totals reconcile to overall total",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 detailed legend retained with populated charts",
+      "pass": true
+    },
+    {
+      "name": "HH all 650 bar proportions endpoint totals and label fit",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 one overall total equals filtered projects",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 title and overall total aligned without overlap",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 populated cohort totals reconcile to overall total",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 detailed legend retained with populated charts",
+      "pass": true
+    },
+    {
+      "name": "HH all 390 bar proportions endpoint totals and label fit",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 one overall total equals filtered projects",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 title and overall total aligned without overlap",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 populated cohort totals reconcile to overall total",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 detailed legend retained with populated charts",
+      "pass": true
+    },
+    {
+      "name": "HH all 320 bar proportions endpoint totals and label fit",
+      "pass": true
+    },
+    {
+      "name": "HH summary contents keyboard link preserved",
+      "pass": true
+    },
+    {
+      "name": "HH master-table detail keyboard link preserved",
+      "pass": true
+    },
+    {
+      "name": "lead chart source specification unchanged",
+      "pass": true
+    },
+    {
+      "name": "lead underlying summary metrics unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 one overall total equals filtered projects",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 title and overall total aligned without overlap",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 populated cohort totals reconcile to overall total",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 detailed legend retained with populated charts",
+      "pass": true
+    },
+    {
+      "name": "HH lead 1440 bar proportions endpoint totals and label fit",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 one overall total equals filtered projects",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 title and overall total aligned without overlap",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 populated cohort totals reconcile to overall total",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 detailed legend retained with populated charts",
+      "pass": true
+    },
+    {
+      "name": "HH lead 390 bar proportions endpoint totals and label fit",
+      "pass": true
+    },
+    {
+      "name": "tec chart source specification unchanged",
+      "pass": true
+    },
+    {
+      "name": "tec underlying summary metrics unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 one overall total equals filtered projects",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 title and overall total aligned without overlap",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 populated cohort totals reconcile to overall total",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 detailed legend retained with populated charts",
+      "pass": true
+    },
+    {
+      "name": "HH tec 1440 bar proportions endpoint totals and label fit",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 one overall total equals filtered projects",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 title and overall total aligned without overlap",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 populated cohort totals reconcile to overall total",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 detailed legend retained with populated charts",
+      "pass": true
+    },
+    {
+      "name": "HH tec 390 bar proportions endpoint totals and label fit",
+      "pass": true
+    },
+    {
+      "name": "single chart source specification unchanged",
+      "pass": true
+    },
+    {
+      "name": "single underlying summary metrics unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 one overall total equals filtered projects",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 title and overall total aligned without overlap",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 populated cohort totals reconcile to overall total",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 detailed legend retained with populated charts",
+      "pass": true
+    },
+    {
+      "name": "HH single 1440 bar proportions endpoint totals and label fit",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 one overall total equals filtered projects",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 title and overall total aligned without overlap",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 populated cohort totals reconcile to overall total",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 detailed legend retained with populated charts",
+      "pass": true
+    },
+    {
+      "name": "HH single 390 bar proportions endpoint totals and label fit",
+      "pass": true
+    },
+    {
+      "name": "entity chart source specification unchanged",
+      "pass": true
+    },
+    {
+      "name": "entity underlying summary metrics unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 one overall total equals filtered projects",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 title and overall total aligned without overlap",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 populated cohort totals reconcile to overall total",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 detailed legend retained with populated charts",
+      "pass": true
+    },
+    {
+      "name": "HH entity 1440 bar proportions endpoint totals and label fit",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 one overall total equals filtered projects",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 title and overall total aligned without overlap",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 populated cohort totals reconcile to overall total",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 detailed legend retained with populated charts",
+      "pass": true
+    },
+    {
+      "name": "HH entity 390 bar proportions endpoint totals and label fit",
+      "pass": true
+    },
+    {
+      "name": "empty chart source specification unchanged",
+      "pass": true
+    },
+    {
+      "name": "empty underlying summary metrics unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH empty 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH empty 1440 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH empty 1440 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH empty 1440 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH empty 1440 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH empty 1440 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH empty 1440 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH empty 1440 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH empty 1440 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH empty 1440 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH empty 1440 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH empty 1440 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH empty 1440 one empty state without chart or contents",
+      "pass": true
+    },
+    {
+      "name": "HH empty 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "HH empty 390 filtered source keys unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH empty 390 master table order unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH empty 390 continuous row numbering",
+      "pass": true
+    },
+    {
+      "name": "HH empty 390 old summary card and completion strips absent",
+      "pass": true
+    },
+    {
+      "name": "HH empty 390 contents labels and target links unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH empty 390 selected entity subtitle preserved",
+      "pass": true
+    },
+    {
+      "name": "HH empty 390 report title and period preserved",
+      "pass": true
+    },
+    {
+      "name": "HH empty 390 detail sequence and numbering match master list",
+      "pass": true
+    },
+    {
+      "name": "HH empty 390 leadership displayed once in top badge only for yes",
+      "pass": true
+    },
+    {
+      "name": "HH empty 390 repeated detail heading and visible card-number strip removed",
+      "pass": true
+    },
+    {
+      "name": "HH empty 390 leadership badge outlined and located beside project identity",
+      "pass": true
+    },
+    {
+      "name": "HH empty 390 one empty state without chart or contents",
+      "pass": true
+    },
+    {
+      "name": "agenda source chart overview and table remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "all filtering and navigation leave source and metrics unchanged",
+      "pass": true
+    },
+    {
+      "name": "no missing runtime resource requests",
+      "pass": true
+    },
+    {
+      "name": "no browser errors",
+      "pass": true
+    },
+    {
+      "name": "no external requests",
+      "pass": true
+    },
+    {
+      "name": "source workbook bytes unchanged",
+      "pass": true
+    },
+    {
+      "name": "loaded final asset matches app-bundle.css",
+      "pass": true
+    },
+    {
+      "name": "loaded final asset matches app-bundle.js",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screens": [
+    {
+      "scope": "all",
+      "width": 1440,
+      "geometry": {
+        "keys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-35",
+          "special-44",
+          "special-4",
+          "special-18",
+          "special-19",
+          "special-53",
+          "special-59",
+          "special-42",
+          "special-20",
+          "special-39",
+          "special-61",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-50",
+          "special-51",
+          "special-52",
+          "special-8",
+          "special-37",
+          "special-47",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-54",
+          "special-58",
+          "special-22",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-14",
+          "special-57",
+          "special-15",
+          "special-2",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowKeys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-35",
+          "special-44",
+          "special-4",
+          "special-18",
+          "special-19",
+          "special-53",
+          "special-59",
+          "special-42",
+          "special-20",
+          "special-39",
+          "special-61",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-50",
+          "special-51",
+          "special-52",
+          "special-8",
+          "special-37",
+          "special-47",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-54",
+          "special-58",
+          "special-22",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-14",
+          "special-57",
+          "special-15",
+          "special-2",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "cards": [
+          {
+            "key": "special-6",
+            "number": 1,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-3",
+            "number": 2,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-62",
+            "number": 3,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-28",
+            "number": 4,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-30",
+            "number": 5,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-35",
+            "number": 6,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-44",
+            "number": 7,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-4",
+            "number": 8,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-18",
+            "number": 9,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-19",
+            "number": 10,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-53",
+            "number": 11,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-59",
+            "number": 12,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-42",
+            "number": 13,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-20",
+            "number": 14,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-39",
+            "number": 15,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-61",
+            "number": 16,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-11",
+            "number": 17,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-12",
+            "number": 18,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-9",
+            "number": 19,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-10",
+            "number": 20,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-32",
+            "number": 21,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-5",
+            "number": 22,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-7",
+            "number": 23,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-23",
+            "number": 24,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-24",
+            "number": 25,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-27",
+            "number": 26,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-31",
+            "number": 27,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-26",
+            "number": 28,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-60",
+            "number": 29,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-34",
+            "number": 30,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-36",
+            "number": 31,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-38",
+            "number": 32,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-45",
+            "number": 33,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-46",
+            "number": 34,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-49",
+            "number": 35,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-50",
+            "number": 36,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-51",
+            "number": 37,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-52",
+            "number": 38,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-8",
+            "number": 39,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-37",
+            "number": 40,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-47",
+            "number": 41,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-41",
+            "number": 42,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-13",
+            "number": 43,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-40",
+            "number": 44,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-54",
+            "number": 45,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-58",
+            "number": 46,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-22",
+            "number": 47,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-29",
+            "number": 48,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-48",
+            "number": 49,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-55",
+            "number": 50,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-56",
+            "number": 51,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-14",
+            "number": 52,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-57",
+            "number": 53,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-15",
+            "number": 54,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-2",
+            "number": 55,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-33",
+            "number": 56,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-16",
+            "number": 57,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-21",
+            "number": 58,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-25",
+            "number": 59,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-43",
+            "number": 60,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-17",
+            "number": 61,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-63",
+            "number": 62,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          }
+        ],
+        "overview": {
+          "sourceTotal": 62,
+          "total": "62",
+          "totalCount": 1,
+          "title": "المشاريع الخاصة",
+          "titleRect": {
+            "x": 1223.984375,
+            "y": 624.96875,
+            "w": 168.015625,
+            "h": 39.1875
+          },
+          "totalRect": {
+            "x": 48,
+            "y": 624.96875,
+            "w": 43.375,
+            "h": 70.390625
+          },
+          "cohorts": [
+            {
+              "id": "leadership",
+              "total": 24
+            },
+            {
+              "id": "tec",
+              "total": 38
+            }
+          ],
+          "legend": true
+        },
+        "oldSummary": 0,
+        "contents": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+            "exists": true
+          }
+        ],
+        "empty": 0,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": ""
+      }
+    },
+    {
+      "scope": "all",
+      "width": 1024,
+      "geometry": {
+        "keys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-35",
+          "special-44",
+          "special-4",
+          "special-18",
+          "special-19",
+          "special-53",
+          "special-59",
+          "special-42",
+          "special-20",
+          "special-39",
+          "special-61",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-50",
+          "special-51",
+          "special-52",
+          "special-8",
+          "special-37",
+          "special-47",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-54",
+          "special-58",
+          "special-22",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-14",
+          "special-57",
+          "special-15",
+          "special-2",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowKeys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-35",
+          "special-44",
+          "special-4",
+          "special-18",
+          "special-19",
+          "special-53",
+          "special-59",
+          "special-42",
+          "special-20",
+          "special-39",
+          "special-61",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-50",
+          "special-51",
+          "special-52",
+          "special-8",
+          "special-37",
+          "special-47",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-54",
+          "special-58",
+          "special-22",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-14",
+          "special-57",
+          "special-15",
+          "special-2",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "cards": [
+          {
+            "key": "special-6",
+            "number": 1,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-3",
+            "number": 2,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-62",
+            "number": 3,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-28",
+            "number": 4,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-30",
+            "number": 5,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-35",
+            "number": 6,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-44",
+            "number": 7,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-4",
+            "number": 8,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-18",
+            "number": 9,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-19",
+            "number": 10,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-53",
+            "number": 11,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-59",
+            "number": 12,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-42",
+            "number": 13,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-20",
+            "number": 14,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-39",
+            "number": 15,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-61",
+            "number": 16,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-11",
+            "number": 17,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-12",
+            "number": 18,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-9",
+            "number": 19,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-10",
+            "number": 20,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-32",
+            "number": 21,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-5",
+            "number": 22,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-7",
+            "number": 23,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-23",
+            "number": 24,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-24",
+            "number": 25,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-27",
+            "number": 26,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-31",
+            "number": 27,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-26",
+            "number": 28,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-60",
+            "number": 29,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-34",
+            "number": 30,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-36",
+            "number": 31,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-38",
+            "number": 32,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-45",
+            "number": 33,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-46",
+            "number": 34,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-49",
+            "number": 35,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-50",
+            "number": 36,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-51",
+            "number": 37,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-52",
+            "number": 38,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-8",
+            "number": 39,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-37",
+            "number": 40,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-47",
+            "number": 41,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-41",
+            "number": 42,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-13",
+            "number": 43,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-40",
+            "number": 44,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-54",
+            "number": 45,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-58",
+            "number": 46,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-22",
+            "number": 47,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-29",
+            "number": 48,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-48",
+            "number": 49,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-55",
+            "number": 50,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-56",
+            "number": 51,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-14",
+            "number": 52,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-57",
+            "number": 53,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-15",
+            "number": 54,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-2",
+            "number": 55,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-33",
+            "number": 56,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-16",
+            "number": 57,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-21",
+            "number": 58,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-25",
+            "number": 59,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-43",
+            "number": 60,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-17",
+            "number": 61,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-63",
+            "number": 62,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          }
+        ],
+        "overview": {
+          "sourceTotal": 62,
+          "total": "62",
+          "totalCount": 1,
+          "title": "المشاريع الخاصة",
+          "titleRect": {
+            "x": 807.984375,
+            "y": -8947.03125,
+            "w": 168.015625,
+            "h": 39.1875
+          },
+          "totalRect": {
+            "x": 48,
+            "y": -8947.03125,
+            "w": 43.375,
+            "h": 70.390625
+          },
+          "cohorts": [
+            {
+              "id": "leadership",
+              "total": 24
+            },
+            {
+              "id": "tec",
+              "total": 38
+            }
+          ],
+          "legend": true
+        },
+        "oldSummary": 0,
+        "contents": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+            "exists": true
+          }
+        ],
+        "empty": 0,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": ""
+      }
+    },
+    {
+      "scope": "all",
+      "width": 768,
+      "geometry": {
+        "keys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-35",
+          "special-44",
+          "special-4",
+          "special-18",
+          "special-19",
+          "special-53",
+          "special-59",
+          "special-42",
+          "special-20",
+          "special-39",
+          "special-61",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-50",
+          "special-51",
+          "special-52",
+          "special-8",
+          "special-37",
+          "special-47",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-54",
+          "special-58",
+          "special-22",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-14",
+          "special-57",
+          "special-15",
+          "special-2",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowKeys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-35",
+          "special-44",
+          "special-4",
+          "special-18",
+          "special-19",
+          "special-53",
+          "special-59",
+          "special-42",
+          "special-20",
+          "special-39",
+          "special-61",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-50",
+          "special-51",
+          "special-52",
+          "special-8",
+          "special-37",
+          "special-47",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-54",
+          "special-58",
+          "special-22",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-14",
+          "special-57",
+          "special-15",
+          "special-2",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "cards": [
+          {
+            "key": "special-6",
+            "number": 1,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-3",
+            "number": 2,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-62",
+            "number": 3,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-28",
+            "number": 4,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-30",
+            "number": 5,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-35",
+            "number": 6,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-44",
+            "number": 7,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-4",
+            "number": 8,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-18",
+            "number": 9,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-19",
+            "number": 10,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-53",
+            "number": 11,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-59",
+            "number": 12,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-42",
+            "number": 13,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-20",
+            "number": 14,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-39",
+            "number": 15,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-61",
+            "number": 16,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-11",
+            "number": 17,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-12",
+            "number": 18,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-9",
+            "number": 19,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-10",
+            "number": 20,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-32",
+            "number": 21,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-5",
+            "number": 22,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-7",
+            "number": 23,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-23",
+            "number": 24,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-24",
+            "number": 25,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-27",
+            "number": 26,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-31",
+            "number": 27,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-26",
+            "number": 28,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-60",
+            "number": 29,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-34",
+            "number": 30,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-36",
+            "number": 31,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-38",
+            "number": 32,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-45",
+            "number": 33,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-46",
+            "number": 34,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-49",
+            "number": 35,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-50",
+            "number": 36,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-51",
+            "number": 37,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-52",
+            "number": 38,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-8",
+            "number": 39,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-37",
+            "number": 40,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-47",
+            "number": 41,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-41",
+            "number": 42,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-13",
+            "number": 43,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-40",
+            "number": 44,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-54",
+            "number": 45,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-58",
+            "number": 46,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-22",
+            "number": 47,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-29",
+            "number": 48,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-48",
+            "number": 49,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-55",
+            "number": 50,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-56",
+            "number": 51,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-14",
+            "number": 52,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-57",
+            "number": 53,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-15",
+            "number": 54,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-2",
+            "number": 55,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-33",
+            "number": 56,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-16",
+            "number": 57,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-21",
+            "number": 58,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-25",
+            "number": 59,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-43",
+            "number": 60,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-17",
+            "number": 61,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-63",
+            "number": 62,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          }
+        ],
+        "overview": {
+          "sourceTotal": 62,
+          "total": "62",
+          "totalCount": 1,
+          "title": "المشاريع الخاصة",
+          "titleRect": {
+            "x": 567.984375,
+            "y": -26504.03125,
+            "w": 168.015625,
+            "h": 39.1875
+          },
+          "totalRect": {
+            "x": 32,
+            "y": -26504.03125,
+            "w": 43.375,
+            "h": 70.390625
+          },
+          "cohorts": [
+            {
+              "id": "leadership",
+              "total": 24
+            },
+            {
+              "id": "tec",
+              "total": 38
+            }
+          ],
+          "legend": true
+        },
+        "oldSummary": 0,
+        "contents": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+            "exists": true
+          }
+        ],
+        "empty": 0,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": ""
+      }
+    },
+    {
+      "scope": "all",
+      "width": 650,
+      "geometry": {
+        "keys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-35",
+          "special-44",
+          "special-4",
+          "special-18",
+          "special-19",
+          "special-53",
+          "special-59",
+          "special-42",
+          "special-20",
+          "special-39",
+          "special-61",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-50",
+          "special-51",
+          "special-52",
+          "special-8",
+          "special-37",
+          "special-47",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-54",
+          "special-58",
+          "special-22",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-14",
+          "special-57",
+          "special-15",
+          "special-2",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowKeys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-35",
+          "special-44",
+          "special-4",
+          "special-18",
+          "special-19",
+          "special-53",
+          "special-59",
+          "special-42",
+          "special-20",
+          "special-39",
+          "special-61",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-50",
+          "special-51",
+          "special-52",
+          "special-8",
+          "special-37",
+          "special-47",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-54",
+          "special-58",
+          "special-22",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-14",
+          "special-57",
+          "special-15",
+          "special-2",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "cards": [
+          {
+            "key": "special-6",
+            "number": 1,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-3",
+            "number": 2,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-62",
+            "number": 3,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-28",
+            "number": 4,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-30",
+            "number": 5,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-35",
+            "number": 6,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-44",
+            "number": 7,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-4",
+            "number": 8,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-18",
+            "number": 9,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-19",
+            "number": 10,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-53",
+            "number": 11,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-59",
+            "number": 12,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-42",
+            "number": 13,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-20",
+            "number": 14,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-39",
+            "number": 15,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-61",
+            "number": 16,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-11",
+            "number": 17,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-12",
+            "number": 18,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-9",
+            "number": 19,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-10",
+            "number": 20,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-32",
+            "number": 21,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-5",
+            "number": 22,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-7",
+            "number": 23,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-23",
+            "number": 24,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-24",
+            "number": 25,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-27",
+            "number": 26,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-31",
+            "number": 27,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-26",
+            "number": 28,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-60",
+            "number": 29,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-34",
+            "number": 30,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-36",
+            "number": 31,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-38",
+            "number": 32,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-45",
+            "number": 33,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-46",
+            "number": 34,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-49",
+            "number": 35,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-50",
+            "number": 36,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-51",
+            "number": 37,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-52",
+            "number": 38,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-8",
+            "number": 39,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-37",
+            "number": 40,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-47",
+            "number": 41,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-41",
+            "number": 42,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-13",
+            "number": 43,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-40",
+            "number": 44,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-54",
+            "number": 45,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-58",
+            "number": 46,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-22",
+            "number": 47,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-29",
+            "number": 48,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-48",
+            "number": 49,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-55",
+            "number": 50,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-56",
+            "number": 51,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-14",
+            "number": 52,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-57",
+            "number": 53,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-15",
+            "number": 54,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-2",
+            "number": 55,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-33",
+            "number": 56,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-16",
+            "number": 57,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-21",
+            "number": 58,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-25",
+            "number": 59,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-43",
+            "number": 60,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-17",
+            "number": 61,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-63",
+            "number": 62,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          }
+        ],
+        "overview": {
+          "sourceTotal": 62,
+          "total": "62",
+          "totalCount": 1,
+          "title": "المشاريع الخاصة",
+          "titleRect": {
+            "x": 465.984375,
+            "y": -26369.84375,
+            "w": 168.015625,
+            "h": 39.1875
+          },
+          "totalRect": {
+            "x": 16,
+            "y": -26369.84375,
+            "w": 43.375,
+            "h": 70.390625
+          },
+          "cohorts": [
+            {
+              "id": "leadership",
+              "total": 24
+            },
+            {
+              "id": "tec",
+              "total": 38
+            }
+          ],
+          "legend": true
+        },
+        "oldSummary": 0,
+        "contents": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+            "exists": true
+          }
+        ],
+        "empty": 0,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": ""
+      }
+    },
+    {
+      "scope": "all",
+      "width": 390,
+      "geometry": {
+        "keys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-35",
+          "special-44",
+          "special-4",
+          "special-18",
+          "special-19",
+          "special-53",
+          "special-59",
+          "special-42",
+          "special-20",
+          "special-39",
+          "special-61",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-50",
+          "special-51",
+          "special-52",
+          "special-8",
+          "special-37",
+          "special-47",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-54",
+          "special-58",
+          "special-22",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-14",
+          "special-57",
+          "special-15",
+          "special-2",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowKeys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-35",
+          "special-44",
+          "special-4",
+          "special-18",
+          "special-19",
+          "special-53",
+          "special-59",
+          "special-42",
+          "special-20",
+          "special-39",
+          "special-61",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-50",
+          "special-51",
+          "special-52",
+          "special-8",
+          "special-37",
+          "special-47",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-54",
+          "special-58",
+          "special-22",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-14",
+          "special-57",
+          "special-15",
+          "special-2",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "cards": [
+          {
+            "key": "special-6",
+            "number": 1,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-3",
+            "number": 2,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-62",
+            "number": 3,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-28",
+            "number": 4,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-30",
+            "number": 5,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-35",
+            "number": 6,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-44",
+            "number": 7,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-4",
+            "number": 8,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-18",
+            "number": 9,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-19",
+            "number": 10,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-53",
+            "number": 11,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-59",
+            "number": 12,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-42",
+            "number": 13,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-20",
+            "number": 14,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-39",
+            "number": 15,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-61",
+            "number": 16,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-11",
+            "number": 17,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-12",
+            "number": 18,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-9",
+            "number": 19,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-10",
+            "number": 20,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-32",
+            "number": 21,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-5",
+            "number": 22,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-7",
+            "number": 23,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-23",
+            "number": 24,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-24",
+            "number": 25,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-27",
+            "number": 26,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-31",
+            "number": 27,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-26",
+            "number": 28,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-60",
+            "number": 29,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-34",
+            "number": 30,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-36",
+            "number": 31,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-38",
+            "number": 32,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-45",
+            "number": 33,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-46",
+            "number": 34,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-49",
+            "number": 35,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-50",
+            "number": 36,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-51",
+            "number": 37,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-52",
+            "number": 38,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-8",
+            "number": 39,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-37",
+            "number": 40,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-47",
+            "number": 41,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-41",
+            "number": 42,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-13",
+            "number": 43,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-40",
+            "number": 44,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-54",
+            "number": 45,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-58",
+            "number": 46,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-22",
+            "number": 47,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-29",
+            "number": 48,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-48",
+            "number": 49,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-55",
+            "number": 50,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-56",
+            "number": 51,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-14",
+            "number": 52,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-57",
+            "number": 53,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-15",
+            "number": 54,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-2",
+            "number": 55,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-33",
+            "number": 56,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-16",
+            "number": 57,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-21",
+            "number": 58,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-25",
+            "number": 59,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-43",
+            "number": 60,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-17",
+            "number": 61,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-63",
+            "number": 62,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          }
+        ],
+        "overview": {
+          "sourceTotal": 62,
+          "total": "62",
+          "totalCount": 1,
+          "title": "المشاريع الخاصة",
+          "titleRect": {
+            "x": 205.984375,
+            "y": -26514.65625,
+            "w": 168.015625,
+            "h": 39.1875
+          },
+          "totalRect": {
+            "x": 16,
+            "y": -26514.65625,
+            "w": 43.375,
+            "h": 70.390625
+          },
+          "cohorts": [
+            {
+              "id": "leadership",
+              "total": 24
+            },
+            {
+              "id": "tec",
+              "total": 38
+            }
+          ],
+          "legend": true
+        },
+        "oldSummary": 0,
+        "contents": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+            "exists": true
+          }
+        ],
+        "empty": 0,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": ""
+      }
+    },
+    {
+      "scope": "all",
+      "width": 320,
+      "geometry": {
+        "keys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-35",
+          "special-44",
+          "special-4",
+          "special-18",
+          "special-19",
+          "special-53",
+          "special-59",
+          "special-42",
+          "special-20",
+          "special-39",
+          "special-61",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-50",
+          "special-51",
+          "special-52",
+          "special-8",
+          "special-37",
+          "special-47",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-54",
+          "special-58",
+          "special-22",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-14",
+          "special-57",
+          "special-15",
+          "special-2",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowKeys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-35",
+          "special-44",
+          "special-4",
+          "special-18",
+          "special-19",
+          "special-53",
+          "special-59",
+          "special-42",
+          "special-20",
+          "special-39",
+          "special-61",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-50",
+          "special-51",
+          "special-52",
+          "special-8",
+          "special-37",
+          "special-47",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-54",
+          "special-58",
+          "special-22",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-14",
+          "special-57",
+          "special-15",
+          "special-2",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "cards": [
+          {
+            "key": "special-6",
+            "number": 1,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-3",
+            "number": 2,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-62",
+            "number": 3,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-28",
+            "number": 4,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-30",
+            "number": 5,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-35",
+            "number": 6,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-44",
+            "number": 7,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-4",
+            "number": 8,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-18",
+            "number": 9,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-19",
+            "number": 10,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-53",
+            "number": 11,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-59",
+            "number": 12,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-42",
+            "number": 13,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-20",
+            "number": 14,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-39",
+            "number": 15,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-61",
+            "number": 16,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-11",
+            "number": 17,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-12",
+            "number": 18,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-9",
+            "number": 19,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-10",
+            "number": 20,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-32",
+            "number": 21,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-5",
+            "number": 22,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-7",
+            "number": 23,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-23",
+            "number": 24,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-24",
+            "number": 25,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-27",
+            "number": 26,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-31",
+            "number": 27,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-26",
+            "number": 28,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-60",
+            "number": 29,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-34",
+            "number": 30,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-36",
+            "number": 31,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-38",
+            "number": 32,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-45",
+            "number": 33,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-46",
+            "number": 34,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-49",
+            "number": 35,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-50",
+            "number": 36,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-51",
+            "number": 37,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-52",
+            "number": 38,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-8",
+            "number": 39,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-37",
+            "number": 40,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-47",
+            "number": 41,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-41",
+            "number": 42,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-13",
+            "number": 43,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-40",
+            "number": 44,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-54",
+            "number": 45,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-58",
+            "number": 46,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-22",
+            "number": 47,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-29",
+            "number": 48,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-48",
+            "number": 49,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-55",
+            "number": 50,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-56",
+            "number": 51,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-14",
+            "number": 52,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-57",
+            "number": 53,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-15",
+            "number": 54,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-2",
+            "number": 55,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-33",
+            "number": 56,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-16",
+            "number": 57,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-21",
+            "number": 58,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-25",
+            "number": 59,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-43",
+            "number": 60,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-17",
+            "number": 61,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-63",
+            "number": 62,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          }
+        ],
+        "overview": {
+          "sourceTotal": 62,
+          "total": "62",
+          "totalCount": 1,
+          "title": "المشاريع الخاصة",
+          "titleRect": {
+            "x": 135.984375,
+            "y": -34838.65625,
+            "w": 168.015625,
+            "h": 39.1875
+          },
+          "totalRect": {
+            "x": 16,
+            "y": -34838.65625,
+            "w": 43.375,
+            "h": 70.390625
+          },
+          "cohorts": [
+            {
+              "id": "leadership",
+              "total": 24
+            },
+            {
+              "id": "tec",
+              "total": 38
+            }
+          ],
+          "legend": true
+        },
+        "oldSummary": 0,
+        "contents": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 62",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 39",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 23",
+            "exists": true
+          }
+        ],
+        "empty": 0,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": ""
+      }
+    },
+    {
+      "scope": "lead",
+      "width": 1440,
+      "geometry": {
+        "keys": [
+          "special-35",
+          "special-18",
+          "special-19",
+          "special-59",
+          "special-39",
+          "special-61",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-50",
+          "special-51",
+          "special-37",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-58",
+          "special-22",
+          "special-14",
+          "special-15",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25"
+        ],
+        "rowKeys": [
+          "special-35",
+          "special-18",
+          "special-19",
+          "special-59",
+          "special-39",
+          "special-61",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-50",
+          "special-51",
+          "special-37",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-58",
+          "special-22",
+          "special-14",
+          "special-15",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25"
+        ],
+        "rowNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "cards": [
+          {
+            "key": "special-35",
+            "number": 1,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-18",
+            "number": 2,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-19",
+            "number": 3,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-59",
+            "number": 4,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-39",
+            "number": 5,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-61",
+            "number": 6,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-60",
+            "number": 7,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-34",
+            "number": 8,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-36",
+            "number": 9,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-38",
+            "number": 10,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-50",
+            "number": 11,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-51",
+            "number": 12,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-37",
+            "number": 13,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-41",
+            "number": 14,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-13",
+            "number": 15,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-40",
+            "number": 16,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-58",
+            "number": 17,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-22",
+            "number": 18,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-14",
+            "number": 19,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-15",
+            "number": 20,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-33",
+            "number": 21,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-16",
+            "number": 22,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-21",
+            "number": 23,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-25",
+            "number": 24,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          }
+        ],
+        "overview": {
+          "sourceTotal": 24,
+          "total": "24",
+          "totalCount": 1,
+          "title": "المشاريع الخاصة",
+          "titleRect": {
+            "x": 1223.984375,
+            "y": 618.578125,
+            "w": 168.015625,
+            "h": 39.1875
+          },
+          "totalRect": {
+            "x": 48,
+            "y": 618.578125,
+            "w": 43.375,
+            "h": 70.390625
+          },
+          "cohorts": [
+            {
+              "id": "leadership",
+              "total": 24
+            }
+          ],
+          "legend": true
+        },
+        "oldSummary": 0,
+        "contents": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 24",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 24",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 12",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 12",
+            "exists": true
+          }
+        ],
+        "empty": 0,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": ""
+      }
+    },
+    {
+      "scope": "lead",
+      "width": 390,
+      "geometry": {
+        "keys": [
+          "special-35",
+          "special-18",
+          "special-19",
+          "special-59",
+          "special-39",
+          "special-61",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-50",
+          "special-51",
+          "special-37",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-58",
+          "special-22",
+          "special-14",
+          "special-15",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25"
+        ],
+        "rowKeys": [
+          "special-35",
+          "special-18",
+          "special-19",
+          "special-59",
+          "special-39",
+          "special-61",
+          "special-60",
+          "special-34",
+          "special-36",
+          "special-38",
+          "special-50",
+          "special-51",
+          "special-37",
+          "special-41",
+          "special-13",
+          "special-40",
+          "special-58",
+          "special-22",
+          "special-14",
+          "special-15",
+          "special-33",
+          "special-16",
+          "special-21",
+          "special-25"
+        ],
+        "rowNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "cards": [
+          {
+            "key": "special-35",
+            "number": 1,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-18",
+            "number": 2,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-19",
+            "number": 3,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-59",
+            "number": 4,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-39",
+            "number": 5,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-61",
+            "number": 6,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-60",
+            "number": 7,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-34",
+            "number": 8,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-36",
+            "number": 9,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-38",
+            "number": 10,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-50",
+            "number": 11,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-51",
+            "number": 12,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-37",
+            "number": 13,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-41",
+            "number": 14,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-13",
+            "number": 15,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-40",
+            "number": 16,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-58",
+            "number": 17,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-22",
+            "number": 18,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-14",
+            "number": 19,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-15",
+            "number": 20,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-33",
+            "number": 21,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-16",
+            "number": 22,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-21",
+            "number": 23,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-25",
+            "number": 24,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          }
+        ],
+        "overview": {
+          "sourceTotal": 24,
+          "total": "24",
+          "totalCount": 1,
+          "title": "المشاريع الخاصة",
+          "titleRect": {
+            "x": 205.984375,
+            "y": 623.34375,
+            "w": 168.015625,
+            "h": 39.1875
+          },
+          "totalRect": {
+            "x": 16,
+            "y": 623.34375,
+            "w": 43.375,
+            "h": 70.390625
+          },
+          "cohorts": [
+            {
+              "id": "leadership",
+              "total": 24
+            }
+          ],
+          "legend": true
+        },
+        "oldSummary": 0,
+        "contents": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 24",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 24",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 12",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 12",
+            "exists": true
+          }
+        ],
+        "empty": 0,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": ""
+      }
+    },
+    {
+      "scope": "tec",
+      "width": 1440,
+      "geometry": {
+        "keys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-44",
+          "special-4",
+          "special-53",
+          "special-42",
+          "special-20",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-52",
+          "special-8",
+          "special-47",
+          "special-54",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-57",
+          "special-2",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowKeys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-44",
+          "special-4",
+          "special-53",
+          "special-42",
+          "special-20",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-52",
+          "special-8",
+          "special-47",
+          "special-54",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-57",
+          "special-2",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "cards": [
+          {
+            "key": "special-6",
+            "number": 1,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-3",
+            "number": 2,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-62",
+            "number": 3,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-28",
+            "number": 4,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-30",
+            "number": 5,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-44",
+            "number": 6,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-4",
+            "number": 7,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-53",
+            "number": 8,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-42",
+            "number": 9,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-20",
+            "number": 10,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-11",
+            "number": 11,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-12",
+            "number": 12,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-9",
+            "number": 13,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-10",
+            "number": 14,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-32",
+            "number": 15,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-5",
+            "number": 16,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-7",
+            "number": 17,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-23",
+            "number": 18,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-24",
+            "number": 19,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-27",
+            "number": 20,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-31",
+            "number": 21,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-26",
+            "number": 22,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-45",
+            "number": 23,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-46",
+            "number": 24,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-49",
+            "number": 25,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-52",
+            "number": 26,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-8",
+            "number": 27,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-47",
+            "number": 28,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-54",
+            "number": 29,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-29",
+            "number": 30,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-48",
+            "number": 31,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-55",
+            "number": 32,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-56",
+            "number": 33,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-57",
+            "number": 34,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-2",
+            "number": 35,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-43",
+            "number": 36,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-17",
+            "number": 37,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-63",
+            "number": 38,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          }
+        ],
+        "overview": {
+          "sourceTotal": 38,
+          "total": "38",
+          "totalCount": 1,
+          "title": "المشاريع الخاصة",
+          "titleRect": {
+            "x": 1223.984375,
+            "y": 626.578125,
+            "w": 168.015625,
+            "h": 39.1875
+          },
+          "totalRect": {
+            "x": 48,
+            "y": 626.578125,
+            "w": 43.375,
+            "h": 70.390625
+          },
+          "cohorts": [
+            {
+              "id": "tec",
+              "total": 38
+            }
+          ],
+          "legend": true
+        },
+        "oldSummary": 0,
+        "contents": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 38",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 38",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 27",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 11",
+            "exists": true
+          }
+        ],
+        "empty": 0,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": ""
+      }
+    },
+    {
+      "scope": "tec",
+      "width": 390,
+      "geometry": {
+        "keys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-44",
+          "special-4",
+          "special-53",
+          "special-42",
+          "special-20",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-52",
+          "special-8",
+          "special-47",
+          "special-54",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-57",
+          "special-2",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowKeys": [
+          "special-6",
+          "special-3",
+          "special-62",
+          "special-28",
+          "special-30",
+          "special-44",
+          "special-4",
+          "special-53",
+          "special-42",
+          "special-20",
+          "special-11",
+          "special-12",
+          "special-9",
+          "special-10",
+          "special-32",
+          "special-5",
+          "special-7",
+          "special-23",
+          "special-24",
+          "special-27",
+          "special-31",
+          "special-26",
+          "special-45",
+          "special-46",
+          "special-49",
+          "special-52",
+          "special-8",
+          "special-47",
+          "special-54",
+          "special-29",
+          "special-48",
+          "special-55",
+          "special-56",
+          "special-57",
+          "special-2",
+          "special-43",
+          "special-17",
+          "special-63"
+        ],
+        "rowNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "cards": [
+          {
+            "key": "special-6",
+            "number": 1,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-3",
+            "number": 2,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-62",
+            "number": 3,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-28",
+            "number": 4,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-30",
+            "number": 5,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-44",
+            "number": 6,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-4",
+            "number": 7,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-53",
+            "number": 8,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-42",
+            "number": 9,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-20",
+            "number": 10,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-11",
+            "number": 11,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-12",
+            "number": 12,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-9",
+            "number": 13,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-10",
+            "number": 14,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-32",
+            "number": 15,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-5",
+            "number": 16,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-7",
+            "number": 17,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-23",
+            "number": 18,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-24",
+            "number": 19,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-27",
+            "number": 20,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-31",
+            "number": 21,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-26",
+            "number": 22,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-45",
+            "number": 23,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-46",
+            "number": 24,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-49",
+            "number": 25,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-52",
+            "number": 26,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-8",
+            "number": 27,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-47",
+            "number": 28,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-54",
+            "number": 29,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-29",
+            "number": 30,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-48",
+            "number": 31,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-55",
+            "number": 32,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-56",
+            "number": 33,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-57",
+            "number": 34,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-2",
+            "number": 35,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-43",
+            "number": 36,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-17",
+            "number": 37,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-63",
+            "number": 38,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          }
+        ],
+        "overview": {
+          "sourceTotal": 38,
+          "total": "38",
+          "totalCount": 1,
+          "title": "المشاريع الخاصة",
+          "titleRect": {
+            "x": 205.984375,
+            "y": 992.34375,
+            "w": 168.015625,
+            "h": 39.1875
+          },
+          "totalRect": {
+            "x": 16,
+            "y": 992.34375,
+            "w": 43.375,
+            "h": 70.390625
+          },
+          "cohorts": [
+            {
+              "id": "tec",
+              "total": 38
+            }
+          ],
+          "legend": true
+        },
+        "oldSummary": 0,
+        "contents": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 38",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 38",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 27",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 11",
+            "exists": true
+          }
+        ],
+        "empty": 0,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": ""
+      }
+    },
+    {
+      "scope": "single",
+      "width": 1440,
+      "geometry": {
+        "keys": [
+          "special-30",
+          "special-32",
+          "special-23",
+          "special-24",
+          "special-31",
+          "special-29"
+        ],
+        "rowKeys": [
+          "special-30",
+          "special-32",
+          "special-23",
+          "special-24",
+          "special-31",
+          "special-29"
+        ],
+        "rowNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "cards": [
+          {
+            "key": "special-30",
+            "number": 1,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-32",
+            "number": 2,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-23",
+            "number": 3,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-24",
+            "number": 4,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-31",
+            "number": 5,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-29",
+            "number": 6,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          }
+        ],
+        "overview": {
+          "sourceTotal": 6,
+          "total": "6",
+          "totalCount": 1,
+          "title": "المشاريع الخاصة",
+          "titleRect": {
+            "x": 1223.984375,
+            "y": 626.578125,
+            "w": 168.015625,
+            "h": 39.1875
+          },
+          "totalRect": {
+            "x": 48,
+            "y": 626.578125,
+            "w": 38.84375,
+            "h": 70.390625
+          },
+          "cohorts": [
+            {
+              "id": "tec",
+              "total": 6
+            }
+          ],
+          "legend": true
+        },
+        "oldSummary": 0,
+        "contents": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 6",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 6",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 5",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 1",
+            "exists": true
+          }
+        ],
+        "empty": 0,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": ""
+      }
+    },
+    {
+      "scope": "single",
+      "width": 390,
+      "geometry": {
+        "keys": [
+          "special-30",
+          "special-32",
+          "special-23",
+          "special-24",
+          "special-31",
+          "special-29"
+        ],
+        "rowKeys": [
+          "special-30",
+          "special-32",
+          "special-23",
+          "special-24",
+          "special-31",
+          "special-29"
+        ],
+        "rowNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "cards": [
+          {
+            "key": "special-30",
+            "number": 1,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-32",
+            "number": 2,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-23",
+            "number": 3,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-24",
+            "number": 4,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-31",
+            "number": 5,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          },
+          {
+            "key": "special-29",
+            "number": 6,
+            "leadBadges": 0,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 0
+          }
+        ],
+        "overview": {
+          "sourceTotal": 6,
+          "total": "6",
+          "totalCount": 1,
+          "title": "المشاريع الخاصة",
+          "titleRect": {
+            "x": 205.984375,
+            "y": 861.734375,
+            "w": 168.015625,
+            "h": 39.1875
+          },
+          "totalRect": {
+            "x": 16,
+            "y": 861.734375,
+            "w": 38.84375,
+            "h": 70.390625
+          },
+          "cohorts": [
+            {
+              "id": "tec",
+              "total": 6
+            }
+          ],
+          "legend": true
+        },
+        "oldSummary": 0,
+        "contents": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 6",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 6",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 5",
+            "exists": true
+          },
+          {
+            "target": "hh-completed",
+            "text": "04\nالمستجدات التفصيلية للمشاريع المنجزة\nعدد المشاريع: 1",
+            "exists": true
+          }
+        ],
+        "empty": 0,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": ""
+      }
+    },
+    {
+      "scope": "entity",
+      "width": 1440,
+      "geometry": {
+        "keys": [
+          "special-18",
+          "special-51"
+        ],
+        "rowKeys": [
+          "special-18",
+          "special-51"
+        ],
+        "rowNumbers": [
+          1,
+          2
+        ],
+        "cards": [
+          {
+            "key": "special-18",
+            "number": 1,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-51",
+            "number": 2,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          }
+        ],
+        "overview": {
+          "sourceTotal": 2,
+          "total": "2",
+          "totalCount": 1,
+          "title": "المشاريع الخاصة",
+          "titleRect": {
+            "x": 1223.984375,
+            "y": 660.171875,
+            "w": 168.015625,
+            "h": 39.1875
+          },
+          "totalRect": {
+            "x": 48,
+            "y": 660.171875,
+            "w": 38.84375,
+            "h": 70.390625
+          },
+          "cohorts": [
+            {
+              "id": "leadership",
+              "total": 2
+            }
+          ],
+          "legend": true
+        },
+        "oldSummary": 0,
+        "contents": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 2",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 2",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 2",
+            "exists": true
+          }
+        ],
+        "empty": 0,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": "القيادة العامة لشرطة دبي"
+      }
+    },
+    {
+      "scope": "entity",
+      "width": 390,
+      "geometry": {
+        "keys": [
+          "special-18",
+          "special-51"
+        ],
+        "rowKeys": [
+          "special-18",
+          "special-51"
+        ],
+        "rowNumbers": [
+          1,
+          2
+        ],
+        "cards": [
+          {
+            "key": "special-18",
+            "number": 1,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          },
+          {
+            "key": "special-51",
+            "number": 2,
+            "leadBadges": 1,
+            "bottomLeadFields": 0,
+            "sourceLeadFields": 1
+          }
+        ],
+        "overview": {
+          "sourceTotal": 2,
+          "total": "2",
+          "totalCount": 1,
+          "title": "المشاريع الخاصة",
+          "titleRect": {
+            "x": 205.984375,
+            "y": 698.9375,
+            "w": 168.015625,
+            "h": 39.1875
+          },
+          "totalRect": {
+            "x": 16,
+            "y": 698.9375,
+            "w": 38.84375,
+            "h": 70.390625
+          },
+          "cohorts": [
+            {
+              "id": "leadership",
+              "total": 2
+            }
+          ],
+          "legend": true
+        },
+        "oldSummary": 0,
+        "contents": [
+          {
+            "target": "hh-summary",
+            "text": "01\nالملخص التنفيذي\nعدد المشاريع: 2",
+            "exists": true
+          },
+          {
+            "target": "report-table",
+            "text": "02\nالقائمة الرئيسية للمشاريع\nعدد المشاريع: 2",
+            "exists": true
+          },
+          {
+            "target": "hh-followup",
+            "text": "03\nالمستجدات التفصيلية للمشاريع قيد المتابعة\nعدد المشاريع: 2",
+            "exists": true
+          }
+        ],
+        "empty": 0,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": "القيادة العامة لشرطة دبي"
+      }
+    },
+    {
+      "scope": "empty",
+      "width": 1440,
+      "geometry": {
+        "keys": [],
+        "rowKeys": [],
+        "rowNumbers": [],
+        "cards": [],
+        "overview": null,
+        "oldSummary": 0,
+        "contents": [],
+        "empty": 1,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": "__QA_no_entity__ (غير موجود ضمن الخيارات الحالية)"
+      }
+    },
+    {
+      "scope": "empty",
+      "width": 390,
+      "geometry": {
+        "keys": [],
+        "rowKeys": [],
+        "rowNumbers": [],
+        "cards": [],
+        "overview": null,
+        "oldSummary": 0,
+        "contents": [],
+        "empty": 1,
+        "overflow": false,
+        "title": "مستجدات المشاريع الخاصة 2026",
+        "period": "يناير – سبتمبر 2026",
+        "entity": "__QA_no_entity__ (غير موجود ضمن الخيارات الحالية)"
+      }
+    }
+  ],
+  "pdfs": [],
+  "loadedAssetHashes": {
+    "app-bundle.css": "4f8e123903da49cc579768720ae8970a93b2ebaa7dc47e1b9e81c428b1d7fcfb",
+    "app-bundle.js": "c0be77d49aa5d55a73111b4071fd5404affb5180006d8c1c7dd667f766ed9d74"
+  },
+  "verdict": "PASS",
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "c0be77d49aa5d55a73111b4071fd5404affb5180006d8c1c7dd667f766ed9d74",
+    "assets/css/app-bundle.css": "4f8e123903da49cc579768720ae8970a93b2ebaa7dc47e1b9e81c428b1d7fcfb",
+    "assets/css/print-measure-bundle.css": "0f755afc1f4fcb986b646344e866b9ba7c3167ae2bf83591c6a80398e23723a3"
+  },
+  "visualReview": {
+    "result": "PASS",
+    "reviewed": [
+      "hh-all-1440-charts.png",
+      "hh-lead-detail-1440.png",
+      "hh-lead-detail-390.png",
+      "pdf/hh-all-page-3.png",
+      "pdf/hh-all-leadership-card-page-15.png",
+      "delivery/clean-hh-lead-page-3.png",
+      "delivery/clean-hh-lead-page-5.png"
+    ],
+    "findings": [
+      "HH title and overall total sit above both charts; no separate summary card.",
+      "Both charts and detailed legend fit one A4 page.",
+      "Leadership badge has consistent teal outline and mist fill beside project identity on screen and native PDF.",
+      "Repeated detail heading and visible number strip removed; project title and entity remain clear."
+    ],
+    "fullHHContentsReferences": [
+      {
+        "targetPhysicalPage": 3,
+        "printedNumbers": [
+          "2"
+        ],
+        "correct": true
+      },
+      {
+        "targetPhysicalPage": 4,
+        "printedNumbers": [
+          "3"
+        ],
+        "correct": true
+      },
+      {
+        "targetPhysicalPage": 10,
+        "printedNumbers": [
+          "9"
+        ],
+        "correct": true
+      },
+      {
+        "targetPhysicalPage": 49,
+        "printedNumbers": [
+          "48"
+        ],
+        "correct": true
+      }
+    ]
+  },
+  "finalStatus": "Complete and stable: 290 focused checks passed, zero issues. Separate clean-runtime evidence:22 checks passed."
+}

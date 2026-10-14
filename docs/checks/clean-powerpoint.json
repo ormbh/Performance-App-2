@@ -1,0 +1,205 @@
+{
+  "verdict": "PASS",
+  "runtime": "/workspace/saytara-work/v162-clean/Performance-App",
+  "files": 26,
+  "jsHash": "c0be77d49aa5d55a73111b4071fd5404affb5180006d8c1c7dd667f766ed9d74",
+  "checks": [
+    {
+      "name": "agenda clean package actual download ZIP CRC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda slide count agrees with package metadata",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda all selected source titles present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda actual embedded fonts present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda embedded fonts registered",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda all internal package relationships resolve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda lazy template/font dependencies load from minimal package",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "agenda no failed runtime request",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh clean package actual download ZIP CRC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh slide count agrees with package metadata",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh all selected source titles present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh actual embedded fonts present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh embedded fonts registered",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh all internal package relationships resolve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh lazy template/font dependencies load from minimal package",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hh no failed runtime request",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council clean package actual download ZIP CRC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council slide count agrees with package metadata",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council all selected source titles present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council actual embedded fonts present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council embedded fonts registered",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council all internal package relationships resolve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council lazy template/font dependencies load from minimal package",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "council no failed runtime request",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "minimal runtime JS matches final build hash",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "browser loaded final JS hash",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no browser errors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no external network requests",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "results": [
+    {
+      "kind": "agenda",
+      "sourceCount": 2,
+      "slides": 4,
+      "fontFiles": 2,
+      "lazy": [
+        {
+          "path": "v162-clean/Performance-App/assets/js/reports/agenda-template.js",
+          "status": 200
+        },
+        {
+          "path": "v162-clean/Performance-App/assets/js/reports/agenda-fonts.js",
+          "status": 200
+        }
+      ],
+      "fileSha256": "0d80d27eeefa502a5a382e07f7862ddbcc0a5620f1b2a1b8bce829898ff54e93"
+    },
+    {
+      "kind": "hh",
+      "sourceCount": 11,
+      "slides": 16,
+      "fontFiles": 2,
+      "lazy": [
+        {
+          "path": "v162-clean/Performance-App/assets/js/reports/hh-template.js",
+          "status": 200
+        },
+        {
+          "path": "v162-clean/Performance-App/assets/js/reports/agenda-fonts.js",
+          "status": 200
+        }
+      ],
+      "fileSha256": "1b97e977edbb69a49ed770cffd7442d1df8a3b3cd6b5aa916d2ccc181961a930"
+    },
+    {
+      "kind": "council",
+      "sourceCount": 1,
+      "slides": 6,
+      "fontFiles": 2,
+      "lazy": [
+        {
+          "path": "v162-clean/Performance-App/assets/js/reports/agenda-template.js",
+          "status": 200
+        },
+        {
+          "path": "v162-clean/Performance-App/assets/js/reports/agenda-fonts.js",
+          "status": 200
+        }
+      ],
+      "fileSha256": "4b7ec76fc3f9d815f61ea0bc49e3dad8f805689d50423320b6dc7ece5ef9a013"
+    }
+  ],
+  "limits": [
+    "Actual UI download/package smoke. Office visual rendering unavailable.",
+    "The three PPTX lazy files were exercised. Offline-PDF font dependency is covered by the PDF agent."
+  ]
+}
