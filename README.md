@@ -1,4 +1,14 @@
-# Performance App v155
+# Performance App v156
+
+[Download app — v156](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v156.zip) · [Updated TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles.zip) · [Revision 23](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-23.md) · [Verification](Saytara-Verification-v156.md)
+
+Recorded completion now uses numeric percentages without Harvey balls or circular indicators across the app and exports. The HH PDF removes its duplicate combined overview card while retaining contents, paired charts and details. Values and calculations remain unchanged.
+
+[Monthly legislation card illustration](Monthly-Legislation-Concept-v156/README.md) remains a proposal for review and is not applied to the monthly report.
+
+Extract the complete ZIP and open **index.html**. No workbook is bundled. See verification for actual checks and limitations.
+
+# Previous release — v155
 
 [Download app — v155](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v155.zip) · [Updated TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles.zip) · [Revision 22](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-22.md) · [Applied previews](Charts-and-Display-v155/README.md) · [Verification](Saytara-Verification-v155.md)
 

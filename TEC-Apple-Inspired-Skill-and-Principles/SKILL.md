@@ -7,7 +7,7 @@ description: Standardize TEC and Saytara dashboards and related interfaces using
 
 Use a consistent, restrained design approach across the TEC app: clear hierarchy, readable information, deliberate spacing and predictable interactions. Preserve TEC identity and the meaning of the data.
 
-**Edition:** 14 October 2026. Revision 22: consolidates approved decisions for v155, including HH cohort charts, readable in-bar counts, source-card cleanup and shared zero/missing/ready-text presentation. This is design guidance; publishing or installing it does not change the app.
+**Edition:** 14 October 2026. Revision 23: consolidates approved decisions for v156, removing Harvey balls and circular progress indicators across the app and printed/PDF output while retaining numeric progress and the approved HH, agenda and shared display rules. This is design guidance; publishing or installing it does not change the app.
 
 Read [TEC Apple-Inspired Design Principles](references/TEC-Apple-Inspired-Design-Principles.md) before using this skill. It contains the current tokens, component rules, monthly exceptions and PDF profiles. Both files form one self-contained skill package.
 
@@ -42,6 +42,7 @@ Read [TEC Apple-Inspired Design Principles](references/TEC-Apple-Inspired-Design
 - Use exact data-driven charts. Preserve totals, eligible records, scales, denominators, zero/missing distinctions and filter scope. Put numbers inside proportional segments only when they fit legibly; keep exact small counts available through details and the exported matrix rather than enlarging segments or squeezing numerals.
 - HH leadership includes only explicit **نعم**; TEC includes all other records, including blank. Hide zero sector rows independently and hide empty cohort panels. Use one comparable zero-based scale, totals immediately beyond actual bar endpoints, aggregate status totals and the detailed HH legend. Omit individual status labels beneath HH bars.
 - Display true numeric zero as **–**, including zero percentages, without changing numeric data, geometry, sorting or accessible numeric values. Render generated **غير مسجل / غير مسجلة** placeholders as blank. Preserve dates, identifiers, narrative text and missing-state semantics. Hide source filenames in user-facing cards and their exports while retaining raw provenance.
+- Show recorded progress as a readable numeric percentage; remove Harvey balls and circular progress indicators from app views and printed/PDF output, including tables, cards and details. A true zero remains **–** and a missing value remains blank. Retain approved linear completion and distribution bars and their source-defined meaning.
 - Agenda quarter charts show per-category status totals by default. Only explicit quarter activation shows that quarter’s status breakdown; hover and keyboard focus alone must not change it. Keep keyboard focus visible without a persistent selected-bar outline. PDF always shows the aggregate status totals, independent of the last screen selection.
 - Identify whether a bar expresses completion, a status distribution, finance or measurement coverage before styling it. Do not interchange those meanings.
 - Use solid financial bars for complete and partial numeric coverage. Do not restore hatching, completeness markers or the removed availability notes.

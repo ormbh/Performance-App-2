@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تصور بطاقة التشريعات في التقرير الشهري</title>
+<style>
+@font-face{font-family:Dubai;src:url('../HH-Report-Concept-R3/assets/fonts/Dubai-Regular.otf')}
+@font-face{font-family:DIN;src:url('../HH-Report-Concept-R3/assets/fonts/DIN-Next-Arabic-Regular.otf')}
+@font-face{font-family:DINNumbers;src:url('../HH-Report-Concept-R3/assets/fonts/DIN-Next-LT-Arabic-Regular.ttf')}
+*{box-sizing:border-box}body{margin:0;background:#EFEBE7;color:#4F4E4E;font:18px/1.5 Dubai,sans-serif}
+main{width:1040px;max-width:100%;padding:32px;margin:auto}.caption{margin:0 0 20px;color:#746C5F;font-size:16px}
+.card{background:#FCFBFB;border:1px solid #E7E0D3;border-radius:18px;padding:28px 30px}
+.header{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:24px}
+h1{font:400 28px/1.4 DIN,sans-serif;margin:0;color:#303030}.total{text-align:left}.total strong{display:block;font:400 44px/1.1 DINNumbers,sans-serif;color:#303030}.total small{display:block;font-size:15px}
+.change{display:block;font-size:15px;line-height:26px;color:#746C5F;min-height:26px}bdi{direction:ltr;unicode-bidi:isolate;font-variant-numeric:tabular-nums}
+.metrics{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:0 0 28px}.metric+.metric{border-inline-start:1px solid #EFEBE7;padding-inline-start:28px}
+.label{display:block;font-size:18px;margin:0 0 8px}.number{display:block;text-align:right;font:400 38px/1.2 DINNumbers,sans-serif}.done .label,.done .number,.done .change{color:#01831E}
+.late{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;color:#C00000;margin-top:6px;font-size:17px}.late bdi.value{font:400 25px/1.3 DINNumbers,sans-serif}.late .change{color:inherit;font-size:15px;margin-inline-start:4px}
+.meter{display:flex;direction:rtl;overflow:hidden;border-radius:4px;height:7px;background:#EFEBE7}.meter span{width:97.2677595628%;background:#01831E}.completion{display:flex;align-items:baseline;gap:8px;font-size:16px;margin:8px 0 0}
+.note{margin:18px 2px 0;font-size:16px;color:#746C5F}.note bdi{color:#4F4E4E}
+@media(max-width:600px){main{padding:18px}.card{padding:24px 20px}.metrics{gap:18px}.metric+.metric{padding-inline-start:18px}h1{font-size:24px}.late{gap:6px}.note{font-size:15px}}
+</style>
+<main>
+ <p class="caption">تصوّر للمراجعة · بطاقة التشريعات في التقرير الشهري</p>
+ <article class="card" aria-label="التشريعات: الإجمالي 183؛ منجز 178؛ قيد العمل 5، منها متأخر 2">
+  <header class="header"><h1>التشريعات</h1><div class="total"><strong><bdi>183</bdi></strong><small>الإجمالي</small><span class="change"><bdi>↑ +17</bdi></span></div></header>
+  <div class="metrics">
+   <section class="metric done"><span class="label">منجز</span><bdi class="number">178</bdi><span class="change"><bdi>↑ +14</bdi></span></section>
+   <section class="metric"><span class="label">قيد العمل</span><bdi class="number">5</bdi><span class="change" aria-hidden="true"></span><div class="late"><span>منها متأخر</span><bdi class="value">2</bdi><span class="change"><bdi>↑ +1</bdi></span></div></section>
+  </div>
+  <div class="meter" role="img" aria-label="178 تشريعاً منجزاً من إجمالي 183"><span></span></div>
+  <p class="completion"><span>نسبة المنجز</span><bdi>97.3%</bdi></p>
+ </article>
+ <p class="note">الأرقام من الصورة المرفقة. المتأخر ضمن قيد العمل، ويُحسب مرة واحدة في الإجمالي.</p>
+</main>
+</html>

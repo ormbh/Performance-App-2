@@ -1,0 +1,100 @@
+{
+  "version": 155,
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "illustrative": true
+  },
+  "checks": [
+    {
+      "name": "remove only exported aggregate overview",
+      "pass": true
+    },
+    {
+      "name": "chartCount preserved exactly",
+      "pass": true
+    },
+    {
+      "name": "chartHTML preserved exactly",
+      "pass": true
+    },
+    {
+      "name": "contentsHTML preserved exactly",
+      "pass": true
+    },
+    {
+      "name": "tableHTML preserved exactly",
+      "pass": true
+    },
+    {
+      "name": "cards preserved exactly",
+      "pass": true
+    },
+    {
+      "name": "sourceUnchanged",
+      "pass": true
+    },
+    {
+      "name": "specUnchanged",
+      "pass": true
+    },
+    {
+      "name": "screenUnchanged",
+      "pass": true
+    },
+    {
+      "name": "cover",
+      "pass": true
+    },
+    {
+      "name": "firstChart",
+      "pass": true
+    },
+    {
+      "name": "TEC scope export no duplicate overview and chart retained",
+      "pass": true
+    },
+    {
+      "name": "TEC sourceUnchanged",
+      "pass": true
+    },
+    {
+      "name": "TEC specUnchanged",
+      "pass": true
+    },
+    {
+      "name": "TEC screenUnchanged",
+      "pass": true
+    },
+    {
+      "name": "TEC cover",
+      "pass": true
+    },
+    {
+      "name": "TEC firstChart",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screens": [],
+  "pdfs": [],
+  "loadedAssetHashes": {
+    "app-bundle.css": "cc507a72c51076c6ad01fd5b721481f619a3aff71eaa8f138e3f6c56fe0a95d3",
+    "app-bundle.js": "b1882c6e9178ab9aee3cab4b6ee4eb18f0b76f980a7c41a5518ef86ec2541205",
+    "print-measure-bundle.css": "6d73857902cbed611e327de2fa24df9ed9eebce3811edef5aeb2bc3a0eb2e904"
+  },
+  "actualPages": {
+    "before": 72,
+    "after": 72,
+    "TEC": 46
+  },
+  "changedSourceHash": "d89c33e627ea7349f7656f6669bef38ea26ec1cc05a3e9a54cec3e548377c329",
+  "note": "Tests inject changed pdf-download.js over the existing v155 bundle in v156; root must rebuild and verify final native PDF artifact.",
+  "verdict": "PASS"
+}

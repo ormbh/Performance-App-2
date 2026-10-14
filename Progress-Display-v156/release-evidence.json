@@ -1,0 +1,40 @@
+{
+  "build": 156,
+  "verdict": "PASS",
+  "zipSha256": "6fde66ad7de17646df9956c5d2c08f649d283e8ac18a1399fe1ab65871588bf3",
+  "manifestFiles": 215,
+  "crc": "PASS",
+  "extractedHashes": "PASS",
+  "designRevision": 23,
+  "sourceChanges": [
+    "DESIGN-PRINCIPLES-v156.md",
+    "DESIGN-STANDARD.md",
+    "README.md",
+    "VERIFICATION-v156.md",
+    "assets/css/app-bundle.css",
+    "assets/css/consistency.css",
+    "assets/css/print-measure-bundle.css",
+    "assets/css/report-unified.css",
+    "assets/css/special-report.css",
+    "assets/css/tec-approved-audit134.css",
+    "assets/css/tec-approved-source-roles.css",
+    "assets/css/tec-hh-report.css",
+    "assets/js/app-bundle.js",
+    "assets/js/reports/hh.js",
+    "assets/js/views/pdf-download.js",
+    "assets/js/views/reports.js",
+    "index.html"
+  ],
+  "sourceRecordsPreserved": true,
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "883cce5e8ce5134fe51c2edc501e351258b28592fcc9882e130e32fd1bf39113",
+    "assets/css/app-bundle.css": "20dec07e970fa320ff913459cf2dd6227910d6df340eb4cddfb4283d43978732",
+    "assets/css/print-measure-bundle.css": "c4bc39d81c82e8bc266d65139f3796b8b4504e8c6415f47ad29c7142ee255d18"
+  },
+  "scope": "Remove Harvey balls/circular progress indicators; preserve numeric percentages; remove duplicate HH native-PDF overview; Revision23 principles; monthly legislation concept only.",
+  "limitations": [
+    "Illustrative source, not production audit.",
+    "Office visual rendering unavailable; PPTX native structure/data checked.",
+    "Local HTTP Chromium; cold file URL, native mobile devices and screen-reader certification not separately tested."
+  ]
+}

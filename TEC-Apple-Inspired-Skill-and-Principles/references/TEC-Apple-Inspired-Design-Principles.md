@@ -1,10 +1,10 @@
 # TEC Apple-Inspired Design Principles
 
-**Revision 22 · 14 October 2026 · Performance App v155**
+**Revision 23 · 14 October 2026 · Performance App v156**
 
 The approved monthly dashboard establishes a reusable visual language for the TEC app. Apply its hierarchy, typography, surfaces, spacing, controls and alignment to equivalent roles across pages. Preserve the distinct purpose, content and calculations of each page.
 
-This document consolidates approved rules for Performance App v155, including the approved HH revision 3 composition, agenda in-bar counts and shared display conventions. It records the approved design; release verification establishes what was implemented and tested. The document itself does not change the app. The proposed additional-status disclosure and top follow-up shortcut are excluded. The separate entity-report redesign remains a concept.
+This document consolidates approved rules for Performance App v156, adding the app-wide removal of Harvey balls and circular progress indicators to the approved HH revision 3 composition, agenda in-bar counts and shared display conventions. It records the approved design; release verification establishes what was implemented and tested. The document itself does not change the app. The proposed additional-status disclosure and top follow-up shortcut are excluded. The separate entity-report redesign and latest monthly-legislation illustration remain concepts.
 
 ## 1. The approach
 
@@ -19,7 +19,7 @@ This document consolidates approved rules for Performance App v155, including th
 9. **Preserve data truth.** Styling must not change scope, formulas, denominators, recorded notes, source identities or the meaning of missing values.
 10. **Verify the result.** Inspect the real render and the requested interactions. Match claims to the checks actually performed.
 
-The latest user instruction overrides this document. Page-specific rules below take precedence over general patterns. Historical proposals and screenshots do not override later approvals. Revision 22 supersedes older instructions to show a numeric zero as `0%`, keep plain ready-status labels neutral, retain empty HH rows, put HH row totals in a fixed column, or show per-bar status captions. All earlier rules not changed here remain applicable.
+The latest user instruction overrides this document. Page-specific rules below take precedence over general patterns. Historical proposals and screenshots do not override later approvals. Revision 23 supersedes any use of Harvey balls or circular progress indicators in app views and printed/PDF output. It retains Revision 22's replacement of older instructions to show a numeric zero as `0%`, keep plain ready-status labels neutral, retain empty HH rows, put HH row totals in a fixed column, or show per-bar status captions. All earlier rules not changed here remain applicable.
 
 ## 2. Screen typography
 
@@ -96,6 +96,13 @@ Use the same appearance mapping when generating native chart fills, marker borde
 - Render generated missing-value placeholders such as **غير مسجل / غير مسجلة** as an empty value, preserving the field’s label and source association where the field remains. Retain the distinction between missing and a real zero internally. Do not erase substantive source notes or invent a value from a blank.
 - Omit the source filename field, including **Source.Name / ملف المصدر**, from user-facing report cards and their rendered exports. Keep provenance in the raw record and audit machinery. This does not remove the upload control’s chosen-file confirmation or rewrite source identities.
 - Recorded status and recorded progress are separate source fields. Do not infer **منجز** from 100% progress, force completed records to 100%, or derive an unrecorded status from the absence of a value.
+
+### Recorded progress without circular indicators
+
+- Remove Harvey balls, pie-like progress markers and circular progress indicators across app pages, search/results, cards, details, report tables and printed/PDF output. Remove the indicator's unused spacing as well.
+- Keep the recorded progress as a readable numeric percentage in its existing field and preserve the field label. Use **–** for a true numeric zero and an empty value for missing progress; do not turn missing progress into zero or infer a percentage from status.
+- Preserve the original source progress, precision, sorting, filters, calculations and machine-readable values. The removal changes presentation only.
+- Retain approved linear completion bars, stacked status distributions and their captions. Do not replace the removed circles with a new symbol, graphic or duplicate progress value.
 
 ## 4. Layout, spacing and component geometry
 
@@ -207,6 +214,7 @@ Financial bars stay solid even when some source values are unavailable. Remove h
 - Remove the short status labels beneath individual bars. Retain **totals by status beneath each cohort chart**, within the same filter scope, and the shared detailed **تعريفات مستويات الإنجاز** below the pair. These totals reconcile to each cohort total. Use completed Green, late Red and ready Teal for plain status labels/counts.
 - Preserve the approved HH-specific legend wording and mark source-unclassified/other states honestly. Do not import agenda council-approval definitions as if they were HH business rules. Use the same source-derived status meaning in cards, bars, legend and exports.
 - Keep the two populated charts, their aggregate status totals and detailed legend together on the HH summary PDF content page when they fit. Use the landscape report profile, readable native text/vector marks and content-driven continuation for unusually long scopes; never clip rows or force a fixed page count.
+- Keep the HH report contents/navigation, but omit the obsolete duplicate overview card from native PDF output. The approved cohort charts and detailed legend provide the report summary; retain the main project list and detailed sections with their existing scope.
 - Keep project title, recorded status/progress and meaningful populated source details in cards. Hide source filenames through the presentation layer only. The displayed reporting period remains report metadata unless an existing explicit date filter applies; redesign does not silently remove projects based on project start/end dates.
 
 ## 8. Approved monthly composition details
@@ -280,4 +288,4 @@ For a new direction, illustrate first. For approved implementation, continue wit
 
 Verify relevant desktop, tablet, phone and export states; long Arabic/mixed-script labels; selected scope; zeros/missing values; actual source totals and denominators; and interactions changed by the work. Record passes and remaining limitations accurately. A documents-only update does not establish that every app page has already been migrated or newly tested.
 
-**Source basis:** the user’s 14 October 2026 approval to apply the [HH revision 3](https://github.com/ormbh/Performance-App-2/tree/cf191f53d68b077ca6e5f2c27bbc6bb292914246/HH-Report-Concept-R3) and [agenda in-bar illustration](https://github.com/ormbh/Performance-App-2/tree/cf191f53d68b077ca6e5f2c27bbc6bb292914246/Agenda-In-Bar-Concept), plus earlier approved decisions. The latest zero/missing, ready-text, HH visibility/total-placement and in-bar-count rules supersede conflicting historical clauses. Illustrative values establish the review’s scope only; never hardcode those totals or scales into the app. The existing legend wording, source identities and calculations retain their recorded meaning. Current implementation evidence belongs in **VERIFICATION-v155.md**; documentation alone is not a validation pass. Historical reference: the [Revision 19 design standard](https://raw.githubusercontent.com/ormbh/Performance-App-2/286a705e3fb5ab61c748e472833817f7b73908a4/Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-19.md), interpreted with later instructions taking precedence. The official filename registry remains in the [v144 app package](https://raw.githubusercontent.com/ormbh/Performance-App-2/286a705e3fb5ab61c748e472833817f7b73908a4/Performance-App-v144.zip). These links provide provenance; the bundled skill and principles are readable offline.
+**Source basis:** the user’s 14 October 2026 instruction to remove Harvey balls from the app and print, the HH PDF review, and the earlier approval to apply the [HH revision 3](https://github.com/ormbh/Performance-App-2/tree/cf191f53d68b077ca6e5f2c27bbc6bb292914246/HH-Report-Concept-R3) and [agenda in-bar illustration](https://github.com/ormbh/Performance-App-2/tree/cf191f53d68b077ca6e5f2c27bbc6bb292914246/Agenda-In-Bar-Concept), plus earlier approved decisions. The latest circular-indicator removal, zero/missing, ready-text, HH visibility/total-placement and in-bar-count rules supersede conflicting historical clauses. The latest monthly-legislation request is an illustration for review; it does not approve changing monthly status definitions or layout. Illustrative values establish the review’s scope only; never hardcode those totals or scales into the app. The existing legend wording, source identities and calculations retain their recorded meaning. Current implementation evidence belongs in **VERIFICATION-v156.md**; documentation alone is not a validation pass. Historical reference: the [Revision 19 design standard](https://raw.githubusercontent.com/ormbh/Performance-App-2/286a705e3fb5ab61c748e472833817f7b73908a4/Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-19.md), interpreted with later instructions taking precedence. The official filename registry remains in the [v144 app package](https://raw.githubusercontent.com/ormbh/Performance-App-2/286a705e3fb5ab61c748e472833817f7b73908a4/Performance-App-v144.zip). These links provide provenance; the bundled skill and principles are readable offline.

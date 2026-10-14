@@ -1,0 +1,286 @@
+{
+  "version": 156,
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "illustrative": true
+  },
+  "checks": [
+    {
+      "name": "all normalized source records exactly unchanged fromv155",
+      "pass": true
+    },
+    {
+      "name": "HH chart/cohort/sector/status/sourcekeys unchanged",
+      "pass": true
+    },
+    {
+      "name": "screen summary remains available",
+      "pass": true
+    },
+    {
+      "name": "screen no recorded-progress rings",
+      "pass": true
+    },
+    {
+      "name": "screen table exact preserved percentages by sourcekey",
+      "pass": true
+    },
+    {
+      "name": "screen cards exact preserved percentages by sourcekey",
+      "pass": true
+    },
+    {
+      "name": "native PDF duplicate overview card removed",
+      "pass": true
+    },
+    {
+      "name": "native PDF contents retained",
+      "pass": true
+    },
+    {
+      "name": "native PDF no DOMprogressrings or vector ringoperations",
+      "pass": true
+    },
+    {
+      "name": "native PDF all table percentages/sourcekeys unchanged",
+      "pass": true
+    },
+    {
+      "name": "native PDF all card percentages/sourcekeys unchanged",
+      "pass": true
+    },
+    {
+      "name": "native chart and definitions whole on physicalpage2",
+      "pass": true
+    },
+    {
+      "name": "all19 native inbar numbers preserved",
+      "pass": true
+    },
+    {
+      "name": "native chart and original definitions text unchanged",
+      "pass": true
+    },
+    {
+      "name": "actual PDF glyphs match every source percentage in table and card",
+      "pass": true
+    },
+    {
+      "name": "all actual PDF text within page boundaries",
+      "pass": true
+    },
+    {
+      "name": "cover nofooter and correct content numbering/copyright",
+      "pass": true
+    },
+    {
+      "name": "actual PDF has no Harvey glyphs",
+      "pass": true
+    },
+    {
+      "name": "native chart remains vector/no screenshot",
+      "pass": true
+    },
+    {
+      "name": "actual PDF pages equal planned count",
+      "pass": true
+    },
+    {
+      "name": "source still unchanged after download",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true
+    },
+    {
+      "name": "no external network requests",
+      "pass": true
+    },
+    {
+      "name": "source workbook bytes unchanged",
+      "pass": true
+    },
+    {
+      "name": "final PDF still72 pages and exact pageplan",
+      "pass": true
+    },
+    {
+      "name": "final PDF no rings or duplicate overview; contents retained",
+      "pass": true
+    },
+    {
+      "name": "final table typography leaves chart/legend geometry and text unchanged",
+      "pass": true
+    },
+    {
+      "name": "final chart and definitions both whole on physicalpage2",
+      "pass": true
+    },
+    {
+      "name": "final all19 native inbar numbers fit",
+      "pass": true
+    },
+    {
+      "name": "final PDF table/card sourcekeys and numeric values unchanged",
+      "pass": true
+    },
+    {
+      "name": "final actual PDF glyphs match all source table/card percentages",
+      "pass": true
+    },
+    {
+      "name": "all55 actual PDF table figures use12pt DIN",
+      "pass": true
+    },
+    {
+      "name": "all final table percentage boxes fit their cells",
+      "pass": true
+    },
+    {
+      "name": "all62 table records retained with7 missing values empty",
+      "pass": true
+    },
+    {
+      "name": "final all72 pages native text inside page bounds",
+      "pass": true
+    },
+    {
+      "name": "final cover nofooter/content numbering and copyright correct",
+      "pass": true
+    },
+    {
+      "name": "final chart remains vector native output",
+      "pass": true
+    },
+    {
+      "name": "final source records unchanged by export",
+      "pass": true
+    },
+    {
+      "name": "final actual export no runtimeerrors or externalrequests",
+      "pass": true
+    },
+    {
+      "name": "final source workbook bytes unchanged",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screens": [],
+  "pdfs": [
+    {
+      "file": "hh-all.pdf",
+      "pages": 72,
+      "sha256": "c67d62b07f5170cfcb2765a0c42180672e66f873ac9a686090ec5ab0f800d9b9",
+      "tablePages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "cardPages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40,
+        43,
+        44,
+        45,
+        46,
+        47,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        70,
+        71
+      ],
+      "previews": [
+        "page-1.png",
+        "page-2.png",
+        "page-3.png",
+        "page-4.png",
+        "page-10.png",
+        "page-11.png",
+        "page-72.png"
+      ],
+      "chartHeight": 681.453125
+    }
+  ],
+  "loadedAssetHashes": {
+    "app-bundle.css": "20dec07e970fa320ff913459cf2dd6227910d6df340eb4cddfb4283d43978732",
+    "app-bundle.js": "883cce5e8ce5134fe51c2edc501e351258b28592fcc9882e130e32fd1bf39113",
+    "print-measure-bundle.css": "c4bc39d81c82e8bc266d65139f3796b8b4504e8c6415f47ad29c7142ee255d18"
+  },
+  "verdict": "PASS",
+  "initialVerdict": "PASS",
+  "initialCheckCount": 24,
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "883cce5e8ce5134fe51c2edc501e351258b28592fcc9882e130e32fd1bf39113",
+    "assets/css/app-bundle.css": "20dec07e970fa320ff913459cf2dd6227910d6df340eb4cddfb4283d43978732",
+    "assets/css/print-measure-bundle.css": "c4bc39d81c82e8bc266d65139f3796b8b4504e8c6415f47ad29c7142ee255d18"
+  },
+  "visualReview": {
+    "verdict": "PASS",
+    "actualPdfPages": [
+      2,
+      4,
+      11
+    ],
+    "observations": [
+      "12pt DIN table percentages readable and fit cells",
+      "Numeric card progress retained without ring",
+      "Both chart cohorts and detailed definitions fit on one content page"
+    ],
+    "limits": "All 72 pages checked for native text bounds and footer numbering; focused visual review of affected table/card/chart pages. No new PowerPoint check in this PDF-focused task."
+  },
+  "scope": "Focused v156 native HH PDF integration; initial 24 checks plus 16 final typography and export checks. Screen mobile/shared entity checks owned by v156_progress_remove.",
+  "environment": "Actual local HTTP app using final bundles, Chromium, all external requests blocked; no cold file:// claim."
+}

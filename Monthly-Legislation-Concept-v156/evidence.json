@@ -1,0 +1,19 @@
+{
+  "stage": "Illustration only, not applied",
+  "source": "User screenshot, not a new workbook audit",
+  "total": 183,
+  "done": 178,
+  "inProgressIncludingLate": 5,
+  "lateSubset": 2,
+  "completionPercent": 97.3,
+  "providedDeltas": {
+    "total": 17,
+    "done": 14,
+    "late": 1
+  },
+  "desktopWidth": 1040,
+  "phoneWidth": 390,
+  "fonts": "Bundled approved Dubai/DIN, loaded",
+  "arithmetic": "178+5=183; late not counted twice",
+  "viewportOverflow": false
+}

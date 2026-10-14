@@ -1,0 +1,611 @@
+{
+  "checks": [
+    {
+      "name": "True zero is dash; tiny positive and exact values retained; missing/invalid blank",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Shared render never emits Harvey symbol or ring",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All 62 source table percentages preserved as numeric text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All 62 detail cards preserve numeric completion or blank",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No generated Harvey symbols, ring markup or progressbar role",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Numeric card headers fit at 1440px",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Numeric card headers fit at 768px",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Numeric card headers fit at 390px",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Numeric card headers fit at 320px",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Print media emits numeric percentages without circles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entities has no Harvey glyph/ring DOM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "dashboard has no Harvey glyph/ring DOM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "results has no Harvey glyph/ring DOM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PPTX contains no progress-ring shapes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "PPTX editable numeric percentages exactly match source cards",
+      "pass": true,
+      "detail": {
+        "actual": 55,
+        "expected": 55
+      }
+    },
+    {
+      "name": "Source records unchanged",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "errors": [],
+  "fixtureSHA256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "helpers": [
+    {
+      "progress": null,
+      "value": {
+        "valid": false,
+        "label": ""
+      },
+      "html": ""
+    },
+    {
+      "progress": null,
+      "value": {
+        "valid": false,
+        "label": ""
+      },
+      "html": ""
+    },
+    {
+      "progress": 0,
+      "value": {
+        "valid": true,
+        "label": "-"
+      },
+      "html": "<span class=\"recorded-progress\" aria-label=\"نسبة الإنجاز 0%\"><bdi>-</bdi></span>"
+    },
+    {
+      "progress": 0.1,
+      "value": {
+        "valid": true,
+        "label": "0.1%"
+      },
+      "html": "<span class=\"recorded-progress\" aria-label=\"نسبة الإنجاز 0.1%\"><bdi>0.1%</bdi></span>"
+    },
+    {
+      "progress": 12.5,
+      "value": {
+        "valid": true,
+        "label": "12.5%"
+      },
+      "html": "<span class=\"recorded-progress\" aria-label=\"نسبة الإنجاز 12.5%\"><bdi>12.5%</bdi></span>"
+    },
+    {
+      "progress": 95,
+      "value": {
+        "valid": true,
+        "label": "95%"
+      },
+      "html": "<span class=\"recorded-progress\" aria-label=\"نسبة الإنجاز 95%\"><bdi>95%</bdi></span>"
+    },
+    {
+      "progress": 100,
+      "value": {
+        "valid": true,
+        "label": "100%"
+      },
+      "html": "<span class=\"recorded-progress\" aria-label=\"نسبة الإنجاز 100%\"><bdi>100%</bdi></span>"
+    },
+    {
+      "progress": -1,
+      "value": {
+        "valid": false,
+        "label": ""
+      },
+      "html": ""
+    },
+    {
+      "progress": 101,
+      "value": {
+        "valid": false,
+        "label": ""
+      },
+      "html": ""
+    },
+    {
+      "progress": "NaN",
+      "value": {
+        "valid": false,
+        "label": ""
+      },
+      "html": ""
+    }
+  ],
+  "table": [
+    {
+      "key": "special-6",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-3",
+      "expected": "95%",
+      "actual": "95%",
+      "card": "95%"
+    },
+    {
+      "key": "special-62",
+      "expected": "90%",
+      "actual": "90%",
+      "card": "90%"
+    },
+    {
+      "key": "special-28",
+      "expected": "90%",
+      "actual": "90%",
+      "card": "90%"
+    },
+    {
+      "key": "special-30",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-35",
+      "expected": "",
+      "actual": "",
+      "card": ""
+    },
+    {
+      "key": "special-44",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-4",
+      "expected": "30%",
+      "actual": "30%",
+      "card": "30%"
+    },
+    {
+      "key": "special-18",
+      "expected": "50%",
+      "actual": "50%",
+      "card": "50%"
+    },
+    {
+      "key": "special-19",
+      "expected": "50%",
+      "actual": "50%",
+      "card": "50%"
+    },
+    {
+      "key": "special-53",
+      "expected": "50%",
+      "actual": "50%",
+      "card": "50%"
+    },
+    {
+      "key": "special-59",
+      "expected": "75%",
+      "actual": "75%",
+      "card": "75%"
+    },
+    {
+      "key": "special-42",
+      "expected": "20%",
+      "actual": "20%",
+      "card": "20%"
+    },
+    {
+      "key": "special-20",
+      "expected": "65%",
+      "actual": "65%",
+      "card": "65%"
+    },
+    {
+      "key": "special-39",
+      "expected": "",
+      "actual": "",
+      "card": ""
+    },
+    {
+      "key": "special-61",
+      "expected": "50%",
+      "actual": "50%",
+      "card": "50%"
+    },
+    {
+      "key": "special-11",
+      "expected": "-",
+      "actual": "-",
+      "card": "-"
+    },
+    {
+      "key": "special-12",
+      "expected": "25%",
+      "actual": "25%",
+      "card": "25%"
+    },
+    {
+      "key": "special-9",
+      "expected": "-",
+      "actual": "-",
+      "card": "-"
+    },
+    {
+      "key": "special-10",
+      "expected": "-",
+      "actual": "-",
+      "card": "-"
+    },
+    {
+      "key": "special-32",
+      "expected": "10%",
+      "actual": "10%",
+      "card": "10%"
+    },
+    {
+      "key": "special-5",
+      "expected": "5%",
+      "actual": "5%",
+      "card": "5%"
+    },
+    {
+      "key": "special-7",
+      "expected": "10%",
+      "actual": "10%",
+      "card": "10%"
+    },
+    {
+      "key": "special-23",
+      "expected": "-",
+      "actual": "-",
+      "card": "-"
+    },
+    {
+      "key": "special-24",
+      "expected": "-",
+      "actual": "-",
+      "card": "-"
+    },
+    {
+      "key": "special-27",
+      "expected": "50%",
+      "actual": "50%",
+      "card": "50%"
+    },
+    {
+      "key": "special-31",
+      "expected": "5%",
+      "actual": "5%",
+      "card": "5%"
+    },
+    {
+      "key": "special-26",
+      "expected": "70%",
+      "actual": "70%",
+      "card": "70%"
+    },
+    {
+      "key": "special-60",
+      "expected": "50%",
+      "actual": "50%",
+      "card": "50%"
+    },
+    {
+      "key": "special-34",
+      "expected": "",
+      "actual": "",
+      "card": ""
+    },
+    {
+      "key": "special-36",
+      "expected": "75%",
+      "actual": "75%",
+      "card": "75%"
+    },
+    {
+      "key": "special-38",
+      "expected": "",
+      "actual": "",
+      "card": ""
+    },
+    {
+      "key": "special-45",
+      "expected": "",
+      "actual": "",
+      "card": ""
+    },
+    {
+      "key": "special-46",
+      "expected": "20%",
+      "actual": "20%",
+      "card": "20%"
+    },
+    {
+      "key": "special-49",
+      "expected": "70%",
+      "actual": "70%",
+      "card": "70%"
+    },
+    {
+      "key": "special-50",
+      "expected": "75%",
+      "actual": "75%",
+      "card": "75%"
+    },
+    {
+      "key": "special-51",
+      "expected": "75%",
+      "actual": "75%",
+      "card": "75%"
+    },
+    {
+      "key": "special-52",
+      "expected": "75%",
+      "actual": "75%",
+      "card": "75%"
+    },
+    {
+      "key": "special-37",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-47",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-41",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-13",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-40",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-54",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-58",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-22",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-29",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-48",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-55",
+      "expected": "90%",
+      "actual": "90%",
+      "card": "90%"
+    },
+    {
+      "key": "special-56",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-14",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-57",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-15",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-2",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-33",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-16",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-21",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-25",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-43",
+      "expected": "",
+      "actual": "",
+      "card": ""
+    },
+    {
+      "key": "special-17",
+      "expected": "100%",
+      "actual": "100%",
+      "card": "100%"
+    },
+    {
+      "key": "special-63",
+      "expected": "90%",
+      "actual": "90%",
+      "card": "90%"
+    },
+    {
+      "key": "special-8",
+      "expected": "",
+      "actual": "",
+      "card": ""
+    }
+  ],
+  "ppt": {
+    "slides": 77,
+    "chartCount": 2
+  },
+  "pptProgressValues": [
+    "100%",
+    "95%",
+    "90%",
+    "90%",
+    "100%",
+    "100%",
+    "30%",
+    "50%",
+    "50%",
+    "50%",
+    "75%",
+    "20%",
+    "65%",
+    "50%",
+    "-",
+    "25%",
+    "-",
+    "-",
+    "10%",
+    "5%",
+    "10%",
+    "-",
+    "-",
+    "50%",
+    "5%",
+    "70%",
+    "50%",
+    "75%",
+    "20%",
+    "70%",
+    "75%",
+    "75%",
+    "75%",
+    "100%",
+    "100%",
+    "100%",
+    "100%",
+    "100%",
+    "100%",
+    "100%",
+    "100%",
+    "100%",
+    "100%",
+    "90%",
+    "100%",
+    "100%",
+    "100%",
+    "100%",
+    "100%",
+    "100%",
+    "100%",
+    "100%",
+    "100%",
+    "100%",
+    "90%"
+  ],
+  "sourceHashes": {
+    "assets/js/app-bundle.js": "883cce5e8ce5134fe51c2edc501e351258b28592fcc9882e130e32fd1bf39113",
+    "assets/css/app-bundle.css": "1da50e95d9354c6e3bd4546812ae2c4e062f02d77f20815ba67f4520a940ef36"
+  },
+  "verdict": "PASS"
+}
