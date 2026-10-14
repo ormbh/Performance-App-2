@@ -1,0 +1,108 @@
+{
+  "version": 160,
+  "purpose": "Controlled workbook import / screen / CSV check",
+  "checks": [
+    {
+      "name": "actual import retains numeric budget string as text",
+      "pass": true
+    },
+    {
+      "name": "actual import retains text percentage",
+      "pass": true
+    },
+    {
+      "name": "actual workbook raises End Date warning once",
+      "pass": true
+    },
+    {
+      "name": "warning visible on data-notes page End Date",
+      "pass": true
+    },
+    {
+      "name": "actual workbook raises Approved Budget warning once",
+      "pass": true
+    },
+    {
+      "name": "warning visible on data-notes page Approved Budget",
+      "pass": true
+    },
+    {
+      "name": "actual workbook raises % Complete warning once",
+      "pass": true
+    },
+    {
+      "name": "warning visible on data-notes page % Complete",
+      "pass": true
+    },
+    {
+      "name": "CSV includes controlled warning with source row End Date",
+      "pass": true
+    },
+    {
+      "name": "CSV includes controlled warning with source row Approved Budget",
+      "pass": true
+    },
+    {
+      "name": "CSV includes controlled warning with source row % Complete",
+      "pass": true
+    },
+    {
+      "name": "controlled import no runtime errors",
+      "pass": true
+    },
+    {
+      "name": "controlled import no external requests",
+      "pass": true
+    },
+    {
+      "name": "original workbook bytes unchanged",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screens": [],
+  "pdfs": [],
+  "loadedAssetHashes": {
+    "app-bundle.css": "92dfabb92cc0a439fd86f9ad95e3f116cb41de7de34d04138e9bbde9abc5f596",
+    "app-bundle.js": "4253b6e49234b8395ca674bf6ff126ce01be0f269855386b3eabc5f2b5d16a07"
+  },
+  "warningEvidence": [
+    {
+      "sev": "warn",
+      "sheet": "مشاريع_الأمانة",
+      "row": "2",
+      "field": "Approved Budget",
+      "problem": "قيمة رقمية محفوظة كنص في حقل رقمي",
+      "value": "1,000",
+      "fix": "حوّل الخلية إلى قيمة رقمية فعلية مع الحفاظ على القيمة ووحدة القياس؛ تغيير التنسيق وحده لا يكفي",
+      "key": "secretariat-2",
+      "pf": "secretariat"
+    },
+    {
+      "sev": "warn",
+      "sheet": "مشاريع_الأمانة",
+      "row": "2",
+      "field": "% Complete",
+      "problem": "قيمة رقمية محفوظة كنص في حقل رقمي",
+      "value": "50%",
+      "fix": "حوّل الخلية إلى قيمة رقمية فعلية مع الحفاظ على القيمة ووحدة القياس؛ تغيير التنسيق وحده لا يكفي",
+      "key": "secretariat-2",
+      "pf": "secretariat"
+    },
+    {
+      "sev": "warn",
+      "sheet": "مشاريع_الأمانة",
+      "row": "2",
+      "field": "End Date",
+      "problem": "تاريخ انتهاء المشروع يسبق تاريخ البدء",
+      "value": "يوليو 2026 → يونيو 2026",
+      "fix": "راجع تاريخي البدء والانتهاء مع مسؤول البيانات؛ لم تُعدّل التواريخ أو قيم المصدر",
+      "key": "secretariat-2",
+      "pf": "secretariat"
+    }
+  ],
+  "originalFixtureUnchanged": true,
+  "verdict": "PASS"
+}

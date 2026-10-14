@@ -1,0 +1,23 @@
+{
+  "build": 160,
+  "verdict": "PASS",
+  "zipSha256": "b3aad3cde015f37821a89084fabf514f527364261f5918ffcb2d72cabb009d24",
+  "files": 225,
+  "crc": "PASS",
+  "fileHashes": "PASS",
+  "checks": 116,
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "4253b6e49234b8395ca674bf6ff126ce01be0f269855386b3eabc5f2b5d16a07",
+    "assets/css/app-bundle.css": "92dfabb92cc0a439fd86f9ad95e3f116cb41de7de34d04138e9bbde9abc5f596",
+    "assets/css/print-measure-bundle.css": "39ea72c9dba51fe349db3b97034b4154734c6f47ce6f6fd4d598308d27375675"
+  },
+  "changes": [
+    "DATA-CHECKS-POLICY-v160.md",
+    "DESIGN-STANDARD.md",
+    "README.md",
+    "assets/js/app-bundle.js",
+    "assets/js/model/checks.js",
+    "index.html"
+  ],
+  "designRevision": 25
+}
