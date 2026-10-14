@@ -1,0 +1,1437 @@
+{
+  "version": 157,
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "kind": "Existing illustrative workbook; not production data"
+  },
+  "checks": [
+    {
+      "name": "v157 parsed raw source items unchanged from v156",
+      "pass": true
+    },
+    {
+      "name": "all existing metric counts unchanged",
+      "pass": true
+    },
+    {
+      "name": "real fixture180 completed11 progress incl2 late",
+      "pass": true
+    },
+    {
+      "name": "all other monthly screen/print card text unchanged",
+      "pass": true
+    },
+    {
+      "name": "all exact scoped source total",
+      "pass": true
+    },
+    {
+      "name": "all completed union unique",
+      "pass": true
+    },
+    {
+      "name": "all original inclusive progress count",
+      "pass": true
+    },
+    {
+      "name": "all 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "all 1440 card follows eligible contribution",
+      "pass": true
+    },
+    {
+      "name": "all 1440 only nonempty completed/progress columns",
+      "pass": true
+    },
+    {
+      "name": "all 1440 old SLC split removed in both monthly views",
+      "pass": true
+    },
+    {
+      "name": "all 1440 exact completion proportion and caption",
+      "pass": true
+    },
+    {
+      "name": "all 1440 completed right progress left RTL",
+      "pass": true
+    },
+    {
+      "name": "all 1440 completed label/value green",
+      "pass": true
+    },
+    {
+      "name": "all 1440 late red subset under progress",
+      "pass": true
+    },
+    {
+      "name": "all 768 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "all 768 card follows eligible contribution",
+      "pass": true
+    },
+    {
+      "name": "all 768 only nonempty completed/progress columns",
+      "pass": true
+    },
+    {
+      "name": "all 768 old SLC split removed in both monthly views",
+      "pass": true
+    },
+    {
+      "name": "all 768 exact completion proportion and caption",
+      "pass": true
+    },
+    {
+      "name": "all 768 completed right progress left RTL",
+      "pass": true
+    },
+    {
+      "name": "all 768 completed label/value green",
+      "pass": true
+    },
+    {
+      "name": "all 768 late red subset under progress",
+      "pass": true
+    },
+    {
+      "name": "all 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "all 390 card follows eligible contribution",
+      "pass": true
+    },
+    {
+      "name": "all 390 only nonempty completed/progress columns",
+      "pass": true
+    },
+    {
+      "name": "all 390 old SLC split removed in both monthly views",
+      "pass": true
+    },
+    {
+      "name": "all 390 exact completion proportion and caption",
+      "pass": true
+    },
+    {
+      "name": "all 390 completed right progress left RTL",
+      "pass": true
+    },
+    {
+      "name": "all 390 completed label/value green",
+      "pass": true
+    },
+    {
+      "name": "all 390 late red subset under progress",
+      "pass": true
+    },
+    {
+      "name": "all 320 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "all 320 card follows eligible contribution",
+      "pass": true
+    },
+    {
+      "name": "all 320 only nonempty completed/progress columns",
+      "pass": true
+    },
+    {
+      "name": "all 320 old SLC split removed in both monthly views",
+      "pass": true
+    },
+    {
+      "name": "all 320 exact completion proportion and caption",
+      "pass": true
+    },
+    {
+      "name": "all 320 completed right progress left RTL",
+      "pass": true
+    },
+    {
+      "name": "all 320 completed label/value green",
+      "pass": true
+    },
+    {
+      "name": "all 320 late red subset under progress",
+      "pass": true
+    },
+    {
+      "name": "sector exact scoped source total",
+      "pass": true
+    },
+    {
+      "name": "sector completed union unique",
+      "pass": true
+    },
+    {
+      "name": "sector original inclusive progress count",
+      "pass": true
+    },
+    {
+      "name": "sector 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "sector 1440 card follows eligible contribution",
+      "pass": true
+    },
+    {
+      "name": "sector 1440 only nonempty completed/progress columns",
+      "pass": true
+    },
+    {
+      "name": "sector 1440 old SLC split removed in both monthly views",
+      "pass": true
+    },
+    {
+      "name": "sector 1440 exact completion proportion and caption",
+      "pass": true
+    },
+    {
+      "name": "sector 1440 completed right progress left RTL",
+      "pass": true
+    },
+    {
+      "name": "sector 1440 completed label/value green",
+      "pass": true
+    },
+    {
+      "name": "sector 1440 late red subset under progress",
+      "pass": true
+    },
+    {
+      "name": "sector 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "sector 390 card follows eligible contribution",
+      "pass": true
+    },
+    {
+      "name": "sector 390 only nonempty completed/progress columns",
+      "pass": true
+    },
+    {
+      "name": "sector 390 old SLC split removed in both monthly views",
+      "pass": true
+    },
+    {
+      "name": "sector 390 exact completion proportion and caption",
+      "pass": true
+    },
+    {
+      "name": "sector 390 completed right progress left RTL",
+      "pass": true
+    },
+    {
+      "name": "sector 390 completed label/value green",
+      "pass": true
+    },
+    {
+      "name": "sector 390 late red subset under progress",
+      "pass": true
+    },
+    {
+      "name": "unit exact scoped source total",
+      "pass": true
+    },
+    {
+      "name": "unit completed union unique",
+      "pass": true
+    },
+    {
+      "name": "unit original inclusive progress count",
+      "pass": true
+    },
+    {
+      "name": "unit 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "unit 1440 card follows eligible contribution",
+      "pass": true
+    },
+    {
+      "name": "unit 1440 only nonempty completed/progress columns",
+      "pass": true
+    },
+    {
+      "name": "unit 1440 old SLC split removed in both monthly views",
+      "pass": true
+    },
+    {
+      "name": "unit 1440 exact completion proportion and caption",
+      "pass": true
+    },
+    {
+      "name": "unit 1440 completed label/value green",
+      "pass": true
+    },
+    {
+      "name": "unit 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "unit 390 card follows eligible contribution",
+      "pass": true
+    },
+    {
+      "name": "unit 390 only nonempty completed/progress columns",
+      "pass": true
+    },
+    {
+      "name": "unit 390 old SLC split removed in both monthly views",
+      "pass": true
+    },
+    {
+      "name": "unit 390 exact completion proportion and caption",
+      "pass": true
+    },
+    {
+      "name": "unit 390 completed label/value green",
+      "pass": true
+    },
+    {
+      "name": "multi-unit exact scoped source total",
+      "pass": true
+    },
+    {
+      "name": "multi-unit completed union unique",
+      "pass": true
+    },
+    {
+      "name": "multi-unit original inclusive progress count",
+      "pass": true
+    },
+    {
+      "name": "multi-unit 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "multi-unit 1440 card follows eligible contribution",
+      "pass": true
+    },
+    {
+      "name": "multi-unit 1440 only nonempty completed/progress columns",
+      "pass": true
+    },
+    {
+      "name": "multi-unit 1440 old SLC split removed in both monthly views",
+      "pass": true
+    },
+    {
+      "name": "multi-unit 1440 exact completion proportion and caption",
+      "pass": true
+    },
+    {
+      "name": "multi-unit 1440 completed label/value green",
+      "pass": true
+    },
+    {
+      "name": "multi-unit 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "multi-unit 390 card follows eligible contribution",
+      "pass": true
+    },
+    {
+      "name": "multi-unit 390 only nonempty completed/progress columns",
+      "pass": true
+    },
+    {
+      "name": "multi-unit 390 old SLC split removed in both monthly views",
+      "pass": true
+    },
+    {
+      "name": "multi-unit 390 exact completion proportion and caption",
+      "pass": true
+    },
+    {
+      "name": "multi-unit 390 completed label/value green",
+      "pass": true
+    },
+    {
+      "name": "empty exact scoped source total",
+      "pass": true
+    },
+    {
+      "name": "empty completed union unique",
+      "pass": true
+    },
+    {
+      "name": "empty original inclusive progress count",
+      "pass": true
+    },
+    {
+      "name": "empty 1440 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "empty 1440 card follows eligible contribution",
+      "pass": true
+    },
+    {
+      "name": "empty 390 no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "empty 390 card follows eligible contribution",
+      "pass": true
+    },
+    {
+      "name": "legDone native drill metric",
+      "pass": true
+    },
+    {
+      "name": "legDone exact unique source records in native results",
+      "pass": true
+    },
+    {
+      "name": "legProgress native drill metric",
+      "pass": true
+    },
+    {
+      "name": "legProgress exact unique source records in native results",
+      "pass": true
+    },
+    {
+      "name": "legLate native drill metric",
+      "pass": true
+    },
+    {
+      "name": "legLate exact unique source records in native results",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-continuous legislation included",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-continuous format retained",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-continuous card intact on one page",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-continuous native green completed text",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-continuous native red late text",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-continuous card native text/vector without raster chart",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-continuous no former SLC split headlines",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-continuous green proportion exact",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-continuous all native text within page bounds",
+      "pass": true
+    },
+    {
+      "name": "continuous PDF follow-up keys/order unchanged",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-a4 legislation included",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-a4 format retained",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-a4 card intact on one page",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-a4 native green completed text",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-a4 native red late text",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-a4 card native text/vector without raster chart",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-a4 no former SLC split headlines",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-a4 green proportion exact",
+      "pass": true
+    },
+    {
+      "name": "real-fixture-a4 all native text within page bounds",
+      "pass": true
+    },
+    {
+      "name": "A4 PDF follow-up keys/order unchanged",
+      "pass": true
+    },
+    {
+      "name": "real source items unchanged by scope/drills/exports",
+      "pass": true
+    },
+    {
+      "name": "original fixture bytes unchanged",
+      "pass": true
+    },
+    {
+      "name": "no external requests needed",
+      "pass": true
+    },
+    {
+      "name": "no browser runtime errors",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "pdfs": [
+    {
+      "name": "real-fixture-continuous",
+      "pages": 1,
+      "sha256": "a71b0fd9354cd3d1060d805c2ef48b0fb51571d80055a04b3fbe89648c31f102",
+      "layout": "continuous",
+      "cardPage": 1
+    },
+    {
+      "name": "real-fixture-a4",
+      "pages": 3,
+      "sha256": "1fc67bcb622c92638bca7c83e10c1d60d081af68dcc4895e4b66490b520bd9a5",
+      "layout": "a4",
+      "cardPage": 1
+    }
+  ],
+  "pdfSpans": {
+    "real-fixture-continuous": [
+      {
+        "size": 15.999975204467773,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "DINNextArabic-Regular",
+        "color": 3355443,
+        "alpha": 255,
+        "ascender": 0.8500000238418579,
+        "descender": -0.3499999940395355,
+        "text": "التشريعات",
+        "origin": [
+          797.8744506835938,
+          660.1068115234375
+        ],
+        "bbox": [
+          740.674560546875,
+          646.5068359375,
+          801.4584350585938,
+          665.706787109375
+        ]
+      },
+      {
+        "size": 27.999975204467773,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "DINNextLTArabic-Regular",
+        "color": 3355443,
+        "alpha": 255,
+        "ascender": 1.2000000476837158,
+        "descender": -0.27000001072883606,
+        "text": "191",
+        "origin": [
+          450.0365295410156,
+          675.1068115234375
+        ],
+        "bbox": [
+          450.0365295410156,
+          641.5068359375,
+          495.56451416015625,
+          682.6668090820312
+        ]
+      },
+      {
+        "size": 9.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 5197390,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": "الإجمالي",
+        "origin": [
+          522.90673828125,
+          675.1068115234375
+        ],
+        "bbox": [
+          499.8127136230469,
+          664.4327392578125,
+          524.7787475585938,
+          680.1378173828125
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "TECPDFSymbolFallback-Reg",
+        "color": 7695199,
+        "alpha": 255,
+        "ascender": 0.89111328125,
+        "descender": -0.21630859375,
+        "text": "↑",
+        "origin": [
+          450.0365295410156,
+          691.6536865234375
+        ],
+        "bbox": [
+          450.0365295410156,
+          681.8514404296875,
+          455.5365295410156,
+          694.0330810546875
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 7695199,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": " +25",
+        "origin": [
+          455.5365295410156,
+          691.6536865234375
+        ],
+        "bbox": [
+          455.5365295410156,
+          679.2346801757812,
+          475.9965515136719,
+          697.8026733398438
+        ]
+      },
+      {
+        "size": 9.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 99102,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": "منجز",
+        "origin": [
+          796.87744140625,
+          717.6341552734375
+        ],
+        "bbox": [
+          785.366455078125,
+          707.47314453125,
+          801.4584350585938,
+          722.6651611328125
+        ]
+      },
+      {
+        "size": 24.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "DINNextLTArabic-Regular",
+        "color": 99102,
+        "alpha": 255,
+        "ascender": 1.2000000476837158,
+        "descender": -0.27000001072883606,
+        "text": "180",
+        "origin": [
+          762.4232788085938,
+          749.1810302734375
+        ],
+        "bbox": [
+          762.4232788085938,
+          720.3810424804688,
+          801.447265625,
+          755.6610107421875
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "TECPDFSymbolFallback-Reg",
+        "color": 99102,
+        "alpha": 255,
+        "ascender": 0.89111328125,
+        "descender": -0.21630859375,
+        "text": "↑",
+        "origin": [
+          775.5131225585938,
+          767.0052490234375
+        ],
+        "bbox": [
+          775.5131225585938,
+          757.2030029296875,
+          781.0131225585938,
+          769.3846435546875
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 99102,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": " +16",
+        "origin": [
+          781.0131225585938,
+          767.0052490234375
+        ],
+        "bbox": [
+          781.0131225585938,
+          754.5862426757812,
+          801.47314453125,
+          773.1542358398438
+        ]
+      },
+      {
+        "size": 9.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 5197390,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": "قيد العمل",
+        "origin": [
+          613.995361328125,
+          717.6341552734375
+        ],
+        "bbox": [
+          584.5833740234375,
+          707.47314453125,
+          617.9193725585938,
+          722.6651611328125
+        ]
+      },
+      {
+        "size": 24.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "DINNextLTArabic-Regular",
+        "color": 5197390,
+        "alpha": 255,
+        "ascender": 1.2000000476837158,
+        "descender": -0.27000001072883606,
+        "text": "11",
+        "origin": [
+          591.8920288085938,
+          749.1810302734375
+        ],
+        "bbox": [
+          591.8920288085938,
+          720.3810424804688,
+          617.9080200195312,
+          755.6610107421875
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "TECPDFSymbolFallback-Reg",
+        "color": 7695199,
+        "alpha": 255,
+        "ascender": 0.89111328125,
+        "descender": -0.21630859375,
+        "text": "↑",
+        "origin": [
+          597.9037475585938,
+          767.0052490234375
+        ],
+        "bbox": [
+          597.9037475585938,
+          757.2030029296875,
+          603.4037475585938,
+          769.3846435546875
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 7695199,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": " +9",
+        "origin": [
+          603.4037475585938,
+          767.0052490234375
+        ],
+        "bbox": [
+          603.4037475585938,
+          754.5862426757812,
+          617.9237670898438,
+          773.1542358398438
+        ]
+      },
+      {
+        "size": 9.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 12582912,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": "منها متأخر",
+        "origin": [
+          613.3383178710938,
+          798.5638427734375
+        ],
+        "bbox": [
+          584.0523681640625,
+          788.40283203125,
+          617.9193115234375,
+          803.5948486328125
+        ]
+      },
+      {
+        "size": 20.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "DINNextLTArabic-Regular",
+        "color": 12582912,
+        "alpha": 255,
+        "ascender": 1.2000000476837158,
+        "descender": -0.27000001072883606,
+        "text": "2",
+        "origin": [
+          567.5404663085938,
+          798.5638427734375
+        ],
+        "bbox": [
+          567.5404663085938,
+          774.5638427734375,
+          578.3804931640625,
+          803.9638671875
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "TECPDFSymbolFallback-Reg",
+        "color": 12582912,
+        "alpha": 255,
+        "ascender": 0.89111328125,
+        "descender": -0.21630859375,
+        "text": "↑",
+        "origin": [
+          541.8646850585938,
+          798.5638427734375
+        ],
+        "bbox": [
+          541.8646850585938,
+          788.7615966796875,
+          547.3646850585938,
+          800.9432373046875
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 12582912,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": " +1",
+        "origin": [
+          547.3646850585938,
+          798.5638427734375
+        ],
+        "bbox": [
+          547.3646850585938,
+          786.1448364257812,
+          561.8847045898438,
+          804.7128295898438
+        ]
+      },
+      {
+        "size": 9.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 5197390,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": "نسبة المنجز94.2%",
+        "origin": [
+          798.96533203125,
+          829.0677490234375
+        ],
+        "bbox": [
+          731.7084350585938,
+          818.90673828125,
+          801.4583129882812,
+          834.0987548828125
+        ]
+      }
+    ],
+    "real-fixture-a4": [
+      {
+        "size": 15.999975204467773,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "DINNextArabic-Regular",
+        "color": 3355443,
+        "alpha": 255,
+        "ascender": 0.8500000238418579,
+        "descender": -0.3499999940395355,
+        "text": "التشريعات",
+        "origin": [
+          554.098388671875,
+          615.877685546875
+        ],
+        "bbox": [
+          496.89849853515625,
+          602.2777099609375,
+          557.682373046875,
+          621.4776611328125
+        ]
+      },
+      {
+        "size": 27.999975204467773,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "DINNextLTArabic-Regular",
+        "color": 3355443,
+        "alpha": 255,
+        "ascender": 1.2000000476837158,
+        "descender": -0.27000001072883606,
+        "text": "191",
+        "origin": [
+          312.5495910644531,
+          630.877685546875
+        ],
+        "bbox": [
+          312.5495910644531,
+          597.2777099609375,
+          358.07757568359375,
+          638.4376831054688
+        ]
+      },
+      {
+        "size": 9.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 5197390,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": "الإجمالي",
+        "origin": [
+          385.4197692871094,
+          630.877685546875
+        ],
+        "bbox": [
+          362.3257751464844,
+          620.2036743164062,
+          387.2917785644531,
+          635.90869140625
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "TECPDFSymbolFallback-Reg",
+        "color": 7695199,
+        "alpha": 255,
+        "ascender": 0.89111328125,
+        "descender": -0.21630859375,
+        "text": "↑",
+        "origin": [
+          312.5495910644531,
+          647.424560546875
+        ],
+        "bbox": [
+          312.5495910644531,
+          637.622314453125,
+          318.0495910644531,
+          649.803955078125
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 7695199,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": " +25",
+        "origin": [
+          318.0495910644531,
+          647.424560546875
+        ],
+        "bbox": [
+          318.0495910644531,
+          635.0055541992188,
+          338.5096130371094,
+          653.5735473632812
+        ]
+      },
+      {
+        "size": 9.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 99102,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": "منجز",
+        "origin": [
+          553.1013793945312,
+          670.569091796875
+        ],
+        "bbox": [
+          541.5903930664062,
+          660.4080810546875,
+          557.682373046875,
+          675.60009765625
+        ]
+      },
+      {
+        "size": 24.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "DINNextLTArabic-Regular",
+        "color": 99102,
+        "alpha": 255,
+        "ascender": 1.2000000476837158,
+        "descender": -0.27000001072883606,
+        "text": "180",
+        "origin": [
+          518.647216796875,
+          702.115966796875
+        ],
+        "bbox": [
+          518.647216796875,
+          673.3159790039062,
+          557.6712036132812,
+          708.595947265625
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "TECPDFSymbolFallback-Reg",
+        "color": 99102,
+        "alpha": 255,
+        "ascender": 0.89111328125,
+        "descender": -0.21630859375,
+        "text": "↑",
+        "origin": [
+          531.737060546875,
+          719.940185546875
+        ],
+        "bbox": [
+          531.737060546875,
+          710.137939453125,
+          537.237060546875,
+          722.319580078125
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 99102,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": " +16",
+        "origin": [
+          537.237060546875,
+          719.940185546875
+        ],
+        "bbox": [
+          537.237060546875,
+          707.5211791992188,
+          557.6970825195312,
+          726.0891723632812
+        ]
+      },
+      {
+        "size": 9.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 5197390,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": "قيد العمل",
+        "origin": [
+          424.7818603515625,
+          670.569091796875
+        ],
+        "bbox": [
+          395.3698425292969,
+          660.4080810546875,
+          428.70587158203125,
+          675.60009765625
+        ]
+      },
+      {
+        "size": 24.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "DINNextLTArabic-Regular",
+        "color": 5197390,
+        "alpha": 255,
+        "ascender": 1.2000000476837158,
+        "descender": -0.27000001072883606,
+        "text": "11",
+        "origin": [
+          402.6784973144531,
+          702.115966796875
+        ],
+        "bbox": [
+          402.6784973144531,
+          673.3159790039062,
+          428.6944885253906,
+          708.595947265625
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "TECPDFSymbolFallback-Reg",
+        "color": 7695199,
+        "alpha": 255,
+        "ascender": 0.89111328125,
+        "descender": -0.21630859375,
+        "text": "↑",
+        "origin": [
+          408.6902160644531,
+          719.940185546875
+        ],
+        "bbox": [
+          408.6902160644531,
+          710.137939453125,
+          414.1902160644531,
+          722.319580078125
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 7695199,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": " +9",
+        "origin": [
+          414.1902160644531,
+          719.940185546875
+        ],
+        "bbox": [
+          414.1902160644531,
+          707.5211791992188,
+          428.7102355957031,
+          726.0891723632812
+        ]
+      },
+      {
+        "size": 9.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 12582912,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": "منها متأخر",
+        "origin": [
+          424.12481689453125,
+          751.498779296875
+        ],
+        "bbox": [
+          394.8388366699219,
+          741.3377685546875,
+          428.705810546875,
+          756.52978515625
+        ]
+      },
+      {
+        "size": 20.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "DINNextLTArabic-Regular",
+        "color": 12582912,
+        "alpha": 255,
+        "ascender": 1.2000000476837158,
+        "descender": -0.27000001072883606,
+        "text": "2",
+        "origin": [
+          378.3269348144531,
+          751.498779296875
+        ],
+        "bbox": [
+          378.3269348144531,
+          727.498779296875,
+          389.1669616699219,
+          756.8988037109375
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "TECPDFSymbolFallback-Reg",
+        "color": 12582912,
+        "alpha": 255,
+        "ascender": 0.89111328125,
+        "descender": -0.21630859375,
+        "text": "↑",
+        "origin": [
+          352.6511535644531,
+          751.498779296875
+        ],
+        "bbox": [
+          352.6511535644531,
+          741.696533203125,
+          358.1511535644531,
+          753.878173828125
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 12582912,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": " +1",
+        "origin": [
+          358.1511535644531,
+          751.498779296875
+        ],
+        "bbox": [
+          358.1511535644531,
+          739.0797729492188,
+          372.6711730957031,
+          757.6477661132812
+        ]
+      },
+      {
+        "size": 9.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 5197390,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": "نسبة المنجز94.2%",
+        "origin": [
+          555.1893310546875,
+          779.166748046875
+        ],
+        "bbox": [
+          487.9324035644531,
+          769.0057373046875,
+          557.6823120117188,
+          784.19775390625
+        ]
+      }
+    ]
+  },
+  "realModel": {
+    "n": {
+      "agendaTotal": 117,
+      "agendaPlanned": 100,
+      "agendaEmerging": 17,
+      "agendaProgress": 58,
+      "agendaReady": 16,
+      "agendaDone": 43,
+      "agendaLate": 0,
+      "agendaNoStatus": 0,
+      "councilTotal": 70,
+      "councilProgress": 31,
+      "councilDone": 38,
+      "councilLate": 0,
+      "councilNoStatus": 1,
+      "councilExcluded": 94,
+      "legTotal": 191,
+      "legProgress": 11,
+      "legPending": 9,
+      "legOnTime": 152,
+      "legOverrun": 28,
+      "legDone": 180,
+      "legLate": 2,
+      "legNoStatus": 0,
+      "specialTotal": 62,
+      "specialLead": 24,
+      "specialGs": 36,
+      "specialDone": 23,
+      "specialLate": 0,
+      "specialProgress": 39,
+      "specialLeadDone": 12,
+      "specialLeadLate": 0,
+      "specialLeadOpen": 12,
+      "specialGsDone": 10,
+      "specialGsLate": 0,
+      "specialGsOpen": 26,
+      "specialNoRequester": 2,
+      "specialLeadProgress": 12,
+      "specialGsProgress": 26,
+      "secTotal": 84,
+      "secActive": 61,
+      "secHeld": 4,
+      "secDone": 10,
+      "secNotStarted": 7,
+      "secNoStatus": 0,
+      "secTransferred": 2,
+      "secLate": 0,
+      "secQ1": 0,
+      "secQ2": 1,
+      "secQ3": 0,
+      "secQ4": 80,
+      "secNoQuarter": 3,
+      "secBudget": 84,
+      "kpiTotal": 54,
+      "kpiMeasured": 39,
+      "kpiNotMeasured": 15,
+      "kpiTargeted": 49,
+      "secRevised": 84,
+      "secCommitted": 84,
+      "secNonCommitted": 84,
+      "secSpent": 84,
+      "allLate": 2,
+      "follow": 8
+    },
+    "changes": {
+      "legTotal": {
+        "state": "diff",
+        "d": 25,
+        "text": "25"
+      },
+      "legDone": {
+        "state": "diff",
+        "d": 16,
+        "text": "16"
+      },
+      "legOnTime": {
+        "state": "diff",
+        "d": 15,
+        "text": "15"
+      },
+      "legOverrun": {
+        "state": "diff",
+        "d": 1,
+        "text": "1"
+      },
+      "legProgress": {
+        "state": "diff",
+        "d": 9,
+        "text": "9"
+      },
+      "legLate": {
+        "state": "diff",
+        "d": 1,
+        "text": "1"
+      }
+    },
+    "projection": {
+      "disjoint": true,
+      "lateSubsetOfProgress": true,
+      "monthlyDisjoint": true,
+      "monthlyReason": "",
+      "reason": ""
+    }
+  },
+  "verdict": "PASS",
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "04b747627fb1c1f589a5c5d9b63fa0e302f734fc13569c067d3a8bb6b503c5e5",
+    "assets/css/app-bundle.css": "de2ec205c6de37856e506f693f633f31e7622536ca9fcddd3471d90b13f743ff",
+    "assets/css/print-measure-bundle.css": "c9f41ef4b08dc4af87179de6348de7a44e818c68523880d927bf820822ed8e98"
+  }
+}

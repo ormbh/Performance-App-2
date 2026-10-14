@@ -1,0 +1,37 @@
+{
+  "build": 157,
+  "verdict": "PASS",
+  "zipSha256": "099a8da4e3996f1ffc59848aea5442bfb18d7f07c011a09c522141e3625fc5fc",
+  "manifestFiles": 218,
+  "crc": "PASS",
+  "extractedHashes": "PASS",
+  "designRevision": 24,
+  "sourceChanges": [
+    "DESIGN-PRINCIPLES-v157.md",
+    "DESIGN-STANDARD.md",
+    "README.md",
+    "VERIFICATION-v157.md",
+    "assets/css/app-bundle.css",
+    "assets/css/print-measure-bundle.css",
+    "assets/css/tec-monthly-legislation-revision24.css",
+    "assets/js/app-bundle.js",
+    "assets/js/model/comparison.js",
+    "assets/js/model/rules.js",
+    "assets/js/views/dashboard.js",
+    "assets/js/views/monthly-print.js",
+    "index.html",
+    "tools/build-bundles.py"
+  ],
+  "sourceRecordsPreserved": true,
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "04b747627fb1c1f589a5c5d9b63fa0e302f734fc13569c067d3a8bb6b503c5e5",
+    "assets/css/app-bundle.css": "de2ec205c6de37856e506f693f633f31e7622536ca9fcddd3471d90b13f743ff",
+    "assets/css/print-measure-bundle.css": "c9f41ef4b08dc4af87179de6348de7a44e818c68523880d927bf820822ed8e98"
+  },
+  "scope": "Approved monthly legislation card on dashboard and native continuous/A4 PDF, dynamic aggregate/drilldown/history, Revision24 principles.",
+  "limitations": [
+    "Existing illustrative workbook and controlled examples, not production audit.",
+    "Local HTTP Chromium; cold file URL, native mobile devices and screen-reader certification not separately tested.",
+    "No source workbook changes or historical refresh; PowerPoint out of scope."
+  ]
+}

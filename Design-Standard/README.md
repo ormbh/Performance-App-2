@@ -1,14 +1,14 @@
-# TEC Apple-Inspired Design Standard — Revision 23
+# TEC Apple-Inspired Design Standard — Revision 24
 
-**14 October 2026 · Performance App v156**
+**14 October 2026 · Performance App v157**
 
-The current consolidated standard is [Revision 23](TEC-Apple-Inspired-Design-Standard-Revision-23.md). The matching [skill](../TEC-Apple-Inspired-Skill-and-Principles/SKILL.md) and [principles](../TEC-Apple-Inspired-Skill-and-Principles/references/TEC-Apple-Inspired-Design-Principles.md) form a self-contained package. [Revision 22](TEC-Apple-Inspired-Design-Standard-Revision-22.md) remains a historical reference.
+The current consolidated standard is [Revision 24](TEC-Apple-Inspired-Design-Standard-Revision-24.md). The matching [skill](../TEC-Apple-Inspired-Skill-and-Principles/SKILL.md) and [principles](../TEC-Apple-Inspired-Skill-and-Principles/references/TEC-Apple-Inspired-Design-Principles.md) form a self-contained package. [Revision 23](TEC-Apple-Inspired-Design-Standard-Revision-23.md) and earlier revisions remain historical references.
 
-This revision removes Harvey balls and circular progress indicators from app views and printed/PDF output. Recorded progress remains a numeric percentage; numeric zero displays **–** and missing progress stays blank. Approved linear bars, source values, calculations and status meanings remain intact. The native HH PDF omits the obsolete duplicate overview card while retaining report contents and the approved chart summary. The latest monthly-legislation illustration remains a concept for review.
+The approved monthly legislation card shows one **منجز** aggregate of the existing SLC completion cohorts and **قيد العمل** with its **منها متأخر** subset. The Green/Linen completion bar uses all scoped legislation as its denominator. Late items are counted once; the layout does not invent new statuses, change source keys or fill unavailable history. Screen, continuous PDF and A4 PDF share the same meaning, selected scope and display. Exact drilldowns and source-eligible changes are retained. The illustration’s values are never hardcoded.
 
-It retains the approved HH paired charts and agenda in-bar counts, hidden empty HH sector/cohort rows, totals beside actual bar ends, chart status summaries and detailed legends, readable in-bar counts, blank generated **غير مسجل** placeholders, omitted card source filenames and Teal ready labels/counts.
+This revision retains the app-wide removal of Harvey balls and circular progress indicators, readable numeric progress, true zero as **–**, missing values as blank, Teal ready labels/counts, approved HH/agenda charts, native HH summary cleanup and all unchanged rules.
 
-**Precedence:** Revision 23 is the current rule set. Older content below is retained for historical detail and the official filename registry; conflicting circular-indicator, `0%`, separate badge/chart palette, neutral ready-text and fixed HH totals/empty-row rules are superseded. No historical verification result establishes a v156 pass. Unchanged earlier rules remain applicable.
+**Precedence:** Revision 24 is the current rule set. Older content below is retained for historical detail and the official filename registry. Conflicting monthly legislation SLC headline columns, independent late columns and multistatus-bar rules are superseded, as are older circular-indicator, `0%`, separate badge/chart palette, neutral ready-text and fixed HH totals/empty-row rules. Source SLC cohorts remain valid outside the new monthly presentation. No historical verification result establishes a v157 pass. Unchanged earlier rules remain applicable.
 
 ---
 

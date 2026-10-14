@@ -1,0 +1,1020 @@
+{
+  "version": 157,
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "kind": "Existing illustrative workbook; not production data"
+  },
+  "checks": [
+    {
+      "name": "controlled approved scenario183/178/5 incl2 late",
+      "pass": true
+    },
+    {
+      "name": "controlled eligible deltas17/14/1",
+      "pass": true
+    },
+    {
+      "name": "inclusive progress change remains source-derived +3",
+      "pass": true
+    },
+    {
+      "name": "approved scenario1440 no overflow",
+      "pass": true
+    },
+    {
+      "name": "approved scenario144097.3% inline caption",
+      "pass": true
+    },
+    {
+      "name": "approved scenario1440 late nested under progress",
+      "pass": true
+    },
+    {
+      "name": "approved scenario390 no overflow",
+      "pass": true
+    },
+    {
+      "name": "approved scenario39097.3% inline caption",
+      "pass": true
+    },
+    {
+      "name": "approved scenario390 late nested under progress",
+      "pass": true
+    },
+    {
+      "name": "approved scenario320 no overflow",
+      "pass": true
+    },
+    {
+      "name": "approved scenario32097.3% inline caption",
+      "pass": true
+    },
+    {
+      "name": "approved scenario320 late nested under progress",
+      "pass": true
+    },
+    {
+      "name": "approved-synthetic-a4 legislation included",
+      "pass": true
+    },
+    {
+      "name": "approved-synthetic-a4 format retained",
+      "pass": true
+    },
+    {
+      "name": "approved-synthetic-a4 card intact on one page",
+      "pass": true
+    },
+    {
+      "name": "approved-synthetic-a4 native green completed text",
+      "pass": true
+    },
+    {
+      "name": "approved-synthetic-a4 native red late text",
+      "pass": true
+    },
+    {
+      "name": "approved-synthetic-a4 card native text/vector without raster chart",
+      "pass": true
+    },
+    {
+      "name": "approved-synthetic-a4 no former SLC split headlines",
+      "pass": true
+    },
+    {
+      "name": "approved-synthetic-a4 green proportion exact",
+      "pass": true
+    },
+    {
+      "name": "approved-synthetic-a4 all native text within page bounds",
+      "pass": true
+    },
+    {
+      "name": "approved actual PDF numeric values exact",
+      "pass": true
+    },
+    {
+      "name": "approved actual PDF97.3% caption",
+      "pass": true
+    },
+    {
+      "name": "zero total no empty legislation card in app",
+      "pass": true
+    },
+    {
+      "name": "zero total no empty legislation card in print",
+      "pass": true
+    },
+    {
+      "name": "all completed collapses empty progress and shows100%",
+      "pass": true
+    },
+    {
+      "name": "no late shows no subset row",
+      "pass": true
+    },
+    {
+      "name": "all progress collapses zero completed column",
+      "pass": true
+    },
+    {
+      "name": "true zero completion text is dash",
+      "pass": true
+    },
+    {
+      "name": "missing-completion-column invalid/missing completion suppresses meter and caption",
+      "pass": true
+    },
+    {
+      "name": "missing-completion-column print suppresses same invalid/missing ratio",
+      "pass": true
+    },
+    {
+      "name": "invalid-completion-ratio invalid/missing completion suppresses meter and caption",
+      "pass": true
+    },
+    {
+      "name": "invalid-completion-ratio print suppresses same invalid/missing ratio",
+      "pass": true
+    },
+    {
+      "name": "late outside progress is separate, never falsely labeled as subset",
+      "pass": true
+    },
+    {
+      "name": "print preserves explicit separate late fallback",
+      "pass": true
+    },
+    {
+      "name": "overlap invalid/missing completion suppresses meter and caption",
+      "pass": true
+    },
+    {
+      "name": "overlap print suppresses same invalid/missing ratio",
+      "pass": true
+    },
+    {
+      "name": "controlled inputs did not modify original source records",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true
+    },
+    {
+      "name": "no external requests",
+      "pass": true
+    },
+    {
+      "name": "source workbook bytes unchanged",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screenProof": {
+    "1440": {
+      "overflow": false,
+      "count": true,
+      "text": "التشريعات\nالإجمالي\n183\n↑ +17\nمنجز\n178\n↑ +14\nقيد العمل\n5\n↑ +3\nمنها متأخر\n2\n↑ +1\n\nنسبة المنجز\n97.3%",
+      "rect": {
+        "x": 48,
+        "y": 425.96875,
+        "w": 1344,
+        "h": 399.765625
+      },
+      "metrics": [
+        {
+          "key": "legDone",
+          "label": "منجز",
+          "value": "178",
+          "rect": {
+            "x": 732,
+            "y": 583.5625,
+            "w": 635,
+            "h": 77.78125
+          },
+          "style": {
+            "color": "rgb(1, 131, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "rect": {
+              "x": 1311.703125,
+              "y": 617.15625,
+              "w": 55.296875,
+              "h": 44.1875
+            }
+          },
+          "labelStyle": {
+            "color": "rgb(1, 131, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "rect": {
+              "x": 1338.390625,
+              "y": 583.5625,
+              "w": 28.609375,
+              "h": 25.59375
+            }
+          }
+        },
+        {
+          "key": "legProgress",
+          "label": "قيد العمل",
+          "value": "5",
+          "rect": {
+            "x": 73,
+            "y": 583.5625,
+            "w": 610,
+            "h": 77.78125
+          },
+          "style": {
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "rect": {
+              "x": 664.5625,
+              "y": 617.15625,
+              "w": 18.4375,
+              "h": 44.1875
+            }
+          },
+          "labelStyle": {
+            "color": "rgb(79, 78, 78)",
+            "background": "rgba(0, 0, 0, 0)",
+            "rect": {
+              "x": 623.734375,
+              "y": 583.5625,
+              "w": 59.265625,
+              "h": 25.59375
+            }
+          }
+        }
+      ],
+      "late": {
+        "text": "منها متأخر\n2\n↑ +1",
+        "parent": "legProgress",
+        "style": {
+          "color": "rgb(192, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "rect": {
+            "x": 600.6875,
+            "y": 695.34375,
+            "w": 14.09375,
+            "h": 31.1875
+          }
+        }
+      },
+      "meter": {
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(239, 235, 231)",
+        "rect": {
+          "x": 73,
+          "y": 763.34375,
+          "w": 1294,
+          "h": 7
+        }
+      },
+      "fill": {
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(1, 131, 30)",
+        "rect": {
+          "x": 108.359375,
+          "y": 763.34375,
+          "w": 1258.640625,
+          "h": 7
+        }
+      },
+      "caption": "نسبة المنجز\n97.3%",
+      "changes": [
+        {
+          "key": "legTotal",
+          "text": "↑ +17",
+          "state": "diff",
+          "color": "rgb(117, 107, 95)"
+        },
+        {
+          "key": "legDone",
+          "text": "↑ +14",
+          "state": "diff",
+          "color": "rgb(1, 131, 30)"
+        },
+        {
+          "key": "legProgress",
+          "text": "↑ +3",
+          "state": "diff",
+          "color": "rgb(117, 107, 95)"
+        },
+        {
+          "key": "legLate",
+          "text": "↑ +1",
+          "state": "diff",
+          "color": "rgb(192, 0, 0)"
+        }
+      ],
+      "printText": "التشريعات183الإجمالي↑ +17منجز178↑ +14قيد العمل5↑ +3منها متأخر2↑ +1نسبة المنجز97.3%"
+    },
+    "390": {
+      "overflow": false,
+      "count": true,
+      "text": "التشريعات\nالإجمالي\n183\n↑ +17\nمنجز\n178\n↑ +14\nقيد العمل\n5\n↑ +3\nمنها متأخر\n2\n↑ +1\n\nنسبة المنجز\n97.3%",
+      "rect": {
+        "x": 16,
+        "y": 767.34375,
+        "w": 358,
+        "h": 379.765625
+      },
+      "metrics": [
+        {
+          "key": "legDone",
+          "label": "منجز",
+          "value": "178",
+          "rect": {
+            "x": 203,
+            "y": 912.9375,
+            "w": 154,
+            "h": 77.78125
+          },
+          "style": {
+            "color": "rgb(1, 131, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "rect": {
+              "x": 301.703125,
+              "y": 946.53125,
+              "w": 55.296875,
+              "h": 44.1875
+            }
+          },
+          "labelStyle": {
+            "color": "rgb(1, 131, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "rect": {
+              "x": 328.390625,
+              "y": 912.9375,
+              "w": 28.609375,
+              "h": 25.59375
+            }
+          }
+        },
+        {
+          "key": "legProgress",
+          "label": "قيد العمل",
+          "value": "5",
+          "rect": {
+            "x": 33,
+            "y": 912.9375,
+            "w": 137,
+            "h": 77.78125
+          },
+          "style": {
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "rect": {
+              "x": 151.5625,
+              "y": 946.53125,
+              "w": 18.4375,
+              "h": 44.1875
+            }
+          },
+          "labelStyle": {
+            "color": "rgb(79, 78, 78)",
+            "background": "rgba(0, 0, 0, 0)",
+            "rect": {
+              "x": 110.734375,
+              "y": 912.9375,
+              "w": 59.265625,
+              "h": 25.59375
+            }
+          }
+        }
+      ],
+      "late": {
+        "text": "منها متأخر\n2\n↑ +1",
+        "parent": "legProgress",
+        "style": {
+          "color": "rgb(192, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "rect": {
+            "x": 87.6875,
+            "y": 1024.71875,
+            "w": 14.09375,
+            "h": 31.1875
+          }
+        }
+      },
+      "meter": {
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(239, 235, 231)",
+        "rect": {
+          "x": 33,
+          "y": 1092.71875,
+          "w": 324,
+          "h": 7
+        }
+      },
+      "fill": {
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(1, 131, 30)",
+        "rect": {
+          "x": 41.859375,
+          "y": 1092.71875,
+          "w": 315.140625,
+          "h": 7
+        }
+      },
+      "caption": "نسبة المنجز\n97.3%",
+      "changes": [
+        {
+          "key": "legTotal",
+          "text": "↑ +17",
+          "state": "diff",
+          "color": "rgb(117, 107, 95)"
+        },
+        {
+          "key": "legDone",
+          "text": "↑ +14",
+          "state": "diff",
+          "color": "rgb(1, 131, 30)"
+        },
+        {
+          "key": "legProgress",
+          "text": "↑ +3",
+          "state": "diff",
+          "color": "rgb(117, 107, 95)"
+        },
+        {
+          "key": "legLate",
+          "text": "↑ +1",
+          "state": "diff",
+          "color": "rgb(192, 0, 0)"
+        }
+      ],
+      "printText": "التشريعات183الإجمالي↑ +17منجز178↑ +14قيد العمل5↑ +3منها متأخر2↑ +1نسبة المنجز97.3%"
+    },
+    "320": {
+      "overflow": false,
+      "count": true,
+      "text": "التشريعات\nالإجمالي\n183\n↑ +17\nمنجز\n178\n↑ +14\nقيد العمل\n5\n↑ +3\nمنها متأخر\n2\n↑ +1\n\nنسبة المنجز\n97.3%",
+      "rect": {
+        "x": 16,
+        "y": 762.34375,
+        "w": 288,
+        "h": 407.765625
+      },
+      "metrics": [
+        {
+          "key": "legDone",
+          "label": "منجز",
+          "value": "178",
+          "rect": {
+            "x": 168,
+            "y": 907.9375,
+            "w": 119,
+            "h": 77.78125
+          },
+          "style": {
+            "color": "rgb(1, 131, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "rect": {
+              "x": 231.703125,
+              "y": 941.53125,
+              "w": 55.296875,
+              "h": 44.1875
+            }
+          },
+          "labelStyle": {
+            "color": "rgb(1, 131, 30)",
+            "background": "rgba(0, 0, 0, 0)",
+            "rect": {
+              "x": 258.390625,
+              "y": 907.9375,
+              "w": 28.609375,
+              "h": 25.59375
+            }
+          }
+        },
+        {
+          "key": "legProgress",
+          "label": "قيد العمل",
+          "value": "5",
+          "rect": {
+            "x": 33,
+            "y": 907.9375,
+            "w": 102,
+            "h": 77.78125
+          },
+          "style": {
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "rect": {
+              "x": 116.5625,
+              "y": 941.53125,
+              "w": 18.4375,
+              "h": 44.1875
+            }
+          },
+          "labelStyle": {
+            "color": "rgb(79, 78, 78)",
+            "background": "rgba(0, 0, 0, 0)",
+            "rect": {
+              "x": 75.734375,
+              "y": 907.9375,
+              "w": 59.265625,
+              "h": 25.59375
+            }
+          }
+        }
+      ],
+      "late": {
+        "text": "منها متأخر\n2\n↑ +1",
+        "parent": "legProgress",
+        "style": {
+          "color": "rgb(192, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "rect": {
+            "x": 52.6875,
+            "y": 1019.71875,
+            "w": 14.09375,
+            "h": 31.1875
+          }
+        }
+      },
+      "meter": {
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(239, 235, 231)",
+        "rect": {
+          "x": 33,
+          "y": 1115.71875,
+          "w": 254,
+          "h": 7
+        }
+      },
+      "fill": {
+        "color": "rgb(79, 78, 78)",
+        "background": "rgb(1, 131, 30)",
+        "rect": {
+          "x": 39.953125,
+          "y": 1115.71875,
+          "w": 247.046875,
+          "h": 7
+        }
+      },
+      "caption": "نسبة المنجز\n97.3%",
+      "changes": [
+        {
+          "key": "legTotal",
+          "text": "↑ +17",
+          "state": "diff",
+          "color": "rgb(117, 107, 95)"
+        },
+        {
+          "key": "legDone",
+          "text": "↑ +14",
+          "state": "diff",
+          "color": "rgb(1, 131, 30)"
+        },
+        {
+          "key": "legProgress",
+          "text": "↑ +3",
+          "state": "diff",
+          "color": "rgb(117, 107, 95)"
+        },
+        {
+          "key": "legLate",
+          "text": "↑ +1",
+          "state": "diff",
+          "color": "rgb(192, 0, 0)"
+        }
+      ],
+      "printText": "التشريعات183الإجمالي↑ +17منجز178↑ +14قيد العمل5↑ +3منها متأخر2↑ +1نسبة المنجز97.3%"
+    }
+  },
+  "pdfs": [
+    {
+      "name": "approved-synthetic-a4",
+      "pages": 1,
+      "sha256": "811129bdffd56bbd826a93d60cd1143109c4a1ff4e80aafb8e19fd233d57305a",
+      "layout": "a4",
+      "cardPage": 1
+    }
+  ],
+  "pdfSpans": {
+    "approved-synthetic-a4": [
+      {
+        "size": 15.999975204467773,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "DINNextArabic-Regular",
+        "color": 3355443,
+        "alpha": 255,
+        "ascender": 0.8500000238418579,
+        "descender": -0.3499999940395355,
+        "text": "التشريعات",
+        "origin": [
+          554.098388671875,
+          190.053466796875
+        ],
+        "bbox": [
+          496.89849853515625,
+          176.4534912109375,
+          557.682373046875,
+          195.65345764160156
+        ]
+      },
+      {
+        "size": 27.999975204467773,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "DINNextLTArabic-Regular",
+        "color": 3355443,
+        "alpha": 255,
+        "ascender": 1.2000000476837158,
+        "descender": -0.27000001072883606,
+        "text": "183",
+        "origin": [
+          37.592552185058594,
+          205.053466796875
+        ],
+        "bbox": [
+          37.592552185058594,
+          171.4534912109375,
+          83.12051391601562,
+          212.61346435546875
+        ]
+      },
+      {
+        "size": 9.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 5197390,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": "الإجمالي",
+        "origin": [
+          110.4627456665039,
+          205.053466796875
+        ],
+        "bbox": [
+          87.36873626708984,
+          194.3794708251953,
+          112.33474731445312,
+          210.08447265625
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "TECPDFSymbolFallback-Reg",
+        "color": 7695199,
+        "alpha": 255,
+        "ascender": 0.89111328125,
+        "descender": -0.21630859375,
+        "text": "↑",
+        "origin": [
+          37.592552185058594,
+          221.600341796875
+        ],
+        "bbox": [
+          37.592552185058594,
+          211.79808044433594,
+          43.09256362915039,
+          223.979736328125
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 7695199,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": " +17",
+        "origin": [
+          43.09256362915039,
+          221.600341796875
+        ],
+        "bbox": [
+          43.09256362915039,
+          209.1813201904297,
+          63.552608489990234,
+          227.74935913085938
+        ]
+      },
+      {
+        "size": 9.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 99102,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": "منجز",
+        "origin": [
+          553.1013793945312,
+          244.744873046875
+        ],
+        "bbox": [
+          541.5903930664062,
+          234.58387756347656,
+          557.682373046875,
+          249.77587890625
+        ]
+      },
+      {
+        "size": 24.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "DINNextLTArabic-Regular",
+        "color": 99102,
+        "alpha": 255,
+        "ascender": 1.2000000476837158,
+        "descender": -0.27000001072883606,
+        "text": "178",
+        "origin": [
+          518.647216796875,
+          276.291748046875
+        ],
+        "bbox": [
+          518.647216796875,
+          247.4917449951172,
+          557.6712036132812,
+          282.7717590332031
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "TECPDFSymbolFallback-Reg",
+        "color": 99102,
+        "alpha": 255,
+        "ascender": 0.89111328125,
+        "descender": -0.21630859375,
+        "text": "↑",
+        "origin": [
+          531.737060546875,
+          294.115966796875
+        ],
+        "bbox": [
+          531.737060546875,
+          284.3136901855469,
+          537.237060546875,
+          296.495361328125
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 99102,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": " +14",
+        "origin": [
+          537.237060546875,
+          294.115966796875
+        ],
+        "bbox": [
+          537.237060546875,
+          281.6969299316406,
+          557.6970825195312,
+          300.2649841308594
+        ]
+      },
+      {
+        "size": 9.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 5197390,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": "قيد العمل",
+        "origin": [
+          287.3091735839844,
+          244.744873046875
+        ],
+        "bbox": [
+          257.8971862792969,
+          234.58387756347656,
+          291.2331848144531,
+          249.77587890625
+        ]
+      },
+      {
+        "size": 24.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "DINNextLTArabic-Regular",
+        "color": 5197390,
+        "alpha": 255,
+        "ascender": 1.2000000476837158,
+        "descender": -0.27000001072883606,
+        "text": "5",
+        "origin": [
+          278.2136535644531,
+          276.291748046875
+        ],
+        "bbox": [
+          278.2136535644531,
+          247.4917449951172,
+          291.2216491699219,
+          282.7717590332031
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "TECPDFSymbolFallback-Reg",
+        "color": 7695199,
+        "alpha": 255,
+        "ascender": 0.89111328125,
+        "descender": -0.21630859375,
+        "text": "↑",
+        "origin": [
+          271.2175598144531,
+          294.115966796875
+        ],
+        "bbox": [
+          271.2175598144531,
+          284.3136901855469,
+          276.7175598144531,
+          296.495361328125
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 7695199,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": " +3",
+        "origin": [
+          276.7175598144531,
+          294.115966796875
+        ],
+        "bbox": [
+          276.7175598144531,
+          281.6969299316406,
+          291.2375793457031,
+          300.2649841308594
+        ]
+      },
+      {
+        "size": 9.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 12582912,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": "منها متأخر",
+        "origin": [
+          286.6521911621094,
+          325.674560546875
+        ],
+        "bbox": [
+          257.3661804199219,
+          315.5135498046875,
+          291.2331848144531,
+          330.70556640625
+        ]
+      },
+      {
+        "size": 20.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "DINNextLTArabic-Regular",
+        "color": 12582912,
+        "alpha": 255,
+        "ascender": 1.2000000476837158,
+        "descender": -0.27000001072883606,
+        "text": "2",
+        "origin": [
+          240.85426330566406,
+          325.674560546875
+        ],
+        "bbox": [
+          240.85426330566406,
+          301.6745300292969,
+          251.69427490234375,
+          331.0745544433594
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "TECPDFSymbolFallback-Reg",
+        "color": 12582912,
+        "alpha": 255,
+        "ascender": 0.89111328125,
+        "descender": -0.21630859375,
+        "text": "↑",
+        "origin": [
+          215.17848205566406,
+          325.674560546875
+        ],
+        "bbox": [
+          215.17848205566406,
+          315.8722839355469,
+          220.67849731445312,
+          328.053955078125
+        ]
+      },
+      {
+        "size": 11.000024795532227,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 12582912,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": " +1",
+        "origin": [
+          220.67849731445312,
+          325.674560546875
+        ],
+        "bbox": [
+          220.67849731445312,
+          313.2555236816406,
+          235.1985321044922,
+          331.8235778808594
+        ]
+      },
+      {
+        "size": 9.0,
+        "flags": 4,
+        "bidi": 0,
+        "char_flags": 16,
+        "font": "Dubai-Regular",
+        "color": 5197390,
+        "alpha": 255,
+        "ascender": 1.128999948501587,
+        "descender": -0.5590000152587891,
+        "text": "نسبة المنجز97.3%",
+        "origin": [
+          555.1893310546875,
+          353.342529296875
+        ],
+        "bbox": [
+          487.9324035644531,
+          343.1815185546875,
+          557.6823120117188,
+          358.37353515625
+        ]
+      }
+    ]
+  },
+  "scenario": {
+    "type": "Controlled in-memory test data, selected immutable illustrative records; not production workbook",
+    "counts": [
+      183,
+      178,
+      5,
+      2
+    ],
+    "history": {
+      "total": 166,
+      "done": 164,
+      "late": 1
+    },
+    "date": 46295
+  },
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "04b747627fb1c1f589a5c5d9b63fa0e302f734fc13569c067d3a8bb6b503c5e5",
+    "assets/css/app-bundle.css": "de2ec205c6de37856e506f693f633f31e7622536ca9fcddd3471d90b13f743ff",
+    "assets/css/print-measure-bundle.css": "c9f41ef4b08dc4af87179de6348de7a44e818c68523880d927bf820822ed8e98"
+  },
+  "verdict": "PASS"
+}

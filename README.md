@@ -1,4 +1,12 @@
-# Performance App v156
+# Performance App v157
+
+[Download app — v157](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v157.zip) · [Updated TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles.zip) · [Revision 24](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-24.md) · [Verification](Saytara-Verification-v157.md)
+
+The approved legislation card is applied to the monthly dashboard and native PDF: combined completed total, in-progress count with late items beneath, and a Green/Linen completion bar. Counts, valid comparisons and drilldowns follow the selected workbook and filters. The original source fields and detailed SLC categories are preserved.
+
+[Applied previews](Monthly-Legislation-v157/README.md). Extract the complete ZIP and open **index.html**. No workbook is bundled.
+
+# Previous release — v156
 
 [Download app — v156](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v156.zip) · [Updated TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles.zip) · [Revision 23](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-23.md) · [Verification](Saytara-Verification-v156.md)
 

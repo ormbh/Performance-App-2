@@ -1,5 +1,7 @@
 # Monthly legislation card — illustration for review
 
+**Approved on 14 October 2026 and applied in [v157](../Performance-App-v157.zip).** The text below records the original illustration stage.
+
 ![Monthly legislation concept](monthly-legislation.png)
 
 This is a proposed monthly card, not a change to the live monthly report. Figures come from the user's screenshot: total 183 (+17), completed 178 (+14), in progress 5, late 2 (+1). The current source calculation includes late items within in-progress items. The illustration therefore places **منها متأخر 2** beneath **قيد العمل 5**, with no double counting. Completion is 178 / 183 = 97.3%. No in-progress comparison is invented.

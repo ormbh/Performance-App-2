@@ -1,0 +1,162 @@
+{
+  "checks": [
+    {
+      "name": "source completed count is exact per-record union",
+      "pass": true
+    },
+    {
+      "name": "all combined done drilldown count and exact keys",
+      "pass": true
+    },
+    {
+      "name": "sector combined done drilldown count and exact keys",
+      "pass": true
+    },
+    {
+      "name": "unit combined done drilldown count and exact keys",
+      "pass": true
+    },
+    {
+      "name": "entity combined done drilldown count and exact keys",
+      "pass": true
+    },
+    {
+      "name": "empty combined done drilldown count and exact keys",
+      "pass": true
+    },
+    {
+      "name": "combined completion is present in comparison descriptor",
+      "pass": true
+    },
+    {
+      "name": "approved scenario counts 183 / 178 / 5 with 2 late subset",
+      "pass": true
+    },
+    {
+      "name": "approved scenario source completion rounds to 97.3%",
+      "pass": true
+    },
+    {
+      "name": "approved embedded comparisons are total +17 done +14 late +1",
+      "pass": true
+    },
+    {
+      "name": "late subset and normal monthly partition verified",
+      "pass": true
+    },
+    {
+      "name": "approved done drilldown exact 178 source keys",
+      "pass": true
+    },
+    {
+      "name": "done combines both SLC groups without erasing source predicates",
+      "pass": true
+    },
+    {
+      "name": "comparison metrics reuse done aggregate",
+      "pass": true
+    },
+    {
+      "name": "uploaded previous workbook uses same union and gives +14",
+      "pass": true
+    },
+    {
+      "name": "uploaded missing required column suppresses aggregate comparison",
+      "pass": true
+    },
+    {
+      "name": "true zero completed stays numeric zero and unchanged comparison",
+      "pass": true
+    },
+    {
+      "name": "empty source remains zero, no invented counts",
+      "pass": true
+    },
+    {
+      "name": "missing on-time prevents manufactured done arrow",
+      "pass": true
+    },
+    {
+      "name": "missing overrun prevents manufactured done arrow",
+      "pass": true
+    },
+    {
+      "name": "negative component prevents manufactured done arrow",
+      "pass": true
+    },
+    {
+      "name": "fractional component prevents manufactured done arrow",
+      "pass": true
+    },
+    {
+      "name": "subtotal exceeds total prevents manufactured done arrow",
+      "pass": true
+    },
+    {
+      "name": "quarantined component prevents combined prior/delta",
+      "pass": true
+    },
+    {
+      "name": "partial historical scope never yields partial done total",
+      "pass": true
+    },
+    {
+      "name": "valid selected sector still compares despite other missing sector",
+      "pass": true
+    },
+    {
+      "name": "impossible row cannot be masked by another sector total",
+      "pass": true
+    },
+    {
+      "name": "embedded history does not invent entity detail",
+      "pass": true
+    },
+    {
+      "name": "late outside in-progress is explicitly flagged",
+      "pass": true
+    },
+    {
+      "name": "malformed completed/progress overlap flagged without source repair",
+      "pass": true
+    },
+    {
+      "name": "per-record completed union avoids category overlap double count",
+      "pass": true
+    },
+    {
+      "name": "combined source availability retains both existing SLC dependencies",
+      "pass": true
+    },
+    {
+      "name": "all normalized source records unchanged",
+      "pass": true
+    },
+    {
+      "name": "all existing source metrics unchanged",
+      "pass": true
+    }
+  ],
+  "fixture": {
+    "total": 191,
+    "done": 180,
+    "onTime": 152,
+    "overrun": 28,
+    "progress": 11,
+    "late": 2
+  },
+  "synthetic": {
+    "total": 183,
+    "done": 178,
+    "progress": 5,
+    "late": 2,
+    "doneDelta": 14
+  },
+  "errors": [],
+  "externalRequests": [],
+  "sourceHashes": {
+    "assets/js/model/rules.js": "1111335a8cb28d4972e295a4c94e43847fa28d2728d1337aab39d86a7f44e704",
+    "assets/js/model/comparison.js": "8024ffb7b3af9d7284d022cc57154450b7683e4f5b706bb7c70ba074ac634269"
+  },
+  "verdict": "PASS"
+}

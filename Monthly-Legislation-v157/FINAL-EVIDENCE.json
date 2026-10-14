@@ -1,0 +1,61 @@
+{
+  "verdict": "PASS",
+  "checks": 166,
+  "sourceWorkbookUnchanged": true,
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "04b747627fb1c1f589a5c5d9b63fa0e302f734fc13569c067d3a8bb6b503c5e5",
+    "assets/css/app-bundle.css": "de2ec205c6de37856e506f693f633f31e7622536ca9fcddd3471d90b13f743ff",
+    "assets/css/print-measure-bundle.css": "c9f41ef4b08dc4af87179de6348de7a44e818c68523880d927bf820822ed8e98"
+  },
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "kind": "Existing illustrative workbook; not production data"
+  },
+  "evidence": [
+    "evidence.json",
+    "synthetic-evidence.json"
+  ],
+  "pdfs": [
+    {
+      "name": "real-fixture-continuous",
+      "pages": 1,
+      "sha256": "a71b0fd9354cd3d1060d805c2ef48b0fb51571d80055a04b3fbe89648c31f102",
+      "layout": "continuous",
+      "cardPage": 1
+    },
+    {
+      "name": "real-fixture-a4",
+      "pages": 3,
+      "sha256": "1fc67bcb622c92638bca7c83e10c1d60d081af68dcc4895e4b66490b520bd9a5",
+      "layout": "a4",
+      "cardPage": 1
+    },
+    {
+      "name": "approved-synthetic-a4",
+      "pages": 1,
+      "sha256": "811129bdffd56bbd826a93d60cd1143109c4a1ff4e80aafb8e19fd233d57305a",
+      "layout": "a4",
+      "cardPage": 1
+    }
+  ],
+  "visualReview": {
+    "reviewed": [
+      "real-fixture-1440.png",
+      "real-fixture-390.png",
+      "real-fixture-a4-page.png",
+      "real-fixture-a4-card.png",
+      "real-fixture-continuous-card.png",
+      "approved-synthetic-1440.png",
+      "approved-synthetic-390.png",
+      "approved-synthetic-a4-card.png"
+    ],
+    "verdict": "PASS",
+    "observations": "Completed on right, in progress on left. Done label/count green; late red under its owning progress column. Figure/label/caption legible with no clipping. Native A4 card intact; continuous and A4 preserve title and other cards."
+  },
+  "limitations": [
+    "Controlled 183/178/5/2 example is explicitly synthetic test input; existing illustrative workbook computes191/180/11/2. No production workbook supplied.",
+    "Automated desktop Chromium viewport checks cover320/390/768/1440px; physical mobile devices and cold file startup not retested.",
+    "No changes or certification of unrelated app behavior."
+  ]
+}

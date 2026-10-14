@@ -1,0 +1,161 @@
+{
+  "checks": [
+    {
+      "name": "1440 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "1440 completed right, progress left",
+      "pass": true
+    },
+    {
+      "name": "1440 main numbers align",
+      "pass": true
+    },
+    {
+      "name": "1440 late nested and red",
+      "pass": true
+    },
+    {
+      "name": "1440 completed label/count green",
+      "pass": true
+    },
+    {
+      "name": "1440 late stays in card",
+      "pass": true
+    },
+    {
+      "name": "1100 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "1100 completed right, progress left",
+      "pass": true
+    },
+    {
+      "name": "1100 main numbers align",
+      "pass": true
+    },
+    {
+      "name": "1100 late nested and red",
+      "pass": true
+    },
+    {
+      "name": "1100 completed label/count green",
+      "pass": true
+    },
+    {
+      "name": "1100 late stays in card",
+      "pass": true
+    },
+    {
+      "name": "768 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "768 completed right, progress left",
+      "pass": true
+    },
+    {
+      "name": "768 main numbers align",
+      "pass": true
+    },
+    {
+      "name": "768 late nested and red",
+      "pass": true
+    },
+    {
+      "name": "768 completed label/count green",
+      "pass": true
+    },
+    {
+      "name": "768 late stays in card",
+      "pass": true
+    },
+    {
+      "name": "600 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "600 completed right, progress left",
+      "pass": true
+    },
+    {
+      "name": "600 main numbers align",
+      "pass": true
+    },
+    {
+      "name": "600 late nested and red",
+      "pass": true
+    },
+    {
+      "name": "600 completed label/count green",
+      "pass": true
+    },
+    {
+      "name": "600 late stays in card",
+      "pass": true
+    },
+    {
+      "name": "390 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "390 completed right, progress left",
+      "pass": true
+    },
+    {
+      "name": "390 main numbers align",
+      "pass": true
+    },
+    {
+      "name": "390 late nested and red",
+      "pass": true
+    },
+    {
+      "name": "390 completed label/count green",
+      "pass": true
+    },
+    {
+      "name": "390 late stays in card",
+      "pass": true
+    },
+    {
+      "name": "320 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "320 completed right, progress left",
+      "pass": true
+    },
+    {
+      "name": "320 main numbers align",
+      "pass": true
+    },
+    {
+      "name": "320 late nested and red",
+      "pass": true
+    },
+    {
+      "name": "320 completed label/count green",
+      "pass": true
+    },
+    {
+      "name": "320 late stays in card",
+      "pass": true
+    },
+    {
+      "name": "no browser errors",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "loadedAssetHashes": {
+    "app-bundle.css": "de2ec205c6de37856e506f693f633f31e7622536ca9fcddd3471d90b13f743ff",
+    "app-bundle.js": "bd8c22dca3ba47e3ec6f82f014cfc0cc6ca76aa4ea4dd93f09b72631d1d8476e",
+    "print-measure-bundle.css": "c9f41ef4b08dc4af87179de6348de7a44e818c68523880d927bf820822ed8e98"
+  },
+  "verdict": "PASS"
+}
