@@ -1,0 +1,1036 @@
+{
+  "mode": "built-runtime",
+  "sourceAppSha256": "04b00754db77ee23e088959e293c86b671882fc60c46f4878e65eb691159e24d",
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "ebe4a074cfededc94e62fd8b440fc55e3d16811f5dae045c9b88354781f2279e",
+    "assets/css/app-bundle.css": "85e52bc3dace2708573742ee64a79699920c43ef57bec0ba2f291d74b4512083",
+    "assets/css/print-measure-bundle.css": "9cf9365e7830ddd76d9a92e37a2fa3efb42e46b7a098f17a5e0157685f6ed040"
+  },
+  "verdict": "PASS",
+  "checks": [
+    {
+      "name": "hh all visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "hh all scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "hh all formatted report route",
+      "pass": true
+    },
+    {
+      "name": "hh all exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "hh all all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "hh all concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "hh all unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "hh all keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "hh all browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "hh sector-union visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "hh sector-union scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "hh sector-union formatted report route",
+      "pass": true
+    },
+    {
+      "name": "hh sector-union exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "hh sector-union all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "hh sector-union concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "hh sector-union unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "hh sector-union keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "hh sector-union browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "hh unit-union visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "hh unit-union scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "hh unit-union formatted report route",
+      "pass": true
+    },
+    {
+      "name": "hh unit-union exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "hh unit-union all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "hh unit-union concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "hh unit-union unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "hh unit-union keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "hh unit-union browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "hh entity-union visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "hh entity-union scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "hh entity-union formatted report route",
+      "pass": true
+    },
+    {
+      "name": "hh entity-union exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "hh entity-union all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "hh entity-union concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "hh entity-union unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "hh entity-union keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "hh entity-union browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "hh three-scope-intersection visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "hh three-scope-intersection scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "hh three-scope-intersection formatted report route",
+      "pass": true
+    },
+    {
+      "name": "hh three-scope-intersection exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "hh three-scope-intersection all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "hh three-scope-intersection concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "hh three-scope-intersection unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "hh three-scope-intersection keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "hh three-scope-intersection browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "hh control new tab formatted report route",
+      "pass": true
+    },
+    {
+      "name": "hh control new tab exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "hh control new tab all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "hh control new tab concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "hh control new tab unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "hh control parent remains monthly",
+      "pass": true
+    },
+    {
+      "name": "hh middle new tab formatted report route",
+      "pass": true
+    },
+    {
+      "name": "hh middle new tab exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "hh middle new tab all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "hh middle new tab concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "hh middle new tab unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "hh middle parent remains monthly",
+      "pass": true
+    },
+    {
+      "name": "hh keyboard Enter formatted report route",
+      "pass": true
+    },
+    {
+      "name": "hh keyboard Enter exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "hh keyboard Enter all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "hh keyboard Enter concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "hh keyboard Enter unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "agenda all visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "agenda all scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "agenda all formatted report route",
+      "pass": true
+    },
+    {
+      "name": "agenda all exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "agenda all all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "agenda all concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "agenda all unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "agenda all keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "agenda all browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "agenda sector-union visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "agenda sector-union scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "agenda sector-union formatted report route",
+      "pass": true
+    },
+    {
+      "name": "agenda sector-union exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "agenda sector-union all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "agenda sector-union concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "agenda sector-union unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "agenda sector-union keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "agenda sector-union browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "agenda unit-union visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "agenda unit-union scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "agenda unit-union formatted report route",
+      "pass": true
+    },
+    {
+      "name": "agenda unit-union exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "agenda unit-union all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "agenda unit-union concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "agenda unit-union unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "agenda unit-union keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "agenda unit-union browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "agenda entity-union visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "agenda entity-union scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "agenda entity-union formatted report route",
+      "pass": true
+    },
+    {
+      "name": "agenda entity-union exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "agenda entity-union all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "agenda entity-union concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "agenda entity-union unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "agenda entity-union keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "agenda entity-union browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "agenda three-scope-intersection visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "agenda three-scope-intersection scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "agenda three-scope-intersection formatted report route",
+      "pass": true
+    },
+    {
+      "name": "agenda three-scope-intersection exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "agenda three-scope-intersection all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "agenda three-scope-intersection concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "agenda three-scope-intersection unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "agenda three-scope-intersection keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "agenda three-scope-intersection browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "agenda control new tab formatted report route",
+      "pass": true
+    },
+    {
+      "name": "agenda control new tab exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "agenda control new tab all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "agenda control new tab concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "agenda control new tab unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "agenda control parent remains monthly",
+      "pass": true
+    },
+    {
+      "name": "agenda middle new tab formatted report route",
+      "pass": true
+    },
+    {
+      "name": "agenda middle new tab exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "agenda middle new tab all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "agenda middle new tab concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "agenda middle new tab unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "agenda middle parent remains monthly",
+      "pass": true
+    },
+    {
+      "name": "agenda keyboard Enter formatted report route",
+      "pass": true
+    },
+    {
+      "name": "agenda keyboard Enter exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "agenda keyboard Enter all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "agenda keyboard Enter concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "agenda keyboard Enter unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "council all visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "council all scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "council all formatted report route",
+      "pass": true
+    },
+    {
+      "name": "council all exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "council all all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "council all concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "council all unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "council all keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "council all browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "council sector-union visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "council sector-union scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "council sector-union formatted report route",
+      "pass": true
+    },
+    {
+      "name": "council sector-union exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "council sector-union all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "council sector-union concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "council sector-union unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "council sector-union keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "council sector-union browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "council unit-union visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "council unit-union scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "council unit-union formatted report route",
+      "pass": true
+    },
+    {
+      "name": "council unit-union exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "council unit-union all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "council unit-union concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "council unit-union unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "council unit-union keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "council unit-union browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "council entity-union visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "council entity-union scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "council entity-union formatted report route",
+      "pass": true
+    },
+    {
+      "name": "council entity-union exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "council entity-union all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "council entity-union concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "council entity-union unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "council entity-union keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "council entity-union browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "council three-scope-intersection visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "council three-scope-intersection scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "council three-scope-intersection formatted report route",
+      "pass": true
+    },
+    {
+      "name": "council three-scope-intersection exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "council three-scope-intersection all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "council three-scope-intersection concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "council three-scope-intersection unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "council three-scope-intersection keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "council three-scope-intersection browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "council control new tab formatted report route",
+      "pass": true
+    },
+    {
+      "name": "council control new tab exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "council control new tab all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "council control new tab concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "council control new tab unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "council control parent remains monthly",
+      "pass": true
+    },
+    {
+      "name": "council middle new tab formatted report route",
+      "pass": true
+    },
+    {
+      "name": "council middle new tab exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "council middle new tab all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "council middle new tab concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "council middle new tab unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "council middle parent remains monthly",
+      "pass": true
+    },
+    {
+      "name": "council keyboard Enter formatted report route",
+      "pass": true
+    },
+    {
+      "name": "council keyboard Enter exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "council keyboard Enter all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "council keyboard Enter concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "council keyboard Enter unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "projects all visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "projects all scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "projects all formatted report route",
+      "pass": true
+    },
+    {
+      "name": "projects all exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "projects all all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "projects all concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "projects all unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "projects all keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "projects all browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "projects sector-union visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "projects sector-union scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "projects sector-union formatted report route",
+      "pass": true
+    },
+    {
+      "name": "projects sector-union exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "projects sector-union all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "projects sector-union concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "projects sector-union unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "projects sector-union keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "projects sector-union browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "projects unit-union visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "projects unit-union scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "projects unit-union formatted report route",
+      "pass": true
+    },
+    {
+      "name": "projects unit-union exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "projects unit-union all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "projects unit-union concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "projects unit-union unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "projects unit-union keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "projects unit-union browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "projects entity-union visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "projects entity-union scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "projects entity-union formatted report route",
+      "pass": true
+    },
+    {
+      "name": "projects entity-union exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "projects entity-union all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "projects entity-union concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "projects entity-union unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "projects entity-union keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "projects entity-union browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "projects three-scope-intersection visible explicit report footer",
+      "pass": true
+    },
+    {
+      "name": "projects three-scope-intersection scoped copyable URL",
+      "pass": true
+    },
+    {
+      "name": "projects three-scope-intersection formatted report route",
+      "pass": true
+    },
+    {
+      "name": "projects three-scope-intersection exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "projects three-scope-intersection all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "projects three-scope-intersection concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "projects three-scope-intersection unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "projects three-scope-intersection keyboard focus moves to heading",
+      "pass": true
+    },
+    {
+      "name": "projects three-scope-intersection browser Back returns monthly scope",
+      "pass": true
+    },
+    {
+      "name": "projects control new tab formatted report route",
+      "pass": true
+    },
+    {
+      "name": "projects control new tab exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "projects control new tab all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "projects control new tab concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "projects control new tab unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "projects control parent remains monthly",
+      "pass": true
+    },
+    {
+      "name": "projects middle new tab formatted report route",
+      "pass": true
+    },
+    {
+      "name": "projects middle new tab exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "projects middle new tab all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "projects middle new tab concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "projects middle new tab unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "projects middle parent remains monthly",
+      "pass": true
+    },
+    {
+      "name": "projects keyboard Enter formatted report route",
+      "pass": true
+    },
+    {
+      "name": "projects keyboard Enter exact monthly record membership",
+      "pass": true
+    },
+    {
+      "name": "projects keyboard Enter all three scopes preserved",
+      "pass": true
+    },
+    {
+      "name": "projects keyboard Enter concerned entity semantics",
+      "pass": true
+    },
+    {
+      "name": "projects keyboard Enter unrelated local filters reset",
+      "pass": true
+    },
+    {
+      "name": "agendaDone numeric drill still opens exact records",
+      "pass": true
+    },
+    {
+      "name": "specialGsDone numeric drill still opens exact records",
+      "pass": true
+    },
+    {
+      "name": "councilDone numeric drill still opens exact records",
+      "pass": true
+    },
+    {
+      "name": "secDone numeric drill still opens exact records",
+      "pass": true
+    },
+    {
+      "name": "legTotal numeric drill still opens exact records",
+      "pass": true
+    },
+    {
+      "name": "kpiTotal numeric drill still opens exact records",
+      "pass": true
+    },
+    {
+      "name": "navigation does not mutate source records",
+      "pass": true
+    },
+    {
+      "name": "no external runtime requests",
+      "pass": true
+    }
+  ]
+}

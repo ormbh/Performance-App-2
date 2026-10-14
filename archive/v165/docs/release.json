@@ -1,0 +1,67 @@
+{
+  "build": 165,
+  "designRevision": 29,
+  "verdict": "COUNCIL_PASS_WITH_RECORDED_LIMITS",
+  "zip": "Performance-App-v165.zip",
+  "zipSha256": "568575abf8300c35fa536f13735b0f8d6f6db67998c190bf9fe0e20124720a7f",
+  "fileCount": 26,
+  "runtimeFiles": {
+    "README.txt": "bb2cd930e970c601c836c5ad6cdba4bdfc2dfe45964e8879dc947bd1f3bc0e42",
+    "assets/css/app-bundle.css": "c6324de8231701e196e1c566211fbee658a146a9cbe8ebd9fd3e5b3ce548cc9c",
+    "assets/css/print-measure-bundle.css": "49362e43f0f3265262b38153cfbcda15a5230fd606d84ed4bc31b5c3100f18a2",
+    "assets/fonts/DIN-Next-Arabic-Regular.otf": "9c2c15f517e786908c1fa917650f3723953aba6ef3fe0a3a7439c78fc0105715",
+    "assets/fonts/DIN-Next-LT-Arabic-Regular.ttf": "a96ab4c40a249f58bc245e6610ab2488cfd3580cfa776a1ad2a92788baf49dcd",
+    "assets/fonts/Dubai-Bold.otf": "299b7e9a156e5c938a1c82605f29eefe48579811c21c571c3a4625d74f48676d",
+    "assets/fonts/Dubai-Regular.otf": "025504c5514f902ce95e39d1c765f8bc65561d89c46024ef20e3f5d59503b2e2",
+    "assets/fonts/OFL.txt": "1b806a2fb734929564b7562be413412feeb041f165940e9094b84c523cf10bed",
+    "assets/icons/app-192.png": "4ed57658565a9a1cb9c6a811009b95e45256f2ad2051e76cfdda5862aae6a9a5",
+    "assets/icons/app-512.png": "d1c62b79ca9781af65c8bd2e076691b5a42584d1250aa813080649a30c52ce05",
+    "assets/icons/apple-touch-icon.png": "8f8a9ef26be7263d90f042fd3fa528a06179dc28a190f35b072390ceff9011f7",
+    "assets/img/agenda-cover.jpg": "d158ae2851d7ecc15072764c25560ee5d4a05f1db1c6faf8113e2c1a05b405ab",
+    "assets/img/agenda-logos.png": "903f29bb3ca1027ca5e992fefb0428e7c9fd55db5f91603f9def8a7ccf40f155",
+    "assets/img/search-background.png": "89ade61e25d179566c84df6f1fac2b6a7fd7b378834c480da0b92a6e377e5bca",
+    "assets/img/search-mashrabiya.jpg": "9f9e86ce18b75524867fdfe9edb144051465b66fb0f93b2a2fe7bfa41286c2ff",
+    "assets/img/tec-positive.png": "fcab6fe27d22f816a93016e0cbcb3c38432fe2ef8885a3f313e6a0efe86151ef",
+    "assets/img/tec-red.png": "abafeddbf4c7cc66a5f2c25e997ee4ce90b517a5ea0b15f38398d396c68680cf",
+    "assets/js/app-bundle.js": "f25a977a5489762a9aac6515e3df96a57cd707a42cb00c5f6c1a7f8b4586e12a",
+    "assets/js/lib/offline-pdf-engine.js": "647b32e4d4481fbc4df6edfa77ac71853131448ea4602d6b054f713ef6ee7069",
+    "assets/js/reports/agenda-fonts.js": "6f876e00ca7bb0954d796006096e574b424e09b101c37733566ea6fafe674dc3",
+    "assets/js/reports/agenda-template.js": "54f822bc3f695a5d20fab29eaa44d3fd1ec8e4e3d9693bc45dc58af8431fa22b",
+    "assets/js/reports/hh-template.js": "6304a88ac40fb87c936a13f2f663ca223e4a13318f578790ffbcf86b020108a0",
+    "assets/vendor/offline-pdf-LICENSES.txt": "55cf60144f8249cdd177adbf81fe30af773b5bb034acf68efd27db9f86f04521",
+    "assets/vendor/tec-pdf-symbols-LICENSE.txt": "f32df582a2aab128c07b2f7e36e7b928dc5f6bd82657b905c04f91459f9e5cf9",
+    "index.html": "e9e6864587b25aeab3f2f11170a7ae1195380eb1c41e97ee543ea469cf272b86",
+    "manifest.webmanifest": "b3ed8e7dc3299eb031ca9254ff3ef6fa0190e48ebb9e1a074a77dc451745e912"
+  },
+  "checks": {
+    "council-screen-pdf": 493,
+    "council-powerpoint": 146,
+    "council-continuation": 5,
+    "scope": 3,
+    "monthly-preview": 16
+  },
+  "sourceFixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "illustrative": true,
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+  },
+  "monthlyStage": {
+    "implemented": false,
+    "auditChecks": 118,
+    "auditPassed": 116,
+    "pdfAuditChecks": 34,
+    "pdfAuditPassed": 30,
+    "illustrations": 3
+  },
+  "limits": [
+    "Native Office rendering/manual editing not run.",
+    "Existing height guard remains for expanded nonstandard seven-status issuer charts plus seven definitions.",
+    "Cold file:// opening not rerun; local HTTP clean runtime tested.",
+    "Monthly findings are documented proposals, not fixed in this release."
+  ],
+  "previousRelease": {
+    "commit": "c0ec60128c39eaeca8ee5ce2150275ff453a19d5",
+    "zip": "archive/v164/Performance-App-v164.zip",
+    "sha256": "82dc790adc26bc2df9ddd411cf871433de425da3120d240e5a643d43d8030a6b"
+  }
+}

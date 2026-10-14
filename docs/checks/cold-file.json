@@ -1,0 +1,7 @@
+{
+  "verdict": "BLOCKED_BY_ENVIRONMENT",
+  "operation": "Cold file-origin opening in managed Chromium",
+  "error": "net::ERR_BLOCKED_BY_ADMINISTRATOR",
+  "executedApplicationChecks": 0,
+  "note": "Managed browser rejected file:// navigation before application code ran. Clean runtime is verified over local HTTP."
+}

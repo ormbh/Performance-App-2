@@ -1,0 +1,2712 @@
+{
+  "version": 166,
+  "phase": "clean-runtime",
+  "app": "v166-clean/Performance-App",
+  "verdict": "PASS",
+  "passed": 355,
+  "executed": 355,
+  "checks": [
+    {
+      "name": "illustrative source titled rows and fixed cutoff unchanged",
+      "pass": true
+    },
+    {
+      "name": "illustrative specialTotal exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 62,
+        "expected": 62
+      }
+    },
+    {
+      "name": "illustrative specialLead exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "illustrative specialGs exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 38,
+        "expected": 38
+      }
+    },
+    {
+      "name": "illustrative specialDone exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 23,
+        "expected": 23
+      }
+    },
+    {
+      "name": "illustrative specialProgress exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 38,
+        "expected": 38
+      }
+    },
+    {
+      "name": "illustrative specialReady exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "illustrative specialLate exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "illustrative specialOther exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "illustrative specialLeadDone exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "illustrative specialLeadProgress exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "illustrative specialLeadReady exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "illustrative specialLeadLate exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "illustrative specialLeadOther exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "illustrative specialGsDone exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 11,
+        "expected": 11
+      }
+    },
+    {
+      "name": "illustrative specialGsProgress exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 26,
+        "expected": 26
+      }
+    },
+    {
+      "name": "illustrative specialGsReady exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "illustrative specialGsLate exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "illustrative specialGsOther exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "illustrative specialLeadOpen exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "illustrative specialGsOpen exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 27,
+        "expected": 27
+      }
+    },
+    {
+      "name": "illustrative exhaustive special cohorts",
+      "pass": true
+    },
+    {
+      "name": "illustrative TEC known work excludes other",
+      "pass": true
+    },
+    {
+      "name": "illustrative leadership known work and done",
+      "pass": true
+    },
+    {
+      "name": "illustrative all status sets disjoint/exhaustive",
+      "pass": true
+    },
+    {
+      "name": "illustrative Lead status sets disjoint/exhaustive",
+      "pass": true
+    },
+    {
+      "name": "illustrative Gs status sets disjoint/exhaustive",
+      "pass": true
+    },
+    {
+      "name": "illustrative unrelated existing metric values unchanged",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "illustrative original source bytes unchanged",
+      "pass": true
+    },
+    {
+      "name": "illustrative special monthly/detail cohort exact sets",
+      "pass": true
+    },
+    {
+      "name": "illustrative valid saved specialTotal delta retained",
+      "pass": true,
+      "detail": {
+        "state": "diff",
+        "d": 7,
+        "text": "7"
+      }
+    },
+    {
+      "name": "illustrative valid saved agendaTotal delta retained",
+      "pass": true,
+      "detail": {
+        "state": "diff",
+        "d": 3,
+        "text": "3"
+      }
+    },
+    {
+      "name": "illustrative valid saved legTotal delta retained",
+      "pass": true,
+      "detail": {
+        "state": "diff",
+        "d": 25,
+        "text": "25"
+      }
+    },
+    {
+      "name": "illustrative valid saved legDone delta retained",
+      "pass": true,
+      "detail": {
+        "state": "diff",
+        "d": 16,
+        "text": "16"
+      }
+    },
+    {
+      "name": "illustrative incompatible saved specialGs comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "illustrative incompatible saved specialGsDone comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "illustrative incompatible saved specialGsLate comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "illustrative incompatible saved specialGsProgress comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "illustrative incompatible saved specialLeadProgress comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "illustrative incompatible saved specialProgress comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "illustrative incompatible saved specialReady comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "illustrative incompatible saved specialOther comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "illustrative incompatible saved specialLeadReady comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "illustrative incompatible saved specialLeadOther comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "illustrative incompatible saved specialGsReady comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "illustrative incompatible saved specialGsOther comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "illustrative actual agendaTotal drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 117,
+        "actual": 117
+      }
+    },
+    {
+      "name": "illustrative actual agendaPlanned drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 100,
+        "actual": 100
+      }
+    },
+    {
+      "name": "illustrative actual agendaEmerging drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 17,
+        "actual": 17
+      }
+    },
+    {
+      "name": "illustrative actual agendaDone drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 43,
+        "actual": 43
+      }
+    },
+    {
+      "name": "illustrative actual agendaReady drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 16,
+        "actual": 16
+      }
+    },
+    {
+      "name": "illustrative actual agendaProgress drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 58,
+        "actual": 58
+      }
+    },
+    {
+      "name": "illustrative actual councilTotal drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 70,
+        "actual": 70
+      }
+    },
+    {
+      "name": "illustrative actual councilDone drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 38,
+        "actual": 38
+      }
+    },
+    {
+      "name": "illustrative actual councilProgress drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 31,
+        "actual": 31
+      }
+    },
+    {
+      "name": "illustrative actual councilNoStatus drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 1,
+        "actual": 1
+      }
+    },
+    {
+      "name": "illustrative actual legTotal drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 191,
+        "actual": 191
+      }
+    },
+    {
+      "name": "illustrative actual legDone drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 180,
+        "actual": 180
+      }
+    },
+    {
+      "name": "illustrative actual legProgress drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 11,
+        "actual": 11
+      }
+    },
+    {
+      "name": "illustrative actual legLate drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 2,
+        "actual": 2
+      }
+    },
+    {
+      "name": "illustrative actual kpiTotal drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 54,
+        "actual": 54
+      }
+    },
+    {
+      "name": "illustrative actual kpiMeasured drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 39,
+        "actual": 39
+      }
+    },
+    {
+      "name": "illustrative actual kpiTargeted drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 49,
+        "actual": 49
+      }
+    },
+    {
+      "name": "illustrative actual specialTotal drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 62,
+        "actual": 62
+      }
+    },
+    {
+      "name": "illustrative actual specialLead drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 24,
+        "actual": 24
+      }
+    },
+    {
+      "name": "illustrative actual specialLeadDone drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 12,
+        "actual": 12
+      }
+    },
+    {
+      "name": "illustrative actual specialLeadProgress drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 12,
+        "actual": 12
+      }
+    },
+    {
+      "name": "illustrative actual specialGs drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 38,
+        "actual": 38
+      }
+    },
+    {
+      "name": "illustrative actual specialGsDone drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 11,
+        "actual": 11
+      }
+    },
+    {
+      "name": "illustrative actual specialGsProgress drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 26,
+        "actual": 26
+      }
+    },
+    {
+      "name": "illustrative actual specialGsOther drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 1,
+        "actual": 1
+      }
+    },
+    {
+      "name": "illustrative actual specialNoRequester drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 2,
+        "actual": 2
+      }
+    },
+    {
+      "name": "illustrative actual secTotal drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 84,
+        "actual": 84
+      }
+    },
+    {
+      "name": "illustrative actual secDone drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 10,
+        "actual": 10
+      }
+    },
+    {
+      "name": "illustrative actual secActive drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 61,
+        "actual": 61
+      }
+    },
+    {
+      "name": "illustrative actual secHeld drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 4,
+        "actual": 4
+      }
+    },
+    {
+      "name": "illustrative actual secQ1 drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 0,
+        "actual": 0
+      }
+    },
+    {
+      "name": "illustrative actual secQ2 drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 1,
+        "actual": 1
+      }
+    },
+    {
+      "name": "illustrative actual secQ3 drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 0,
+        "actual": 0
+      }
+    },
+    {
+      "name": "illustrative actual secQ4 drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 80,
+        "actual": 80
+      }
+    },
+    {
+      "name": "illustrative actual secRevised drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 84,
+        "actual": 84
+      }
+    },
+    {
+      "name": "illustrative actual secSpent drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 84,
+        "actual": 84
+      }
+    },
+    {
+      "name": "illustrative actual secCommitted drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 84,
+        "actual": 84
+      }
+    },
+    {
+      "name": "illustrative actual secNonCommitted drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 84,
+        "actual": 84
+      }
+    },
+    {
+      "name": "illustrative all special specialTotal controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialLead controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialGs controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialDone controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialProgress controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialReady controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialLate controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialOther controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialLeadDone controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialLeadProgress controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialLeadReady controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialLeadLate controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialLeadOther controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialGsDone controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialGsProgress controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialGsReady controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialGsLate controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialGsOther controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialLeadOpen controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative all special specialGsOpen controller drill",
+      "pass": true
+    },
+    {
+      "name": "illustrative source JSON untouched by view/model/drill",
+      "pass": true
+    },
+    {
+      "name": "all exact filter union/intersection membership",
+      "pass": true,
+      "detail": {
+        "expected": 672,
+        "actual": 672
+      }
+    },
+    {
+      "name": "all specialTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "all specialLead drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "all specialGs drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "all specialGsOther drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "all agendaTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "all councilTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "sector-union exact filter union/intersection membership",
+      "pass": true,
+      "detail": {
+        "expected": 305,
+        "actual": 305
+      }
+    },
+    {
+      "name": "sector-union specialTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "sector-union specialLead drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "sector-union specialGs drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "sector-union specialGsOther drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "sector-union agendaTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "sector-union councilTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "unit-union exact filter union/intersection membership",
+      "pass": true,
+      "detail": {
+        "expected": 163,
+        "actual": 163
+      }
+    },
+    {
+      "name": "unit-union specialTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "unit-union specialLead drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "unit-union specialGs drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "unit-union specialGsOther drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "unit-union agendaTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "unit-union councilTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "intersection exact filter union/intersection membership",
+      "pass": true,
+      "detail": {
+        "expected": 163,
+        "actual": 163
+      }
+    },
+    {
+      "name": "intersection specialTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "intersection specialLead drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "intersection specialGs drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "intersection specialGsOther drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "intersection agendaTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "intersection councilTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "entity-union exact filter union/intersection membership",
+      "pass": true,
+      "detail": {
+        "expected": 12,
+        "actual": 12
+      }
+    },
+    {
+      "name": "entity-union specialTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "entity-union specialLead drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "entity-union specialGs drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "entity-union specialGsOther drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "entity-union agendaTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "entity-union councilTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "empty exact filter union/intersection membership",
+      "pass": true,
+      "detail": {
+        "expected": 0,
+        "actual": 0
+      }
+    },
+    {
+      "name": "empty specialTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "empty specialLead drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "empty specialGs drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "empty specialGsOther drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "empty agendaTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "empty councilTotal drill retains scope",
+      "pass": true
+    },
+    {
+      "name": "attached source titled rows and fixed cutoff unchanged",
+      "pass": true
+    },
+    {
+      "name": "attached specialTotal exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 62,
+        "expected": 62
+      }
+    },
+    {
+      "name": "attached specialLead exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "attached specialGs exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 38,
+        "expected": 38
+      }
+    },
+    {
+      "name": "attached specialDone exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 23,
+        "expected": 23
+      }
+    },
+    {
+      "name": "attached specialProgress exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 38,
+        "expected": 38
+      }
+    },
+    {
+      "name": "attached specialReady exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "attached specialLate exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "attached specialOther exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "attached specialLeadDone exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "attached specialLeadProgress exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "attached specialLeadReady exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "attached specialLeadLate exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "attached specialLeadOther exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "attached specialGsDone exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 11,
+        "expected": 11
+      }
+    },
+    {
+      "name": "attached specialGsProgress exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 26,
+        "expected": 26
+      }
+    },
+    {
+      "name": "attached specialGsReady exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "attached specialGsLate exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "attached specialGsOther exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "attached specialLeadOpen exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "attached specialGsOpen exact independent source membership",
+      "pass": true,
+      "detail": {
+        "count": 27,
+        "expected": 27
+      }
+    },
+    {
+      "name": "attached exhaustive special cohorts",
+      "pass": true
+    },
+    {
+      "name": "attached TEC known work excludes other",
+      "pass": true
+    },
+    {
+      "name": "attached leadership known work and done",
+      "pass": true
+    },
+    {
+      "name": "attached all status sets disjoint/exhaustive",
+      "pass": true
+    },
+    {
+      "name": "attached Lead status sets disjoint/exhaustive",
+      "pass": true
+    },
+    {
+      "name": "attached Gs status sets disjoint/exhaustive",
+      "pass": true
+    },
+    {
+      "name": "attached unrelated existing metric values unchanged",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "name": "attached original source bytes unchanged",
+      "pass": true
+    },
+    {
+      "name": "attached special monthly/detail cohort exact sets",
+      "pass": true
+    },
+    {
+      "name": "attached valid saved specialTotal delta retained",
+      "pass": true,
+      "detail": {
+        "state": "diff",
+        "d": 7,
+        "text": "7"
+      }
+    },
+    {
+      "name": "attached valid saved agendaTotal delta retained",
+      "pass": true,
+      "detail": {
+        "state": "diff",
+        "d": 3,
+        "text": "3"
+      }
+    },
+    {
+      "name": "attached valid saved legTotal delta retained",
+      "pass": true,
+      "detail": {
+        "state": "diff",
+        "d": 25,
+        "text": "25"
+      }
+    },
+    {
+      "name": "attached valid saved legDone delta retained",
+      "pass": true,
+      "detail": {
+        "state": "diff",
+        "d": 16,
+        "text": "16"
+      }
+    },
+    {
+      "name": "attached incompatible saved specialGs comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "attached incompatible saved specialGsDone comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "attached incompatible saved specialGsLate comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "attached incompatible saved specialGsProgress comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "attached incompatible saved specialLeadProgress comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "attached incompatible saved specialProgress comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "attached incompatible saved specialReady comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "attached incompatible saved specialOther comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "attached incompatible saved specialLeadReady comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "attached incompatible saved specialLeadOther comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "attached incompatible saved specialGsReady comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "attached incompatible saved specialGsOther comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "attached actual agendaTotal drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 117,
+        "actual": 117
+      }
+    },
+    {
+      "name": "attached actual agendaPlanned drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 100,
+        "actual": 100
+      }
+    },
+    {
+      "name": "attached actual agendaEmerging drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 17,
+        "actual": 17
+      }
+    },
+    {
+      "name": "attached actual agendaDone drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 43,
+        "actual": 43
+      }
+    },
+    {
+      "name": "attached actual agendaReady drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 16,
+        "actual": 16
+      }
+    },
+    {
+      "name": "attached actual agendaProgress drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 58,
+        "actual": 58
+      }
+    },
+    {
+      "name": "attached actual councilTotal drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 70,
+        "actual": 70
+      }
+    },
+    {
+      "name": "attached actual councilDone drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 38,
+        "actual": 38
+      }
+    },
+    {
+      "name": "attached actual councilProgress drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 31,
+        "actual": 31
+      }
+    },
+    {
+      "name": "attached actual councilNoStatus drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 1,
+        "actual": 1
+      }
+    },
+    {
+      "name": "attached actual legTotal drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 191,
+        "actual": 191
+      }
+    },
+    {
+      "name": "attached actual legDone drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 180,
+        "actual": 180
+      }
+    },
+    {
+      "name": "attached actual legProgress drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 11,
+        "actual": 11
+      }
+    },
+    {
+      "name": "attached actual legLate drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 2,
+        "actual": 2
+      }
+    },
+    {
+      "name": "attached actual kpiTotal drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 54,
+        "actual": 54
+      }
+    },
+    {
+      "name": "attached actual kpiMeasured drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 39,
+        "actual": 39
+      }
+    },
+    {
+      "name": "attached actual kpiTargeted drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 49,
+        "actual": 49
+      }
+    },
+    {
+      "name": "attached actual specialTotal drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 62,
+        "actual": 62
+      }
+    },
+    {
+      "name": "attached actual specialLead drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 24,
+        "actual": 24
+      }
+    },
+    {
+      "name": "attached actual specialLeadDone drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 12,
+        "actual": 12
+      }
+    },
+    {
+      "name": "attached actual specialLeadProgress drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 12,
+        "actual": 12
+      }
+    },
+    {
+      "name": "attached actual specialGs drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 38,
+        "actual": 38
+      }
+    },
+    {
+      "name": "attached actual specialGsDone drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 11,
+        "actual": 11
+      }
+    },
+    {
+      "name": "attached actual specialGsProgress drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 26,
+        "actual": 26
+      }
+    },
+    {
+      "name": "attached actual specialGsOther drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 1,
+        "actual": 1
+      }
+    },
+    {
+      "name": "attached actual specialNoRequester drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 2,
+        "actual": 2
+      }
+    },
+    {
+      "name": "attached actual secTotal drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 84,
+        "actual": 84
+      }
+    },
+    {
+      "name": "attached actual secDone drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 10,
+        "actual": 10
+      }
+    },
+    {
+      "name": "attached actual secActive drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 61,
+        "actual": 61
+      }
+    },
+    {
+      "name": "attached actual secHeld drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 4,
+        "actual": 4
+      }
+    },
+    {
+      "name": "attached actual secQ1 drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 0,
+        "actual": 0
+      }
+    },
+    {
+      "name": "attached actual secQ2 drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 1,
+        "actual": 1
+      }
+    },
+    {
+      "name": "attached actual secQ3 drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 0,
+        "actual": 0
+      }
+    },
+    {
+      "name": "attached actual secQ4 drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 80,
+        "actual": 80
+      }
+    },
+    {
+      "name": "attached actual secRevised drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 84,
+        "actual": 84
+      }
+    },
+    {
+      "name": "attached actual secSpent drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 84,
+        "actual": 84
+      }
+    },
+    {
+      "name": "attached actual secCommitted drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 84,
+        "actual": 84
+      }
+    },
+    {
+      "name": "attached actual secNonCommitted drill exact source records",
+      "pass": true,
+      "detail": {
+        "expected": 84,
+        "actual": 84
+      }
+    },
+    {
+      "name": "attached all special specialTotal controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialLead controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialGs controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialDone controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialProgress controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialReady controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialLate controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialOther controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialLeadDone controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialLeadProgress controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialLeadReady controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialLeadLate controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialLeadOther controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialGsDone controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialGsProgress controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialGsReady controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialGsLate controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialGsOther controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialLeadOpen controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached all special specialGsOpen controller drill",
+      "pass": true
+    },
+    {
+      "name": "attached source JSON untouched by view/model/drill",
+      "pass": true
+    },
+    {
+      "name": "controlled specialTotal exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 35,
+        "actual": 35
+      }
+    },
+    {
+      "name": "controlled specialLead exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 14,
+        "actual": 14
+      }
+    },
+    {
+      "name": "controlled specialGs exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 21,
+        "actual": 21
+      }
+    },
+    {
+      "name": "controlled specialDone exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 5,
+        "actual": 5
+      }
+    },
+    {
+      "name": "controlled specialProgress exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 10,
+        "actual": 10
+      }
+    },
+    {
+      "name": "controlled specialReady exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 5,
+        "actual": 5
+      }
+    },
+    {
+      "name": "controlled specialLate exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 5,
+        "actual": 5
+      }
+    },
+    {
+      "name": "controlled specialOther exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 10,
+        "actual": 10
+      }
+    },
+    {
+      "name": "controlled specialLeadDone exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 2,
+        "actual": 2
+      }
+    },
+    {
+      "name": "controlled specialLeadProgress exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 4,
+        "actual": 4
+      }
+    },
+    {
+      "name": "controlled specialLeadReady exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 2,
+        "actual": 2
+      }
+    },
+    {
+      "name": "controlled specialLeadLate exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 2,
+        "actual": 2
+      }
+    },
+    {
+      "name": "controlled specialLeadOther exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 4,
+        "actual": 4
+      }
+    },
+    {
+      "name": "controlled specialGsDone exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 3,
+        "actual": 3
+      }
+    },
+    {
+      "name": "controlled specialGsProgress exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 6,
+        "actual": 6
+      }
+    },
+    {
+      "name": "controlled specialGsReady exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 3,
+        "actual": 3
+      }
+    },
+    {
+      "name": "controlled specialGsLate exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 3,
+        "actual": 3
+      }
+    },
+    {
+      "name": "controlled specialGsOther exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 6,
+        "actual": 6
+      }
+    },
+    {
+      "name": "controlled specialLeadOpen exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 12,
+        "actual": 12
+      }
+    },
+    {
+      "name": "controlled specialGsOpen exact status/cohort membership",
+      "pass": true,
+      "detail": {
+        "expected": 18,
+        "actual": 18
+      }
+    },
+    {
+      "name": "controlled ready late blank unknown all retained without work inflation",
+      "pass": true
+    },
+    {
+      "name": "controlled HH cohort leadership exact monthly members",
+      "pass": true
+    },
+    {
+      "name": "controlled HH cohort tec exact monthly members",
+      "pass": true
+    },
+    {
+      "name": "normalized yes uses detailed-report leadership cohort",
+      "pass": true
+    },
+    {
+      "name": "normalized yes guards legacy specialLead definition drift",
+      "pass": true
+    },
+    {
+      "name": "normalized yes guards legacy specialLeadDone definition drift",
+      "pass": true
+    },
+    {
+      "name": "normalized yes guards legacy specialLeadLate definition drift",
+      "pass": true
+    },
+    {
+      "name": "normalized yes retains valid overall saved delta",
+      "pass": true
+    },
+    {
+      "name": "missing numeric has blank visible content plus accessible unavailable meaning",
+      "pass": true
+    },
+    {
+      "name": "nonfinite numeric is missing rather than zero",
+      "pass": true
+    },
+    {
+      "name": "zero numeric/percentage shown as dash",
+      "pass": true
+    },
+    {
+      "name": "generated unrecorded table cell blank",
+      "pass": true
+    },
+    {
+      "name": "empty no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "empty scope hides all screen/print portfolio cards",
+      "pass": true
+    },
+    {
+      "name": "leadership-only no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "leadership-only only one source cohort shown on screen/print",
+      "pass": true,
+      "detail": {
+        "screen": 1,
+        "print": 1
+      }
+    },
+    {
+      "name": "leadership-only only special portfolio retained",
+      "pass": true
+    },
+    {
+      "name": "tec-only no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "tec-only only one source cohort shown on screen/print",
+      "pass": true,
+      "detail": {
+        "screen": 1,
+        "print": 1
+      }
+    },
+    {
+      "name": "tec-only only special portfolio retained",
+      "pass": true
+    },
+    {
+      "name": "agenda-done-only no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "zero agenda status categories hidden on screen",
+      "pass": true
+    },
+    {
+      "name": "zero agenda status categories hidden in print",
+      "pass": true
+    },
+    {
+      "name": "special-ready-only no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "special-ready-only correct status only, no invented work",
+      "pass": true
+    },
+    {
+      "name": "special-ready-only status remains in print",
+      "pass": true
+    },
+    {
+      "name": "special-other-only no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "special-other-only correct status only, no invented work",
+      "pass": true
+    },
+    {
+      "name": "special-other-only status remains in print",
+      "pass": true
+    },
+    {
+      "name": "special-no-status-column no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "missing status column never becomes work or visible numeric Other",
+      "pass": true
+    },
+    {
+      "name": "missing status source still retains overall total",
+      "pass": true
+    },
+    {
+      "name": "kpi-no-result no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "missing KPI means visibly blank in print",
+      "pass": true,
+      "detail": {
+        "kpiAvg": "",
+        "kpiTargeted": ""
+      }
+    },
+    {
+      "name": "budget-zero no viewport overflow",
+      "pass": true
+    },
+    {
+      "name": "recorded zero money stays visible dash in print",
+      "pass": true,
+      "detail": {
+        "budApproved": "-",
+        "budSpent": "-",
+        "budAllocated": "-",
+        "budUnallocated": "-"
+      }
+    },
+    {
+      "name": "uploaded previous fixture recomputes same definitions in workbook mode",
+      "pass": true
+    },
+    {
+      "name": "uploaded history specialTotal prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 62,
+        "current": 62,
+        "expected": [
+          62,
+          62
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialTotal exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialLead prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 24,
+        "current": 24,
+        "expected": [
+          24,
+          24
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialLead exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialGs prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 38,
+        "current": 38,
+        "expected": [
+          38,
+          38
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialGs exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialDone prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 23,
+        "current": 23,
+        "expected": [
+          23,
+          23
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialDone exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialProgress prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 38,
+        "current": 38,
+        "expected": [
+          38,
+          38
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialProgress exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialReady prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 0,
+        "current": 0,
+        "expected": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialReady exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialOther prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 1,
+        "current": 1,
+        "expected": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialOther exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialLeadDone prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 12,
+        "current": 12,
+        "expected": [
+          12,
+          12
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialLeadDone exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialLeadProgress prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 12,
+        "current": 12,
+        "expected": [
+          12,
+          12
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialLeadProgress exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialLeadReady prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 0,
+        "current": 0,
+        "expected": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialLeadReady exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialLeadLate prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 0,
+        "current": 0,
+        "expected": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialLeadLate exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialLeadOther prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 0,
+        "current": 0,
+        "expected": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialLeadOther exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialGsDone prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 11,
+        "current": 11,
+        "expected": [
+          11,
+          11
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialGsDone exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialGsProgress prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 26,
+        "current": 26,
+        "expected": [
+          26,
+          26
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialGsProgress exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialGsReady prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 0,
+        "current": 0,
+        "expected": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialGsReady exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialGsLate prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 0,
+        "current": 0,
+        "expected": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialGsLate exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "uploaded history specialGsOther prior/current independently recomputed",
+      "pass": true,
+      "detail": {
+        "previous": 1,
+        "current": 1,
+        "expected": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "name": "uploaded history specialGsOther exact difference without definition drift",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "controlled workbook specialTotal actual status movement retained",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "controlled workbook specialGs actual status movement retained",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "controlled workbook specialGsReady actual status movement retained",
+      "pass": true,
+      "detail": {
+        "state": "diff",
+        "d": 1,
+        "text": "1"
+      }
+    },
+    {
+      "name": "controlled workbook specialGsOther actual status movement retained",
+      "pass": true,
+      "detail": {
+        "state": "diff",
+        "d": -1,
+        "text": "1"
+      }
+    },
+    {
+      "name": "controlled workbook specialLeadProgress actual status movement retained",
+      "pass": true,
+      "detail": {
+        "state": "diff",
+        "d": -1,
+        "text": "1"
+      }
+    },
+    {
+      "name": "controlled workbook specialLeadLate actual status movement retained",
+      "pass": true,
+      "detail": {
+        "state": "diff",
+        "d": 1,
+        "text": "1"
+      }
+    },
+    {
+      "name": "controlled workbook specialLeadDone actual status movement retained",
+      "pass": true,
+      "detail": {
+        "state": "same",
+        "d": 0,
+        "text": "–"
+      }
+    },
+    {
+      "name": "incomplete comparison keys quarantined; no invented record matches",
+      "pass": true
+    },
+    {
+      "name": "original attachment bytes preserved after all checks",
+      "pass": true
+    },
+    {
+      "name": "original illustrative workbook bytes preserved",
+      "pass": true
+    },
+    {
+      "name": "no browser runtime errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no external runtime requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "runtimeHashes": {
+    "app-bundle.css": "85e52bc3dace2708573742ee64a79699920c43ef57bec0ba2f291d74b4512083",
+    "app-bundle.js": "ebe4a074cfededc94e62fd8b440fc55e3d16811f5dae045c9b88354781f2279e",
+    "print-measure-bundle.css": "9cf9365e7830ddd76d9a92e37a2fa3efb42e46b7a098f17a5e0157685f6ed040"
+  },
+  "limitations": [
+    "Uploaded workbook caches inspected previously; no Excel recalculation or Power Query refresh claimed.",
+    "Previous illustrative workbook is a controlled fixture, not operational history."
+  ],
+  "datasets": {
+    "illustrative": {
+      "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+      "source": {
+        "year": 2026,
+        "today": 46295,
+        "savedReportDate": 46295,
+        "sourceDateKind": "fixed",
+        "calculationDateKind": "fixed",
+        "sourceValidationDate": 46295,
+        "cutoffSource": "ValidationDate · Logic!$B$1"
+      },
+      "n": {
+        "agendaTotal": 117,
+        "agendaPlanned": 100,
+        "agendaEmerging": 17,
+        "agendaProgress": 58,
+        "agendaReady": 16,
+        "agendaDone": 43,
+        "agendaLate": 0,
+        "agendaNoStatus": 0,
+        "councilTotal": 70,
+        "councilProgress": 31,
+        "councilDone": 38,
+        "councilLate": 0,
+        "councilNoStatus": 1,
+        "councilExcluded": 94,
+        "legTotal": 191,
+        "legProgress": 11,
+        "legPending": 9,
+        "legOnTime": 152,
+        "legOverrun": 28,
+        "legDone": 180,
+        "legLate": 2,
+        "legNoStatus": 0,
+        "specialTotal": 62,
+        "specialLead": 24,
+        "specialGs": 38,
+        "specialDone": 23,
+        "specialLeadDone": 12,
+        "specialGsDone": 11,
+        "specialProgress": 38,
+        "specialLeadProgress": 12,
+        "specialGsProgress": 26,
+        "specialLate": 0,
+        "specialLeadLate": 0,
+        "specialGsLate": 0,
+        "specialReady": 0,
+        "specialLeadReady": 0,
+        "specialGsReady": 0,
+        "specialOther": 1,
+        "specialLeadOther": 0,
+        "specialGsOther": 1,
+        "specialLeadOpen": 12,
+        "specialGsOpen": 27,
+        "specialNoRequester": 2,
+        "secTotal": 84,
+        "secActive": 61,
+        "secHeld": 4,
+        "secDone": 10,
+        "secNotStarted": 7,
+        "secNoStatus": 0,
+        "secTransferred": 2,
+        "secLate": 0,
+        "secQ1": 0,
+        "secQ2": 1,
+        "secQ3": 0,
+        "secQ4": 80,
+        "secNoQuarter": 3,
+        "secBudget": 84,
+        "kpiTotal": 54,
+        "kpiMeasured": 39,
+        "kpiNotMeasured": 15,
+        "kpiTargeted": 49,
+        "secRevised": 84,
+        "secCommitted": 84,
+        "secNonCommitted": 84,
+        "secSpent": 84,
+        "allLate": 2,
+        "follow": 8
+      },
+      "kpi": {
+        "avgResult": 0.8317508282962148,
+        "avgTarget": 0.8775510204081638,
+        "measured": 39,
+        "total": 54,
+        "explicitState": false,
+        "notMeasured": 15,
+        "notApplicable": 0,
+        "unavailable": 0,
+        "unknown": 0,
+        "conflict": 0
+      },
+      "budget": {
+        "approved": 58275000,
+        "spent": 20396250,
+        "allocated": 46620000,
+        "unallocated": 11655000,
+        "approvedOriginal": 52447500
+      },
+      "visibleDrillMetrics": [
+        "agendaTotal",
+        "agendaPlanned",
+        "agendaEmerging",
+        "agendaDone",
+        "agendaReady",
+        "agendaProgress",
+        "councilTotal",
+        "councilDone",
+        "councilProgress",
+        "councilNoStatus",
+        "legTotal",
+        "legDone",
+        "legProgress",
+        "legLate",
+        "kpiTotal",
+        "kpiMeasured",
+        "kpiTargeted",
+        "specialTotal",
+        "specialLead",
+        "specialLeadDone",
+        "specialLeadProgress",
+        "specialGs",
+        "specialGsDone",
+        "specialGsProgress",
+        "specialGsOther",
+        "specialNoRequester",
+        "secTotal",
+        "secDone",
+        "secActive",
+        "secHeld",
+        "secQ1",
+        "secQ2",
+        "secQ3",
+        "secQ4",
+        "secRevised",
+        "secSpent",
+        "secCommitted",
+        "secNonCommitted"
+      ]
+    },
+    "attached": {
+      "sha256": "1638e2d9e194c21d8d8e258a2bcad7c121cbeb9a4f529f90cea632f212cc66f2",
+      "source": {
+        "year": 2026,
+        "today": 46295,
+        "savedReportDate": 46295,
+        "sourceDateKind": "fixed",
+        "calculationDateKind": "fixed",
+        "sourceValidationDate": 46295,
+        "cutoffSource": "ValidationDate · Logic!$B$1"
+      },
+      "n": {
+        "agendaTotal": 117,
+        "agendaPlanned": 100,
+        "agendaEmerging": 17,
+        "agendaProgress": 58,
+        "agendaReady": 16,
+        "agendaDone": 43,
+        "agendaLate": 0,
+        "agendaNoStatus": 0,
+        "councilTotal": 70,
+        "councilProgress": 31,
+        "councilDone": 38,
+        "councilLate": 0,
+        "councilNoStatus": 1,
+        "councilExcluded": 94,
+        "legTotal": 191,
+        "legProgress": 11,
+        "legPending": 9,
+        "legOnTime": 152,
+        "legOverrun": 28,
+        "legDone": 180,
+        "legLate": 2,
+        "legNoStatus": 0,
+        "specialTotal": 62,
+        "specialLead": 24,
+        "specialGs": 38,
+        "specialDone": 23,
+        "specialLeadDone": 12,
+        "specialGsDone": 11,
+        "specialProgress": 38,
+        "specialLeadProgress": 12,
+        "specialGsProgress": 26,
+        "specialLate": 0,
+        "specialLeadLate": 0,
+        "specialGsLate": 0,
+        "specialReady": 0,
+        "specialLeadReady": 0,
+        "specialGsReady": 0,
+        "specialOther": 1,
+        "specialLeadOther": 0,
+        "specialGsOther": 1,
+        "specialLeadOpen": 12,
+        "specialGsOpen": 27,
+        "specialNoRequester": 2,
+        "secTotal": 84,
+        "secActive": 61,
+        "secHeld": 4,
+        "secDone": 10,
+        "secNotStarted": 7,
+        "secNoStatus": 0,
+        "secTransferred": 2,
+        "secLate": 0,
+        "secQ1": 0,
+        "secQ2": 1,
+        "secQ3": 0,
+        "secQ4": 80,
+        "secNoQuarter": 3,
+        "secBudget": 84,
+        "kpiTotal": 54,
+        "kpiMeasured": 39,
+        "kpiNotMeasured": 15,
+        "kpiTargeted": 49,
+        "secRevised": 84,
+        "secCommitted": 84,
+        "secNonCommitted": 84,
+        "secSpent": 84,
+        "allLate": 2,
+        "follow": 8
+      },
+      "kpi": {
+        "avgResult": 0.8317508282962148,
+        "avgTarget": 0.8775510204081638,
+        "measured": 39,
+        "total": 54,
+        "explicitState": false,
+        "notMeasured": 15,
+        "notApplicable": 0,
+        "unavailable": 0,
+        "unknown": 0,
+        "conflict": 0
+      },
+      "budget": {
+        "approved": 58275000,
+        "spent": 20396250,
+        "allocated": 46620000,
+        "unallocated": 11655000,
+        "approvedOriginal": 52447500
+      },
+      "visibleDrillMetrics": [
+        "agendaTotal",
+        "agendaPlanned",
+        "agendaEmerging",
+        "agendaDone",
+        "agendaReady",
+        "agendaProgress",
+        "councilTotal",
+        "councilDone",
+        "councilProgress",
+        "councilNoStatus",
+        "legTotal",
+        "legDone",
+        "legProgress",
+        "legLate",
+        "kpiTotal",
+        "kpiMeasured",
+        "kpiTargeted",
+        "specialTotal",
+        "specialLead",
+        "specialLeadDone",
+        "specialLeadProgress",
+        "specialGs",
+        "specialGsDone",
+        "specialGsProgress",
+        "specialGsOther",
+        "specialNoRequester",
+        "secTotal",
+        "secDone",
+        "secActive",
+        "secHeld",
+        "secQ1",
+        "secQ2",
+        "secQ3",
+        "secQ4",
+        "secRevised",
+        "secSpent",
+        "secCommitted",
+        "secNonCommitted"
+      ]
+    }
+  },
+  "history": {
+    "source": {
+      "source": "workbook",
+      "reason": "",
+      "previousDate": "2026-08-31",
+      "currentDate": "2026-09-30"
+    },
+    "unresolvedCount": 130,
+    "matched": 607,
+    "missingPrevious": 65,
+    "missingCurrent": 65,
+    "previousFixtureSha256": "0aeea699d40bbc92bfa14042a949141b2322882219d6eaba9416d2359da37e87"
+  },
+  "controlledWorkbookChanges": {
+    "specialTotal": {
+      "state": "same",
+      "d": 0,
+      "text": "–"
+    },
+    "specialGs": {
+      "state": "same",
+      "d": 0,
+      "text": "–"
+    },
+    "specialGsReady": {
+      "state": "diff",
+      "d": 1,
+      "text": "1"
+    },
+    "specialGsOther": {
+      "state": "diff",
+      "d": -1,
+      "text": "1"
+    },
+    "specialLeadProgress": {
+      "state": "diff",
+      "d": -1,
+      "text": "1"
+    },
+    "specialLeadLate": {
+      "state": "diff",
+      "d": 1,
+      "text": "1"
+    },
+    "specialLeadDone": {
+      "state": "same",
+      "d": 0,
+      "text": "–"
+    }
+  },
+  "filters": [
+    {
+      "name": "all",
+      "expected": 672,
+      "actual": 672
+    },
+    {
+      "name": "sector-union",
+      "expected": 305,
+      "actual": 305
+    },
+    {
+      "name": "unit-union",
+      "expected": 163,
+      "actual": 163
+    },
+    {
+      "name": "intersection",
+      "expected": 163,
+      "actual": 163
+    },
+    {
+      "name": "entity-union",
+      "expected": 12,
+      "actual": 12
+    },
+    {
+      "name": "empty",
+      "expected": 0,
+      "actual": 0
+    }
+  ],
+  "display": {
+    "missing": {
+      "text": "",
+      "label": "غير متاح",
+      "state": "missing"
+    },
+    "nan": {
+      "text": "",
+      "label": "غير متاح",
+      "state": "missing"
+    },
+    "zero": {
+      "text": "-",
+      "label": "صفر",
+      "state": "zero"
+    },
+    "zeroPercent": {
+      "text": "-",
+      "label": "صفر بالمئة",
+      "state": "zero"
+    },
+    "missingTable": ""
+  }
+}

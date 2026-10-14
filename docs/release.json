@@ -1,14 +1,14 @@
 {
-  "build": 165,
-  "designRevision": 29,
-  "verdict": "COUNCIL_PASS_WITH_RECORDED_LIMITS",
-  "zip": "Performance-App-v165.zip",
-  "zipSha256": "568575abf8300c35fa536f13735b0f8d6f6db67998c190bf9fe0e20124720a7f",
+  "build": 166,
+  "designRevision": 30,
+  "verdict": "MONTHLY_PASS_WITH_RECORDED_LIMITS",
+  "zip": "Performance-App-v166.zip",
+  "zipSha256": "de52212e47f5848ac405d94f28e77eb190b903dedf51b6452748ceef7848ac74",
   "fileCount": 26,
   "runtimeFiles": {
-    "README.txt": "bb2cd930e970c601c836c5ad6cdba4bdfc2dfe45964e8879dc947bd1f3bc0e42",
-    "assets/css/app-bundle.css": "c6324de8231701e196e1c566211fbee658a146a9cbe8ebd9fd3e5b3ce548cc9c",
-    "assets/css/print-measure-bundle.css": "49362e43f0f3265262b38153cfbcda15a5230fd606d84ed4bc31b5c3100f18a2",
+    "README.txt": "469e8833df091ac6bb345f148be774c2e8939013ef16871c220f463617e5ee5f",
+    "assets/css/app-bundle.css": "14b0cb32e88a853d1c6c52d548a87af5b579584da9b95549faae54552f2ddeb6",
+    "assets/css/print-measure-bundle.css": "6e18d22b7682cd9e4d73f51e67e175aaf250f40dd8235090e49c520a8390644a",
     "assets/fonts/DIN-Next-Arabic-Regular.otf": "9c2c15f517e786908c1fa917650f3723953aba6ef3fe0a3a7439c78fc0105715",
     "assets/fonts/DIN-Next-LT-Arabic-Regular.ttf": "a96ab4c40a249f58bc245e6610ab2488cfd3580cfa776a1ad2a92788baf49dcd",
     "assets/fonts/Dubai-Bold.otf": "299b7e9a156e5c938a1c82605f29eefe48579811c21c571c3a4625d74f48676d",
@@ -23,22 +23,24 @@
     "assets/img/search-mashrabiya.jpg": "9f9e86ce18b75524867fdfe9edb144051465b66fb0f93b2a2fe7bfa41286c2ff",
     "assets/img/tec-positive.png": "fcab6fe27d22f816a93016e0cbcb3c38432fe2ef8885a3f313e6a0efe86151ef",
     "assets/img/tec-red.png": "abafeddbf4c7cc66a5f2c25e997ee4ce90b517a5ea0b15f38398d396c68680cf",
-    "assets/js/app-bundle.js": "f25a977a5489762a9aac6515e3df96a57cd707a42cb00c5f6c1a7f8b4586e12a",
+    "assets/js/app-bundle.js": "51ab13e0d1908b59bdd4d9e5be738815bd69336bce513468b85fe2a99e543bdd",
     "assets/js/lib/offline-pdf-engine.js": "647b32e4d4481fbc4df6edfa77ac71853131448ea4602d6b054f713ef6ee7069",
     "assets/js/reports/agenda-fonts.js": "6f876e00ca7bb0954d796006096e574b424e09b101c37733566ea6fafe674dc3",
     "assets/js/reports/agenda-template.js": "54f822bc3f695a5d20fab29eaa44d3fd1ec8e4e3d9693bc45dc58af8431fa22b",
     "assets/js/reports/hh-template.js": "6304a88ac40fb87c936a13f2f663ca223e4a13318f578790ffbcf86b020108a0",
     "assets/vendor/offline-pdf-LICENSES.txt": "55cf60144f8249cdd177adbf81fe30af773b5bb034acf68efd27db9f86f04521",
     "assets/vendor/tec-pdf-symbols-LICENSE.txt": "f32df582a2aab128c07b2f7e36e7b928dc5f6bd82657b905c04f91459f9e5cf9",
-    "index.html": "e9e6864587b25aeab3f2f11170a7ae1195380eb1c41e97ee543ea469cf272b86",
+    "index.html": "99de57e7b83ab37b0fc565c8db1f23a4be246f235a954c53cc5a63d4d20a2c7b",
     "manifest.webmanifest": "b3ed8e7dc3299eb031ca9254ff3ef6fa0190e48ebb9e1a074a77dc451745e912"
   },
   "checks": {
-    "council-screen-pdf": 493,
-    "council-powerpoint": 146,
-    "council-continuation": 5,
-    "scope": 3,
-    "monthly-preview": 16
+    "data": 355,
+    "data-final": 53,
+    "navigation": 256,
+    "navigation-final": 30,
+    "screen": 28,
+    "pdf": 222,
+    "scope": 3
   },
   "sourceFixture": {
     "name": "ILLUSTRATIVE-monthly-preview.xlsx",
@@ -46,22 +48,20 @@
     "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
   },
   "monthlyStage": {
-    "implemented": false,
-    "auditChecks": 118,
-    "auditPassed": 116,
-    "pdfAuditChecks": 34,
-    "pdfAuditPassed": 30,
-    "illustrations": 3
+    "implemented": true,
+    "approvedIllustrations": 3,
+    "actualPdfDownloads": 9,
+    "sourceWorkbooksChanged": false
   },
   "limits": [
-    "Native Office rendering/manual editing not run.",
-    "Existing height guard remains for expanded nonstandard seven-status issuer charts plus seven definitions.",
-    "Cold file:// opening not rerun; local HTTP clean runtime tested.",
-    "Monthly findings are documented proposals, not fixed in this release."
+    "Cold file:// navigation blocked by managed Chromium before app code ran; clean runtime verified over local HTTP.",
+    "No workbook recalculation, Power Query refresh or Office rendering performed.",
+    "PDF footer captions are report references; live scoped navigation is in the app.",
+    "Existing nonstandard seven-status council chart height guard remains."
   ],
   "previousRelease": {
-    "commit": "c0ec60128c39eaeca8ee5ce2150275ff453a19d5",
-    "zip": "archive/v164/Performance-App-v164.zip",
-    "sha256": "82dc790adc26bc2df9ddd411cf871433de425da3120d240e5a643d43d8030a6b"
+    "commit": "35f70651fb1ae3868c96510b718494fe86f0cb2b",
+    "zip": "archive/v165/Performance-App-v165.zip",
+    "sha256": "568575abf8300c35fa536f13735b0f8d6f6db67998c190bf9fe0e20124720a7f"
   }
 }

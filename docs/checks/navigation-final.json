@@ -1,0 +1,131 @@
+{
+  "kind": "final clean runtime after title and spacing changes",
+  "hashes": {
+    "assets/js/app-bundle.js": "51ab13e0d1908b59bdd4d9e5be738815bd69336bce513468b85fe2a99e543bdd",
+    "assets/css/app-bundle.css": "e9b737c6704cc142e1302db1bb8fc18ee66c3f99174e3e5853d80ad886a881a5",
+    "assets/css/print-measure-bundle.css": "7931bedad4ecb592bd921a652b0463a9347f085593fc7fba9f564f6ac9667999"
+  },
+  "verdict": "PASS",
+  "checks": [
+    {
+      "name": "hh navigation label is التقرير الشهري",
+      "pass": true
+    },
+    {
+      "name": "hh keyboard opens formatted report",
+      "pass": true
+    },
+    {
+      "name": "hh exact source membership",
+      "pass": true
+    },
+    {
+      "name": "hh all scopes and concerned entity retained",
+      "pass": true
+    },
+    {
+      "name": "hh stale local filters cleared",
+      "pass": true
+    },
+    {
+      "name": "hh heading focus",
+      "pass": true
+    },
+    {
+      "name": "hh Back restores monthly scope",
+      "pass": true
+    },
+    {
+      "name": "agenda navigation label is التقرير الشهري",
+      "pass": true
+    },
+    {
+      "name": "agenda keyboard opens formatted report",
+      "pass": true
+    },
+    {
+      "name": "agenda exact source membership",
+      "pass": true
+    },
+    {
+      "name": "agenda all scopes and concerned entity retained",
+      "pass": true
+    },
+    {
+      "name": "agenda stale local filters cleared",
+      "pass": true
+    },
+    {
+      "name": "agenda heading focus",
+      "pass": true
+    },
+    {
+      "name": "agenda Back restores monthly scope",
+      "pass": true
+    },
+    {
+      "name": "council navigation label is التقرير الشهري",
+      "pass": true
+    },
+    {
+      "name": "council keyboard opens formatted report",
+      "pass": true
+    },
+    {
+      "name": "council exact source membership",
+      "pass": true
+    },
+    {
+      "name": "council all scopes and concerned entity retained",
+      "pass": true
+    },
+    {
+      "name": "council stale local filters cleared",
+      "pass": true
+    },
+    {
+      "name": "council heading focus",
+      "pass": true
+    },
+    {
+      "name": "council Back restores monthly scope",
+      "pass": true
+    },
+    {
+      "name": "projects navigation label is التقرير الشهري",
+      "pass": true
+    },
+    {
+      "name": "projects keyboard opens formatted report",
+      "pass": true
+    },
+    {
+      "name": "projects exact source membership",
+      "pass": true
+    },
+    {
+      "name": "projects all scopes and concerned entity retained",
+      "pass": true
+    },
+    {
+      "name": "projects stale local filters cleared",
+      "pass": true
+    },
+    {
+      "name": "projects heading focus",
+      "pass": true
+    },
+    {
+      "name": "projects Back restores monthly scope",
+      "pass": true
+    },
+    {
+      "name": "source records unchanged",
+      "pass": true
+    },
+    {
+      "name": "no external runtime requests",
+      "pass": true
+    }
+  ]
+}

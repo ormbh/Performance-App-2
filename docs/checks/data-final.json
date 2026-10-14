@@ -1,0 +1,383 @@
+{
+  "version": 166,
+  "scope": "Final clean runtime supplement after navigation caption and CSS changes; builds on 355 prior checks.",
+  "checks": [
+    {
+      "name": "special cohort total 24 plus38 equals62",
+      "pass": true
+    },
+    {
+      "name": "TEC eleven done plus26work plusone other",
+      "pass": true
+    },
+    {
+      "name": "valid overall saved change remains plus7",
+      "pass": true
+    },
+    {
+      "name": "specialGs incompatible saved comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "specialGsDone incompatible saved comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "specialGsProgress incompatible saved comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "specialGsOther incompatible saved comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "specialGsReady incompatible saved comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "specialLeadProgress incompatible saved comparison unavailable",
+      "pass": true
+    },
+    {
+      "name": "available visible drill targets still38",
+      "pass": true
+    },
+    {
+      "name": "final agendaTotal controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 117,
+        "actualCount": 117
+      }
+    },
+    {
+      "name": "final agendaPlanned controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 100,
+        "actualCount": 100
+      }
+    },
+    {
+      "name": "final agendaEmerging controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 17,
+        "actualCount": 17
+      }
+    },
+    {
+      "name": "final agendaDone controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 43,
+        "actualCount": 43
+      }
+    },
+    {
+      "name": "final agendaReady controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 16,
+        "actualCount": 16
+      }
+    },
+    {
+      "name": "final agendaProgress controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 58,
+        "actualCount": 58
+      }
+    },
+    {
+      "name": "final councilTotal controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 70,
+        "actualCount": 70
+      }
+    },
+    {
+      "name": "final councilDone controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 38,
+        "actualCount": 38
+      }
+    },
+    {
+      "name": "final councilProgress controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 31,
+        "actualCount": 31
+      }
+    },
+    {
+      "name": "final councilNoStatus controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 1,
+        "actualCount": 1
+      }
+    },
+    {
+      "name": "final legTotal controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 191,
+        "actualCount": 191
+      }
+    },
+    {
+      "name": "final legDone controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 180,
+        "actualCount": 180
+      }
+    },
+    {
+      "name": "final legProgress controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 11,
+        "actualCount": 11
+      }
+    },
+    {
+      "name": "final legLate controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 2,
+        "actualCount": 2
+      }
+    },
+    {
+      "name": "final kpiTotal controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 54,
+        "actualCount": 54
+      }
+    },
+    {
+      "name": "final kpiMeasured controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 39,
+        "actualCount": 39
+      }
+    },
+    {
+      "name": "final kpiTargeted controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 49,
+        "actualCount": 49
+      }
+    },
+    {
+      "name": "final specialTotal controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 62,
+        "actualCount": 62
+      }
+    },
+    {
+      "name": "final specialLead controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 24,
+        "actualCount": 24
+      }
+    },
+    {
+      "name": "final specialLeadDone controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 12,
+        "actualCount": 12
+      }
+    },
+    {
+      "name": "final specialLeadProgress controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 12,
+        "actualCount": 12
+      }
+    },
+    {
+      "name": "final specialGs controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 38,
+        "actualCount": 38
+      }
+    },
+    {
+      "name": "final specialGsDone controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 11,
+        "actualCount": 11
+      }
+    },
+    {
+      "name": "final specialGsProgress controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 26,
+        "actualCount": 26
+      }
+    },
+    {
+      "name": "final specialGsOther controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 1,
+        "actualCount": 1
+      }
+    },
+    {
+      "name": "final specialNoRequester controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 2,
+        "actualCount": 2
+      }
+    },
+    {
+      "name": "final secTotal controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 84,
+        "actualCount": 84
+      }
+    },
+    {
+      "name": "final secDone controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 10,
+        "actualCount": 10
+      }
+    },
+    {
+      "name": "final secActive controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 61,
+        "actualCount": 61
+      }
+    },
+    {
+      "name": "final secHeld controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 4,
+        "actualCount": 4
+      }
+    },
+    {
+      "name": "final secQ1 controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 0,
+        "actualCount": 0
+      }
+    },
+    {
+      "name": "final secQ2 controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 1,
+        "actualCount": 1
+      }
+    },
+    {
+      "name": "final secQ3 controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 0,
+        "actualCount": 0
+      }
+    },
+    {
+      "name": "final secQ4 controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 80,
+        "actualCount": 80
+      }
+    },
+    {
+      "name": "final secRevised controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 84,
+        "actualCount": 84
+      }
+    },
+    {
+      "name": "final secSpent controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 84,
+        "actualCount": 84
+      }
+    },
+    {
+      "name": "final secCommitted controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 84,
+        "actualCount": 84
+      }
+    },
+    {
+      "name": "final secNonCommitted controller drill exact records",
+      "pass": true,
+      "detail": {
+        "expectedCount": 84,
+        "actualCount": 84
+      }
+    },
+    {
+      "name": "source JSON remains unchanged",
+      "pass": true
+    },
+    {
+      "name": "no browser runtime errors",
+      "pass": true
+    },
+    {
+      "name": "no external runtime requests",
+      "pass": true
+    },
+    {
+      "name": "loaded JS binds final clean runtime",
+      "pass": true
+    },
+    {
+      "name": "loaded CSS binds final clean runtime",
+      "pass": true
+    }
+  ],
+  "loadedAssetHashes": {
+    "app-bundle.css": "e9b737c6704cc142e1302db1bb8fc18ee66c3f99174e3e5853d80ad886a881a5",
+    "app-bundle.js": "51ab13e0d1908b59bdd4d9e5be738815bd69336bce513468b85fe2a99e543bdd",
+    "print-measure-bundle.css": "7931bedad4ecb592bd921a652b0463a9347f085593fc7fba9f564f6ac9667999"
+  },
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "51ab13e0d1908b59bdd4d9e5be738815bd69336bce513468b85fe2a99e543bdd",
+    "assets/css/app-bundle.css": "e9b737c6704cc142e1302db1bb8fc18ee66c3f99174e3e5853d80ad886a881a5",
+    "assets/css/print-measure-bundle.css": "7931bedad4ecb592bd921a652b0463a9347f085593fc7fba9f564f6ac9667999"
+  },
+  "verdict": "PASS",
+  "executed": 53,
+  "passed": 53
+}

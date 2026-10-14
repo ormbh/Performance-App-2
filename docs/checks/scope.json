@@ -1,27 +1,33 @@
 {
   "verdict": "PASS",
-  "checks": [
-    {
-      "name": "Only approved council modules, index version and generated bundles changed",
-      "pass": true
-    },
-    {
-      "name": "Monthly source modules and calculation rules unchanged",
-      "pass": true
-    },
-    {
-      "name": "PDF font engine and original Arabic font bytes unchanged from v164",
-      "pass": true
-    }
-  ],
-  "changedFiles": [
+  "changedSourceFiles": [
+    "DESIGN-PRINCIPLES-v166.md",
     "index.html",
+    "tools/build-bundles.py",
     "assets/js/app-bundle.js",
+    "assets/js/app.js",
     "assets/css/app-bundle.css",
     "assets/css/print-measure-bundle.css",
-    "assets/css/tec-council-revision28.css",
-    "assets/js/reports/council-export.js",
+    "assets/css/tec-monthly-revision30.css",
+    "assets/js/model/rules.js",
+    "assets/js/views/monthly-rag.js",
     "assets/js/views/pdf-download.js",
-    "assets/js/views/council-charts.js"
+    "assets/js/views/monthly-print.js",
+    "assets/js/views/dashboard.js",
+    "assets/js/views/common.js"
+  ],
+  "checks": [
+    {
+      "name": "PDF engine unchanged",
+      "pass": true
+    },
+    {
+      "name": "Approved font assets unchanged",
+      "pass": true
+    },
+    {
+      "name": "Bundle freshness and JS syntax checks executed successfully",
+      "pass": true
+    }
   ]
 }
