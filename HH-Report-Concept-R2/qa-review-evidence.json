@@ -1,0 +1,1604 @@
+{
+  "date": "2026-10-14",
+  "url": "http://127.0.0.1:8917/hh-report-concept-r2/index.html",
+  "checks": [
+    {
+      "check": "raw fixture payload unchanged from previous concept",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "summary total/done/work/other",
+      "pass": true,
+      "actual": [
+        62,
+        23,
+        38,
+        1
+      ],
+      "expected": [
+        62,
+        23,
+        38,
+        1
+      ]
+    },
+    {
+      "check": "shared chart maximum",
+      "pass": true,
+      "actual": 15,
+      "expected": 15
+    },
+    {
+      "check": "cohort coverage and no overlap",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "leadership exact source keys",
+      "pass": true,
+      "actual": [
+        "special-13",
+        "special-14",
+        "special-15",
+        "special-16",
+        "special-18",
+        "special-19",
+        "special-21",
+        "special-22",
+        "special-25",
+        "special-33",
+        "special-34",
+        "special-35",
+        "special-36",
+        "special-37",
+        "special-38",
+        "special-39",
+        "special-40",
+        "special-41",
+        "special-50",
+        "special-51",
+        "special-58",
+        "special-59",
+        "special-60",
+        "special-61"
+      ],
+      "expected": [
+        "special-13",
+        "special-14",
+        "special-15",
+        "special-16",
+        "special-18",
+        "special-19",
+        "special-21",
+        "special-22",
+        "special-25",
+        "special-33",
+        "special-34",
+        "special-35",
+        "special-36",
+        "special-37",
+        "special-38",
+        "special-39",
+        "special-40",
+        "special-41",
+        "special-50",
+        "special-51",
+        "special-58",
+        "special-59",
+        "special-60",
+        "special-61"
+      ]
+    },
+    {
+      "check": "leadership six aligned sector rows",
+      "pass": true,
+      "actual": [
+        "الأمانة العامة للمجلس التنفيذي",
+        "الحوكمة",
+        "التنمية المستدامة",
+        "الاقتصاد والتنمية الاجتماعية",
+        "التميز والخدمات الحكومية",
+        "الاتصال الحكومي وشؤون الأمانة العامة"
+      ],
+      "expected": [
+        "الأمانة العامة للمجلس التنفيذي",
+        "الحوكمة",
+        "التنمية المستدامة",
+        "الاقتصاد والتنمية الاجتماعية",
+        "التميز والخدمات الحكومية",
+        "الاتصال الحكومي وشؤون الأمانة العامة"
+      ]
+    },
+    {
+      "check": "leadership/الأمانة العامة للمجلس التنفيذي total",
+      "pass": true,
+      "actual": "–",
+      "expected": "–"
+    },
+    {
+      "check": "leadership/الأمانة العامة للمجلس التنفيذي statuses and bar labels",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "leadership/الحوكمة total",
+      "pass": true,
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "check": "leadership/الحوكمة statuses and bar labels",
+      "pass": true,
+      "actual": [
+        {
+          "status": "منجز",
+          "count": 1,
+          "label": "1"
+        }
+      ],
+      "expected": [
+        {
+          "status": "منجز",
+          "count": 1,
+          "label": "1"
+        }
+      ]
+    },
+    {
+      "check": "leadership/التنمية المستدامة total",
+      "pass": true,
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "check": "leadership/التنمية المستدامة statuses and bar labels",
+      "pass": true,
+      "actual": [
+        {
+          "status": "قيد التطوير",
+          "count": 5,
+          "label": "5"
+        },
+        {
+          "status": "منجز",
+          "count": 1,
+          "label": "1"
+        }
+      ],
+      "expected": [
+        {
+          "status": "قيد التطوير",
+          "count": 5,
+          "label": "5"
+        },
+        {
+          "status": "منجز",
+          "count": 1,
+          "label": "1"
+        }
+      ]
+    },
+    {
+      "check": "leadership/الاقتصاد والتنمية الاجتماعية total",
+      "pass": true,
+      "actual": "15",
+      "expected": "15"
+    },
+    {
+      "check": "leadership/الاقتصاد والتنمية الاجتماعية statuses and bar labels",
+      "pass": true,
+      "actual": [
+        {
+          "status": "قيد التطوير",
+          "count": 7,
+          "label": "7"
+        },
+        {
+          "status": "منجز",
+          "count": 8,
+          "label": "8"
+        }
+      ],
+      "expected": [
+        {
+          "status": "قيد التطوير",
+          "count": 7,
+          "label": "7"
+        },
+        {
+          "status": "منجز",
+          "count": 8,
+          "label": "8"
+        }
+      ]
+    },
+    {
+      "check": "leadership/التميز والخدمات الحكومية total",
+      "pass": true,
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "check": "leadership/التميز والخدمات الحكومية statuses and bar labels",
+      "pass": true,
+      "actual": [
+        {
+          "status": "منجز",
+          "count": 2,
+          "label": "2"
+        }
+      ],
+      "expected": [
+        {
+          "status": "منجز",
+          "count": 2,
+          "label": "2"
+        }
+      ]
+    },
+    {
+      "check": "leadership/الاتصال الحكومي وشؤون الأمانة العامة total",
+      "pass": true,
+      "actual": "–",
+      "expected": "–"
+    },
+    {
+      "check": "leadership/الاتصال الحكومي وشؤون الأمانة العامة statuses and bar labels",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "leadership status totals",
+      "pass": true,
+      "actual": {
+        "قيد التطوير": 12,
+        "منجز": 12
+      },
+      "expected": {
+        "قيد التطوير": 12,
+        "منجز": 12
+      }
+    },
+    {
+      "check": "tec exact source keys",
+      "pass": true,
+      "actual": [
+        "special-10",
+        "special-11",
+        "special-12",
+        "special-17",
+        "special-2",
+        "special-20",
+        "special-23",
+        "special-24",
+        "special-26",
+        "special-27",
+        "special-28",
+        "special-29",
+        "special-3",
+        "special-30",
+        "special-31",
+        "special-32",
+        "special-4",
+        "special-42",
+        "special-43",
+        "special-44",
+        "special-45",
+        "special-46",
+        "special-47",
+        "special-48",
+        "special-49",
+        "special-5",
+        "special-52",
+        "special-53",
+        "special-54",
+        "special-55",
+        "special-56",
+        "special-57",
+        "special-6",
+        "special-62",
+        "special-63",
+        "special-7",
+        "special-8",
+        "special-9"
+      ],
+      "expected": [
+        "special-10",
+        "special-11",
+        "special-12",
+        "special-17",
+        "special-2",
+        "special-20",
+        "special-23",
+        "special-24",
+        "special-26",
+        "special-27",
+        "special-28",
+        "special-29",
+        "special-3",
+        "special-30",
+        "special-31",
+        "special-32",
+        "special-4",
+        "special-42",
+        "special-43",
+        "special-44",
+        "special-45",
+        "special-46",
+        "special-47",
+        "special-48",
+        "special-49",
+        "special-5",
+        "special-52",
+        "special-53",
+        "special-54",
+        "special-55",
+        "special-56",
+        "special-57",
+        "special-6",
+        "special-62",
+        "special-63",
+        "special-7",
+        "special-8",
+        "special-9"
+      ]
+    },
+    {
+      "check": "tec six aligned sector rows",
+      "pass": true,
+      "actual": [
+        "الأمانة العامة للمجلس التنفيذي",
+        "الحوكمة",
+        "التنمية المستدامة",
+        "الاقتصاد والتنمية الاجتماعية",
+        "التميز والخدمات الحكومية",
+        "الاتصال الحكومي وشؤون الأمانة العامة"
+      ],
+      "expected": [
+        "الأمانة العامة للمجلس التنفيذي",
+        "الحوكمة",
+        "التنمية المستدامة",
+        "الاقتصاد والتنمية الاجتماعية",
+        "التميز والخدمات الحكومية",
+        "الاتصال الحكومي وشؤون الأمانة العامة"
+      ]
+    },
+    {
+      "check": "tec/الأمانة العامة للمجلس التنفيذي total",
+      "pass": true,
+      "actual": "11",
+      "expected": "11"
+    },
+    {
+      "check": "tec/الأمانة العامة للمجلس التنفيذي statuses and bar labels",
+      "pass": true,
+      "actual": [
+        {
+          "status": "قيد المراجعة",
+          "count": 2,
+          "label": "2"
+        },
+        {
+          "status": "قيد التطوير",
+          "count": 7,
+          "label": "7"
+        },
+        {
+          "status": "منجز",
+          "count": 1,
+          "label": "1"
+        },
+        {
+          "status": "حالات أخرى",
+          "count": 1,
+          "label": "1"
+        }
+      ],
+      "expected": [
+        {
+          "status": "قيد المراجعة",
+          "count": 2,
+          "label": "2"
+        },
+        {
+          "status": "قيد التطوير",
+          "count": 7,
+          "label": "7"
+        },
+        {
+          "status": "منجز",
+          "count": 1,
+          "label": "1"
+        },
+        {
+          "status": "حالات أخرى",
+          "count": 1,
+          "label": "1"
+        }
+      ]
+    },
+    {
+      "check": "tec/الحوكمة total",
+      "pass": true,
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "check": "tec/الحوكمة statuses and bar labels",
+      "pass": true,
+      "actual": [
+        {
+          "status": "قيد التطوير",
+          "count": 3,
+          "label": "3"
+        }
+      ],
+      "expected": [
+        {
+          "status": "قيد التطوير",
+          "count": 3,
+          "label": "3"
+        }
+      ]
+    },
+    {
+      "check": "tec/التنمية المستدامة total",
+      "pass": true,
+      "actual": "8",
+      "expected": "8"
+    },
+    {
+      "check": "tec/التنمية المستدامة statuses and bar labels",
+      "pass": true,
+      "actual": [
+        {
+          "status": "قيد المراجعة",
+          "count": 1,
+          "label": "1"
+        },
+        {
+          "status": "قيد التطوير",
+          "count": 2,
+          "label": "2"
+        },
+        {
+          "status": "منجز",
+          "count": 5,
+          "label": "5"
+        }
+      ],
+      "expected": [
+        {
+          "status": "قيد المراجعة",
+          "count": 1,
+          "label": "1"
+        },
+        {
+          "status": "قيد التطوير",
+          "count": 2,
+          "label": "2"
+        },
+        {
+          "status": "منجز",
+          "count": 5,
+          "label": "5"
+        }
+      ]
+    },
+    {
+      "check": "tec/الاقتصاد والتنمية الاجتماعية total",
+      "pass": true,
+      "actual": "9",
+      "expected": "9"
+    },
+    {
+      "check": "tec/الاقتصاد والتنمية الاجتماعية statuses and bar labels",
+      "pass": true,
+      "actual": [
+        {
+          "status": "قيد التطوير",
+          "count": 5,
+          "label": "5"
+        },
+        {
+          "status": "منجز",
+          "count": 4,
+          "label": "4"
+        }
+      ],
+      "expected": [
+        {
+          "status": "قيد التطوير",
+          "count": 5,
+          "label": "5"
+        },
+        {
+          "status": "منجز",
+          "count": 4,
+          "label": "4"
+        }
+      ]
+    },
+    {
+      "check": "tec/التميز والخدمات الحكومية total",
+      "pass": true,
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "check": "tec/التميز والخدمات الحكومية statuses and bar labels",
+      "pass": true,
+      "actual": [
+        {
+          "status": "قيد التطوير",
+          "count": 1,
+          "label": "1"
+        }
+      ],
+      "expected": [
+        {
+          "status": "قيد التطوير",
+          "count": 1,
+          "label": "1"
+        }
+      ]
+    },
+    {
+      "check": "tec/الاتصال الحكومي وشؤون الأمانة العامة total",
+      "pass": true,
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "check": "tec/الاتصال الحكومي وشؤون الأمانة العامة statuses and bar labels",
+      "pass": true,
+      "actual": [
+        {
+          "status": "قيد التطوير",
+          "count": 5,
+          "label": "5"
+        },
+        {
+          "status": "منجز",
+          "count": 1,
+          "label": "1"
+        }
+      ],
+      "expected": [
+        {
+          "status": "قيد التطوير",
+          "count": 5,
+          "label": "5"
+        },
+        {
+          "status": "منجز",
+          "count": 1,
+          "label": "1"
+        }
+      ]
+    },
+    {
+      "check": "tec status totals",
+      "pass": true,
+      "actual": {
+        "قيد المراجعة": 3,
+        "قيد التطوير": 23,
+        "منجز": 11,
+        "حالات أخرى": 1
+      },
+      "expected": {
+        "قيد المراجعة": 3,
+        "قيد التطوير": 23,
+        "منجز": 11,
+        "حالات أخرى": 1
+      }
+    },
+    {
+      "check": "detailed legend physically below both charts",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "legend source order",
+      "pass": true,
+      "actual": [
+        "متأخر",
+        "قيد المراجعة",
+        "قيد التطوير",
+        "منجز",
+        "حالات أخرى"
+      ],
+      "expected": [
+        "متأخر",
+        "قيد المراجعة",
+        "قيد التطوير",
+        "منجز",
+        "حالات أخرى"
+      ]
+    },
+    {
+      "check": "ready absent from real HH counts",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "ready sample label and count teal",
+      "pass": true,
+      "actual": [
+        "rgb(17, 94, 103)",
+        "rgb(17, 94, 103)"
+      ],
+      "expected": [
+        "rgb(17, 94, 103)",
+        "rgb(17, 94, 103)"
+      ]
+    },
+    {
+      "check": "ready sample explicitly outside report data",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "formatter zero and missing boundaries",
+      "pass": true,
+      "actual": [
+        "–",
+        "–",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "expected": [
+        "–",
+        "–",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "check": "zero progress detail special-11",
+      "pass": true,
+      "actual": "–",
+      "expected": "–"
+    },
+    {
+      "check": "zero progress aria kept numeric special-11",
+      "pass": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "check": "zero progress detail special-9",
+      "pass": true,
+      "actual": "–",
+      "expected": "–"
+    },
+    {
+      "check": "zero progress aria kept numeric special-9",
+      "pass": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "check": "zero progress detail special-10",
+      "pass": true,
+      "actual": "–",
+      "expected": "–"
+    },
+    {
+      "check": "zero progress aria kept numeric special-10",
+      "pass": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "check": "zero progress detail special-23",
+      "pass": true,
+      "actual": "–",
+      "expected": "–"
+    },
+    {
+      "check": "zero progress aria kept numeric special-23",
+      "pass": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "check": "zero progress detail special-24",
+      "pass": true,
+      "actual": "–",
+      "expected": "–"
+    },
+    {
+      "check": "zero progress aria kept numeric special-24",
+      "pass": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "check": "source filename and missing placeholders absent from all 62 actual detail cards",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "numbers fully inside bars at 1440",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "page fits viewport 1440",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "numbers fully inside bars at 1280",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "page fits viewport 1280",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "numbers fully inside bars at 1200",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "page fits viewport 1200",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "numbers fully inside bars at 390",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "page fits viewport 390",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "first selected plus N label 390",
+      "pass": true,
+      "actual": "الاتصال الحكومي وشؤون الأمانة العامة +1",
+      "expected": "الاتصال الحكومي وشؤون الأمانة العامة +1"
+    },
+    {
+      "check": "plus N visible and within control 390",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "numbers fully inside bars at 320",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "page fits viewport 320",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "first selected plus N label 320",
+      "pass": true,
+      "actual": "الاتصال الحكومي وشؤون الأمانة العامة +1",
+      "expected": "الاتصال الحكومي وشؤون الأمانة العامة +1"
+    },
+    {
+      "check": "plus N visible and within control 320",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "leadership scope hides entire empty cohort",
+      "pass": true,
+      "actual": [
+        "leadership"
+      ],
+      "expected": [
+        "leadership"
+      ]
+    },
+    {
+      "check": "leadership scope exact record set",
+      "pass": true,
+      "actual": [
+        "special-13",
+        "special-14",
+        "special-15",
+        "special-16",
+        "special-18",
+        "special-19",
+        "special-21",
+        "special-22",
+        "special-25",
+        "special-33",
+        "special-34",
+        "special-35",
+        "special-36",
+        "special-37",
+        "special-38",
+        "special-39",
+        "special-40",
+        "special-41",
+        "special-50",
+        "special-51",
+        "special-58",
+        "special-59",
+        "special-60",
+        "special-61"
+      ],
+      "expected": [
+        "special-13",
+        "special-14",
+        "special-15",
+        "special-16",
+        "special-18",
+        "special-19",
+        "special-21",
+        "special-22",
+        "special-25",
+        "special-33",
+        "special-34",
+        "special-35",
+        "special-36",
+        "special-37",
+        "special-38",
+        "special-39",
+        "special-40",
+        "special-41",
+        "special-50",
+        "special-51",
+        "special-58",
+        "special-59",
+        "special-60",
+        "special-61"
+      ]
+    },
+    {
+      "check": "tec scope hides entire empty cohort",
+      "pass": true,
+      "actual": [
+        "tec"
+      ],
+      "expected": [
+        "tec"
+      ]
+    },
+    {
+      "check": "tec scope exact record set",
+      "pass": true,
+      "actual": [
+        "special-10",
+        "special-11",
+        "special-12",
+        "special-17",
+        "special-2",
+        "special-20",
+        "special-23",
+        "special-24",
+        "special-26",
+        "special-27",
+        "special-28",
+        "special-29",
+        "special-3",
+        "special-30",
+        "special-31",
+        "special-32",
+        "special-4",
+        "special-42",
+        "special-43",
+        "special-44",
+        "special-45",
+        "special-46",
+        "special-47",
+        "special-48",
+        "special-49",
+        "special-5",
+        "special-52",
+        "special-53",
+        "special-54",
+        "special-55",
+        "special-56",
+        "special-57",
+        "special-6",
+        "special-62",
+        "special-63",
+        "special-7",
+        "special-8",
+        "special-9"
+      ],
+      "expected": [
+        "special-10",
+        "special-11",
+        "special-12",
+        "special-17",
+        "special-2",
+        "special-20",
+        "special-23",
+        "special-24",
+        "special-26",
+        "special-27",
+        "special-28",
+        "special-29",
+        "special-3",
+        "special-30",
+        "special-31",
+        "special-32",
+        "special-4",
+        "special-42",
+        "special-43",
+        "special-44",
+        "special-45",
+        "special-46",
+        "special-47",
+        "special-48",
+        "special-49",
+        "special-5",
+        "special-52",
+        "special-53",
+        "special-54",
+        "special-55",
+        "special-56",
+        "special-57",
+        "special-6",
+        "special-62",
+        "special-63",
+        "special-7",
+        "special-8",
+        "special-9"
+      ]
+    },
+    {
+      "check": "empty total rendered dash",
+      "pass": true,
+      "actual": "–",
+      "expected": "–"
+    },
+    {
+      "check": "empty completed percentage rendered dash",
+      "pass": true,
+      "actual": "–",
+      "expected": "–"
+    },
+    {
+      "check": "empty scope removes chart panels",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "empty scope names no result",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "reset restores all 62 records",
+      "pass": true,
+      "actual": 62,
+      "expected": 62
+    },
+    {
+      "check": "no JavaScript page errors",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    }
+  ],
+  "total": 75,
+  "passed": 75,
+  "failed": [],
+  "bar_geometry": {
+    "1440": [
+      {
+        "count": 1,
+        "segmentWidth": 24.921875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 124.65625,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 24.921875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 7,
+        "segmentWidth": 174.53125,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 8,
+        "segmentWidth": 199.453125,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 2,
+        "segmentWidth": 49.859375,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 2,
+        "segmentWidth": 49.859375,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 7,
+        "segmentWidth": 174.53125,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 24.921875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 24.921875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 3,
+        "segmentWidth": 74.796875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 24.921875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 2,
+        "segmentWidth": 49.859375,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 124.65625,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 124.65625,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 4,
+        "segmentWidth": 99.71875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 24.921875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 124.65625,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 24.921875,
+        "numberWidth": 10.84375,
+        "inside": true
+      }
+    ],
+    "1280": [
+      {
+        "count": 1,
+        "segmentWidth": 19.59375,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 98,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 19.59375,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 7,
+        "segmentWidth": 137.1875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 8,
+        "segmentWidth": 156.796875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 2,
+        "segmentWidth": 39.1875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 2,
+        "segmentWidth": 39.1875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 7,
+        "segmentWidth": 137.1875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 19.59375,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 19.59375,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 3,
+        "segmentWidth": 58.796875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 19.59375,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 2,
+        "segmentWidth": 39.1875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 98,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 98,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 4,
+        "segmentWidth": 78.390625,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 19.59375,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 98,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 19.59375,
+        "numberWidth": 10.84375,
+        "inside": true
+      }
+    ],
+    "1200": [
+      {
+        "count": 1,
+        "segmentWidth": 16.921875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 84.65625,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 16.921875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 7,
+        "segmentWidth": 118.53125,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 8,
+        "segmentWidth": 135.453125,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 2,
+        "segmentWidth": 33.859375,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 2,
+        "segmentWidth": 33.859375,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 7,
+        "segmentWidth": 118.53125,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 16.921875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 16.921875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 3,
+        "segmentWidth": 50.796875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 16.921875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 2,
+        "segmentWidth": 33.859375,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 84.65625,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 84.65625,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 4,
+        "segmentWidth": 67.71875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 16.921875,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 84.65625,
+        "numberWidth": 10.84375,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 16.921875,
+        "numberWidth": 10.84375,
+        "inside": true
+      }
+    ],
+    "390": [
+      {
+        "count": 1,
+        "segmentWidth": 18.796875,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 94,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 18.796875,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 7,
+        "segmentWidth": 131.59375,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 8,
+        "segmentWidth": 150.390625,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 2,
+        "segmentWidth": 37.59375,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 2,
+        "segmentWidth": 37.59375,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 7,
+        "segmentWidth": 131.59375,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 18.796875,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 18.796875,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 3,
+        "segmentWidth": 56.390625,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 18.796875,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 2,
+        "segmentWidth": 37.59375,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 94,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 94,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 4,
+        "segmentWidth": 75.1875,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 18.796875,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 94,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 18.796875,
+        "numberWidth": 9.765625,
+        "inside": true
+      }
+    ],
+    "320": [
+      {
+        "count": 1,
+        "segmentWidth": 14.125,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 70.65625,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 14.125,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 7,
+        "segmentWidth": 98.921875,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 8,
+        "segmentWidth": 113.0625,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 2,
+        "segmentWidth": 28.265625,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 2,
+        "segmentWidth": 28.265625,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 7,
+        "segmentWidth": 98.921875,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 14.125,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 14.125,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 3,
+        "segmentWidth": 42.390625,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 14.125,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 2,
+        "segmentWidth": 28.265625,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 70.65625,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 70.65625,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 4,
+        "segmentWidth": 56.53125,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 14.125,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 5,
+        "segmentWidth": 70.65625,
+        "numberWidth": 9.765625,
+        "inside": true
+      },
+      {
+        "count": 1,
+        "segmentWidth": 14.125,
+        "numberWidth": 9.765625,
+        "inside": true
+      }
+    ]
+  },
+  "source_sha256": "9509c7419a7112facfa83d28222ee9c7294a05915833ff08bcb57e312d0a951d"
+}

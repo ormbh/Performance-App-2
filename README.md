@@ -1,6 +1,6 @@
-[HH report illustrations — review only](HH-Report-Concept/README.md) · [Review PDF](HH-Report-Concept/TEC_HH_Report_Review.pdf) · [Offline concept ZIP](TEC_HH_Report_Concept.zip)
+[Revised HH illustrations — review only](HH-Report-Concept-R2/README.md) · [Paired charts and legend](HH-Report-Concept-R2/charts-desktop.png) · [Review PDF](HH-Report-Concept-R2/TEC_HH_Report_Review_R2.pdf) · [Offline concept ZIP](TEC_HH_Report_Concept_R2.zip)
 
-The proposed HH design is ready to review. The current application remains **v154**.
+The revised concept separates leadership and TEC projects, puts counts inside the bars, adds a detailed legend and illustrates the new shared display rules. The current application remains **v154**.
 
 # Performance App v154
 
