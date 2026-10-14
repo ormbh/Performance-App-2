@@ -1,0 +1,542 @@
+{
+  "version": 158,
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "illustrative": true
+  },
+  "checks": [
+    {
+      "name": "hh-all source contains records",
+      "pass": true
+    },
+    {
+      "name": "hh-all actual pagecount matches planner",
+      "pass": true
+    },
+    {
+      "name": "hh-all exact six headers withoutPM",
+      "pass": true
+    },
+    {
+      "name": "hh-all all source rows six columns",
+      "pass": true
+    },
+    {
+      "name": "hh-all exact table percentages by sourcekey",
+      "pass": true
+    },
+    {
+      "name": "hh-all exact card percentages by sourcekey",
+      "pass": true
+    },
+    {
+      "name": "hh-all PM detail field retained",
+      "pass": true
+    },
+    {
+      "name": "hh-all every recorded PM retained in its detailcard",
+      "pass": true
+    },
+    {
+      "name": "hh-all zero-count appendices omitted",
+      "pass": true
+    },
+    {
+      "name": "hh-all interactive return navigation excluded fromprint",
+      "pass": true
+    },
+    {
+      "name": "hh-all no duplicate overview or circles",
+      "pass": true
+    },
+    {
+      "name": "hh-all chart and definitions whole physicalpage2",
+      "pass": true
+    },
+    {
+      "name": "hh-all table headings13.5pt Linen",
+      "pass": true
+    },
+    {
+      "name": "hh-all table content12pt unstripedPaper",
+      "pass": true
+    },
+    {
+      "name": "hh-all cover title group centercenter",
+      "pass": true
+    },
+    {
+      "name": "hh-all entity oncover only whenselected",
+      "pass": true
+    },
+    {
+      "name": "hh-all actual PDF numeric glyphs equal all source percentages",
+      "pass": true
+    },
+    {
+      "name": "hh-all page1 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page2 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page3 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page4 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page5 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page6 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page7 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page8 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page9 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page10 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page11 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page12 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page13 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page14 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page15 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page16 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page17 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page18 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page19 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page20 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page21 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page22 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page23 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page24 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page25 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page26 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page27 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page28 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page29 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page30 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page31 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page32 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page33 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page34 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page35 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page36 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page37 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page38 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page39 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page40 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page41 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page42 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page43 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page44 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page45 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page46 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page47 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page48 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page49 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page50 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page51 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page52 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page53 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page54 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page55 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page56 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page57 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page58 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page59 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page60 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page61 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page62 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page63 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page64 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page65 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page66 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page67 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page68 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page69 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page70 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all page71 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-all all PDF text within pages",
+      "pass": true
+    },
+    {
+      "name": "hh-all cover nofooter; content numbering/copyright startsphysical2",
+      "pass": true
+    },
+    {
+      "name": "hh-all charts native vector",
+      "pass": true
+    },
+    {
+      "name": "hh-entity source contains records",
+      "pass": true
+    },
+    {
+      "name": "hh-entity actual pagecount matches planner",
+      "pass": true
+    },
+    {
+      "name": "hh-entity exact six headers withoutPM",
+      "pass": true
+    },
+    {
+      "name": "hh-entity all source rows six columns",
+      "pass": true
+    },
+    {
+      "name": "hh-entity exact table percentages by sourcekey",
+      "pass": true
+    },
+    {
+      "name": "hh-entity exact card percentages by sourcekey",
+      "pass": true
+    },
+    {
+      "name": "hh-entity PM detail field retained",
+      "pass": true
+    },
+    {
+      "name": "hh-entity every recorded PM retained in its detailcard",
+      "pass": true
+    },
+    {
+      "name": "hh-entity zero-count appendices omitted",
+      "pass": true
+    },
+    {
+      "name": "hh-entity interactive return navigation excluded fromprint",
+      "pass": true
+    },
+    {
+      "name": "hh-entity no duplicate overview or circles",
+      "pass": true
+    },
+    {
+      "name": "hh-entity chart and definitions whole physicalpage2",
+      "pass": true
+    },
+    {
+      "name": "hh-entity table headings13.5pt Linen",
+      "pass": true
+    },
+    {
+      "name": "hh-entity table content12pt unstripedPaper",
+      "pass": true
+    },
+    {
+      "name": "hh-entity cover title group centercenter",
+      "pass": true
+    },
+    {
+      "name": "hh-entity entity oncover only whenselected",
+      "pass": true
+    },
+    {
+      "name": "hh-entity actual PDF numeric glyphs equal all source percentages",
+      "pass": true
+    },
+    {
+      "name": "hh-entity page1 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-entity page2 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-entity page3 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-entity page4 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-entity page5 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-entity page6 A4landscape",
+      "pass": true
+    },
+    {
+      "name": "hh-entity all PDF text within pages",
+      "pass": true
+    },
+    {
+      "name": "hh-entity cover nofooter; content numbering/copyright startsphysical2",
+      "pass": true
+    },
+    {
+      "name": "hh-entity charts native vector",
+      "pass": true
+    },
+    {
+      "name": "source unchanged after native exports",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true
+    },
+    {
+      "name": "no external requests",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screens": [],
+  "pdfs": [
+    {
+      "name": "hh-all",
+      "pages": 71,
+      "sourceRows": 62,
+      "tablePages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "sha256": "05510ed2a94b003a31bed0b046cc40dbcc60f919f9fea34189e6cc9458bb6d0f",
+      "previews": [
+        "hh-all-page-1.png",
+        "hh-all-page-2.png",
+        "hh-all-page-3.png",
+        "hh-all-page-4.png"
+      ]
+    },
+    {
+      "name": "hh-entity",
+      "pages": 6,
+      "sourceRows": 2,
+      "tablePages": [
+        3
+      ],
+      "sha256": "b60a0a61422d912d9cbab1778ebe0969f1d18dba106d1d3ac6ad48cf5e097d74",
+      "previews": [
+        "hh-entity-page-1.png",
+        "hh-entity-page-2.png",
+        "hh-entity-page-3.png",
+        "hh-entity-page-4.png"
+      ]
+    }
+  ],
+  "loadedAssetHashes": {
+    "app-bundle.css": "92dfabb92cc0a439fd86f9ad95e3f116cb41de7de34d04138e9bbde9abc5f596",
+    "app-bundle.js": "783c344a876573b4f559d08a1fe419ca6484e8dc782d2b994dff734ceba66966",
+    "print-measure-bundle.css": "39ea72c9dba51fe349db3b97034b4154734c6f47ce6f6fd4d598308d27375675"
+  },
+  "verdict": "PASS",
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "783c344a876573b4f559d08a1fe419ca6484e8dc782d2b994dff734ceba66966",
+    "assets/css/app-bundle.css": "92dfabb92cc0a439fd86f9ad95e3f116cb41de7de34d04138e9bbde9abc5f596",
+    "assets/css/print-measure-bundle.css": "39ea72c9dba51fe349db3b97034b4154734c6f47ce6f6fd4d598308d27375675"
+  }
+}

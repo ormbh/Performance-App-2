@@ -1,14 +1,14 @@
-# TEC Apple-Inspired Design Standard — Revision 24
+# TEC Apple-Inspired Design Standard — Revision 25
 
-**14 October 2026 · Performance App v157**
+**14 October 2026 · Performance App v158**
 
-The current consolidated standard is [Revision 24](TEC-Apple-Inspired-Design-Standard-Revision-24.md). The matching [skill](../TEC-Apple-Inspired-Skill-and-Principles/SKILL.md) and [principles](../TEC-Apple-Inspired-Skill-and-Principles/references/TEC-Apple-Inspired-Design-Principles.md) form a self-contained package. [Revision 23](TEC-Apple-Inspired-Design-Standard-Revision-23.md) and earlier revisions remain historical references.
+Read [Revision 25](TEC-Apple-Inspired-Design-Standard-Revision-25.md) for the current consolidated standard. Agenda and special-project report pages share the same presentation roles throughout: headers, actions, scope controls, cards, charts, detailed legends, section headings, tables, spacing, responsive behavior and print. Preserve each report's source content, approved chart orientation, filter semantics and definition wording.
 
-The approved monthly legislation card shows one **منجز** aggregate of the existing SLC completion cohorts and **قيد العمل** with its **منها متأخر** subset. The Green/Linen completion bar uses all scoped legislation as its denominator. Late items are counted once; the layout does not invent new statuses, change source keys or fill unavailable history. Screen, continuous PDF and A4 PDF share the same meaning, selected scope and display. Exact drilldowns and source-eligible changes are retained. The illustration’s values are never hardcoded.
+Remove the added agenda count-matrix tables and their separate print/PDF pages, keeping the original agenda record sections, charts, aggregate status totals and detailed legend. Keep expandable exact count details on screen. The HH main project list has six columns without **مدير المشروع / PM**; manager source data and meaningful project-detail fields remain. Do not add replacement appendices or print-only data blocks.
 
-This revision retains the app-wide removal of Harvey balls and circular progress indicators, readable numeric progress, true zero as **–**, missing values as blank, Teal ready labels/counts, approved HH/agenda charts, native HH summary cleanup and all unchanged rules.
+Revision 25 takes precedence over conflicting historical clauses, especially the former requirement to export exact agenda matrices. The approved monthly legislation card, numeric progress without circular indicators, zero-as-dash, missing-as-blank, shared status colors and other unchanged rules remain applicable. The document states design requirements; **VERIFICATION-v158.md** records implementation checks and practical limits. Earlier verification does not establish a current pass or that unrelated app pages have been remigrated.
 
-**Precedence:** Revision 24 is the current rule set. Older content below is retained for historical detail and the official filename registry. Conflicting monthly legislation SLC headline columns, independent late columns and multistatus-bar rules are superseded, as are older circular-indicator, `0%`, separate badge/chart palette, neutral ready-text and fixed HH totals/empty-row rules. Source SLC cohorts remain valid outside the new monthly presentation. No historical verification result establishes a v157 pass. Unchanged earlier rules remain applicable.
+The matching [skill](../TEC-Apple-Inspired-Skill-and-Principles/SKILL.md) and [principles](../TEC-Apple-Inspired-Skill-and-Principles/references/TEC-Apple-Inspired-Design-Principles.md) form a self-contained package. [Revision 24](TEC-Apple-Inspired-Design-Standard-Revision-24.md) and earlier revisions remain historical references.
 
 ---
 

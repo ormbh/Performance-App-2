@@ -1,0 +1,3709 @@
+{
+  "stage": "actual final bundle plus native export scripts",
+  "fixture": {
+    "path": "/workspace/saytara-work/monthly-apple-preview/ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+  },
+  "checks": [
+    {
+      "name": "all completed appendix only when populated",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all followup appendix only when populated",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all contents only links populated appendices",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all fixture contains62 projects",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "cohort source totals 24leadership+38TEC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "actual bundle main list has approved six headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native package CRC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all no empty native appendix slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide2.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide2.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide11.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide11.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide51.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide51.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide12.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide13.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide14.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide15.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide16.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide17.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide18.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide19.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide20.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide21.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide22.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide23.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide24.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide25.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide26.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide27.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide28.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide29.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide30.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide31.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide32.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide33.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide34.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide35.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide36.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide37.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide38.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide39.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide40.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide41.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide42.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide43.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide44.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide45.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide46.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide47.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide48.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide49.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide52.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide53.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide54.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide55.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide56.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide57.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide58.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide59.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide60.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide61.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide62.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide63.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide64.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide65.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide66.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide67.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide68.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide69.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide70.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide71.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide72.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide73.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide74.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide50.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide2.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide2.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide11.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide11.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide51.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide51.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide6.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide6.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide6.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide6.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide6.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide6.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide6.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide6.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide6.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide7.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide7.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide7.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide7.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide7.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide7.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide7.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide7.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide7.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide8.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide8.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide10.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide2.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide2.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide11.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide11.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide51.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide51.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide8.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide8.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide8.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide8.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide8.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide8.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide8.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide9.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide9.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide9.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide9.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide9.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide9.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide9.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide9.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide9.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide10.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide10.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide10.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide10.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide10.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide10.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native section/card hyperlink target exists slide10.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide4 six native headers without PM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide4 consistent six-column native schema",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide4 Linen header",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide4 Ink header text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide4 readable12pt native headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide4 Paper body no zebra",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide4 no vertical cell grid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide4 Linen row dividers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide4 table within native slide bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide5 six native headers without PM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide5 consistent six-column native schema",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide5 Linen header",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide5 Ink header text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide5 readable12pt native headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide5 Paper body no zebra",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide5 no vertical cell grid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide5 Linen row dividers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide5 table within native slide bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide6 six native headers without PM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide6 consistent six-column native schema",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide6 Linen header",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide6 Ink header text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide6 readable12pt native headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide6 Paper body no zebra",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide6 no vertical cell grid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide6 Linen row dividers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide6 table within native slide bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide7 six native headers without PM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide7 consistent six-column native schema",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide7 Linen header",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide7 Ink header text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide7 readable12pt native headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide7 Paper body no zebra",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide7 no vertical cell grid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide7 Linen row dividers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide7 table within native slide bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide8 six native headers without PM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide8 consistent six-column native schema",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide8 Linen header",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide8 Ink header text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide8 readable12pt native headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide8 Paper body no zebra",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide8 no vertical cell grid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide8 Linen row dividers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide8 table within native slide bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide9 six native headers without PM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide9 consistent six-column native schema",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide9 Linen header",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide9 Ink header text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide9 readable12pt native headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide9 Paper body no zebra",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide9 no vertical cell grid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide9 Linen row dividers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide9 table within native slide bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide10 six native headers without PM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide10 consistent six-column native schema",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide10 Linen header",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide10 Ink header text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide10 readable12pt native headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide10 Paper body no zebra",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide10 no vertical cell grid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide10 Linen row dividers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all slide10 table within native slide bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all every selected source project exported once",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all all six native cell fields exactly match ordered source values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native detailed-card links preserve exact source keys",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native return links preserve exact source keys",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-62",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-28",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-30",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-35",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-44",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-19",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-53",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-59",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-42",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-20",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-39",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-61",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-11",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-32",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-23",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-24",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-27",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-31",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-26",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-60",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-34",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-36",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-38",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-45",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-46",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-49",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-50",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-51",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-52",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-37",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-47",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-41",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-13",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-40",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-54",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-58",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-22",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-29",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-48",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-55",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-56",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-14",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-57",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-15",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-33",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-21",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-25",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-43",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-17",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-63",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all detail retains source PM special-8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native charts reflect nonempty cohorts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all exact native chart status counts مشاريع القيادة",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all exact native chart status counts مشاريع الأمانة العامة",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police completed appendix only when populated",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police followup appendix only when populated",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police contents only links populated appendices",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native package CRC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police no empty native appendix slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police empty completed section omitted from native contents",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide2.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide2.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide6.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide7.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide2.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide2.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police slide4 six native headers without PM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police slide4 consistent six-column native schema",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police slide4 Linen header",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police slide4 Ink header text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police slide4 readable12pt native headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police slide4 Paper body no zebra",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police slide4 no vertical cell grid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police slide4 Linen row dividers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police slide4 table within native slide bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police every selected source project exported once",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police all six native cell fields exactly match ordered source values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native detailed-card links preserve exact source keys",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native return links preserve exact source keys",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police detail retains source PM special-18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police detail retains source PM special-51",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police native charts reflect nonempty cohorts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police exact native chart status counts مشاريع القيادة",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "police selected entity appears on native cover",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only completed appendix only when populated",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only followup appendix only when populated",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only contents only links populated appendices",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native package CRC",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only no empty native appendix slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only empty followup section omitted from native contents",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide2.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide2.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide6.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide2.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide2.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide5.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide3.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native section/card hyperlink target exists slide4.xml",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only slide4 six native headers without PM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only slide4 consistent six-column native schema",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only slide4 Linen header",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only slide4 Ink header text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only slide4 readable12pt native headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only slide4 Paper body no zebra",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only slide4 no vertical cell grid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only slide4 Linen row dividers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only slide4 table within native slide bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only every selected source project exported once",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only all six native cell fields exactly match ordered source values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native detailed-card links preserve exact source keys",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native return links preserve exact source keys",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only detail retains source PM special-41",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only native charts reflect nonempty cohorts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only exact native chart status counts مشاريع القيادة",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "done-only selected entity appears on native cover",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "source records unchanged by real native exports",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no browser runtime errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no external network requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "exports": [
+    {
+      "scope": "all",
+      "file": "hh-all.pptx",
+      "sha256": "3270236d5f57827bbb3ec6ed02b754db9fd9c21e2e0f9702790e5e75bca8c31b",
+      "sourceCount": 62,
+      "native": {
+        "slides": 74,
+        "chartCount": 2,
+        "masterSlides": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "projectSlides": {
+          "special-6": 12,
+          "special-3": 13,
+          "special-62": 14,
+          "special-28": 15,
+          "special-30": 16,
+          "special-35": 17,
+          "special-44": 18,
+          "special-4": 19,
+          "special-18": 20,
+          "special-19": 21,
+          "special-53": 22,
+          "special-59": 23,
+          "special-42": 24,
+          "special-20": 25,
+          "special-39": 26,
+          "special-61": 27,
+          "special-11": 28,
+          "special-12": 29,
+          "special-9": 30,
+          "special-10": 31,
+          "special-32": 32,
+          "special-5": 33,
+          "special-7": 34,
+          "special-23": 35,
+          "special-24": 36,
+          "special-27": 37,
+          "special-31": 38,
+          "special-26": 39,
+          "special-60": 40,
+          "special-34": 41,
+          "special-36": 42,
+          "special-38": 43,
+          "special-45": 44,
+          "special-46": 45,
+          "special-49": 46,
+          "special-50": 47,
+          "special-51": 48,
+          "special-52": 49,
+          "special-8": 50,
+          "special-37": 52,
+          "special-47": 53,
+          "special-41": 54,
+          "special-13": 55,
+          "special-40": 56,
+          "special-54": 57,
+          "special-58": 58,
+          "special-22": 59,
+          "special-29": 60,
+          "special-48": 61,
+          "special-55": 62,
+          "special-56": 63,
+          "special-14": 64,
+          "special-57": 65,
+          "special-15": 66,
+          "special-2": 67,
+          "special-33": 68,
+          "special-16": 69,
+          "special-21": 70,
+          "special-25": 71,
+          "special-43": 72,
+          "special-17": 73,
+          "special-63": 74
+        },
+        "masterPageByKey": {
+          "special-6": 4,
+          "special-3": 4,
+          "special-62": 4,
+          "special-28": 4,
+          "special-30": 4,
+          "special-35": 4,
+          "special-44": 4,
+          "special-4": 4,
+          "special-18": 4,
+          "special-19": 5,
+          "special-53": 5,
+          "special-59": 5,
+          "special-42": 5,
+          "special-20": 5,
+          "special-39": 5,
+          "special-61": 5,
+          "special-11": 5,
+          "special-12": 5,
+          "special-9": 6,
+          "special-10": 6,
+          "special-32": 6,
+          "special-5": 6,
+          "special-7": 6,
+          "special-23": 6,
+          "special-24": 6,
+          "special-27": 6,
+          "special-31": 6,
+          "special-26": 7,
+          "special-60": 7,
+          "special-34": 7,
+          "special-36": 7,
+          "special-38": 7,
+          "special-45": 7,
+          "special-46": 7,
+          "special-49": 7,
+          "special-50": 7,
+          "special-51": 8,
+          "special-52": 8,
+          "special-37": 8,
+          "special-47": 8,
+          "special-41": 8,
+          "special-13": 8,
+          "special-40": 8,
+          "special-54": 8,
+          "special-58": 8,
+          "special-22": 9,
+          "special-29": 9,
+          "special-48": 9,
+          "special-55": 9,
+          "special-56": 9,
+          "special-14": 9,
+          "special-57": 9,
+          "special-15": 9,
+          "special-2": 9,
+          "special-33": 10,
+          "special-16": 10,
+          "special-21": 10,
+          "special-25": 10,
+          "special-43": 10,
+          "special-17": 10,
+          "special-63": 10,
+          "special-8": 10
+        },
+        "sectionTargets": [
+          2,
+          4,
+          11,
+          51
+        ]
+      },
+      "source": {
+        "entity": "",
+        "items": [
+          {
+            "key": "special-6",
+            "number": "1",
+            "title": "مشروع خاص توضيحي 005",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد المراجعة",
+            "progress": "100%",
+            "end": "سبتمبر 2026",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-3",
+            "number": "2",
+            "title": "مشروع خاص توضيحي 002",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد المراجعة",
+            "progress": "95%",
+            "end": "أكتوبر 2026",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-62",
+            "number": "3",
+            "title": "مشروع خاص توضيحي 061",
+            "entity": "بلدية دبي",
+            "status": "قيد المراجعة",
+            "progress": "90%",
+            "end": "",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-28",
+            "number": "4",
+            "title": "مشروع خاص توضيحي 027",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "90%",
+            "end": "سبتمبر 2025",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-30",
+            "number": "5",
+            "title": "مشروع خاص توضيحي 029",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "100%",
+            "end": "ديسمبر 2025",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-35",
+            "number": "6",
+            "title": "مشروع خاص توضيحي 034",
+            "entity": "هيئة تنمية المجتمع",
+            "status": "قيد التطوير",
+            "progress": "",
+            "end": "يونيو 2026",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-44",
+            "number": "7",
+            "title": "مشروع خاص توضيحي 043",
+            "entity": "مؤسسة صندوق المعرفة",
+            "status": "قيد التطوير",
+            "progress": "100%",
+            "end": "يوليو 2026",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-4",
+            "number": "8",
+            "title": "مشروع خاص توضيحي 003",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "30%",
+            "end": "ديسمبر 2026",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-18",
+            "number": "9",
+            "title": "مشروع خاص توضيحي 017",
+            "entity": "القيادة العامة لشرطة دبي",
+            "status": "قيد التطوير",
+            "progress": "50%",
+            "end": "ديسمبر 2026",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-19",
+            "number": "10",
+            "title": "مشروع خاص توضيحي 018",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "50%",
+            "end": "ديسمبر 2026",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-53",
+            "number": "11",
+            "title": "مشروع خاص توضيحي 052",
+            "entity": "بلدية دبي",
+            "status": "قيد التطوير",
+            "progress": "50%",
+            "end": "ديسمبر 2026",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-59",
+            "number": "12",
+            "title": "مشروع خاص توضيحي 058",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "75%",
+            "end": "ديسمبر 2026",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-42",
+            "number": "13",
+            "title": "مشروع خاص توضيحي 041",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "20%",
+            "end": "يناير 2027",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-20",
+            "number": "14",
+            "title": "مشروع خاص توضيحي 019",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "65%",
+            "end": "فبراير 2027",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-39",
+            "number": "15",
+            "title": "مشروع خاص توضيحي 038",
+            "entity": "مؤسسة مكتبة محمد بن راشد آل مكتوم",
+            "status": "قيد التطوير",
+            "progress": "",
+            "end": "فبراير 2027",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-61",
+            "number": "16",
+            "title": "مشروع خاص توضيحي 060",
+            "entity": "دائرة الأراضي والأملاك",
+            "status": "قيد التطوير",
+            "progress": "50%",
+            "end": "فبراير 2027",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-11",
+            "number": "17",
+            "title": "مشروع خاص توضيحي 010",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "-",
+            "end": "مارس 2027",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-12",
+            "number": "18",
+            "title": "مشروع خاص توضيحي 011",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "25%",
+            "end": "مارس 2027",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-9",
+            "number": "19",
+            "title": "مشروع خاص توضيحي 008",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "-",
+            "end": "أبريل 2027",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-10",
+            "number": "20",
+            "title": "مشروع خاص توضيحي 009",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "-",
+            "end": "أبريل 2027",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-32",
+            "number": "21",
+            "title": "مشروع خاص توضيحي 031",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "10%",
+            "end": "أبريل 2027",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-5",
+            "number": "22",
+            "title": "مشروع خاص توضيحي 004",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "5%",
+            "end": "يونيو 2027",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-7",
+            "number": "23",
+            "title": "مشروع خاص توضيحي 006",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "10%",
+            "end": "يوليو 2027",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-23",
+            "number": "24",
+            "title": "مشروع خاص توضيحي 022",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "-",
+            "end": "سبتمبر 2027",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-24",
+            "number": "25",
+            "title": "مشروع خاص توضيحي 023",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "-",
+            "end": "سبتمبر 2027",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-27",
+            "number": "26",
+            "title": "مشروع خاص توضيحي 026",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "50%",
+            "end": "ديسمبر 2027",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-31",
+            "number": "27",
+            "title": "مشروع خاص توضيحي 030",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "5%",
+            "end": "أغسطس 2028",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-26",
+            "number": "28",
+            "title": "مشروع خاص توضيحي 025",
+            "entity": "دائرة المالية",
+            "status": "قيد التطوير",
+            "progress": "70%",
+            "end": "ديسمبر 2028",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-60",
+            "number": "29",
+            "title": "مشروع خاص توضيحي 059",
+            "entity": "بلدية دبي",
+            "status": "قيد التطوير",
+            "progress": "50%",
+            "end": "أغسطس 2029",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-34",
+            "number": "30",
+            "title": "مشروع خاص توضيحي 033",
+            "entity": "هيئة تنمية المجتمع",
+            "status": "قيد التطوير",
+            "progress": "",
+            "end": "",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-36",
+            "number": "31",
+            "title": "مشروع خاص توضيحي 035",
+            "entity": "هيئة تنمية المجتمع",
+            "status": "قيد التطوير",
+            "progress": "75%",
+            "end": "",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-38",
+            "number": "32",
+            "title": "مشروع خاص توضيحي 037",
+            "entity": "هيئة تنمية المجتمع",
+            "status": "قيد التطوير",
+            "progress": "",
+            "end": "",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-45",
+            "number": "33",
+            "title": "مشروع خاص توضيحي 044",
+            "entity": "هيئة تنمية المجتمع",
+            "status": "قيد التطوير",
+            "progress": "",
+            "end": "",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-46",
+            "number": "34",
+            "title": "مشروع خاص توضيحي 045",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "20%",
+            "end": "2027",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-49",
+            "number": "35",
+            "title": "مشروع خاص توضيحي 048",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "70%",
+            "end": "",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-50",
+            "number": "36",
+            "title": "مشروع خاص توضيحي 049",
+            "entity": "بلدية دبي",
+            "status": "قيد التطوير",
+            "progress": "75%",
+            "end": "2026",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-51",
+            "number": "37",
+            "title": "مشروع خاص توضيحي 050",
+            "entity": "القيادة العامة لشرطة دبي",
+            "status": "قيد التطوير",
+            "progress": "75%",
+            "end": "2026",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-52",
+            "number": "38",
+            "title": "مشروع خاص توضيحي 051",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "قيد التطوير",
+            "progress": "75%",
+            "end": "2026",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-37",
+            "number": "39",
+            "title": "مشروع خاص توضيحي 036",
+            "entity": "هيئة تنمية المجتمع",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "يونيو 2025",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-47",
+            "number": "40",
+            "title": "مشروع خاص توضيحي 046",
+            "entity": "مؤسسة صندوق المعرفة",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "يوليو 2025",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-41",
+            "number": "41",
+            "title": "مشروع خاص توضيحي 040",
+            "entity": "مؤسسة محمد بن راشد للإسكان",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "أغسطس 2025",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-13",
+            "number": "42",
+            "title": "مشروع خاص توضيحي 012",
+            "entity": "مكتب سمو نائب حاكم دبي نائب رئيس مجلس الوزراء وزير المالية",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "سبتمبر 2025",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-40",
+            "number": "43",
+            "title": "مشروع خاص توضيحي 039",
+            "entity": "هيئة تنمية المجتمع",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "سبتمبر 2025",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-54",
+            "number": "44",
+            "title": "مشروع خاص توضيحي 053",
+            "entity": "هيئة دبي للبيئة والتغير المناخي",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "أكتوبر 2025",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-58",
+            "number": "45",
+            "title": "مشروع خاص توضيحي 057",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "أكتوبر 2025",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-22",
+            "number": "46",
+            "title": "مشروع خاص توضيحي 021",
+            "entity": "هيئة الصحة بدبي",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "ديسمبر 2025",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-29",
+            "number": "47",
+            "title": "مشروع خاص توضيحي 028",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "ديسمبر 2025",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-48",
+            "number": "48",
+            "title": "مشروع خاص توضيحي 047",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "ديسمبر 2025",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-55",
+            "number": "49",
+            "title": "مشروع خاص توضيحي 054",
+            "entity": "هيئة دبي للبيئة والتغير المناخي",
+            "status": "منجز",
+            "progress": "90%",
+            "end": "ديسمبر 2025",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-56",
+            "number": "50",
+            "title": "مشروع خاص توضيحي 055",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "فبراير 2026",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-14",
+            "number": "51",
+            "title": "مشروع خاص توضيحي 013",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "أبريل 2026",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-57",
+            "number": "52",
+            "title": "مشروع خاص توضيحي 056",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "أبريل 2026",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-15",
+            "number": "53",
+            "title": "مشروع خاص توضيحي 014",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "مايو 2026",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-2",
+            "number": "54",
+            "title": "مشروع خاص توضيحي 001",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "يونيو 2026",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-33",
+            "number": "55",
+            "title": "مشروع خاص توضيحي 032",
+            "entity": "هيئة تنمية المجتمع",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "يونيو 2026",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-16",
+            "number": "56",
+            "title": "مشروع خاص توضيحي 015",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "يوليو 2026",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-21",
+            "number": "57",
+            "title": "مشروع خاص توضيحي 020",
+            "entity": "هيئة تنمية المجتمع",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "أغسطس 2026",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-25",
+            "number": "58",
+            "title": "مشروع خاص توضيحي 024",
+            "entity": "هيئة تنمية المجتمع",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "سبتمبر 2026",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-43",
+            "number": "59",
+            "title": "مشروع خاص توضيحي 042",
+            "entity": "هيئة تنمية المجتمع",
+            "status": "منجز",
+            "progress": "",
+            "end": "ديسمبر 2027",
+            "pm": "مدير توضيحي 1"
+          },
+          {
+            "key": "special-17",
+            "number": "60",
+            "title": "مشروع خاص توضيحي 016",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "2026",
+            "pm": "مدير توضيحي 2"
+          },
+          {
+            "key": "special-63",
+            "number": "61",
+            "title": "مشروع خاص توضيحي 062",
+            "entity": "هيئة دبي للبيئة والتغير المناخي",
+            "status": "منجز",
+            "progress": "90%",
+            "end": "",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-8",
+            "number": "62",
+            "title": "مشروع خاص توضيحي 007",
+            "entity": "الأمانة العامة للمجلس التنفيذي",
+            "status": "",
+            "progress": "",
+            "end": "",
+            "pm": "مدير توضيحي 2"
+          }
+        ],
+        "spec": {
+          "total": 62,
+          "recordKeys": [
+            "special-6",
+            "special-3",
+            "special-62",
+            "special-28",
+            "special-30",
+            "special-35",
+            "special-44",
+            "special-4",
+            "special-18",
+            "special-19",
+            "special-53",
+            "special-59",
+            "special-42",
+            "special-20",
+            "special-39",
+            "special-61",
+            "special-11",
+            "special-12",
+            "special-9",
+            "special-10",
+            "special-32",
+            "special-5",
+            "special-7",
+            "special-23",
+            "special-24",
+            "special-27",
+            "special-31",
+            "special-26",
+            "special-60",
+            "special-34",
+            "special-36",
+            "special-38",
+            "special-45",
+            "special-46",
+            "special-49",
+            "special-50",
+            "special-51",
+            "special-52",
+            "special-37",
+            "special-47",
+            "special-41",
+            "special-13",
+            "special-40",
+            "special-54",
+            "special-58",
+            "special-22",
+            "special-29",
+            "special-48",
+            "special-55",
+            "special-56",
+            "special-14",
+            "special-57",
+            "special-15",
+            "special-2",
+            "special-33",
+            "special-16",
+            "special-21",
+            "special-25",
+            "special-43",
+            "special-17",
+            "special-63",
+            "special-8"
+          ],
+          "names": [
+            "قيد المراجعة",
+            "قيد التطوير",
+            "منجز",
+            "حالات أخرى"
+          ],
+          "max": 15,
+          "ticks": [
+            0,
+            5,
+            10,
+            15
+          ],
+          "cohorts": [
+            {
+              "key": "leadership",
+              "title": "مشاريع القيادة",
+              "total": 24,
+              "recordKeys": [
+                "special-35",
+                "special-18",
+                "special-19",
+                "special-59",
+                "special-39",
+                "special-61",
+                "special-60",
+                "special-34",
+                "special-36",
+                "special-38",
+                "special-50",
+                "special-51",
+                "special-37",
+                "special-41",
+                "special-13",
+                "special-40",
+                "special-58",
+                "special-22",
+                "special-14",
+                "special-15",
+                "special-33",
+                "special-16",
+                "special-21",
+                "special-25"
+              ],
+              "rows": [
+                {
+                  "key": "leadership|الحوكمة",
+                  "name": "الحوكمة",
+                  "total": 1,
+                  "recordKeys": [
+                    "special-25"
+                  ],
+                  "values": [
+                    0,
+                    0,
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "leadership|التنمية المستدامة",
+                  "name": "التنمية المستدامة",
+                  "total": 6,
+                  "recordKeys": [
+                    "special-59",
+                    "special-61",
+                    "special-60",
+                    "special-50",
+                    "special-51",
+                    "special-58"
+                  ],
+                  "values": [
+                    0,
+                    5,
+                    1,
+                    0
+                  ]
+                },
+                {
+                  "key": "leadership|الاقتصاد والتنمية الاجتماعية",
+                  "name": "الاقتصاد والتنمية الاجتماعية",
+                  "total": 15,
+                  "recordKeys": [
+                    "special-35",
+                    "special-18",
+                    "special-19",
+                    "special-39",
+                    "special-34",
+                    "special-36",
+                    "special-38",
+                    "special-37",
+                    "special-41",
+                    "special-13",
+                    "special-40",
+                    "special-14",
+                    "special-15",
+                    "special-33",
+                    "special-16"
+                  ],
+                  "values": [
+                    0,
+                    7,
+                    8,
+                    0
+                  ]
+                },
+                {
+                  "key": "leadership|التميز والخدمات الحكومية",
+                  "name": "التميز والخدمات الحكومية",
+                  "total": 2,
+                  "recordKeys": [
+                    "special-22",
+                    "special-21"
+                  ],
+                  "values": [
+                    0,
+                    0,
+                    2,
+                    0
+                  ]
+                }
+              ],
+              "statuses": [
+                {
+                  "name": "قيد التطوير",
+                  "total": 12
+                },
+                {
+                  "name": "منجز",
+                  "total": 12
+                }
+              ]
+            },
+            {
+              "key": "tec",
+              "title": "مشاريع الأمانة العامة",
+              "total": 38,
+              "recordKeys": [
+                "special-6",
+                "special-3",
+                "special-62",
+                "special-28",
+                "special-30",
+                "special-44",
+                "special-4",
+                "special-53",
+                "special-42",
+                "special-20",
+                "special-11",
+                "special-12",
+                "special-9",
+                "special-10",
+                "special-32",
+                "special-5",
+                "special-7",
+                "special-23",
+                "special-24",
+                "special-27",
+                "special-31",
+                "special-26",
+                "special-45",
+                "special-46",
+                "special-49",
+                "special-52",
+                "special-47",
+                "special-54",
+                "special-29",
+                "special-48",
+                "special-55",
+                "special-56",
+                "special-57",
+                "special-2",
+                "special-43",
+                "special-17",
+                "special-63",
+                "special-8"
+              ],
+              "rows": [
+                {
+                  "key": "tec|الأمانة العامة للمجلس التنفيذي",
+                  "name": "الأمانة العامة للمجلس التنفيذي",
+                  "total": 11,
+                  "recordKeys": [
+                    "special-6",
+                    "special-3",
+                    "special-4",
+                    "special-11",
+                    "special-12",
+                    "special-9",
+                    "special-10",
+                    "special-5",
+                    "special-7",
+                    "special-2",
+                    "special-8"
+                  ],
+                  "values": [
+                    2,
+                    7,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "key": "tec|الحوكمة",
+                  "name": "الحوكمة",
+                  "total": 3,
+                  "recordKeys": [
+                    "special-28",
+                    "special-27",
+                    "special-26"
+                  ],
+                  "values": [
+                    0,
+                    3,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "key": "tec|التنمية المستدامة",
+                  "name": "التنمية المستدامة",
+                  "total": 8,
+                  "recordKeys": [
+                    "special-62",
+                    "special-53",
+                    "special-52",
+                    "special-54",
+                    "special-55",
+                    "special-56",
+                    "special-57",
+                    "special-63"
+                  ],
+                  "values": [
+                    1,
+                    2,
+                    5,
+                    0
+                  ]
+                },
+                {
+                  "key": "tec|الاقتصاد والتنمية الاجتماعية",
+                  "name": "الاقتصاد والتنمية الاجتماعية",
+                  "total": 9,
+                  "recordKeys": [
+                    "special-44",
+                    "special-42",
+                    "special-45",
+                    "special-46",
+                    "special-49",
+                    "special-47",
+                    "special-48",
+                    "special-43",
+                    "special-17"
+                  ],
+                  "values": [
+                    0,
+                    5,
+                    4,
+                    0
+                  ]
+                },
+                {
+                  "key": "tec|التميز والخدمات الحكومية",
+                  "name": "التميز والخدمات الحكومية",
+                  "total": 1,
+                  "recordKeys": [
+                    "special-20"
+                  ],
+                  "values": [
+                    0,
+                    1,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "key": "tec|الاتصال الحكومي وشؤون الأمانة العامة",
+                  "name": "الاتصال الحكومي وشؤون الأمانة العامة",
+                  "total": 6,
+                  "recordKeys": [
+                    "special-30",
+                    "special-32",
+                    "special-23",
+                    "special-24",
+                    "special-31",
+                    "special-29"
+                  ],
+                  "values": [
+                    0,
+                    5,
+                    1,
+                    0
+                  ]
+                }
+              ],
+              "statuses": [
+                {
+                  "name": "قيد المراجعة",
+                  "total": 3
+                },
+                {
+                  "name": "قيد التطوير",
+                  "total": 23
+                },
+                {
+                  "name": "منجز",
+                  "total": 11
+                },
+                {
+                  "name": "حالات أخرى",
+                  "total": 1
+                }
+              ]
+            }
+          ],
+          "definitions": [
+            {
+              "name": "متأخر",
+              "text": "مشروع متأخر وفق الحالة المسجلة في المتابعة.",
+              "fill": "#C00000",
+              "ink": "#FCFBFB",
+              "border": "#C00000",
+              "textInk": "#C00000"
+            },
+            {
+              "name": "قيد المراجعة",
+              "text": "مشروع قيد المراجعة؛ يُحتسب ضمن المشاريع قيد العمل.",
+              "fill": "#D9E1E2",
+              "ink": "#115E67",
+              "border": "#115E67",
+              "textInk": "#4F4E4E"
+            },
+            {
+              "name": "قيد التطوير",
+              "text": "مشروع قيد التطوير؛ يُحتسب ضمن المشاريع قيد العمل.",
+              "fill": "#D9E1E2",
+              "ink": "#115E67",
+              "border": "#115E67",
+              "textInk": "#4F4E4E"
+            },
+            {
+              "name": "منجز",
+              "text": "مشروع مكتمل وفق الحالة المسجلة في المتابعة؛ نسبة الإنجاز وحدها لا تحدد الحالة.",
+              "fill": "#01831E",
+              "ink": "#FCFBFB",
+              "border": "#01831E",
+              "textInk": "#01831E"
+            },
+            {
+              "name": "حالات أخرى",
+              "text": "مشاريع بحالة أخرى أو دون حالة محددة، وتبقى مشمولة في الإجمالي.",
+              "fill": "#FCFBFB",
+              "ink": "#4F4E4E",
+              "border": "#C8C7C7",
+              "textInk": "#4F4E4E"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scope": "police",
+      "file": "hh-police.pptx",
+      "sha256": "7c7556f115e31759dcdf9f569fa09a84ce74ec25430214cb1714eace9c56b6fe",
+      "sourceCount": 2,
+      "native": {
+        "slides": 7,
+        "chartCount": 1,
+        "masterSlides": [
+          4
+        ],
+        "projectSlides": {
+          "special-18": 6,
+          "special-51": 7
+        },
+        "masterPageByKey": {
+          "special-18": 4,
+          "special-51": 4
+        },
+        "sectionTargets": [
+          2,
+          4,
+          5
+        ]
+      },
+      "source": {
+        "entity": "القيادة العامة لشرطة دبي",
+        "items": [
+          {
+            "key": "special-18",
+            "number": "1",
+            "title": "مشروع خاص توضيحي 017",
+            "entity": "القيادة العامة لشرطة دبي",
+            "status": "قيد التطوير",
+            "progress": "50%",
+            "end": "ديسمبر 2026",
+            "pm": "مدير توضيحي 3"
+          },
+          {
+            "key": "special-51",
+            "number": "2",
+            "title": "مشروع خاص توضيحي 050",
+            "entity": "القيادة العامة لشرطة دبي",
+            "status": "قيد التطوير",
+            "progress": "75%",
+            "end": "2026",
+            "pm": "مدير توضيحي 3"
+          }
+        ],
+        "spec": {
+          "total": 2,
+          "recordKeys": [
+            "special-18",
+            "special-51"
+          ],
+          "names": [
+            "قيد التطوير"
+          ],
+          "max": 5,
+          "ticks": [
+            0,
+            5
+          ],
+          "cohorts": [
+            {
+              "key": "leadership",
+              "title": "مشاريع القيادة",
+              "total": 2,
+              "recordKeys": [
+                "special-18",
+                "special-51"
+              ],
+              "rows": [
+                {
+                  "key": "leadership|التنمية المستدامة",
+                  "name": "التنمية المستدامة",
+                  "total": 1,
+                  "recordKeys": [
+                    "special-51"
+                  ],
+                  "values": [
+                    1
+                  ]
+                },
+                {
+                  "key": "leadership|الاقتصاد والتنمية الاجتماعية",
+                  "name": "الاقتصاد والتنمية الاجتماعية",
+                  "total": 1,
+                  "recordKeys": [
+                    "special-18"
+                  ],
+                  "values": [
+                    1
+                  ]
+                }
+              ],
+              "statuses": [
+                {
+                  "name": "قيد التطوير",
+                  "total": 2
+                }
+              ]
+            }
+          ],
+          "definitions": [
+            {
+              "name": "متأخر",
+              "text": "مشروع متأخر وفق الحالة المسجلة في المتابعة.",
+              "fill": "#C00000",
+              "ink": "#FCFBFB",
+              "border": "#C00000",
+              "textInk": "#C00000"
+            },
+            {
+              "name": "قيد المراجعة",
+              "text": "مشروع قيد المراجعة؛ يُحتسب ضمن المشاريع قيد العمل.",
+              "fill": "#D9E1E2",
+              "ink": "#115E67",
+              "border": "#115E67",
+              "textInk": "#4F4E4E"
+            },
+            {
+              "name": "قيد التطوير",
+              "text": "مشروع قيد التطوير؛ يُحتسب ضمن المشاريع قيد العمل.",
+              "fill": "#D9E1E2",
+              "ink": "#115E67",
+              "border": "#115E67",
+              "textInk": "#4F4E4E"
+            },
+            {
+              "name": "منجز",
+              "text": "مشروع مكتمل وفق الحالة المسجلة في المتابعة؛ نسبة الإنجاز وحدها لا تحدد الحالة.",
+              "fill": "#01831E",
+              "ink": "#FCFBFB",
+              "border": "#01831E",
+              "textInk": "#01831E"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scope": "done-only",
+      "file": "hh-done-only.pptx",
+      "sha256": "772ff309e480e55346f70d313b8bf081715cf1d58b75ae3971b6da9e84c92ab7",
+      "sourceCount": 1,
+      "native": {
+        "slides": 6,
+        "chartCount": 1,
+        "masterSlides": [
+          4
+        ],
+        "projectSlides": {
+          "special-41": 6
+        },
+        "masterPageByKey": {
+          "special-41": 4
+        },
+        "sectionTargets": [
+          2,
+          4,
+          null,
+          5
+        ]
+      },
+      "source": {
+        "entity": "مؤسسة محمد بن راشد للإسكان",
+        "items": [
+          {
+            "key": "special-41",
+            "number": "1",
+            "title": "مشروع خاص توضيحي 040",
+            "entity": "مؤسسة محمد بن راشد للإسكان",
+            "status": "منجز",
+            "progress": "100%",
+            "end": "أغسطس 2025",
+            "pm": "مدير توضيحي 2"
+          }
+        ],
+        "spec": {
+          "total": 1,
+          "recordKeys": [
+            "special-41"
+          ],
+          "names": [
+            "منجز"
+          ],
+          "max": 5,
+          "ticks": [
+            0,
+            5
+          ],
+          "cohorts": [
+            {
+              "key": "leadership",
+              "title": "مشاريع القيادة",
+              "total": 1,
+              "recordKeys": [
+                "special-41"
+              ],
+              "rows": [
+                {
+                  "key": "leadership|الاقتصاد والتنمية الاجتماعية",
+                  "name": "الاقتصاد والتنمية الاجتماعية",
+                  "total": 1,
+                  "recordKeys": [
+                    "special-41"
+                  ],
+                  "values": [
+                    1
+                  ]
+                }
+              ],
+              "statuses": [
+                {
+                  "name": "منجز",
+                  "total": 1
+                }
+              ]
+            }
+          ],
+          "definitions": [
+            {
+              "name": "متأخر",
+              "text": "مشروع متأخر وفق الحالة المسجلة في المتابعة.",
+              "fill": "#C00000",
+              "ink": "#FCFBFB",
+              "border": "#C00000",
+              "textInk": "#C00000"
+            },
+            {
+              "name": "قيد المراجعة",
+              "text": "مشروع قيد المراجعة؛ يُحتسب ضمن المشاريع قيد العمل.",
+              "fill": "#D9E1E2",
+              "ink": "#115E67",
+              "border": "#115E67",
+              "textInk": "#4F4E4E"
+            },
+            {
+              "name": "قيد التطوير",
+              "text": "مشروع قيد التطوير؛ يُحتسب ضمن المشاريع قيد العمل.",
+              "fill": "#D9E1E2",
+              "ink": "#115E67",
+              "border": "#115E67",
+              "textInk": "#4F4E4E"
+            },
+            {
+              "name": "منجز",
+              "text": "مشروع مكتمل وفق الحالة المسجلة في المتابعة؛ نسبة الإنجاز وحدها لا تحدد الحالة.",
+              "fill": "#01831E",
+              "ink": "#FCFBFB",
+              "border": "#01831E",
+              "textInk": "#01831E"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "loadedBundleHashes": {
+    "app-bundle.css": "92dfabb92cc0a439fd86f9ad95e3f116cb41de7de34d04138e9bbde9abc5f596",
+    "app-bundle.js": "783c344a876573b4f559d08a1fe419ca6484e8dc782d2b994dff734ceba66966"
+  },
+  "sourceHashes": {
+    "assets/js/views/reports.js": "6d831fcd1b252505fef320bdd8fff0bb49b10bfaa3756d123ed41f5ca6d353ac",
+    "assets/js/reports/hh.js": "5d10c0b5b979088cb9f91bbef6316ed753a96367c4d34608ebed70950675667d",
+    "assets/js/app-bundle.js": "783c344a876573b4f559d08a1fe419ca6484e8dc782d2b994dff734ceba66966"
+  },
+  "verdict": "PASS",
+  "limitations": [
+    "No Office or LibreOffice installed; native PPTX XML/data/editability/geometry validated, not Office rendering."
+  ]
+}

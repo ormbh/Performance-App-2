@@ -1,0 +1,183 @@
+{
+  "version": 158,
+  "purpose": "Focused preservation check of unchanged source and monthly report behavior, using actual v157/v158 browser bundles",
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "kind": "Existing illustrative fixture, not production report"
+  },
+  "checks": [
+    {
+      "name": "all model, loader and schema source files byte-identical to v157",
+      "pass": true
+    },
+    {
+      "name": "monthly dashboard and output source modules unchanged",
+      "pass": true
+    },
+    {
+      "name": "fixture bytes unchanged from approved v157 QA",
+      "pass": true
+    },
+    {
+      "name": "actual v157/v158 loading preserves all source items, report metadata and dates",
+      "pass": true
+    },
+    {
+      "name": "monthly all-source and governance scoped metrics, history and exact record keys match v157",
+      "pass": true
+    },
+    {
+      "name": "all monthly screen and existing print-model card text/styles preserved at desktop and phone",
+      "pass": true
+    },
+    {
+      "name": "monthly card geometry unchanged and no desktop/phone page overflow in both scopes",
+      "pass": true
+    },
+    {
+      "name": "approved monthly legislation nesting/proportion retained and native drills return identical records",
+      "pass": true
+    },
+    {
+      "name": "actual agenda/HH chart specification functions and full source-grounded specs unchanged",
+      "pass": true
+    },
+    {
+      "name": "HH has no Harvey/circular DOM indicators and recorded numeric progress remains",
+      "pass": true
+    },
+    {
+      "name": "source records unchanged by scopes, navigation and drills",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors or external requests",
+      "pass": true
+    },
+    {
+      "name": "loaded v158 runtime bundle hashes match files under test",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screens": [],
+  "pdfs": [],
+  "modelSourceHashes": [
+    {
+      "path": "assets/js/model/checks.js",
+      "v157": "d9b4274cc4468d681145e83425a7087c0a460ca85acb72611bb29b3812c34226",
+      "v158": "d9b4274cc4468d681145e83425a7087c0a460ca85acb72611bb29b3812c34226"
+    },
+    {
+      "path": "assets/js/model/comparison.js",
+      "v157": "8024ffb7b3af9d7284d022cc57154450b7683e4f5b706bb7c70ba074ac634269",
+      "v158": "8024ffb7b3af9d7284d022cc57154450b7683e4f5b706bb7c70ba074ac634269"
+    },
+    {
+      "path": "assets/js/model/entities-leadership.js",
+      "v157": "5ffbc36588c86c75f69cb0f0a9864d5acf0c15196955e9192a1860bc09adaf32",
+      "v158": "5ffbc36588c86c75f69cb0f0a9864d5acf0c15196955e9192a1860bc09adaf32"
+    },
+    {
+      "path": "assets/js/model/entities.js",
+      "v157": "7aaad1c826a45bd3cfe65e98855b2e41ba8c0b9bd9aa1f0c6dd3e47a427a6820",
+      "v158": "7aaad1c826a45bd3cfe65e98855b2e41ba8c0b9bd9aa1f0c6dd3e47a427a6820"
+    },
+    {
+      "path": "assets/js/model/filter-options.js",
+      "v157": "fbcd7bb02ccda999b2b7f1493b978fba2db24bb57bd59c3a7fa9011c80d66b1e",
+      "v158": "fbcd7bb02ccda999b2b7f1493b978fba2db24bb57bd59c3a7fa9011c80d66b1e"
+    },
+    {
+      "path": "assets/js/model/loader.js",
+      "v157": "372f676471e6a4aed7769ac5969f7961b88378787973b65d99f5ecae9423d7c6",
+      "v158": "372f676471e6a4aed7769ac5969f7961b88378787973b65d99f5ecae9423d7c6"
+    },
+    {
+      "path": "assets/js/model/order.js",
+      "v157": "b9d6e8c9a91a519420f29e412433af550ce17f5ae91175a0013eb187eb6c5e7f",
+      "v158": "b9d6e8c9a91a519420f29e412433af550ce17f5ae91175a0013eb187eb6c5e7f"
+    },
+    {
+      "path": "assets/js/model/organization-reference.js",
+      "v157": "44a3f904b453da2b8fc310e0c265f75d33607fd495d2e4c2dcb89f70a8d64eab",
+      "v158": "44a3f904b453da2b8fc310e0c265f75d33607fd495d2e4c2dcb89f70a8d64eab"
+    },
+    {
+      "path": "assets/js/model/portfolio-delivery.js",
+      "v157": "291a23d4803e6d4c30a7a31a252fed881406ebeec459b6286255a8ea062d0100",
+      "v158": "291a23d4803e6d4c30a7a31a252fed881406ebeec459b6286255a8ea062d0100"
+    },
+    {
+      "path": "assets/js/model/projects-pmo.js",
+      "v157": "663a655ffdce03e7475534a744e342146e877aecc7870aa589eb248a8ee635ec",
+      "v158": "663a655ffdce03e7475534a744e342146e877aecc7870aa589eb248a8ee635ec"
+    },
+    {
+      "path": "assets/js/model/rules.js",
+      "v157": "1111335a8cb28d4972e295a4c94e43847fa28d2728d1337aab39d86a7f44e704",
+      "v158": "1111335a8cb28d4972e295a4c94e43847fa28d2728d1337aab39d86a7f44e704"
+    },
+    {
+      "path": "assets/js/model/schema.js",
+      "v157": "13142fdf3f6a3c3e43318637f82b38a3952cb948ff47f3c7596b1aff8ed61167",
+      "v158": "13142fdf3f6a3c3e43318637f82b38a3952cb948ff47f3c7596b1aff8ed61167"
+    },
+    {
+      "path": "assets/js/model/search.js",
+      "v157": "240853b5f507c97066bd425d0903aa2e11862c78535e5a31f171a46c2a1e9078",
+      "v158": "240853b5f507c97066bd425d0903aa2e11862c78535e5a31f171a46c2a1e9078"
+    },
+    {
+      "path": "assets/js/model/terms.js",
+      "v157": "1f23b7712697c4bf4dffefe4dd2f44980a00a4e228e850068abf2cb27a81228a",
+      "v158": "1f23b7712697c4bf4dffefe4dd2f44980a00a4e228e850068abf2cb27a81228a"
+    },
+    {
+      "path": "assets/js/model/util.js",
+      "v157": "1e22bb642875ac28c843a2b27f3565e1b4c84ae1d8278f654f46edfa0d6fa967",
+      "v158": "1e22bb642875ac28c843a2b27f3565e1b4c84ae1d8278f654f46edfa0d6fa967"
+    }
+  ],
+  "monthlySourceHashes": [
+    {
+      "path": "assets/js/views/dashboard.js",
+      "v157": "9b27f26d396f33282780f93bac6a7393c2210eecc8daa5adc288d454e63529b8",
+      "v158": "9b27f26d396f33282780f93bac6a7393c2210eecc8daa5adc288d454e63529b8"
+    },
+    {
+      "path": "assets/js/views/monthly-print.js",
+      "v157": "e081133654f396a177783d85c37b070c6382d74080c595a39fbc98551f041344",
+      "v158": "e081133654f396a177783d85c37b070c6382d74080c595a39fbc98551f041344"
+    },
+    {
+      "path": "assets/js/views/monthly-rag.js",
+      "v157": "a72dfcfece78997e038b5d6a3012818ff5713889439c589746e993622830e3a7",
+      "v158": "a72dfcfece78997e038b5d6a3012818ff5713889439c589746e993622830e3a7"
+    },
+    {
+      "path": "assets/js/views/monthly-coverage.js",
+      "v157": "85b8642a96cd7c5d178a98c390f5cc994e0d3d7e0fc4741b4ef37c8dcabdea41",
+      "v158": "85b8642a96cd7c5d178a98c390f5cc994e0d3d7e0fc4741b4ef37c8dcabdea41"
+    },
+    {
+      "path": "assets/js/views/monthly-tools.js",
+      "v157": "0ac7811c7d86ad260c692a33f61a51ffd417dc6075a9e63ea7fe7118b69cbfda",
+      "v158": "0ac7811c7d86ad260c692a33f61a51ffd417dc6075a9e63ea7fe7118b69cbfda"
+    }
+  ],
+  "loadedAssetHashes": {
+    "app-bundle.css": "92dfabb92cc0a439fd86f9ad95e3f116cb41de7de34d04138e9bbde9abc5f596",
+    "app-bundle.js": "783c344a876573b4f559d08a1fe419ca6484e8dc782d2b994dff734ceba66966",
+    "print-measure-bundle.css": "39ea72c9dba51fe349db3b97034b4154734c6f47ce6f6fd4d598308d27375675"
+  },
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "783c344a876573b4f559d08a1fe419ca6484e8dc782d2b994dff734ceba66966",
+    "assets/css/app-bundle.css": "92dfabb92cc0a439fd86f9ad95e3f116cb41de7de34d04138e9bbde9abc5f596",
+    "assets/css/print-measure-bundle.css": "39ea72c9dba51fe349db3b97034b4154734c6f47ce6f6fd4d598308d27375675"
+  },
+  "verdict": "PASS"
+}

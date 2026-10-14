@@ -1,0 +1,2559 @@
+{
+  "version": 158,
+  "fixture": {
+    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "illustrative": true
+  },
+  "checks": [
+    {
+      "name": "normalized workbook records identical to prior source baseline",
+      "pass": true
+    },
+    {
+      "name": "agenda all source total",
+      "pass": true
+    },
+    {
+      "name": "agenda 1440 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda 1440 common gutter",
+      "pass": true
+    },
+    {
+      "name": "agenda 1440 four relevant filters",
+      "pass": true
+    },
+    {
+      "name": "agenda 1440 chart roles",
+      "pass": true
+    },
+    {
+      "name": "agenda 1440 legend roles",
+      "pass": true
+    },
+    {
+      "name": "agenda 1440 common swatch",
+      "pass": true
+    },
+    {
+      "name": "agenda 1440 table type roles",
+      "pass": true
+    },
+    {
+      "name": "agenda 1440 direct filters72px",
+      "pass": true
+    },
+    {
+      "name": "agenda 1440 editor fields retained",
+      "pass": true
+    },
+    {
+      "name": "agenda 1440 editor no overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda 768 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda 768 common gutter",
+      "pass": true
+    },
+    {
+      "name": "agenda 768 four relevant filters",
+      "pass": true
+    },
+    {
+      "name": "agenda 768 chart roles",
+      "pass": true
+    },
+    {
+      "name": "agenda 768 legend roles",
+      "pass": true
+    },
+    {
+      "name": "agenda 768 common swatch",
+      "pass": true
+    },
+    {
+      "name": "agenda 768 table type roles",
+      "pass": true
+    },
+    {
+      "name": "agenda 768 direct filters72px",
+      "pass": true
+    },
+    {
+      "name": "agenda 768 editor fields retained",
+      "pass": true
+    },
+    {
+      "name": "agenda 768 editor no overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 common gutter",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 four relevant filters",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 chart roles",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 legend roles",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 common swatch",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 table type roles",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 record card geometry",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 title then record number",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 labelled record fields",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 open filters readable72px",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 filter options fit phone",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 filter options close onEscape",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 filter collapse works",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 editor fields retained",
+      "pass": true
+    },
+    {
+      "name": "agenda 390 editor no overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 common gutter",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 four relevant filters",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 chart roles",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 legend roles",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 common swatch",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 table type roles",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 record card geometry",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 title then record number",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 labelled record fields",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 open filters readable72px",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 filter options fit phone",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 filter options close onEscape",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 filter collapse works",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 editor fields retained",
+      "pass": true
+    },
+    {
+      "name": "agenda 320 editor no overflow",
+      "pass": true
+    },
+    {
+      "name": "agenda first selected name +1",
+      "pass": true
+    },
+    {
+      "name": "agenda scope summary uses +1",
+      "pass": true
+    },
+    {
+      "name": "agenda reset gives all",
+      "pass": true
+    },
+    {
+      "name": "agenda all selected displays all withoutcount",
+      "pass": true
+    },
+    {
+      "name": "hh all source total",
+      "pass": true
+    },
+    {
+      "name": "hh 1440 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "hh 1440 common gutter",
+      "pass": true
+    },
+    {
+      "name": "hh 1440 four relevant filters",
+      "pass": true
+    },
+    {
+      "name": "hh 1440 chart roles",
+      "pass": true
+    },
+    {
+      "name": "hh 1440 legend roles",
+      "pass": true
+    },
+    {
+      "name": "hh 1440 common swatch",
+      "pass": true
+    },
+    {
+      "name": "hh 1440 table type roles",
+      "pass": true
+    },
+    {
+      "name": "hh 1440 direct filters72px",
+      "pass": true
+    },
+    {
+      "name": "hh 1440 editor fields retained",
+      "pass": true
+    },
+    {
+      "name": "hh 1440 editor no overflow",
+      "pass": true
+    },
+    {
+      "name": "hh 768 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "hh 768 common gutter",
+      "pass": true
+    },
+    {
+      "name": "hh 768 four relevant filters",
+      "pass": true
+    },
+    {
+      "name": "hh 768 chart roles",
+      "pass": true
+    },
+    {
+      "name": "hh 768 legend roles",
+      "pass": true
+    },
+    {
+      "name": "hh 768 common swatch",
+      "pass": true
+    },
+    {
+      "name": "hh 768 table type roles",
+      "pass": true
+    },
+    {
+      "name": "hh 768 direct filters72px",
+      "pass": true
+    },
+    {
+      "name": "hh 768 editor fields retained",
+      "pass": true
+    },
+    {
+      "name": "hh 768 editor no overflow",
+      "pass": true
+    },
+    {
+      "name": "hh 390 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "hh 390 common gutter",
+      "pass": true
+    },
+    {
+      "name": "hh 390 four relevant filters",
+      "pass": true
+    },
+    {
+      "name": "hh 390 chart roles",
+      "pass": true
+    },
+    {
+      "name": "hh 390 legend roles",
+      "pass": true
+    },
+    {
+      "name": "hh 390 common swatch",
+      "pass": true
+    },
+    {
+      "name": "hh 390 table type roles",
+      "pass": true
+    },
+    {
+      "name": "hh 390 record card geometry",
+      "pass": true
+    },
+    {
+      "name": "hh 390 title then record number",
+      "pass": true
+    },
+    {
+      "name": "hh 390 labelled record fields",
+      "pass": true
+    },
+    {
+      "name": "hh 390 open filters readable72px",
+      "pass": true
+    },
+    {
+      "name": "hh 390 filter options fit phone",
+      "pass": true
+    },
+    {
+      "name": "hh 390 filter options close onEscape",
+      "pass": true
+    },
+    {
+      "name": "hh 390 filter collapse works",
+      "pass": true
+    },
+    {
+      "name": "hh 390 editor fields retained",
+      "pass": true
+    },
+    {
+      "name": "hh 390 editor no overflow",
+      "pass": true
+    },
+    {
+      "name": "hh 320 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "hh 320 common gutter",
+      "pass": true
+    },
+    {
+      "name": "hh 320 four relevant filters",
+      "pass": true
+    },
+    {
+      "name": "hh 320 chart roles",
+      "pass": true
+    },
+    {
+      "name": "hh 320 legend roles",
+      "pass": true
+    },
+    {
+      "name": "hh 320 common swatch",
+      "pass": true
+    },
+    {
+      "name": "hh 320 table type roles",
+      "pass": true
+    },
+    {
+      "name": "hh 320 record card geometry",
+      "pass": true
+    },
+    {
+      "name": "hh 320 title then record number",
+      "pass": true
+    },
+    {
+      "name": "hh 320 labelled record fields",
+      "pass": true
+    },
+    {
+      "name": "hh 320 open filters readable72px",
+      "pass": true
+    },
+    {
+      "name": "hh 320 filter options fit phone",
+      "pass": true
+    },
+    {
+      "name": "hh 320 filter options close onEscape",
+      "pass": true
+    },
+    {
+      "name": "hh 320 filter collapse works",
+      "pass": true
+    },
+    {
+      "name": "hh 320 editor fields retained",
+      "pass": true
+    },
+    {
+      "name": "hh 320 editor no overflow",
+      "pass": true
+    },
+    {
+      "name": "hh first selected name +1",
+      "pass": true
+    },
+    {
+      "name": "hh scope summary uses +1",
+      "pass": true
+    },
+    {
+      "name": "hh reset gives all",
+      "pass": true
+    },
+    {
+      "name": "hh all selected displays all withoutcount",
+      "pass": true
+    },
+    {
+      "name": "HH filtered zero-count completed appendix absent on screen",
+      "pass": true
+    },
+    {
+      "name": "HH filtered contents omits empty appendix link",
+      "pass": true
+    },
+    {
+      "name": "HH filtered two source project rows retained",
+      "pass": true
+    },
+    {
+      "name": "1440 actual counterpart type parity",
+      "pass": true
+    },
+    {
+      "name": "1440 actual counterpart geometry parity",
+      "pass": true
+    },
+    {
+      "name": "768 actual counterpart type parity",
+      "pass": true
+    },
+    {
+      "name": "768 actual counterpart geometry parity",
+      "pass": true
+    },
+    {
+      "name": "390 actual counterpart type parity",
+      "pass": true
+    },
+    {
+      "name": "390 actual counterpart geometry parity",
+      "pass": true
+    },
+    {
+      "name": "320 actual counterpart type parity",
+      "pass": true
+    },
+    {
+      "name": "320 actual counterpart geometry parity",
+      "pass": true
+    },
+    {
+      "name": "source records unchanged by UI interactions",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true
+    },
+    {
+      "name": "no external requests",
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "blockedRequests": [],
+  "screens": [],
+  "pdfs": [],
+  "loadedAssetHashes": {
+    "app-bundle.css": "92dfabb92cc0a439fd86f9ad95e3f116cb41de7de34d04138e9bbde9abc5f596",
+    "app-bundle.js": "783c344a876573b4f559d08a1fe419ca6484e8dc782d2b994dff734ceba66966"
+  },
+  "geometry": {
+    "agenda-1440": {
+      "main": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "24px 48px 48px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 0,
+        "y": 200.578125,
+        "w": 1440,
+        "h": 10944.3125,
+        "display": "block"
+      },
+      "panel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "24px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 732,
+        "y": 597.546875,
+        "w": 660,
+        "h": 850.796875,
+        "display": "block"
+      },
+      "title": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 1186.140625,
+        "y": 622.546875,
+        "w": 180.859375,
+        "h": 39.1875,
+        "display": "block"
+      },
+      "total": {
+        "font": "40px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 757,
+        "y": 622.546875,
+        "w": 65.046875,
+        "h": 48,
+        "display": "block"
+      },
+      "status": {
+        "font": "28px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 1300.03125,
+        "y": 1323.75,
+        "w": 30.359375,
+        "h": 36.390625,
+        "display": "block"
+      },
+      "legend": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "24px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 48,
+        "y": 1472.34375,
+        "w": 1344,
+        "h": 277.953125,
+        "display": "block"
+      },
+      "legendTitle": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 73,
+        "y": 1497.34375,
+        "w": 1294,
+        "h": 39.1875,
+        "display": "block"
+      },
+      "legendLabel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "8px",
+        "x": 951.671875,
+        "y": 1560.53125,
+        "w": 415.328125,
+        "h": 28.796875,
+        "display": "flex"
+      },
+      "legendBody": {
+        "font": "14px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 951.671875,
+        "y": 1597.328125,
+        "w": 415.328125,
+        "h": 22.390625,
+        "display": "block"
+      },
+      "swatch": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "2px",
+        "bg": "rgb(192, 0, 0)",
+        "gap": "normal",
+        "x": 1357,
+        "y": 1569.53125,
+        "w": 10,
+        "h": 10,
+        "display": "block"
+      },
+      "table": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 49,
+        "y": 1904.484375,
+        "w": 1342,
+        "h": 2020.828125,
+        "display": "table"
+      },
+      "head": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px 8px",
+        "radius": "0px",
+        "bg": "rgb(239, 235, 231)",
+        "gap": "normal",
+        "x": 1337.328125,
+        "y": 1904.484375,
+        "w": 53.671875,
+        "h": 61.296875,
+        "display": "table-cell"
+      },
+      "row": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 49,
+        "y": 1965.78125,
+        "w": 1342,
+        "h": 72.59375,
+        "display": "table-row"
+      },
+      "cell": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "0px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 773.6875,
+        "y": 1965.78125,
+        "w": 563.640625,
+        "h": 72.59375,
+        "display": "table-cell"
+      },
+      "cells": [
+        {
+          "label": "م",
+          "text": "1",
+          "before": "none",
+          "cls": "ag-record-number",
+          "y": 1965.78125,
+          "font": "16px"
+        },
+        {
+          "label": "الموضوع",
+          "text": "موضوع توضيحي 001",
+          "before": "none",
+          "cls": "ag-record-title ui-record-title-cell",
+          "y": 1965.78125,
+          "font": "16px"
+        },
+        {
+          "label": "الجهة المعنية",
+          "text": "دائرة الأراضي والأملاك",
+          "before": "none",
+          "cls": "",
+          "y": 1965.78125,
+          "font": "16px"
+        },
+        {
+          "label": "موعد الإنجاز",
+          "text": "الربع الأول",
+          "before": "none",
+          "cls": "ag-date",
+          "y": 1965.78125,
+          "font": "16px"
+        },
+        {
+          "label": "مستويات الإنجاز",
+          "text": "جاهز للعرض",
+          "before": "none",
+          "cls": "ag-status-cell",
+          "y": 1965.78125,
+          "font": "16px"
+        }
+      ],
+      "overflow": false,
+      "filters": [
+        {
+          "text": "الكل",
+          "h": 72
+        },
+        {
+          "text": "الكل",
+          "h": 72
+        },
+        {
+          "text": "الكل",
+          "h": 72
+        },
+        {
+          "text": "الكل",
+          "h": 72
+        }
+      ],
+      "titles": [
+        "مستجدات الأجندة السنوية"
+      ]
+    },
+    "agenda-768": {
+      "main": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "24px 32px 32px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 0,
+        "y": -1239.421875,
+        "w": 768,
+        "h": 36784.625,
+        "display": "block"
+      },
+      "panel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "24px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 32,
+        "y": -754.453125,
+        "w": 704,
+        "h": 890.59375,
+        "display": "block"
+      },
+      "title": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 530.140625,
+        "y": -729.453125,
+        "w": 180.859375,
+        "h": 39.1875,
+        "display": "block"
+      },
+      "total": {
+        "font": "40px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 57,
+        "y": -729.453125,
+        "w": 65.046875,
+        "h": 48,
+        "display": "block"
+      },
+      "status": {
+        "font": "28px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 644.03125,
+        "y": 11.546875,
+        "w": 30.359375,
+        "h": 36.390625,
+        "display": "block"
+      },
+      "legend": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "24px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 32,
+        "y": 1074.734375,
+        "w": 704,
+        "h": 405.921875,
+        "display": "block"
+      },
+      "legendTitle": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 57,
+        "y": 1099.734375,
+        "w": 654,
+        "h": 39.1875,
+        "display": "block"
+      },
+      "legendLabel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "8px",
+        "x": 396,
+        "y": 1162.921875,
+        "w": 315,
+        "h": 28.796875,
+        "display": "flex"
+      },
+      "legendBody": {
+        "font": "14px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 396,
+        "y": 1199.71875,
+        "w": 315,
+        "h": 22.390625,
+        "display": "block"
+      },
+      "swatch": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "2px",
+        "bg": "rgb(192, 0, 0)",
+        "gap": "normal",
+        "x": 701,
+        "y": 1171.921875,
+        "w": 10,
+        "h": 10,
+        "display": "block"
+      },
+      "table": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": -205,
+        "y": 1634.84375,
+        "w": 940,
+        "h": 7729.09375,
+        "display": "block"
+      },
+      "head": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px 8px",
+        "radius": "0px",
+        "bg": "rgb(239, 235, 231)",
+        "gap": "normal",
+        "x": 710.859375,
+        "y": 1633.84375,
+        "w": 25.140625,
+        "h": 89.59375,
+        "display": "table-cell"
+      },
+      "row": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "10px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": -205,
+        "y": 1634.84375,
+        "w": 940,
+        "h": 272.78125,
+        "display": "grid"
+      },
+      "cell": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "0px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 265,
+        "y": 1721.4375,
+        "w": 469,
+        "h": 85.59375,
+        "display": "block"
+      },
+      "cells": [
+        {
+          "label": "م",
+          "text": "1",
+          "before": "\"م\"",
+          "cls": "ag-record-number",
+          "y": 1635.84375,
+          "font": "16px"
+        },
+        {
+          "label": "الموضوع",
+          "text": "موضوع توضيحي 001",
+          "before": "none",
+          "cls": "ag-record-title ui-record-title-cell",
+          "y": 1721.4375,
+          "font": "16px"
+        },
+        {
+          "label": "الجهة المعنية",
+          "text": "دائرة الأراضي والأملاك",
+          "before": "\"الجهة المعنية\"",
+          "cls": "",
+          "y": 1721.4375,
+          "font": "16px"
+        },
+        {
+          "label": "موعد الإنجاز",
+          "text": "الربع الأول",
+          "before": "\"موعد الإنجاز\"",
+          "cls": "ag-date",
+          "y": 1807.03125,
+          "font": "16px"
+        },
+        {
+          "label": "مستويات الإنجاز",
+          "text": "جاهز للعرض",
+          "before": "\"مستويات الإنجاز\"",
+          "cls": "ag-status-cell",
+          "y": 1807.03125,
+          "font": "16px"
+        }
+      ],
+      "overflow": false,
+      "filters": [
+        {
+          "text": "الكل",
+          "h": 72
+        },
+        {
+          "text": "الكل",
+          "h": 72
+        },
+        {
+          "text": "الكل",
+          "h": 72
+        },
+        {
+          "text": "الكل",
+          "h": 72
+        }
+      ],
+      "titles": [
+        "مستجدات الأجندة السنوية"
+      ]
+    },
+    "agenda-390": {
+      "main": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 0,
+        "y": 367.953125,
+        "w": 390,
+        "h": 48921.109375,
+        "display": "block"
+      },
+      "panel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 16,
+        "y": 780.921875,
+        "w": 358,
+        "h": 624.5625,
+        "display": "block"
+      },
+      "title": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 176.140625,
+        "y": 797.921875,
+        "w": 180.859375,
+        "h": 39.1875,
+        "display": "block"
+      },
+      "total": {
+        "font": "40px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 33,
+        "y": 797.921875,
+        "w": 65.046875,
+        "h": 48,
+        "display": "block"
+      },
+      "status": {
+        "font": "28px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 290.03125,
+        "y": 1241.296875,
+        "w": 30.359375,
+        "h": 36.390625,
+        "display": "block"
+      },
+      "legend": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 16,
+        "y": 2070.046875,
+        "w": 358,
+        "h": 556.296875,
+        "display": "block"
+      },
+      "legendTitle": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 33,
+        "y": 2087.046875,
+        "w": 324,
+        "h": 39.1875,
+        "display": "block"
+      },
+      "legendLabel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "8px",
+        "x": 33,
+        "y": 2150.234375,
+        "w": 324,
+        "h": 28.796875,
+        "display": "flex"
+      },
+      "legendBody": {
+        "font": "14px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 33,
+        "y": 2187.03125,
+        "w": 324,
+        "h": 22.390625,
+        "display": "block"
+      },
+      "swatch": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "2px",
+        "bg": "rgb(192, 0, 0)",
+        "gap": "normal",
+        "x": 347,
+        "y": 2159.234375,
+        "w": 10,
+        "h": 10,
+        "display": "block"
+      },
+      "table": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 16,
+        "y": 2779.53125,
+        "w": 358,
+        "h": 10642.671875,
+        "display": "block"
+      },
+      "head": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px 8px",
+        "radius": "0px",
+        "bg": "rgb(239, 235, 231)",
+        "gap": "normal",
+        "x": 349.859375,
+        "y": 2778.53125,
+        "w": 25.140625,
+        "h": 89.59375,
+        "display": "table-cell"
+      },
+      "row": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 16,
+        "y": 2779.53125,
+        "w": 358,
+        "h": 378.765625,
+        "display": "grid"
+      },
+      "cell": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "12px 0px",
+        "radius": "0px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 33,
+        "y": 2796.53125,
+        "w": 324,
+        "h": 49.59375,
+        "display": "block"
+      },
+      "cells": [
+        {
+          "label": "م",
+          "text": "1",
+          "before": "\"م\"",
+          "cls": "ag-record-number",
+          "y": 2846.125,
+          "font": "16px"
+        },
+        {
+          "label": "الموضوع",
+          "text": "موضوع توضيحي 001",
+          "before": "none",
+          "cls": "ag-record-title ui-record-title-cell",
+          "y": 2796.53125,
+          "font": "16px"
+        },
+        {
+          "label": "الجهة المعنية",
+          "text": "دائرة الأراضي والأملاك",
+          "before": "\"الجهة المعنية\"",
+          "cls": "",
+          "y": 2897.515625,
+          "font": "16px"
+        },
+        {
+          "label": "موعد الإنجاز",
+          "text": "الربع الأول",
+          "before": "\"موعد الإنجاز\"",
+          "cls": "ag-date",
+          "y": 2974.109375,
+          "font": "16px"
+        },
+        {
+          "label": "مستويات الإنجاز",
+          "text": "جاهز للعرض",
+          "before": "\"مستويات الإنجاز\"",
+          "cls": "ag-status-cell",
+          "y": 3050.703125,
+          "font": "16px"
+        }
+      ],
+      "overflow": false,
+      "filters": [
+        {
+          "text": "الكل",
+          "h": 0
+        },
+        {
+          "text": "الكل",
+          "h": 0
+        },
+        {
+          "text": "الكل",
+          "h": 0
+        },
+        {
+          "text": "الكل",
+          "h": 0
+        }
+      ],
+      "titles": [
+        "مستجدات الأجندة السنوية"
+      ]
+    },
+    "agenda-320": {
+      "main": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 0,
+        "y": -1989.046875,
+        "w": 320,
+        "h": 48871,
+        "display": "block"
+      },
+      "panel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 16,
+        "y": -1576.078125,
+        "w": 288,
+        "h": 568.71875,
+        "display": "block"
+      },
+      "title": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 114.046875,
+        "y": -1559.078125,
+        "w": 172.953125,
+        "h": 78.375,
+        "display": "block"
+      },
+      "total": {
+        "font": "40px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 33,
+        "y": -1559.078125,
+        "w": 65.046875,
+        "h": 48,
+        "display": "block"
+      },
+      "status": {
+        "font": "28px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 220.03125,
+        "y": -1171.546875,
+        "w": 30.359375,
+        "h": 36.390625,
+        "display": "block"
+      },
+      "legend": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 16,
+        "y": -398.640625,
+        "w": 288,
+        "h": 617.875,
+        "display": "block"
+      },
+      "legendTitle": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 33,
+        "y": -381.640625,
+        "w": 254,
+        "h": 78.375,
+        "display": "block"
+      },
+      "legendLabel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "8px",
+        "x": 33,
+        "y": -279.265625,
+        "w": 254,
+        "h": 28.796875,
+        "display": "flex"
+      },
+      "legendBody": {
+        "font": "14px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 33,
+        "y": -242.46875,
+        "w": 254,
+        "h": 22.390625,
+        "display": "block"
+      },
+      "swatch": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "2px",
+        "bg": "rgb(192, 0, 0)",
+        "gap": "normal",
+        "x": 277,
+        "y": -270.265625,
+        "w": 10,
+        "h": 10,
+        "display": "block"
+      },
+      "table": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 16,
+        "y": 372.421875,
+        "w": 288,
+        "h": 10642.671875,
+        "display": "block"
+      },
+      "head": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px 8px",
+        "radius": "0px",
+        "bg": "rgb(239, 235, 231)",
+        "gap": "normal",
+        "x": 279.859375,
+        "y": 371.421875,
+        "w": 25.140625,
+        "h": 89.59375,
+        "display": "table-cell"
+      },
+      "row": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 16,
+        "y": 372.421875,
+        "w": 288,
+        "h": 378.765625,
+        "display": "grid"
+      },
+      "cell": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "12px 0px",
+        "radius": "0px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 33,
+        "y": 389.421875,
+        "w": 254,
+        "h": 49.59375,
+        "display": "block"
+      },
+      "cells": [
+        {
+          "label": "م",
+          "text": "1",
+          "before": "\"م\"",
+          "cls": "ag-record-number",
+          "y": 439.015625,
+          "font": "16px"
+        },
+        {
+          "label": "الموضوع",
+          "text": "موضوع توضيحي 001",
+          "before": "none",
+          "cls": "ag-record-title ui-record-title-cell",
+          "y": 389.421875,
+          "font": "16px"
+        },
+        {
+          "label": "الجهة المعنية",
+          "text": "دائرة الأراضي والأملاك",
+          "before": "\"الجهة المعنية\"",
+          "cls": "",
+          "y": 490.40625,
+          "font": "16px"
+        },
+        {
+          "label": "موعد الإنجاز",
+          "text": "الربع الأول",
+          "before": "\"موعد الإنجاز\"",
+          "cls": "ag-date",
+          "y": 567,
+          "font": "16px"
+        },
+        {
+          "label": "مستويات الإنجاز",
+          "text": "جاهز للعرض",
+          "before": "\"مستويات الإنجاز\"",
+          "cls": "ag-status-cell",
+          "y": 643.59375,
+          "font": "16px"
+        }
+      ],
+      "overflow": false,
+      "filters": [
+        {
+          "text": "الكل",
+          "h": 0
+        },
+        {
+          "text": "الكل",
+          "h": 0
+        },
+        {
+          "text": "الكل",
+          "h": 0
+        },
+        {
+          "text": "الكل",
+          "h": 0
+        }
+      ],
+      "titles": [
+        "مستجدات الأجندة السنوية"
+      ]
+    },
+    "hh-1440": {
+      "main": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "24px 48px 48px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 0,
+        "y": 200.578125,
+        "w": 1440,
+        "h": 37025.84375,
+        "display": "block"
+      },
+      "panel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "24px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 732,
+        "y": 1307.6875,
+        "w": 660,
+        "h": 492.78125,
+        "display": "block"
+      },
+      "title": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 1213.109375,
+        "y": 1332.6875,
+        "w": 153.890625,
+        "h": 39.1875,
+        "display": "block"
+      },
+      "total": {
+        "font": "40px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 757,
+        "y": 1332.6875,
+        "w": 43.375,
+        "h": 48,
+        "display": "block"
+      },
+      "status": {
+        "font": "28px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 1263.953125,
+        "y": 1739.078125,
+        "w": 30.359375,
+        "h": 36.390625,
+        "display": "block"
+      },
+      "legend": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "24px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 48,
+        "y": 1966.46875,
+        "w": 1344,
+        "h": 255.5625,
+        "display": "block"
+      },
+      "legendTitle": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 73,
+        "y": 1991.46875,
+        "w": 1294,
+        "h": 39.1875,
+        "display": "block"
+      },
+      "legendLabel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "8px",
+        "x": 951.671875,
+        "y": 2054.65625,
+        "w": 415.328125,
+        "h": 28.796875,
+        "display": "flex"
+      },
+      "legendBody": {
+        "font": "14px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 951.671875,
+        "y": 2091.453125,
+        "w": 415.328125,
+        "h": 22.390625,
+        "display": "block"
+      },
+      "swatch": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "2px",
+        "bg": "rgb(192, 0, 0)",
+        "gap": "normal",
+        "x": 1357,
+        "y": 2063.65625,
+        "w": 10,
+        "h": 10,
+        "display": "block"
+      },
+      "table": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 49,
+        "y": 2376.21875,
+        "w": 1342,
+        "h": 4607.984375,
+        "display": "table"
+      },
+      "head": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px 8px",
+        "radius": "0px",
+        "bg": "rgb(239, 235, 231)",
+        "gap": "normal",
+        "x": 1298.453125,
+        "y": 2376.21875,
+        "w": 92.546875,
+        "h": 61.296875,
+        "display": "table-cell"
+      },
+      "row": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 49,
+        "y": 2437.515625,
+        "w": 1342,
+        "h": 72.59375,
+        "display": "table-row"
+      },
+      "cell": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "0px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 881.984375,
+        "y": 2437.515625,
+        "w": 416.46875,
+        "h": 72.59375,
+        "display": "table-cell"
+      },
+      "cells": [
+        {
+          "label": "م",
+          "text": "1",
+          "before": "none",
+          "cls": "rpt-record-number",
+          "y": 2437.515625,
+          "font": "16px"
+        },
+        {
+          "label": "المشروع",
+          "text": "مشروع خاص توضيحي 005",
+          "before": "none",
+          "cls": "rpt-record-title ui-record-title-cell",
+          "y": 2437.515625,
+          "font": "16px"
+        },
+        {
+          "label": "الجهة المعنية",
+          "text": "الأمانة العامة للمجلس التنفيذي",
+          "before": "none",
+          "cls": "rpt-record-entity",
+          "y": 2437.515625,
+          "font": "16px"
+        },
+        {
+          "label": "الحالة",
+          "text": "قيد المراجعة",
+          "before": "none",
+          "cls": "rpt-record-status",
+          "y": 2437.515625,
+          "font": "16px"
+        },
+        {
+          "label": "نسبة الإنجاز",
+          "text": "100%",
+          "before": "none",
+          "cls": "rpt-record-progress",
+          "y": 2437.515625,
+          "font": "16px"
+        },
+        {
+          "label": "تاريخ الانتهاء",
+          "text": "سبتمبر 2026",
+          "before": "none",
+          "cls": "rpt-record-date",
+          "y": 2437.515625,
+          "font": "16px"
+        }
+      ],
+      "overflow": false,
+      "filters": [
+        {
+          "text": "الكل",
+          "h": 72
+        },
+        {
+          "text": "الكل",
+          "h": 72
+        },
+        {
+          "text": "الكل",
+          "h": 72
+        },
+        {
+          "text": "الكل",
+          "h": 72
+        }
+      ],
+      "titles": [
+        "تقرير المشاريع الخاصة"
+      ]
+    },
+    "hh-768": {
+      "main": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "24px 32px 32px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 0,
+        "y": -1711.421875,
+        "w": 768,
+        "h": 61781.234375,
+        "display": "block"
+      },
+      "panel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "24px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 32,
+        "y": -489.3125,
+        "w": 704,
+        "h": 492.78125,
+        "display": "block"
+      },
+      "title": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 557.109375,
+        "y": -464.3125,
+        "w": 153.890625,
+        "h": 39.1875,
+        "display": "block"
+      },
+      "total": {
+        "font": "40px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 57,
+        "y": -464.3125,
+        "w": 43.375,
+        "h": 48,
+        "display": "block"
+      },
+      "status": {
+        "font": "28px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 607.953125,
+        "y": -57.921875,
+        "w": 30.359375,
+        "h": 36.390625,
+        "display": "block"
+      },
+      "legend": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "24px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 32,
+        "y": 686.25,
+        "w": 704,
+        "h": 383.53125,
+        "display": "block"
+      },
+      "legendTitle": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 57,
+        "y": 711.25,
+        "w": 654,
+        "h": 39.1875,
+        "display": "block"
+      },
+      "legendLabel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "8px",
+        "x": 396,
+        "y": 774.4375,
+        "w": 315,
+        "h": 28.796875,
+        "display": "flex"
+      },
+      "legendBody": {
+        "font": "14px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 396,
+        "y": 811.234375,
+        "w": 315,
+        "h": 22.390625,
+        "display": "block"
+      },
+      "swatch": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "2px",
+        "bg": "rgb(192, 0, 0)",
+        "gap": "normal",
+        "x": 701,
+        "y": 783.4375,
+        "w": 10,
+        "h": 10,
+        "display": "block"
+      },
+      "table": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": -205,
+        "y": 1223.96875,
+        "w": 940,
+        "h": 22828.90625,
+        "display": "block"
+      },
+      "head": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px 8px",
+        "radius": "0px",
+        "bg": "rgb(239, 235, 231)",
+        "gap": "normal",
+        "x": 710.859375,
+        "y": 1222.96875,
+        "w": 25.140625,
+        "h": 89.59375,
+        "display": "table-cell"
+      },
+      "row": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "10px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": -205,
+        "y": 1223.96875,
+        "w": 940,
+        "h": 358.375,
+        "display": "grid"
+      },
+      "cell": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "0px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 265,
+        "y": 1310.5625,
+        "w": 469,
+        "h": 85.59375,
+        "display": "block"
+      },
+      "cells": [
+        {
+          "label": "م",
+          "text": "1",
+          "before": "\"م\"",
+          "cls": "rpt-record-number",
+          "y": 1224.96875,
+          "font": "16px"
+        },
+        {
+          "label": "المشروع",
+          "text": "مشروع خاص توضيحي 005",
+          "before": "none",
+          "cls": "rpt-record-title ui-record-title-cell",
+          "y": 1310.5625,
+          "font": "16px"
+        },
+        {
+          "label": "الجهة المعنية",
+          "text": "الأمانة العامة للمجلس التنفيذي",
+          "before": "\"الجهة المعنية\"",
+          "cls": "rpt-record-entity",
+          "y": 1310.5625,
+          "font": "16px"
+        },
+        {
+          "label": "الحالة",
+          "text": "قيد المراجعة",
+          "before": "\"الحالة\"",
+          "cls": "rpt-record-status",
+          "y": 1396.15625,
+          "font": "16px"
+        },
+        {
+          "label": "نسبة الإنجاز",
+          "text": "100%",
+          "before": "\"نسبة الإنجاز\"",
+          "cls": "rpt-record-progress",
+          "y": 1396.15625,
+          "font": "16px"
+        },
+        {
+          "label": "تاريخ الانتهاء",
+          "text": "سبتمبر 2026",
+          "before": "\"تاريخ الانتهاء\"",
+          "cls": "rpt-record-date",
+          "y": 1495.75,
+          "font": "16px"
+        }
+      ],
+      "overflow": false,
+      "filters": [
+        {
+          "text": "الكل",
+          "h": 72
+        },
+        {
+          "text": "الكل",
+          "h": 72
+        },
+        {
+          "text": "الكل",
+          "h": 72
+        },
+        {
+          "text": "الكل",
+          "h": 72
+        }
+      ],
+      "titles": [
+        "تقرير المشاريع الخاصة"
+      ]
+    },
+    "hh-390": {
+      "main": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 0,
+        "y": 314.765625,
+        "w": 390,
+        "h": 85908.109375,
+        "display": "block"
+      },
+      "panel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 16,
+        "y": 1716.90625,
+        "w": 358,
+        "h": 555.78125,
+        "display": "block"
+      },
+      "title": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 203.109375,
+        "y": 1733.90625,
+        "w": 153.890625,
+        "h": 39.1875,
+        "display": "block"
+      },
+      "total": {
+        "font": "40px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 33,
+        "y": 1733.90625,
+        "w": 43.375,
+        "h": 48,
+        "display": "block"
+      },
+      "status": {
+        "font": "28px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 253.953125,
+        "y": 2219.296875,
+        "w": 30.359375,
+        "h": 36.390625,
+        "display": "block"
+      },
+      "legend": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 16,
+        "y": 3102.859375,
+        "w": 358,
+        "h": 533.90625,
+        "display": "block"
+      },
+      "legendTitle": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 33,
+        "y": 3119.859375,
+        "w": 324,
+        "h": 39.1875,
+        "display": "block"
+      },
+      "legendLabel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "8px",
+        "x": 33,
+        "y": 3183.046875,
+        "w": 324,
+        "h": 28.796875,
+        "display": "flex"
+      },
+      "legendBody": {
+        "font": "14px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 33,
+        "y": 3219.84375,
+        "w": 324,
+        "h": 22.390625,
+        "display": "block"
+      },
+      "swatch": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "2px",
+        "bg": "rgb(192, 0, 0)",
+        "gap": "normal",
+        "x": 347,
+        "y": 3192.046875,
+        "w": 10,
+        "h": 10,
+        "display": "block"
+      },
+      "table": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 16,
+        "y": 3828.34375,
+        "w": 358,
+        "h": 29951.5625,
+        "display": "block"
+      },
+      "head": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px 8px",
+        "radius": "0px",
+        "bg": "rgb(239, 235, 231)",
+        "gap": "normal",
+        "x": 349.859375,
+        "y": 3827.34375,
+        "w": 25.140625,
+        "h": 89.59375,
+        "display": "table-cell"
+      },
+      "row": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 16,
+        "y": 3828.34375,
+        "w": 358,
+        "h": 473.765625,
+        "display": "grid"
+      },
+      "cell": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "12px 0px",
+        "radius": "0px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 33,
+        "y": 3845.34375,
+        "w": 324,
+        "h": 68,
+        "display": "block"
+      },
+      "cells": [
+        {
+          "label": "م",
+          "text": "1",
+          "before": "\"م\"",
+          "cls": "rpt-record-number",
+          "y": 3913.34375,
+          "font": "16px"
+        },
+        {
+          "label": "المشروع",
+          "text": "مشروع خاص توضيحي 005",
+          "before": "none",
+          "cls": "rpt-record-title ui-record-title-cell",
+          "y": 3845.34375,
+          "font": "16px"
+        },
+        {
+          "label": "الجهة المعنية",
+          "text": "الأمانة العامة للمجلس التنفيذي",
+          "before": "\"الجهة المعنية\"",
+          "cls": "rpt-record-entity",
+          "y": 3964.734375,
+          "font": "16px"
+        },
+        {
+          "label": "الحالة",
+          "text": "قيد المراجعة",
+          "before": "\"الحالة\"",
+          "cls": "rpt-record-status",
+          "y": 4041.328125,
+          "font": "16px"
+        },
+        {
+          "label": "نسبة الإنجاز",
+          "text": "100%",
+          "before": "\"نسبة الإنجاز\"",
+          "cls": "rpt-record-progress",
+          "y": 4131.921875,
+          "font": "16px"
+        },
+        {
+          "label": "تاريخ الانتهاء",
+          "text": "سبتمبر 2026",
+          "before": "\"تاريخ الانتهاء\"",
+          "cls": "rpt-record-date",
+          "y": 4208.515625,
+          "font": "16px"
+        }
+      ],
+      "overflow": false,
+      "filters": [
+        {
+          "text": "الكل",
+          "h": 0
+        },
+        {
+          "text": "الكل",
+          "h": 0
+        },
+        {
+          "text": "الكل",
+          "h": 0
+        },
+        {
+          "text": "الكل",
+          "h": 0
+        }
+      ],
+      "titles": [
+        "تقرير المشاريع الخاصة"
+      ]
+    },
+    "hh-320": {
+      "main": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 0,
+        "y": -3390.046875,
+        "w": 320,
+        "h": 90046.1875,
+        "display": "block"
+      },
+      "panel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 16,
+        "y": -1875.125,
+        "w": 288,
+        "h": 555.78125,
+        "display": "block"
+      },
+      "title": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 133.109375,
+        "y": -1858.125,
+        "w": 153.890625,
+        "h": 39.1875,
+        "display": "block"
+      },
+      "total": {
+        "font": "40px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 33,
+        "y": -1858.125,
+        "w": 43.375,
+        "h": 48,
+        "display": "block"
+      },
+      "status": {
+        "font": "28px",
+        "family": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 183.953125,
+        "y": -1372.734375,
+        "w": 30.359375,
+        "h": 36.390625,
+        "display": "block"
+      },
+      "legend": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 16,
+        "y": -484.1875,
+        "w": 288,
+        "h": 617.875,
+        "display": "block"
+      },
+      "legendTitle": {
+        "font": "28px",
+        "family": "\"TEC DIN\", \"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 33,
+        "y": -467.1875,
+        "w": 254,
+        "h": 78.375,
+        "display": "block"
+      },
+      "legendLabel": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "8px",
+        "x": 33,
+        "y": -364.8125,
+        "w": 254,
+        "h": 28.796875,
+        "display": "flex"
+      },
+      "legendBody": {
+        "font": "14px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 33,
+        "y": -328.015625,
+        "w": 254,
+        "h": 22.390625,
+        "display": "block"
+      },
+      "swatch": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "2px",
+        "bg": "rgb(192, 0, 0)",
+        "gap": "normal",
+        "x": 277,
+        "y": -355.8125,
+        "w": 10,
+        "h": 10,
+        "display": "block"
+      },
+      "table": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "0px",
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "gap": "normal",
+        "x": 16,
+        "y": 325.265625,
+        "w": 288,
+        "h": 29951.5625,
+        "display": "block"
+      },
+      "head": {
+        "font": "18px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px 8px",
+        "radius": "0px",
+        "bg": "rgb(239, 235, 231)",
+        "gap": "normal",
+        "x": 279.859375,
+        "y": 324.265625,
+        "w": 25.140625,
+        "h": 89.59375,
+        "display": "table-cell"
+      },
+      "row": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "16px",
+        "radius": "18px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 16,
+        "y": 325.265625,
+        "w": 288,
+        "h": 473.765625,
+        "display": "grid"
+      },
+      "cell": {
+        "font": "16px",
+        "family": "\"TEC Dubai\", sans-serif",
+        "padding": "12px 0px",
+        "radius": "0px",
+        "bg": "rgb(252, 251, 251)",
+        "gap": "normal",
+        "x": 33,
+        "y": 342.265625,
+        "w": 254,
+        "h": 68,
+        "display": "block"
+      },
+      "cells": [
+        {
+          "label": "م",
+          "text": "1",
+          "before": "\"م\"",
+          "cls": "rpt-record-number",
+          "y": 410.265625,
+          "font": "16px"
+        },
+        {
+          "label": "المشروع",
+          "text": "مشروع خاص توضيحي 005",
+          "before": "none",
+          "cls": "rpt-record-title ui-record-title-cell",
+          "y": 342.265625,
+          "font": "16px"
+        },
+        {
+          "label": "الجهة المعنية",
+          "text": "الأمانة العامة للمجلس التنفيذي",
+          "before": "\"الجهة المعنية\"",
+          "cls": "rpt-record-entity",
+          "y": 461.65625,
+          "font": "16px"
+        },
+        {
+          "label": "الحالة",
+          "text": "قيد المراجعة",
+          "before": "\"الحالة\"",
+          "cls": "rpt-record-status",
+          "y": 538.25,
+          "font": "16px"
+        },
+        {
+          "label": "نسبة الإنجاز",
+          "text": "100%",
+          "before": "\"نسبة الإنجاز\"",
+          "cls": "rpt-record-progress",
+          "y": 628.84375,
+          "font": "16px"
+        },
+        {
+          "label": "تاريخ الانتهاء",
+          "text": "سبتمبر 2026",
+          "before": "\"تاريخ الانتهاء\"",
+          "cls": "rpt-record-date",
+          "y": 705.4375,
+          "font": "16px"
+        }
+      ],
+      "overflow": false,
+      "filters": [
+        {
+          "text": "الكل",
+          "h": 0
+        },
+        {
+          "text": "الكل",
+          "h": 0
+        },
+        {
+          "text": "الكل",
+          "h": 0
+        },
+        {
+          "text": "الكل",
+          "h": 0
+        }
+      ],
+      "titles": [
+        "تقرير المشاريع الخاصة"
+      ]
+    }
+  },
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "783c344a876573b4f559d08a1fe419ca6484e8dc782d2b994dff734ceba66966",
+    "assets/css/app-bundle.css": "92dfabb92cc0a439fd86f9ad95e3f116cb41de7de34d04138e9bbde9abc5f596",
+    "assets/css/print-measure-bundle.css": "39ea72c9dba51fe349db3b97034b4154734c6f47ce6f6fd4d598308d27375675"
+  },
+  "verdict": "PASS"
+}

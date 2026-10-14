@@ -1,0 +1,38 @@
+{
+  "build": 158,
+  "verdict": "PASS",
+  "zipSha256": "5b9e61fc8afb40ac9614d1c5a5c205cb301bcc2d307d95afa556dc7c8a510d4a",
+  "manifestFiles": 221,
+  "crc": "PASS",
+  "extractedHashes": "PASS",
+  "designRevision": 25,
+  "sourceChanges": [
+    "DESIGN-PRINCIPLES-v158.md",
+    "DESIGN-STANDARD.md",
+    "README.md",
+    "VERIFICATION-v158.md",
+    "assets/css/app-bundle.css",
+    "assets/css/print-measure-bundle.css",
+    "assets/css/tec-report-consistency-revision25.css",
+    "assets/js/app-bundle.js",
+    "assets/js/reports/agenda.js",
+    "assets/js/reports/hh.js",
+    "assets/js/views/agenda-print.js",
+    "assets/js/views/pdf-download.js",
+    "assets/js/views/reports.js",
+    "index.html",
+    "tools/build-bundles.py"
+  ],
+  "sourceRecordsPreserved": true,
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "783c344a876573b4f559d08a1fe419ca6484e8dc782d2b994dff734ceba66966",
+    "assets/css/app-bundle.css": "92dfabb92cc0a439fd86f9ad95e3f116cb41de7de34d04138e9bbde9abc5f596",
+    "assets/css/print-measure-bundle.css": "39ea72c9dba51fe349db3b97034b4154734c6f47ce6f6fd4d598308d27375675"
+  },
+  "scope": "Whole agenda and special-project report presentation, requested removal of agenda count export pages and HH PM main-list column, shared PDF/PPTX table styling, omission of empty HH appendix groups.",
+  "limitations": [
+    "No Microsoft Office or LibreOffice renderer was available; native PPTX XML, editable objects, data, links and geometry were verified, not actual Office rendering/editing.",
+    "Functional app checks used local HTTP with external requests blocked. Cold file:// startup was not rerun.",
+    "The September2026 workbook is the existing illustrative test fixture; no new production workbook was supplied or modified."
+  ]
+}

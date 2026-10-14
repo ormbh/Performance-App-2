@@ -1,4 +1,12 @@
-# Performance App v157
+# Performance App v158
+
+[Download app — v158](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v158.zip) · [Updated TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles.zip) · [Revision 25](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-25.md) · [Verification](Saytara-Verification-v158.md)
+
+Agenda and special-project pages now share consistent headers, filters, settings, cards, charts, legends, tables, spacing and mobile presentation. The extra agenda count-table pages are removed from PDF, and PM is removed from the special-project main list while remaining in source records and detail cards.
+
+[Applied previews](Report-Consistency-v158/README.md). Extract the complete ZIP and open **index.html**. No workbook is bundled.
+
+# Previous release — v157
 
 [Download app — v157](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v157.zip) · [Updated TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles.zip) · [Revision 24](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-24.md) · [Verification](Saytara-Verification-v157.md)
 
