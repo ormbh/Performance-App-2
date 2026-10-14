@@ -1,0 +1,774 @@
+{
+  "verdict": "PASS",
+  "checks": [
+    {
+      "name": "all source data unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all ZIP CRC intact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all package slide count agrees",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all cover has no footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all standard cover title",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all full selected entity on cover",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all copyright on body slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all body page numbering starts at one",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all all internal relationships resolve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native fonts embedded",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all continuous eligible then other numbering",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all model row order retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all retired source/card sections absent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all exact six native RTL table headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all six cells per table row",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all positive table column widths",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all every source title present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all native named charts and each unassigned status are editable",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all المجلس التنفيذي source status palette",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all المجلس التنفيذي editable inbar labels with fallback",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all المجلس التنفيذي legible 12pt chart numbers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all المجلس التنفيذي embedded editable workbook reconciles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all مجلس الشؤون الاستراتيجية source status palette",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all مجلس الشؤون الاستراتيجية editable inbar labels with fallback",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all مجلس الشؤون الاستراتيجية legible 12pt chart numbers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all مجلس الشؤون الاستراتيجية embedded editable workbook reconciles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all قرارات دون جهة إصدار محددة source status palette",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all قرارات دون جهة إصدار محددة editable inbar labels with fallback",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all قرارات دون جهة إصدار محددة legible 12pt chart numbers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all قرارات دون جهة إصدار محددة embedded editable workbook reconciles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all قرارات دون جهة إصدار محددة source status palette",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all قرارات دون جهة إصدار محددة editable inbar labels with fallback",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all قرارات دون جهة إصدار محددة legible 12pt chart numbers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all قرارات دون جهة إصدار محددة embedded editable workbook reconciles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all chart data/status categories and shared native count scale",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all named pair and unassigned statuses retained on chart slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all full shared detailed legend on each chart slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all identical physical bar scale across issuer slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all clickable contents actual body page references",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all editable object bounds inside slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity source data unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity ZIP CRC intact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity package slide count agrees",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity cover has no footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity standard cover title",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity full selected entity on cover",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity copyright on body slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity body page numbering starts at one",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity all internal relationships resolve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity native fonts embedded",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity continuous eligible then other numbering",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity model row order retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity retired source/card sections absent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity exact six native RTL table headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity six cells per table row",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity positive table column widths",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity every source title present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity native named charts and each unassigned status are editable",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity المجلس التنفيذي source status palette",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity المجلس التنفيذي editable inbar labels with fallback",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity المجلس التنفيذي legible 12pt chart numbers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity المجلس التنفيذي embedded editable workbook reconciles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity قرارات دون جهة إصدار محددة source status palette",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity قرارات دون جهة إصدار محددة editable inbar labels with fallback",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity قرارات دون جهة إصدار محددة legible 12pt chart numbers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity قرارات دون جهة إصدار محددة embedded editable workbook reconciles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity chart data/status categories and shared native count scale",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity named pair and unassigned statuses retained on chart slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity full shared detailed legend on each chart slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity identical physical bar scale across issuer slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity clickable contents actual body page references",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "entity editable object bounds inside slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled source data unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled ZIP CRC intact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled package slide count agrees",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled cover has no footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled standard cover title",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled full selected entity on cover",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled copyright on body slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled body page numbering starts at one",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled all internal relationships resolve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled native fonts embedded",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled continuous eligible then other numbering",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled model row order retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled retired source/card sections absent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled exact six native RTL table headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled six cells per table row",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled positive table column widths",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled every source title present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled native named charts and each unassigned status are editable",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled المجلس التنفيذي source status palette",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled المجلس التنفيذي editable inbar labels with fallback",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled المجلس التنفيذي legible 12pt chart numbers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled المجلس التنفيذي embedded editable workbook reconciles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled مجلس الشؤون الاستراتيجية source status palette",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled مجلس الشؤون الاستراتيجية editable inbar labels with fallback",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled مجلس الشؤون الاستراتيجية legible 12pt chart numbers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled مجلس الشؤون الاستراتيجية embedded editable workbook reconciles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled جهة إصدار إضافية source status palette",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled جهة إصدار إضافية editable inbar labels with fallback",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled جهة إصدار إضافية legible 12pt chart numbers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled جهة إصدار إضافية embedded editable workbook reconciles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled قرارات دون جهة إصدار محددة source status palette",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled قرارات دون جهة إصدار محددة editable inbar labels with fallback",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled قرارات دون جهة إصدار محددة legible 12pt chart numbers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled قرارات دون جهة إصدار محددة embedded editable workbook reconciles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled chart data/status categories and shared native count scale",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled named pair and unassigned statuses retained on chart slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled full shared detailed legend on each chart slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled identical physical bar scale across issuer slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled clickable contents actual body page references",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled editable object bounds inside slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled all 51 long narrative markers exactly once",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled all long source paragraphs complete",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled fully blank latest and notes cells stay empty",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled partial metadata omits empty labels",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled long row safely continues across native slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled extra and blank issuers retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "controlled incomplete meeting dates discoverable",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility source data unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility ZIP CRC intact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility package slide count agrees",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility cover has no footer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility standard cover title",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility full selected entity on cover",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility copyright on body slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility body page numbering starts at one",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility all internal relationships resolve",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility native fonts embedded",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility continuous eligible then other numbering",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility model row order retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility retired source/card sections absent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility exact six native RTL table headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility six cells per table row",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility positive table column widths",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility every source title present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility native named charts and each unassigned status are editable",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility chart data/status categories and shared native count scale",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility named pair and unassigned statuses retained on chart slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility full shared detailed legend on each chart slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility identical physical bar scale across issuer slides",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility clickable contents actual body page references",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility editable object bounds inside slide",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "missing-eligibility unavailable eligibility retained without invented classification",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no browser errors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no external requests",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "results": [
+    {
+      "name": "all",
+      "records": 164,
+      "slides": 42,
+      "charts": 4,
+      "sha256": "7da9cfadd6ea1dff9f2e74b25059e28f7240fe433b4892d22f11f89f766a932d"
+    },
+    {
+      "name": "entity",
+      "records": 4,
+      "slides": 7,
+      "charts": 2,
+      "sha256": "142907f00ad6d32d605f7822e774676ad9f05913f1fdc6ad46a43b61586c8bad"
+    },
+    {
+      "name": "controlled",
+      "records": 5,
+      "slides": 13,
+      "charts": 4,
+      "sha256": "dcf587b4e9b98820e22e4f6c52e823b7a884c42447001020554ac89137c035f5"
+    },
+    {
+      "name": "missing-eligibility",
+      "records": 5,
+      "slides": 11,
+      "charts": 0,
+      "sha256": "d4ae9c77562a9920ec032984acdc69a9e00a2af00ccbe815bab42d91e6ab9518"
+    }
+  ],
+  "sourceInjection": false,
+  "loadedAssetHashes": {
+    "app-bundle.css": "c6324de8231701e196e1c566211fbee658a146a9cbe8ebd9fd3e5b3ce548cc9c",
+    "app-bundle.js": "f25a977a5489762a9aac6515e3df96a57cd707a42cb00c5f6c1a7f8b4586e12a"
+  },
+  "sourceHash": "f2d9fc2f996cb35a77d7947adc5ce44f75c662b345bfaded00bfc7f6cafdc0cd",
+  "limits": [
+    "Native OOXML/data/package validation; Office renderer unavailable."
+  ]
+}

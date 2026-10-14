@@ -1,0 +1,29 @@
+{
+  "fixture": "Controlled six-status scope over existing illustrative workbook; not production figures",
+  "checks": [
+    {
+      "name": "all six standard statuses retained in every issuer",
+      "pass": true
+    },
+    {
+      "name": "every source status count sums to issuer total",
+      "pass": true
+    },
+    {
+      "name": "named pair precedes fullwidth unassigned continuation without empty named page",
+      "pass": true
+    },
+    {
+      "name": "each complete chart block and legend fits A4 content capacity",
+      "pass": true
+    },
+    {
+      "name": "grand total unchanged at seventy controlled eligible records",
+      "pass": true
+    }
+  ],
+  "verdict": "PASS",
+  "pdfSHA256": "ded92c0128f28f3d61661f662eced7cea2655e9b91bcda279e153cf5b8fe637e",
+  "visual": "Inspected actual native PDF pages 3 and 4; readable fullwidth box, no clipped status values.",
+  "existingLimit": "Seven statuses in every issuer plus seven full definitions exceeds existing named-panel A4 guard; no source data lost, export stops explicitly."
+}

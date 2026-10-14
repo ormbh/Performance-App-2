@@ -1,9 +1,9 @@
 # Performance App
 
-[Download the current app — v164](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v164.zip)
+[Download the current app — v165](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v165.zip)
 
-Extract the ZIP and open **index.html**. Keep its **assets** folder and **manifest.webmanifest** beside it, then select your report workbook. No workbook is bundled.
+Extract the ZIP and open **index.html**. Keep **assets** and **manifest.webmanifest** beside it, then select your report workbook. No workbook is bundled.
 
-v164 fixes PDF downloads containing the legacy Office square-bullet character U+F0A7. Source text and the approved Arabic fonts are preserved.
+Council decisions without an issuing body now appear in a full-width box below the named council charts, with source counts and a common bar scale preserved on screen and in native exports.
 
-The ZIP contains only the app and a short start guide. [Principles and verification](docs/README.md) and [earlier releases](archive/README.md) are separate.
+[Monthly audit and illustrations](docs/monthly/README.md) are review proposals; monthly behavior remains unchanged in this release. [Design principles and verification](docs/README.md) and [earlier releases](archive/README.md) remain separate from the clean app.

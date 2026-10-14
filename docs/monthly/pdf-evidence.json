@@ -1,0 +1,3925 @@
+{
+  "version": 164,
+  "scope": "Audit only of actual native monthly PDF output; illustrative source, no production publication.",
+  "checks": [
+    {
+      "name": "continuous requested layout honored",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "continuous page count matches native plan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "continuous page width correct",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "continuous correct page height/profile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "continuous source records unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "continuous screen/print metric text parity",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "continuous every native PDF metric contains expected value",
+      "pass": true,
+      "detail": [],
+      "method": "Exact expected value as an isolated extracted text line in the mapped native PDF metric rectangle; labels/deltas may share the line-height box."
+    },
+    {
+      "name": "continuous each fitting metric card kept whole",
+      "pass": true,
+      "detail": [
+        {
+          "title": "الأجندة السنوية",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 546.140625,
+            "y": 146.46875,
+            "w": 515.90625,
+            "h": 337.859375
+          }
+        },
+        {
+          "title": "قرارات المجالس",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 546.140625,
+            "y": 507,
+            "w": 515.90625,
+            "h": 277.5625
+          }
+        },
+        {
+          "title": "التشريعات",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 546.140625,
+            "y": 807.234375,
+            "w": 515.90625,
+            "h": 297.8125
+          }
+        },
+        {
+          "title": "استراتيجية الأمانة العامة",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 546.140625,
+            "y": 1127.71875,
+            "w": 515.90625,
+            "h": 218.046875
+          }
+        },
+        {
+          "title": "المشاريع الخاصة",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 0,
+            "y": 146.46875,
+            "w": 515.90625,
+            "h": 330.40625
+          }
+        },
+        {
+          "title": "مشاريع بموازنة استراتيجية",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 0,
+            "y": 499.546875,
+            "w": 515.90625,
+            "h": 674.578125
+          }
+        }
+      ]
+    },
+    {
+      "name": "continuous projects physically left / executive physically right",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "continuous approved missing-requester PDF omission retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "continuous native text stays inside physical page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "a4 requested layout honored",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "a4 page count matches native plan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "a4 page width correct",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "a4 correct page height/profile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "a4 source records unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "a4 screen/print metric text parity",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "a4 every native PDF metric contains expected value",
+      "pass": true,
+      "detail": [],
+      "method": "Exact expected value as an isolated extracted text line in the mapped native PDF metric rectangle; labels/deltas may share the line-height box."
+    },
+    {
+      "name": "a4 each fitting metric card kept whole",
+      "pass": true,
+      "detail": [
+        {
+          "title": "الأجندة السنوية",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 366.609375,
+            "y": 184.28125,
+            "w": 351.5,
+            "h": 298.921875
+          }
+        },
+        {
+          "title": "قرارات المجالس",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 366.609375,
+            "y": 494.53125,
+            "w": 351.5,
+            "h": 246.1875
+          }
+        },
+        {
+          "title": "التشريعات",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 366.609375,
+            "y": 752.046875,
+            "w": 351.5,
+            "h": 267.5625
+          }
+        },
+        {
+          "title": "استراتيجية الأمانة العامة",
+          "pages": [
+            2
+          ],
+          "rect": {
+            "x": 366.609375,
+            "y": 1030.9375,
+            "w": 351.5,
+            "h": 173.453125
+          }
+        },
+        {
+          "title": "المشاريع الخاصة",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 0,
+            "y": 184.28125,
+            "w": 351.5,
+            "h": 291.46875
+          }
+        },
+        {
+          "title": "مشاريع بموازنة استراتيجية",
+          "pages": [
+            2
+          ],
+          "rect": {
+            "x": 0,
+            "y": 487.078125,
+            "w": 351.5,
+            "h": 625.828125
+          }
+        }
+      ]
+    },
+    {
+      "name": "a4 projects physically left / executive physically right",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "a4 approved missing-requester PDF omission retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "a4 native text stays inside physical page",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no browser runtime errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no external requests",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "filtered actual PDF header includes sector",
+      "pass": true,
+      "detail": [
+        "الأمانة العامة للمجلس التنفيذي"
+      ]
+    },
+    {
+      "name": "filtered actual PDF header includes unit",
+      "pass": true,
+      "detail": [
+        "مكتب خطة دبي"
+      ]
+    },
+    {
+      "name": "continuous every follow-up item identifier appears exactly once",
+      "pass": true,
+      "detail": {
+        "expected": {
+          "075": 1,
+          "179": 1,
+          "006": 1,
+          "076": 1,
+          "082": 1,
+          "049": 1,
+          "037": 1,
+          "038": 1
+        },
+        "actual": {
+          "075": 1,
+          "179": 1,
+          "006": 1,
+          "076": 1,
+          "082": 1,
+          "049": 1,
+          "037": 1,
+          "038": 1
+        }
+      },
+      "method": "Count isolated exact three-digit illustrative record identifiers in actual PDF; Arabic-Latin extraction order is not assumed."
+    },
+    {
+      "name": "continuous all8 follow-up rows retained",
+      "pass": true,
+      "detail": 8
+    },
+    {
+      "name": "a4 every follow-up item identifier appears exactly once",
+      "pass": true,
+      "detail": {
+        "expected": {
+          "075": 1,
+          "179": 1,
+          "006": 1,
+          "076": 1,
+          "082": 1,
+          "049": 1,
+          "037": 1,
+          "038": 1
+        },
+        "actual": {
+          "075": 1,
+          "179": 1,
+          "006": 1,
+          "076": 1,
+          "082": 1,
+          "049": 1,
+          "037": 1,
+          "038": 1
+        }
+      },
+      "method": "Count isolated exact three-digit illustrative record identifiers in actual PDF; Arabic-Latin extraction order is not assumed."
+    },
+    {
+      "name": "a4 all8 follow-up rows retained",
+      "pass": true,
+      "detail": 8
+    },
+    {
+      "name": "continuous approved ready-label color used in PDF",
+      "pass": false,
+      "detail": {
+        "key": "agendaReady",
+        "label": "جاهز للعرض",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(17, 94, 103)"
+      }
+    },
+    {
+      "name": "continuous total caption beneath figure",
+      "pass": false,
+      "detail": "Actual label intersects value vertical interval, placed beside rather than below."
+    },
+    {
+      "name": "a4 approved ready-label color used in PDF",
+      "pass": false,
+      "detail": {
+        "key": "agendaReady",
+        "label": "جاهز للعرض",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(17, 94, 103)"
+      }
+    },
+    {
+      "name": "a4 total caption beneath figure",
+      "pass": false,
+      "detail": "Actual label intersects value vertical interval, placed beside rather than below."
+    }
+  ],
+  "findings": [
+    {
+      "priority": "P1",
+      "area": "Monthly special-project cohort",
+      "observed": "Both screen and PDF show overall62, leadership24 and TEC36; 2 blank classifications excluded from subgroup.",
+      "expected": "Blank leadership classification belongs in TEC unless yes, so TEC38. Source-grounded status totals/ratios must use same cohort.",
+      "note": "Root monthly model audit verifies source records; this PDF audit confirms defect propagates to export."
+    },
+    {
+      "priority": "P2",
+      "area": "Status label color",
+      "observed": "Most monthly done labels remain neutral while figures are Green; PDF agenda ready label remains neutral while figure is Teal.",
+      "expected": "Status label and figure share approved status role. Legislation custom done color already correct."
+    },
+    {
+      "priority": "P2",
+      "area": "PDF totals hierarchy",
+      "observed": "الإجمالي is on same baseline beside main total in both PDF profiles.",
+      "expected": "Place الإجمالي beneath its number, consistent with screen and shared card rule."
+    },
+    {
+      "priority": "P3",
+      "area": "A4 balance",
+      "observed": "A4 page1 retains left special card only; budget card moves whole to page2; page2 right only strategy. All cards readable and complete.",
+      "recommendation": "Illustrate better spacing/hierarchy where feasible, preserve whole fitting cards and approved two portfolio columns; do not shrink to force fixedpagecount.",
+      "classification": "Optional layout refinement, not data/PDF correctness defect."
+    },
+    {
+      "priority": "P2",
+      "area": "Empty follow-up notes",
+      "observed": "Seven of8 rows display generated لا توجد ملاحظة مسجلة in both actualPDF outputs.",
+      "expected": "Shared blank-value policy suggests leave missing note cells empty; preserve actual notes.",
+      "classification": "Recommendation based on global user rule; needs root reconcile approved source-note policy."
+    }
+  ],
+  "exports": [
+    {
+      "name": "TEC_Monthly_Sep_26.pdf",
+      "pages": 1,
+      "layout": "continuous",
+      "widthMM": 297,
+      "heightMM": 655,
+      "proof": {
+        "text": "التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026\nالقطاع: الكل · الوحدة التنظيمية: الكل\nمحافظ المتابعة التنفيذية\nالأجندة السنوية\n117\nالإجمالي\n↑ +3\nالأجندة المعتمدة\n100\n↓ −1\nالمواضيع المستجدة\n17\n↑ +4\nمنجز\n43\n↑ +3\nجاهز للعرض\n16\n↑ +3\nقيد العمل\n58\n↑ +2\n\nنسبة المنجز\n36.8%\n\nقرارات المجالس\n70\nالإجمالي\n↑ +5\nمنجز\n38\n↑ +3\nقيد العمل\n31\n↑ +2\n\nنسبة المنجز\n54.3%\n\nبدون حالة معتمدة: 1 · يشمل نطاق المتابعة فقط\n\nالتشريعات\n191\nالإجمالي\n↑ +25\nمنجز\n180\n↑ +16\nقيد العمل\n11\n↑ +9\nمنها متأخر\n2\n↑ +1\n\nنسبة المنجز\n94.2%\n\nاستراتيجية الأمانة العامة\nالمؤشرات المعتمدة / المؤشرات المقاسة\n54\n/\n39\n↑ +9\nمتوسط النتائج المقاسة\n83.2%\n↑ +0.7 نقطة مئوية\nمتوسط المستهدفات المعتمدة\n87.8%\nمحفظة المشاريع\nالمشاريع الخاصة\n62\nالإجمالي\n↑ +7\nللقيادة\n24\nمنجز\n12\nقيد العمل\n12\n\nنسبة المنجز\n50%\n\nللأمانة العامة\n36\n↑ +5\nمنجز\n10\n↑ +1\nقيد العمل\n26\n↑ +5\n\nنسبة المنجز\n27.8%\n\nمشاريع بموازنة استراتيجية\n84\nالإجمالي\n↑ +4\nمنجز\n10\n↑ +2\nقيد العمل\n61\n↑ +2\nمجمّد / ملغى\n4\n\nنسبة المنجز\n11.9%\n\nموعد الانتهاء حسب الربع\n2026\nالربع 1\n-\nالربع 2\n1\nالربع 3\n-\nالربع 4\n80\n↑ +4\n\nمشاريع 2027: 3\n\nالموازنة المعتمدة\nدرهم إماراتي\n58,275,000\n↓ −17,475,000\nالمنفق حسب الفواتير\n20,396,250\n↓ −2,566,957\nالمخصص\n46,620,000\n↑ +5,065,417\nغير المخصص\n11,655,000\n↓ −22,540,418\nبنود المتابعة\n8\nبنود\nمتأخر 2\nمجمّد 3\nملغى 1\nمنقول 2\nالمحفظة\tالبند\tمستوى الإنجاز\tالوحدة التنظيمية / القطاع\tالملاحظات\nالتشريعات\tتشريع توضيحي 075\t\nمتأخر\n\tالسياسات والاستراتيجيات الاقتصادية\nالاقتصاد والتنمية الاجتماعية\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nالتشريعات\tتشريع توضيحي 179\t\nمتأخر\n\tالحوكمة\nالحوكمة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 006\t\nمجمّد\n\tالاتصال الحكومي\nالاتصال الحكومي وشؤون الأمانة العامة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 076\t\nمجمّد\n\t\nالتنمية المستدامة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 082\t\nمجمّد\n\tالحوكمة\nالحوكمة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 049\t\nملغى\n\tالتقييم والدراسات\nالتميز والخدمات الحكومية\n\t\n\nملاحظة توضيحية: يتطلب البند مراجعة المستجدات وتأكيد الخطوة المقبلة مع الوحدة المعنية.\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 037\t\nمنقول\n\tالسياسات والاستراتيجيات الاجتماعية\nالاقتصاد والتنمية الاجتماعية\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 038\t\nمنقول\n\tالسياسات والاستراتيجيات الاجتماعية\nالاقتصاد والتنمية الاجتماعية\n\t\n\nلا توجد ملاحظة مسجلة",
+        "plan": [
+          {
+            "start": 0,
+            "end": 2370,
+            "head": null
+          }
+        ],
+        "geometry": {
+          "widthMM": 297,
+          "contentWidthMM": 281,
+          "heightMM": 655,
+          "contentHeightPx": 2370,
+          "layout": "continuous",
+          "direction": "portrait"
+        },
+        "metrics": [
+          {
+            "key": "agendaTotal",
+            "text": "117",
+            "rect": {
+              "x": 569.8125,
+              "y": 170.140625,
+              "w": 60.703125,
+              "h": 44.78125
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "37.3333px",
+              "direction": "ltr"
+            }
+          },
+          {
+            "key": "agendaPlanned",
+            "text": "100",
+            "rect": {
+              "x": 817.3125,
+              "y": 258.5,
+              "w": 47.109375,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "agendaEmerging",
+            "text": "17",
+            "rect": {
+              "x": 577.359375,
+              "y": 258.5,
+              "w": 32.671875,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "agendaDone",
+            "text": "43",
+            "rect": {
+              "x": 891.625,
+              "y": 356.03125,
+              "w": 146.75,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(1, 131, 30)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "agendaReady",
+            "text": "16",
+            "rect": {
+              "x": 735.4375,
+              "y": 356.03125,
+              "w": 136.3125,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(17, 94, 103)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "agendaProgress",
+            "text": "58",
+            "rect": {
+              "x": 569.8125,
+              "y": 356.03125,
+              "w": 145.75,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "councilTotal",
+            "text": "70",
+            "rect": {
+              "x": 569.8125,
+              "y": 530.671875,
+              "w": 40.46875,
+              "h": 44.78125
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "37.3333px",
+              "direction": "ltr"
+            }
+          },
+          {
+            "key": "councilDone",
+            "text": "38",
+            "rect": {
+              "x": 813.53125,
+              "y": 634.4375,
+              "w": 224.84375,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(1, 131, 30)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "councilProgress",
+            "text": "31",
+            "rect": {
+              "x": 569.8125,
+              "y": 634.4375,
+              "w": 223.84375,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "councilNoStatus",
+            "text": "1",
+            "rect": {
+              "x": 947.59375,
+              "y": 740.703125,
+              "w": 6.484375,
+              "h": 21
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC Dubai\", sans-serif",
+              "size": "12px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "legTotal",
+            "text": "191",
+            "rect": {
+              "x": 569.8125,
+              "y": 830.90625,
+              "w": 60.703125,
+              "h": 44.78125
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "37.3333px",
+              "direction": "ltr"
+            }
+          },
+          {
+            "key": "legDone",
+            "text": "180",
+            "rect": {
+              "x": 813.53125,
+              "y": 934.671875,
+              "w": 224.84375,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(1, 131, 30)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "legProgress",
+            "text": "11",
+            "rect": {
+              "x": 569.8125,
+              "y": 934.671875,
+              "w": 223.84375,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "legLate",
+            "text": "2",
+            "rect": {
+              "x": 726.484375,
+              "y": 1006.515625,
+              "w": 14.453125,
+              "h": 32
+            },
+            "style": {
+              "color": "rgb(192, 0, 0)",
+              "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "kpiAvg",
+            "text": "83.2%",
+            "rect": {
+              "x": 733.546875,
+              "y": 1237.421875,
+              "w": 140.09375,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "kpiTargeted",
+            "text": "87.8%",
+            "rect": {
+              "x": 569.8125,
+              "y": 1237.421875,
+              "w": 147.640625,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "specialTotal",
+            "text": "62",
+            "rect": {
+              "x": 23.671875,
+              "y": 170.140625,
+              "w": 40.46875,
+              "h": 44.78125
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "37.3333px",
+              "direction": "ltr"
+            }
+          },
+          {
+            "key": "specialLead",
+            "text": "24",
+            "rect": {
+              "x": 263.625,
+              "y": 252.84375,
+              "w": 28.90625,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(117, 107, 95)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "specialLeadDone",
+            "text": "12",
+            "rect": {
+              "x": 387.375,
+              "y": 348.578125,
+              "w": 104.859375,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(1, 131, 30)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "specialLeadProgress",
+            "text": "12",
+            "rect": {
+              "x": 263.625,
+              "y": 348.578125,
+              "w": 103.875,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "specialGs",
+            "text": "36",
+            "rect": {
+              "x": 23.671875,
+              "y": 252.84375,
+              "w": 28.90625,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(117, 107, 95)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "specialGsDone",
+            "text": "10",
+            "rect": {
+              "x": 141.265625,
+              "y": 348.578125,
+              "w": 98.703125,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(1, 131, 30)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "specialGsProgress",
+            "text": "26",
+            "rect": {
+              "x": 23.671875,
+              "y": 348.578125,
+              "w": 97.71875,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "secTotal",
+            "text": "84",
+            "rect": {
+              "x": 23.671875,
+              "y": 523.21875,
+              "w": 40.46875,
+              "h": 44.78125
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "37.3333px",
+              "direction": "ltr"
+            }
+          },
+          {
+            "key": "secDone",
+            "text": "10",
+            "rect": {
+              "x": 345.484375,
+              "y": 626.984375,
+              "w": 146.75,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(1, 131, 30)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "secActive",
+            "text": "61",
+            "rect": {
+              "x": 189.296875,
+              "y": 626.984375,
+              "w": 136.3125,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "secHeld",
+            "text": "4",
+            "rect": {
+              "x": 23.671875,
+              "y": 626.984375,
+              "w": 145.75,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "secQ1",
+            "text": "-",
+            "rect": {
+              "x": 388.78125,
+              "y": 796.734375,
+              "w": 103.453125,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "secQ2",
+            "text": "1",
+            "rect": {
+              "x": 270.21875,
+              "y": 796.734375,
+              "w": 94.03125,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "secQ3",
+            "text": "-",
+            "rect": {
+              "x": 151.671875,
+              "y": 796.734375,
+              "w": 94.015625,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "secQ4",
+            "text": "80",
+            "rect": {
+              "x": 23.671875,
+              "y": 796.734375,
+              "w": 103.46875,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "budApproved",
+            "text": "58,275,000",
+            "rect": {
+              "x": 23.671875,
+              "y": 891.84375,
+              "w": 179.03125,
+              "h": 55
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "37.3333px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "budSpent",
+            "text": "20,396,250",
+            "rect": {
+              "x": 23.671875,
+              "y": 972.984375,
+              "w": 127.84375,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "budAllocated",
+            "text": "46,620,000",
+            "rect": {
+              "x": 265.515625,
+              "y": 1075.453125,
+              "w": 226.71875,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "budUnallocated",
+            "text": "11,655,000",
+            "rect": {
+              "x": 23.671875,
+              "y": 1075.453125,
+              "w": 226.734375,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          }
+        ],
+        "cards": [
+          {
+            "cls": "mp-card mp-agenda",
+            "title": "الأجندة السنوية",
+            "rect": {
+              "x": 546.140625,
+              "y": 146.46875,
+              "w": 515.90625,
+              "h": 337.859375
+            },
+            "text": "الأجندة السنوية117الإجمالي↑ +3الأجندة المعتمدة100↓ −1المواضيع المستجدة17↑ +4منجز43↑ +3جاهز للعرض16↑ +3قيد العمل58↑ +2نسبة المنجز36.8%",
+            "metrics": [
+              {
+                "key": "agendaTotal",
+                "text": "117",
+                "rect": {
+                  "x": 569.8125,
+                  "y": 170.140625,
+                  "w": 60.703125,
+                  "h": 44.78125
+                }
+              },
+              {
+                "key": "agendaPlanned",
+                "text": "100",
+                "rect": {
+                  "x": 817.3125,
+                  "y": 258.5,
+                  "w": 47.109375,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "agendaEmerging",
+                "text": "17",
+                "rect": {
+                  "x": 577.359375,
+                  "y": 258.5,
+                  "w": 32.671875,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "agendaDone",
+                "text": "43",
+                "rect": {
+                  "x": 891.625,
+                  "y": 356.03125,
+                  "w": 146.75,
+                  "h": 40
+                }
+              },
+              {
+                "key": "agendaReady",
+                "text": "16",
+                "rect": {
+                  "x": 735.4375,
+                  "y": 356.03125,
+                  "w": 136.3125,
+                  "h": 40
+                }
+              },
+              {
+                "key": "agendaProgress",
+                "text": "58",
+                "rect": {
+                  "x": 569.8125,
+                  "y": 356.03125,
+                  "w": 145.75,
+                  "h": 40
+                }
+              }
+            ]
+          },
+          {
+            "cls": "mp-card mp-council",
+            "title": "قرارات المجالس",
+            "rect": {
+              "x": 546.140625,
+              "y": 507,
+              "w": 515.90625,
+              "h": 277.5625
+            },
+            "text": "قرارات المجالس70الإجمالي↑ +5منجز38↑ +3قيد العمل31↑ +2نسبة المنجز54.3%بدون حالة معتمدة: 1 · يشمل نطاق المتابعة فقط",
+            "metrics": [
+              {
+                "key": "councilTotal",
+                "text": "70",
+                "rect": {
+                  "x": 569.8125,
+                  "y": 530.671875,
+                  "w": 40.46875,
+                  "h": 44.78125
+                }
+              },
+              {
+                "key": "councilDone",
+                "text": "38",
+                "rect": {
+                  "x": 813.53125,
+                  "y": 634.4375,
+                  "w": 224.84375,
+                  "h": 40
+                }
+              },
+              {
+                "key": "councilProgress",
+                "text": "31",
+                "rect": {
+                  "x": 569.8125,
+                  "y": 634.4375,
+                  "w": 223.84375,
+                  "h": 40
+                }
+              },
+              {
+                "key": "councilNoStatus",
+                "text": "1",
+                "rect": {
+                  "x": 947.59375,
+                  "y": 740.703125,
+                  "w": 6.484375,
+                  "h": 21
+                }
+              }
+            ]
+          },
+          {
+            "cls": "mp-card mp-legislation",
+            "title": "التشريعات",
+            "rect": {
+              "x": 546.140625,
+              "y": 807.234375,
+              "w": 515.90625,
+              "h": 297.8125
+            },
+            "text": "التشريعات191الإجمالي↑ +25منجز180↑ +16قيد العمل11↑ +9منها متأخر2↑ +1نسبة المنجز94.2%",
+            "metrics": [
+              {
+                "key": "legTotal",
+                "text": "191",
+                "rect": {
+                  "x": 569.8125,
+                  "y": 830.90625,
+                  "w": 60.703125,
+                  "h": 44.78125
+                }
+              },
+              {
+                "key": "legDone",
+                "text": "180",
+                "rect": {
+                  "x": 813.53125,
+                  "y": 934.671875,
+                  "w": 224.84375,
+                  "h": 40
+                }
+              },
+              {
+                "key": "legProgress",
+                "text": "11",
+                "rect": {
+                  "x": 569.8125,
+                  "y": 934.671875,
+                  "w": 223.84375,
+                  "h": 40
+                }
+              },
+              {
+                "key": "legLate",
+                "text": "2",
+                "rect": {
+                  "x": 726.484375,
+                  "y": 1006.515625,
+                  "w": 14.453125,
+                  "h": 32
+                }
+              }
+            ]
+          },
+          {
+            "cls": "mp-card mp-strategy",
+            "title": "استراتيجية الأمانة العامة",
+            "rect": {
+              "x": 546.140625,
+              "y": 1127.71875,
+              "w": 515.90625,
+              "h": 218.046875
+            },
+            "text": "استراتيجية الأمانة العامةالمؤشرات المعتمدة / المؤشرات المقاسة54/39↑ +9متوسط النتائج المقاسة83.2%↑ +0.7 نقطة مئويةمتوسط المستهدفات المعتمدة87.8%",
+            "metrics": [
+              {
+                "key": "kpiAvg",
+                "text": "83.2%",
+                "rect": {
+                  "x": 733.546875,
+                  "y": 1237.421875,
+                  "w": 140.09375,
+                  "h": 40
+                }
+              },
+              {
+                "key": "kpiTargeted",
+                "text": "87.8%",
+                "rect": {
+                  "x": 569.8125,
+                  "y": 1237.421875,
+                  "w": 147.640625,
+                  "h": 40
+                }
+              }
+            ]
+          },
+          {
+            "cls": "mp-card mp-special",
+            "title": "المشاريع الخاصة",
+            "rect": {
+              "x": 0,
+              "y": 146.46875,
+              "w": 515.90625,
+              "h": 330.40625
+            },
+            "text": "المشاريع الخاصة62الإجمالي↑ +7للقيادة24منجز12قيد العمل12نسبة المنجز50%للأمانة العامة36↑ +5منجز10↑ +1قيد العمل26↑ +5نسبة المنجز27.8%",
+            "metrics": [
+              {
+                "key": "specialTotal",
+                "text": "62",
+                "rect": {
+                  "x": 23.671875,
+                  "y": 170.140625,
+                  "w": 40.46875,
+                  "h": 44.78125
+                }
+              },
+              {
+                "key": "specialLead",
+                "text": "24",
+                "rect": {
+                  "x": 263.625,
+                  "y": 252.84375,
+                  "w": 28.90625,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "specialLeadDone",
+                "text": "12",
+                "rect": {
+                  "x": 387.375,
+                  "y": 348.578125,
+                  "w": 104.859375,
+                  "h": 40
+                }
+              },
+              {
+                "key": "specialLeadProgress",
+                "text": "12",
+                "rect": {
+                  "x": 263.625,
+                  "y": 348.578125,
+                  "w": 103.875,
+                  "h": 40
+                }
+              },
+              {
+                "key": "specialGs",
+                "text": "36",
+                "rect": {
+                  "x": 23.671875,
+                  "y": 252.84375,
+                  "w": 28.90625,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "specialGsDone",
+                "text": "10",
+                "rect": {
+                  "x": 141.265625,
+                  "y": 348.578125,
+                  "w": 98.703125,
+                  "h": 40
+                }
+              },
+              {
+                "key": "specialGsProgress",
+                "text": "26",
+                "rect": {
+                  "x": 23.671875,
+                  "y": 348.578125,
+                  "w": 97.71875,
+                  "h": 40
+                }
+              }
+            ]
+          },
+          {
+            "cls": "mp-card mp-secretariat",
+            "title": "مشاريع بموازنة استراتيجية",
+            "rect": {
+              "x": 0,
+              "y": 499.546875,
+              "w": 515.90625,
+              "h": 674.578125
+            },
+            "text": "مشاريع بموازنة استراتيجية84الإجمالي↑ +4منجز10↑ +2قيد العمل61↑ +2مجمّد / ملغى4نسبة المنجز11.9%موعد الانتهاء حسب الربع 2026الربع 1-الربع 21الربع 3-الربع 480↑ +4مشاريع 2027: 3الموازنة المعتمدةدرهم إماراتي58,275,000↓ −17,475,000المنفق حسب الفواتير20,396,250↓ −2,566,957المخصص46,620,000↑ +5,065,417غير المخصص11,655,000↓ −22,540,418",
+            "metrics": [
+              {
+                "key": "secTotal",
+                "text": "84",
+                "rect": {
+                  "x": 23.671875,
+                  "y": 523.21875,
+                  "w": 40.46875,
+                  "h": 44.78125
+                }
+              },
+              {
+                "key": "secDone",
+                "text": "10",
+                "rect": {
+                  "x": 345.484375,
+                  "y": 626.984375,
+                  "w": 146.75,
+                  "h": 40
+                }
+              },
+              {
+                "key": "secActive",
+                "text": "61",
+                "rect": {
+                  "x": 189.296875,
+                  "y": 626.984375,
+                  "w": 136.3125,
+                  "h": 40
+                }
+              },
+              {
+                "key": "secHeld",
+                "text": "4",
+                "rect": {
+                  "x": 23.671875,
+                  "y": 626.984375,
+                  "w": 145.75,
+                  "h": 40
+                }
+              },
+              {
+                "key": "secQ1",
+                "text": "-",
+                "rect": {
+                  "x": 388.78125,
+                  "y": 796.734375,
+                  "w": 103.453125,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "secQ2",
+                "text": "1",
+                "rect": {
+                  "x": 270.21875,
+                  "y": 796.734375,
+                  "w": 94.03125,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "secQ3",
+                "text": "-",
+                "rect": {
+                  "x": 151.671875,
+                  "y": 796.734375,
+                  "w": 94.015625,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "secQ4",
+                "text": "80",
+                "rect": {
+                  "x": 23.671875,
+                  "y": 796.734375,
+                  "w": 103.46875,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "budApproved",
+                "text": "58,275,000",
+                "rect": {
+                  "x": 23.671875,
+                  "y": 891.84375,
+                  "w": 179.03125,
+                  "h": 55
+                }
+              },
+              {
+                "key": "budSpent",
+                "text": "20,396,250",
+                "rect": {
+                  "x": 23.671875,
+                  "y": 972.984375,
+                  "w": 127.84375,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "budAllocated",
+                "text": "46,620,000",
+                "rect": {
+                  "x": 265.515625,
+                  "y": 1075.453125,
+                  "w": 226.71875,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "budUnallocated",
+                "text": "11,655,000",
+                "rect": {
+                  "x": 23.671875,
+                  "y": 1075.453125,
+                  "w": 226.734375,
+                  "h": 33.328125
+                }
+              }
+            ]
+          }
+        ],
+        "columns": [
+          {
+            "cls": "mp-executive-column",
+            "rect": {
+              "x": 546.140625,
+              "y": 102.75,
+              "w": 515.90625,
+              "h": 1265.6875
+            }
+          },
+          {
+            "cls": "mp-project-column",
+            "rect": {
+              "x": 0,
+              "y": 102.75,
+              "w": 515.90625,
+              "h": 1094.046875
+            }
+          }
+        ],
+        "header": {
+          "text": "التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026\nالقطاع: الكل · الوحدة التنظيمية: الكل",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1062.046875,
+            "h": 83.859375
+          }
+        },
+        "followRows": [
+          {
+            "key": "legislation-76",
+            "text": "التشريعاتتشريع توضيحي 075متأخرالسياسات والاستراتيجيات الاقتصاديةالاقتصاد والتنمية الاجتماعيةلا توجد ملاحظة مسجلة",
+            "rect": {
+              "x": 23.671875,
+              "y": 1570.578125,
+              "w": 1014.703125,
+              "h": 107.234375
+            }
+          },
+          {
+            "key": "legislation-180",
+            "text": "التشريعاتتشريع توضيحي 179متأخرالحوكمةالحوكمةلا توجد ملاحظة مسجلة",
+            "rect": {
+              "x": 23.671875,
+              "y": 1677.8125,
+              "w": 1014.703125,
+              "h": 81.640625
+            }
+          },
+          {
+            "key": "secretariat-7",
+            "text": "مشاريع بموازنة استراتيجيةمشروع استراتيجي توضيحي 006مجمّدالاتصال الحكوميالاتصال الحكومي وشؤون الأمانة العامةلا توجد ملاحظة مسجلة",
+            "rect": {
+              "x": 23.671875,
+              "y": 1759.453125,
+              "w": 1014.703125,
+              "h": 107.234375
+            }
+          },
+          {
+            "key": "secretariat-77",
+            "text": "مشاريع بموازنة استراتيجيةمشروع استراتيجي توضيحي 076مجمّدالتنمية المستدامةلا توجد ملاحظة مسجلة",
+            "rect": {
+              "x": 23.671875,
+              "y": 1866.6875,
+              "w": 1014.703125,
+              "h": 78.625
+            }
+          },
+          {
+            "key": "secretariat-83",
+            "text": "مشاريع بموازنة استراتيجيةمشروع استراتيجي توضيحي 082مجمّدالحوكمةالحوكمةلا توجد ملاحظة مسجلة",
+            "rect": {
+              "x": 23.671875,
+              "y": 1945.3125,
+              "w": 1014.703125,
+              "h": 81.640625
+            }
+          },
+          {
+            "key": "secretariat-50",
+            "text": "مشاريع بموازنة استراتيجيةمشروع استراتيجي توضيحي 049ملغىالتقييم والدراساتالتميز والخدمات الحكوميةملاحظة توضيحية: يتطلب البند مراجعة المستجدات وتأكيد الخطوة المقبلة مع الوحدة المعنية.",
+            "rect": {
+              "x": 23.671875,
+              "y": 2026.953125,
+              "w": 1014.703125,
+              "h": 104.21875
+            }
+          },
+          {
+            "key": "secretariat-38",
+            "text": "مشاريع بموازنة استراتيجيةمشروع استراتيجي توضيحي 037منقولالسياسات والاستراتيجيات الاجتماعيةالاقتصاد والتنمية الاجتماعيةلا توجد ملاحظة مسجلة",
+            "rect": {
+              "x": 23.671875,
+              "y": 2131.171875,
+              "w": 1014.703125,
+              "h": 107.234375
+            }
+          },
+          {
+            "key": "secretariat-39",
+            "text": "مشاريع بموازنة استراتيجيةمشروع استراتيجي توضيحي 038منقولالسياسات والاستراتيجيات الاجتماعيةالاقتصاد والتنمية الاجتماعيةلا توجد ملاحظة مسجلة",
+            "rect": {
+              "x": 23.671875,
+              "y": 2238.40625,
+              "w": 1014.703125,
+              "h": 107.234375
+            }
+          }
+        ],
+        "following": "بنود المتابعة\n8\nبنود\nمتأخر 2\nمجمّد 3\nملغى 1\nمنقول 2\nالمحفظة\tالبند\tمستوى الإنجاز\tالوحدة التنظيمية / القطاع\tالملاحظات\nالتشريعات\tتشريع توضيحي 075\t\nمتأخر\n\tالسياسات والاستراتيجيات الاقتصادية\nالاقتصاد والتنمية الاجتماعية\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nالتشريعات\tتشريع توضيحي 179\t\nمتأخر\n\tالحوكمة\nالحوكمة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 006\t\nمجمّد\n\tالاتصال الحكومي\nالاتصال الحكومي وشؤون الأمانة العامة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 076\t\nمجمّد\n\t\nالتنمية المستدامة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 082\t\nمجمّد\n\tالحوكمة\nالحوكمة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 049\t\nملغى\n\tالتقييم والدراسات\nالتميز والخدمات الحكومية\n\t\n\nملاحظة توضيحية: يتطلب البند مراجعة المستجدات وتأكيد الخطوة المقبلة مع الوحدة المعنية.\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 037\t\nمنقول\n\tالسياسات والاستراتيجيات الاجتماعية\nالاقتصاد والتنمية الاجتماعية\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 038\t\nمنقول\n\tالسياسات والاستراتيجيات الاجتماعية\nالاقتصاد والتنمية الاجتماعية\n\t\n\nلا توجد ملاحظة مسجلة",
+        "ops": 399,
+        "lines": 211
+      },
+      "sha256": "a707a825882adab8c7a26b97477a419311560b345ff7e8c057e99d4f3511d1a4",
+      "cardPageMapping": [
+        {
+          "title": "الأجندة السنوية",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 546.140625,
+            "y": 146.46875,
+            "w": 515.90625,
+            "h": 337.859375
+          }
+        },
+        {
+          "title": "قرارات المجالس",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 546.140625,
+            "y": 507,
+            "w": 515.90625,
+            "h": 277.5625
+          }
+        },
+        {
+          "title": "التشريعات",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 546.140625,
+            "y": 807.234375,
+            "w": 515.90625,
+            "h": 297.8125
+          }
+        },
+        {
+          "title": "استراتيجية الأمانة العامة",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 546.140625,
+            "y": 1127.71875,
+            "w": 515.90625,
+            "h": 218.046875
+          }
+        },
+        {
+          "title": "المشاريع الخاصة",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 0,
+            "y": 146.46875,
+            "w": 515.90625,
+            "h": 330.40625
+          }
+        },
+        {
+          "title": "مشاريع بموازنة استراتيجية",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 0,
+            "y": 499.546875,
+            "w": 515.90625,
+            "h": 674.578125
+          }
+        }
+      ]
+    },
+    {
+      "name": "TEC_Monthly_Sep_26.pdf",
+      "pages": 3,
+      "layout": "a4",
+      "widthMM": 210,
+      "heightMM": 297,
+      "proof": {
+        "text": "التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026\nالقطاع: الكل · الوحدة التنظيمية: الكل\nمحافظ المتابعة التنفيذية\nالأجندة السنوية\n117\nالإجمالي\n↑ +3\nالأجندة المعتمدة\n100\n↓ −1\nالمواضيع المستجدة\n17\n↑ +4\nمنجز\n43\n↑ +3\nجاهز للعرض\n16\n↑ +3\nقيد العمل\n58\n↑ +2\n\nنسبة المنجز\n36.8%\n\nقرارات المجالس\n70\nالإجمالي\n↑ +5\nمنجز\n38\n↑ +3\nقيد العمل\n31\n↑ +2\n\nنسبة المنجز\n54.3%\n\nبدون حالة معتمدة: 1 · يشمل نطاق المتابعة فقط\n\nالتشريعات\n191\nالإجمالي\n↑ +25\nمنجز\n180\n↑ +16\nقيد العمل\n11\n↑ +9\nمنها متأخر\n2\n↑ +1\n\nنسبة المنجز\n94.2%\n\nاستراتيجية الأمانة العامة\nالمؤشرات المعتمدة / المؤشرات المقاسة\n54\n/\n39\n↑ +9\nمتوسط النتائج المقاسة\n83.2%\n↑ +0.7 نقطة مئوية\nمتوسط المستهدفات المعتمدة\n87.8%\nمحفظة المشاريع\nالمشاريع الخاصة\n62\nالإجمالي\n↑ +7\nللقيادة\n24\nمنجز\n12\nقيد العمل\n12\n\nنسبة المنجز\n50%\n\nللأمانة العامة\n36\n↑ +5\nمنجز\n10\n↑ +1\nقيد العمل\n26\n↑ +5\n\nنسبة المنجز\n27.8%\n\nمشاريع بموازنة استراتيجية\n84\nالإجمالي\n↑ +4\nمنجز\n10\n↑ +2\nقيد العمل\n61\n↑ +2\nمجمّد / ملغى\n4\n\nنسبة المنجز\n11.9%\n\nموعد الانتهاء حسب الربع\n2026\nالربع 1\n-\nالربع 2\n1\nالربع 3\n-\nالربع 4\n80\n↑ +4\n\nمشاريع 2027: 3\n\nالموازنة المعتمدة\nدرهم إماراتي\n58,275,000\n↓ −17,475,000\nالمنفق حسب الفواتير\n20,396,250\n↓ −2,566,957\nالمخصص\n46,620,000\n↑ +5,065,417\nغير المخصص\n11,655,000\n↓ −22,540,418\nبنود المتابعة\n8\nبنود\nمتأخر 2\nمجمّد 3\nملغى 1\nمنقول 2\nالمحفظة\tالبند\tمستوى الإنجاز\tالوحدة التنظيمية / القطاع\tالملاحظات\nالتشريعات\tتشريع توضيحي 075\t\nمتأخر\n\tالسياسات والاستراتيجيات الاقتصادية\nالاقتصاد والتنمية الاجتماعية\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nالتشريعات\tتشريع توضيحي 179\t\nمتأخر\n\tالحوكمة\nالحوكمة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 006\t\nمجمّد\n\tالاتصال الحكومي\nالاتصال الحكومي وشؤون الأمانة العامة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 076\t\nمجمّد\n\t\nالتنمية المستدامة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 082\t\nمجمّد\n\tالحوكمة\nالحوكمة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 049\t\nملغى\n\tالتقييم والدراسات\nالتميز والخدمات الحكومية\n\t\n\nملاحظة توضيحية: يتطلب البند مراجعة المستجدات وتأكيد الخطوة المقبلة مع الوحدة المعنية.\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 037\t\nمنقول\n\tالسياسات والاستراتيجيات الاجتماعية\nالاقتصاد والتنمية الاجتماعية\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 038\t\nمنقول\n\tالسياسات والاستراتيجيات الاجتماعية\nالاقتصاد والتنمية الاجتماعية\n\t\n\nلا توجد ملاحظة مسجلة",
+        "plan": [
+          {
+            "regions": [
+              {
+                "source": {
+                  "x": 0,
+                  "y": 0,
+                  "w": 718.109375,
+                  "h": 125.453125
+                },
+                "x": 0,
+                "y": 0
+              },
+              {
+                "source": {
+                  "x": 366.609375,
+                  "y": 144.34375,
+                  "w": 351.5,
+                  "h": 39.9375
+                },
+                "x": 366.609375,
+                "y": 144.34375
+              },
+              {
+                "source": {
+                  "x": 366.609375,
+                  "y": 184.28125,
+                  "w": 351.5,
+                  "h": 298.921875
+                },
+                "x": 366.609375,
+                "y": 184.28125
+              },
+              {
+                "source": {
+                  "x": 366.609375,
+                  "y": 494.53125,
+                  "w": 351.5,
+                  "h": 246.1875
+                },
+                "x": 366.609375,
+                "y": 494.53125
+              },
+              {
+                "source": {
+                  "x": 366.609375,
+                  "y": 752.046875,
+                  "w": 351.5,
+                  "h": 267.5625
+                },
+                "x": 366.609375,
+                "y": 752.046875
+              },
+              {
+                "source": {
+                  "x": 0,
+                  "y": 144.34375,
+                  "w": 351.5,
+                  "h": 39.9375
+                },
+                "x": 0,
+                "y": 144.34375
+              },
+              {
+                "source": {
+                  "x": 0,
+                  "y": 184.28125,
+                  "w": 351.5,
+                  "h": 291.46875
+                },
+                "x": 0,
+                "y": 184.28125
+              }
+            ]
+          },
+          {
+            "regions": [
+              {
+                "source": {
+                  "x": 366.609375,
+                  "y": 1030.9375,
+                  "w": 351.5,
+                  "h": 173.453125
+                },
+                "x": 366.609375,
+                "y": 0
+              },
+              {
+                "source": {
+                  "x": 0,
+                  "y": 487.078125,
+                  "w": 351.5,
+                  "h": 625.828125
+                },
+                "x": 0,
+                "y": 0
+              },
+              {
+                "source": {
+                  "x": 0,
+                  "y": 1219.5,
+                  "w": 718.109375,
+                  "h": 334.546875
+                },
+                "x": 0,
+                "y": 640.9375
+              }
+            ]
+          },
+          {
+            "regions": [
+              {
+                "source": {
+                  "x": 16.109375,
+                  "y": 1318.65625,
+                  "w": 685.890625,
+                  "h": 80.75
+                },
+                "x": 16.109375,
+                "y": 0
+              },
+              {
+                "source": {
+                  "x": 0,
+                  "y": 1554.046875,
+                  "w": 718.109375,
+                  "h": 834.109375
+                },
+                "x": 0,
+                "y": 80.75
+              }
+            ]
+          }
+        ],
+        "geometry": {
+          "widthMM": 210,
+          "contentWidthMM": 190,
+          "heightMM": 297,
+          "contentHeightPx": 2388.15625,
+          "layout": "a4",
+          "direction": "portrait"
+        },
+        "metrics": [
+          {
+            "key": "agendaTotal",
+            "text": "117",
+            "rect": {
+              "x": 378.9375,
+              "y": 196.609375,
+              "w": 60.703125,
+              "h": 44.78125
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "37.3333px",
+              "direction": "ltr"
+            }
+          },
+          {
+            "key": "agendaPlanned",
+            "text": "100",
+            "rect": {
+              "x": 555.578125,
+              "y": 281.1875,
+              "w": 47.109375,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "agendaEmerging",
+            "text": "17",
+            "rect": {
+              "x": 386.484375,
+              "y": 281.1875,
+              "w": 32.671875,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "agendaDone",
+            "text": "43",
+            "rect": {
+              "x": 604.390625,
+              "y": 371.15625,
+              "w": 101.390625,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(1, 131, 30)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "agendaReady",
+            "text": "16",
+            "rect": {
+              "x": 495.4375,
+              "y": 371.15625,
+              "w": 92.859375,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(17, 94, 103)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "agendaProgress",
+            "text": "58",
+            "rect": {
+              "x": 378.953125,
+              "y": 371.15625,
+              "w": 100.390625,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "councilTotal",
+            "text": "70",
+            "rect": {
+              "x": 378.9375,
+              "y": 506.859375,
+              "w": 40.46875,
+              "h": 44.78125
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "37.3333px",
+              "direction": "ltr"
+            }
+          },
+          {
+            "key": "councilDone",
+            "text": "38",
+            "rect": {
+              "x": 549.90625,
+              "y": 606.84375,
+              "w": 155.875,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(1, 131, 30)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "councilProgress",
+            "text": "31",
+            "rect": {
+              "x": 378.9375,
+              "y": 606.84375,
+              "w": 154.875,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "councilNoStatus",
+            "text": "1",
+            "rect": {
+              "x": 615,
+              "y": 708.203125,
+              "w": 6.484375,
+              "h": 21
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC Dubai\", sans-serif",
+              "size": "12px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "legTotal",
+            "text": "191",
+            "rect": {
+              "x": 378.9375,
+              "y": 764.375,
+              "w": 60.703125,
+              "h": 44.78125
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "37.3333px",
+              "direction": "ltr"
+            }
+          },
+          {
+            "key": "legDone",
+            "text": "180",
+            "rect": {
+              "x": 549.90625,
+              "y": 864.359375,
+              "w": 155.875,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(1, 131, 30)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "legProgress",
+            "text": "11",
+            "rect": {
+              "x": 378.9375,
+              "y": 864.359375,
+              "w": 154.875,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "legLate",
+            "text": "2",
+            "rect": {
+              "x": 466.640625,
+              "y": 936.203125,
+              "w": 14.453125,
+              "h": 32
+            },
+            "style": {
+              "color": "rgb(192, 0, 0)",
+              "font": "\"TEC DIN LT\", \"TEC DIN\", \"TEC Dubai\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "kpiAvg",
+            "text": "83.2%",
+            "rect": {
+              "x": 487.6875,
+              "y": 1118.71875,
+              "w": 100.609375,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "kpiTargeted",
+            "text": "87.8%",
+            "rect": {
+              "x": 378.953125,
+              "y": 1118.71875,
+              "w": 100.390625,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "specialTotal",
+            "text": "62",
+            "rect": {
+              "x": 12.328125,
+              "y": 196.609375,
+              "w": 40.46875,
+              "h": 44.78125
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "37.3333px",
+              "direction": "ltr"
+            }
+          },
+          {
+            "key": "specialLead",
+            "text": "24",
+            "rect": {
+              "x": 181.421875,
+              "y": 275.53125,
+              "w": 28.90625,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(117, 107, 95)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "specialLeadDone",
+            "text": "12",
+            "rect": {
+              "x": 265.953125,
+              "y": 363.703125,
+              "w": 67.5625,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(1, 131, 30)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "specialLeadProgress",
+            "text": "12",
+            "rect": {
+              "x": 187.078125,
+              "y": 363.703125,
+              "w": 66.5625,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "specialGs",
+            "text": "36",
+            "rect": {
+              "x": 12.328125,
+              "y": 275.53125,
+              "w": 28.90625,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(117, 107, 95)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "specialGsDone",
+            "text": "10",
+            "rect": {
+              "x": 90.703125,
+              "y": 363.703125,
+              "w": 61.40625,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(1, 131, 30)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "specialGsProgress",
+            "text": "26",
+            "rect": {
+              "x": 17.984375,
+              "y": 363.703125,
+              "w": 60.40625,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "secTotal",
+            "text": "84",
+            "rect": {
+              "x": 12.328125,
+              "y": 499.40625,
+              "w": 40.46875,
+              "h": 44.78125
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "37.3333px",
+              "direction": "ltr"
+            }
+          },
+          {
+            "key": "secDone",
+            "text": "10",
+            "rect": {
+              "x": 237.78125,
+              "y": 599.390625,
+              "w": 101.390625,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(1, 131, 30)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "secActive",
+            "text": "61",
+            "rect": {
+              "x": 128.828125,
+              "y": 599.390625,
+              "w": 92.859375,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "secHeld",
+            "text": "4",
+            "rect": {
+              "x": 12.34375,
+              "y": 599.390625,
+              "w": 100.390625,
+              "h": 40
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "32px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "secQ1",
+            "text": "-",
+            "rect": {
+              "x": 265.46875,
+              "y": 756.671875,
+              "w": 69.9375,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "secQ2",
+            "text": "1",
+            "rect": {
+              "x": 182.34375,
+              "y": 756.671875,
+              "w": 69.9375,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "secQ3",
+            "text": "-",
+            "rect": {
+              "x": 99.21875,
+              "y": 756.671875,
+              "w": 69.9375,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "secQ4",
+            "text": "80",
+            "rect": {
+              "x": 16.09375,
+              "y": 756.671875,
+              "w": 69.9375,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "budApproved",
+            "text": "58,275,000",
+            "rect": {
+              "x": 12.328125,
+              "y": 851.78125,
+              "w": 179.03125,
+              "h": 55
+            },
+            "style": {
+              "color": "rgb(51, 51, 51)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "37.3333px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "budSpent",
+            "text": "20,396,250",
+            "rect": {
+              "x": 12.328125,
+              "y": 932.921875,
+              "w": 127.84375,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "budAllocated",
+            "text": "46,620,000",
+            "rect": {
+              "x": 183.3125,
+              "y": 1030.484375,
+              "w": 155.859375,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          },
+          {
+            "key": "budUnallocated",
+            "text": "11,655,000",
+            "rect": {
+              "x": 12.328125,
+              "y": 1030.484375,
+              "w": 155.875,
+              "h": 33.328125
+            },
+            "style": {
+              "color": "rgb(79, 78, 78)",
+              "font": "\"TEC DIN LT\", sans-serif",
+              "size": "26.6667px",
+              "direction": "rtl"
+            }
+          }
+        ],
+        "cards": [
+          {
+            "cls": "mp-card mp-agenda",
+            "title": "الأجندة السنوية",
+            "rect": {
+              "x": 366.609375,
+              "y": 184.28125,
+              "w": 351.5,
+              "h": 298.921875
+            },
+            "text": "الأجندة السنوية117الإجمالي↑ +3الأجندة المعتمدة100↓ −1المواضيع المستجدة17↑ +4منجز43↑ +3جاهز للعرض16↑ +3قيد العمل58↑ +2نسبة المنجز36.8%",
+            "metrics": [
+              {
+                "key": "agendaTotal",
+                "text": "117",
+                "rect": {
+                  "x": 378.9375,
+                  "y": 196.609375,
+                  "w": 60.703125,
+                  "h": 44.78125
+                }
+              },
+              {
+                "key": "agendaPlanned",
+                "text": "100",
+                "rect": {
+                  "x": 555.578125,
+                  "y": 281.1875,
+                  "w": 47.109375,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "agendaEmerging",
+                "text": "17",
+                "rect": {
+                  "x": 386.484375,
+                  "y": 281.1875,
+                  "w": 32.671875,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "agendaDone",
+                "text": "43",
+                "rect": {
+                  "x": 604.390625,
+                  "y": 371.15625,
+                  "w": 101.390625,
+                  "h": 40
+                }
+              },
+              {
+                "key": "agendaReady",
+                "text": "16",
+                "rect": {
+                  "x": 495.4375,
+                  "y": 371.15625,
+                  "w": 92.859375,
+                  "h": 40
+                }
+              },
+              {
+                "key": "agendaProgress",
+                "text": "58",
+                "rect": {
+                  "x": 378.953125,
+                  "y": 371.15625,
+                  "w": 100.390625,
+                  "h": 40
+                }
+              }
+            ]
+          },
+          {
+            "cls": "mp-card mp-council",
+            "title": "قرارات المجالس",
+            "rect": {
+              "x": 366.609375,
+              "y": 494.53125,
+              "w": 351.5,
+              "h": 246.1875
+            },
+            "text": "قرارات المجالس70الإجمالي↑ +5منجز38↑ +3قيد العمل31↑ +2نسبة المنجز54.3%بدون حالة معتمدة: 1 · يشمل نطاق المتابعة فقط",
+            "metrics": [
+              {
+                "key": "councilTotal",
+                "text": "70",
+                "rect": {
+                  "x": 378.9375,
+                  "y": 506.859375,
+                  "w": 40.46875,
+                  "h": 44.78125
+                }
+              },
+              {
+                "key": "councilDone",
+                "text": "38",
+                "rect": {
+                  "x": 549.90625,
+                  "y": 606.84375,
+                  "w": 155.875,
+                  "h": 40
+                }
+              },
+              {
+                "key": "councilProgress",
+                "text": "31",
+                "rect": {
+                  "x": 378.9375,
+                  "y": 606.84375,
+                  "w": 154.875,
+                  "h": 40
+                }
+              },
+              {
+                "key": "councilNoStatus",
+                "text": "1",
+                "rect": {
+                  "x": 615,
+                  "y": 708.203125,
+                  "w": 6.484375,
+                  "h": 21
+                }
+              }
+            ]
+          },
+          {
+            "cls": "mp-card mp-legislation",
+            "title": "التشريعات",
+            "rect": {
+              "x": 366.609375,
+              "y": 752.046875,
+              "w": 351.5,
+              "h": 267.5625
+            },
+            "text": "التشريعات191الإجمالي↑ +25منجز180↑ +16قيد العمل11↑ +9منها متأخر2↑ +1نسبة المنجز94.2%",
+            "metrics": [
+              {
+                "key": "legTotal",
+                "text": "191",
+                "rect": {
+                  "x": 378.9375,
+                  "y": 764.375,
+                  "w": 60.703125,
+                  "h": 44.78125
+                }
+              },
+              {
+                "key": "legDone",
+                "text": "180",
+                "rect": {
+                  "x": 549.90625,
+                  "y": 864.359375,
+                  "w": 155.875,
+                  "h": 40
+                }
+              },
+              {
+                "key": "legProgress",
+                "text": "11",
+                "rect": {
+                  "x": 378.9375,
+                  "y": 864.359375,
+                  "w": 154.875,
+                  "h": 40
+                }
+              },
+              {
+                "key": "legLate",
+                "text": "2",
+                "rect": {
+                  "x": 466.640625,
+                  "y": 936.203125,
+                  "w": 14.453125,
+                  "h": 32
+                }
+              }
+            ]
+          },
+          {
+            "cls": "mp-card mp-strategy",
+            "title": "استراتيجية الأمانة العامة",
+            "rect": {
+              "x": 366.609375,
+              "y": 1030.9375,
+              "w": 351.5,
+              "h": 173.453125
+            },
+            "text": "استراتيجية الأمانة العامةالمؤشرات المعتمدة / المؤشرات المقاسة54/39↑ +9متوسط النتائج المقاسة83.2%↑ +0.7 نقطة مئويةمتوسط المستهدفات المعتمدة87.8%",
+            "metrics": [
+              {
+                "key": "kpiAvg",
+                "text": "83.2%",
+                "rect": {
+                  "x": 487.6875,
+                  "y": 1118.71875,
+                  "w": 100.609375,
+                  "h": 40
+                }
+              },
+              {
+                "key": "kpiTargeted",
+                "text": "87.8%",
+                "rect": {
+                  "x": 378.953125,
+                  "y": 1118.71875,
+                  "w": 100.390625,
+                  "h": 40
+                }
+              }
+            ]
+          },
+          {
+            "cls": "mp-card mp-special",
+            "title": "المشاريع الخاصة",
+            "rect": {
+              "x": 0,
+              "y": 184.28125,
+              "w": 351.5,
+              "h": 291.46875
+            },
+            "text": "المشاريع الخاصة62الإجمالي↑ +7للقيادة24منجز12قيد العمل12نسبة المنجز50%للأمانة العامة36↑ +5منجز10↑ +1قيد العمل26↑ +5نسبة المنجز27.8%",
+            "metrics": [
+              {
+                "key": "specialTotal",
+                "text": "62",
+                "rect": {
+                  "x": 12.328125,
+                  "y": 196.609375,
+                  "w": 40.46875,
+                  "h": 44.78125
+                }
+              },
+              {
+                "key": "specialLead",
+                "text": "24",
+                "rect": {
+                  "x": 181.421875,
+                  "y": 275.53125,
+                  "w": 28.90625,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "specialLeadDone",
+                "text": "12",
+                "rect": {
+                  "x": 265.953125,
+                  "y": 363.703125,
+                  "w": 67.5625,
+                  "h": 40
+                }
+              },
+              {
+                "key": "specialLeadProgress",
+                "text": "12",
+                "rect": {
+                  "x": 187.078125,
+                  "y": 363.703125,
+                  "w": 66.5625,
+                  "h": 40
+                }
+              },
+              {
+                "key": "specialGs",
+                "text": "36",
+                "rect": {
+                  "x": 12.328125,
+                  "y": 275.53125,
+                  "w": 28.90625,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "specialGsDone",
+                "text": "10",
+                "rect": {
+                  "x": 90.703125,
+                  "y": 363.703125,
+                  "w": 61.40625,
+                  "h": 40
+                }
+              },
+              {
+                "key": "specialGsProgress",
+                "text": "26",
+                "rect": {
+                  "x": 17.984375,
+                  "y": 363.703125,
+                  "w": 60.40625,
+                  "h": 40
+                }
+              }
+            ]
+          },
+          {
+            "cls": "mp-card mp-secretariat",
+            "title": "مشاريع بموازنة استراتيجية",
+            "rect": {
+              "x": 0,
+              "y": 487.078125,
+              "w": 351.5,
+              "h": 625.828125
+            },
+            "text": "مشاريع بموازنة استراتيجية84الإجمالي↑ +4منجز10↑ +2قيد العمل61↑ +2مجمّد / ملغى4نسبة المنجز11.9%موعد الانتهاء حسب الربع 2026الربع 1-الربع 21الربع 3-الربع 480↑ +4مشاريع 2027: 3الموازنة المعتمدةدرهم إماراتي58,275,000↓ −17,475,000المنفق حسب الفواتير20,396,250↓ −2,566,957المخصص46,620,000↑ +5,065,417غير المخصص11,655,000↓ −22,540,418",
+            "metrics": [
+              {
+                "key": "secTotal",
+                "text": "84",
+                "rect": {
+                  "x": 12.328125,
+                  "y": 499.40625,
+                  "w": 40.46875,
+                  "h": 44.78125
+                }
+              },
+              {
+                "key": "secDone",
+                "text": "10",
+                "rect": {
+                  "x": 237.78125,
+                  "y": 599.390625,
+                  "w": 101.390625,
+                  "h": 40
+                }
+              },
+              {
+                "key": "secActive",
+                "text": "61",
+                "rect": {
+                  "x": 128.828125,
+                  "y": 599.390625,
+                  "w": 92.859375,
+                  "h": 40
+                }
+              },
+              {
+                "key": "secHeld",
+                "text": "4",
+                "rect": {
+                  "x": 12.34375,
+                  "y": 599.390625,
+                  "w": 100.390625,
+                  "h": 40
+                }
+              },
+              {
+                "key": "secQ1",
+                "text": "-",
+                "rect": {
+                  "x": 265.46875,
+                  "y": 756.671875,
+                  "w": 69.9375,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "secQ2",
+                "text": "1",
+                "rect": {
+                  "x": 182.34375,
+                  "y": 756.671875,
+                  "w": 69.9375,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "secQ3",
+                "text": "-",
+                "rect": {
+                  "x": 99.21875,
+                  "y": 756.671875,
+                  "w": 69.9375,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "secQ4",
+                "text": "80",
+                "rect": {
+                  "x": 16.09375,
+                  "y": 756.671875,
+                  "w": 69.9375,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "budApproved",
+                "text": "58,275,000",
+                "rect": {
+                  "x": 12.328125,
+                  "y": 851.78125,
+                  "w": 179.03125,
+                  "h": 55
+                }
+              },
+              {
+                "key": "budSpent",
+                "text": "20,396,250",
+                "rect": {
+                  "x": 12.328125,
+                  "y": 932.921875,
+                  "w": 127.84375,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "budAllocated",
+                "text": "46,620,000",
+                "rect": {
+                  "x": 183.3125,
+                  "y": 1030.484375,
+                  "w": 155.859375,
+                  "h": 33.328125
+                }
+              },
+              {
+                "key": "budUnallocated",
+                "text": "11,655,000",
+                "rect": {
+                  "x": 12.328125,
+                  "y": 1030.484375,
+                  "w": 155.875,
+                  "h": 33.328125
+                }
+              }
+            ]
+          }
+        ],
+        "columns": [
+          {
+            "cls": "mp-executive-column",
+            "rect": {
+              "x": 366.609375,
+              "y": 144.34375,
+              "w": 351.5,
+              "h": 1060.046875
+            }
+          },
+          {
+            "cls": "mp-project-column",
+            "rect": {
+              "x": 0,
+              "y": 144.34375,
+              "w": 351.5,
+              "h": 968.5625
+            }
+          }
+        ],
+        "header": {
+          "text": "التقرير الشهري للأداء والتنفيذ - لتاريخ 30/09/2026\nالقطاع: الكل · الوحدة التنظيمية: الكل",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 718.109375,
+            "h": 125.453125
+          }
+        },
+        "followRows": [
+          {
+            "key": "legislation-76",
+            "text": "التشريعاتتشريع توضيحي 075متأخرالسياسات والاستراتيجيات الاقتصاديةالاقتصاد والتنمية الاجتماعيةلا توجد ملاحظة مسجلة",
+            "rect": {
+              "x": 16.109375,
+              "y": 1399.40625,
+              "w": 685.890625,
+              "h": 154.640625
+            }
+          },
+          {
+            "key": "legislation-180",
+            "text": "التشريعاتتشريع توضيحي 179متأخرالحوكمةالحوكمةلا توجد ملاحظة مسجلة",
+            "rect": {
+              "x": 16.109375,
+              "y": 1554.046875,
+              "w": 685.890625,
+              "h": 77.859375
+            }
+          },
+          {
+            "key": "secretariat-7",
+            "text": "مشاريع بموازنة استراتيجيةمشروع استراتيجي توضيحي 006مجمّدالاتصال الحكوميالاتصال الحكومي وشؤون الأمانة العامةلا توجد ملاحظة مسجلة",
+            "rect": {
+              "x": 16.109375,
+              "y": 1631.90625,
+              "w": 685.890625,
+              "h": 103.453125
+            }
+          },
+          {
+            "key": "secretariat-77",
+            "text": "مشاريع بموازنة استراتيجيةمشروع استراتيجي توضيحي 076مجمّدالتنمية المستدامةلا توجد ملاحظة مسجلة",
+            "rect": {
+              "x": 16.109375,
+              "y": 1735.359375,
+              "w": 685.890625,
+              "h": 100.4375
+            }
+          },
+          {
+            "key": "secretariat-83",
+            "text": "مشاريع بموازنة استراتيجيةمشروع استراتيجي توضيحي 082مجمّدالحوكمةالحوكمةلا توجد ملاحظة مسجلة",
+            "rect": {
+              "x": 16.109375,
+              "y": 1835.796875,
+              "w": 685.890625,
+              "h": 100.4375
+            }
+          },
+          {
+            "key": "secretariat-50",
+            "text": "مشاريع بموازنة استراتيجيةمشروع استراتيجي توضيحي 049ملغىالتقييم والدراساتالتميز والخدمات الحكوميةملاحظة توضيحية: يتطلب البند مراجعة المستجدات وتأكيد الخطوة المقبلة مع الوحدة المعنية.",
+            "rect": {
+              "x": 16.109375,
+              "y": 1936.234375,
+              "w": 685.890625,
+              "h": 126.03125
+            }
+          },
+          {
+            "key": "secretariat-38",
+            "text": "مشاريع بموازنة استراتيجيةمشروع استراتيجي توضيحي 037منقولالسياسات والاستراتيجيات الاجتماعيةالاقتصاد والتنمية الاجتماعيةلا توجد ملاحظة مسجلة",
+            "rect": {
+              "x": 16.109375,
+              "y": 2062.265625,
+              "w": 685.890625,
+              "h": 154.640625
+            }
+          },
+          {
+            "key": "secretariat-39",
+            "text": "مشاريع بموازنة استراتيجيةمشروع استراتيجي توضيحي 038منقولالسياسات والاستراتيجيات الاجتماعيةالاقتصاد والتنمية الاجتماعيةلا توجد ملاحظة مسجلة",
+            "rect": {
+              "x": 16.109375,
+              "y": 2216.90625,
+              "w": 685.890625,
+              "h": 154.640625
+            }
+          }
+        ],
+        "following": "بنود المتابعة\n8\nبنود\nمتأخر 2\nمجمّد 3\nملغى 1\nمنقول 2\nالمحفظة\tالبند\tمستوى الإنجاز\tالوحدة التنظيمية / القطاع\tالملاحظات\nالتشريعات\tتشريع توضيحي 075\t\nمتأخر\n\tالسياسات والاستراتيجيات الاقتصادية\nالاقتصاد والتنمية الاجتماعية\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nالتشريعات\tتشريع توضيحي 179\t\nمتأخر\n\tالحوكمة\nالحوكمة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 006\t\nمجمّد\n\tالاتصال الحكومي\nالاتصال الحكومي وشؤون الأمانة العامة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 076\t\nمجمّد\n\t\nالتنمية المستدامة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 082\t\nمجمّد\n\tالحوكمة\nالحوكمة\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 049\t\nملغى\n\tالتقييم والدراسات\nالتميز والخدمات الحكومية\n\t\n\nملاحظة توضيحية: يتطلب البند مراجعة المستجدات وتأكيد الخطوة المقبلة مع الوحدة المعنية.\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 037\t\nمنقول\n\tالسياسات والاستراتيجيات الاجتماعية\nالاقتصاد والتنمية الاجتماعية\n\t\n\nلا توجد ملاحظة مسجلة\n\n\nمشاريع بموازنة استراتيجية\tمشروع استراتيجي توضيحي 038\t\nمنقول\n\tالسياسات والاستراتيجيات الاجتماعية\nالاقتصاد والتنمية الاجتماعية\n\t\n\nلا توجد ملاحظة مسجلة",
+        "ops": 422,
+        "lines": 235
+      },
+      "sha256": "acbba98beb68e786cd627a39bdf608492e65cef69f5b61614cc0112c90e70f08",
+      "cardPageMapping": [
+        {
+          "title": "الأجندة السنوية",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 366.609375,
+            "y": 184.28125,
+            "w": 351.5,
+            "h": 298.921875
+          }
+        },
+        {
+          "title": "قرارات المجالس",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 366.609375,
+            "y": 494.53125,
+            "w": 351.5,
+            "h": 246.1875
+          }
+        },
+        {
+          "title": "التشريعات",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 366.609375,
+            "y": 752.046875,
+            "w": 351.5,
+            "h": 267.5625
+          }
+        },
+        {
+          "title": "استراتيجية الأمانة العامة",
+          "pages": [
+            2
+          ],
+          "rect": {
+            "x": 366.609375,
+            "y": 1030.9375,
+            "w": 351.5,
+            "h": 173.453125
+          }
+        },
+        {
+          "title": "المشاريع الخاصة",
+          "pages": [
+            1
+          ],
+          "rect": {
+            "x": 0,
+            "y": 184.28125,
+            "w": 351.5,
+            "h": 291.46875
+          }
+        },
+        {
+          "title": "مشاريع بموازنة استراتيجية",
+          "pages": [
+            2
+          ],
+          "rect": {
+            "x": 0,
+            "y": 487.078125,
+            "w": 351.5,
+            "h": 625.828125
+          }
+        }
+      ]
+    }
+  ],
+  "source": {
+    "path": "/workspace/saytara-work/monthly-apple-preview/ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "unchanged": true
+  },
+  "screen": {
+    "n": {
+      "agendaTotal": 117,
+      "agendaPlanned": 100,
+      "agendaEmerging": 17,
+      "agendaProgress": 58,
+      "agendaReady": 16,
+      "agendaDone": 43,
+      "agendaLate": 0,
+      "agendaNoStatus": 0,
+      "councilTotal": 70,
+      "councilProgress": 31,
+      "councilDone": 38,
+      "councilLate": 0,
+      "councilNoStatus": 1,
+      "councilExcluded": 94,
+      "legTotal": 191,
+      "legProgress": 11,
+      "legPending": 9,
+      "legOnTime": 152,
+      "legOverrun": 28,
+      "legDone": 180,
+      "legLate": 2,
+      "legNoStatus": 0,
+      "specialTotal": 62,
+      "specialLead": 24,
+      "specialGs": 36,
+      "specialDone": 23,
+      "specialLate": 0,
+      "specialProgress": 39,
+      "specialLeadDone": 12,
+      "specialLeadLate": 0,
+      "specialLeadOpen": 12,
+      "specialGsDone": 10,
+      "specialGsLate": 0,
+      "specialGsOpen": 26,
+      "specialNoRequester": 2,
+      "specialLeadProgress": 12,
+      "specialGsProgress": 26,
+      "secTotal": 84,
+      "secActive": 61,
+      "secHeld": 4,
+      "secDone": 10,
+      "secNotStarted": 7,
+      "secNoStatus": 0,
+      "secTransferred": 2,
+      "secLate": 0,
+      "secQ1": 0,
+      "secQ2": 1,
+      "secQ3": 0,
+      "secQ4": 80,
+      "secNoQuarter": 3,
+      "secBudget": 84,
+      "kpiTotal": 54,
+      "kpiMeasured": 39,
+      "kpiNotMeasured": 15,
+      "kpiTargeted": 49,
+      "secRevised": 84,
+      "secCommitted": 84,
+      "secNonCommitted": 84,
+      "secSpent": 84,
+      "allLate": 2,
+      "follow": 8
+    },
+    "source": {
+      "today": 46295,
+      "year": 2026
+    },
+    "cards": [
+      {
+        "cls": "wb-card wb-agenda",
+        "title": "الأجندة السنوية",
+        "rect": {
+          "x": 732,
+          "y": 425.96875,
+          "w": 660,
+          "h": 425.15625
+        },
+        "text": "الأجندة السنوية\nالإجمالي\n117\n↑ +3\nالأجندة المعتمدة\n100\n↓ −1\nالمواضيع المستجدة\n17\n↑ +4\nمنجز\n43\n↑ +3\nجاهز للعرض\n16\n↑ +3\nقيد العمل\n58\n↑ +2\n\nنسبة المنجز\n36.8%"
+      },
+      {
+        "cls": "wb-card wb-council",
+        "title": "قرارات المجالس",
+        "rect": {
+          "x": 732,
+          "y": 867.125,
+          "w": 660,
+          "h": 366.5625
+        },
+        "text": "قرارات المجالس\nالإجمالي\n70\n↑ +5\nمنجز\n38\n↑ +3\nقيد العمل\n31\n↑ +2\n\nنسبة المنجز\n54.3%\n\nبدون حالة معتمدة: 1\n\nيشمل نطاق المتابعة فقط"
+      },
+      {
+        "cls": "wb-card wb-legislation",
+        "title": "التشريعات",
+        "rect": {
+          "x": 732,
+          "y": 1249.6875,
+          "w": 660,
+          "h": 399.765625
+        },
+        "text": "التشريعات\nالإجمالي\n191\n↑ +25\nمنجز\n180\n↑ +16\nقيد العمل\n11\n↑ +9\nمنها متأخر\n2\n↑ +1\n\nنسبة المنجز\n94.2%"
+      },
+      {
+        "cls": "wb-card wb-strategy",
+        "title": "استراتيجية الأمانة العامة",
+        "rect": {
+          "x": 732,
+          "y": 1665.453125,
+          "w": 660,
+          "h": 257.375
+        },
+        "text": "استراتيجية الأمانة العامة\nالمؤشرات المعتمدة / المؤشرات المقاسة\n54\n/\n39\n↑ +9\nمتوسط النتائج المقاسة\n83.2%\n↑ +0.7\nنقطة مئوية\nمتوسط المستهدفات المعتمدة\n87.8%"
+      },
+      {
+        "cls": "wb-card wb-special",
+        "title": "المشاريع الخاصة",
+        "rect": {
+          "x": 48,
+          "y": 425.96875,
+          "w": 660,
+          "h": 474.765625
+        },
+        "text": "المشاريع الخاصة\nالإجمالي\n62\n↑ +7\nللقيادة\n24\nمنجز\n12\nقيد العمل\n12\n\nنسبة المنجز\n50%\n\nللأمانة العامة\n36\n↑ +5\nمنجز\n10\n↑ +1\nقيد العمل\n26\n↑ +5\n\nنسبة المنجز\n27.8%\n\ni\nجهة الطلب غير مسجلة: 2 · مشمولة في الإجمالي"
+      },
+      {
+        "cls": "wb-card wb-secretariat",
+        "title": "مشاريع بموازنة استراتيجية",
+        "rect": {
+          "x": 48,
+          "y": 916.734375,
+          "w": 660,
+          "h": 885.140625
+        },
+        "text": "مشاريع بموازنة استراتيجية\nالإجمالي\n84\n↑ +4\nمنجز\n10\n↑ +2\nقيد العمل\n61\n↑ +2\nمجمّد / ملغى\n4\n\nنسبة المنجز\n11.9%\n\nموعد الانتهاء حسب الربع\n2026\nربع 1\n-\nربع 2\n1\nربع 3\n-\nربع 4\n80\n↑ +4\n\nمشاريع 2027: 3\n\nالموازنة المعتمدة\nدرهم إماراتي\n58,275,000\n↓ −17,475,000\nالمنفق حسب الفواتير\n20,396,250\n↓ −2,566,957\nالمخصص\n46,620,000\n↑ +5,065,417\nغير المخصص\n11,655,000\n↓ −22,540,418"
+      }
+    ],
+    "metrics": [
+      {
+        "key": "agendaTotal",
+        "text": "117",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "agendaDone",
+        "text": "43",
+        "color": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "agendaReady",
+        "text": "16",
+        "color": "rgb(17, 94, 103)"
+      },
+      {
+        "key": "agendaProgress",
+        "text": "58",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "councilTotal",
+        "text": "70",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "councilDone",
+        "text": "38",
+        "color": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "councilProgress",
+        "text": "31",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "legTotal",
+        "text": "191",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "legDone",
+        "text": "180",
+        "color": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "legProgress",
+        "text": "11",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "legLate",
+        "text": "2",
+        "color": "rgb(192, 0, 0)"
+      },
+      {
+        "key": "kpiTotal",
+        "text": "54/39",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "kpiMeasured",
+        "text": "83.2%",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "kpiTargeted",
+        "text": "87.8%",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "specialTotal",
+        "text": "62",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "specialLead",
+        "text": "24",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "specialLeadDone",
+        "text": "12",
+        "color": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "specialLeadProgress",
+        "text": "12",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "specialGs",
+        "text": "36",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "specialGsDone",
+        "text": "10",
+        "color": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "specialGsProgress",
+        "text": "26",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "secTotal",
+        "text": "84",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "secDone",
+        "text": "10",
+        "color": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "secActive",
+        "text": "61",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "secHeld",
+        "text": "4",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "secQ1",
+        "text": "-",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "secQ2",
+        "text": "1",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "secQ3",
+        "text": "-",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "secQ4",
+        "text": "80",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "secRevised",
+        "text": "58,275,000",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "secSpent",
+        "text": "20,396,250",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "secCommitted",
+        "text": "46,620,000",
+        "color": "rgb(51, 51, 51)"
+      },
+      {
+        "key": "secNonCommitted",
+        "text": "11,655,000",
+        "color": "rgb(51, 51, 51)"
+      }
+    ],
+    "text": "محافظ المتابعة التنفيذية\nالأجندة السنوية\nالإجمالي\n117\n↑ +3\nالأجندة المعتمدة\n100\n↓ −1\nالمواضيع المستجدة\n17\n↑ +4\nمنجز\n43\n↑ +3\nجاهز للعرض\n16\n↑ +3\nقيد العمل\n58\n↑ +2\n\nنسبة المنجز\n36.8%\n\nقرارات المجالس\nالإجمالي\n70\n↑ +5\nمنجز\n38\n↑ +3\nقيد العمل\n31\n↑ +2\n\nنسبة المنجز\n54.3%\n\nبدون حالة معتمدة: 1\n\nيشمل نطاق المتابعة فقط\n\nالتشريعات\nالإجمالي\n191\n↑ +25\nمنجز\n180\n↑ +16\nقيد العمل\n11\n↑ +9\nمنها متأخر\n2\n↑ +1\n\nنسبة المنجز\n94.2%\n\nاستراتيجية الأمانة العامة\nالمؤشرات المعتمدة / المؤشرات المقاسة\n54\n/\n39\n↑ +9\nمتوسط النتائج المقاسة\n83.2%\n↑ +0.7\nنقطة مئوية\nمتوسط المستهدفات المعتمدة\n87.8%\nمحفظة المشاريع\nالمشاريع الخاصة\nالإجمالي\n62\n↑ +7\nللقيادة\n24\nمنجز\n12\nقيد العمل\n12\n\nنسبة المنجز\n50%\n\nللأمانة العامة\n36\n↑ +5\nمنجز\n10\n↑ +1\nقيد العمل\n26\n↑ +5\n\nنسبة المنجز\n27.8%\n\ni\nجهة الطلب غير مسجلة: 2 · مشمولة في الإجمالي\n\nمشاريع بموازنة استراتيجية\nالإجمالي\n84\n↑ +4\nمنجز\n10\n↑ +2\nقيد العمل\n61\n↑ +2\nمجمّد / ملغى\n4\n\nنسبة المنجز\n11.9%\n\nموعد الانتهاء حسب الربع\n2026\nربع 1\n-\nربع 2\n1\nربع 3\n-\nربع 4\n80\n↑ +4\n\nمشاريع 2027: 3\n\nالموازنة المعتمدة\nدرهم إماراتي\n58,275,000\n↓ −17,475,000\nالمنفق حسب الفواتير\n20,396,250\n↓ −2,566,957\nالمخصص\n46,620,000\n↑ +5,065,417\nغير المخصص\n11,655,000\n↓ −22,540,418"
+  },
+  "runtimeHashes": {
+    "assets/js/app-bundle.js": "b64869ed1e456265faf5e679a0e7757618234185197c43f00e8cfbb9b2658b4c",
+    "assets/css/app-bundle.css": "85f803fec7a85da7cc73a51c8cfa47a06fdf56a9161cfbf9e907715f898addd8",
+    "assets/css/print-measure-bundle.css": "79a00c0ebf2c15120229f80e042e46eefec346f043b1353be3883101a8f060f2",
+    "assets/js/lib/offline-pdf-engine.js": "647b32e4d4481fbc4df6edfa77ac71853131448ea4602d6b054f713ef6ee7069"
+  },
+  "loadedAssetHashes": {
+    "app-bundle.css": "85f803fec7a85da7cc73a51c8cfa47a06fdf56a9161cfbf9e907715f898addd8",
+    "app-bundle.js": "b64869ed1e456265faf5e679a0e7757618234185197c43f00e8cfbb9b2658b4c",
+    "print-measure-bundle.css": "79a00c0ebf2c15120229f80e042e46eefec346f043b1353be3883101a8f060f2"
+  },
+  "screenStatusStyles": [
+    {
+      "key": "agendaDone",
+      "label": "منجز",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(1, 131, 30)"
+    },
+    {
+      "key": "agendaReady",
+      "label": "جاهز للعرض",
+      "labelColor": "rgb(17, 94, 103)",
+      "valueColor": "rgb(17, 94, 103)"
+    },
+    {
+      "key": "agendaProgress",
+      "label": "قيد العمل",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(51, 51, 51)"
+    },
+    {
+      "key": "councilDone",
+      "label": "منجز",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(1, 131, 30)"
+    },
+    {
+      "key": "councilProgress",
+      "label": "قيد العمل",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(51, 51, 51)"
+    },
+    {
+      "key": "legDone",
+      "label": "منجز",
+      "labelColor": "rgb(1, 131, 30)",
+      "valueColor": "rgb(1, 131, 30)"
+    },
+    {
+      "key": "legProgress",
+      "label": "قيد العمل",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(51, 51, 51)"
+    },
+    {
+      "key": "kpiTotal",
+      "label": "المؤشرات المعتمدة / المؤشرات المقاسة",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(51, 51, 51)"
+    },
+    {
+      "key": "kpiMeasured",
+      "label": "متوسط النتائج المقاسة",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(51, 51, 51)"
+    },
+    {
+      "key": "kpiTargeted",
+      "label": "متوسط المستهدفات المعتمدة",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(51, 51, 51)"
+    },
+    {
+      "key": "specialLeadDone",
+      "label": "منجز",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(1, 131, 30)"
+    },
+    {
+      "key": "specialLeadProgress",
+      "label": "قيد العمل",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(51, 51, 51)"
+    },
+    {
+      "key": "specialGsDone",
+      "label": "منجز",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(1, 131, 30)"
+    },
+    {
+      "key": "specialGsProgress",
+      "label": "قيد العمل",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(51, 51, 51)"
+    },
+    {
+      "key": "secDone",
+      "label": "منجز",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(1, 131, 30)"
+    },
+    {
+      "key": "secActive",
+      "label": "قيد العمل",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(51, 51, 51)"
+    },
+    {
+      "key": "secHeld",
+      "label": "مجمّد / ملغى",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(51, 51, 51)"
+    },
+    {
+      "key": "secQ1",
+      "label": "ربع 1",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(51, 51, 51)"
+    },
+    {
+      "key": "secQ2",
+      "label": "ربع 2",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(51, 51, 51)"
+    },
+    {
+      "key": "secQ3",
+      "label": "ربع 3",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(51, 51, 51)"
+    },
+    {
+      "key": "secQ4",
+      "label": "ربع 4",
+      "labelColor": "rgb(79, 78, 78)",
+      "valueColor": "rgb(51, 51, 51)"
+    }
+  ],
+  "printStatusStyles": {
+    "continuous": [
+      {
+        "key": "agendaPlanned",
+        "label": "الأجندة المعتمدة",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "agendaEmerging",
+        "label": "المواضيع المستجدة",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "agendaDone",
+        "label": "منجز",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "agendaReady",
+        "label": "جاهز للعرض",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(17, 94, 103)"
+      },
+      {
+        "key": "agendaProgress",
+        "label": "قيد العمل",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "councilDone",
+        "label": "منجز",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "councilProgress",
+        "label": "قيد العمل",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "legDone",
+        "label": "منجز",
+        "labelColor": "rgb(1, 131, 30)",
+        "valueColor": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "legProgress",
+        "label": "قيد العمل",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "specialLeadDone",
+        "label": "منجز",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "specialLeadProgress",
+        "label": "قيد العمل",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "specialGsDone",
+        "label": "منجز",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "specialGsProgress",
+        "label": "قيد العمل",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "secDone",
+        "label": "منجز",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "secActive",
+        "label": "قيد العمل",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "secHeld",
+        "label": "مجمّد / ملغى",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "secQ1",
+        "label": "الربع 1",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "secQ2",
+        "label": "الربع 2",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "secQ3",
+        "label": "الربع 3",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "secQ4",
+        "label": "الربع 4",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      }
+    ],
+    "a4": [
+      {
+        "key": "agendaPlanned",
+        "label": "الأجندة المعتمدة",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "agendaEmerging",
+        "label": "المواضيع المستجدة",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "agendaDone",
+        "label": "منجز",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "agendaReady",
+        "label": "جاهز للعرض",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(17, 94, 103)"
+      },
+      {
+        "key": "agendaProgress",
+        "label": "قيد العمل",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "councilDone",
+        "label": "منجز",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "councilProgress",
+        "label": "قيد العمل",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "legDone",
+        "label": "منجز",
+        "labelColor": "rgb(1, 131, 30)",
+        "valueColor": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "legProgress",
+        "label": "قيد العمل",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "specialLeadDone",
+        "label": "منجز",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "specialLeadProgress",
+        "label": "قيد العمل",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "specialGsDone",
+        "label": "منجز",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "specialGsProgress",
+        "label": "قيد العمل",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "secDone",
+        "label": "منجز",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(1, 131, 30)"
+      },
+      {
+        "key": "secActive",
+        "label": "قيد العمل",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "secHeld",
+        "label": "مجمّد / ملغى",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "secQ1",
+        "label": "الربع 1",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "secQ2",
+        "label": "الربع 2",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "secQ3",
+        "label": "الربع 3",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      },
+      {
+        "key": "secQ4",
+        "label": "الربع 4",
+        "labelColor": "rgb(79, 78, 78)",
+        "valueColor": "rgb(79, 78, 78)"
+      }
+    ]
+  },
+  "printTotalGeometry": {
+    "continuous": [
+      {
+        "key": "agendaTotal",
+        "value": {
+          "x": 630.765625,
+          "y": 170.140625,
+          "w": 60.703125,
+          "h": 44.78125
+        },
+        "label": {
+          "x": 697.125,
+          "y": 196.140625,
+          "w": 33.296875,
+          "h": 19.1875
+        }
+      },
+      {
+        "key": "councilTotal",
+        "value": {
+          "x": 630.765625,
+          "y": 530.671875,
+          "w": 40.46875,
+          "h": 44.78125
+        },
+        "label": {
+          "x": 676.890625,
+          "y": 556.671875,
+          "w": 33.296875,
+          "h": 19.1875
+        }
+      },
+      {
+        "key": "legTotal",
+        "value": {
+          "x": 630.765625,
+          "y": 830.90625,
+          "w": 60.703125,
+          "h": 44.78125
+        },
+        "label": {
+          "x": 697.125,
+          "y": 856.90625,
+          "w": 33.296875,
+          "h": 19.1875
+        }
+      },
+      {
+        "key": "specialTotal",
+        "value": {
+          "x": 84.625,
+          "y": 170.140625,
+          "w": 40.46875,
+          "h": 44.78125
+        },
+        "label": {
+          "x": 130.75,
+          "y": 196.140625,
+          "w": 33.296875,
+          "h": 19.1875
+        }
+      },
+      {
+        "key": "secTotal",
+        "value": {
+          "x": 84.625,
+          "y": 523.21875,
+          "w": 40.46875,
+          "h": 44.78125
+        },
+        "label": {
+          "x": 130.75,
+          "y": 549.21875,
+          "w": 33.296875,
+          "h": 19.1875
+        }
+      }
+    ],
+    "a4": [
+      {
+        "key": "agendaTotal",
+        "value": {
+          "x": 454.828125,
+          "y": 196.609375,
+          "w": 60.703125,
+          "h": 44.78125
+        },
+        "label": {
+          "x": 521.1875,
+          "y": 222.609375,
+          "w": 33.296875,
+          "h": 19.1875
+        }
+      },
+      {
+        "key": "councilTotal",
+        "value": {
+          "x": 454.828125,
+          "y": 506.859375,
+          "w": 40.46875,
+          "h": 44.78125
+        },
+        "label": {
+          "x": 500.953125,
+          "y": 532.859375,
+          "w": 33.296875,
+          "h": 19.1875
+        }
+      },
+      {
+        "key": "legTotal",
+        "value": {
+          "x": 454.828125,
+          "y": 764.375,
+          "w": 60.703125,
+          "h": 44.78125
+        },
+        "label": {
+          "x": 521.1875,
+          "y": 790.375,
+          "w": 33.296875,
+          "h": 19.1875
+        }
+      },
+      {
+        "key": "specialTotal",
+        "value": {
+          "x": 88.21875,
+          "y": 196.609375,
+          "w": 40.46875,
+          "h": 44.78125
+        },
+        "label": {
+          "x": 134.34375,
+          "y": 222.609375,
+          "w": 33.296875,
+          "h": 19.1875
+        }
+      },
+      {
+        "key": "secTotal",
+        "value": {
+          "x": 88.21875,
+          "y": 499.40625,
+          "w": 40.46875,
+          "h": 44.78125
+        },
+        "label": {
+          "x": 134.34375,
+          "y": 525.40625,
+          "w": 33.296875,
+          "h": 19.1875
+        }
+      }
+    ]
+  },
+  "filtered": {
+    "name": "TEC_Monthly_Sep_26_Dubai_Plan_Office.pdf",
+    "pages": 1,
+    "layout": "continuous",
+    "screenMetrics": [
+      {
+        "key": "kpiTotal",
+        "text": "6/2"
+      },
+      {
+        "key": "kpiMeasured",
+        "text": "90%"
+      },
+      {
+        "key": "kpiTargeted",
+        "text": "95%"
+      },
+      {
+        "key": "specialTotal",
+        "text": "11"
+      },
+      {
+        "key": "specialGs",
+        "text": "11"
+      },
+      {
+        "key": "specialGsDone",
+        "text": "1"
+      },
+      {
+        "key": "specialGsProgress",
+        "text": "10"
+      }
+    ],
+    "n": {
+      "agendaTotal": 0,
+      "agendaPlanned": 0,
+      "agendaEmerging": 0,
+      "agendaProgress": 0,
+      "agendaReady": 0,
+      "agendaDone": 0,
+      "agendaLate": 0,
+      "agendaNoStatus": 0,
+      "councilTotal": 0,
+      "councilProgress": 0,
+      "councilDone": 0,
+      "councilLate": 0,
+      "councilNoStatus": 0,
+      "councilExcluded": 0,
+      "legTotal": 0,
+      "legProgress": 0,
+      "legPending": 0,
+      "legOnTime": 0,
+      "legOverrun": 0,
+      "legDone": 0,
+      "legLate": 0,
+      "legNoStatus": 0,
+      "specialTotal": 11,
+      "specialLead": 0,
+      "specialGs": 11,
+      "specialDone": 1,
+      "specialLate": 0,
+      "specialProgress": 10,
+      "specialLeadDone": 0,
+      "specialLeadLate": 0,
+      "specialLeadOpen": 0,
+      "specialGsDone": 1,
+      "specialGsLate": 0,
+      "specialGsOpen": 10,
+      "specialNoRequester": 0,
+      "specialLeadProgress": 0,
+      "specialGsProgress": 10,
+      "secTotal": 0,
+      "secActive": 0,
+      "secHeld": 0,
+      "secDone": 0,
+      "secNotStarted": 0,
+      "secNoStatus": 0,
+      "secTransferred": 0,
+      "secLate": 0,
+      "secQ1": 0,
+      "secQ2": 0,
+      "secQ3": 0,
+      "secQ4": 0,
+      "secNoQuarter": 0,
+      "secBudget": 0,
+      "kpiTotal": 6,
+      "kpiMeasured": 2,
+      "kpiNotMeasured": 4,
+      "kpiTargeted": 6,
+      "secRevised": 0,
+      "secCommitted": 0,
+      "secNonCommitted": 0,
+      "secSpent": 0,
+      "allLate": 0,
+      "follow": 0
+    },
+    "pdfText": "  لتاريخ- التقرير الشهري للأداء والتنفيذ30/09/2026\n :القطاع\nالأمانة العامة للمجلس التنفيذي · \n :الوحدة التنظيمية\nمكتب خطة دبي\nمحافظ المتابعة التنفيذية\nاستراتيجية الأمانة العامة\nالمؤشرات المعتمدة / المؤشرات\nالمقاسة\n6\n/\n2\nمتوسط النتائج المقاسة\n90%\n↓ −10.0 نقطة مئوية\nمتوسط المستهدفات المعتمدة\n95%\nمحفظة المشاريع\nالمشاريع الخاصة11الإجمالي\n↑ +5\nللأمانة العامة11\n↑ +5\nمنجز\n1\nقيد العمل\n10\n↑ +5\nنسبة المنجز9.1%\nبنود المتابعة-\nلا توجد بنود تتطلب المتابعة\n1  من1 صفحة\n · جميع الحقوق محفوظة2026 © الأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر\n",
+    "scope": {
+      "sector": [
+        "الأمانة العامة للمجلس التنفيذي"
+      ],
+      "unit": [
+        "مكتب خطة دبي"
+      ],
+      "entity": []
+    },
+    "sha256": "83ade7369e050e286f5c71125023fd0e5a1305eb09244ebbb2338c34801b559a"
+  },
+  "limitations": [
+    "Only named illustrative fixture used; current production workbook not exported or published.",
+    "No Excel recalculation, Power Query refresh, PowerPoint or Office rendering in this audit.",
+    "Historical deltas assessed for screen/PDF text parity, not independently rederived here.",
+    "No new production source or UI edits made."
+  ],
+  "verdict": "PDF data/geometry checks pass; presentation consistency defects documented; monthly cohort defect confirmed in both outputs."
+}

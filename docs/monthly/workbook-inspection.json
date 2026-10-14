@@ -1,0 +1,642 @@
+[
+  {
+    "dataset": "illustrative",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "sheets": [
+      {
+        "name": "Idea",
+        "maxRows": 5,
+        "maxColumns": 17,
+        "filledRows": 1,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 0,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": []
+      },
+      {
+        "name": "List of Values",
+        "maxRows": 53,
+        "maxColumns": 48,
+        "filledRows": 53,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 0,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": [
+          {
+            "name": "Entities",
+            "ref": "A1:B53",
+            "autoFilter": "A1:B53"
+          },
+          {
+            "name": "Sectors",
+            "ref": "D1:D7",
+            "autoFilter": "D1:D7"
+          },
+          {
+            "name": "Departments",
+            "ref": "F1:G24",
+            "autoFilter": "F1:G24"
+          },
+          {
+            "name": "Quarters",
+            "ref": "K1:K5",
+            "autoFilter": "K1:K5"
+          },
+          {
+            "name": "Months",
+            "ref": "M1:M13",
+            "autoFilter": "M1:M13"
+          },
+          {
+            "name": "Years",
+            "ref": "O1:O27",
+            "autoFilter": "O1:O27"
+          },
+          {
+            "name": "TopicTypes",
+            "ref": "Q1:Q3",
+            "autoFilter": "Q1:Q3"
+          },
+          {
+            "name": "Issuers",
+            "ref": "S1:S4",
+            "autoFilter": "S1:S4"
+          },
+          {
+            "name": "AgendaStatus",
+            "ref": "U1:U6",
+            "autoFilter": "U1:U6"
+          },
+          {
+            "name": "WorkStatus",
+            "ref": "W1:W5",
+            "autoFilter": "W1:W5"
+          },
+          {
+            "name": "CompletionPercent",
+            "ref": "Y1:Y22",
+            "autoFilter": "Y1:Y22"
+          },
+          {
+            "name": "PlanStatus",
+            "ref": "AA1:AA5",
+            "autoFilter": "AA1:AA5"
+          },
+          {
+            "name": "YesNo",
+            "ref": "AC1:AC3",
+            "autoFilter": "AC1:AC3"
+          },
+          {
+            "name": "FollowUp",
+            "ref": "AE1:AE5",
+            "autoFilter": "AE1:AE5"
+          },
+          {
+            "name": "Frequency",
+            "ref": "I1:I4",
+            "autoFilter": "I1:I4"
+          },
+          {
+            "name": "OperationalObjectives",
+            "ref": "AI1:AJ12",
+            "autoFilter": "AI1:AJ12"
+          },
+          {
+            "name": "StrategicObjectives",
+            "ref": "AG1:AG5",
+            "autoFilter": "AG1:AG5"
+          },
+          {
+            "name": "Table24",
+            "ref": "AL1:AL7",
+            "autoFilter": "AL1:AL7"
+          },
+          {
+            "name": "ProjectType",
+            "ref": "AN1:AN3",
+            "autoFilter": "AN1:AN3"
+          },
+          {
+            "name": "ProjectPriority",
+            "ref": "AP1:AP4",
+            "autoFilter": "AP1:AP4"
+          },
+          {
+            "name": "Table129",
+            "ref": "AR1:AR3",
+            "autoFilter": "AR1:AR3"
+          },
+          {
+            "name": "Table2",
+            "ref": "AT1:AT5",
+            "autoFilter": "AT1:AT5"
+          },
+          {
+            "name": "Table3",
+            "ref": "AV1:AV3",
+            "autoFilter": "AV1:AV3"
+          }
+        ]
+      },
+      {
+        "name": "Search",
+        "maxRows": 11,
+        "maxColumns": 23,
+        "filledRows": 4,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 3,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": []
+      },
+      {
+        "name": "Performance",
+        "maxRows": 45,
+        "maxColumns": 88,
+        "filledRows": 33,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 103,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": []
+      },
+      {
+        "name": "Logic",
+        "maxRows": 266,
+        "maxColumns": 102,
+        "filledRows": 90,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 1479,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": []
+      },
+      {
+        "name": "المشاريع_الخاصة",
+        "maxRows": 63,
+        "maxColumns": 21,
+        "filledRows": 63,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 0,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": [
+          {
+            "name": "Special",
+            "ref": "A1:U63",
+            "autoFilter": "A1:U63"
+          }
+        ]
+      },
+      {
+        "name": "مشاريع_الأمانة",
+        "maxRows": 85,
+        "maxColumns": 23,
+        "filledRows": 85,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 168,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": [
+          {
+            "name": "Projects",
+            "ref": "A1:W85",
+            "autoFilter": "A1:W85"
+          }
+        ]
+      },
+      {
+        "name": "الأجندة_السنوية",
+        "maxRows": 118,
+        "maxColumns": 17,
+        "filledRows": 118,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 0,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": [
+          {
+            "name": "ECSAC",
+            "ref": "A1:Q118",
+            "autoFilter": "A1:Q118"
+          }
+        ]
+      },
+      {
+        "name": "القرارات",
+        "maxRows": 165,
+        "maxColumns": 21,
+        "filledRows": 165,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 0,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": [
+          {
+            "name": "Resolutions",
+            "ref": "A1:U165",
+            "autoFilter": "A1:U165"
+          }
+        ]
+      },
+      {
+        "name": "التشريعات",
+        "maxRows": 192,
+        "maxColumns": 23,
+        "filledRows": 192,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 573,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": [
+          {
+            "name": "Legislations",
+            "ref": "A1:W192",
+            "autoFilter": "A1:W192"
+          }
+        ]
+      },
+      {
+        "name": "استراتيجية_الأمانة",
+        "maxRows": 57,
+        "maxColumns": 32,
+        "filledRows": 55,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 0,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": [
+          {
+            "name": "Strategy",
+            "ref": "A1:AC55",
+            "autoFilter": "A1:AC55"
+          }
+        ]
+      },
+      {
+        "name": "GVMetadata",
+        "maxRows": 11,
+        "maxColumns": 2,
+        "filledRows": 10,
+        "hidden": "veryHidden",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 0,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": []
+      }
+    ],
+    "definedCutoff": [
+      {
+        "name": "ValidationDate",
+        "value": "Logic!$B$1"
+      }
+    ]
+  },
+  {
+    "dataset": "attached",
+    "sha256": "1638e2d9e194c21d8d8e258a2bcad7c121cbeb9a4f529f90cea632f212cc66f2",
+    "sheets": [
+      {
+        "name": "Idea",
+        "maxRows": 5,
+        "maxColumns": 17,
+        "filledRows": 1,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 0,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": []
+      },
+      {
+        "name": "List of Values",
+        "maxRows": 53,
+        "maxColumns": 48,
+        "filledRows": 53,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 0,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": [
+          {
+            "name": "Entities",
+            "ref": "A1:B53",
+            "autoFilter": "A1:B53"
+          },
+          {
+            "name": "Sectors",
+            "ref": "D1:D7",
+            "autoFilter": "D1:D7"
+          },
+          {
+            "name": "Departments",
+            "ref": "F1:G24",
+            "autoFilter": "F1:G24"
+          },
+          {
+            "name": "Quarters",
+            "ref": "K1:K5",
+            "autoFilter": "K1:K5"
+          },
+          {
+            "name": "Months",
+            "ref": "M1:M13",
+            "autoFilter": "M1:M13"
+          },
+          {
+            "name": "Years",
+            "ref": "O1:O27",
+            "autoFilter": "O1:O27"
+          },
+          {
+            "name": "TopicTypes",
+            "ref": "Q1:Q3",
+            "autoFilter": "Q1:Q3"
+          },
+          {
+            "name": "Issuers",
+            "ref": "S1:S4",
+            "autoFilter": "S1:S4"
+          },
+          {
+            "name": "AgendaStatus",
+            "ref": "U1:U6",
+            "autoFilter": "U1:U6"
+          },
+          {
+            "name": "WorkStatus",
+            "ref": "W1:W5",
+            "autoFilter": "W1:W5"
+          },
+          {
+            "name": "CompletionPercent",
+            "ref": "Y1:Y22",
+            "autoFilter": "Y1:Y22"
+          },
+          {
+            "name": "PlanStatus",
+            "ref": "AA1:AA5",
+            "autoFilter": "AA1:AA5"
+          },
+          {
+            "name": "YesNo",
+            "ref": "AC1:AC3",
+            "autoFilter": "AC1:AC3"
+          },
+          {
+            "name": "FollowUp",
+            "ref": "AE1:AE5",
+            "autoFilter": "AE1:AE5"
+          },
+          {
+            "name": "Frequency",
+            "ref": "I1:I4",
+            "autoFilter": "I1:I4"
+          },
+          {
+            "name": "OperationalObjectives",
+            "ref": "AI1:AJ12",
+            "autoFilter": "AI1:AJ12"
+          },
+          {
+            "name": "StrategicObjectives",
+            "ref": "AG1:AG5",
+            "autoFilter": "AG1:AG5"
+          },
+          {
+            "name": "Table24",
+            "ref": "AL1:AL7",
+            "autoFilter": "AL1:AL7"
+          },
+          {
+            "name": "ProjectType",
+            "ref": "AN1:AN3",
+            "autoFilter": "AN1:AN3"
+          },
+          {
+            "name": "ProjectPriority",
+            "ref": "AP1:AP4",
+            "autoFilter": "AP1:AP4"
+          },
+          {
+            "name": "Table129",
+            "ref": "AR1:AR3",
+            "autoFilter": "AR1:AR3"
+          },
+          {
+            "name": "Table2",
+            "ref": "AT1:AT5",
+            "autoFilter": "AT1:AT5"
+          },
+          {
+            "name": "Table3",
+            "ref": "AV1:AV3",
+            "autoFilter": "AV1:AV3"
+          }
+        ]
+      },
+      {
+        "name": "Search",
+        "maxRows": 11,
+        "maxColumns": 23,
+        "filledRows": 4,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 3,
+        "formulasWithCachedValue": 1,
+        "todayFormulaCount": 0,
+        "tables": []
+      },
+      {
+        "name": "Performance",
+        "maxRows": 45,
+        "maxColumns": 88,
+        "filledRows": 33,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 103,
+        "formulasWithCachedValue": 81,
+        "todayFormulaCount": 0,
+        "tables": []
+      },
+      {
+        "name": "Logic",
+        "maxRows": 266,
+        "maxColumns": 102,
+        "filledRows": 90,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 1479,
+        "formulasWithCachedValue": 1281,
+        "todayFormulaCount": 0,
+        "tables": []
+      },
+      {
+        "name": "المشاريع_الخاصة",
+        "maxRows": 63,
+        "maxColumns": 21,
+        "filledRows": 63,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 0,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": [
+          {
+            "name": "Special",
+            "ref": "A1:U63",
+            "autoFilter": "A1:U63"
+          }
+        ]
+      },
+      {
+        "name": "مشاريع_الأمانة",
+        "maxRows": 85,
+        "maxColumns": 23,
+        "filledRows": 85,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 168,
+        "formulasWithCachedValue": 84,
+        "todayFormulaCount": 0,
+        "tables": [
+          {
+            "name": "Projects",
+            "ref": "A1:W85",
+            "autoFilter": "A1:W85"
+          }
+        ]
+      },
+      {
+        "name": "الأجندة_السنوية",
+        "maxRows": 118,
+        "maxColumns": 17,
+        "filledRows": 118,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 0,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": [
+          {
+            "name": "ECSAC",
+            "ref": "A1:Q118",
+            "autoFilter": "A1:Q118"
+          }
+        ]
+      },
+      {
+        "name": "القرارات",
+        "maxRows": 165,
+        "maxColumns": 21,
+        "filledRows": 165,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 0,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": [
+          {
+            "name": "Resolutions",
+            "ref": "A1:U165",
+            "autoFilter": "A1:U165"
+          }
+        ]
+      },
+      {
+        "name": "التشريعات",
+        "maxRows": 192,
+        "maxColumns": 23,
+        "filledRows": 192,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 573,
+        "formulasWithCachedValue": 221,
+        "todayFormulaCount": 0,
+        "tables": [
+          {
+            "name": "Legislations",
+            "ref": "A1:W192",
+            "autoFilter": "A1:W192"
+          }
+        ]
+      },
+      {
+        "name": "استراتيجية_الأمانة",
+        "maxRows": 57,
+        "maxColumns": 32,
+        "filledRows": 55,
+        "hidden": "visible",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 0,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": [
+          {
+            "name": "Strategy",
+            "ref": "A1:AC55",
+            "autoFilter": "A1:AC55"
+          }
+        ]
+      },
+      {
+        "name": "GVMetadata",
+        "maxRows": 11,
+        "maxColumns": 2,
+        "filledRows": 10,
+        "hidden": "veryHidden",
+        "hiddenRows": 0,
+        "filterRef": null,
+        "formulas": 0,
+        "formulasWithCachedValue": 0,
+        "todayFormulaCount": 0,
+        "tables": []
+      }
+    ],
+    "definedCutoff": [
+      {
+        "name": "ValidationDate",
+        "value": "Logic!$B$1"
+      }
+    ]
+  }
+]

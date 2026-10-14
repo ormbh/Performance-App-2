@@ -1,0 +1,531 @@
+{
+  "version": 164,
+  "scope": "monthly audit only",
+  "verdict": "CURRENT_MONTHLY_INCONSISTENCIES_FOUND; AUDIT_ONLY; NO_MONTHLY_CODE_CHANGED",
+  "checks": [
+    {
+      "name": "illustrative special monthly total = details",
+      "pass": true
+    },
+    {
+      "name": "illustrative TEC subgroup matches approved report cohort",
+      "pass": false,
+      "detail": {
+        "monthly": 36,
+        "detail": 38
+      }
+    },
+    {
+      "name": "illustrative agenda total = details",
+      "pass": true
+    },
+    {
+      "name": "illustrative council eligible total = details",
+      "pass": true
+    },
+    {
+      "name": "illustrative source records unchanged after view/drill checks",
+      "pass": true
+    },
+    {
+      "name": "attached special monthly total = details",
+      "pass": true
+    },
+    {
+      "name": "attached TEC subgroup matches approved report cohort",
+      "pass": false,
+      "detail": {
+        "monthly": 36,
+        "detail": 38
+      }
+    },
+    {
+      "name": "attached agenda total = details",
+      "pass": true
+    },
+    {
+      "name": "attached council eligible total = details",
+      "pass": true
+    },
+    {
+      "name": "attached source records unchanged after view/drill checks",
+      "pass": true
+    },
+    {
+      "name": "legislation done plus progress exactly full titled population",
+      "pass": true
+    },
+    {
+      "name": "legislation late subset excluded from additive total",
+      "pass": true
+    },
+    {
+      "name": "agenda status counts partition full scope",
+      "pass": true
+    },
+    {
+      "name": "council status counts partition eligible only",
+      "pass": true
+    },
+    {
+      "name": "council eligible plus excluded = all source council rows",
+      "pass": true
+    },
+    {
+      "name": "budget expenditure denominator is revised approved budget",
+      "pass": true
+    },
+    {
+      "name": "quarter coverage accounts2026+2027 all84",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill agendaTotal exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill agendaPlanned exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill agendaEmerging exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill agendaDone exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill agendaReady exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill agendaProgress exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill councilTotal exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill councilDone exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill councilProgress exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill councilNoStatus exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill legTotal exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill legDone exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill legProgress exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill legLate exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill kpiTotal exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill kpiMeasured exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill kpiTargeted exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill specialTotal exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill specialLead exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill specialLeadDone exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill specialLeadProgress exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill specialGs exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill specialGsDone exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill specialGsProgress exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill specialNoRequester exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill secTotal exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill secDone exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill secActive exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill secHeld exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill secQ1 exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill secQ2 exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill secQ3 exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill secQ4 exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill secRevised exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill secSpent exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill secCommitted exact records",
+      "pass": true
+    },
+    {
+      "name": "illustrative drill secNonCommitted exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill agendaTotal exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill agendaPlanned exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill agendaEmerging exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill agendaDone exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill agendaReady exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill agendaProgress exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill councilTotal exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill councilDone exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill councilProgress exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill councilNoStatus exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill legTotal exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill legDone exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill legProgress exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill legLate exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill kpiTotal exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill kpiMeasured exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill kpiTargeted exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill specialTotal exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill specialLead exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill specialLeadDone exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill specialLeadProgress exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill specialGs exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill specialGsDone exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill specialGsProgress exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill specialNoRequester exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill secTotal exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill secDone exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill secActive exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill secHeld exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill secQ1 exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill secQ2 exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill secQ3 exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill secQ4 exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill secRevised exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill secSpent exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill secCommitted exact records",
+      "pass": true
+    },
+    {
+      "name": "attached drill secNonCommitted exact records",
+      "pass": true
+    },
+    {
+      "name": "all exact filter union/intersection record membership",
+      "pass": true
+    },
+    {
+      "name": "all specialTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "all agendaTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "all councilTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "sector-union exact filter union/intersection record membership",
+      "pass": true
+    },
+    {
+      "name": "sector-union specialTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "sector-union agendaTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "sector-union councilTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "unit-union exact filter union/intersection record membership",
+      "pass": true
+    },
+    {
+      "name": "unit-union specialTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "unit-union agendaTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "unit-union councilTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "intersection exact filter union/intersection record membership",
+      "pass": true
+    },
+    {
+      "name": "intersection specialTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "intersection agendaTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "intersection councilTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "entity-union exact filter union/intersection record membership",
+      "pass": true
+    },
+    {
+      "name": "entity-union specialTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "entity-union agendaTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "entity-union councilTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "empty exact filter union/intersection record membership",
+      "pass": true
+    },
+    {
+      "name": "empty specialTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "empty agendaTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "empty councilTotal drill keeps all filters",
+      "pass": true
+    },
+    {
+      "name": "actual monthly popup retains scoped council record set",
+      "pass": true
+    },
+    {
+      "name": "previous fixture required explicit dates, then comparison is workbook",
+      "pass": true
+    },
+    {
+      "name": "ambiguous snapshot rows quarantined not silently matched",
+      "pass": true
+    }
+  ],
+  "filterEvidence": [
+    {
+      "name": "all",
+      "expected": 672,
+      "actual": 672,
+      "equal": true
+    },
+    {
+      "name": "sector-union",
+      "expected": 305,
+      "actual": 305,
+      "equal": true
+    },
+    {
+      "name": "unit-union",
+      "expected": 163,
+      "actual": 163,
+      "equal": true
+    },
+    {
+      "name": "intersection",
+      "expected": 163,
+      "actual": 163,
+      "equal": true
+    },
+    {
+      "name": "entity-union",
+      "expected": 12,
+      "actual": 12,
+      "equal": true
+    },
+    {
+      "name": "empty",
+      "expected": 0,
+      "actual": 0,
+      "equal": true
+    }
+  ],
+  "source": {
+    "attachmentSha256": "1638e2d9e194c21d8d8e258a2bcad7c121cbeb9a4f529f90cea632f212cc66f2",
+    "fixtureSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "cutoff": "2026-09-30"
+  },
+  "publicEvidenceScope": "Aggregate findings and assertions only. Raw source rows, record identities and narratives remain local."
+}

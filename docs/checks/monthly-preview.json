@@ -1,0 +1,112 @@
+{
+  "verdict": "PASS",
+  "stage": "Static illustration only; no monthly runtime implementation",
+  "checks": [
+    {
+      "name": "Approved local font families loaded",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Every visible status count fits inside its segment",
+      "pass": true,
+      "detail": [
+        {
+          "text": "43",
+          "inside": true
+        },
+        {
+          "text": "16",
+          "inside": true
+        },
+        {
+          "text": "58",
+          "inside": true
+        },
+        {
+          "text": "38",
+          "inside": true
+        },
+        {
+          "text": "31",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "No horizontal viewport overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Completed primary labels and values Green",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Ready primary labels and values Teal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Ready change stays neutral",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Late remains nested in legislation in-progress column",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Projects physically left of executive portfolios",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Missing leadership records included in TEC38",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Special status reconciliation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Agenda status reconciliation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Council status reconciliation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Legislation late subset and exact approved reference",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Independent strategy means retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Strategy change explicitly uses percentage points",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Source fixture preserved",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "artifacts": {
+    "monthly-overview-proposal.png": "da93aa814eceb53a7f8b9ed15fa8817fa78562e21a1d2c7d61512a4ca2a1dab9",
+    "monthly-detail-proposal.png": "16613cba356468589021808cd140a5c5076ec9d96fd184130c35b9b5127bf178",
+    "monthly-legislation-approved-example.png": "34758f86c181a01bc1af8746132344b8601fa42997215b65fbb55992833b7966"
+  }
+}
