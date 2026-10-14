@@ -1,0 +1,741 @@
+{
+  "total": 117,
+  "planned": 100,
+  "emerging": 17,
+  "other": 0,
+  "year": 2026,
+  "sourcePeriod": "يناير – سبتمبر 2026",
+  "sourceDate": "30/09/2026",
+  "statuses": [
+    {
+      "name": "جاهز للعرض",
+      "color": "#115E67",
+      "border": "#115E67",
+      "textColor": "#4F4E4E"
+    },
+    {
+      "name": "قيد المراجعة",
+      "color": "#D9E1E2",
+      "border": "#115E67",
+      "textColor": "#4F4E4E"
+    },
+    {
+      "name": "قيد التطوير",
+      "color": "#D9E1E2",
+      "border": "#115E67",
+      "textColor": "#4F4E4E"
+    },
+    {
+      "name": "منجز",
+      "color": "#01831E",
+      "border": "#01831E",
+      "textColor": "#01831E"
+    }
+  ],
+  "displayQuarters": [
+    {
+      "key": "الربع الأول",
+      "name": "الربع الأول"
+    },
+    {
+      "key": "الربع الثاني",
+      "name": "الربع الثاني"
+    },
+    {
+      "key": "الربع الثالث",
+      "name": "الربع الثالث"
+    },
+    {
+      "key": "الربع الرابع",
+      "name": "الربع الرابع"
+    }
+  ],
+  "cohorts": [
+    {
+      "id": "approved",
+      "name": "الأجندة المعتمدة",
+      "total": 100,
+      "recordKeys": [
+        "agenda-2",
+        "agenda-6",
+        "agenda-111",
+        "agenda-55",
+        "agenda-12",
+        "agenda-25",
+        "agenda-28",
+        "agenda-29",
+        "agenda-30",
+        "agenda-32",
+        "agenda-51",
+        "agenda-52",
+        "agenda-56",
+        "agenda-57",
+        "agenda-58",
+        "agenda-59",
+        "agenda-60",
+        "agenda-61",
+        "agenda-62",
+        "agenda-63",
+        "agenda-87",
+        "agenda-95",
+        "agenda-105",
+        "agenda-112",
+        "agenda-113",
+        "agenda-117",
+        "agenda-118",
+        "agenda-70",
+        "agenda-71",
+        "agenda-72",
+        "agenda-76",
+        "agenda-78",
+        "agenda-68",
+        "agenda-69",
+        "agenda-39",
+        "agenda-42",
+        "agenda-3",
+        "agenda-5",
+        "agenda-7",
+        "agenda-15",
+        "agenda-24",
+        "agenda-67",
+        "agenda-77",
+        "agenda-79",
+        "agenda-14",
+        "agenda-74",
+        "agenda-54",
+        "agenda-35",
+        "agenda-36",
+        "agenda-46",
+        "agenda-64",
+        "agenda-65",
+        "agenda-4",
+        "agenda-116",
+        "agenda-96",
+        "agenda-16",
+        "agenda-17",
+        "agenda-23",
+        "agenda-26",
+        "agenda-31",
+        "agenda-33",
+        "agenda-34",
+        "agenda-37",
+        "agenda-38",
+        "agenda-40",
+        "agenda-41",
+        "agenda-43",
+        "agenda-44",
+        "agenda-45",
+        "agenda-47",
+        "agenda-48",
+        "agenda-53",
+        "agenda-66",
+        "agenda-73",
+        "agenda-75",
+        "agenda-80",
+        "agenda-81",
+        "agenda-82",
+        "agenda-83",
+        "agenda-84",
+        "agenda-86",
+        "agenda-88",
+        "agenda-89",
+        "agenda-91",
+        "agenda-92",
+        "agenda-94",
+        "agenda-97",
+        "agenda-98",
+        "agenda-100",
+        "agenda-101",
+        "agenda-102",
+        "agenda-103",
+        "agenda-104",
+        "agenda-106",
+        "agenda-107",
+        "agenda-108",
+        "agenda-109",
+        "agenda-110",
+        "agenda-115",
+        "agenda-93"
+      ],
+      "totals": [
+        {
+          "name": "جاهز للعرض",
+          "count": 10
+        },
+        {
+          "name": "قيد المراجعة",
+          "count": 5
+        },
+        {
+          "name": "قيد التطوير",
+          "count": 51
+        },
+        {
+          "name": "منجز",
+          "count": 34
+        }
+      ],
+      "quarters": [
+        {
+          "key": "الربع الأول",
+          "name": "الربع الأول",
+          "total": 27,
+          "recordKeys": [
+            "agenda-2",
+            "agenda-6",
+            "agenda-111",
+            "agenda-55",
+            "agenda-12",
+            "agenda-25",
+            "agenda-28",
+            "agenda-29",
+            "agenda-30",
+            "agenda-32",
+            "agenda-51",
+            "agenda-52",
+            "agenda-56",
+            "agenda-57",
+            "agenda-58",
+            "agenda-59",
+            "agenda-60",
+            "agenda-61",
+            "agenda-62",
+            "agenda-63",
+            "agenda-87",
+            "agenda-95",
+            "agenda-105",
+            "agenda-112",
+            "agenda-113",
+            "agenda-117",
+            "agenda-118"
+          ],
+          "cells": [
+            {
+              "name": "جاهز للعرض",
+              "count": 3,
+              "color": "#115E67",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد المراجعة",
+              "count": 1,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد التطوير",
+              "count": 0,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "منجز",
+              "count": 23,
+              "color": "#01831E",
+              "border": "#01831E"
+            }
+          ]
+        },
+        {
+          "key": "الربع الثاني",
+          "name": "الربع الثاني",
+          "total": 17,
+          "recordKeys": [
+            "agenda-70",
+            "agenda-71",
+            "agenda-72",
+            "agenda-76",
+            "agenda-78",
+            "agenda-68",
+            "agenda-69",
+            "agenda-39",
+            "agenda-42",
+            "agenda-3",
+            "agenda-5",
+            "agenda-7",
+            "agenda-15",
+            "agenda-24",
+            "agenda-67",
+            "agenda-77",
+            "agenda-79"
+          ],
+          "cells": [
+            {
+              "name": "جاهز للعرض",
+              "count": 5,
+              "color": "#115E67",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد المراجعة",
+              "count": 2,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد التطوير",
+              "count": 2,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "منجز",
+              "count": 8,
+              "color": "#01831E",
+              "border": "#01831E"
+            }
+          ]
+        },
+        {
+          "key": "الربع الثالث",
+          "name": "الربع الثالث",
+          "total": 10,
+          "recordKeys": [
+            "agenda-14",
+            "agenda-74",
+            "agenda-54",
+            "agenda-35",
+            "agenda-36",
+            "agenda-46",
+            "agenda-64",
+            "agenda-65",
+            "agenda-4",
+            "agenda-116"
+          ],
+          "cells": [
+            {
+              "name": "جاهز للعرض",
+              "count": 2,
+              "color": "#115E67",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد المراجعة",
+              "count": 1,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد التطوير",
+              "count": 5,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "منجز",
+              "count": 2,
+              "color": "#01831E",
+              "border": "#01831E"
+            }
+          ]
+        },
+        {
+          "key": "الربع الرابع",
+          "name": "الربع الرابع",
+          "total": 46,
+          "recordKeys": [
+            "agenda-96",
+            "agenda-16",
+            "agenda-17",
+            "agenda-23",
+            "agenda-26",
+            "agenda-31",
+            "agenda-33",
+            "agenda-34",
+            "agenda-37",
+            "agenda-38",
+            "agenda-40",
+            "agenda-41",
+            "agenda-43",
+            "agenda-44",
+            "agenda-45",
+            "agenda-47",
+            "agenda-48",
+            "agenda-53",
+            "agenda-66",
+            "agenda-73",
+            "agenda-75",
+            "agenda-80",
+            "agenda-81",
+            "agenda-82",
+            "agenda-83",
+            "agenda-84",
+            "agenda-86",
+            "agenda-88",
+            "agenda-89",
+            "agenda-91",
+            "agenda-92",
+            "agenda-94",
+            "agenda-97",
+            "agenda-98",
+            "agenda-100",
+            "agenda-101",
+            "agenda-102",
+            "agenda-103",
+            "agenda-104",
+            "agenda-106",
+            "agenda-107",
+            "agenda-108",
+            "agenda-109",
+            "agenda-110",
+            "agenda-115",
+            "agenda-93"
+          ],
+          "cells": [
+            {
+              "name": "جاهز للعرض",
+              "count": 0,
+              "color": "#115E67",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد المراجعة",
+              "count": 1,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد التطوير",
+              "count": 44,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "منجز",
+              "count": 1,
+              "color": "#01831E",
+              "border": "#01831E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emerging",
+      "name": "المواضيع المستجدة",
+      "total": 17,
+      "recordKeys": [
+        "agenda-90",
+        "agenda-99",
+        "agenda-8",
+        "agenda-9",
+        "agenda-10",
+        "agenda-11",
+        "agenda-114",
+        "agenda-19",
+        "agenda-85",
+        "agenda-13",
+        "agenda-20",
+        "agenda-21",
+        "agenda-22",
+        "agenda-27",
+        "agenda-50",
+        "agenda-18",
+        "agenda-49"
+      ],
+      "totals": [
+        {
+          "name": "جاهز للعرض",
+          "count": 6
+        },
+        {
+          "name": "قيد المراجعة",
+          "count": 1
+        },
+        {
+          "name": "قيد التطوير",
+          "count": 1
+        },
+        {
+          "name": "منجز",
+          "count": 9
+        }
+      ],
+      "quarters": [
+        {
+          "key": "الربع الأول",
+          "name": "الربع الأول",
+          "total": 7,
+          "recordKeys": [
+            "agenda-90",
+            "agenda-99",
+            "agenda-8",
+            "agenda-9",
+            "agenda-10",
+            "agenda-11",
+            "agenda-114"
+          ],
+          "cells": [
+            {
+              "name": "جاهز للعرض",
+              "count": 2,
+              "color": "#115E67",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد المراجعة",
+              "count": 0,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد التطوير",
+              "count": 0,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "منجز",
+              "count": 5,
+              "color": "#01831E",
+              "border": "#01831E"
+            }
+          ]
+        },
+        {
+          "key": "الربع الثاني",
+          "name": "الربع الثاني",
+          "total": 2,
+          "recordKeys": [
+            "agenda-19",
+            "agenda-85"
+          ],
+          "cells": [
+            {
+              "name": "جاهز للعرض",
+              "count": 0,
+              "color": "#115E67",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد المراجعة",
+              "count": 0,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد التطوير",
+              "count": 0,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "منجز",
+              "count": 2,
+              "color": "#01831E",
+              "border": "#01831E"
+            }
+          ]
+        },
+        {
+          "key": "الربع الثالث",
+          "name": "الربع الثالث",
+          "total": 6,
+          "recordKeys": [
+            "agenda-13",
+            "agenda-20",
+            "agenda-21",
+            "agenda-22",
+            "agenda-27",
+            "agenda-50"
+          ],
+          "cells": [
+            {
+              "name": "جاهز للعرض",
+              "count": 4,
+              "color": "#115E67",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد المراجعة",
+              "count": 1,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد التطوير",
+              "count": 0,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "منجز",
+              "count": 1,
+              "color": "#01831E",
+              "border": "#01831E"
+            }
+          ]
+        },
+        {
+          "key": "الربع الرابع",
+          "name": "الربع الرابع",
+          "total": 2,
+          "recordKeys": [
+            "agenda-18",
+            "agenda-49"
+          ],
+          "cells": [
+            {
+              "name": "جاهز للعرض",
+              "count": 0,
+              "color": "#115E67",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد المراجعة",
+              "count": 0,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "قيد التطوير",
+              "count": 1,
+              "color": "#D9E1E2",
+              "border": "#115E67"
+            },
+            {
+              "name": "منجز",
+              "count": 1,
+              "color": "#01831E",
+              "border": "#01831E"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "scale": {
+    "min": 0,
+    "max": 50,
+    "unit": "عدد المواضيع",
+    "step": 10,
+    "basis": "quarter-total",
+    "ticks": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50
+    ]
+  },
+  "sourceRecordKeys": [
+    "agenda-2",
+    "agenda-6",
+    "agenda-90",
+    "agenda-99",
+    "agenda-111",
+    "agenda-55",
+    "agenda-8",
+    "agenda-9",
+    "agenda-10",
+    "agenda-11",
+    "agenda-12",
+    "agenda-25",
+    "agenda-28",
+    "agenda-29",
+    "agenda-30",
+    "agenda-32",
+    "agenda-51",
+    "agenda-52",
+    "agenda-56",
+    "agenda-57",
+    "agenda-58",
+    "agenda-59",
+    "agenda-60",
+    "agenda-61",
+    "agenda-62",
+    "agenda-63",
+    "agenda-87",
+    "agenda-95",
+    "agenda-105",
+    "agenda-112",
+    "agenda-113",
+    "agenda-114",
+    "agenda-117",
+    "agenda-118",
+    "agenda-70",
+    "agenda-71",
+    "agenda-72",
+    "agenda-76",
+    "agenda-78",
+    "agenda-68",
+    "agenda-69",
+    "agenda-39",
+    "agenda-42",
+    "agenda-3",
+    "agenda-5",
+    "agenda-7",
+    "agenda-15",
+    "agenda-19",
+    "agenda-24",
+    "agenda-67",
+    "agenda-77",
+    "agenda-79",
+    "agenda-85",
+    "agenda-13",
+    "agenda-14",
+    "agenda-20",
+    "agenda-21",
+    "agenda-22",
+    "agenda-74",
+    "agenda-27",
+    "agenda-54",
+    "agenda-35",
+    "agenda-36",
+    "agenda-46",
+    "agenda-64",
+    "agenda-65",
+    "agenda-4",
+    "agenda-50",
+    "agenda-116",
+    "agenda-96",
+    "agenda-16",
+    "agenda-17",
+    "agenda-18",
+    "agenda-23",
+    "agenda-26",
+    "agenda-31",
+    "agenda-33",
+    "agenda-34",
+    "agenda-37",
+    "agenda-38",
+    "agenda-40",
+    "agenda-41",
+    "agenda-43",
+    "agenda-44",
+    "agenda-45",
+    "agenda-47",
+    "agenda-48",
+    "agenda-53",
+    "agenda-66",
+    "agenda-73",
+    "agenda-75",
+    "agenda-80",
+    "agenda-81",
+    "agenda-82",
+    "agenda-83",
+    "agenda-84",
+    "agenda-86",
+    "agenda-88",
+    "agenda-89",
+    "agenda-91",
+    "agenda-92",
+    "agenda-94",
+    "agenda-97",
+    "agenda-98",
+    "agenda-100",
+    "agenda-101",
+    "agenda-102",
+    "agenda-103",
+    "agenda-104",
+    "agenda-106",
+    "agenda-107",
+    "agenda-108",
+    "agenda-109",
+    "agenda-110",
+    "agenda-115",
+    "agenda-49",
+    "agenda-93"
+  ]
+}

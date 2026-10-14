@@ -1,0 +1,673 @@
+{
+  "scope": "Read-only source/semantics audit for revised illustrative HH design; no application edits.",
+  "source_model": "/workspace/saytara-work/hh-report-concept/source-model.json",
+  "source_model_sha256": "6ce97d39daf586902fe9d1c03cfae69633498ffa45f18e49bf14be112f60bc2b",
+  "fixture": {
+    "path": "/workspace/saytara-work/monthly-apple-preview/ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "provenance": "ILLUSTRATIVE workbook; app source model, unrestricted scope"
+  },
+  "data_reference": {
+    "year": 2026,
+    "today": 46295
+  },
+  "display_period": "حتى تاريخ 30/09/2026",
+  "record_grain": "One named special-project source row. Item key special-N is the parsed row key; recordId is blank in this illustrative source.",
+  "counts": {
+    "raw_model_items": 62,
+    "distinct_keys": 62,
+    "blank_record_ids": 62,
+    "blank_sector": 0,
+    "blank_lead": 2,
+    "blank_status": 1
+  },
+  "status_order": [
+    "متأخر",
+    "قيد المراجعة",
+    "قيد التطوير",
+    "منجز",
+    "حالات أخرى"
+  ],
+  "status_order_source": "Workbook 'List of Values'!W2:W5 WorkStatus. 'حالات أخرى' is a generated residual bucket appended by HH model.",
+  "observed_status_order": [
+    "قيد المراجعة",
+    "قيد التطوير",
+    "منجز",
+    "حالات أخرى"
+  ],
+  "sector_order": [
+    "الأمانة العامة للمجلس التنفيذي",
+    "الحوكمة",
+    "التنمية المستدامة",
+    "الاقتصاد والتنمية الاجتماعية",
+    "التميز والخدمات الحكومية",
+    "الاتصال الحكومي وشؤون الأمانة العامة"
+  ],
+  "sector_order_source": "Workbook 'List of Values'!D2:D7 (Sectors)",
+  "cohorts": {
+    "all": {
+      "label": "جميع المشاريع الخاصة",
+      "lead_source_value": null,
+      "total": 62,
+      "status_counts": {
+        "متأخر": 0,
+        "قيد المراجعة": 3,
+        "قيد التطوير": 35,
+        "منجز": 23,
+        "حالات أخرى": 1
+      },
+      "raw_status_counts": {
+        "قيد المراجعة": 3,
+        "قيد التطوير": 35,
+        "منجز": 23,
+        "": 1
+      },
+      "sectors": [
+        {
+          "name": "الأمانة العامة للمجلس التنفيذي",
+          "total": 11,
+          "values": [
+            0,
+            2,
+            7,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "الحوكمة",
+          "total": 4,
+          "values": [
+            0,
+            0,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "name": "التنمية المستدامة",
+          "total": 14,
+          "values": [
+            0,
+            1,
+            7,
+            6,
+            0
+          ]
+        },
+        {
+          "name": "الاقتصاد والتنمية الاجتماعية",
+          "total": 24,
+          "values": [
+            0,
+            0,
+            12,
+            12,
+            0
+          ]
+        },
+        {
+          "name": "التميز والخدمات الحكومية",
+          "total": 3,
+          "values": [
+            0,
+            0,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "name": "الاتصال الحكومي وشؤون الأمانة العامة",
+          "total": 6,
+          "values": [
+            0,
+            0,
+            5,
+            1,
+            0
+          ]
+        }
+      ],
+      "keys": [
+        "special-6",
+        "special-3",
+        "special-62",
+        "special-28",
+        "special-30",
+        "special-35",
+        "special-44",
+        "special-4",
+        "special-18",
+        "special-19",
+        "special-53",
+        "special-59",
+        "special-42",
+        "special-20",
+        "special-39",
+        "special-61",
+        "special-11",
+        "special-12",
+        "special-9",
+        "special-10",
+        "special-32",
+        "special-5",
+        "special-7",
+        "special-23",
+        "special-24",
+        "special-27",
+        "special-31",
+        "special-26",
+        "special-60",
+        "special-34",
+        "special-36",
+        "special-38",
+        "special-45",
+        "special-46",
+        "special-49",
+        "special-50",
+        "special-51",
+        "special-52",
+        "special-37",
+        "special-47",
+        "special-41",
+        "special-13",
+        "special-40",
+        "special-54",
+        "special-58",
+        "special-22",
+        "special-29",
+        "special-48",
+        "special-55",
+        "special-56",
+        "special-14",
+        "special-57",
+        "special-15",
+        "special-2",
+        "special-33",
+        "special-16",
+        "special-21",
+        "special-25",
+        "special-43",
+        "special-17",
+        "special-63",
+        "special-8"
+      ]
+    },
+    "leadership": {
+      "label": "المشاريع للقيادة",
+      "lead_source_value": "نعم",
+      "total": 24,
+      "status_counts": {
+        "متأخر": 0,
+        "قيد المراجعة": 0,
+        "قيد التطوير": 12,
+        "منجز": 12,
+        "حالات أخرى": 0
+      },
+      "raw_status_counts": {
+        "قيد التطوير": 12,
+        "منجز": 12
+      },
+      "sectors": [
+        {
+          "name": "الأمانة العامة للمجلس التنفيذي",
+          "total": 0,
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "الحوكمة",
+          "total": 1,
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "name": "التنمية المستدامة",
+          "total": 6,
+          "values": [
+            0,
+            0,
+            5,
+            1,
+            0
+          ]
+        },
+        {
+          "name": "الاقتصاد والتنمية الاجتماعية",
+          "total": 15,
+          "values": [
+            0,
+            0,
+            7,
+            8,
+            0
+          ]
+        },
+        {
+          "name": "التميز والخدمات الحكومية",
+          "total": 2,
+          "values": [
+            0,
+            0,
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "name": "الاتصال الحكومي وشؤون الأمانة العامة",
+          "total": 0,
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "keys": [
+        "special-35",
+        "special-18",
+        "special-19",
+        "special-59",
+        "special-39",
+        "special-61",
+        "special-60",
+        "special-34",
+        "special-36",
+        "special-38",
+        "special-50",
+        "special-51",
+        "special-37",
+        "special-41",
+        "special-13",
+        "special-40",
+        "special-58",
+        "special-22",
+        "special-14",
+        "special-15",
+        "special-33",
+        "special-16",
+        "special-21",
+        "special-25"
+      ]
+    },
+    "tec": {
+      "label": "المشاريع للأمانة العامة",
+      "lead_source_value": [
+        "لا",
+        ""
+      ],
+      "selection_rule": "All items not explicitly نعم, per latest user instruction. Empty lead belongs to TEC.",
+      "total": 38,
+      "status_counts": {
+        "متأخر": 0,
+        "قيد المراجعة": 3,
+        "قيد التطوير": 23,
+        "منجز": 11,
+        "حالات أخرى": 1
+      },
+      "raw_status_counts": {
+        "قيد المراجعة": 3,
+        "قيد التطوير": 23,
+        "منجز": 11,
+        "": 1
+      },
+      "sectors": [
+        {
+          "name": "الأمانة العامة للمجلس التنفيذي",
+          "total": 11,
+          "values": [
+            0,
+            2,
+            7,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "الحوكمة",
+          "total": 3,
+          "values": [
+            0,
+            0,
+            3,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "التنمية المستدامة",
+          "total": 8,
+          "values": [
+            0,
+            1,
+            2,
+            5,
+            0
+          ]
+        },
+        {
+          "name": "الاقتصاد والتنمية الاجتماعية",
+          "total": 9,
+          "values": [
+            0,
+            0,
+            5,
+            4,
+            0
+          ]
+        },
+        {
+          "name": "التميز والخدمات الحكومية",
+          "total": 1,
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "الاتصال الحكومي وشؤون الأمانة العامة",
+          "total": 6,
+          "values": [
+            0,
+            0,
+            5,
+            1,
+            0
+          ]
+        }
+      ],
+      "keys": [
+        "special-6",
+        "special-3",
+        "special-62",
+        "special-28",
+        "special-30",
+        "special-44",
+        "special-4",
+        "special-53",
+        "special-42",
+        "special-20",
+        "special-11",
+        "special-12",
+        "special-9",
+        "special-10",
+        "special-32",
+        "special-5",
+        "special-7",
+        "special-23",
+        "special-24",
+        "special-27",
+        "special-31",
+        "special-26",
+        "special-45",
+        "special-46",
+        "special-49",
+        "special-52",
+        "special-47",
+        "special-54",
+        "special-29",
+        "special-48",
+        "special-55",
+        "special-56",
+        "special-57",
+        "special-2",
+        "special-43",
+        "special-17",
+        "special-63",
+        "special-8"
+      ]
+    }
+  },
+  "colors": {
+    "متأخر": {
+      "fill": "#C00000",
+      "ink": "#FCFBFB",
+      "border": "#C00000"
+    },
+    "جاهز للعرض": {
+      "fill": "#115E67",
+      "ink": "#FCFBFB",
+      "border": "#115E67"
+    },
+    "قيد المراجعة": {
+      "fill": "#D9E1E2",
+      "ink": "#115E67",
+      "border": "#115E67"
+    },
+    "قيد التطوير": {
+      "fill": "#D9E1E2",
+      "ink": "#115E67",
+      "border": "#115E67"
+    },
+    "منجز": {
+      "fill": "#01831E",
+      "ink": "#FCFBFB",
+      "border": "#01831E"
+    },
+    "حالات أخرى": {
+      "fill": "#FCFBFB",
+      "ink": "#4F4E4E",
+      "border": "#C8C7C7"
+    }
+  },
+  "colors_source": "Performance-App-v154/assets/js/views/common.js:19-33",
+  "ready_note": "جاهز للعرض belongs to AgendaStatus (List of Values U3), not WorkStatus; no HH fixture records have that status. Teal labels/numbers can be illustrated separately as an app-wide presentation rule without inventing an HH chart category.",
+  "hh_workflow_definitions_found": false,
+  "definition_evidence": {
+    "hh_recorded_status_metric_rules": "assets/js/model/rules.js:242-257",
+    "hh_report_metric_rules": "assets/js/views/reports.js:52-59",
+    "agenda_workflow_definitions_not_applicable_to_hh": "assets/js/reports/agenda.js:7-13"
+  },
+  "proposed_hh_legend_descriptions": {
+    "متأخر": "المشاريع المسجلة بالحالة «متأخر» في ملف المتابعة؛ لا يُستنتج التأخر من تاريخ الانتهاء.",
+    "قيد المراجعة": "المشاريع المسجلة بالحالة «قيد المراجعة»؛ تُحتسب ضمن المشاريع قيد العمل في هذا التقرير.",
+    "قيد التطوير": "المشاريع المسجلة بالحالة «قيد التطوير»؛ تُحتسب ضمن المشاريع قيد العمل في هذا التقرير.",
+    "منجز": "المشاريع المسجلة بالحالة «منجز»؛ لا يُستنتج الإنجاز من النسبة وحدها.",
+    "حالات أخرى": "المشاريع التي خلت حالتها أو لم ترد ضمن قائمة مستويات الإنجاز؛ تبقى مشمولة في الإجمالي."
+  },
+  "description_status": "Proposed report wording grounded in existing recorded-status counting rules; not claimed to be official HH workflow definitions.",
+  "metric_caution": "HH report inProgress is38 (review3 + development35), otherOpen1. Global dashboard specialProgress uses total minus done and late and includes blank status, giving39. Preserve metric context; do not silently swap definitions. Per latest user cohort rule TEC has26 active(review3+development23),11 done,1 other; leadership12 active,12 done.",
+  "blank_status_record": [
+    {
+      "key": "special-8",
+      "row": 8,
+      "title": "مشروع خاص توضيحي 007",
+      "lead": "لا",
+      "sector": "الأمانة العامة للمجلس التنفيذي"
+    }
+  ],
+  "blank_lead_records": [
+    {
+      "key": "special-62",
+      "row": 62,
+      "title": "مشروع خاص توضيحي 061",
+      "status": "قيد المراجعة",
+      "sector": "التنمية المستدامة"
+    },
+    {
+      "key": "special-63",
+      "row": 63,
+      "title": "مشروع خاص توضيحي 062",
+      "status": "منجز",
+      "sector": "التنمية المستدامة"
+    }
+  ],
+  "presentation_rules": {
+    "zero": "Display exact numeric zero as - for metric, count, progress and money display; retain underlying numeric0; leave axis baseline0, identifiers, dates, source text, numeric inputs and accessibility numeric semantics intact.",
+    "missing": "Blank generated placeholder text such as standalone غير مسجل at display boundaries; retain source missingness, classification counts, empty states and meaningful field/diagnostic wording. Never global replace inside descriptive text.",
+    "sourceName": "Hide Source.Name card field at card rendering boundary; retain provenance and matching/source data.",
+    "number_inside_bars": "Place nonzero segment numbers inside their own segment. Review and development use same source fill, so retain textual identification (per-status rows or clear labels) and do not rely on color alone.",
+    "ready": "Use #115E67 for ready labels and numeric text on neutral background. Existing white in-bar text remains legible over #115E67 fill."
+  },
+  "formatter_audit": [
+    {
+      "path": "assets/js/model/util.js",
+      "lines": "90-104",
+      "finding": "metricText and displayNumber already return ASCII - for exact numeric0; missing numbers use em dash; nonzero fractions that round to0 retain significant digits."
+    },
+    {
+      "path": "assets/js/model/util.js",
+      "lines": "21-25",
+      "finding": "tableCellText blanks exact non-recorded placeholders and dash strings in follow-up tables; recorded0 remains. Reusing it after numeric0 formatting would accidentally blank dash."
+    },
+    {
+      "path": "assets/js/model/util.js",
+      "lines": "85-110",
+      "finding": "fmtN/fmtNum still render0 numerically; fmtM can render0.00. They also serve generic and axis use, so audit call sites rather than global replacement."
+    },
+    {
+      "path": "assets/js/views/projects.js",
+      "lines": "13-15",
+      "finding": "Local display explicitly renders0% for zero percentage; val/status generate غير مسجل."
+    },
+    {
+      "path": "assets/js/views/portfolio-delivery.js",
+      "lines": "10-11",
+      "finding": "Local pct explicitly renders0%; cash already renders zero as hyphen."
+    },
+    {
+      "path": "assets/js/views/reports.js",
+      "lines": "8-12,26,84-109,134,164",
+      "finding": "Local missing text/status/progress produce placeholders including غير مسجل / غير مسجلة / غير متوفر. HH zero percentages already flow through displayNumber; axes explicitly preserve0."
+    },
+    {
+      "path": "assets/js/views/common.js",
+      "lines": "92-108",
+      "finding": "Shared progressReading uses displayNumber (zero dash); missing progress still emits غير مسجل / غير مسجلة."
+    },
+    {
+      "path": "assets/js/views/dashboard.js",
+      "lines": "14-15,99",
+      "finding": "KPI valueHtml already renders zero dash; completionCaption bypasses it with fmtNum, so can show0%."
+    },
+    {
+      "path": "assets/js/views/monthly-print.js",
+      "lines": "7-9",
+      "finding": "Explicit zero branch already shows hyphen before percentage fmtNum; on-screen KPI parity is present."
+    },
+    {
+      "path": "assets/js/views/detail.js",
+      "lines": "69-109,166-172",
+      "finding": "Generic detail-field rendering and clipboard export have their own missing fallback; use typed field metadata, preserve IDs/dates and source descriptions."
+    },
+    {
+      "path": "assets/js/reports/hh.js",
+      "lines": "7,100-103",
+      "finding": "PowerPoint value() uses غير متوفر fallback and progress() uses displayNumber. Export surface needs explicit parity with HTML if applied later."
+    },
+    {
+      "path": "assets/js/app-bundle.js",
+      "lines": "generated bundle",
+      "finding": "Application bundles mirror modular helpers/views; future implementation must rebuild via project build process rather than source-only changes."
+    }
+  ],
+  "raw_unassigned_audit_only": {
+    "label": "جهة الطلب غير محددة",
+    "lead_source_value": "",
+    "total": 2,
+    "status_counts": {
+      "متأخر": 0,
+      "قيد المراجعة": 1,
+      "قيد التطوير": 0,
+      "منجز": 1,
+      "حالات أخرى": 0
+    },
+    "raw_status_counts": {
+      "قيد المراجعة": 1,
+      "منجز": 1
+    },
+    "sectors": [
+      {
+        "name": "الأمانة العامة للمجلس التنفيذي",
+        "total": 0,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "الحوكمة",
+        "total": 0,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "التنمية المستدامة",
+        "total": 2,
+        "values": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "name": "الاقتصاد والتنمية الاجتماعية",
+        "total": 0,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "التميز والخدمات الحكومية",
+        "total": 0,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "الاتصال الحكومي وشؤون الأمانة العامة",
+        "total": 0,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "keys": [
+      "special-62",
+      "special-63"
+    ],
+    "included_in": "tec",
+    "display_rule": "Do not present as separate unclassified note; latest user instruction includes blank lead in TEC."
+  },
+  "cohort_authority": "Latest user instruction overrides existing app specialGs exact-no cohort: نعم is leadership; every other lead value including blank is TEC. Illustrative split24+38=62."
+}

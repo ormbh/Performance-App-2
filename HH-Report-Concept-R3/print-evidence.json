@@ -1,0 +1,644 @@
+{
+  "pages": 3,
+  "pdfFile": "TEC_HH_Report_Review_R3.pdf",
+  "pdfSha256": "d6e667ebd6f7b7d6dff432d0a7292f5e6e5bcf46fd25026eed03171cf2c6e81a",
+  "geometry": [
+    [
+      0.0,
+      0.0,
+      841.9199829101562,
+      594.9599609375
+    ],
+    [
+      0.0,
+      0.0,
+      841.9199829101562,
+      594.9599609375
+    ],
+    [
+      0.0,
+      0.0,
+      841.9199829101562,
+      594.9599609375
+    ]
+  ],
+  "inputs": {
+    "index.html": "7534347a6a85b8510291967916c586caad990be01c2be677ae1cd8dacc429bcc",
+    "app.js": "025916ba94a3e67ea408eac6cbe59087284b39d5b924cc7184ef0ed63adb68a1",
+    "style.css": "101d3d73682b00b4c4d4804fff1d0b0300aefacad007cbd9cb3e85907d698cdf",
+    "data.js": "9509c7419a7112facfa83d28222ee9c7294a05915833ff08bcb57e312d0a951d"
+  },
+  "scope": "All 62 illustrative HH records; leadership is t.lead=نعم (24); TEC is every other record including blanks (38). Detail page is one sample record.",
+  "snapshot": {
+    "total": 62,
+    "leadership": 24,
+    "tec": 38,
+    "blankLeadership": 2,
+    "state": {
+      "keys": [
+        "special-6",
+        "special-3",
+        "special-62",
+        "special-28",
+        "special-30",
+        "special-35",
+        "special-44",
+        "special-4",
+        "special-18",
+        "special-19",
+        "special-53",
+        "special-59",
+        "special-42",
+        "special-20",
+        "special-39",
+        "special-61",
+        "special-11",
+        "special-12",
+        "special-9",
+        "special-10",
+        "special-32",
+        "special-5",
+        "special-7",
+        "special-23",
+        "special-24",
+        "special-27",
+        "special-31",
+        "special-26",
+        "special-60",
+        "special-34",
+        "special-36",
+        "special-38",
+        "special-45",
+        "special-46",
+        "special-49",
+        "special-50",
+        "special-51",
+        "special-52",
+        "special-37",
+        "special-47",
+        "special-41",
+        "special-13",
+        "special-40",
+        "special-54",
+        "special-58",
+        "special-22",
+        "special-29",
+        "special-48",
+        "special-55",
+        "special-56",
+        "special-14",
+        "special-57",
+        "special-15",
+        "special-2",
+        "special-33",
+        "special-16",
+        "special-21",
+        "special-25",
+        "special-43",
+        "special-17",
+        "special-63",
+        "special-8"
+      ],
+      "metrics": {
+        "total": 62,
+        "lead": 24,
+        "done": 23,
+        "work": 38,
+        "other": 1,
+        "leadDone": 12
+      },
+      "selected": {
+        "sector": [],
+        "unit": [],
+        "entity": [],
+        "lead": []
+      }
+    },
+    "cohorts": {
+      "scaleMax": 15,
+      "leadership": [
+        "special-35",
+        "special-18",
+        "special-19",
+        "special-59",
+        "special-39",
+        "special-61",
+        "special-60",
+        "special-34",
+        "special-36",
+        "special-38",
+        "special-50",
+        "special-51",
+        "special-37",
+        "special-41",
+        "special-13",
+        "special-40",
+        "special-58",
+        "special-22",
+        "special-14",
+        "special-15",
+        "special-33",
+        "special-16",
+        "special-21",
+        "special-25"
+      ],
+      "tec": [
+        "special-6",
+        "special-3",
+        "special-62",
+        "special-28",
+        "special-30",
+        "special-44",
+        "special-4",
+        "special-53",
+        "special-42",
+        "special-20",
+        "special-11",
+        "special-12",
+        "special-9",
+        "special-10",
+        "special-32",
+        "special-5",
+        "special-7",
+        "special-23",
+        "special-24",
+        "special-27",
+        "special-31",
+        "special-26",
+        "special-45",
+        "special-46",
+        "special-49",
+        "special-52",
+        "special-47",
+        "special-54",
+        "special-29",
+        "special-48",
+        "special-55",
+        "special-56",
+        "special-57",
+        "special-2",
+        "special-43",
+        "special-17",
+        "special-63",
+        "special-8"
+      ]
+    },
+    "detailKey": "special-26"
+  },
+  "bounds": [
+    {
+      "height": 794,
+      "scrollHeight": 794,
+      "children": [
+        {
+          "class": "logos",
+          "id": "",
+          "top": 49.125,
+          "bottom": 155.484375
+        },
+        {
+          "class": "cover-copy",
+          "id": "",
+          "top": 0,
+          "bottom": 793.6875
+        },
+        {
+          "class": "review-marker",
+          "id": "",
+          "top": 755.734375,
+          "bottom": 771.015625
+        }
+      ]
+    },
+    {
+      "height": 794,
+      "scrollHeight": 794,
+      "children": [
+        {
+          "class": "print-head",
+          "id": "",
+          "top": 30.234375,
+          "bottom": 79.359375
+        },
+        {
+          "class": "",
+          "id": "print-chart",
+          "top": 94.46875,
+          "bottom": 702.15625
+        },
+        {
+          "class": "review-marker",
+          "id": "",
+          "top": 735.59375,
+          "bottom": 749.09375
+        },
+        {
+          "class": "print-footer",
+          "id": "",
+          "top": 755.1875,
+          "bottom": 778.578125
+        }
+      ]
+    },
+    {
+      "height": 794,
+      "scrollHeight": 794,
+      "children": [
+        {
+          "class": "print-head",
+          "id": "",
+          "top": 30.234375,
+          "bottom": 79.359375
+        },
+        {
+          "class": "",
+          "id": "print-detail",
+          "top": 94.46875,
+          "bottom": 422.21875
+        },
+        {
+          "class": "rules-wrap",
+          "id": "print-rules",
+          "top": 441.109375,
+          "bottom": 687.546875
+        },
+        {
+          "class": "review-marker",
+          "id": "",
+          "top": 735.59375,
+          "bottom": 749.09375
+        },
+        {
+          "class": "print-footer",
+          "id": "",
+          "top": 755.1875,
+          "bottom": 778.578125
+        }
+      ]
+    }
+  ],
+  "browserErrors": [],
+  "chartGeometry": [
+    {
+      "cohort": "leadership",
+      "total": 24,
+      "segments": [
+        {
+          "count": 1,
+          "status": "منجز",
+          "displayed": 1,
+          "sector": "الحوكمة",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 5,
+          "status": "قيد التطوير",
+          "displayed": 5,
+          "sector": "التنمية المستدامة",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 1,
+          "status": "منجز",
+          "displayed": 1,
+          "sector": "التنمية المستدامة",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 7,
+          "status": "قيد التطوير",
+          "displayed": 7,
+          "sector": "الاقتصاد والتنمية الاجتماعية",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 8,
+          "status": "منجز",
+          "displayed": 8,
+          "sector": "الاقتصاد والتنمية الاجتماعية",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 2,
+          "status": "منجز",
+          "displayed": 2,
+          "sector": "التميز والخدمات الحكومية",
+          "numberInside": true,
+          "proportional": true
+        }
+      ],
+      "statusTotals": [
+        {
+          "status": "قيد التطوير",
+          "count": 12
+        },
+        {
+          "status": "منجز",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "cohort": "tec",
+      "total": 38,
+      "segments": [
+        {
+          "count": 2,
+          "status": "قيد المراجعة",
+          "displayed": 2,
+          "sector": "الأمانة العامة للمجلس التنفيذي",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 7,
+          "status": "قيد التطوير",
+          "displayed": 7,
+          "sector": "الأمانة العامة للمجلس التنفيذي",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 1,
+          "status": "منجز",
+          "displayed": 1,
+          "sector": "الأمانة العامة للمجلس التنفيذي",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 1,
+          "status": "حالات أخرى",
+          "displayed": 1,
+          "sector": "الأمانة العامة للمجلس التنفيذي",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 3,
+          "status": "قيد التطوير",
+          "displayed": 3,
+          "sector": "الحوكمة",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 1,
+          "status": "قيد المراجعة",
+          "displayed": 1,
+          "sector": "التنمية المستدامة",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 2,
+          "status": "قيد التطوير",
+          "displayed": 2,
+          "sector": "التنمية المستدامة",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 5,
+          "status": "منجز",
+          "displayed": 5,
+          "sector": "التنمية المستدامة",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 5,
+          "status": "قيد التطوير",
+          "displayed": 5,
+          "sector": "الاقتصاد والتنمية الاجتماعية",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 4,
+          "status": "منجز",
+          "displayed": 4,
+          "sector": "الاقتصاد والتنمية الاجتماعية",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 1,
+          "status": "قيد التطوير",
+          "displayed": 1,
+          "sector": "التميز والخدمات الحكومية",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 5,
+          "status": "قيد التطوير",
+          "displayed": 5,
+          "sector": "الاتصال الحكومي وشؤون الأمانة العامة",
+          "numberInside": true,
+          "proportional": true
+        },
+        {
+          "count": 1,
+          "status": "منجز",
+          "displayed": 1,
+          "sector": "الاتصال الحكومي وشؤون الأمانة العامة",
+          "numberInside": true,
+          "proportional": true
+        }
+      ],
+      "statusTotals": [
+        {
+          "status": "قيد المراجعة",
+          "count": 3
+        },
+        {
+          "status": "قيد التطوير",
+          "count": 23
+        },
+        {
+          "status": "منجز",
+          "count": 11
+        },
+        {
+          "status": "حالات أخرى",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "minimumBodyFontPoints": 12.0,
+  "checks": {
+    "cohortsDisjointComplete": true,
+    "segmentNumbersInsideBars": true,
+    "commonCountScale15": true,
+    "segmentAndStatusTotalsReconciled": true,
+    "noPageOverflow": true,
+    "footerClearance": true,
+    "sourceFilenameAbsentFromCard": true
+  },
+  "nativeDomClones": {
+    "chart": true,
+    "detail": true,
+    "displayRules": true
+  },
+  "domFragmentSha256": {
+    "chart": "1e103a21622e2e287667f40a2d4998235bf7665979673926a39ad08d9c79a57b",
+    "detail": "3c71c88a96eea055624fe814be323486cf6e5e75f6cfe6e3f13ea9c47ca98a19",
+    "rules": "be17d8b8c3aae2782b1e5c77da6e8d1aa4c782f200f1d433ea059e4d780ef415"
+  },
+  "bodyTextExtracted": [
+    136,
+    1037,
+    686
+  ],
+  "imageCounts": [
+    2,
+    0,
+    0
+  ],
+  "fonts": [
+    {
+      "page": 1,
+      "fonts": [
+        {
+          "name": "F9",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F10",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F11",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F12",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F13",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "fonts": [
+        {
+          "name": "F9",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F10",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F11",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F12",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F13",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F18",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "fonts": [
+        {
+          "name": "F9",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F10",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F11",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F12",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F13",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F18",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "DAAAAA+LiberationSans",
+          "type": "Type0",
+          "selfContained": true,
+          "toUnicode": true
+        }
+      ]
+    }
+  ],
+  "fontNote": "Chromium embeds the supplied OTF faces as Type3 vector glyph subsets with ToUnicode maps; DIN LT uses an embedded TrueType subset. Appearance and selectable text are checked, not PDF accessibility certification.",
+  "textOutsidePage": []
+}

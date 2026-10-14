@@ -1,0 +1,624 @@
+{
+  "checks": [
+    {
+      "name": "Raw workbook and fresh v154 model reconcile at 117 rows",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved raw source status counts equal model totals",
+      "pass": true,
+      "details": [
+        {
+          "name": "جاهز للعرض",
+          "count": 10
+        },
+        {
+          "name": "قيد المراجعة",
+          "count": 5
+        },
+        {
+          "name": "قيد التطوير",
+          "count": 51
+        },
+        {
+          "name": "منجز",
+          "count": 34
+        }
+      ]
+    },
+    {
+      "name": "approved status and quarter totals reconcile",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved every quarter stack reconciles",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging raw source status counts equal model totals",
+      "pass": true,
+      "details": [
+        {
+          "name": "جاهز للعرض",
+          "count": 6
+        },
+        {
+          "name": "قيد المراجعة",
+          "count": 1
+        },
+        {
+          "name": "قيد التطوير",
+          "count": 1
+        },
+        {
+          "name": "منجز",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "name": "emerging status and quarter totals reconcile",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging every quarter stack reconciles",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "No duplicate source model keys",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Self-contained HTML makes no external asset requests",
+      "pass": true,
+      "details": [
+        "http://127.0.0.1:8955/agenda-inbar-concept-r1/Agenda-In-Bar-Illustration.html"
+      ]
+    },
+    {
+      "name": "Original Dubai and DIN fonts loaded",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Approved category physically right, emerging left",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Both charts retain zero-to-50 common numeric scale",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Axis baseline is zero numerically and dash in display",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved Q1 physically right",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved initial totals",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved hover keeps totals",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved focus keeps totals",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved explicit activation shows quarter",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved Escape restores totals",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved no persistent selected outline",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved outside click restores totals",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الأول exact total",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الأول منجز segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الأول قيد المراجعة segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الأول جاهز للعرض segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الثاني exact total",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الثاني منجز segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الثاني قيد التطوير segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الثاني قيد المراجعة segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الثاني جاهز للعرض segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الثالث exact total",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الثالث منجز segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الثالث قيد التطوير segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الثالث قيد المراجعة segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الثالث جاهز للعرض segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الرابع exact total",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الرابع منجز segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الرابع قيد التطوير segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved الربع الرابع قيد المراجعة segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging Q1 physically right",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging initial totals",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging hover keeps totals",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging focus keeps totals",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging explicit activation shows quarter",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging Escape restores totals",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging no persistent selected outline",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging outside click restores totals",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging الربع الأول exact total",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging الربع الأول منجز segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging الربع الأول جاهز للعرض segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging الربع الثاني exact total",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging الربع الثاني منجز segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging الربع الثالث exact total",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging الربع الثالث منجز segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging الربع الثالث قيد المراجعة segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging الربع الثالث جاهز للعرض segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging الربع الرابع exact total",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging الربع الرابع منجز segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "emerging الربع الرابع قيد التطوير segment proportional",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Desktop labels show all 2+ segments and omit 1-count segments",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Visible desktop in-bar type is at least 16 CSS px",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Ready in-bar count uses Paper for contrast on Teal",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Ready labels and values below charts are Teal",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Zero matrix counts use dash",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "All five original detailed definitions retained",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "No duplicate IDs in expanded count reference",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "390 no document horizontal overflow",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "768 no document horizontal overflow",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "PDF has charts with definitions on page 1 and exact matrix on page 2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "PDF is A4 landscape",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "PDF fonts embedded",
+      "pass": true,
+      "details": null
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "source": {
+    "fixture": "/workspace/saytara-work/monthly-apple-preview/ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "cutoff": "30/09/2026",
+    "period": "يناير – سبتمبر 2026",
+    "application": "Performance-App-v154",
+    "scope": "All sectors, units and entities; all agenda types; illustrative fixture"
+  },
+  "labels": [
+    {
+      "cohort": "approved",
+      "quarter": "الربع الأول",
+      "status": "منجز",
+      "count": 23,
+      "visible": true,
+      "fontPx": 16.2,
+      "fill": "rgb(252, 251, 251)"
+    },
+    {
+      "cohort": "approved",
+      "quarter": "الربع الأول",
+      "status": "قيد المراجعة",
+      "count": 1,
+      "visible": false,
+      "fontPx": 16.2,
+      "fill": "rgb(17, 94, 103)"
+    },
+    {
+      "cohort": "approved",
+      "quarter": "الربع الأول",
+      "status": "جاهز للعرض",
+      "count": 3,
+      "visible": true,
+      "fontPx": 16.2,
+      "fill": "rgb(252, 251, 251)"
+    },
+    {
+      "cohort": "approved",
+      "quarter": "الربع الثاني",
+      "status": "منجز",
+      "count": 8,
+      "visible": true,
+      "fontPx": 16.2,
+      "fill": "rgb(252, 251, 251)"
+    },
+    {
+      "cohort": "approved",
+      "quarter": "الربع الثاني",
+      "status": "قيد التطوير",
+      "count": 2,
+      "visible": true,
+      "fontPx": 16.2,
+      "fill": "rgb(17, 94, 103)"
+    },
+    {
+      "cohort": "approved",
+      "quarter": "الربع الثاني",
+      "status": "قيد المراجعة",
+      "count": 2,
+      "visible": true,
+      "fontPx": 16.2,
+      "fill": "rgb(17, 94, 103)"
+    },
+    {
+      "cohort": "approved",
+      "quarter": "الربع الثاني",
+      "status": "جاهز للعرض",
+      "count": 5,
+      "visible": true,
+      "fontPx": 16.2,
+      "fill": "rgb(252, 251, 251)"
+    },
+    {
+      "cohort": "approved",
+      "quarter": "الربع الثالث",
+      "status": "منجز",
+      "count": 2,
+      "visible": true,
+      "fontPx": 16.2,
+      "fill": "rgb(252, 251, 251)"
+    },
+    {
+      "cohort": "approved",
+      "quarter": "الربع الثالث",
+      "status": "قيد التطوير",
+      "count": 5,
+      "visible": true,
+      "fontPx": 16.2,
+      "fill": "rgb(17, 94, 103)"
+    },
+    {
+      "cohort": "approved",
+      "quarter": "الربع الثالث",
+      "status": "قيد المراجعة",
+      "count": 1,
+      "visible": false,
+      "fontPx": 16.2,
+      "fill": "rgb(17, 94, 103)"
+    },
+    {
+      "cohort": "approved",
+      "quarter": "الربع الثالث",
+      "status": "جاهز للعرض",
+      "count": 2,
+      "visible": true,
+      "fontPx": 16.2,
+      "fill": "rgb(252, 251, 251)"
+    },
+    {
+      "cohort": "approved",
+      "quarter": "الربع الرابع",
+      "status": "منجز",
+      "count": 1,
+      "visible": false,
+      "fontPx": 16.2,
+      "fill": "rgb(252, 251, 251)"
+    },
+    {
+      "cohort": "approved",
+      "quarter": "الربع الرابع",
+      "status": "قيد التطوير",
+      "count": 44,
+      "visible": true,
+      "fontPx": 16.2,
+      "fill": "rgb(17, 94, 103)"
+    },
+    {
+      "cohort": "approved",
+      "quarter": "الربع الرابع",
+      "status": "قيد المراجعة",
+      "count": 1,
+      "visible": false,
+      "fontPx": 16.2,
+      "fill": "rgb(17, 94, 103)"
+    },
+    {
+      "cohort": "emerging",
+      "quarter": "الربع الأول",
+      "status": "منجز",
+      "count": 5,
+      "visible": true,
+      "fontPx": 16.2,
+      "fill": "rgb(252, 251, 251)"
+    },
+    {
+      "cohort": "emerging",
+      "quarter": "الربع الأول",
+      "status": "جاهز للعرض",
+      "count": 2,
+      "visible": true,
+      "fontPx": 16.2,
+      "fill": "rgb(252, 251, 251)"
+    },
+    {
+      "cohort": "emerging",
+      "quarter": "الربع الثاني",
+      "status": "منجز",
+      "count": 2,
+      "visible": true,
+      "fontPx": 16.2,
+      "fill": "rgb(252, 251, 251)"
+    },
+    {
+      "cohort": "emerging",
+      "quarter": "الربع الثالث",
+      "status": "منجز",
+      "count": 1,
+      "visible": false,
+      "fontPx": 16.2,
+      "fill": "rgb(252, 251, 251)"
+    },
+    {
+      "cohort": "emerging",
+      "quarter": "الربع الثالث",
+      "status": "قيد المراجعة",
+      "count": 1,
+      "visible": false,
+      "fontPx": 16.2,
+      "fill": "rgb(17, 94, 103)"
+    },
+    {
+      "cohort": "emerging",
+      "quarter": "الربع الثالث",
+      "status": "جاهز للعرض",
+      "count": 4,
+      "visible": true,
+      "fontPx": 16.2,
+      "fill": "rgb(252, 251, 251)"
+    },
+    {
+      "cohort": "emerging",
+      "quarter": "الربع الرابع",
+      "status": "منجز",
+      "count": 1,
+      "visible": false,
+      "fontPx": 16.2,
+      "fill": "rgb(252, 251, 251)"
+    },
+    {
+      "cohort": "emerging",
+      "quarter": "الربع الرابع",
+      "status": "قيد التطوير",
+      "count": 1,
+      "visible": false,
+      "fontPx": 16.2,
+      "fill": "rgb(17, 94, 103)"
+    }
+  ],
+  "pdfFonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Dubai-Regular                 Type 3            Custom           yes yes yes      5  0\nAAAAAA+Dubai-Regular                 Type 3            Custom           yes yes yes      6  0\nBAAAAA+DINNextArabic-Regular         Type 3            Custom           yes yes yes      7  0\nBAAAAA+DINNextArabic-Regular         Type 3            Custom           yes yes yes      8  0\nBAAAAA+DINNextArabic-Regular         Type 3            Custom           yes yes yes      9  0\nCAAAAA+DINNextLTArabic-Regular       CID TrueType      Identity-H       yes yes yes     10  0\nAAAAAA+Dubai-Regular                 Type 3            Custom           yes yes yes     11  0\n",
+  "verdict": "PASS",
+  "visualReview": {
+    "verdict": "PASS",
+    "artifacts": [
+      "Agenda-In-Bar-Paired.png",
+      "Agenda-In-Bar-Desktop.png",
+      "final-pdf-1.png",
+      "final-pdf-2.png"
+    ],
+    "checked": [
+      "Arabic shaping and RTL",
+      "Visible numeral contrast and placement",
+      "Original full definitions retained",
+      "Charts, totals and definitions on PDF page 1",
+      "Exact matrices on PDF page 2"
+    ],
+    "reviewer": "agenda_inbar_concept agent"
+  }
+}

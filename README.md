@@ -1,6 +1,10 @@
-[Revised HH illustrations — review only](HH-Report-Concept-R2/README.md) · [Paired charts and legend](HH-Report-Concept-R2/charts-desktop.png) · [Review PDF](HH-Report-Concept-R2/TEC_HH_Report_Review_R2.pdf) · [Offline concept ZIP](TEC_HH_Report_Concept_R2.zip)
+[HH illustration — revision 3](HH-Report-Concept-R3/README.md) · [Charts and legend](HH-Report-Concept-R3/charts-desktop.png) · [Review PDF](HH-Report-Concept-R3/TEC_HH_Report_Review_R3.pdf) · [Offline concept ZIP](TEC_HH_Report_Concept_R3.zip)
 
-The revised concept separates leadership and TEC projects, puts counts inside the bars, adds a detailed legend and illustrates the new shared display rules. The current application remains **v154**.
+Empty sector rows and empty cohorts disappear. Totals sit beside each bar endpoint; individual status labels below bars are removed. Aggregate status totals and the detailed legend remain.
+
+[Agenda in-bar illustration](Agenda-In-Bar-Concept/README.md) · [Charts and original definitions](Agenda-In-Bar-Concept/Agenda-In-Bar-Paired.png) · [Review PDF](Agenda-In-Bar-Concept/Agenda-In-Bar-A4-Landscape.pdf) · [Offline concept ZIP](TEC_Agenda_In_Bar_Concept.zip)
+
+Agenda counts appear inside proportional segments where they fit legibly. Exact small counts remain available in quarter details and the count matrices. Both examples use illustrative data and are **review only**. The current application remains **v154**.
 
 # Performance App v154
 
