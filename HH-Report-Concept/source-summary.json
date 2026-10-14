@@ -1,0 +1,120 @@
+{
+  "date": "30/09/2026",
+  "scope": "all sectors, units, concerned entities and leadership selections unrestricted",
+  "fixture": {
+    "path": "/workspace/saytara-work/monthly-apple-preview/ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "provenance": "ILLUSTRATIVE workbook; app source model, unrestricted scope"
+  },
+  "headline": [
+    [
+      "إجمالي المشاريع الخاصة",
+      62,
+      "total"
+    ],
+    [
+      "منها مشاريع للقيادة",
+      24,
+      "lead"
+    ],
+    [
+      "المشاريع المنجزة",
+      23,
+      "done"
+    ],
+    [
+      "المشاريع قيد العمل",
+      38,
+      "open"
+    ],
+    [
+      "حالات أخرى غير منجزة",
+      1,
+      "other"
+    ]
+  ],
+  "statusTotals": [
+    {
+      "name": "قيد المراجعة",
+      "total": 3,
+      "lead": 0
+    },
+    {
+      "name": "قيد التطوير",
+      "total": 35,
+      "lead": 12
+    },
+    {
+      "name": "منجز",
+      "total": 23,
+      "lead": 12
+    },
+    {
+      "name": "حالات أخرى",
+      "total": 1,
+      "lead": 0
+    }
+  ],
+  "sectorTotals": [
+    {
+      "sector": "الأمانة العامة للمجلس التنفيذي",
+      "total": 11,
+      "قيد المراجعة": 2,
+      "قيد التطوير": 7,
+      "منجز": 1,
+      "حالات أخرى": 1
+    },
+    {
+      "sector": "الحوكمة",
+      "total": 4,
+      "قيد المراجعة": 0,
+      "قيد التطوير": 3,
+      "منجز": 1,
+      "حالات أخرى": 0
+    },
+    {
+      "sector": "التنمية المستدامة",
+      "total": 14,
+      "قيد المراجعة": 1,
+      "قيد التطوير": 7,
+      "منجز": 6,
+      "حالات أخرى": 0
+    },
+    {
+      "sector": "الاقتصاد والتنمية الاجتماعية",
+      "total": 24,
+      "قيد المراجعة": 0,
+      "قيد التطوير": 12,
+      "منجز": 12,
+      "حالات أخرى": 0
+    },
+    {
+      "sector": "التميز والخدمات الحكومية",
+      "total": 3,
+      "قيد المراجعة": 0,
+      "قيد التطوير": 1,
+      "منجز": 2,
+      "حالات أخرى": 0
+    },
+    {
+      "sector": "الاتصال الحكومي وشؤون الأمانة العامة",
+      "total": 6,
+      "قيد المراجعة": 0,
+      "قيد التطوير": 5,
+      "منجز": 1,
+      "حالات أخرى": 0
+    }
+  ],
+  "completion": {
+    "all": {
+      "numerator": 23,
+      "denominator": 62,
+      "percentage": 37.1
+    },
+    "leadership": {
+      "numerator": 12,
+      "denominator": 24,
+      "percentage": 50
+    }
+  }
+}

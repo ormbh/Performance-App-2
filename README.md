@@ -1,3 +1,7 @@
+[HH report illustrations — review only](HH-Report-Concept/README.md) · [Review PDF](HH-Report-Concept/TEC_HH_Report_Review.pdf) · [Offline concept ZIP](TEC_HH_Report_Concept.zip)
+
+The proposed HH design is ready to review. The current application remains **v154**.
+
 # Performance App v154
 
 [Download app — v154](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v154.zip) · [Updated TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles.zip) · [Revision 21](Design-Standard/TEC-Apple-Inspired-Design-Standard-Revision-21.md) · [Preview](Status-Consistency-v154/README.md) · [Verification](Saytara-Verification-v154.md)

@@ -1,0 +1,323 @@
+{
+  "pages": 4,
+  "pdfFile": "TEC_HH_Report_Review.pdf",
+  "pdfSha256": "3bf74870c3697f1fc814db0e22bf4c59cf7aef255fcabd0dc0c1a271674e6e2e",
+  "geometry": [
+    [
+      0.0,
+      0.0,
+      841.9199829101562,
+      594.9599609375
+    ],
+    [
+      0.0,
+      0.0,
+      841.9199829101562,
+      594.9599609375
+    ],
+    [
+      0.0,
+      0.0,
+      841.9199829101562,
+      594.9599609375
+    ],
+    [
+      0.0,
+      0.0,
+      841.9199829101562,
+      594.9599609375
+    ]
+  ],
+  "sourceSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "scope": "all; table and detail pages explicitly illustrative samples",
+  "bounds": [
+    {
+      "height": 794,
+      "scrollHeight": 794,
+      "children": [
+        {
+          "cls": "logos",
+          "bottom": 155.484375
+        },
+        {
+          "cls": "cover-copy",
+          "bottom": 793.6875
+        },
+        {
+          "cls": "review-marker",
+          "bottom": 771.015625
+        }
+      ]
+    },
+    {
+      "height": 794,
+      "scrollHeight": 794,
+      "children": [
+        {
+          "cls": "page-head",
+          "bottom": 98.25
+        },
+        {
+          "cls": "summary-card",
+          "bottom": 308.046875
+        },
+        {
+          "cls": "sector-card",
+          "bottom": 700.359375
+        },
+        {
+          "cls": "review-marker",
+          "bottom": 749.09375
+        },
+        {
+          "cls": "",
+          "bottom": 778.578125
+        }
+      ]
+    },
+    {
+      "height": 794,
+      "scrollHeight": 794,
+      "children": [
+        {
+          "cls": "page-head",
+          "bottom": 98.25
+        },
+        {
+          "cls": "sample-note",
+          "bottom": 130.578125
+        },
+        {
+          "cls": "project-table",
+          "bottom": 563.484375
+        },
+        {
+          "cls": "review-marker",
+          "bottom": 749.09375
+        },
+        {
+          "cls": "",
+          "bottom": 778.578125
+        }
+      ]
+    },
+    {
+      "height": 794,
+      "scrollHeight": 794,
+      "children": [
+        {
+          "cls": "page-head",
+          "bottom": 98.25
+        },
+        {
+          "cls": "project-card",
+          "bottom": 646.609375
+        },
+        {
+          "cls": "layout-note",
+          "bottom": 715.453125
+        },
+        {
+          "cls": "review-marker",
+          "bottom": 749.09375
+        },
+        {
+          "cls": "",
+          "bottom": 778.578125
+        }
+      ]
+    }
+  ],
+  "bodyTextExtracted": [
+    105,
+    785,
+    893,
+    689
+  ],
+  "fonts": [
+    {
+      "page": 1,
+      "fonts": [
+        {
+          "name": "F9",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F10",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F11",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F12",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F13",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "fonts": [
+        {
+          "name": "F9",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F10",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F11",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F12",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F13",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F18",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "fonts": [
+        {
+          "name": "F9",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F10",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F11",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F12",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F13",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F18",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F21",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F22",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "fonts": [
+        {
+          "name": "F9",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F10",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F11",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F12",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F13",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "CAAAAA+DINNextLTArabic-Regular",
+          "type": "Type0",
+          "selfContained": true,
+          "toUnicode": true
+        },
+        {
+          "name": "F18",
+          "type": "Type3",
+          "selfContained": true,
+          "toUnicode": true
+        }
+      ]
+    }
+  ],
+  "fontNote": "Chromium embeds the supplied OTF faces as Type3 vector glyph subsets with ToUnicode maps; DIN LT is embedded TrueType. Font-file extraction alone does not detect Type3 glyph embedding.",
+  "textOutsidePage": []
+}

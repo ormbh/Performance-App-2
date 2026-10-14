@@ -1,0 +1,8 @@
+{
+  "menu_entries": 10,
+  "scope_after_offline": 24,
+  "external_requests": [],
+  "browser_errors": [],
+  "file_origin_launch": "Managed browser blocks file:// with ERR_BLOCKED_BY_ADMINISTRATOR; not verified.",
+  "offline_interaction": "PASS after local assets load"
+}

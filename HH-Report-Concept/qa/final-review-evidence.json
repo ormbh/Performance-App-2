@@ -1,0 +1,33 @@
+{
+  "verdict": "PASS for design illustration review",
+  "sourceSha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+  "baselineChecks": 937,
+  "baselinePassed": 937,
+  "focusedChecks": 13,
+  "focusedPassed": 13,
+  "phoneTable": {
+    "clientWidth": 356,
+    "scrollWidth": 1000,
+    "overflowX": "auto"
+  },
+  "visualInspection": [
+    "print-summary-final.png",
+    "print-1.png",
+    "print-3.png",
+    "print-4.png",
+    "qa/long-first-filter-phone.png",
+    "qa/synthetic-long-narrative-phone.png"
+  ],
+  "artifactHashes": {
+    "index.html": "7821b04ca98fa06200263407ed69ac3d02dd540c180136df78620a3fe49dceec",
+    "style.css": "e7045873b2f39e109e3e11caeebd0cec59bed0305659ab5284ef617084f81f2a",
+    "app.js": "00b70fb95f2d7b898007ed688a23691bbf54d081dbdccab5a069493f278e5117",
+    "data.js": "9509c7419a7112facfa83d28222ee9c7294a05915833ff08bcb57e312d0a951d",
+    "TEC_HH_Report_Review.pdf": "3bf74870c3697f1fc814db0e22bf4c59cf7aef255fcabd0dc0c1a271674e6e2e",
+    "print-summary-final.png": "579d792adbfabd0d2924fe662e4746c141fd00f4fe54bd3d1cab61d91cbd5bdf",
+    "print-1.png": "61c73e0ecc8d3597d3ae91130e334daaf2db34c4cc529ba948843f6f266a1652",
+    "print-3.png": "2d5ee21bf66aa8ca28cf0dde186ee8cc47ea68c29ba1ac78787a08f496e0105a",
+    "print-4.png": "767f416a0e5d7eb56c73149ddbf2c4b4600dd37959ce8fe2b189bc5ec2fb3c45"
+  },
+  "scope": "Illustration only; original 937-check evidence retained. Final PDF inspected separately because its hash differs from the earlier baseline PDF. No native exporter implementation or production data validation."
+}

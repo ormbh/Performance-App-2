@@ -1,0 +1,6538 @@
+{
+  "verdict": "PASS",
+  "scope": "HH design illustration only, not app implementation or native export validation",
+  "sourceFixture": {
+    "path": "/workspace/saytara-work/monthly-apple-preview/ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "provenance": "ILLUSTRATIVE workbook; app source model, unrestricted scope"
+  },
+  "checks": [
+    {
+      "label": "Review notice visible",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "Illustrative label visible",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "Reference date",
+      "pass": true,
+      "actual": "حتى تاريخ 30/09/2026",
+      "expected": "حتى تاريخ 30/09/2026"
+    },
+    {
+      "label": "all exact source keys",
+      "pass": true,
+      "actual": [
+        "special-6",
+        "special-3",
+        "special-62",
+        "special-28",
+        "special-30",
+        "special-35",
+        "special-44",
+        "special-4",
+        "special-18",
+        "special-19",
+        "special-53",
+        "special-59",
+        "special-42",
+        "special-20",
+        "special-39",
+        "special-61",
+        "special-11",
+        "special-12",
+        "special-9",
+        "special-10",
+        "special-32",
+        "special-5",
+        "special-7",
+        "special-23",
+        "special-24",
+        "special-27",
+        "special-31",
+        "special-26",
+        "special-60",
+        "special-34",
+        "special-36",
+        "special-38",
+        "special-45",
+        "special-46",
+        "special-49",
+        "special-50",
+        "special-51",
+        "special-52",
+        "special-37",
+        "special-47",
+        "special-41",
+        "special-13",
+        "special-40",
+        "special-54",
+        "special-58",
+        "special-22",
+        "special-29",
+        "special-48",
+        "special-55",
+        "special-56",
+        "special-14",
+        "special-57",
+        "special-15",
+        "special-2",
+        "special-33",
+        "special-16",
+        "special-21",
+        "special-25",
+        "special-43",
+        "special-17",
+        "special-63",
+        "special-8"
+      ],
+      "expected": [
+        "special-6",
+        "special-3",
+        "special-62",
+        "special-28",
+        "special-30",
+        "special-35",
+        "special-44",
+        "special-4",
+        "special-18",
+        "special-19",
+        "special-53",
+        "special-59",
+        "special-42",
+        "special-20",
+        "special-39",
+        "special-61",
+        "special-11",
+        "special-12",
+        "special-9",
+        "special-10",
+        "special-32",
+        "special-5",
+        "special-7",
+        "special-23",
+        "special-24",
+        "special-27",
+        "special-31",
+        "special-26",
+        "special-60",
+        "special-34",
+        "special-36",
+        "special-38",
+        "special-45",
+        "special-46",
+        "special-49",
+        "special-50",
+        "special-51",
+        "special-52",
+        "special-37",
+        "special-47",
+        "special-41",
+        "special-13",
+        "special-40",
+        "special-54",
+        "special-58",
+        "special-22",
+        "special-29",
+        "special-48",
+        "special-55",
+        "special-56",
+        "special-14",
+        "special-57",
+        "special-15",
+        "special-2",
+        "special-33",
+        "special-16",
+        "special-21",
+        "special-25",
+        "special-43",
+        "special-17",
+        "special-63",
+        "special-8"
+      ]
+    },
+    {
+      "label": "all metrics",
+      "pass": true,
+      "actual": {
+        "total": 62,
+        "lead": 24,
+        "done": 23,
+        "work": 38,
+        "other": 1,
+        "leadDone": 12
+      },
+      "expected": {
+        "total": 62,
+        "lead": 24,
+        "done": 23,
+        "work": 38,
+        "other": 1,
+        "leadDone": 12
+      }
+    },
+    {
+      "label": "all status totals",
+      "pass": true,
+      "actual": [
+        {
+          "name": "قيد المراجعة",
+          "total": 3
+        },
+        {
+          "name": "قيد التطوير",
+          "total": 35
+        },
+        {
+          "name": "منجز",
+          "total": 23
+        },
+        {
+          "name": "حالات أخرى",
+          "total": 1
+        }
+      ],
+      "expected": [
+        {
+          "name": "قيد المراجعة",
+          "total": 3
+        },
+        {
+          "name": "قيد التطوير",
+          "total": 35
+        },
+        {
+          "name": "منجز",
+          "total": 23
+        },
+        {
+          "name": "حالات أخرى",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "label": "all sector totals",
+      "pass": true,
+      "actual": [
+        {
+          "name": "الأمانة العامة للمجلس التنفيذي",
+          "total": 11
+        },
+        {
+          "name": "الحوكمة",
+          "total": 4
+        },
+        {
+          "name": "التنمية المستدامة",
+          "total": 14
+        },
+        {
+          "name": "الاقتصاد والتنمية الاجتماعية",
+          "total": 24
+        },
+        {
+          "name": "التميز والخدمات الحكومية",
+          "total": 3
+        },
+        {
+          "name": "الاتصال الحكومي وشؤون الأمانة العامة",
+          "total": 6
+        }
+      ],
+      "expected": [
+        {
+          "name": "الأمانة العامة للمجلس التنفيذي",
+          "total": 11
+        },
+        {
+          "name": "الحوكمة",
+          "total": 4
+        },
+        {
+          "name": "التنمية المستدامة",
+          "total": 14
+        },
+        {
+          "name": "الاقتصاد والتنمية الاجتماعية",
+          "total": 24
+        },
+        {
+          "name": "التميز والخدمات الحكومية",
+          "total": 3
+        },
+        {
+          "name": "الاتصال الحكومي وشؤون الأمانة العامة",
+          "total": 6
+        }
+      ]
+    },
+    {
+      "label": "lead exact source keys",
+      "pass": true,
+      "actual": [
+        "special-35",
+        "special-18",
+        "special-19",
+        "special-59",
+        "special-39",
+        "special-61",
+        "special-60",
+        "special-34",
+        "special-36",
+        "special-38",
+        "special-50",
+        "special-51",
+        "special-37",
+        "special-41",
+        "special-13",
+        "special-40",
+        "special-58",
+        "special-22",
+        "special-14",
+        "special-15",
+        "special-33",
+        "special-16",
+        "special-21",
+        "special-25"
+      ],
+      "expected": [
+        "special-35",
+        "special-18",
+        "special-19",
+        "special-59",
+        "special-39",
+        "special-61",
+        "special-60",
+        "special-34",
+        "special-36",
+        "special-38",
+        "special-50",
+        "special-51",
+        "special-37",
+        "special-41",
+        "special-13",
+        "special-40",
+        "special-58",
+        "special-22",
+        "special-14",
+        "special-15",
+        "special-33",
+        "special-16",
+        "special-21",
+        "special-25"
+      ]
+    },
+    {
+      "label": "lead metrics",
+      "pass": true,
+      "actual": {
+        "total": 24,
+        "lead": 24,
+        "done": 12,
+        "work": 12,
+        "other": 0,
+        "leadDone": 12
+      },
+      "expected": {
+        "total": 24,
+        "lead": 24,
+        "done": 12,
+        "work": 12,
+        "other": 0,
+        "leadDone": 12
+      }
+    },
+    {
+      "label": "lead status totals",
+      "pass": true,
+      "actual": [
+        {
+          "name": "قيد التطوير",
+          "total": 12
+        },
+        {
+          "name": "منجز",
+          "total": 12
+        }
+      ],
+      "expected": [
+        {
+          "name": "قيد التطوير",
+          "total": 12
+        },
+        {
+          "name": "منجز",
+          "total": 12
+        }
+      ]
+    },
+    {
+      "label": "lead sector totals",
+      "pass": true,
+      "actual": [
+        {
+          "name": "الحوكمة",
+          "total": 1
+        },
+        {
+          "name": "التنمية المستدامة",
+          "total": 6
+        },
+        {
+          "name": "الاقتصاد والتنمية الاجتماعية",
+          "total": 15
+        },
+        {
+          "name": "التميز والخدمات الحكومية",
+          "total": 2
+        }
+      ],
+      "expected": [
+        {
+          "name": "الحوكمة",
+          "total": 1
+        },
+        {
+          "name": "التنمية المستدامة",
+          "total": 6
+        },
+        {
+          "name": "الاقتصاد والتنمية الاجتماعية",
+          "total": 15
+        },
+        {
+          "name": "التميز والخدمات الحكومية",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "label": "not-lead exact source keys",
+      "pass": true,
+      "actual": [
+        "special-6",
+        "special-3",
+        "special-28",
+        "special-30",
+        "special-44",
+        "special-4",
+        "special-53",
+        "special-42",
+        "special-20",
+        "special-11",
+        "special-12",
+        "special-9",
+        "special-10",
+        "special-32",
+        "special-5",
+        "special-7",
+        "special-23",
+        "special-24",
+        "special-27",
+        "special-31",
+        "special-26",
+        "special-45",
+        "special-46",
+        "special-49",
+        "special-52",
+        "special-47",
+        "special-54",
+        "special-29",
+        "special-48",
+        "special-55",
+        "special-56",
+        "special-57",
+        "special-2",
+        "special-43",
+        "special-17",
+        "special-8"
+      ],
+      "expected": [
+        "special-6",
+        "special-3",
+        "special-28",
+        "special-30",
+        "special-44",
+        "special-4",
+        "special-53",
+        "special-42",
+        "special-20",
+        "special-11",
+        "special-12",
+        "special-9",
+        "special-10",
+        "special-32",
+        "special-5",
+        "special-7",
+        "special-23",
+        "special-24",
+        "special-27",
+        "special-31",
+        "special-26",
+        "special-45",
+        "special-46",
+        "special-49",
+        "special-52",
+        "special-47",
+        "special-54",
+        "special-29",
+        "special-48",
+        "special-55",
+        "special-56",
+        "special-57",
+        "special-2",
+        "special-43",
+        "special-17",
+        "special-8"
+      ]
+    },
+    {
+      "label": "not-lead metrics",
+      "pass": true,
+      "actual": {
+        "total": 36,
+        "lead": 0,
+        "done": 10,
+        "work": 25,
+        "other": 1,
+        "leadDone": 0
+      },
+      "expected": {
+        "total": 36,
+        "lead": 0,
+        "done": 10,
+        "work": 25,
+        "other": 1,
+        "leadDone": 0
+      }
+    },
+    {
+      "label": "not-lead status totals",
+      "pass": true,
+      "actual": [
+        {
+          "name": "قيد المراجعة",
+          "total": 2
+        },
+        {
+          "name": "قيد التطوير",
+          "total": 23
+        },
+        {
+          "name": "منجز",
+          "total": 10
+        },
+        {
+          "name": "حالات أخرى",
+          "total": 1
+        }
+      ],
+      "expected": [
+        {
+          "name": "قيد المراجعة",
+          "total": 2
+        },
+        {
+          "name": "قيد التطوير",
+          "total": 23
+        },
+        {
+          "name": "منجز",
+          "total": 10
+        },
+        {
+          "name": "حالات أخرى",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "label": "not-lead sector totals",
+      "pass": true,
+      "actual": [
+        {
+          "name": "الأمانة العامة للمجلس التنفيذي",
+          "total": 11
+        },
+        {
+          "name": "الحوكمة",
+          "total": 3
+        },
+        {
+          "name": "التنمية المستدامة",
+          "total": 6
+        },
+        {
+          "name": "الاقتصاد والتنمية الاجتماعية",
+          "total": 9
+        },
+        {
+          "name": "التميز والخدمات الحكومية",
+          "total": 1
+        },
+        {
+          "name": "الاتصال الحكومي وشؤون الأمانة العامة",
+          "total": 6
+        }
+      ],
+      "expected": [
+        {
+          "name": "الأمانة العامة للمجلس التنفيذي",
+          "total": 11
+        },
+        {
+          "name": "الحوكمة",
+          "total": 3
+        },
+        {
+          "name": "التنمية المستدامة",
+          "total": 6
+        },
+        {
+          "name": "الاقتصاد والتنمية الاجتماعية",
+          "total": 9
+        },
+        {
+          "name": "التميز والخدمات الحكومية",
+          "total": 1
+        },
+        {
+          "name": "الاتصال الحكومي وشؤون الأمانة العامة",
+          "total": 6
+        }
+      ]
+    },
+    {
+      "label": "Dubai-plan-office exact source keys",
+      "pass": true,
+      "actual": [
+        "special-6",
+        "special-3",
+        "special-4",
+        "special-11",
+        "special-12",
+        "special-9",
+        "special-10",
+        "special-5",
+        "special-7",
+        "special-2",
+        "special-8"
+      ],
+      "expected": [
+        "special-6",
+        "special-3",
+        "special-4",
+        "special-11",
+        "special-12",
+        "special-9",
+        "special-10",
+        "special-5",
+        "special-7",
+        "special-2",
+        "special-8"
+      ]
+    },
+    {
+      "label": "Dubai-plan-office metrics",
+      "pass": true,
+      "actual": {
+        "total": 11,
+        "lead": 0,
+        "done": 1,
+        "work": 9,
+        "other": 1,
+        "leadDone": 0
+      },
+      "expected": {
+        "total": 11,
+        "lead": 0,
+        "done": 1,
+        "work": 9,
+        "other": 1,
+        "leadDone": 0
+      }
+    },
+    {
+      "label": "Dubai-plan-office status totals",
+      "pass": true,
+      "actual": [
+        {
+          "name": "قيد المراجعة",
+          "total": 2
+        },
+        {
+          "name": "قيد التطوير",
+          "total": 7
+        },
+        {
+          "name": "منجز",
+          "total": 1
+        },
+        {
+          "name": "حالات أخرى",
+          "total": 1
+        }
+      ],
+      "expected": [
+        {
+          "name": "قيد المراجعة",
+          "total": 2
+        },
+        {
+          "name": "قيد التطوير",
+          "total": 7
+        },
+        {
+          "name": "منجز",
+          "total": 1
+        },
+        {
+          "name": "حالات أخرى",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "label": "Dubai-plan-office sector totals",
+      "pass": true,
+      "actual": [
+        {
+          "name": "الأمانة العامة للمجلس التنفيذي",
+          "total": 11
+        }
+      ],
+      "expected": [
+        {
+          "name": "الأمانة العامة للمجلس التنفيذي",
+          "total": 11
+        }
+      ]
+    },
+    {
+      "label": "governance exact source keys",
+      "pass": true,
+      "actual": [
+        "special-28",
+        "special-27",
+        "special-26",
+        "special-25"
+      ],
+      "expected": [
+        "special-28",
+        "special-27",
+        "special-26",
+        "special-25"
+      ]
+    },
+    {
+      "label": "governance metrics",
+      "pass": true,
+      "actual": {
+        "total": 4,
+        "lead": 1,
+        "done": 1,
+        "work": 3,
+        "other": 0,
+        "leadDone": 1
+      },
+      "expected": {
+        "total": 4,
+        "lead": 1,
+        "done": 1,
+        "work": 3,
+        "other": 0,
+        "leadDone": 1
+      }
+    },
+    {
+      "label": "governance status totals",
+      "pass": true,
+      "actual": [
+        {
+          "name": "قيد التطوير",
+          "total": 3
+        },
+        {
+          "name": "منجز",
+          "total": 1
+        }
+      ],
+      "expected": [
+        {
+          "name": "قيد التطوير",
+          "total": 3
+        },
+        {
+          "name": "منجز",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "label": "governance sector totals",
+      "pass": true,
+      "actual": [
+        {
+          "name": "الحوكمة",
+          "total": 4
+        }
+      ],
+      "expected": [
+        {
+          "name": "الحوكمة",
+          "total": 4
+        }
+      ]
+    },
+    {
+      "label": "Dubai-police exact source keys",
+      "pass": true,
+      "actual": [
+        "special-18",
+        "special-51"
+      ],
+      "expected": [
+        "special-18",
+        "special-51"
+      ]
+    },
+    {
+      "label": "Dubai-police metrics",
+      "pass": true,
+      "actual": {
+        "total": 2,
+        "lead": 2,
+        "done": 0,
+        "work": 2,
+        "other": 0,
+        "leadDone": 0
+      },
+      "expected": {
+        "total": 2,
+        "lead": 2,
+        "done": 0,
+        "work": 2,
+        "other": 0,
+        "leadDone": 0
+      }
+    },
+    {
+      "label": "Dubai-police status totals",
+      "pass": true,
+      "actual": [
+        {
+          "name": "قيد التطوير",
+          "total": 2
+        }
+      ],
+      "expected": [
+        {
+          "name": "قيد التطوير",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "label": "Dubai-police sector totals",
+      "pass": true,
+      "actual": [
+        {
+          "name": "التنمية المستدامة",
+          "total": 1
+        },
+        {
+          "name": "الاقتصاد والتنمية الاجتماعية",
+          "total": 1
+        }
+      ],
+      "expected": [
+        {
+          "name": "التنمية المستدامة",
+          "total": 1
+        },
+        {
+          "name": "الاقتصاد والتنمية الاجتماعية",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "label": "cross-field exact source keys",
+      "pass": true,
+      "actual": [
+        "special-59",
+        "special-61",
+        "special-60",
+        "special-50",
+        "special-51",
+        "special-58"
+      ],
+      "expected": [
+        "special-59",
+        "special-61",
+        "special-60",
+        "special-50",
+        "special-51",
+        "special-58"
+      ]
+    },
+    {
+      "label": "cross-field metrics",
+      "pass": true,
+      "actual": {
+        "total": 6,
+        "lead": 6,
+        "done": 1,
+        "work": 5,
+        "other": 0,
+        "leadDone": 1
+      },
+      "expected": {
+        "total": 6,
+        "lead": 6,
+        "done": 1,
+        "work": 5,
+        "other": 0,
+        "leadDone": 1
+      }
+    },
+    {
+      "label": "cross-field status totals",
+      "pass": true,
+      "actual": [
+        {
+          "name": "قيد التطوير",
+          "total": 5
+        },
+        {
+          "name": "منجز",
+          "total": 1
+        }
+      ],
+      "expected": [
+        {
+          "name": "قيد التطوير",
+          "total": 5
+        },
+        {
+          "name": "منجز",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "label": "cross-field sector totals",
+      "pass": true,
+      "actual": [
+        {
+          "name": "التنمية المستدامة",
+          "total": 6
+        }
+      ],
+      "expected": [
+        {
+          "name": "التنمية المستدامة",
+          "total": 6
+        }
+      ]
+    },
+    {
+      "label": "empty exact source keys",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "label": "empty metrics",
+      "pass": true,
+      "actual": {
+        "total": 0,
+        "lead": 0,
+        "done": 0,
+        "work": 0,
+        "other": 0,
+        "leadDone": 0
+      },
+      "expected": {
+        "total": 0,
+        "lead": 0,
+        "done": 0,
+        "work": 0,
+        "other": 0,
+        "leadDone": 0
+      }
+    },
+    {
+      "label": "empty status totals",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "label": "empty sector totals",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "label": "All paginated source record keys/order",
+      "pass": true,
+      "actual": [
+        "special-6",
+        "special-3",
+        "special-62",
+        "special-28",
+        "special-30",
+        "special-35",
+        "special-44",
+        "special-4",
+        "special-18",
+        "special-19",
+        "special-53",
+        "special-59",
+        "special-42",
+        "special-20",
+        "special-39",
+        "special-61",
+        "special-11",
+        "special-12",
+        "special-9",
+        "special-10",
+        "special-32",
+        "special-5",
+        "special-7",
+        "special-23",
+        "special-24",
+        "special-27",
+        "special-31",
+        "special-26",
+        "special-60",
+        "special-34",
+        "special-36",
+        "special-38",
+        "special-45",
+        "special-46",
+        "special-49",
+        "special-50",
+        "special-51",
+        "special-52",
+        "special-37",
+        "special-47",
+        "special-41",
+        "special-13",
+        "special-40",
+        "special-54",
+        "special-58",
+        "special-22",
+        "special-29",
+        "special-48",
+        "special-55",
+        "special-56",
+        "special-14",
+        "special-57",
+        "special-15",
+        "special-2",
+        "special-33",
+        "special-16",
+        "special-21",
+        "special-25",
+        "special-43",
+        "special-17",
+        "special-63",
+        "special-8"
+      ],
+      "expected": [
+        "special-6",
+        "special-3",
+        "special-62",
+        "special-28",
+        "special-30",
+        "special-35",
+        "special-44",
+        "special-4",
+        "special-18",
+        "special-19",
+        "special-53",
+        "special-59",
+        "special-42",
+        "special-20",
+        "special-39",
+        "special-61",
+        "special-11",
+        "special-12",
+        "special-9",
+        "special-10",
+        "special-32",
+        "special-5",
+        "special-7",
+        "special-23",
+        "special-24",
+        "special-27",
+        "special-31",
+        "special-26",
+        "special-60",
+        "special-34",
+        "special-36",
+        "special-38",
+        "special-45",
+        "special-46",
+        "special-49",
+        "special-50",
+        "special-51",
+        "special-52",
+        "special-37",
+        "special-47",
+        "special-41",
+        "special-13",
+        "special-40",
+        "special-54",
+        "special-58",
+        "special-22",
+        "special-29",
+        "special-48",
+        "special-55",
+        "special-56",
+        "special-14",
+        "special-57",
+        "special-15",
+        "special-2",
+        "special-33",
+        "special-16",
+        "special-21",
+        "special-25",
+        "special-43",
+        "special-17",
+        "special-63",
+        "special-8"
+      ]
+    },
+    {
+      "label": "special-6 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-6 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-6 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-6 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-6 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-6 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-6 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-6 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-6 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-6 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-6 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-6 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-6 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-6 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-3 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-3 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-3 exact recorded progress",
+      "pass": true,
+      "actual": "95",
+      "expected": "95"
+    },
+    {
+      "label": "special-3 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-3 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-3 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-3 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-3 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-3 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-3 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-3 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-3 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-3 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-3 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-62 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-62 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-62 exact recorded progress",
+      "pass": true,
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "label": "special-62 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-62 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-62 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-62 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-62 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-62 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-62 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-62 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-28 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-28 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-28 exact recorded progress",
+      "pass": true,
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "label": "special-28 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-28 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-28 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-28 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-28 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-28 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-28 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-28 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-28 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-28 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-28 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-28 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-30 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-30 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-30 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-30 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-30 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-30 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-30 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-30 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-30 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-30 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-30 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-30 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-30 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-30 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-30 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-35 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-35 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-35 missing progress not zero",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-35 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-35 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-35 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-35 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-35 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-35 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-35 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-35 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-35 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-35 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-35 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-44 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-44 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-44 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-44 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-44 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-44 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-44 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-44 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-44 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-44 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-44 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-44 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-44 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-44 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-4 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-4 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-4 exact recorded progress",
+      "pass": true,
+      "actual": "30",
+      "expected": "30"
+    },
+    {
+      "label": "special-4 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-4 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-4 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-4 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-4 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-4 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-4 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-4 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-4 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-4 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-4 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-18 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-18 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-18 exact recorded progress",
+      "pass": true,
+      "actual": "50",
+      "expected": "50"
+    },
+    {
+      "label": "special-18 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-18 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-18 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-18 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-18 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-18 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-18 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-18 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-18 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-18 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-18 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-19 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-19 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-19 exact recorded progress",
+      "pass": true,
+      "actual": "50",
+      "expected": "50"
+    },
+    {
+      "label": "special-19 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-19 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-19 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-19 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-19 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-19 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-19 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-19 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-19 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-19 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-19 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-53 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-53 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-53 exact recorded progress",
+      "pass": true,
+      "actual": "50",
+      "expected": "50"
+    },
+    {
+      "label": "special-53 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-53 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-53 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-53 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-53 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-53 full source field الجهات المساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-53 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-53 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-53 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-53 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-53 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-53 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-59 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-59 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-59 exact recorded progress",
+      "pass": true,
+      "actual": "75",
+      "expected": "75"
+    },
+    {
+      "label": "special-59 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-59 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-59 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-59 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-59 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-59 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-59 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-59 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-59 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-59 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-59 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-42 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-42 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-42 exact recorded progress",
+      "pass": true,
+      "actual": "20",
+      "expected": "20"
+    },
+    {
+      "label": "special-42 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-42 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-42 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-42 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-42 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-42 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-42 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-42 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-42 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-42 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-42 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-42 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-20 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-20 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-20 exact recorded progress",
+      "pass": true,
+      "actual": "65",
+      "expected": "65"
+    },
+    {
+      "label": "special-20 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-20 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-20 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-20 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-20 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-20 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-20 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-20 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-20 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-20 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-20 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-39 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-39 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-39 missing progress not zero",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-39 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-39 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-39 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-39 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-39 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-39 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-39 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-39 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-39 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-39 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-39 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-61 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-61 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-61 exact recorded progress",
+      "pass": true,
+      "actual": "50",
+      "expected": "50"
+    },
+    {
+      "label": "special-61 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-61 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-61 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-61 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-61 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-61 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-61 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-61 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-61 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-61 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-61 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-11 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-11 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-11 exact recorded progress",
+      "pass": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "label": "special-11 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-11 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-11 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-11 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-11 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-11 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-11 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-11 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-11 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-11 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-11 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-11 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-12 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-12 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-12 exact recorded progress",
+      "pass": true,
+      "actual": "25",
+      "expected": "25"
+    },
+    {
+      "label": "special-12 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-12 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-12 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-12 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-12 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-12 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-12 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-12 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-12 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-12 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-12 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-12 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-9 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-9 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-9 exact recorded progress",
+      "pass": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "label": "special-9 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-9 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-9 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-9 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-9 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-9 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-9 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-9 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-9 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-9 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-9 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-10 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-10 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-10 exact recorded progress",
+      "pass": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "label": "special-10 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-10 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-10 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-10 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-10 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-10 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-10 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-10 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-10 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-10 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-10 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-32 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-32 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-32 exact recorded progress",
+      "pass": true,
+      "actual": "10",
+      "expected": "10"
+    },
+    {
+      "label": "special-32 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-32 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-32 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-32 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-32 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-32 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-32 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-32 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-32 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-32 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-32 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-32 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-5 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-5 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-5 exact recorded progress",
+      "pass": true,
+      "actual": "5",
+      "expected": "5"
+    },
+    {
+      "label": "special-5 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-5 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-5 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-5 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-5 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-5 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-5 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-5 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-5 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-5 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-5 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-7 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-7 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-7 exact recorded progress",
+      "pass": true,
+      "actual": "10",
+      "expected": "10"
+    },
+    {
+      "label": "special-7 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-7 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-7 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-7 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-7 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-7 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-7 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-7 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-7 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-7 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-7 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-23 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-23 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-23 exact recorded progress",
+      "pass": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "label": "special-23 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-23 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-23 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-23 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-23 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-23 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-23 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-23 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-23 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-23 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-23 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-24 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-24 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-24 exact recorded progress",
+      "pass": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "label": "special-24 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-24 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-24 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-24 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-24 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-24 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-24 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-24 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-24 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-24 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-24 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-27 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-27 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-27 exact recorded progress",
+      "pass": true,
+      "actual": "50",
+      "expected": "50"
+    },
+    {
+      "label": "special-27 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-27 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-27 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-27 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-27 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-27 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-27 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-27 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-27 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-27 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-27 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-27 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-31 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-31 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-31 exact recorded progress",
+      "pass": true,
+      "actual": "5",
+      "expected": "5"
+    },
+    {
+      "label": "special-31 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-31 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-31 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-31 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-31 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-31 full source field الجهات المساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-31 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-31 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-31 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-31 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-31 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-31 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-26 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-26 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-26 exact recorded progress",
+      "pass": true,
+      "actual": "70",
+      "expected": "70"
+    },
+    {
+      "label": "special-26 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-26 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-26 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-26 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-26 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-26 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-26 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-26 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-26 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-26 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-26 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-26 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-60 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-60 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-60 exact recorded progress",
+      "pass": true,
+      "actual": "50",
+      "expected": "50"
+    },
+    {
+      "label": "special-60 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-60 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-60 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-60 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-60 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-60 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-60 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-60 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-60 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-60 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-60 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-34 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-34 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-34 missing progress not zero",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-34 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-34 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-34 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-34 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-34 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-34 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-34 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-34 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-34 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-34 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-36 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-36 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-36 exact recorded progress",
+      "pass": true,
+      "actual": "75",
+      "expected": "75"
+    },
+    {
+      "label": "special-36 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-36 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-36 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-36 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-36 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-36 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-36 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-36 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-36 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-38 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-38 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-38 missing progress not zero",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-38 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-38 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-38 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-38 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-38 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-38 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-38 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-38 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-38 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-45 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-45 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-45 missing progress not zero",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-45 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-45 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-45 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-45 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-45 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-45 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-45 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-45 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-46 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-46 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-46 exact recorded progress",
+      "pass": true,
+      "actual": "20",
+      "expected": "20"
+    },
+    {
+      "label": "special-46 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-46 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-46 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-46 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-46 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-46 full source field الجهات المساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-46 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-46 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-46 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-46 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-46 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-49 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-49 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-49 exact recorded progress",
+      "pass": true,
+      "actual": "70",
+      "expected": "70"
+    },
+    {
+      "label": "special-49 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-49 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-49 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-49 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-49 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-49 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-49 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-49 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-49 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-50 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-50 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-50 exact recorded progress",
+      "pass": true,
+      "actual": "75",
+      "expected": "75"
+    },
+    {
+      "label": "special-50 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-50 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-50 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-50 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-50 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-50 full source field الجهات المساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-50 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-50 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-50 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-50 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-50 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-51 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-51 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-51 exact recorded progress",
+      "pass": true,
+      "actual": "75",
+      "expected": "75"
+    },
+    {
+      "label": "special-51 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-51 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-51 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-51 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-51 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-51 full source field الجهات المساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-51 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-51 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-51 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-51 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-51 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-52 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-52 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-52 exact recorded progress",
+      "pass": true,
+      "actual": "75",
+      "expected": "75"
+    },
+    {
+      "label": "special-52 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-52 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-52 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-52 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-52 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-52 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-52 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-52 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-52 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-37 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-37 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-37 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-37 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-37 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-37 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-37 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-37 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-37 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-37 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-37 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-37 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-37 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-37 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-47 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-47 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-47 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-47 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-47 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-47 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-47 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-47 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-47 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-47 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-47 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-47 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-47 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-47 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-41 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-41 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-41 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-41 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-41 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-41 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-41 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-41 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-41 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-41 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-41 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-41 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-41 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-41 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-13 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-13 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-13 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-13 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-13 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-13 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-13 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-13 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-13 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-13 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-13 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-13 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-13 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-13 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-40 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-40 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-40 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-40 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-40 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-40 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-40 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-40 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-40 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-40 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-40 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-40 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-40 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-40 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-40 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-54 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-54 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-54 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-54 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-54 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-54 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-54 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-54 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-54 full source field الجهات المساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-54 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-54 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-54 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-54 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-54 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-54 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-58 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-58 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-58 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-58 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-58 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-58 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-58 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-58 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-58 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-58 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-58 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-58 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-58 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-58 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-22 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-22 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-22 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-22 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-22 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-22 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-22 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-22 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-22 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-22 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-22 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-22 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-22 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-29 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-29 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-29 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-29 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-29 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-29 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-29 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-29 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-29 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-29 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-29 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-29 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-29 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-29 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-29 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-48 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-48 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-48 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-48 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-48 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-48 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-48 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-48 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-48 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-48 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-48 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-48 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-48 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-48 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-48 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-55 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-55 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-55 exact recorded progress",
+      "pass": true,
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "label": "special-55 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-55 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-55 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-55 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-55 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-55 full source field الجهات المساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-55 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-55 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-55 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-55 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-55 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-55 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-56 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-56 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-56 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-56 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-56 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-56 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-56 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-56 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-56 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-56 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-56 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-56 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-56 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-56 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-14 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-14 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-14 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-14 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-14 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-14 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-14 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-14 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-14 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-14 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-14 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-14 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-14 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-14 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-57 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-57 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-57 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-57 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-57 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-57 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-57 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-57 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-57 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-57 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-57 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-57 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-57 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-57 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-15 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-15 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-15 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-15 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-15 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-15 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-15 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-15 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-15 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-15 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-15 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-15 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-15 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-15 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-2 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-2 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-2 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-2 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-2 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-2 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-2 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-2 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-2 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-2 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-2 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-2 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-2 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-2 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-33 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-33 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-33 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-33 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-33 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-33 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-33 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-33 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-33 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-33 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-33 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-33 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-33 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-33 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-33 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-16 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-16 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-16 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-16 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-16 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-16 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-16 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-16 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-16 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-16 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-16 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-16 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-16 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-16 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-21 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-21 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-21 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-21 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-21 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-21 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-21 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-21 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-21 full source field الجهات المساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-21 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-21 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-21 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-21 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-21 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-25 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-25 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-25 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-25 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-25 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-25 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-25 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-25 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-25 full source field الجهات المساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-25 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-25 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-25 full source field إدارات مساهمة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-25 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-25 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-25 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-25 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-43 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-43 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-43 missing progress not zero",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-43 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-43 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-43 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-43 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-43 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-43 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-43 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-43 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-43 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-43 full source field انتهاء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-43 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-17 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-17 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-17 exact recorded progress",
+      "pass": true,
+      "actual": "100",
+      "expected": "100"
+    },
+    {
+      "label": "special-17 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-17 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-17 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-17 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-17 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-17 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-17 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-17 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-17 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-17 full source field انتهاء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-63 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-63 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-63 exact recorded progress",
+      "pass": true,
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "label": "special-63 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-63 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-63 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-63 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-63 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-63 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-63 full source field بدء المشروع (الشهر)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-63 full source field بدء المشروع (السنة)",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-8 title preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-8 entity preserved",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-8 missing progress not zero",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-8 full source field Source.Name",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-8 full source field مشاريع سموه",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-8 full source field مدير المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-8 full source field اسم المشروع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-8 full source field الجهة المعنية",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-8 full source field القطاع",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "special-8 full source field الإدارة",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "First selected +N",
+      "pass": true,
+      "actual": "الحوكمة +1",
+      "expected": "الحوكمة +1"
+    },
+    {
+      "label": "Selection order",
+      "pass": true,
+      "actual": [
+        "الحوكمة",
+        "التنمية المستدامة"
+      ],
+      "expected": [
+        "الحوكمة",
+        "التنمية المستدامة"
+      ]
+    },
+    {
+      "label": "Unrestricted all label",
+      "pass": true,
+      "actual": "الكل",
+      "expected": "الكل"
+    },
+    {
+      "label": "1600 document no horizontal overflow",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "1600 card bounds",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "1600 local font faces loaded",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "1100 document no horizontal overflow",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "1100 card bounds",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "1100 local font faces loaded",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "768 document no horizontal overflow",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "768 card bounds",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "768 local font faces loaded",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "390 document no horizontal overflow",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "390 card bounds",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "390 local font faces loaded",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "320 document no horizontal overflow",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "320 card bounds",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "320 local font faces loaded",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "No browser runtime errors",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "label": "Illustration PDF has four pages",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "label": "PDF page1 A4 landscape",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "PDF page1 illustration label",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "Cover omits footer copyright",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "PDF page1 text bounds",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "label": "PDF page2 A4 landscape",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "PDF page2 illustration label",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "PDF page2 footer copyright",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "PDF content page2 text native without page image",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "label": "PDF page2 text bounds",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "label": "PDF page3 A4 landscape",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "PDF page3 illustration label",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "PDF page3 footer copyright",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "PDF content page3 text native without page image",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "label": "PDF page3 text bounds",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "label": "PDF page4 A4 landscape",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "PDF page4 illustration label",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "PDF page4 footer copyright",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "PDF content page4 text native without page image",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "label": "PDF page4 text bounds",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "artifactHashes": {
+    "index.html": "5aa4e704a14e761e950d9d170329d317091b960ef55ddfa3c06862f261886c73",
+    "style.css": "0497e2b5be65bbd5e133402778adf798dca3d172ba023d2f75961c94cbcc8a65",
+    "app.js": "00b70fb95f2d7b898007ed688a23691bbf54d081dbdccab5a069493f278e5117",
+    "data.js": "9509c7419a7112facfa83d28222ee9c7294a05915833ff08bcb57e312d0a951d",
+    "TEC_HH_Report_Review.pdf": "1e69bfc2a32bf2f097cf8330e232b7883716354663fbbf7e51e7c305ec57c204"
+  }
+}

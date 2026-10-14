@@ -1,0 +1,144 @@
+{
+  "fixture": {
+    "path": "/workspace/saytara-work/monthly-apple-preview/ILLUSTRATIVE-monthly-preview.xlsx",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+    "provenance": "ILLUSTRATIVE workbook; app source model, unrestricted scope"
+  },
+  "reportDate": "حتى تاريخ 30/09/2026",
+  "total": 62,
+  "leadSubset": 24,
+  "leadUnknown": 2,
+  "done": 23,
+  "open": 39,
+  "statusLabels": {
+    "قيد المراجعة": 3,
+    "قيد التطوير": 35,
+    "منجز": 23,
+    "": 1
+  },
+  "statusCategories": {
+    "review": 3,
+    "progress": 35,
+    "done": 23,
+    "none": 1
+  },
+  "keys": [
+    "special-6",
+    "special-3",
+    "special-62",
+    "special-28",
+    "special-30",
+    "special-35",
+    "special-44",
+    "special-4",
+    "special-18",
+    "special-19",
+    "special-53",
+    "special-59",
+    "special-42",
+    "special-20",
+    "special-39",
+    "special-61",
+    "special-11",
+    "special-12",
+    "special-9",
+    "special-10",
+    "special-32",
+    "special-5",
+    "special-7",
+    "special-23",
+    "special-24",
+    "special-27",
+    "special-31",
+    "special-26",
+    "special-60",
+    "special-34",
+    "special-36",
+    "special-38",
+    "special-45",
+    "special-46",
+    "special-49",
+    "special-50",
+    "special-51",
+    "special-52",
+    "special-37",
+    "special-47",
+    "special-41",
+    "special-13",
+    "special-40",
+    "special-54",
+    "special-58",
+    "special-22",
+    "special-29",
+    "special-48",
+    "special-55",
+    "special-56",
+    "special-14",
+    "special-57",
+    "special-15",
+    "special-2",
+    "special-33",
+    "special-16",
+    "special-21",
+    "special-25",
+    "special-43",
+    "special-17",
+    "special-63",
+    "special-8"
+  ],
+  "uniqueKeys": 62,
+  "fields": {
+    "desc": {
+      "blank": 62,
+      "nonblank": 0,
+      "longest": 0
+    },
+    "progress": {
+      "blank": 7,
+      "nonblank": 55,
+      "longest": 4
+    },
+    "budget": {
+      "blank": 62,
+      "nonblank": 0,
+      "longest": 0
+    },
+    "achieved": {
+      "blank": 62,
+      "nonblank": 0,
+      "longest": 0
+    },
+    "next": {
+      "blank": 62,
+      "nonblank": 0,
+      "longest": 0
+    },
+    "notes": {
+      "blank": 62,
+      "nonblank": 0,
+      "longest": 0
+    },
+    "recs": {
+      "blank": 62,
+      "nonblank": 0,
+      "longest": 0
+    },
+    "entity": {
+      "blank": 0,
+      "nonblank": 62,
+      "longest": 58
+    },
+    "sector": {
+      "blank": 0,
+      "nonblank": 62,
+      "longest": 36
+    },
+    "unit": {
+      "blank": 3,
+      "nonblank": 59,
+      "longest": 47
+    }
+  },
+  "scope": "Illustration QA only. No app implementation, real operational data, or native export certification.",
+  "fixtureHashMatches": true
+}

@@ -1,0 +1,137 @@
+{
+  "verdict": "PASS",
+  "scope": "Focused illustration checks. Synthetic zero/long narrative input isolated in browser memory only. Not source records or app implementation.",
+  "checks": [
+    {
+      "label": "Long first selection +N remains visible",
+      "pass": true,
+      "actual": {
+        "left": true,
+        "right": true
+      },
+      "expected": {
+        "left": true,
+        "right": true
+      }
+    },
+    {
+      "label": "Odd largest group nice exact count axis",
+      "pass": true,
+      "actual": [
+        "0",
+        "6",
+        "12"
+      ],
+      "expected": [
+        "0",
+        "6",
+        "12"
+      ]
+    },
+    {
+      "label": "11 records occupy 11/12 exact bar scale",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "label": "Rev21 chart legend قيد المراجعة",
+      "pass": true,
+      "actual": [
+        "rgb(217, 225, 226)",
+        "rgb(17, 94, 103)",
+        "rgb(79, 78, 78)"
+      ],
+      "expected": [
+        "rgb(217, 225, 226)",
+        "rgb(17, 94, 103)",
+        "rgb(79, 78, 78)"
+      ]
+    },
+    {
+      "label": "Rev21 chart legend قيد التطوير",
+      "pass": true,
+      "actual": [
+        "rgb(217, 225, 226)",
+        "rgb(17, 94, 103)",
+        "rgb(79, 78, 78)"
+      ],
+      "expected": [
+        "rgb(217, 225, 226)",
+        "rgb(17, 94, 103)",
+        "rgb(79, 78, 78)"
+      ]
+    },
+    {
+      "label": "Rev21 chart legend منجز",
+      "pass": true,
+      "actual": [
+        "rgb(1, 131, 30)",
+        "rgb(1, 131, 30)",
+        "rgb(1, 131, 30)"
+      ],
+      "expected": [
+        "rgb(1, 131, 30)",
+        "rgb(1, 131, 30)",
+        "rgb(1, 131, 30)"
+      ]
+    },
+    {
+      "label": "Rev21 chart legend حالات أخرى",
+      "pass": true,
+      "actual": [
+        "rgb(252, 251, 251)",
+        "rgb(200, 199, 199)",
+        "rgb(79, 78, 78)"
+      ],
+      "expected": [
+        "rgb(252, 251, 251)",
+        "rgb(200, 199, 199)",
+        "rgb(79, 78, 78)"
+      ]
+    },
+    {
+      "label": "Phone metric names16px",
+      "pass": true,
+      "actual": "16px",
+      "expected": "16px"
+    },
+    {
+      "label": "Blank recorded status says missing",
+      "pass": true,
+      "actual": "غير مسجل",
+      "expected": "غير مسجل"
+    },
+    {
+      "label": "True numeric zero budget retained",
+      "pass": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "label": "True numeric zero additional source field retained",
+      "pass": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "label": "Synthetic long narrative fully rendered",
+      "pass": true,
+      "actual": 30,
+      "expected": 30
+    },
+    {
+      "label": "Synthetic long text no horizontal page overflow",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    }
+  ],
+  "issues": [],
+  "artifactHashes": {
+    "index.html": "7821b04ca98fa06200263407ed69ac3d02dd540c180136df78620a3fe49dceec",
+    "style.css": "e7045873b2f39e109e3e11caeebd0cec59bed0305659ab5284ef617084f81f2a",
+    "app.js": "00b70fb95f2d7b898007ed688a23691bbf54d081dbdccab5a069493f278e5117",
+    "data.js": "9509c7419a7112facfa83d28222ee9c7294a05915833ff08bcb57e312d0a951d"
+  }
+}
