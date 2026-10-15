@@ -1,0 +1,174 @@
+{
+  "version": 169,
+  "baseline": "v168 / 627338f6cc5f1e729f8e7748a09f4a0fe3e0781d",
+  "verdict": "PASS for tested hosted Chromium scope",
+  "checks": 159,
+  "suites": {
+    "evidence.json": {
+      "verdict": "PASS",
+      "checks": 80,
+      "pdfs": [
+        {
+          "name": "comparison-focused",
+          "pages": 1,
+          "rows": 1,
+          "fonts": [
+            "DINNextArabic-Regular",
+            "Dubai-Bold",
+            "Dubai-Regular"
+          ],
+          "sha256": "644496d8fcb9ca316b106b85ebc1acfb81c9189f3b73b4d28c096e42a290fe3f"
+        },
+        {
+          "name": "comparison-overview",
+          "pages": 2,
+          "rows": 0,
+          "fonts": [
+            "DINNextArabic-Regular",
+            "Dubai-Bold",
+            "Dubai-Regular",
+            "TECPDFSymbolFallback-Reg"
+          ],
+          "sha256": "370eb08a7a0e07b528f304f4bec7d9401ead82f37b67d1848724de8b9e119226"
+        },
+        {
+          "name": "comparison-other",
+          "pages": 1,
+          "rows": 2,
+          "fonts": [
+            "DINNextArabic-Regular",
+            "Dubai-Bold",
+            "Dubai-Regular"
+          ],
+          "sha256": "6c1bbf9cda93b64836fafc37df5a3494482bae8fa7a6b4c224322136bccc8ff7"
+        },
+        {
+          "name": "comparison-empty",
+          "pages": 1,
+          "rows": 0,
+          "fonts": [
+            "DINNextArabic-Regular",
+            "Dubai-Regular"
+          ],
+          "sha256": "1d410e802ed7b644e97c890742dbdbfe9255a8fbc1fb5f60afde1700b2ce0fda"
+        }
+      ]
+    },
+    "extra-evidence.json": {
+      "verdict": "PASS",
+      "checks": 35,
+      "pdfs": [
+        {
+          "name": "comparison-long-notes",
+          "pages": 9,
+          "rows": 2,
+          "fonts": [
+            "DINNextArabic-Regular",
+            "Dubai-Bold",
+            "Dubai-Regular"
+          ],
+          "sha256": "e7199921cbf5a7ba590a91a8939e277c428cfd5e9abe802c04f8aef8d8b43658"
+        },
+        {
+          "name": "comparison-financial",
+          "pages": 1,
+          "rows": 0,
+          "fonts": [
+            "DINNextArabic-Regular",
+            "Dubai-Regular"
+          ],
+          "sha256": "9612ff2a4eb0742ec2b71cbdb31f1bc56df52e4b1e160fd0068a23bfb3abaad9"
+        },
+        {
+          "name": "comparison-average",
+          "pages": 1,
+          "rows": 0,
+          "fonts": [
+            "DINNextArabic-Regular",
+            "Dubai-Regular",
+            "TECPDFSymbolFallback-Reg"
+          ],
+          "sha256": "838701f24f5b69dcf35ff1e016ce9e51ecec664214265737a48cbe8e615e84a1"
+        }
+      ]
+    },
+    "storage-evidence.json": {
+      "verdict": "PASS",
+      "checks": 14,
+      "pdfs": []
+    },
+    "final-checks.json": {
+      "verdict": "PASS",
+      "checks": 30,
+      "pdfs": [
+        {
+          "name": "comparison-transfer",
+          "pages": 2,
+          "rows": 1,
+          "fonts": [
+            "DINNextArabic-Regular",
+            "Dubai-Bold",
+            "Dubai-Regular"
+          ],
+          "sha256": "5e2906d05c56dc4806c31f4ec7bdac123c1bbe3324c464b4b2eccd518653dfdb"
+        },
+        {
+          "name": "comparison-unresolved-search",
+          "pages": 1,
+          "rows": 0,
+          "fonts": [
+            "DINNextArabic-Regular",
+            "Dubai-Bold",
+            "Dubai-Regular"
+          ],
+          "sha256": "b35c33d8f52485ad667fbf5868d64ad5d2030f2332b5a64a2d4e303cb06db1e5"
+        }
+      ]
+    }
+  },
+  "source": {
+    "kind": "Anonymized illustrative fixture and controlled previous/in-memory cases; no filled operational snapshot pair supplied",
+    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+  },
+  "limitations": [
+    {
+      "check": "Direct-file Chromium reload and optional tabs",
+      "reason": "Managed Chromium policy rejects file:// navigation with ERR_BLOCKED_BY_ADMINISTRATOR; no policy bypass attempted."
+    }
+  ],
+  "runtime": {
+    "README.txt": "d24b0fbfee0aed14c23fe05faf085a09a09d7915d84436ee0990b258c2e1c3c9",
+    "assets/css/app-bundle.css": "9d5ae8a47e5beabfce0625a28a29d09872892532f99f066f64770d103cedabbe",
+    "assets/css/print-measure-bundle.css": "a87b697691fe30be04319dcdf37f6354d0b7353b06f3ed5d4d443b6ffb131101",
+    "assets/fonts/DIN-Next-Arabic-Regular.otf": "9c2c15f517e786908c1fa917650f3723953aba6ef3fe0a3a7439c78fc0105715",
+    "assets/fonts/DIN-Next-LT-Arabic-Regular.ttf": "a96ab4c40a249f58bc245e6610ab2488cfd3580cfa776a1ad2a92788baf49dcd",
+    "assets/fonts/Dubai-Bold.otf": "299b7e9a156e5c938a1c82605f29eefe48579811c21c571c3a4625d74f48676d",
+    "assets/fonts/Dubai-Regular.otf": "025504c5514f902ce95e39d1c765f8bc65561d89c46024ef20e3f5d59503b2e2",
+    "assets/fonts/OFL.txt": "1b806a2fb734929564b7562be413412feeb041f165940e9094b84c523cf10bed",
+    "assets/icons/app-192.png": "4ed57658565a9a1cb9c6a811009b95e45256f2ad2051e76cfdda5862aae6a9a5",
+    "assets/icons/app-512.png": "d1c62b79ca9781af65c8bd2e076691b5a42584d1250aa813080649a30c52ce05",
+    "assets/icons/apple-touch-icon.png": "8f8a9ef26be7263d90f042fd3fa528a06179dc28a190f35b072390ceff9011f7",
+    "assets/img/agenda-cover.jpg": "d158ae2851d7ecc15072764c25560ee5d4a05f1db1c6faf8113e2c1a05b405ab",
+    "assets/img/agenda-logos.png": "903f29bb3ca1027ca5e992fefb0428e7c9fd55db5f91603f9def8a7ccf40f155",
+    "assets/img/search-background.png": "89ade61e25d179566c84df6f1fac2b6a7fd7b378834c480da0b92a6e377e5bca",
+    "assets/img/search-mashrabiya.jpg": "9f9e86ce18b75524867fdfe9edb144051465b66fb0f93b2a2fe7bfa41286c2ff",
+    "assets/img/tec-positive.png": "fcab6fe27d22f816a93016e0cbcb3c38432fe2ef8885a3f313e6a0efe86151ef",
+    "assets/img/tec-red.png": "abafeddbf4c7cc66a5f2c25e997ee4ce90b517a5ea0b15f38398d396c68680cf",
+    "assets/js/app-bundle.js": "87d4bb3c4b632c1f7982016d379d5cb1e97a4821d96935e0d3631980a2c1c202",
+    "assets/js/lib/offline-pdf-engine.js": "647b32e4d4481fbc4df6edfa77ac71853131448ea4602d6b054f713ef6ee7069",
+    "assets/js/reports/agenda-fonts.js": "6f876e00ca7bb0954d796006096e574b424e09b101c37733566ea6fafe674dc3",
+    "assets/js/reports/agenda-template.js": "54f822bc3f695a5d20fab29eaa44d3fd1ec8e4e3d9693bc45dc58af8431fa22b",
+    "assets/js/reports/hh-template.js": "6304a88ac40fb87c936a13f2f663ca223e4a13318f578790ffbcf86b020108a0",
+    "assets/vendor/offline-pdf-LICENSES.txt": "55cf60144f8249cdd177adbf81fe30af773b5bb034acf68efd27db9f86f04521",
+    "assets/vendor/tec-pdf-symbols-LICENSE.txt": "f32df582a2aab128c07b2f7e36e7b928dc5f6bd82657b905c04f91459f9e5cf9",
+    "index.html": "29ada0a6cd4ddeaa7ed13cf8b737507bc79c37dec521923191bccc2383dad9b5",
+    "manifest.webmanifest": "b3ed8e7dc3299eb031ca9254ff3ef6fa0190e48ebb9e1a074a77dc451745e912"
+  },
+  "browserErrors": [],
+  "zip": {
+    "file": "Performance-App-v169.zip",
+    "bytes": 9805220,
+    "sha256": "e766882bce69241ce7f276d123f3521b47ee32a3cbc7155fa4d8db1588bf4d50",
+    "files": 26
+  }
+}

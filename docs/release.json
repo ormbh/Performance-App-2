@@ -1,14 +1,15 @@
 {
-  "build": 168,
-  "designRevision": 32,
-  "verdict": "ENTITY_PASS_WITH_RECORDED_SOURCE_LIMITS",
-  "zip": "Performance-App-v168.zip",
-  "zipSha256": "87ebb4c64b997d365eb2b1dbfc21c95795e47465248bb8183e0c367bc49bd6a9",
+  "build": 169,
+  "designRevision": 33,
+  "verdict": "COMPARISON_PASS_WITH_RECORDED_BROWSER_AND_SOURCE_LIMITS",
+  "zip": "Performance-App-v169.zip",
+  "zipSha256": "e766882bce69241ce7f276d123f3521b47ee32a3cbc7155fa4d8db1588bf4d50",
+  "bytes": 9805220,
   "fileCount": 26,
   "runtimeFiles": {
-    "README.txt": "da4e5cb715eb833db00af9f8ffc90313c874344ff95a4e364bebb4dba3b212ba",
-    "assets/css/app-bundle.css": "6fcf4adb2e8fbb67fd33d33b0d7cb4530f32e1521c8f461ba1375eba43c28a50",
-    "assets/css/print-measure-bundle.css": "b49e0a9f8714231bbc80b64eeb1fa6d39d30936e271922203aa24a7d040b84e3",
+    "README.txt": "d24b0fbfee0aed14c23fe05faf085a09a09d7915d84436ee0990b258c2e1c3c9",
+    "assets/css/app-bundle.css": "9d5ae8a47e5beabfce0625a28a29d09872892532f99f066f64770d103cedabbe",
+    "assets/css/print-measure-bundle.css": "a87b697691fe30be04319dcdf37f6354d0b7353b06f3ed5d4d443b6ffb131101",
     "assets/fonts/DIN-Next-Arabic-Regular.otf": "9c2c15f517e786908c1fa917650f3723953aba6ef3fe0a3a7439c78fc0105715",
     "assets/fonts/DIN-Next-LT-Arabic-Regular.ttf": "a96ab4c40a249f58bc245e6610ab2488cfd3580cfa776a1ad2a92788baf49dcd",
     "assets/fonts/Dubai-Bold.otf": "299b7e9a156e5c938a1c82605f29eefe48579811c21c571c3a4625d74f48676d",
@@ -23,36 +24,17 @@
     "assets/img/search-mashrabiya.jpg": "9f9e86ce18b75524867fdfe9edb144051465b66fb0f93b2a2fe7bfa41286c2ff",
     "assets/img/tec-positive.png": "fcab6fe27d22f816a93016e0cbcb3c38432fe2ef8885a3f313e6a0efe86151ef",
     "assets/img/tec-red.png": "abafeddbf4c7cc66a5f2c25e997ee4ce90b517a5ea0b15f38398d396c68680cf",
-    "assets/js/app-bundle.js": "53925cd0c46c541ea4e7f741c0b49594cf2866dce9a0d0c27c9c692177d14b30",
+    "assets/js/app-bundle.js": "87d4bb3c4b632c1f7982016d379d5cb1e97a4821d96935e0d3631980a2c1c202",
     "assets/js/lib/offline-pdf-engine.js": "647b32e4d4481fbc4df6edfa77ac71853131448ea4602d6b054f713ef6ee7069",
     "assets/js/reports/agenda-fonts.js": "6f876e00ca7bb0954d796006096e574b424e09b101c37733566ea6fafe674dc3",
     "assets/js/reports/agenda-template.js": "54f822bc3f695a5d20fab29eaa44d3fd1ec8e4e3d9693bc45dc58af8431fa22b",
     "assets/js/reports/hh-template.js": "6304a88ac40fb87c936a13f2f663ca223e4a13318f578790ffbcf86b020108a0",
     "assets/vendor/offline-pdf-LICENSES.txt": "55cf60144f8249cdd177adbf81fe30af773b5bb034acf68efd27db9f86f04521",
     "assets/vendor/tec-pdf-symbols-LICENSE.txt": "f32df582a2aab128c07b2f7e36e7b928dc5f6bd82657b905c04f91459f9e5cf9",
-    "index.html": "c01a4e29084d4b781273c6d24677e311bccbc2e279e22c218d9f2baad0b7a734",
+    "index.html": "29ada0a6cd4ddeaa7ed13cf8b737507bc79c37dec521923191bccc2383dad9b5",
     "manifest.webmanifest": "b3ed8e7dc3299eb031ca9254ff3ef6fa0190e48ebb9e1a074a77dc451745e912"
   },
-  "sourceFixture": {
-    "name": "ILLUSTRATIVE-monthly-preview.xlsx",
-    "illustrative": true,
-    "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
-  },
-  "entityStage": {
-    "implemented": true,
-    "assertions": 273,
-    "evidence": "checks/entity.json",
-    "sourceWorkbooksChanged": false,
-    "actualAttachmentEligibleRows": 0
-  },
-  "limits": [
-    "Populated examples are anonymized illustrative data, not operational totals from the incomplete attachment.",
-    "No actual prior operational workbook was available for an entity historical comparison.",
-    "Clean runtime verified over local HTTP; no new cold-file or Office/accessibility certification."
-  ],
-  "previousRelease": {
-    "commit": "16d0b937bcb16aa096a1cd32004b6fc02b824dfb",
-    "zip": "archive/v167/Performance-App-v167.zip",
-    "sha256": "eff9bb548fdfc011ff245fc0533e4b6b0d0b9d2d3dd9495b3c935422f6e974b1"
-  }
+  "verification": "docs/Verification-v169.md",
+  "checks": 159,
+  "matchingContract": "approved-connections-2026-10-09"
 }
