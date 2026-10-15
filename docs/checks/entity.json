@@ -1,0 +1,1340 @@
+{
+  "verdict": "PASS",
+  "baseline": {
+    "build": 167,
+    "commit": "16d0b937bcb16aa096a1cd32004b6fc02b824dfb"
+  },
+  "sourceCutoff": "2026-09-30",
+  "loadedAssetHashes": {
+    "app-bundle.css": "6fcf4adb2e8fbb67fd33d33b0d7cb4530f32e1521c8f461ba1375eba43c28a50",
+    "app-bundle.js": "53925cd0c46c541ea4e7f741c0b49594cf2866dce9a0d0c27c9c692177d14b30",
+    "print-measure-bundle.css": "b49e0a9f8714231bbc80b64eeb1fa6d39d30936e271922203aa24a7d040b84e3"
+  },
+  "comprehensiveBuildHashes": {
+    "app-bundle.css": "3a0c83194949a3f3bb65e1254c834130b0f5dec077afd59237c29e23597353a3",
+    "app-bundle.js": "41696fa1c3f2b36f2e05ff386d58f27a181cd3855a0046b2ac703e41cfe02896",
+    "print-measure-bundle.css": "407c495457125150145188da23991e1fd593c7d6f039534bf12b4b634ed0140d"
+  },
+  "checks": [
+    {
+      "name": "fresh source hash ILLUSTRATIVE-monthly-preview.xlsx",
+      "pass": true
+    },
+    {
+      "name": "shared raw model equals verified v167",
+      "pass": true
+    },
+    {
+      "name": "shared monthly model equals verified v167",
+      "pass": true
+    },
+    {
+      "name": "shared agenda model equals verified v167",
+      "pass": true
+    },
+    {
+      "name": "shared hh model equals verified v167",
+      "pass": true
+    },
+    {
+      "name": "shared council model equals verified v167",
+      "pass": true
+    },
+    {
+      "name": "shared comparison model equals verified v167",
+      "pass": true
+    },
+    {
+      "name": "shared sourceDate model equals verified v167",
+      "pass": true
+    },
+    {
+      "name": "shared portfolio model equals verified v167",
+      "pass": true
+    },
+    {
+      "name": "all entity calculations equal audited baseline",
+      "pass": true
+    },
+    {
+      "name": "all 343 named entity rows retained",
+      "pass": true
+    },
+    {
+      "name": "four populated domains once",
+      "pass": true
+    },
+    {
+      "name": "same domain sequence in main tables",
+      "pass": true
+    },
+    {
+      "name": "entity-all page plan matches actual PDF",
+      "pass": true
+    },
+    {
+      "name": "entity-all A4 portrait",
+      "pass": true
+    },
+    {
+      "name": "entity-all screen/PDF exact ordered table rows",
+      "pass": true
+    },
+    {
+      "name": "entity-all every native source text line placed",
+      "pass": true
+    },
+    {
+      "name": "entity-all no PDF width overflow",
+      "pass": true
+    },
+    {
+      "name": "entity-all all column headings inside own cells",
+      "pass": true
+    },
+    {
+      "name": "entity-all native text inside all page bounds",
+      "pass": true
+    },
+    {
+      "name": "entity-all Arabic glyphs available",
+      "pass": true
+    },
+    {
+      "name": "entity-all no blank PDF pages",
+      "pass": true
+    },
+    {
+      "name": "entity-all sequential page totals and copyright",
+      "pass": true
+    },
+    {
+      "name": "entity-all internal links valid",
+      "pass": true
+    },
+    {
+      "name": "entity-all readable in-bar font sizes",
+      "pass": true
+    },
+    {
+      "name": "entity-all full entity scope retained",
+      "pass": true
+    },
+    {
+      "name": "entity-all no source filename or administrative row labels",
+      "pass": true
+    },
+    {
+      "name": "selected 11 rows and four table headers",
+      "pass": true
+    },
+    {
+      "name": "selected three follow-up rows",
+      "pass": true
+    },
+    {
+      "name": "main list exact selected source keys",
+      "pass": true
+    },
+    {
+      "name": "continuous numbering across selected domains",
+      "pass": true
+    },
+    {
+      "name": "completed summary value uses Green",
+      "pass": true
+    },
+    {
+      "name": "1560 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "1560 real table cells and horizontal scrolling",
+      "pass": true
+    },
+    {
+      "name": "1560 visible counts fit actual bar",
+      "pass": true
+    },
+    {
+      "name": "1560 contents and chart links resolve",
+      "pass": true
+    },
+    {
+      "name": "768 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "768 real table cells and horizontal scrolling",
+      "pass": true
+    },
+    {
+      "name": "768 visible counts fit actual bar",
+      "pass": true
+    },
+    {
+      "name": "768 contents and chart links resolve",
+      "pass": true
+    },
+    {
+      "name": "390 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "390 real table cells and horizontal scrolling",
+      "pass": true
+    },
+    {
+      "name": "390 visible counts fit actual bar",
+      "pass": true
+    },
+    {
+      "name": "390 contents and chart links resolve",
+      "pass": true
+    },
+    {
+      "name": "320 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "320 real table cells and horizontal scrolling",
+      "pass": true
+    },
+    {
+      "name": "320 visible counts fit actual bar",
+      "pass": true
+    },
+    {
+      "name": "320 contents and chart links resolve",
+      "pass": true
+    },
+    {
+      "name": "entity-selected page plan matches actual PDF",
+      "pass": true
+    },
+    {
+      "name": "entity-selected A4 portrait",
+      "pass": true
+    },
+    {
+      "name": "entity-selected screen/PDF exact ordered table rows",
+      "pass": true
+    },
+    {
+      "name": "entity-selected every native source text line placed",
+      "pass": true
+    },
+    {
+      "name": "entity-selected no PDF width overflow",
+      "pass": true
+    },
+    {
+      "name": "entity-selected all column headings inside own cells",
+      "pass": true
+    },
+    {
+      "name": "entity-selected native text inside all page bounds",
+      "pass": true
+    },
+    {
+      "name": "entity-selected Arabic glyphs available",
+      "pass": true
+    },
+    {
+      "name": "entity-selected no blank PDF pages",
+      "pass": true
+    },
+    {
+      "name": "entity-selected sequential page totals and copyright",
+      "pass": true
+    },
+    {
+      "name": "entity-selected internal links valid",
+      "pass": true
+    },
+    {
+      "name": "entity-selected readable in-bar font sizes",
+      "pass": true
+    },
+    {
+      "name": "entity-selected full entity scope retained",
+      "pass": true
+    },
+    {
+      "name": "entity-selected no source filename or administrative row labels",
+      "pass": true
+    },
+    {
+      "name": "selected source-status counts sum to11",
+      "pass": true
+    },
+    {
+      "name": "neutral date alert does not infer booking failure",
+      "pass": true
+    },
+    {
+      "name": "entity multi-select union",
+      "pass": true
+    },
+    {
+      "name": "primary/contributor union deduplicates",
+      "pass": true
+    },
+    {
+      "name": "entity and domain intersection",
+      "pass": true
+    },
+    {
+      "name": "unmatched entity does not become all",
+      "pass": true
+    },
+    {
+      "name": "empty scope hides all empty sections",
+      "pass": true
+    },
+    {
+      "name": "entity-empty page plan matches actual PDF",
+      "pass": true
+    },
+    {
+      "name": "entity-empty A4 portrait",
+      "pass": true
+    },
+    {
+      "name": "entity-empty screen/PDF exact ordered table rows",
+      "pass": true
+    },
+    {
+      "name": "entity-empty every native source text line placed",
+      "pass": true
+    },
+    {
+      "name": "entity-empty no PDF width overflow",
+      "pass": true
+    },
+    {
+      "name": "entity-empty all column headings inside own cells",
+      "pass": true
+    },
+    {
+      "name": "entity-empty native text inside all page bounds",
+      "pass": true
+    },
+    {
+      "name": "entity-empty Arabic glyphs available",
+      "pass": true
+    },
+    {
+      "name": "entity-empty no blank PDF pages",
+      "pass": true
+    },
+    {
+      "name": "entity-empty sequential page totals and copyright",
+      "pass": true
+    },
+    {
+      "name": "entity-empty internal links valid",
+      "pass": true
+    },
+    {
+      "name": "entity-empty readable in-bar font sizes",
+      "pass": true
+    },
+    {
+      "name": "entity-empty one empty page without tables/charts/legend",
+      "pass": true
+    },
+    {
+      "name": "council scope hides empty follow-up and timing",
+      "pass": true
+    },
+    {
+      "name": "one populated chart after domain filtering",
+      "pass": true
+    },
+    {
+      "name": "entity-council page plan matches actual PDF",
+      "pass": true
+    },
+    {
+      "name": "entity-council A4 portrait",
+      "pass": true
+    },
+    {
+      "name": "entity-council screen/PDF exact ordered table rows",
+      "pass": true
+    },
+    {
+      "name": "entity-council every native source text line placed",
+      "pass": true
+    },
+    {
+      "name": "entity-council no PDF width overflow",
+      "pass": true
+    },
+    {
+      "name": "entity-council all column headings inside own cells",
+      "pass": true
+    },
+    {
+      "name": "entity-council native text inside all page bounds",
+      "pass": true
+    },
+    {
+      "name": "entity-council Arabic glyphs available",
+      "pass": true
+    },
+    {
+      "name": "entity-council no blank PDF pages",
+      "pass": true
+    },
+    {
+      "name": "entity-council sequential page totals and copyright",
+      "pass": true
+    },
+    {
+      "name": "entity-council internal links valid",
+      "pass": true
+    },
+    {
+      "name": "entity-council readable in-bar font sizes",
+      "pass": true
+    },
+    {
+      "name": "entity-council full entity scope retained",
+      "pass": true
+    },
+    {
+      "name": "entity-council no source filename or administrative row labels",
+      "pass": true
+    },
+    {
+      "name": "contributor table exact source membership",
+      "pass": true
+    },
+    {
+      "name": "entity-contributor page plan matches actual PDF",
+      "pass": true
+    },
+    {
+      "name": "entity-contributor A4 portrait",
+      "pass": true
+    },
+    {
+      "name": "entity-contributor screen/PDF exact ordered table rows",
+      "pass": true
+    },
+    {
+      "name": "entity-contributor every native source text line placed",
+      "pass": true
+    },
+    {
+      "name": "entity-contributor no PDF width overflow",
+      "pass": true
+    },
+    {
+      "name": "entity-contributor all column headings inside own cells",
+      "pass": true
+    },
+    {
+      "name": "entity-contributor native text inside all page bounds",
+      "pass": true
+    },
+    {
+      "name": "entity-contributor Arabic glyphs available",
+      "pass": true
+    },
+    {
+      "name": "entity-contributor no blank PDF pages",
+      "pass": true
+    },
+    {
+      "name": "entity-contributor sequential page totals and copyright",
+      "pass": true
+    },
+    {
+      "name": "entity-contributor internal links valid",
+      "pass": true
+    },
+    {
+      "name": "entity-contributor readable in-bar font sizes",
+      "pass": true
+    },
+    {
+      "name": "entity-contributor full entity scope retained",
+      "pass": true
+    },
+    {
+      "name": "entity-contributor no source filename or administrative row labels",
+      "pass": true
+    },
+    {
+      "name": "ready drill retains all3 source-ready topics",
+      "pass": true
+    },
+    {
+      "name": "live query narrows source rows",
+      "pass": true
+    },
+    {
+      "name": "entity-focused-query page plan matches actual PDF",
+      "pass": true
+    },
+    {
+      "name": "entity-focused-query A4 portrait",
+      "pass": true
+    },
+    {
+      "name": "entity-focused-query screen/PDF exact ordered table rows",
+      "pass": true
+    },
+    {
+      "name": "entity-focused-query every native source text line placed",
+      "pass": true
+    },
+    {
+      "name": "entity-focused-query no PDF width overflow",
+      "pass": true
+    },
+    {
+      "name": "entity-focused-query all column headings inside own cells",
+      "pass": true
+    },
+    {
+      "name": "entity-focused-query native text inside all page bounds",
+      "pass": true
+    },
+    {
+      "name": "entity-focused-query Arabic glyphs available",
+      "pass": true
+    },
+    {
+      "name": "entity-focused-query no blank PDF pages",
+      "pass": true
+    },
+    {
+      "name": "entity-focused-query sequential page totals and copyright",
+      "pass": true
+    },
+    {
+      "name": "entity-focused-query internal links valid",
+      "pass": true
+    },
+    {
+      "name": "entity-focused-query readable in-bar font sizes",
+      "pass": true
+    },
+    {
+      "name": "entity-focused-query full entity scope retained",
+      "pass": true
+    },
+    {
+      "name": "entity-focused-query no source filename or administrative row labels",
+      "pass": true
+    },
+    {
+      "name": "PDF contains live query scope",
+      "pass": true
+    },
+    {
+      "name": "record link uses immutable source key",
+      "pass": true
+    },
+    {
+      "name": "record navigation preserves entity scope",
+      "pass": true
+    },
+    {
+      "name": "unavailable history explained",
+      "pass": true
+    },
+    {
+      "name": "fresh source hash ILLUSTRATIVE-monthly-preview.xlsx",
+      "pass": true
+    },
+    {
+      "name": "record modal closes and returns to report",
+      "pass": true
+    },
+    {
+      "name": "existing comparison setup usable",
+      "pass": true
+    },
+    {
+      "name": "true zero progress displays a dash",
+      "pass": true
+    },
+    {
+      "name": "missing progress remains blank",
+      "pass": true
+    },
+    {
+      "name": "all39 rows with missing status retained in neutral marks",
+      "pass": true
+    },
+    {
+      "name": "controlled tests leave parsed source data unchanged",
+      "pass": true
+    },
+    {
+      "name": "no entity runtime errors",
+      "pass": true
+    },
+    {
+      "name": "shared exporter portfolio regression",
+      "pass": true
+    },
+    {
+      "name": "fresh source hash Saytara_2026_Mold_v2.xlsx",
+      "pass": true
+    },
+    {
+      "name": "attachment zero eligible named entity rows",
+      "pass": true
+    },
+    {
+      "name": "special-project detail excludes unnamed attachment rows",
+      "pass": true
+    },
+    {
+      "name": "missing source suppresses all empty sections",
+      "pass": true
+    },
+    {
+      "name": "missing source names explained distinctly",
+      "pass": true
+    },
+    {
+      "name": "entity-attachment page plan matches actual PDF",
+      "pass": true
+    },
+    {
+      "name": "entity-attachment A4 portrait",
+      "pass": true
+    },
+    {
+      "name": "entity-attachment screen/PDF exact ordered table rows",
+      "pass": true
+    },
+    {
+      "name": "entity-attachment every native source text line placed",
+      "pass": true
+    },
+    {
+      "name": "entity-attachment no PDF width overflow",
+      "pass": true
+    },
+    {
+      "name": "entity-attachment all column headings inside own cells",
+      "pass": true
+    },
+    {
+      "name": "entity-attachment native text inside all page bounds",
+      "pass": true
+    },
+    {
+      "name": "entity-attachment Arabic glyphs available",
+      "pass": true
+    },
+    {
+      "name": "entity-attachment no blank PDF pages",
+      "pass": true
+    },
+    {
+      "name": "entity-attachment sequential page totals and copyright",
+      "pass": true
+    },
+    {
+      "name": "entity-attachment internal links valid",
+      "pass": true
+    },
+    {
+      "name": "entity-attachment readable in-bar font sizes",
+      "pass": true
+    },
+    {
+      "name": "entity-attachment one empty page without tables/charts/legend",
+      "pass": true
+    },
+    {
+      "name": "HH empty attachment has no placeholder project cards/rows",
+      "pass": true
+    },
+    {
+      "name": "attachment and HH have no runtime exceptions",
+      "pass": true
+    },
+    {
+      "name": "source workbook unchanged ILLUSTRATIVE-monthly-preview.xlsx",
+      "pass": true
+    },
+    {
+      "name": "source workbook unchanged Saytara_2026_Mold_v2.xlsx",
+      "pass": true
+    },
+    {
+      "name": "fresh source hash ILLUSTRATIVE-monthly-preview.xlsx",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final page plan matches actual PDF",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final A4 portrait",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final screen/PDF exact ordered table rows",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final every native source text line placed",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final no PDF width overflow",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final all column headings inside own cells",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final native text inside all page bounds",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final Arabic glyphs available",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final no blank PDF pages",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final sequential page totals and copyright",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final internal links valid",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final readable in-bar font sizes",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final full entity scope retained",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final no source filename or administrative row labels",
+      "pass": true
+    },
+    {
+      "name": "final normal entity PDF geometry/text unchanged by long-note fix",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes page plan matches actual PDF",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes A4 portrait",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes screen/PDF exact ordered table rows",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes every native source text line placed",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes no PDF width overflow",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes all column headings inside own cells",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes native text inside all page bounds",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes Arabic glyphs available",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes no blank PDF pages",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes sequential page totals and copyright",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes internal links valid",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes readable in-bar font sizes",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes full entity scope retained",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes no source filename or administrative row labels",
+      "pass": true
+    },
+    {
+      "name": "all85 numbered source-note lines preserved",
+      "pass": true
+    },
+    {
+      "name": "final controlled notes leave source unchanged",
+      "pass": true
+    },
+    {
+      "name": "fresh source hash ILLUSTRATIVE-monthly-preview.xlsx",
+      "pass": true
+    },
+    {
+      "name": "actual completed drill opens exact4 source rows in new tab",
+      "pass": true
+    },
+    {
+      "name": "closing entity drill restores keyboard focus",
+      "pass": true
+    },
+    {
+      "name": "final shared native exporter portfolio regression",
+      "pass": true
+    },
+    {
+      "name": "final source/filter/navigation browser has no errors",
+      "pass": true
+    },
+    {
+      "name": "fresh source hash Saytara_2026_Mold_v2.xlsx",
+      "pass": true
+    },
+    {
+      "name": "affected HH empty source native PDF exports in A4 landscape",
+      "pass": true
+    },
+    {
+      "name": "HH empty PDF omits fallback placeholder projects",
+      "pass": true
+    },
+    {
+      "name": "affected HH empty export has no runtime errors",
+      "pass": true
+    },
+    {
+      "name": "fresh source hash ILLUSTRATIVE-monthly-preview.xlsx",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final page plan matches actual PDF",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final A4 portrait",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final screen/PDF exact ordered table rows",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final every native source text line placed",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final no PDF width overflow",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final all column headings inside own cells",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final native text inside all page bounds",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final Arabic glyphs available",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final no blank PDF pages",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final sequential page totals and copyright",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final internal links valid",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final readable in-bar font sizes",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final full entity scope retained",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final no source filename or administrative row labels",
+      "pass": true
+    },
+    {
+      "name": "entity-all page plan matches actual PDF",
+      "pass": true
+    },
+    {
+      "name": "entity-all A4 portrait",
+      "pass": true
+    },
+    {
+      "name": "entity-all screen/PDF exact ordered table rows",
+      "pass": true
+    },
+    {
+      "name": "entity-all every native source text line placed",
+      "pass": true
+    },
+    {
+      "name": "entity-all no PDF width overflow",
+      "pass": true
+    },
+    {
+      "name": "entity-all all column headings inside own cells",
+      "pass": true
+    },
+    {
+      "name": "entity-all native text inside all page bounds",
+      "pass": true
+    },
+    {
+      "name": "entity-all Arabic glyphs available",
+      "pass": true
+    },
+    {
+      "name": "entity-all no blank PDF pages",
+      "pass": true
+    },
+    {
+      "name": "entity-all sequential page totals and copyright",
+      "pass": true
+    },
+    {
+      "name": "entity-all internal links valid",
+      "pass": true
+    },
+    {
+      "name": "entity-all readable in-bar font sizes",
+      "pass": true
+    },
+    {
+      "name": "entity-all full entity scope retained",
+      "pass": true
+    },
+    {
+      "name": "entity-all no source filename or administrative row labels",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes page plan matches actual PDF",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes A4 portrait",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes screen/PDF exact ordered table rows",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes every native source text line placed",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes no PDF width overflow",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes all column headings inside own cells",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes native text inside all page bounds",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes Arabic glyphs available",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes no blank PDF pages",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes sequential page totals and copyright",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes internal links valid",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes readable in-bar font sizes",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes full entity scope retained",
+      "pass": true
+    },
+    {
+      "name": "entity-long-notes no source filename or administrative row labels",
+      "pass": true
+    },
+    {
+      "name": "final layout has no runtime errors",
+      "pass": true
+    },
+    {
+      "name": "fresh source hash ILLUSTRATIVE-monthly-preview.xlsx",
+      "pass": true
+    },
+    {
+      "name": "actual source-status bar opens exact2 approved-ready topics",
+      "pass": true
+    },
+    {
+      "name": "final status actions 1560 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "final status actions 1560 keyboard target size",
+      "pass": true
+    },
+    {
+      "name": "final status actions 390 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "final status actions 390 keyboard target size",
+      "pass": true
+    },
+    {
+      "name": "final status actions 320 no page overflow",
+      "pass": true
+    },
+    {
+      "name": "final status actions 320 keyboard target size",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final page plan matches actual PDF",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final A4 portrait",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final screen/PDF exact ordered table rows",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final every native source text line placed",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final no PDF width overflow",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final all column headings inside own cells",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final native text inside all page bounds",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final Arabic glyphs available",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final no blank PDF pages",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final sequential page totals and copyright",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final internal links valid",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final readable in-bar font sizes",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final full entity scope retained",
+      "pass": true
+    },
+    {
+      "name": "entity-selected-final no source filename or administrative row labels",
+      "pass": true
+    },
+    {
+      "name": "status actions preserve exact native PDF text and geometry",
+      "pass": true
+    },
+    {
+      "name": "final status interaction browser clean",
+      "pass": true
+    }
+  ],
+  "assertions": 273,
+  "sourceWorkbooksChanged": false,
+  "sources": {
+    "attachment": {
+      "rawEntityRows": 343,
+      "eligibleNamedRows": 0,
+      "sha256": "1638e2d9e194c21d8d8e258a2bcad7c121cbeb9a4f529f90cea632f212cc66f2"
+    },
+    "illustrative": {
+      "eligibleNamedRows": 343,
+      "selectedRows": 11,
+      "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+    }
+  },
+  "nativePdfScenarios": [
+    {
+      "name": "entity-all",
+      "pages": 40,
+      "sha256": "6a386443affb75beb57aed5bf4540f05fd09aa2f5531ab75e53880d2aac10f33",
+      "sourceTableRows": 381,
+      "mainRows": 343,
+      "nativeTextLines": 3226,
+      "embeddedFonts": [
+        "CZZZZZ+DINNextArabic-Regular",
+        "DZZZZZ+Dubai-Regular",
+        "EZZZZZ+DINNextLTArabic-Regular",
+        "FZZZZZ+TECPDFSymbolFallback-Regular",
+        "GZZZZZ+Dubai-Bold"
+      ]
+    },
+    {
+      "name": "entity-selected",
+      "pages": 4,
+      "sha256": "22fad70d1031d25915895e8fc08d5bf0930508f5ee7ad826130a0aba503b7513",
+      "sourceTableRows": 14,
+      "mainRows": 11,
+      "nativeTextLines": 248,
+      "embeddedFonts": [
+        "CZZZZZ+DINNextArabic-Regular",
+        "DZZZZZ+Dubai-Regular",
+        "EZZZZZ+DINNextLTArabic-Regular",
+        "FZZZZZ+TECPDFSymbolFallback-Regular",
+        "GZZZZZ+Dubai-Bold"
+      ]
+    },
+    {
+      "name": "entity-empty",
+      "pages": 1,
+      "sha256": "f9dac260f7ee69db6af82263cfca8620a557aadea8a90238faade4c7b1ccd8f9",
+      "sourceTableRows": 0,
+      "mainRows": 0,
+      "nativeTextLines": 6,
+      "embeddedFonts": [
+        "CZZZZZ+DINNextArabic-Regular",
+        "DZZZZZ+Dubai-Regular",
+        "EZZZZZ+DINNextLTArabic-Regular"
+      ]
+    },
+    {
+      "name": "entity-council",
+      "pages": 2,
+      "sha256": "cd4211bfdea2aa6800c654fe7998cbbc04d1bf03c7b4b396db1dc4549db49f12",
+      "sourceTableRows": 6,
+      "mainRows": 6,
+      "nativeTextLines": 105,
+      "embeddedFonts": [
+        "CZZZZZ+DINNextArabic-Regular",
+        "DZZZZZ+Dubai-Regular",
+        "EZZZZZ+DINNextLTArabic-Regular",
+        "FZZZZZ+TECPDFSymbolFallback-Regular",
+        "GZZZZZ+Dubai-Bold"
+      ]
+    },
+    {
+      "name": "entity-contributor",
+      "pages": 2,
+      "sha256": "b4dd171d7be38b7400395a26027b236ff90a42708038cbc141346360648f3405",
+      "sourceTableRows": 1,
+      "mainRows": 1,
+      "nativeTextLines": 76,
+      "embeddedFonts": [
+        "CZZZZZ+DINNextArabic-Regular",
+        "DZZZZZ+Dubai-Regular",
+        "EZZZZZ+DINNextLTArabic-Regular",
+        "FZZZZZ+TECPDFSymbolFallback-Regular",
+        "GZZZZZ+Dubai-Bold"
+      ]
+    },
+    {
+      "name": "entity-focused-query",
+      "pages": 1,
+      "sha256": "f47ad6b6cb5d28cc1b7bf22bc5e665f88a2180d8dd8569f01b245d6c84de7d67",
+      "sourceTableRows": 1,
+      "mainRows": 0,
+      "nativeTextLines": 23,
+      "embeddedFonts": [
+        "CZZZZZ+DINNextArabic-Regular",
+        "DZZZZZ+Dubai-Regular",
+        "EZZZZZ+DINNextLTArabic-Regular",
+        "FZZZZZ+Dubai-Bold"
+      ]
+    },
+    {
+      "name": "entity-long-notes",
+      "pages": 13,
+      "sha256": "565fa35e43dd6b49d11b649862dcfe98c4a66c975c5760b9dd0d1f2fad2bf615",
+      "sourceTableRows": 14,
+      "mainRows": 11,
+      "nativeTextLines": 594,
+      "embeddedFonts": [
+        "CZZZZZ+DINNextArabic-Regular",
+        "DZZZZZ+Dubai-Regular",
+        "EZZZZZ+DINNextLTArabic-Regular",
+        "FZZZZZ+TECPDFSymbolFallback-Regular",
+        "GZZZZZ+Dubai-Bold"
+      ]
+    },
+    {
+      "name": "entity-attachment",
+      "pages": 1,
+      "sha256": "a42ae8dc6166de2d4127a6bb05c0aa41ef55571dffc2c9260daf87a07ca00b8c",
+      "sourceTableRows": 0,
+      "mainRows": 0,
+      "nativeTextLines": 9,
+      "embeddedFonts": [
+        "CZZZZZ+DINNextArabic-Regular",
+        "DZZZZZ+Dubai-Regular",
+        "EZZZZZ+DINNextLTArabic-Regular"
+      ]
+    },
+    {
+      "name": "entity-selected-final",
+      "pages": 4,
+      "sha256": "bbce9b443d958fb952bc24d94ca4343c640bf1a62781b97cecaf170e521bd2cd",
+      "sourceTableRows": 14,
+      "mainRows": 11,
+      "nativeTextLines": 248,
+      "embeddedFonts": [
+        "CZZZZZ+DINNextArabic-Regular",
+        "DZZZZZ+Dubai-Regular",
+        "EZZZZZ+DINNextLTArabic-Regular",
+        "FZZZZZ+TECPDFSymbolFallback-Regular",
+        "GZZZZZ+Dubai-Bold"
+      ]
+    }
+  ],
+  "sharedPortfolioExactParity": {
+    "plan": true,
+    "rows": true,
+    "headers": true,
+    "lines": true
+  },
+  "sharedPortfolioChecks": [
+    {
+      "name": "portfolio-regression-final: exact page plan",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "portfolio-regression-final: A4 portrait",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "portfolio-regression-final: no print viewport overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "portfolio-regression-final: table headings fit separate columns",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "portfolio-regression-final: all native source text lines placed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "portfolio-regression-final: screen/PDF exact source row sequence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "portfolio-regression-final: actual text inside page bounds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "portfolio-regression-final: no replacement glyphs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "portfolio-regression-final: no empty pages",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "portfolio-regression-final: footer page numbers present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "portfolio-regression-final: visible in-bar counts >=14px",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "portfolio-regression-final: all native PDF links point to valid pages",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "hhEmptyPdf": {
+    "pages": 2,
+    "sha256": "d663e774518f40183ef01b10874f18ee1ec48516557bd5aa437c6968692d0f9b"
+  },
+  "finalBinding": [
+    "Final normal PDF geometry/text was rechecked after the entity-only long-note fix.",
+    "Final print keep-together rule was verified on full, selected and long-note exports.",
+    "Final source-status action changed screen buttons only; native PDF text/geometry remain exact."
+  ],
+  "limits": [
+    "Populated examples are anonymized illustrative data, not operational totals from the incomplete attachment.",
+    "No actual prior operational workbook was available for an entity historical comparison.",
+    "Clean runtime verified over local HTTP; no new cold-file or Office/accessibility certification."
+  ]
+}

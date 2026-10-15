@@ -1,17 +1,16 @@
-# تقرير الجهات — audit and full-page illustration
+# تقرير الجهات — implemented in v168
 
-**Review stage only · 15 October 2026 (Dubai) · v167 remains the production baseline.** Implementation awaits approval. The clean application ZIP and current approved design principles are unchanged.
+The approved audit and full-page illustration are applied. The live page and native PDF use matching scope, section order, statuses, table fields and source records.
 
-All populated visuals use a separately loaded anonymized fixture. They do not assess the named entity's operational performance. The available attachment contains 343 agenda/council/special-project rows with blank titles and supplies zero eligible named entity rows.
+**Populated examples below are illustrative.** The available attachment has 343 raw entity-domain rows with blank item names, so it supplies zero eligible named entity rows. The example does not assess the named entity's actual operational performance.
 
-- [Complete desktop page](entity-full-1560.png)
-- [Overview](entity-overview.png) · [Four domain charts and compact legend](entity-charts.png)
-- [Follow-up table](entity-followup.png) · [Grouped main tables](entity-tables.png)
-- [Phone layout](entity-full-390.png)
-- [Self-contained HTML proposal](review.html) — download and open locally; domain filtering and in-page links work, while entity/relationship context is fixed and PDF navigation is illustrative.
-- [Audit, recommendations and implementation approach](Audit.md)
-- [Focused verification evidence](evidence.json)
+- [Actual desktop page](entity-screen.png) · [Phone layout](entity-mobile.png)
+- [Status charts and compact legend](entity-charts.png) · [Follow-up table](entity-followup.png)
+- [Actual native A4 PDF — illustrative data](entity-illustrative-a4.pdf)
+- [A4 page 1](entity-a4-page-1.png) · [A4 page 2](entity-a4-page-2.png)
+- [Implementation and verification](../Verification-v168.md) · [Machine-readable evidence](../checks/entity.json)
+- [Original approved audit and illustration](../../archive/v167/docs/entities/README.md)
 
-![Proposed entity overview — illustrative data](entity-overview.png)
+The selected example contains 11 source rows: 3 approved agenda, 1 emerging topic, 6 recorded council decisions and 1 special project. Four are completed; seven are open. One is date-late and two are due on the report date; these alerts are not additional total components. The ready source status is preserved.
 
-The proposal removes repeated status views, keeps recorded statuses distinct from date-based alerts, aligns table columns and section order, and retains source-specific scope. The proposed PDF must use the same scoped content and readable continuation rules after implementation is approved.
+![Actual entity report — illustrative data](entity-screen.png)

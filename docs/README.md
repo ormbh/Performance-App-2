@@ -1,9 +1,8 @@
 # Current documentation
 
-- [v167 implementation and verification](Verification-v167.md)
-- [Project portfolio — actual screen and illustrative PDF](portfolio/README.md)
-- [Design principles — Revision 31](TEC-Design-Principles.md)
+- [v168 implementation and verification](Verification-v168.md)
+- [Entity report — actual screen and illustrative PDF](entities/README.md)
+- [Design principles — Revision 32](TEC-Design-Principles.md)
 - [TEC skill and principles](TEC-Apple-Inspired-Skill-and-Principles.zip)
-- [Entity report — audit and full-page illustration](entities/README.md)
 - [Release hashes and runtime file list](release.json)
-- [Previous monthly implementation and examples](../archive/v166/docs/monthly/README.md)
+- [Previous portfolio implementation and examples](../archive/v167/docs/portfolio/README.md)
