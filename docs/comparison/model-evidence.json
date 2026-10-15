@@ -1,0 +1,96 @@
+{
+  "baseline": "v168",
+  "source": "Anonymized illustrative fixture; controlled in-memory changes only",
+  "tests": [
+    {
+      "name": "transfer-old-department",
+      "pass": true,
+      "observed": {
+        "previous": 1,
+        "current": 0,
+        "in": 0,
+        "out": 1,
+        "kinds": [
+          "left"
+        ]
+      }
+    },
+    {
+      "name": "transfer-new-department",
+      "pass": true,
+      "observed": {
+        "previous": 0,
+        "current": 1,
+        "in": 1,
+        "out": 0,
+        "kinds": [
+          "entered"
+        ]
+      }
+    },
+    {
+      "name": "transfer-global",
+      "pass": true,
+      "observed": {
+        "previous": 1,
+        "current": 1,
+        "in": 0,
+        "out": 0,
+        "kinds": [
+          "matched"
+        ]
+      }
+    },
+    {
+      "name": "transfer-and-status-global",
+      "pass": true,
+      "observed": {
+        "previous": 0,
+        "current": 1,
+        "in": 1,
+        "out": 0,
+        "kinds": [
+          "matched"
+        ]
+      }
+    },
+    {
+      "name": "secretariat-sector-key-change",
+      "confirmedLimitation": true,
+      "observed": [
+        "removed",
+        "added"
+      ]
+    },
+    {
+      "name": "legislation-sector-key-change",
+      "confirmedLimitation": true,
+      "observed": [
+        "removed",
+        "added"
+      ]
+    },
+    {
+      "name": "duplicate-key-quarantine",
+      "pass": true,
+      "unresolved": 3
+    },
+    {
+      "name": "missing-key-not-confirmed-addition",
+      "pass": true,
+      "unresolved": 2
+    },
+    {
+      "name": "source-note-only-edit",
+      "confirmedLimitation": true,
+      "observed": {
+        "changed": 0,
+        "unchanged": 1
+      }
+    }
+  ],
+  "sourceMetadata": {
+    "file": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "cutoff": null
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "previousUploadedInChild": {
+    "childHasPrevious": true,
+    "parentHasPrevious": false
+  },
+  "largePair": {
+    "current": "current-large.xlsx",
+    "previous": "previous-large.xlsx",
+    "stored": false,
+    "persistence": null,
+    "body": "انتقل إلى المحتوى\nتعذّر حفظ ملف التقرير للجلسة؛ يبقى متاحاً الآن، وأعد اختياره بعد تحديث الصفحة.\nالبحث في الأداء\nبحث في التقرير\nعرض جميع النتائج\n\nالأمانة العامة للمجلس التنفيذي لإمارة دبي · حقوق النشر © 2026 · جميع الحقوق محفوظة"
+  },
+  "afterReload": {
+    "screen": "upload",
+    "current": false,
+    "previous": false
+  },
+  "errors": []
+}

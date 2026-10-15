@@ -1,0 +1,107 @@
+{
+  "notice": "Synthetic design scenario, not operational data. Pxx are illustrative stable identifiers, not existing approved workbook keys.",
+  "records": [
+    {
+      "id": "P01",
+      "title": "مشروع توضيحي 01",
+      "before": {
+        "unit": "الوحدة أ",
+        "status": "قيد التطوير"
+      },
+      "after": {
+        "unit": "الوحدة ب",
+        "status": "منجز"
+      }
+    },
+    {
+      "id": "P02",
+      "title": "مشروع توضيحي 02",
+      "before": {
+        "unit": "الوحدة أ",
+        "status": "منجز"
+      },
+      "after": {
+        "unit": "الوحدة أ",
+        "status": "منجز"
+      }
+    },
+    {
+      "id": "P03",
+      "title": "مشروع توضيحي 03",
+      "before": {
+        "unit": "الوحدة أ",
+        "status": "جاهز للعرض"
+      },
+      "after": {
+        "unit": "الوحدة أ",
+        "status": "قيد المراجعة"
+      }
+    },
+    {
+      "id": "P04",
+      "title": "مشروع توضيحي 04",
+      "before": {
+        "unit": "الوحدة أ",
+        "status": "قيد التطوير"
+      },
+      "after": {
+        "unit": "الوحدة أ",
+        "status": "منجز"
+      }
+    },
+    {
+      "id": "P05",
+      "title": "مشروع توضيحي 05",
+      "before": {
+        "unit": "الوحدة ب",
+        "status": "قيد التطوير"
+      },
+      "after": {
+        "unit": "الوحدة أ",
+        "status": "قيد التطوير"
+      }
+    },
+    {
+      "id": "P06",
+      "title": "مشروع توضيحي 06",
+      "before": {
+        "unit": "الوحدة ب",
+        "status": "منجز"
+      },
+      "after": {
+        "unit": "الوحدة ب",
+        "status": "منجز"
+      }
+    },
+    {
+      "id": "P07",
+      "title": "مشروع توضيحي 07",
+      "before": null,
+      "after": {
+        "unit": "الوحدة أ",
+        "status": "قيد التطوير"
+      }
+    }
+  ],
+  "financialExample": {
+    "before": [
+      60000,
+      40000
+    ],
+    "after": [
+      75000,
+      45000
+    ]
+  },
+  "averageExample": {
+    "before": [
+      80,
+      90
+    ],
+    "after": [
+      80,
+      90,
+      100
+    ]
+  }
+}

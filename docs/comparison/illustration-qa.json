@@ -1,0 +1,113 @@
+{
+  "kind": "Design prototype verification, not production release QA",
+  "pages": [
+    {
+      "view": "overview",
+      "desktop": {
+        "width": 1440,
+        "overflow": false,
+        "fontLoaded": true,
+        "heading": "المقارنة الشهرية"
+      },
+      "mobile": {
+        "viewportOverflow": false,
+        "tableScrollRegions": [
+          {
+            "width": 328,
+            "scrollWidth": 760
+          }
+        ]
+      },
+      "pdf": [
+        {
+          "page": 1,
+          "width": 594.96,
+          "height": 841.92,
+          "words": 253,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "view": "focused",
+      "desktop": {
+        "width": 1440,
+        "overflow": false,
+        "fontLoaded": true,
+        "heading": "تفسير التغير في التقرير الشهري"
+      },
+      "mobile": {
+        "viewportOverflow": false,
+        "tableScrollRegions": [
+          {
+            "width": 328,
+            "scrollWidth": 760
+          }
+        ]
+      },
+      "pdf": [
+        {
+          "page": 1,
+          "width": 594.96,
+          "height": 841.92,
+          "words": 312,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "view": "session",
+      "desktop": {
+        "width": 1440,
+        "overflow": false,
+        "fontLoaded": true,
+        "heading": "ملفات المقارنة والتنقل"
+      },
+      "mobile": {
+        "viewportOverflow": false,
+        "tableScrollRegions": []
+      },
+      "pdf": [
+        {
+          "page": 1,
+          "width": 594.96,
+          "height": 841.92,
+          "words": 250,
+          "outside": 0
+        }
+      ]
+    },
+    {
+      "view": "measures",
+      "desktop": {
+        "width": 1440,
+        "overflow": false,
+        "fontLoaded": true,
+        "heading": "المقاييس المالية والقياس والمراجعة"
+      },
+      "mobile": {
+        "viewportOverflow": false,
+        "tableScrollRegions": [
+          {
+            "width": 328,
+            "scrollWidth": 760
+          },
+          {
+            "width": 328,
+            "scrollWidth": 760
+          }
+        ]
+      },
+      "pdf": [
+        {
+          "page": 1,
+          "width": 594.96,
+          "height": 841.92,
+          "words": 277,
+          "outside": 0
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

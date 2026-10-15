@@ -1,0 +1,67 @@
+{
+  "source": "Controlled illustrative workbook pair; not operational data",
+  "button": "↑ +1",
+  "landing": {
+    "url": "#/comparison?entityMode=concerned&metric=specialGsDone&change=changes",
+    "view": {
+      "metric": "specialGsDone",
+      "type": "changes",
+      "q": ""
+    },
+    "scrollY": 0,
+    "detailTop": 1328.234375,
+    "viewport": 1100,
+    "focus": "",
+    "previous": 10,
+    "current": 11,
+    "stats": {
+      "added": 0,
+      "removed": 0,
+      "entered": 0,
+      "left": 0,
+      "enteredMetric": 1,
+      "leftMetric": 0,
+      "changed": 1,
+      "status": 1,
+      "dates": 0,
+      "progress": 1,
+      "budget": 0,
+      "unchanged": 10,
+      "in": 1,
+      "out": 0,
+      "unresolvedPrevious": 0,
+      "unresolvedCurrent": 0
+    },
+    "shown": [
+      {
+        "kind": "matched",
+        "movement": "in",
+        "changes": [
+          "الحالة",
+          "نسبة الإنجاز"
+        ]
+      }
+    ]
+  },
+  "totalMetric": {
+    "previous": 62,
+    "current": 62,
+    "net": 0,
+    "shown": [
+      {
+        "movement": "retained",
+        "fields": [
+          "الحالة",
+          "نسبة الإنجاز"
+        ]
+      },
+      {
+        "movement": "retained",
+        "fields": [
+          "نسبة الإنجاز"
+        ]
+      }
+    ]
+  },
+  "errors": []
+}

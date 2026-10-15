@@ -1,0 +1,39 @@
+{
+  "beforeUpload": {
+    "metric": "agendaTotal",
+    "type": "changes",
+    "q": ""
+  },
+  "afterUpload": {
+    "view": {},
+    "route": "#/comparison?entityMode=concerned&metric=agendaTotal&change=changes"
+  },
+  "navigation": [
+    {
+      "screen": "dashboard",
+      "current": true,
+      "previous": true
+    },
+    {
+      "screen": "comparison",
+      "current": true,
+      "previous": true
+    },
+    {
+      "screen": "home",
+      "current": true,
+      "previous": true
+    },
+    {
+      "screen": "comparison",
+      "current": true,
+      "previous": true
+    }
+  ],
+  "smallPairReload": {
+    "screen": "comparison",
+    "current": "ILLUSTRATIVE-monthly-preview.xlsx",
+    "previous": "ILLUSTRATIVE-previous.xlsx"
+  },
+  "errors": []
+}
