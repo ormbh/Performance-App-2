@@ -1,11 +1,11 @@
 # Performance App
 
-[Download the current app — v169](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v169.zip)
+[Download the current app — v170](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v170.zip)
 
-Extract the ZIP and open **index.html**. Keep **assets** and **manifest.webmanifest** beside it, then select your report workbook. No workbook is bundled.
+Extract the ZIP and open **index.html**. Keep **assets** and **manifest.webmanifest** beside it, then select your workbook. No source data is bundled.
 
-Monthly comparisons now explain the exact +/− metric, department transfers, status/value changes and unresolved matches. Drill-downs stay in the same tab by default, with explicit new-tab support. Supported browser storage retains a versioned binary workbook pair locally; older tabs identify newer versions. Screen and native PDF share selected content, periods, scope and row order.
+Council performance now matches the approved 2026 mold eligibility rule across monthly/council metrics, drilldowns, comparisons and native exports. Full entity/source registers retain their broader scope. The approved layout and workbook retention behavior are preserved.
 
-[Implemented comparison and native PDF](docs/comparison/README.md) · [Verification](docs/Verification-v169.md) · [Design principles](docs/TEC-Design-Principles.md) · [Earlier releases](archive/README.md)
+382 focused checks pass using preserved anonymized v4 plus separate synthetic cases. Excel/Power Query execution and live operational movements were not verified. Hosted Chromium was tested; direct-file and other-browser behavior remain unverified.
 
-Hosted Chromium was verified. The managed test browser blocks direct-file navigation, so direct-file and other-browser behavior remain unverified here. Blocked/quota-limited storage shows an explicit fallback message.
+[Verification](docs/Verification-v170.md) · [Design principles](docs/TEC-Design-Principles.md) · [Release inventory](docs/release.json) · [Earlier releases](archive/README.md)
