@@ -1,0 +1,243 @@
+{
+  "stage": "AUDIT_AND_ILLUSTRATION_ONLY",
+  "baseline": {
+    "build": 167,
+    "commit": "9710a31ec4059375ae432107bc5f9f008033bb20",
+    "zipSha256": "eff9bb548fdfc011ff245fc0533e4b6b0d0b9d2d3dd9495b3c935422f6e974b1",
+    "runtimeHashes": {
+      "app-bundle.css": "d45d61a7394312bc26e645ae5cb87aa932236b3c79039fb9343439595d803b41",
+      "app-bundle.js": "de97997f4846608d0486ba99346e995e175e65b3624cae69e156fde76d1dbf58",
+      "print-measure-bundle.css": "584a4e3541fc24637812f8778f205443dc253d3d06cfd2a0c8ff72251018cdce"
+    }
+  },
+  "productionFilesChanged": false,
+  "sourceFilesChanged": false,
+  "sourceCutoff": "2026-09-30",
+  "sources": {
+    "attachment": {
+      "sha256": "1638e2d9e194c21d8d8e258a2bcad7c121cbeb9a4f529f90cea632f212cc66f2",
+      "rawEntityRows": 343,
+      "namedEligibleRows": 0
+    },
+    "illustrative": {
+      "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08",
+      "namedEligibleRows": 343,
+      "exampleEntity": "دائرة الأراضي والأملاك",
+      "selectedRows": 11,
+      "domainTotals": {
+        "approvedAgenda": 3,
+        "emergingTopics": 1,
+        "council": 6,
+        "special": 1
+      },
+      "done": 4,
+      "open": 7,
+      "lateByDate": 1,
+      "dueWithin30Days": 2
+    }
+  },
+  "focusedAudit": {
+    "verdict": "PASS",
+    "checks": [
+      {
+        "name": "fresh illustrative source identity",
+        "pass": true
+      },
+      {
+        "name": "entity multi-selection union",
+        "pass": true
+      },
+      {
+        "name": "entity and domain intersection",
+        "pass": true
+      },
+      {
+        "name": "primary/contributor union deduplicates source keys",
+        "pass": true
+      },
+      {
+        "name": "unmatched entity remains empty",
+        "pass": true
+      },
+      {
+        "name": "all generated entity drills preserve scoped unique rows",
+        "pass": true
+      },
+      {
+        "name": "selected domains reconcile to 11 source rows",
+        "pass": true
+      },
+      {
+        "name": "recorded status totals reconcile per domain",
+        "pass": true
+      },
+      {
+        "name": "derived lateness distinct from recorded statuses",
+        "pass": true
+      },
+      {
+        "name": "known selected completed/open partition",
+        "pass": true
+      },
+      {
+        "name": "no invented historical change",
+        "pass": true
+      },
+      {
+        "name": "illustrative source notes are empty",
+        "pass": true
+      },
+      {
+        "name": "current PDF preserves selected record membership",
+        "pass": true
+      },
+      {
+        "name": "current PDF A4 portrait geometry",
+        "pass": true
+      },
+      {
+        "name": "no browser exceptions in focused audit",
+        "pass": true
+      }
+    ]
+  },
+  "currentNativePdf": {
+    "pages": 2,
+    "sha256": "a751a78ceac2a00f3de36fb75720342a420d49ce830da581006e93691eb6b133",
+    "workbookFilenamePrinted": false,
+    "allScreenSectionsPreserved": false,
+    "selectedRecordMembershipPreserved": true
+  },
+  "proposal": {
+    "verdict": "PASS",
+    "scope": "Design illustration and four-domain prototype only; no production implementation or export validation claim.",
+    "checks": [
+      {
+        "name": "main list retains all 11 illustrative source rows",
+        "pass": true
+      },
+      {
+        "name": "chart segments reconcile to overall11",
+        "pass": true
+      },
+      {
+        "name": "three follow-up rows preserved",
+        "pass": true
+      },
+      {
+        "name": "continuous main-list numbering",
+        "pass": true
+      },
+      {
+        "name": "four nonempty domains shown separately",
+        "pass": true
+      },
+      {
+        "name": "missing values have no generated placeholder",
+        "pass": true
+      },
+      {
+        "name": "1560 no page overflow",
+        "pass": true
+      },
+      {
+        "name": "1560 in-bar counts fit",
+        "pass": true
+      },
+      {
+        "name": "1560 approved Arabic fonts loaded",
+        "pass": true
+      },
+      {
+        "name": "390 no page overflow",
+        "pass": true
+      },
+      {
+        "name": "390 in-bar counts fit",
+        "pass": true
+      },
+      {
+        "name": "390 approved Arabic fonts loaded",
+        "pass": true
+      },
+      {
+        "name": "320 no page overflow",
+        "pass": true
+      },
+      {
+        "name": "320 in-bar counts fit",
+        "pass": true
+      },
+      {
+        "name": "320 approved Arabic fonts loaded",
+        "pass": true
+      },
+      {
+        "name": "agenda filter keeps correct rows",
+        "pass": true
+      },
+      {
+        "name": "agenda filtered chart/table reconcile",
+        "pass": true
+      },
+      {
+        "name": "agenda empty follow-up section hidden",
+        "pass": true
+      },
+      {
+        "name": "agendaNew filter keeps correct rows",
+        "pass": true
+      },
+      {
+        "name": "agendaNew filtered chart/table reconcile",
+        "pass": true
+      },
+      {
+        "name": "agendaNew empty follow-up section hidden",
+        "pass": true
+      },
+      {
+        "name": "council filter keeps correct rows",
+        "pass": true
+      },
+      {
+        "name": "council filtered chart/table reconcile",
+        "pass": true
+      },
+      {
+        "name": "council empty follow-up section hidden",
+        "pass": true
+      },
+      {
+        "name": "special filter keeps correct rows",
+        "pass": true
+      },
+      {
+        "name": "special filtered chart/table reconcile",
+        "pass": true
+      },
+      {
+        "name": "special empty follow-up section hidden",
+        "pass": true
+      },
+      {
+        "name": "all prototype in-page links resolve",
+        "pass": true
+      },
+      {
+        "name": "no prototype browser exceptions",
+        "pass": true
+      }
+    ],
+    "limitations": [
+      "Entity and relationship selectors are fixed illustrative context.",
+      "Only domain filtering and in-page navigation are implemented in the prototype.",
+      "Live report navigation, actual prototype PDF export and production regression tests belong to implementation after approval."
+    ]
+  },
+  "limits": [
+    "Operational performance cannot be certified from the incomplete attachment.",
+    "Prototype has fixed entity/relationship context and no production PDF export or cross-report navigation.",
+    "Long-note PDF and affected shared-component regressions are required after implementation approval."
+  ]
+}
