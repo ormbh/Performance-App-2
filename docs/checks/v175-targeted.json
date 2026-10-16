@@ -1,0 +1,42 @@
+{
+  "release": 175,
+  "designRevision": 39,
+  "zipSha256": "841a338501157ebb03146ce3221af5dd523b041ab329081f9540f79a7fbbb32c",
+  "zipBytes": 7042886,
+  "runtimeFiles": 23,
+  "status": "PASS targeted HTTP desktop/native-PDF scope; Mac direct-file acceptance open",
+  "groups": {
+    "pdfProducer": {
+      "checksPassed": 161,
+      "actualExports": 14
+    },
+    "pdfIndependentReview": {
+      "checksPassed": 97,
+      "sameArtifacts": true
+    },
+    "storage": {
+      "checksPassed": 31,
+      "controlledClockAndFaults": true
+    },
+    "sharedTransfer": {
+      "checksPassed": 4
+    },
+    "exactPackageSmoke": {
+      "checksPassed": 26,
+      "actualExports": 1
+    },
+    "independentPackage": {
+      "checksPassed": 36
+    }
+  },
+  "limits": [
+    "No macOS direct-file acceptance",
+    "No installed Edge certification",
+    "No elapsed24hour run",
+    "No genuine prior-month source",
+    "Native links structurally checked, not viewer activation",
+    "Visual inspections are affected readable crops and selected continuations, not everypixel"
+  ],
+  "sourceBundled": false,
+  "unchangedSourceSha256": "5de17c2ba49534dccbab911d4cd7ada234786b7fb03209bfc9b8cf5a9acb41a5"
+}

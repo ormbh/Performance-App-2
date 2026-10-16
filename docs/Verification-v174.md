@@ -1,5 +1,7 @@
 # Performance App v174 — verification
 
+> Follow-up: supplied Mac HTTP evidence and actual PDFs identified missing formal contents count labels, undersized monthly/comparison metadata and a source-only fallback-expiry defect. This v174 sign-off is superseded for those findings by [v175 correction verification](Verification-v175.md). Historical checks and their stated limits remain provenance.
+
 **Design Principles Revision 38 · 16 October 2026 · desktop/PDF only**
 
 The release applies the approved full-app layout correction package. The monthly page remains the workspace visual reference; annual agenda remains the formal-report reference. Projects and entities use the approved revised compositions. No source workbook or business calculation was changed. The final runtime is unchanged after the last packaged acceptance checks.

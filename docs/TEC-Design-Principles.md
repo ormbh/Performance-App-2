@@ -1,6 +1,6 @@
 # TEC Desktop Design Principles
 
-**Revision 38 · 16 October 2026 · Performance App v174**
+**Revision 39 · 16 October 2026 · Performance App v175**
 
 ## 1. Scope, authority and change control
 
@@ -35,6 +35,15 @@ Revision 38 approval: the owner approved the complete v173 audit correction pack
 - Desktop entity records use progressive browsing, with continuous ordinals from the full scoped/domain order; full PDF includes every matching row. Domain-specific progress/date fields and meaningful notes remain intact. Ordinal columns reserve at least 4-digit space, remain no-wrap and isolate numerals on screen and in PDF.
 - Full-PDF record tables use a comfortable 3.5mm vertical / 2mm horizontal cell role; explicitly selected compact portfolio record tables and compact chart/history tables use 2mm / 1.5mm. The monthly baseline retains 3.5mm on both axes as a named exception. Ordinal cells reserve width independently instead of shrinking text.
 - Full-PDF primary totals use 28pt and secondary summary figures 20pt. Formal-report figure roles remain separately specified. Preserve 12pt source table text and source-driven pagination instead of reducing type to force a page count.
+
+### Revision 39 — correction and verification clarifications
+
+The v175 correction release enforces existing Revision 38 requirements demonstrated by the supplied Mac HTTP report and actual PDF artifacts. It adds no visual direction, chart redesign, data definition or device/export scope.
+
+- Formal PDF contents retain each populated source section's labeled record count next to its title. Actual final content-page numbers remain a separate role linked to the destination. A notes/recommendations entry without a source count gains no fabricated count. Filtered and empty scopes use the same scoped contents model.
+- Monthly PDF quarter-reference year and currency are metadata at 10.5pt. The follow-up count unit is a standard metric/caption at 9pt. Comparison period and scope metadata are 10.5pt. These clarify the existing role table; other approved type sizes and monthly strip geometry remain unchanged.
+- The 24-hour binary retention rule applies to IndexedDB, tab-only sessionStorage fallbacks and their transfers. Reject retained data at or beyond 24 hours. Preserve the original retained timestamp on reload, transfer and promotion from fallback to shared storage; a genuine new file/period save creates a newly dated retained version. Missing, invalid or future timestamps cannot establish eligibility for restore. Undated legacy retained binaries are removed and require selecting the source again. Clean expired records on the next successful applicable storage access; do not claim tab closure guarantees deletion or that active in-memory workbooks are forcibly erased at the deadline.
+- Distinguish installed-Mac localhost evidence, cloud Chromium HTTP regressions and actual direct-file operation. A supplied report or manual startup screenshot does not establish untested direct-file persistence, transfer or PDF behavior. Review actual affected native PDFs, record retained-data boundary tests as controlled-clock/fault-injection cases and preserve failed-check provenance.
 
 ## 2. Typography and role precedence
 
@@ -402,7 +411,7 @@ Agenda missing-status information uses **بدون حالة معتمدة: N** ben
 - Record exact runtime hashes, source fixture identity, passed/failed/not-run checks and limitations. Do not describe synthetic data as operational figures, formula inspection as Excel recalculation, or code inspection as a visual pass.
 - Test actual link activation, resulting route, settled scroll position, focus, back/forward and scoped/new-tab destinations. Destination existence alone does not establish working navigation. Bare local section fragments must never be parsed as app routes.
 - Compare logo x/y/width/height across desktop routes after images load. Compare native PDF text geometry with its final browser print layout, allowing only the documented paper margins and type roles; do not claim desktop/PDF pixel equality or a reported alignment bug fixed without reproducing it.
-- Current release implementation evidence belongs in **Verification-v174.md**. Historical verification files remain provenance; they do not establish a current pass.
+- Current release implementation evidence belongs in **Verification-v175.md**. Historical verification files remain provenance; they do not establish a current pass.
 
 ## 13. Historical provenance
 

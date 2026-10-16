@@ -1,16 +1,16 @@
 {
-  "build": 174,
-  "designRevision": 38,
+  "build": 175,
+  "designRevision": 39,
   "fileCount": 23,
-  "bytes": 7041850,
-  "runtimeBytes": 11540102,
-  "sha256": "39de0ffa055857d6983f5589c7e7454aebbd28abac46278c9cf5542c8515a99e",
-  "zip": "Performance-App-v174.zip",
-  "zipSha256": "39de0ffa055857d6983f5589c7e7454aebbd28abac46278c9cf5542c8515a99e",
+  "bytes": 7042886,
+  "runtimeBytes": 11543474,
+  "sha256": "841a338501157ebb03146ce3221af5dd523b041ab329081f9540f79a7fbbb32c",
+  "zip": "Performance-App-v175.zip",
+  "zipSha256": "841a338501157ebb03146ce3221af5dd523b041ab329081f9540f79a7fbbb32c",
   "runtimeFiles": {
-    "README.txt": "66fb5c9a78c064a756cc8d9231ec47d622bb266bd7ea07ef6ff52bab98da2567",
-    "assets/css/app-bundle.css": "61e2ce68cad37244c91df3557716cdb503e0027db396545dea3f14b5342a5d6c",
-    "assets/css/print-measure-bundle.css": "f7eeacc61c72fd3f688752e56d1e17040dce6fa16f65b2099a687abc74394df3",
+    "README.txt": "98b57c29626a8711472681c56442fd2aead30d2c21f59dfa5e29227a268e2ce3",
+    "assets/css/app-bundle.css": "32da2c86f3d00ed067fbafe2e6dfd6e0581b3ad2467b412c205ac14df77233b3",
+    "assets/css/print-measure-bundle.css": "a5d7147b49f43b5ffc90c271f71ce863ace431f990797f75518f9d54911b810f",
     "assets/fonts/DIN-Next-Arabic-Regular.otf": "9c2c15f517e786908c1fa917650f3723953aba6ef3fe0a3a7439c78fc0105715",
     "assets/fonts/DIN-Next-LT-Arabic-Regular.ttf": "a96ab4c40a249f58bc245e6610ab2488cfd3580cfa776a1ad2a92788baf49dcd",
     "assets/fonts/Dubai-Bold.otf": "299b7e9a156e5c938a1c82605f29eefe48579811c21c571c3a4625d74f48676d",
@@ -25,15 +25,15 @@
     "assets/img/search-mashrabiya.jpg": "9f9e86ce18b75524867fdfe9edb144051465b66fb0f93b2a2fe7bfa41286c2ff",
     "assets/img/tec-positive.png": "fcab6fe27d22f816a93016e0cbcb3c38432fe2ef8885a3f313e6a0efe86151ef",
     "assets/img/tec-red.png": "abafeddbf4c7cc66a5f2c25e997ee4ce90b517a5ea0b15f38398d396c68680cf",
-    "assets/js/app-bundle.js": "59a17a53d7ecfeb70bcc289a08ddb5d87905b174e6acbb7a0bcfc58ffc5002db",
+    "assets/js/app-bundle.js": "37488d6ff8c8745abefc83867f926e2f4819fb01ec2094252cab7cdb8ff456c0",
     "assets/js/lib/offline-pdf-engine.js": "647b32e4d4481fbc4df6edfa77ac71853131448ea4602d6b054f713ef6ee7069",
     "assets/vendor/offline-pdf-LICENSES.txt": "55cf60144f8249cdd177adbf81fe30af773b5bb034acf68efd27db9f86f04521",
     "assets/vendor/tec-pdf-symbols-LICENSE.txt": "f32df582a2aab128c07b2f7e36e7b928dc5f6bd82657b905c04f91459f9e5cf9",
-    "index.html": "891d43322f5f8a2417cbec55ab24ca91de9ee1e69b4ae212fe51eaadfadb6e70",
+    "index.html": "c8d4aedd1121e8bc696e3cf738daaa11057652d7e7638a6bfbd73e86d03991bc",
     "manifest.webmanifest": "b3ed8e7dc3299eb031ca9254ff3ef6fa0190e48ebb9e1a074a77dc451745e912"
   },
-  "auditBaseline": "v173 / 62e01a117a4b604f562a3387ebf2aa53b44adbc0",
-  "scope": "Approved full desktop layout/PDF corrections and projects/entities compositions",
+  "auditBaseline": "v174 / 531e921431fe70dec57e033f143a503c0afc525c",
+  "scope": "Targeted formal PDF contents-count, monthly/comparison PDF type-role and binary-retention corrections",
   "sourceWorkbookBundled": false,
   "desktopOnly": true,
   "exportProfiles": {
@@ -62,5 +62,5 @@
     "council",
     "hh"
   ],
-  "verification": "docs/Verification-v174.md"
+  "verification": "docs/Verification-v175.md"
 }

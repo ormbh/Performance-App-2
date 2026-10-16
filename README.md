@@ -1,13 +1,15 @@
 # Performance App
 
-[Download the current app — v174](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v174.zip)
+[Download the current app — v175](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v175.zip)
 
-Extract the complete ZIP and open `index.html` in desktop Chrome or Edge. Keep the 23 runtime files together. No workbook, sample dataset, tests or audit folders are bundled.
+Extract the complete ZIP and open `index.html` in desktop Chrome. Keep all 23 runtime files together. No workbook, sample data, tests or audit folders are bundled.
 
-This release applies the approved full-app desktop/PDF layout corrections and revised projects/entities compositions. Monthly and annual agenda remain the visual references. Existing source calculations, eligibility, financial scope distinctions and formal chart types are preserved. Progressive screen records export in full.
+This release restores labeled record counts in formal PDF contents, corrects the specified monthly/comparison PDF text sizes and enforces the existing 24-hour binary-retention rule in shared and tab-only storage. Calculations, source scope, navigation and approved chart designs remain unchanged. Design Principles Revision 39 clarifies these existing requirements.
 
-Design Principles Revision 38 resolves the audit's component roles and exceptions. Actual desktop interactions, native PDF exports and the exact package were checked. Direct-file Chrome/Edge execution remains unverified because the managed browser blocks it before app load. See the verification report for exact scope and limitations.
+Older undated fallback sessions are cleared because their retention age cannot be established; select the workbook again once. Reloads and tab transfers preserve the saved timestamp.
+
+Focused desktop HTTP tests and actual native PDF exports pass, including the exact final package. Direct-file operation on the user's Mac remains only partially evidenced by the supplied v174 startup/import screenshots; v175 Mac direct-file retesting remains open. The supplied Mac test scope is Chrome only; Edge compatibility is unverified. See the verification report for exact coverage and limitations.
 
 Desktop/PDF only. Full PDF for other pages; A4 landscape for agenda, council decisions and special projects. No mobile/tablet or PowerPoint testing.
 
-[Verification](docs/Verification-v174.md) · [Design principles](docs/TEC-Design-Principles.md) · [Audit closure](docs/audits/v173-layout/implementation-v174.md) · [Release inventory](docs/release.json)
+[Verification](docs/Verification-v175.md) · [Design principles](docs/TEC-Design-Principles.md) · [Mac retest](docs/Mac-Retest-v175.md) · [Release inventory](docs/release.json)
