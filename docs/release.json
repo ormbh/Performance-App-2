@@ -1,15 +1,16 @@
 {
-  "build": 173,
-  "designRevision": 37,
+  "build": 174,
+  "designRevision": 38,
   "fileCount": 23,
-  "bytes": 7034084,
-  "sha256": "8136ed90f8d18dab92fba2823aa124b037a5005c8939cdc32ca335906c00d46a",
-  "zip": "Performance-App-v173.zip",
-  "zipSha256": "8136ed90f8d18dab92fba2823aa124b037a5005c8939cdc32ca335906c00d46a",
+  "bytes": 7041850,
+  "runtimeBytes": 11540102,
+  "sha256": "39de0ffa055857d6983f5589c7e7454aebbd28abac46278c9cf5542c8515a99e",
+  "zip": "Performance-App-v174.zip",
+  "zipSha256": "39de0ffa055857d6983f5589c7e7454aebbd28abac46278c9cf5542c8515a99e",
   "runtimeFiles": {
-    "README.txt": "b40cfb19e0f06575a6ccbfc121c9bd8882db49bea435b4a6c7814b5874e545a1",
-    "assets/css/app-bundle.css": "91434011c63f33f1da0f5c9a1e965718f7cfd0536091908e76f7962abbeb2dc9",
-    "assets/css/print-measure-bundle.css": "483ee7e0c75a11009ee35267b57c77f438eeca8f79dcfcf8dcd98142bee34f4e",
+    "README.txt": "66fb5c9a78c064a756cc8d9231ec47d622bb266bd7ea07ef6ff52bab98da2567",
+    "assets/css/app-bundle.css": "61e2ce68cad37244c91df3557716cdb503e0027db396545dea3f14b5342a5d6c",
+    "assets/css/print-measure-bundle.css": "f7eeacc61c72fd3f688752e56d1e17040dce6fa16f65b2099a687abc74394df3",
     "assets/fonts/DIN-Next-Arabic-Regular.otf": "9c2c15f517e786908c1fa917650f3723953aba6ef3fe0a3a7439c78fc0105715",
     "assets/fonts/DIN-Next-LT-Arabic-Regular.ttf": "a96ab4c40a249f58bc245e6610ab2488cfd3580cfa776a1ad2a92788baf49dcd",
     "assets/fonts/Dubai-Bold.otf": "299b7e9a156e5c938a1c82605f29eefe48579811c21c571c3a4625d74f48676d",
@@ -24,21 +25,42 @@
     "assets/img/search-mashrabiya.jpg": "9f9e86ce18b75524867fdfe9edb144051465b66fb0f93b2a2fe7bfa41286c2ff",
     "assets/img/tec-positive.png": "fcab6fe27d22f816a93016e0cbcb3c38432fe2ef8885a3f313e6a0efe86151ef",
     "assets/img/tec-red.png": "abafeddbf4c7cc66a5f2c25e997ee4ce90b517a5ea0b15f38398d396c68680cf",
-    "assets/js/app-bundle.js": "f3bf18be6eea1d18560b1296e8d913092642b7788a03f45ad3691223e2c2d691",
+    "assets/js/app-bundle.js": "59a17a53d7ecfeb70bcc289a08ddb5d87905b174e6acbb7a0bcfc58ffc5002db",
     "assets/js/lib/offline-pdf-engine.js": "647b32e4d4481fbc4df6edfa77ac71853131448ea4602d6b054f713ef6ee7069",
     "assets/vendor/offline-pdf-LICENSES.txt": "55cf60144f8249cdd177adbf81fe30af773b5bb034acf68efd27db9f86f04521",
     "assets/vendor/tec-pdf-symbols-LICENSE.txt": "f32df582a2aab128c07b2f7e36e7b928dc5f6bd82657b905c04f91459f9e5cf9",
-    "index.html": "d6a254a09e6578a097a5bfa57aea2b6b548c3b9d32fbb1d8fc7d39503bdf6db5",
+    "index.html": "891d43322f5f8a2417cbec55ab24ca91de9ee1e69b4ae212fe51eaadfadb6e70",
     "manifest.webmanifest": "b3ed8e7dc3299eb031ca9254ff3ef6fa0190e48ebb9e1a074a77dc451745e912"
   },
-  "verification": "docs/Verification-v173.md",
-  "verdict": "FOCUSED_DESKTOP_PDF_PASS_REPORTED_TEXT_SHIFT_NOT_REPRODUCED",
-  "publication": "GitHub repository release artifact",
-  "verificationGroups": {
-    "focused": 249,
-    "navigationRoles": 32,
-    "initialExtractedPackage": 101,
-    "finalAffectedControls": 14,
-    "finalRelease": 28
-  }
+  "auditBaseline": "v173 / 62e01a117a4b604f562a3387ebf2aa53b44adbc0",
+  "scope": "Approved full desktop layout/PDF corrections and projects/entities compositions",
+  "sourceWorkbookBundled": false,
+  "desktopOnly": true,
+  "exportProfiles": {
+    "agenda": "A4 landscape",
+    "council": "A4 landscape",
+    "hh": "A4 landscape",
+    "otherPages": "full297mm-widthcontent-height"
+  },
+  "filterInventory": {
+    "projects": [
+      "sector",
+      "unit",
+      "entity",
+      "pm"
+    ],
+    "entities": [
+      "sector",
+      "unit",
+      "entity",
+      "pm",
+      "areas"
+    ]
+  },
+  "contentsOnly": [
+    "agenda",
+    "council",
+    "hh"
+  ],
+  "verification": "docs/Verification-v174.md"
 }
