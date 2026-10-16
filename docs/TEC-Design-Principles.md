@@ -1,27 +1,21 @@
-# TEC Apple-Inspired Design Principles
+# TEC Desktop Design Principles
 
-**Revision 34 · 16 October 2026 · Performance App v170**
+**Revision 35 · 16 October 2026 · Performance App v171**
 
-The approved monthly dashboard establishes a reusable visual language for the TEC app. Apply its hierarchy, typography, surfaces, spacing, controls and alignment to equivalent roles across pages. Preserve the distinct purpose, content and calculations of each page.
+## 1. Scope, authority and change control
 
-This document consolidates approved rules for Performance App v170. Agenda and special-project reports use one page composition, contents/navigation, table-column sequence, record numbering, cover-title pattern, final notes/recommendations and compact legend treatment. **المستجدات التفصيلية** exists only in special projects. Preserve each report’s source fields, eligibility, chart orientation, status definitions and calculations. Council extends the same visual roles through its explicit six-column and issuing-body contract below. These are requirements; Verification-v170.md establishes what was actually tested for the current change. Revision 30 implements the approved monthly illustrations and audit corrections, including cohort/status definitions, direct report links, counted status bars, a shared compact color key and matching screen/PDF presentation. The rejected additional-status disclosure and top follow-up shortcut remain excluded; the approved entity report was implemented in revision 32.
+- Desktop is the sole interface design and testing target. Existing responsive code stays in place; mobile and tablet optimization/testing are outside scope.
+- PDF is the sole report export format. PowerPoint controls, generation paths and export assets are excluded from the delivered runtime.
+- Current explicit user instructions override historical documents and generic skills. Do not infer approval from a previous developer-written claim.
+- A calculation, eligibility, data-quality or source-label correction does not authorize a visual redesign. Approval for one page or chart does not extend to another.
+- Reuse equivalent component roles while preserving each page’s purpose, source scope and approved chart type. Illustrate a new visual direction and obtain approval before implementation.
+- Distinguish an agreed requirement, proposed decision, intentional exception and verified implementation. Documentation is not proof that a component passes.
+- Preserve source identities, raw values, meaningful notes, filters, denominators and calculations. Separate genuine zero, missing and unavailable states.
+- Use one shared component/token implementation for equivalent roles. Preserve readable Arabic/RTL, mixed-script isolation, keyboard access and visible focus.
 
-## 1. The approach
+Approval references: the owner’s explicit approval of the six-part desktop/PDF consistency package in this conversation (16 October 2026) controls Revision 35. Monthly strip geometry is the inspected pre-v166/v165 reference (9px desktop / 1.6mm PDF), not the later counted-strip change. The three detailed report chart types remain as previously approved. Historical Revision 30 claims of approval for counted monthly bars are superseded. Approved monthly legislation composition and all data contracts remain in force.
 
-1. **Lead with the information.** Make the page purpose, selected scope and primary values easy to find. Let secondary details remain secondary.
-2. **Use consistent roles.** The same kind of title, label, value, table, action or status should receive the same visual treatment across the app.
-3. **Keep the compact hierarchy.** Place metric names above figures and changes below. Use whitespace and shared alignment to connect related information.
-4. **Remove repetition.** Omit explanatory subtitles beneath titles. Keep the report date, necessary units, field labels and actual record notes.
-5. **Use restrained surfaces.** Prefer Paper cards on Linen, fine separators and modest corners. Avoid decorative layers and excessive nesting.
-6. **Make color meaningful.** Keep brand roles and status mappings stable. A color must not imply a different metric, status or performance judgment.
-7. **Keep behavior predictable.** Use the same navigation, filters, menu behavior and action hierarchy on equivalent pages.
-8. **Design for the reading context.** Reflow the live app for a phone; compose PDF output using its own approved geometry and type scale.
-9. **Preserve data truth.** Styling must not change scope, formulas, denominators, recorded notes, source identities or the meaning of missing values.
-10. **Verify the result.** Inspect the real render and the requested interactions. Match claims to the checks actually performed.
-
-The latest user instruction overrides this document. Revision 32 implements the approved entity-report illustration, matching screen/PDF composition, readable scoped tables and named-record eligibility.  Revision 31 applies the approved whole-page portfolio proposal, strict financial parsing and neutral unknown-status representation, preserving named-project eligibility, source filters and ranking definitions. Revision 30 applies the approved monthly overview, detail and legislation illustrations, with corrected TEC membership and explicit unknown-status handling. Revision 29 places decisions without an issuing body in a full-width status box below the named issuing-body charts, retaining the same count scale and source scope. Revision 28 extends the shared report treatment to council decisions, with dynamic issuing-body charts and the approved six-column table, and omits each blank decision-reference field. Revision 27 removes the separate HH overview, repeated detail-card group/number strip and duplicate yes/no leadership field, and aligns the leadership badge across screen and export. Revision 26 supersedes the former prohibition on agenda contents, the differing screen/PDF section sequence, the first-after-cover chart page, separate notes layouts and legend sizes, and table column order. Revision 25’s removal of added agenda count-matrix pages and the HH main-list PM column remains applicable. Monthly legislation aggregation, numeric progress without circular indicators, zero-as-dash, missing-as-blank, shared status colors, HH visibility and endpoint totals remain unchanged.
-
-## 2. Screen typography
+## 2. Typography and role precedence
 
 Sizes are CSS pixels at 100% browser zoom. Use the supplied font assets and regular weight unless Bold is explicitly specified. Treat font family names as roles mapped to the existing project assets.
 
@@ -50,7 +44,9 @@ Sizes are CSS pixels at 100% browser zoom. Use the supplied font assets and regu
 
 Do not apply a blanket font size to all text or table descendants. Retain separately approved chart annotations and report-specific roles. Do not shrink table text to force a fit. The former oversized side-by-side metric-label concept is superseded by the compact hierarchy above.
 
-## 3. Color roles
+General type roles apply unless a component has an explicit exception below. Chart axes, definitions and PDF typography have separately specified roles; never apply a blanket font-size override to all descendants.
+
+## 3. Color, status, missing values and progress
 
 | Token | Hex | Role |
 | --- | --- | --- |
@@ -69,7 +65,7 @@ Do not apply a blanket font size to all text or table descendants. Retain separa
 | Completed Green | `#01831E` | Completed values and favorable changes |
 | Late Red | `#C00000` | Late values and adverse changes |
 
-Use these pairings without new unapproved tints or blanket opacity. **One status uses the same fill, readable ink and border across badges, chart marks, legends, native PDFs and PowerPoint exports.** The badge appearance is the reference; the former separate chart-status palette is superseded. For example, **جاهز للعرض is Teal everywhere**, and work/review uses Mist with Teal ink and borders. Give Paper and pale chart marks a visible boundary so they do not disappear into the canvas. Keep status names and exact values available; color is never the only identifier.
+Use these pairings without new unapproved tints or blanket opacity. **One status uses the same fill, readable ink and border across badges, chart marks, legends, native PDFs.** The badge appearance is the reference; the former separate chart-status palette is superseded. For example, **جاهز للعرض is Teal everywhere**, and work/review uses Mist with Teal ink and borders. Give Paper and pale chart marks a visible boundary so they do not disappear into the canvas. Keep status names and exact values available; color is never the only identifier.
 
 | Status appearance: badge / chart mark / legend swatch | Ink on the fill | Fill / border |
 | --- | --- | --- |
@@ -104,100 +100,91 @@ Use the same appearance mapping when generating native chart fills, marker borde
 - Preserve the original source progress, precision, sorting, filters, calculations and machine-readable values. The removal changes presentation only.
 - Retain approved linear completion bars, stacked status distributions and their captions. Do not replace the removed circles with a new symbol, graphic or duplicate progress value.
 
-## 4. Layout, spacing and component geometry
+## 4. Desktop geometry and controls
 
-Use the spacing scale **4 / 8 / 12 / 16 / 24 / 32 / 48px**. Preserve approved component-specific exceptions.
+Use the spacing scale **4 / 8 / 12 / 16 / 24 / 32 / 48px**. Desktop gutters are 48px, main-column gaps 24px and stacked-card gaps 16px. Paper cards have 1px Sand borders, 18px corners and 24px padding. Height follows content; do not stretch unrelated cards to create symmetry.
 
-| Area / component | Standard |
-| --- | --- |
-| Page gutters | 48px desktop, 32px tablet, 16px phone; fluid width |
-| Main columns | 24px gap |
-| Stacked cards | 16px gap |
-| Cards | Paper; 1px Sand border; 18px corners; 24px desktop / 16px phone padding |
-| Table cells | 16px padding; content-driven height; approximately 1.6 Arabic line-height; fine Linen row dividers |
+| Component | Standard |
+|---|---|
 | Action buttons | Minimum 44px height; 16px horizontal padding; 8px icon/text gap; 8px corners; no shadow |
-| Icon buttons | Minimum 44 × 44px target; 20px icon; 8px corners |
+| Icon buttons | Minimum 44 × 44px target; 20px icon |
 | Inputs | Minimum 44px height; 12px horizontal padding; 8px corners |
-| Core report filters | Minimum 72px height; 8px vertical / 12px horizontal padding; 4px label/value gap; 1px Taupe boundary |
-| Status badges | 6px vertical / 12px horizontal padding; 8px corners; natural height; 1px border; no shadow |
-| Metric changes | One aligned 24px comparison row where needed; each change stays with its own figure |
-| Completion caption | Label and percentage share a baseline, with an 8px gap |
+| Core report filters | Minimum 72px height; 8px vertical / 12px horizontal padding; 4px label/value gap; 1px Taupe border |
+| Execution-status badges | 16px Dubai Regular; 6px vertical / 12px horizontal padding; 8px corners; 1px border; no shadow |
+| Leadership classification badge | 16px Dubai Regular, Mist/Teal, existing pill shape; 13.5pt outside-table PDF role |
+| Table cells | 16px padding, content-driven height, approximately 1.6 Arabic line-height, fine Linen separators |
+| Informational changes | Compact 24px visual row, each change attached to its own figure |
+| Interactive changes | At least 44 × 44px reserved target with compact numeral line; no overlapping hit areas or negative-margin expansion |
+| Completion captions | Label and percentage on one baseline with 8px gap |
 
-Group with proximity and whitespace before adding another container. Keep cards as tall as their content requires. Align corresponding metric rows within a group; do not stretch unrelated cards to create artificial symmetry.
+Primary actions are Teal/Paper; hover Charcoal/Paper; pressed Ink/Paper. Secondary actions are Paper/Teal with Teal borders; hover Mist and pressed Sand. Disabled actions use Ink/Linen/Silver without blanket opacity. Loading preserves width and label, communicates busy state and prevents duplicate activation. Keyboard focus uses a 2px Teal outline with 2px offset.
 
-Status badges are informational unless an existing action explicitly makes them interactive. An interactive badge or drilldown still needs an accessible action target and clear behavior.
+Small text on Linen uses Ink where Taupe/Linen fails 4.5:1 normal-text contrast (measured approximately 4.40:1). Keep Taupe’s other approved roles where contrast is sufficient; do not introduce unapproved colors.
 
-Use a 2px Teal focus ring with a 2px offset. Primary actions use Paper text on Charcoal for hover and Paper on Ink when pressed. Disabled actions use Ink text, a Linen fill and a Silver border without blanket opacity. Loading preserves the button's width and label, exposes its busy state and prevents duplicate activation.
+## 5. Header, navigation, menu, filters and PDF actions
 
-## 5. Titles, navigation and filters
+### Header and navigation
 
-- Use the approved logo, title and required report date. Remove repeated explanatory labels beneath page, section, portfolio, card and table titles, including search and upload titles, and remove their reserved spacing.
-- Keep the search title at 36px between the approved logo and search-field positions, with the approved upward placement. Reuse that search composition; do not shift the logo or field to compensate for title spacing.
-- Search home places the application menu beside **بحث في التقرير**, with the menu, search action and **عرض جميع النتائج** centered together beneath the field, without separate monthly/project links. Other pages show **Search + the current destination**, with remaining destinations in the menu. Keep agenda, council and HH report destinations available from every page's menu.
-- Mark the current destination with a 2px Teal underline, using a transparent background. Maintain at least 44px link targets.
-- Separate navigation from task actions by position and spacing. Reflow the toolbar below 700px. Use a Teal primary action and a Paper/Teal secondary action where applicable.
-- Place applicable core filters below navigation as separate fields, with the scope summary beneath. Keep their field labels. Avoid an extra enclosing filter panel.
-- For the approved monthly scope pattern, a partial selection shows the first selected visible name and **+N** additional choices. One choice shows its name alone. Full selection or an unrestricted field shows **الكل**, without a count. Preserve selection order and directional isolation.
-- Reuse that scope-summary pattern for equivalent multi-select components when authorized to standardize them. Preserve existing page-specific selection semantics and do not imply that every report has already been migrated.
-- Keep full checked values accessible in the dropdown. A display count is not a record count. Preserve unions within a field, intersections across fields, dependent options and source-token distinctions. Never treat a stale selection as “all.”
+- Retain the supplied official logo, aspect ratio and colors. The shared desktop workspace uses the existing 192px logo at the physical right, title/context at the left, and 32px/48px top/side insets. Search home and landscape covers retain their separately approved compositions.
+- Use the page title and applicable source/report cutoff; do not substitute the download date. Avoid duplicate titles and explanatory subtitles. Preserve necessary units, dates, field labels and actual notes.
+- Beneath the masthead, group **البحث + current destination + menu** at the physical right. Group task/PDF actions separately at the left. Use consistent alignment/order on equivalent pages.
+- The current destination has a transparent background and 2px Teal underline; navigation text is 16px with at least 44px targets. Default navigation/drills use the same tab; retain explicit modified/new-tab activation.
+- Search home keeps its approved centered logo/title/field composition, 36px title and upward placement. Center **menu + بحث في التقرير + عرض جميع النتائج** together beneath the field; do not add separate report shortcuts.
+- Logo navigation retains its existing destination: monthly report after loading, upload before loading.
+
+### Menu
+
+Keep a grid icon on the 44 × 44px trigger. All ten destination items are text-only, in this exact order:
+
+1. البحث في الأداء
+2. التقرير الشهري
+3. محفظة المشاريع
+4. تقرير الجهات
+5. تقرير الأجندة السنوية
+6. تقرير قرارات المجالس
+7. تقرير المشاريع الخاصة
+8. ملاحظات البيانات
+9. رفع ملف التقرير
+10. المقارنة الشهرية
+
+Identify the current page semantically and visibly. Keep arrow/Home/End keyboard navigation, Escape, outside-click closure and focus restoration. Keep necessary page-specific commands after a clearly separated utility group, never interspersed with the ten destinations. Diagnostic counts may accompany their label; they are not execution-status badges.
+
+### Filters
+
+- Place direct labeled fields below navigation, then the selected-scope summary and applicable **مسح التصفية**. Do not add an outer filter card. Preserve approved page-specific filter sets, including all eight directly visible portfolio fields.
+- Labels use 12px Dubai Regular; selected values 16px. One choice shows its name; partial multiple choice shows the first selected visible name **+N**; all/unrestricted shows **الكل**. Retain selection chronology and directional isolation. Full checked values remain accessible in the selector.
+- Same-field choices are unions; different fields intersect. Preserve dependent options, exact tokens, explicitly blank selections and inherited drill scope. Stale selections never silently become unrestricted.
+- Comparison file setup and diagnostic severity controls retain their task-specific semantics while sharing control colors, geometry, focus and readable labels.
+
+### PDF button
+
+- Use **تنزيل PDF**, with one 20px download icon and the primary-action treatment, in the shared left task-action group. Download directly through the bundled offline engine; no browser print dialog or network is required.
+- Place applicable **إعدادات PDF** beside it as a secondary action. Monthly settings retain calculation-date controls; portfolio settings retain spacing controls. Neither offers obsolete paper-format choices.
+- Keep button width and label during loading, expose busy state, prevent duplicate activation, restore focus after completion and show a truthful error if export fails.
 
 ### Search and results
 
-- Use **ابحث عن بند أو مشروع أو مسؤول** as the shared search prompt. Keep number search available and included in the accessible name. Preserve the approved home logo, 36px title, field positions and upward title adjustment.
-- Default results show **البند**, **الحالة / التقدم**, **التوقيت** and **الوحدة التنظيمية**. Preserve saved column choices; owner and narrative columns remain available through customization. Preserve full organizational context in record details and applicable PDF cells.
-- Use a compact results toolbar with the result count, filtering and sorting. On phones, keep sorting visible and put column customization, CSV and PDF under the options control. Use one functional search-submit icon.
-- Present every selected result field in readable stacked rows on phones. Preserve 16px Dubai Regular content, status meanings, timing labels, result ranges and pagination. Do not shrink text to fit desktop columns or silently omit a customized field.
-- Distinguish matched text with Mist **#D9E1E2** behind Ink **#4F4E4E**, regular weight. Result titles have a detail arrow and a hover/focus underline; avoid a permanent underline across the whole title.
-- Search dropdowns and applicable screen/PDF scope summaries use the first selected visible name **+N** rule, or **الكل** for all/unrestricted. Keep selection chronology and inherited dashboard drill scope intact.
-- Keep keyboard access, 44px controls, Escape behavior and focus restoration. Export all matching rows independently of the visible screen page. Search PDF remains A4 portrait with its own print scale and full selected output fields.
+- Shared prompt: **ابحث عن بند أو مشروع أو مسؤول**; number search remains supported and named accessibly. Use one functional search-submit icon.
+- Default result fields are **البند، الحالة / التقدم، التوقيت، الوحدة التنظيمية**; retain saved/custom columns and full details. Export all matching rows independently of the visible result page.
+- Matched text uses Mist behind Ink, regular weight. Result titles have the existing detail arrow and hover/focus underline; no permanent underline across the entire title.
 
-### Shared agenda and special-project report presentation
+## 6. Report composition, legends, tables and empty states
 
-Apply consistency to the entire report page and its output, including the following equivalent roles. Use shared components and scoped semantic styles instead of independent visual variants for agenda and HH. A common style does not require identical content, identical columns or a new chart type.
+- Equivalent desktop report roles share surfaces, title/total alignment, controls, contents, links and spacing. Category title is physically right; scoped overall total physically left, with **الإجمالي** beneath it.
+- Agenda and HH sequence: **contents → charts/status totals/detailed legend → record tables → applicable detailed updates → notes/recommendations**. Only special projects has **المستجدات التفصيلية**. Council’s explicit sequence is in section 8.
+- Contents links follow rendered order with labeled record counts. PDF contents uses actual final content-page numbers and valid internal destinations. Screen-only return controls do not print.
+- Status totals belong directly below each corresponding chart. Detailed **تعريفات مستويات الإنجاز** belongs below the related chart group (after the full-width unassigned council box), before record tables. Monthly uses its separate compact key after the summary columns and before follow-up rows. Do not duplicate keys on each bar.
+- Detailed desktop legends: 20px heading, 16px labels, 14px definitions, 10px bordered swatches, 16px padding/gaps. PDF: 12pt heading, 10.5pt labels/definitions, 2mm swatches. Preserve report-specific definitions. Keep charts and legends together when they fit; readability and complete content take priority over a fixed page count.
+- Main desktop table headings: 18px Dubai Bold; content: 16px Dubai Regular. Linen header, Paper body, fine Linen separators. Allow natural wrapping; never shrink/truncate source text to force a fit. Keep **موعد الإنجاز** on one line.
+- Common RTL sequence: **م، الموضوع/المشروع، الجهة المعنية، الحالة، نسبة الإنجاز where recorded، موعد الإنجاز**. Agenda has five columns; HH six. Do not invent a progress field for agenda. Keep the HH main-list project-manager column omitted; retain its meaningful detail field. Council uses its explicit six columns.
+- Number records continuously within the filtered report, preserving link identities. Agenda groups approved quarters, emerging then other topics; HH lists ongoing then completed in approved source/status/date order, with details in the same order.
+- HH project detail identity shows leadership classification once as **مشاريع القيادة**; omit repeated section/number strips and raw نعم/لا metadata. Preserve meaningful source details, including project manager. Hide source filenames and circular progress markers.
+- Put populated report notes/recommendations at the end in stacked Paper cards. Keep meaningful source narrative intact. Omit empty cards and their contents links.
+- A zero-result scope retains filters/scope/reset and shows one meaningful empty state. Hide empty contents, charts, legends, sections and invalid completion strips. A remaining chart uses available width. Never add empty alignment rows, count-matrix PDF pages or source-note appendices.
 
-| Equivalent role | Common presentation and behavior |
-| --- | --- |
-| Report heading and navigation | One hierarchy, logo, action sizes and PDF action. Default titles are **مستجدات الأجندة السنوية {year}** and **مستجدات المشاريع الخاصة {year}**, with the same January-to-cutoff-month period format from the report date. Preserve deliberate custom titles/periods. Selected entity appears beneath the title; covers center title/entity/period together. |
-| Scope and report controls | Matching direct filter fields, label/value type, surfaces, borders, spacing, scope summary and control alignment. Use a common utility/disclosure pattern for report editing. Keep each report's eligible options, requester/leadership semantics, editor fields and save behavior. |
-| Report contents and section navigation | One compact contents component on each screen, using 16px links with 44px targets and visibly labeled record counts. Links follow rendered section order and include populated final notes/recommendations. PDF has a contents page after its cover, using actual displayed page numbers and working internal destinations. Do not print screen-only return controls. |
-| Cards and chart panels | Paper surfaces, Sand outlines, 18px corners, 24px padding (16px on phones), corresponding title/total alignment and content-driven height. Hide empty data groups; a remaining group uses the available width. Remove redundant outer framing around agenda's screen chart panels, preserving its title and grand total. |
-| Charts | Matching status palette, figure fonts, axis/annotation hierarchy and aggregate status-summary roles: 16px labels beside 28px figures, with common spacing and baselines. PDF uses 16pt chart/panel headings, 20pt category totals, 10.5pt aggregate labels and 12pt aggregate figures; use 12pt in-bar figures only where they fit legibly. Keep vertical quarter columns for agenda and horizontal sector bars for HH; retain each chart's source scope and scale. |
-| Detailed legends | Below the charts, use a 20px heading, 16px labels, 14px definition text, 10px bordered swatches, 16px padding/gaps and modest label/body separation. PDF uses a 12pt heading, readable 10.5pt labels/definitions, 2mm swatches and compact padding/gaps. Retain every definition and give recovered space to the charts. Keep chart/legend together. |
-| Section and table headings | Use 30px major headings, 28px table-section titles and 14px counts, with 32px major separation and 16px heading/content spacing. Keep headings with their following content and preserve the category/quarter labels and counts that identify agenda records. |
-| Record tables | The same header surface, text roles, row separators, cell padding, status badges, numeric alignment and link/focus treatment. Long topic/project and entity text receives sufficient width and wraps naturally. |
-| Record detail content | Only special projects has **المستجدات التفصيلية**. Preserve meaningful populated source details and the project manager there. Match card identities and ordering to the main table. Keep record numbers in the table and internal link mapping; omit the repeated section-title/number strip from individual detail cards. Use the same 28px titles, 12px field labels, 16px content, status palette and numeric-progress roles; omit source filenames and circular indicators. |
-| Responsive behavior | Reflow equivalent controls and summary panels together. Use one common title/total role at narrow widths; avoid separate per-report size variants. Mobile records use a Paper card with 18px corners and 16px padding: title first, sequence and field-label metadata at 12px, and all actual field values at readable 16px. Omit zebra bands and nested field boxes. |
-| Print/PDF | Shared A4 landscape geometry, typography, table-header treatment, footer roles and continuation rules. Covers are print-only in the workspace and full bleed in output, with the title, applicable selected entity and period centered together. Preserve report-specific titles, section order and content; remove unused space when content is removed. |
+## 7. Bars, chart semantics and metric alignment
 
-### Shared notes, empty states and links
-
-- Put report-level **ملاحظات** and **توصيات** at the end in both reports. Use stacked Paper cards, right-aligned Charcoal headings and 16px Ink body text. On screen and in PDF, add one contents destination when either is populated; remove the destination and cards when both are empty. Native PowerPoint uses separate page entries for populated notes and recommendations in both reports. Preserve record-specific narrative in its special-project detail card.
-- A zero-result scope shows one report-level empty state. Hide contents, summary cards, invalid completion strips, charts, legends and empty record sections. Preserve the active filters and reset action.
-- Use **الإجمالي حسب الحالة** visibly beneath both chart types. The shared standalone status colors remain in force. Use **مشاريع القيادة** consistently in charts, filters and detail badges.
-- PDF contents uses actual page references determined from final pagination. Screen counts remain explicitly labeled as record counts. Contents and project-detail links must resolve to real destinations; never imply a printed record count is a page number.
-- Preserve custom cover text and full selected entity scope. Default year and period follow the report date, never the download date. Cover text is centered horizontally and vertically as one group.
-
-Agenda and special projects use the same summary lead: report-category title physically right and scoped overall total physically left, with الإجمالي beneath the number. The special-project summary is the title/total followed by its two nonempty cohort charts and detailed legend, on screen and in PDF. Remove the separate four-metric overview and its completion strips from these report pages. This does not change the monthly dashboard or source calculations.
-
-Use the screen and PDF scales defined in this document independently. Match equivalent labels, figures and baselines rather than copying a page's pixel coordinates onto a differently shaped chart. Keep visible keyboard focus and semantic headings, table headers and field associations.
-
-For both reports, use a Linen table header with Ink headings and a Paper body with fine Linen row separators. Avoid a second report-specific stripe or border style. Keep numeric values directionally isolated and dates readable. Do not reduce font size or truncate source text to fit columns. Keep **موعد الإنجاز** on one line while allocating enough width to the topic and entity fields; preserve the approved agenda column meanings.
-
-Common RTL table sequence is **م، الموضوع/المشروع، الجهة المعنية، الحالة، نسبة الإنجاز where recorded, موعد الإنجاز**. Agenda has five columns without an invented completion-percentage field; HH has six. Preserve quarter/date meanings and actual source progress. Keep the HH main-list PM column omitted, while retaining its populated detail field. Use the same header styles, content alignment, readable wrapping and sufficient deadline width.
-
-Report order is **contents → charts and compact legend → record tables → applicable detailed updates → notes and recommendations**; the PDF cover comes first. Detailed updates appear only in special projects. The agenda record order is approved quarter groups, emerging topics, then other/unclassified topics if present, matching its chart/navigation category order. HH main rows follow ongoing then completed groups, preserving source status/end-date order within each group; detail cards use that same order. Number table records continuously within each filtered report and preserve that identity in internal HH card links; do not repeat visible record numbers in each detail-card header. Do not add exact-count print matrices, source-note appendices or invented record fields.
-
-## 6. Metric cards and alignment
-
-- Keep the card title and total visually distinct. Preserve the approved physical positions and the total label beneath its number.
-- Place short metric/status names above figures; place changes directly below those figures. Align the first label lines, numeric baselines and comparison rows across peers.
-- Use shared row sizing when one Arabic label wraps. Avoid arbitrary offsets applied to individual labels. Maintain logical label/value relationships when columns reflow.
-- Retain 18px subgroup names with 28px subgroup figures. Do not enlarge subgroup names to card-title size.
-- Preserve the strategy's three metric roles: measured/registered, average measured results and average approved targets. Keep 16px names, 34px primary figures and the 28px registered denominator. Keep meaningful changes aligned on a shared row.
-- An increase arrow means a numeric increase; its color conveys an agreed performance meaning. Neutral totals and spending changes stay Taupe. Completed increases are Green; increases in late items are Red. Hide unchanged/unavailable comparisons according to the existing eligibility rules.
-- Where the existing SLC breakdown is still presented outside the monthly card, retain the exact captions **منجز ضمن موعد SLC** and **منجز بعد موعد SLC**, rendered with isolated Latin and Arabic runs. Preserve the approved visual order: SLC at the physical left, the Arabic phrase to its right. Keep the caption, figure and change aligned. Positive changes for completed-after-SLC items are Green, including both arrow and number. The monthly card uses the combined **منجز** figure specified in section 8; this does not rename source keys or change other reports.
-
-## 7. Bars and completion captions
+Preserve the existing physical title/total positions and metric name/value/change order. Names sit above figures; changes below their own figures. Align peers through shared rows, not arbitrary offsets. Numeric increase arrows express direction; color expresses the agreed performance meaning. Neutral totals/spending remain neutral; completed increases Green and late increases Red. Preserve valid history; hide unavailable/unchanged comparisons without inventing zeros.
 
 | Bar | Meaning | Treatment |
 | --- | --- | --- |
@@ -233,34 +220,34 @@ Financial bars stay solid even when some source values are unavailable. Remove h
 - No quarter is selected on initial render or after a filter change. Hover and keyboard focus do not replace the totals. Clicking a quarter, or activating it with Enter/Space, shows only its status values with its quarter name; omit ratios and percentages. Clicking that quarter again or pressing Escape restores totals; clicking outside a quarter restores totals.
 - Remove persistent and hover outlines around bars. Keep a visible keyboard-only focus cue. Arrow keys move focus without changing the status summary. Retain accessible names and the expandable underlying count table.
 - Keep the original **تعريفات مستويات الإنجاز** below the charts without rewriting its definitions. Swatches match the shared status appearance. Standalone completed labels/counts use Green, late uses Red and ready uses Teal; other plain status text remains Ink.
-- Native PDF always includes aggregate totals by status below each chart, independent of screen quarter selection. Keep charts, totals and the compact full definitions on one summary page after the contents. Use the recovered legend space for the plot; do not clip text or distort marks. Cover has no footer; displayed numbering starts with contents as page 1.
+- Native PDF always includes aggregate totals by status below each chart, independent of screen quarter selection. Keep charts, totals and the compact full definitions together after the contents when they fit at the approved readable sizes; otherwise continue without clipping. Use the recovered legend space for the plot; do not clip text or distort marks. Cover has no footer; displayed numbering starts with contents as page 1.
 - Put each nonzero status count inside its segment only when the supplied DIN numeral fits legibly with padding. Measure both available height and width at the actual rendered size. Screen in-bar figures are at least 16 CSS pixels; use approximately 12pt for in-bar figures in A4 PDF. Keep readable ink from the shared status mapping.
-- Preserve exact proportional segment geometry and the common count scale. Never inflate a small segment, alter the denominator, overlap labels, merge statuses or shrink numerals below their readable role just to show every in-bar count. Increase usable plot height and recover whitespace where appropriate; re-evaluate fit after reflow or filter changes.
+- Preserve exact proportional segment geometry and the common count scale. Never inflate a small segment, alter the denominator, overlap labels, merge statuses or shrink numerals below their readable role just to show every in-bar count. Increase usable plot height and recover whitespace where appropriate; re-evaluate fit after desktop resizing or filter changes.
 - Small counts that do not fit remain available through each quarter’s accessible description, explicit quarter activation and expandable on-screen exact count details. Do not insert these count matrices as separate printed/PDF tables or appendix pages. Keep the approved chart, aggregate status totals, detailed definitions and original agenda record tables in the export. Omitted in-bar labels must not change segment geometry, source counts or available interactive detail.
 - Keep axis/quarter labels at approximately 9pt and above-bar quarter totals at 16pt in A4 landscape PDF. Status-summary labels use 10.5pt and values 12pt. Verify short, dense, filtered, single-category and undated layouts with the actual downloaded PDF.
 
-### HH special-project charts and cards
+### Special-project charts and cards
 
-- Detail cards show each project heading without a repeated group-title/number strip. Show the group heading once above its cards. Keep the leadership classification once as an outlined **مشاريع القيادة** badge beside the project identity, with the same Teal border/ink and Mist fill on screen and in PDF. Omit the duplicate raw **مشاريع القيادة: نعم/لا** metadata field; preserve its source value, filters and cohort membership. Native PowerPoint follows the same visible treatment.
+- Detail cards show each project heading without a repeated group-title/number strip. Show the group heading once above its cards. Keep the leadership classification once as an outlined **مشاريع القيادة** badge beside the project identity, with the same Teal border/ink and Mist fill on screen and in PDF. Omit the duplicate raw **مشاريع القيادة: نعم/لا** metadata field; preserve its source value, filters and cohort membership. 
 
 - Split the same active source scope into two disjoint cohorts: **مشاريع القيادة** includes only records explicitly marked **نعم**; **مشاريع الأمانة العامة** (TEC) includes every other record, including blank leadership classification. Do not drop unclassified records. The two cohort totals must reconcile to the scoped project total.
-- On a wide screen, place leadership physically right and TEC physically left in equal-width panels. Stack them at narrow widths. Hide an empty cohort panel and let the populated panel use the available width. If both are empty, use the existing report-level empty state rather than rendering empty charts or legends.
+- On a wide screen, place leadership physically right and TEC physically left in equal-width panels. Hide an empty cohort panel and let the populated panel use the available width. If both are empty, use the existing report-level empty state rather than rendering empty charts or legends.
 - Group each cohort by the existing sector field in stable source/approved order. Hide a sector row when its count is zero **within that cohort**, independently of the other chart. Keep heights content-driven; do not add blank rows to align panels.
 - Use horizontal stacked count bars that extend leftward from the RTL zero baseline. Both visible cohorts share one zero-based whole-count scale, derived from the largest visible sector total. Recompute it from the active source scope; do not fix it to illustrative counts. Preserve each status segment’s exact count and order.
 - Put counts inside status segments only where they fit legibly, using the shared fill/ink/border mapping. Retain exact small values in accessible descriptions and readable exported detail when a label cannot fit. Keep bars proportional; do not stretch a one-project segment to create room for text.
-- Put each row’s total immediately beyond its actual filled-bar endpoint, with a readable gap and reserved edge clearance. In RTL this is to the left of the filled bar, not in a fixed far-left total column. Prevent clipping at the maximum row and at phone widths.
+- Put each row’s total immediately beyond its actual filled-bar endpoint, with a readable gap and reserved edge clearance. In RTL this is to the left of the filled bar, not in a fixed far-left total column. Prevent clipping at the maximum row.
 - Remove the short status labels beneath individual bars. Retain **totals by status beneath each cohort chart**, within the same filter scope, and the shared detailed **تعريفات مستويات الإنجاز** below the pair. These totals reconcile to each cohort total. Use completed Green, late Red and ready Teal for plain status labels/counts.
 - Preserve the approved HH-specific legend wording and mark source-unclassified/other states honestly. Do not import agenda council-approval definitions as if they were HH business rules. Use the same source-derived status meaning in cards, bars, legend and exports.
 - Keep the two populated charts, their aggregate status totals and detailed legend together on the HH summary PDF content page when they fit. Use the landscape report profile, readable native text/vector marks and content-driven continuation for unusually long scopes; never clip rows or force a fixed page count.
 - Use the common contents and section sequence in HH, with actual PDF page references and internal links. Omit the separate four-metric overview and its completion strips from both screen and native PDF; retain the scoped title/overall-total lead above the cohort charts. Keep main list and populated detail sections in matching order, with table numbering preserved in internal card identities. The only extra structural section is **المستجدات التفصيلية**, split into ongoing and completed when populated. Screen return controls do not print.
 - Use the six-column main list specified in section 5, without a project-manager column. Keep project title, recorded status/progress and meaningful populated source details in cards. Hide source filenames through the presentation layer only. The displayed reporting period remains report metadata unless an existing explicit date filter applies; redesign does not silently remove projects based on project start/end dates.
 
-### Council decisions report — approved Revision 29
+## 8. Council decisions report
 
 - Apply the shared report typography, spacing, status appearances, surfaces, controls, contents, return links, notes and export conventions. Preserve council-specific source eligibility and meanings; the agenda and special-project reports establish visual roles, not council business rules.
 - Reading order is **contents → title/overall total, issuing-body charts and compact detailed legend → القرارات التي تتطلب المتابعة → قرارات أخرى مسجلة when populated → report notes/recommendations**. The full-bleed PDF cover precedes contents, centers the report title, selected entity and period together, has no footer, and is omitted from the screen workspace. Keep a neutral separate table when source columns make follow-up classification unavailable. Do not add decision detail cards, source-note appendices or boxes.
 - Use the source-defined follow-up scope for chart totals: titled decisions requiring **رسالة رسمية** or **بريد من الوحدة التنظيمية**. Completed, development/review, late and residual statuses retain their existing disjoint source definitions. Late is not included again in progress for council decisions. Keep other recorded decisions in their table; do not silently drop them or label all of them closed/cancelled.
-- Show one nonempty chart panel per named issuing body. **المجلس التنفيذي** is first, physically right; **مجلس الشؤون الاستراتيجية** is second, physically left. Other populated named bodies follow. Place **قرارات دون جهة إصدار محددة** in a separate full-width box below all named charts, spanning both columns. Keep its title and overall total in the shared card header, and arrange its populated status bars in two columns on wide screens, in source status order. Do not assign those decisions to either main council. Hide the box when empty; keep it when it is the only populated group. A lone named panel without an unassigned group fills the available width. Narrow screens stack the panels and status rows in the same reading order.
+- Show one nonempty chart panel per named issuing body. **المجلس التنفيذي** is first, physically right; **مجلس الشؤون الاستراتيجية** is second, physically left. Other populated named bodies follow. Place **قرارات دون جهة إصدار محددة** in a separate full-width box below all named charts, spanning both columns. Keep its title and overall total in the shared card header, and arrange its populated status bars in two columns on wide screens, in source status order. Do not assign those decisions to either main council. Hide the box when empty; keep it when it is the only populated group. A lone named panel without an unassigned group fills the available width.
 - Each named panel shows its issuing-body title and total, then horizontal count bars for its actual statuses in approved source order. The unassigned box retains those exact status counts and bars without repeating the named panels’ axis. Keep one physical bar-length-per-count scale across named plots and the unassigned box at the same viewport or exported size; a full-width container must not double the visual value of its bars. Use one common zero-based whole-count scale across all visible panels, recalculated from the active scope. Put exact counts inside marks where legible, with readable shared ink; use an adjacent count for a mark too short to hold its number. Never enlarge a bar to fit a label. Hide zero rows and empty panels. Status labels and explicit counts keep the chart understandable without relying on color. All issuer-panel totals and status rows must reconcile to the eligible overall total.
 - Place one compact **تعريفات مستويات الإنجاز** beneath the charts, using the shared swatches, title and definition typography. Describe recorded council statuses without inventing approval or deadline rules. Keep charts, the unassigned box and legend together in ordinary A4 output when they fit; paginate additional bodies or unusually tall status groups at readable sizes, retaining the unassigned box after the named charts and before detail tables. Preserve fully readable source labels and do not clip or shrink text to force a page count. The absence of a source status is not evidence of completion.
 - Exact RTL table order is **م ← الموضوع ← القرار الأخير ← الجهة المعنية ← الحالة ← ملاحظات**. Use the shared table appearance, readable Arabic text and natural wrapping; allocate the greatest width to the latest-decision narrative. There is no separate decision-number, issuing-body or meeting-date column. Do not add a completion percentage or project-manager field.
@@ -268,9 +255,11 @@ Financial bars stay solid even when some source values are unavailable. Remove h
 - Use **م** for continuous sequential numbering across the rendered filtered report, with the follow-up table first and other recorded decisions next. Preserve source decision numbers and record identities separately. Group the tables by meeting year then quarter, ordering valid meeting dates chronologically within each group. Retain year-only and undated groups at the end of their applicable sequence; do not invent a quarter.
 - Preserve the complete recorded **الموضوع**, **القرار الأخير** and **ملاحظات**. Keep meaningful notes in their table column instead of duplicating a source-notes appendix. Missing table values remain empty; a genuine numeric zero displays **–** at the presentation boundary. Identifiers, dates and narrative text retain their source characters.
 - Reporting period is cover context, not a new meeting-date filter. Preserve the existing entity, sector, department and follow-up filter semantics. **تاريخ الاجتماع** means meeting date; a reply date is not a completion deadline. Displayed dates and grouped dates must come from the same source values.
-- PDF contents follows final pagination, with real page references and destinations. Repeat the six column headings on continuation pages, preserve complete long text, and keep headings with the following content. The cover is unnumbered; copyright and page 1 start on physical page 2. Screen, native PDF and native PowerPoint must use the same scoped records, chart model, labels and section order.
+- PDF contents follows final pagination, with real page references and destinations. Repeat the six column headings on continuation pages, preserve complete long text, and keep headings with the following content. The cover is unnumbered; copyright and page 1 start on physical page 2. Desktop and native PDF must use the same scoped records, chart model, labels and section order.
 
-## 8. Approved monthly composition details
+## 9. Page-specific presentation contracts
+
+### Monthly detail composition
 
 These are monthly-report rules, not required content for every dashboard.
 
@@ -283,9 +272,9 @@ These are monthly-report rules, not required content for every dashboard.
 
 Remove unused spacing with removed content. These exceptions do not authorize removing actual table notes, units, essential source caveats or metric definitions elsewhere.
 
-### Project portfolio — approved Revision 31
+### Project portfolio
 
-- Apply the approved complete-page composition to **محفظة المشاريع**, including its formatted report and native A4 portrait PDF. Default the report name to **مستجدات محفظة المشاريع** plus the source reporting year, preserving custom report title and period. Keep the actual cutoff distinct from the displayed reporting period.
+- Apply the approved complete-page composition to **محفظة المشاريع**, including its formatted report and native full PDF print. Default the report name to **مستجدات محفظة المشاريع** plus the source reporting year, preserving custom report title and period. Keep the actual cutoff distinct from the displayed reporting period.
 - Show the overall scoped project total prominently with **الإجمالي** beneath. The compact summary distinguishes completed-project count/share, mean recorded progress and follow-up count. Do not equate recorded progress with status completion, money or a budget-weighted average.
 - Show all eight filters directly on the portfolio page and formatted report: sector, organizational unit, entity, type, priority, finish quarter, status and project manager. Preserve within-field unions, cross-field intersections, dependent options, exact record identity, selected scope, return navigation and current record details. Compact selected values use the first visible name plus the additional-choice count; full values remain available in the selector and accessible name. Never turn a stale or explicitly blank selection into an unrestricted field. The concerned entity for this budget portfolio is the General Secretariat under the existing parent mapping; sector and unit remain separately labeled context. Include all selected portfolio filters and the actual cutoff in PDF scope.
 - Keep budget physically right and deadlines left on a desktop. Show full headline amounts with explicit AED units; retain allocation, invoice spending and recorded work value as separate measures with their existing eligible denominators. Missing finance remains unavailable, zero remains zero internally, negative recorded amounts remain signed and overspending is not clamped away.
@@ -294,13 +283,13 @@ Remove unused spacing with removed content. These exceptions do not authorize re
 - Show recorded status distributions on common count and money scales with a separate recorded-progress column. Include a neutral **حالات أخرى** category when unknown/missing statuses are present. A derived late condition overlaps recorded open statuses and must not be added to their disjoint grand total. Individual missing source fields remain empty.
 - Use one compact portfolio-specific status-definition legend. Reuse approved badge/mark/swatch appearances; completed plain labels and counts are Green. Standardize the source Frozen display as **مجمّد** while preserving raw source values, stored filter tokens and old-link compatibility. Do not add a ready-for-presentation status to a portfolio whose source does not define it.
 - Preserve the existing manager follow-up ranking: half the unfinished-count share plus half the unfinished-budget share. It describes follow-up volume, not employee performance. Preserve its source coverage rules and separate completed comparison group. Priority/type charts use true intersections, source order and separate count/money scales.
-- Standardize leading record columns as **م ← المشروع ← الجهة المعنية ← الحالة ← نسبة الإنجاز ← موعد الإنجاز**. The follow-up table appends **ملاحظات**. Use the same table component for the main list, embedded follow-up and matching drilldowns. Keep the deadline heading on one line, continuous numbering within the displayed scoped list, full notes and exact project links. The displayed ordinal is separate from the immutable source key/reference. Sector/unit remain labeled context beneath the entity; type, priority and populated PM remain beneath project identity. Preserve all existing financial fields and populated notes in the record view. On phones, retain a real table in a focusable horizontal-scroll region; do not combine the generic stacked-record layout with table columns. Preserve empty cells, including blank notes, without placeholder text or loss of column alignment.
+- Standardize leading record columns as **م ← المشروع ← الجهة المعنية ← الحالة ← نسبة الإنجاز ← موعد الإنجاز**. The follow-up table appends **ملاحظات**. Use the same table component for the main list, embedded follow-up and matching drilldowns. Keep the deadline heading on one line, continuous numbering within the displayed scoped list, full notes and exact project links. The displayed ordinal is separate from the immutable source key/reference. Sector/unit remain labeled context beneath the entity; type, priority and populated PM remain beneath project identity. Preserve all existing financial fields and populated notes in the record view. On desktops, retain a real table in a focusable horizontal-scroll region; do not combine the generic stacked-record layout with table columns. Preserve empty cells, including blank notes, without placeholder text or loss of column alignment.
 - Use compact contents and quiet explicit report/list links in page order. Place populated report notes and recommendations at the end and hide empty editorial sections. Add the final **معلومات إضافية** contents destination as either editorial field becomes populated, and remove it when both are cleared; update the link without rerendering or moving focus from the active editor. Hide an empty follow-up section and its contents link. Do not introduce **المستجدات التفصيلية** outside special projects.
-- Screen and PDF share the scoped model, section sequence, legend, column order, names and source text. Retain A4 portrait with readable type, repeating table headings, content-aware breaks, correct page numbers and copyright. Portfolio contents remain compact within the report flow; this revision does not add an agenda-style cover or a separate contents page. Portfolio numbering starts on its first content page. Do not enforce a fixed page count or claim PDF parity from screen captures. Preserve ordinary PDF report references when no usable internal destination exists.
+- Screen and PDF share the scoped model, section sequence, legend, column order, names and source text. Use full PDF print with readable type, correct page numbers and copyright; continuation at the technical height limit repeats table headings. Portfolio contents remain compact within the report flow; this revision does not add an agenda-style cover or a separate contents page. Portfolio numbering starts on its first content page. Do not enforce a fixed page count or claim PDF parity from screen captures. Preserve ordinary PDF report references when no usable internal destination exists.
 - Route financial values through one strict decimal reader. Reject malformed/non-decimal numeric text as unavailable; preserve valid decimal numeric text and its existing data-quality observation. Do not silently change the deliberate difference between named-project portfolio finance and monthly all-row source sums. Keep relevant diagnostics and test these distinct populations explicitly. Recalculate financial history from uploaded previous records with the same reader. Saved aggregate financial deltas require the explicit compatible numeric-contract marker; otherwise show an unavailable comparison with its reason, preserving valid nonfinancial history.
 - Never replace an incomplete operational workbook with illustrative records. Label published example screenshots/PDFs and record the actual source identity and cutoff in QA evidence. A populated example validates behavior and layout, not the current operational totals. Verify the exact delivered app and PDF after final edits.
 
-### Entity report — approved Revision 32
+### Entity report
 
 - Use **تقرير الجهات**, direct entity/relationship/domain filters, readable selected scope and the source calculation cutoff. Preserve within-field unions, cross-field intersections, exact contributor dictionary matching and ambiguous contribution text without inferred ownership.
 - Derive screen and native PDF from one scoped renderer: scope and contents, overview, recorded-status charts and compact definitions, nonempty follow-up table, timing/relationship context, then grouped main records. Focused drills show their own exact records; print the active domain/status/query and refresh print content on live query changes.
@@ -308,26 +297,29 @@ Remove unused spacing with removed content. These exceptions do not authorize re
 - Show each recorded-status distribution once, using one count scale, the shared palette, readable in-bar counts and exact outside counts for tiny bars. Outside labels must not change bar proportions. Missing status rows remain in totals and neutral distributions; individual missing fields stay blank. Real zero displays as a dash.
 - Keep date-based lateness separate from recorded status. A ready topic remains **جاهز للعرض** after a passed plan. Use neutral wording **تجاوز الموعد المخطط · موعد العرض غير مسجل** without asserting booking failure. Council meeting dates are not follow-up deadlines. The 30-day window includes the reference day.
 - Use leading columns **م، الموضوع/المشروع، الجهة المعنية، الحالة**, adding recorded progress only where that source field exists, then applicable follow-up dates and full populated notes. Contributions remain labeled entity context. Omit each blank decision-reference field. Keep filenames and repeated administrative source references out of report rows. Number the grouped main list continuously.
-- Keep full source notes with their field labels in main/focused record tables. The priority table gives its alert reason without duplicating long source notes. Preserve exact single-record links, keyboard focus and comparison setup. Phone tables remain real tables in their own keyboard-accessible horizontal-scroll region.
+- Keep full source notes with their field labels in main/focused record tables. The priority table gives its alert reason without duplicating long source notes. Preserve exact single-record links, keyboard focus and comparison setup. Desktop tables remain real tables; any necessary local scroll region has a descriptive accessible name and keyboard access.
 - Primary/contributor counts can overlap. Count a source row once in the selected entity scope; entity subtotals cannot be summed into a grand total or presented as a performance ranking. State the relationship basis and preserve it in drilldowns.
 - Empty scopes retain filters and scope but show one meaningful empty state. Hide empty summary, contents, charts, legends, follow-up and record groups. Explain missing names separately from a genuine zero workload. The special-project detail model uses the same named-record eligibility guard instead of treating fallback titles as source names.
-- Native entity output remains A4 portrait. Retain the same content and reading order, full scope, 12pt table text, readable badges, repeated headings, complete long-note continuation, sequential page totals and copyright. Include full section headings and count labels when continuing an oversized row; do not create a gap-only page. Keep fitting chart/legend groups together and allow content-driven continuation for larger scopes.
+- Native entity output uses full PDF print. Retain the same content and reading order, full scope, 12pt table text, readable badges, repeated headings, complete long-note continuation, sequential page totals and copyright. Include full section headings and count labels when continuing an oversized row; do not create a gap-only page. Keep fitting chart/legend groups together and allow content-driven continuation for larger scopes.
 - Preserve valid comparison definitions and unavailable-history explanations. Do not invent historical arrows or add empty comparison cards. Existing comparison-specific record views retain their purpose.
 
-### Monthly summaries and navigation — approved Revision 30
+### Monthly summaries and links
 
 - Preserve the two portfolio columns: **محفظة المشاريع** physically left and **محافظ المتابعة التنفيذية** physically right. Retain their established card order; the separate legislation review plate does not reorder the production report. Use content-driven cards and the approved screen/PDF typography rather than copying illustration canvas dimensions.
 - Special-project leadership is an explicit **نعم**. TEC includes every remaining record, including an empty leadership classification, as in the detailed special-project report. Within either cohort, completed, ready, late, known work and other are disjoint. **قيد العمل** includes only recorded review/development statuses; missing or unrecognized statuses remain in neutral **حالات أخرى** and the full total. Hide empty cohort/status groups without changing source data or counts.
 - Recalculate historical comparisons using the same cohort and status definitions whenever previous records exist. Embedded summaries calculated under incompatible definitions cannot support corrected subgroup/work changes: leave those changes unavailable with a truthful reason. Retain independently valid comparisons, including an unchanged overall-total comparison. Do not turn missing historical buckets into zero or fabricate the difference caused by a definition correction.
-- Agenda and council use counted status-distribution bars. Segment widths reflect their disjoint counts over the full scoped total. Put a readable count inside a segment only when it fits; the corresponding visible status metric or residual count must retain every value. Do not widen small segments or shrink the approved type to fit. Completion captions retain their own completed numerator and source denominator.
+- Monthly status distributions retain the pre-v166 thin-strip treatment: 9px high with 5px corners on desktop; 1.6mm high with 1mm corners in PDF. No in-bar numerals. Keep exact proportional status widths, the existing metric values and accessible descriptions. This does not change the counted charts in the three detailed reports.
 - Apply Green to completed labels and values, Teal to ready labels and values, and Red to late labels and values in both screen and actual PDF output. Work labels remain neutral; work bars use Mist with Teal border/ink. Other uses Paper with a Silver border. Text inside filled Green/Teal marks uses Paper.
-- Use one compact shared color key in the approved order: late, completed, ready, work, other. The common colors do not redefine portfolio-specific status semantics; legislation lateness remains a subset of work. Keep the key in both continuous and A4 output, after the summary columns and before follow-up rows.
+- Use one compact shared color key in the approved order: late, completed, ready, work, other. The common colors do not redefine portfolio-specific status semantics; legislation lateness remains a subset of work. Keep the key in full PDF print, after the summary columns and before follow-up rows.
 - Put **الإجمالي** beneath the primary total in screen and PDF. A true numeric zero displays **–**; a missing numeric value is blank and retains its unavailable semantics. Leave missing follow-up notes blank; preserve all supplied note text.
 - Give each summary a quiet explicit footer link. Special projects, agenda, council and budget projects open their existing formatted reports; legislation and strategy open their existing detailed record views. Preserve sector/unit/entity scope and clear unrelated report-local filters. Count/status actions retain their exact matching-record drilldowns. Export captions remain plain report references where there is no usable destination within the downloaded document; do not create broken links into an absent local app.
 - Preserve source-derived figures, valid metric changes, units, independent KPI means and all approved diagnostic exceptions. Illustration values are examples, never runtime constants. Budget headline categories do not authorize adding the rejected extra-status disclosure; completion still uses every scoped budget project.
-- A4 pagination must retain the shared legend and applicable source notes. Keep fitting cards together, permit readable continuation and repeat table headings as needed. Do not remove content or shrink type to force a fixed page count. Verify the real continuous and A4 files against the screen and uploaded workbook.
+- PDF output must retain the shared legend and applicable source notes. Keep fitting cards together, permit readable continuation and repeat table headings as needed. Do not remove content or shrink type to force a fixed page count. Verify the actual full PDF files against the screen and uploaded workbook.
 
-### Monthly legislation card — approved Revision 24
+Agenda missing-status information uses **بدون حالة معتمدة: N** beneath the strip in both desktop and PDF. Do not promote it to a PDF-only peer metric or use a different PDF label. Keep council’s existing missing-status footer and follow-up scope note.
+
+
+### Monthly legislation
 
 - Keep **التشريعات** at the card’s physical right and the full scoped total at the physical left, with **الإجمالي** and its eligible change beneath the total. Use the shared monthly card type, spacing, surface and change roles rather than reproducing the illustration’s enlarged review canvas.
 - Show two peer metric columns: **منجز** on the right and **قيد العمل** on the left. **منجز** is the aggregate of the existing completed-within-SLC and completed-after-SLC cohorts. Keep the label, count and favorable completed change Green; retain the existing source-backed unfavorable-change treatment when completion decreases. This combines their monthly presentation without altering either source cohort, calculation key or other report’s breakdown.
@@ -338,84 +330,24 @@ Remove unused spacing with removed content. These exceptions do not authorize re
 - All values, proportions and deltas come from the uploaded report and active filters. The approved illustration’s 183 total, 178 completed, 5 in progress and 2 late are an example, not application constants. Preserve sector, unit, entity and inherited drilldown scope; an aggregate completed drilldown returns the exact union of the two completed cohorts, an in-progress drilldown returns its full source group, and late returns only its subset.
 - Apply existing historical-comparison eligibility to the combined completed figure. Show a combined change only when both constituent comparisons are valid for the same current/previous source scope; never treat an unavailable historical cohort as zero or add a partial change. Keep total, in-progress and late changes tied to their own valid source histories. Suppress zero or unavailable changes under the existing rules; do not infer a new in-progress change from the illustration’s other figures.
 - Preserve all source identities, status/timing fields, historical keys and existing diagnostics. Do not force completed plus in-progress to equal the card total when the source has other or incomplete classifications. Validate the aggregate and denominator before drawing a bar; retain existing unavailable/invalid-state behavior instead of inventing records, a status, a remainder count or an apparently reconciled history.
-- Use the same metric meaning, order, nesting, colors, values, scope and completion denominator on screen, continuous PDF and A4 PDF. Reflow naturally on phones without shrinking type. In A4, keep a fitting card together and preserve the existing print scale; inspect the real exported text and bar geometry rather than relying only on a browser preview.
+- Use the same metric meaning, order, nesting, colors, values, scope and completion denominator on desktop and full PDF print. Preserve the existing print scale; inspect the real exported text and bar geometry rather than relying only on a browser preview.
 
-## 9. Phone, RTL and accessibility
+## 10. Comparison and source-data contracts
 
-- Reflow the live interface; preserve the approved text sizes. Let controls and labels wrap before squeezing them. Keep the whole page within the viewport, with deliberate local scrolling only where a data table requires it.
-- Retain two equal agenda category boxes on phone widths. Allow names to wrap and reserve equal label height so figures and changes align.
-- Below 600px, legislation metrics use two columns; a single visible metric uses the full width. Other cards follow their own approved responsive structure.
-- Use RTL structure with isolated LTR dates, ratios, percentages, signed changes and identifiers. Preserve real reading order and intended physical positions rather than mechanically mirroring everything.
-- Maintain visible focus, keyboard access, concise accessible names, selected states, dialog Escape behavior and focus restoration. Do not make hover the only route to necessary information.
-- Keep accessible bar meanings and underlying values even where a specific repeated visible note was removed. Do not recreate the removed financial-availability annotation through an added tooltip.
-- Check text contrast using the approved palette, include text with status colors and respect reduced motion. Document actual checks; do not claim certification from appearance.
-
-## 10. PDF and paper profiles
-
-The primary report action is **تنزيل PDF**, with **إعدادات PDF** where applicable. Use the bundled offline export engine, embedded fonts, Arabic text and vector graphics. Internet access and the browser print dialog are not prerequisites for download.
-
-| Document | Output profile |
-| --- | --- |
-| Monthly report, default digital output | One continuous custom page: 297mm wide, measured content height |
-| Monthly selected paper mode / height-limit fallback | A4 portrait |
-| Agenda, council and HH reports | A4 landscape, 297 × 210mm |
-| Projects, entity, comparison, search results and other paper exports | A4 portrait, 210 × 297mm |
-
-No A3. Preserve report-specific templates; these PDF rules do not redefine workbook sheet layouts or PowerPoint slides.
-
-- **Monthly first header:** logo and report title including **- لتاريخ DD/MM/YYYY**, followed by the restored sector/unit scope. Use the report date and actual selected scope. Entity selection still filters the data but its field is omitted from the exported header.
-- **Agenda, council and HH covers:** full-bleed A4 landscape image with the report title, selected entity (when selected) and source report period centered horizontally and vertically. Keep agenda's month-to-month year format. No footer or page number on the cover. Start copyright and content-page numbering on physical page 2, excluding the cover from the total. Covers do not duplicate the screen workspace. Agenda retains its entity column, category titles and topic counts in the detail tables and omits empty category sections and the source-notes appendix.
-- **Continuation:** no repeated report masthead. Repeat table column headings across continuation pages and keep section headings with following content. Omit empty sections and their contents entries. Preserve working PDF contents/project destinations while omitting screen-only return controls. Never insert separate agenda count-matrix pages.
-- **Footer:** copyright and page numbers only.
-- **Continuous monthly:** full-page Linen, including margins, with Paper cards. Use 8mm top/side insets and 16mm bottom reserve; 281mm content width; 8mm column gap; 6mm card padding and stacked-card gap; 3.5mm table-cell padding. Projects stay physically left, executive portfolios right, with full-width follow-ups below. A single portfolio fills the content width. Measure height after fonts/images are ready and include footer clearance. Do not derive height from the viewport.
-- **A4:** 10mm margins. Monthly A4 preserves its two portfolio columns with a 4mm gap; other portrait reports retain their own flow. Keep fitting cards/rows together; allow readable continuation when content exceeds a page. Never force a fixed page count by clipping or shrinking the report.
-- **Height limit:** a monthly page above 5080mm falls back to A4 portrait with an explanation; preserve all content and the selected scope. Do not overwrite the saved continuous-format preference.
-
-| PDF role | Font | Size |
-| --- | --- | --- |
-| First report title including date | DIN Next Arabic Regular | 24pt |
-| First-page sector/unit scope | Dubai Regular | 10.5pt |
-| Portfolio headings | DIN Next Arabic Regular | 18pt |
-| Card/table-section titles | DIN Next Arabic Regular | 16pt |
-| Main figures | DIN Next LT Arabic Regular | 24–28pt, according to existing role |
-| Secondary figures | DIN Next LT Arabic Regular | 20pt |
-| Table headings | Dubai Bold | 13.5pt |
-| Table content, notes and in-table badges | Dubai Regular | 12pt |
-| Badges outside tables | Dubai Regular | 13.5pt |
-| Metric labels, completion captions and retained explanations | Dubai Regular | 9pt |
-| Changes | Dubai Regular | 11pt |
-| Permitted metadata and copyright/page numbers | Dubai Regular | 10.5pt |
-
-Screen-size changes do not automatically resize PDF text. Validate both profiles using the actual downloaded files.
-
-Monthly filenames use **TEC_Monthly_Mmm_yy[_EnglishScope].pdf**, with the report date. Prefer a partial unit scope, otherwise a partial sector; use the first selected name without **+N**. Omit full/unrestricted scopes. Use the supplied official English mapping, remove terminal **Department** or **Section**, retain **Office** and **Sector**, convert **&** to **and**, and use ASCII underscores without hidden direction controls. Other report filename rules remain independent.
-
-## 11. Applying and maintaining the standard
-
-Map each existing page element to a shared role before editing. Reuse components and tokens; avoid a new set of local overrides for every page. Keep dashboard labels, source-report legends, table text and PDF text separately scoped.
-
-For a new direction, illustrate first. For approved implementation, continue without repeating approval requests. A review finding does not authorize an additional control or a metric change. Keep the rejected extra-status disclosure and top follow-up shortcut out of the standard.
-
-Verify relevant desktop, tablet, phone and export states; long Arabic/mixed-script labels; selected scope; zeros/missing values; actual source totals and denominators; and interactions changed by the work. Record passes and remaining limitations accurately. A documents-only update does not establish that every app page has already been migrated or newly tested.
-
-**Source basis:** the user’s approval to apply and verify the entity-report illustration, readable Arabic, pagination and empty-section handling, together with  the user’s approval to apply and verify the complete portfolio proposal, matching screen/PDF content, readable Arabic layouts and pagination, together with the user’s explicit approval to apply the three monthly illustration plates and the monthly audit corrections, plus approval of the full-width unassigned council box illustration, the preceding council approval, exact six-column order and empty decision-reference omission, together with the user’s 14 October 2026 approval to apply all consistency recommendations, align table-column order and cover naming, keep detailed updates only for special projects, and reduce legends to enlarge charts. Revision 26 incorporates that approved reading order, contents and link behavior. Retain the prior approved monthly legislation card, no Harvey balls, status palette, source-grounded bars, exact filter semantics and all data-quality checks from v159/v160. Current implementation evidence belongs in **Verification-v168.md**; documentation alone is not a validation pass. Historical standards remain provenance and do not override this revision.
-
-
-## 33. Explain monthly comparisons and retain the working session
+### Monthly changes and session retention
 
 - Compare exact approved identities across both complete snapshots before applying scope. Preserve raw typed keys. Changes to sector/title/source-name key components must never be silently paired. Flag exact partial-key candidates as unresolved diagnostics; one-sided keys establish source presence, not proof of new, cancelled or completed work. Retain missing/duplicate-key quarantine and missing-table safeguards.
 - Reuse one source-field change detector for comparison and entity history. Compare relevant non-calculated source fields, including notes, managers and narrative updates. Keep recalculated timing distinct from a source-cell edit.
 - A monthly +/− opens its exact metric and inherited scope in the same tab, focuses the explanation and highlights relevant changed fields. Keep both incoming and outgoing contributors, including offsetting movements. Other edits and unchanged records remain available separately. Preserve the drill intent through file setup, reload and return navigation.
 - Use a domain/metric table in monthly order for the comparison overview. Do not combine projects, decisions, indicators and money into a primary grand total. Approved agenda and emerging topics remain separate. Keep independent financial/measurement measures and the established legislation, council and cohort definitions.
-- Use the RTL detail sequence **م ← الموضوع / المشروع ← سبب التغير ← السابق ← الحالي ← الأثر على المقياس**. Full before/after source information is available on demand. Technical provenance is secondary. Dense phone tables remain keyboard-accessible horizontally scrolling tables.
+- Use the RTL detail sequence **م ← الموضوع / المشروع ← سبب التغير ← السابق ← الحالي ← الأثر على المقياس**. Full before/after source information is available on demand. Technical provenance is secondary. Any necessary local desktop table scroll region remains keyboard-accessible and named.
 - Counts reconcile previous + incoming − outgoing + unresolved residual = current. Money uses amount contributions in the same currency/population. Rate/average changes are non-additive: show coverage and the matching measured cohort rather than fabricated per-record count contributions. Ignore only floating-point residual noise within a documented machine-precision bound. Missing source/required fields are unavailable, not zero. Display zero as a dash and retain approved status colors.
 - Attribute the same records to each affected organizational level using the metric's eligibility before and after. A transfer plus status change must not subtract from a status the old unit never held. Do not sum sector/unit/entity levels or overlapping memberships into a disjoint total.
 - Default shared drill navigation to the same tab. Keep explicit new-tab activation and modified clicks. Successful supported storage retains the validated binary workbook pair locally through a small session reference and a version. New tabs retain the requested pair/version; older tabs announce a newer version and update explicitly. Never silently mix snapshots.
 - Validate storage write/read, retain honest blocked/quota fallback messages and stage replacements. Do not label live files saved unless verified. Keep any prior retained version available for explicit recovery; do not silently restore it as the newly selected pair. Offer session ending and local-file removal. Binary sessions expire after 24 hours and expired records are cleaned on the next successful app start; tab closure alone is not a guaranteed deletion event. No workbook data is sent to a service.
-- Export the selected comparison view, period, entity/organizational scope, query context, changed fields and row sequence from the same model. Use native selectable text/vector PDF, readable A4 portrait columns, repeated table headers and existing long-row continuation. Draw legend swatches; do not insert unsupported decorative font glyphs. Verify affected shared exports and record the direct-file/browser limitations actually encountered.
+- Export the selected comparison view, period, entity/organizational scope, query context, changed fields and row sequence from the same model. Use native selectable text/vector PDF, readable full-PDF columns and, at the technical height limit, repeated table headers and existing long-row continuation. Draw legend swatches; do not insert unsupported decorative font glyphs. Verify affected shared exports and record the direct-file/browser limitations actually encountered.
 
-
-## Revision 34 — Council follow-up eligibility for the 2026 mold
+### Council follow-up eligibility: approved 2026 mold
 
 - Use one shared source-grounded eligibility predicate in monthly counts, council summaries/charts/tables, drilldowns, comparisons and exports. A nonblank subject is required after Excel TRIM/NBSP handling.
 - Include «رسالة رسمية» and «بريد من الوحدة التنظيمية» without a year condition. Include «مغلق (لا يتطلب متابعة)» and «ملغي» only when the follow-up letter date is in 2026, the decision letter reference contains the text 2026, or the meeting-year field equals 2026 after trimming. Numeric Excel dates use their calendar year; textual dates use the mold's contains-2026 test. Meeting date is not an additional eligibility field. Count each source record once.
@@ -425,4 +357,34 @@ Verify relevant desktop, tablet, phone and export states; long Arabic/mixed-scri
 - If an alternative eligibility column is missing and a closed/cancelled record has no known positive year witness, report the metric unavailable rather than silently excluding an ambiguous record. Default letter/email records need no year witness.
 - Preserve the intentionally broader entity register and the council report's other-records section. Distinguish these full source populations from follow-up performance metrics; do not discard source records to make totals match.
 - Anonymized subjects intentionally removed by the owner are not a workbook defect. Preserve originals and validate with separate, explicitly synthetic names/controlled cases. Do not publish supplied or synthetic workbooks in the runtime ZIP. Distinguish formula inspection/independent calculation from actual Excel recalculation and Power Query refresh.
-- Keep the approved visual composition, fonts, colors, six council columns and export formats. Test native A4 landscape council pages, A4 portrait monthly pages, the existing continuous monthly option and portrait comparison pages.
+- Keep the approved visual composition, fonts, colors and six council columns. Verify the current PDF profiles in section 11; no historical format requirement overrides them.
+
+## 11. PDF profiles, footer and output verification
+
+| Page/report | Only permitted export treatment |
+|---|---|
+| Agenda, council decisions, special projects | A4 landscape, 297 × 210mm |
+| Monthly, portfolio, entity, comparison, search results, data checks and other pages | Full PDF print: 297mm wide, measured content height |
+
+- No A4 portrait format choice/fallback, A3, or PowerPoint export. Full print retains all selected content. If content exceeds the engine’s 5080mm physical page-height limit, continue at the same full width and readable scale with text-safe boundaries/repeated table headings; do not silently switch to A4, clip, shrink or require dropping records.
+- Embed supplied fonts and render native Arabic text/vector graphics through the bundled offline engine. Draw swatches rather than inserting unsupported decorative/private-use font glyphs. Verify real downloaded files; browser screenshots alone do not establish PDF correctness.
+- Full PDF uses the existing full-width monthly profile: 8mm top/side inset, reserved footer clearance and content-derived height measured after fonts/images settle. Other pages retain their own content composition and PDF type roles. Landscape reports use 10mm margins outside full-bleed covers.
+- Landscape covers use the approved full-bleed image and logos. Center title, applicable selected entity and period together horizontally/vertically. No border, footer or number on the cover. Physical page two begins **page 1**; the displayed total excludes the cover.
+- Desktop footer contains copyright only. PDF footer contains copyright and page numbering only. Never emit blank/footer-only pages. Keep footer clearance independent of content measurement.
+- First PDF header uses approved logo/title/source date and applicable scope. Monthly title includes **- لتاريخ DD/MM/YYYY**, with sector/unit scope; entity still filters its data but is omitted from that header. Do not repeat the masthead on continuation pages.
+- Keep headings with following content. Repeat table headings on continuation; preserve complete long notes and internal contents/record destinations. Hide empty sections and their contents entries. No forced page count.
+- PDF type roles are independent of desktop CSS: first title 24pt; portfolio heading 18pt; card/table-section 16pt; main figures 24–28pt; secondary figures 20pt; table headings 13.5pt Dubai Bold; data/notes/in-table badges 12pt; outside-table badges 13.5pt; standard metric/caption 9pt; changes 11pt; metadata/copyright/page numbers 10.5pt. Detailed chart/legend annotations use the explicit chart roles in section 7.
+- Monthly filenames remain **TEC_Monthly_Mmm_yy[_EnglishScope].pdf**, using source date, approved English mappings and first partial unit (otherwise sector), without +N or hidden bidi controls. Preserve other report naming rules.
+
+## 12. Acceptance, evidence and maintenance
+
+- Inspect the desktop renders and interactions changed by the work. Test filters/reset, unions/intersections, exact drill landing, meaningful selected states, keyboard/focus, long Arabic/mixed text, zero/missing values and empty scopes.
+- Reconcile affected calculations and source record sets against the verified baseline/independent fixtures. A visual change must not alter metric definitions, source notes or comparison populations.
+- Inspect actual PDFs for content/order/scope parity, readable fonts, status colors, clipping, complete records, full-height continuation, landscape pagination, cover exclusion and working destinations. Detect footer-only pages by meaningful body content, not merely nonempty extracted text.
+- Test shared-component regressions with focused existing fixtures; do not repeatedly rerun unrelated application/source audits. No mobile/tablet or PowerPoint tests.
+- Record exact runtime hashes, source fixture identity, passed/failed/not-run checks and limitations. Do not describe synthetic data as operational figures, formula inspection as Excel recalculation, or code inspection as a visual pass.
+- Current release implementation evidence belongs in **Verification-v171.md**. Historical verification files remain provenance; they do not establish a current pass.
+
+## 13. Historical provenance
+
+Revisions 24–34 remain available in prior release archives. Their approved source/metric contracts are retained above; superseded device/export rules and the unapproved counted-monthly-strip claim are not active requirements. Revision 35 implements the owner’s explicitly approved desktop/PDF consistency package. Additional visual directions still require illustration and approval.

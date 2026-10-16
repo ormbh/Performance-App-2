@@ -1,0 +1,2052 @@
+{
+  "build": 171,
+  "designRevision": 35,
+  "verdict": "PASS_WITH_RECORDED_LIMITS",
+  "checks": 406,
+  "testSuites": [
+    {
+      "checks": 310,
+      "verdict": "PASS",
+      "cases": [
+        {
+          "name": "retained model: رسالة رسمية no year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية no year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية numeric meeting year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية numeric meeting year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية text meeting year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية text meeting year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية numeric date eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية numeric date completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية text date eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية text date completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية letter reference eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية letter reference completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية all alternatives eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية all alternatives completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية old year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية old year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية future year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: رسالة رسمية future year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية no year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية no year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية numeric meeting year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية numeric meeting year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية text meeting year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية text meeting year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية numeric date eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية numeric date completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية text date eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية text date completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية letter reference eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية letter reference completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية all alternatives eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية all alternatives completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية old year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية old year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية future year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: بريد من الوحدة التنظيمية future year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) no year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) no year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) numeric meeting year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) numeric meeting year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) text meeting year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) text meeting year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) numeric date eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) numeric date completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) text date eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) text date completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) letter reference eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) letter reference completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) all alternatives eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) all alternatives completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) old year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) old year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) future year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: مغلق (لا يتطلب متابعة) future year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي no year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي no year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي numeric meeting year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي numeric meeting year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي text meeting year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي text meeting year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي numeric date eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي numeric date completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي text date eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي text date completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي letter reference eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي letter reference completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي all alternatives eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي all alternatives completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي old year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي old year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي future year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: ملغي future year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model:  no year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model:  no year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model:  numeric meeting year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model:  numeric meeting year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model:  text meeting year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model:  text meeting year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model:  numeric date eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model:  numeric date completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model:  text date eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model:  text date completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model:  letter reference eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model:  letter reference completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model:  all alternatives eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model:  all alternatives completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model:  old year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model:  old year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model:  future year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model:  future year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد no year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد no year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد numeric meeting year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد numeric meeting year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد text meeting year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد text meeting year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد numeric date eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد numeric date completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد text date eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد text date completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد letter reference eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد letter reference completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد all alternatives eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد all alternatives completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد old year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد old year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد future year eligibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: غير معتمد future year completed does not override",
+          "pass": true
+        },
+        {
+          "name": "retained model: blank/whitespace subject excluded \"\"",
+          "pass": true
+        },
+        {
+          "name": "retained model: blank/whitespace subject excluded \"  \"",
+          "pass": true
+        },
+        {
+          "name": "retained model: blank/whitespace subject excluded \" \"",
+          "pass": true
+        },
+        {
+          "name": "retained model: Excel trim/NBSP compatibility",
+          "pass": true
+        },
+        {
+          "name": "retained model: meeting date is not an approved eligibility alternative",
+          "pass": true
+        },
+        {
+          "name": "retained model: included conditional independent of status منجز",
+          "pass": true
+        },
+        {
+          "name": "retained model: done classification منجز",
+          "pass": true
+        },
+        {
+          "name": "retained model: work classification منجز",
+          "pass": true
+        },
+        {
+          "name": "retained model: included conditional independent of status قيد التطوير",
+          "pass": true
+        },
+        {
+          "name": "retained model: done classification قيد التطوير",
+          "pass": true
+        },
+        {
+          "name": "retained model: work classification قيد التطوير",
+          "pass": true
+        },
+        {
+          "name": "retained model: included conditional independent of status قيد المراجعة",
+          "pass": true
+        },
+        {
+          "name": "retained model: done classification قيد المراجعة",
+          "pass": true
+        },
+        {
+          "name": "retained model: work classification قيد المراجعة",
+          "pass": true
+        },
+        {
+          "name": "retained model: included conditional independent of status متأخر",
+          "pass": true
+        },
+        {
+          "name": "retained model: done classification متأخر",
+          "pass": true
+        },
+        {
+          "name": "retained model: work classification متأخر",
+          "pass": true
+        },
+        {
+          "name": "retained model: included conditional independent of status ",
+          "pass": true
+        },
+        {
+          "name": "retained model: done classification ",
+          "pass": true
+        },
+        {
+          "name": "retained model: work classification ",
+          "pass": true
+        },
+        {
+          "name": "retained model: included conditional independent of status ملغى",
+          "pass": true
+        },
+        {
+          "name": "retained model: done classification ملغى",
+          "pass": true
+        },
+        {
+          "name": "retained model: work classification ملغى",
+          "pass": true
+        },
+        {
+          "name": "retained model: missing year alternative reports unavailable when classification ambiguous",
+          "pass": true
+        },
+        {
+          "name": "retained model: default follow-up requires no year columns",
+          "pass": true
+        },
+        {
+          "name": "retained model: known positive witness sufficient with another alternative missing",
+          "pass": true
+        },
+        {
+          "name": "retained model: year-only entry exact contribution councilTotal",
+          "pass": true
+        },
+        {
+          "name": "retained model: year-only entry exact contribution councilDone",
+          "pass": true
+        },
+        {
+          "name": "all source items / monthly metrics / agenda-HH-council models match v170",
+          "pass": true
+        },
+        {
+          "name": "home menu order",
+          "pass": true
+        },
+        {
+          "name": "home destinations text-only",
+          "pass": true
+        },
+        {
+          "name": "home menu Escape/focus",
+          "pass": true
+        },
+        {
+          "name": "home no PowerPoint controls",
+          "pass": true
+        },
+        {
+          "name": "dashboard menu order",
+          "pass": true
+        },
+        {
+          "name": "dashboard destinations text-only",
+          "pass": true
+        },
+        {
+          "name": "dashboard menu Escape/focus",
+          "pass": true
+        },
+        {
+          "name": "dashboard no PowerPoint controls",
+          "pass": true
+        },
+        {
+          "name": "dashboard one primary PDF action",
+          "pass": true
+        },
+        {
+          "name": "projects menu order",
+          "pass": true
+        },
+        {
+          "name": "projects destinations text-only",
+          "pass": true
+        },
+        {
+          "name": "projects menu Escape/focus",
+          "pass": true
+        },
+        {
+          "name": "projects no PowerPoint controls",
+          "pass": true
+        },
+        {
+          "name": "projects one primary PDF action",
+          "pass": true
+        },
+        {
+          "name": "entities menu order",
+          "pass": true
+        },
+        {
+          "name": "entities destinations text-only",
+          "pass": true
+        },
+        {
+          "name": "entities menu Escape/focus",
+          "pass": true
+        },
+        {
+          "name": "entities no PowerPoint controls",
+          "pass": true
+        },
+        {
+          "name": "entities one primary PDF action",
+          "pass": true
+        },
+        {
+          "name": "comparison menu order",
+          "pass": true
+        },
+        {
+          "name": "comparison destinations text-only",
+          "pass": true
+        },
+        {
+          "name": "comparison menu Escape/focus",
+          "pass": true
+        },
+        {
+          "name": "comparison no PowerPoint controls",
+          "pass": true
+        },
+        {
+          "name": "comparison one primary PDF action",
+          "pass": true
+        },
+        {
+          "name": "checks menu order",
+          "pass": true
+        },
+        {
+          "name": "checks destinations text-only",
+          "pass": true
+        },
+        {
+          "name": "checks menu Escape/focus",
+          "pass": true
+        },
+        {
+          "name": "checks no PowerPoint controls",
+          "pass": true
+        },
+        {
+          "name": "checks one primary PDF action",
+          "pass": true
+        },
+        {
+          "name": "upload menu order",
+          "pass": true
+        },
+        {
+          "name": "upload destinations text-only",
+          "pass": true
+        },
+        {
+          "name": "upload menu Escape/focus",
+          "pass": true
+        },
+        {
+          "name": "upload no PowerPoint controls",
+          "pass": true
+        },
+        {
+          "name": "agenda menu order",
+          "pass": true
+        },
+        {
+          "name": "agenda destinations text-only",
+          "pass": true
+        },
+        {
+          "name": "agenda menu Escape/focus",
+          "pass": true
+        },
+        {
+          "name": "agenda no PowerPoint controls",
+          "pass": true
+        },
+        {
+          "name": "agenda one primary PDF action",
+          "pass": true
+        },
+        {
+          "name": "council menu order",
+          "pass": true
+        },
+        {
+          "name": "council destinations text-only",
+          "pass": true
+        },
+        {
+          "name": "council menu Escape/focus",
+          "pass": true
+        },
+        {
+          "name": "council no PowerPoint controls",
+          "pass": true
+        },
+        {
+          "name": "council one primary PDF action",
+          "pass": true
+        },
+        {
+          "name": "hh menu order",
+          "pass": true
+        },
+        {
+          "name": "hh destinations text-only",
+          "pass": true
+        },
+        {
+          "name": "hh menu Escape/focus",
+          "pass": true
+        },
+        {
+          "name": "hh no PowerPoint controls",
+          "pass": true
+        },
+        {
+          "name": "hh one primary PDF action",
+          "pass": true
+        },
+        {
+          "name": "monthly strips restored to9px",
+          "pass": true
+        },
+        {
+          "name": "monthly no in-strip count labels",
+          "pass": true
+        },
+        {
+          "name": "monthly actionable changes44px",
+          "pass": true
+        },
+        {
+          "name": "monthly desktop1280 no body overflow",
+          "pass": true
+        },
+        {
+          "name": "monthly desktop1440 no body overflow",
+          "pass": true
+        },
+        {
+          "name": "monthly desktop1920 no body overflow",
+          "pass": true
+        },
+        {
+          "name": "monthly-full page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "monthly-full native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "monthly-full no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "monthly-full prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "monthly-full approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "monthly-full correct export profile",
+          "pass": true
+        },
+        {
+          "name": "monthly-full continuation preserves full width",
+          "pass": true
+        },
+        {
+          "name": "monthly PDF thin strips/no count labels",
+          "pass": true
+        },
+        {
+          "name": "monthly settings no obsolete format choice",
+          "pass": true
+        },
+        {
+          "name": "monthly-missing-status page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "monthly-missing-status native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "monthly-missing-status no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "monthly-missing-status prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "monthly-missing-status approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "monthly-missing-status correct export profile",
+          "pass": true
+        },
+        {
+          "name": "monthly-missing-status continuation preserves full width",
+          "pass": true
+        },
+        {
+          "name": "monthly missing-status footer screen/PDF parity",
+          "pass": true
+        },
+        {
+          "name": "checks selected control geometry/palette",
+          "pass": true
+        },
+        {
+          "name": "checks shared card corners",
+          "pass": true
+        },
+        {
+          "name": "checks-selected page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "checks-selected native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "checks-selected no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "checks-selected prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "checks-selected approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "checks-selected correct export profile",
+          "pass": true
+        },
+        {
+          "name": "checks-selected continuation preserves full width",
+          "pass": true
+        },
+        {
+          "name": "agenda-landscape page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "agenda-landscape native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "agenda-landscape no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "agenda-landscape prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "agenda-landscape approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "agenda-landscape correct export profile",
+          "pass": true
+        },
+        {
+          "name": "agenda-landscape cover excluded / content numbering",
+          "pass": true
+        },
+        {
+          "name": "agenda PDF aggregate totals independent of selection",
+          "pass": true
+        },
+        {
+          "name": "agenda empty scope hides charts",
+          "pass": true
+        },
+        {
+          "name": "agenda-empty page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "agenda-empty native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "agenda-empty no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "agenda-empty prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "agenda-empty approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "agenda-empty correct export profile",
+          "pass": true
+        },
+        {
+          "name": "agenda-empty cover excluded / content numbering",
+          "pass": true
+        },
+        {
+          "name": "HH leadership pill retained16px",
+          "pass": true
+        },
+        {
+          "name": "HH project link targets44px",
+          "pass": true
+        },
+        {
+          "name": "hh-landscape page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "hh-landscape native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "hh-landscape no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "hh-landscape prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "hh-landscape approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "hh-landscape correct export profile",
+          "pass": true
+        },
+        {
+          "name": "hh-landscape cover excluded / content numbering",
+          "pass": true
+        },
+        {
+          "name": "HH native leadership badge13.5pt",
+          "pass": true
+        },
+        {
+          "name": "hh empty scope hides charts",
+          "pass": true
+        },
+        {
+          "name": "hh-empty page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "hh-empty native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "hh-empty no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "hh-empty prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "hh-empty approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "hh-empty correct export profile",
+          "pass": true
+        },
+        {
+          "name": "hh-empty cover excluded / content numbering",
+          "pass": true
+        },
+        {
+          "name": "council-landscape page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "council-landscape native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "council-landscape no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "council-landscape prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "council-landscape approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "council-landscape correct export profile",
+          "pass": true
+        },
+        {
+          "name": "council-landscape cover excluded / content numbering",
+          "pass": true
+        },
+        {
+          "name": "council empty scope hides charts",
+          "pass": true
+        },
+        {
+          "name": "council-empty page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "council-empty native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "council-empty no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "council-empty prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "council-empty approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "council-empty correct export profile",
+          "pass": true
+        },
+        {
+          "name": "council-empty cover excluded / content numbering",
+          "pass": true
+        },
+        {
+          "name": "entity main table18/16 type",
+          "pass": true
+        },
+        {
+          "name": "entity-full page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "entity-full native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "entity-full no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "entity-full prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "entity-full approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "entity-full correct export profile",
+          "pass": true
+        },
+        {
+          "name": "entity-full continuation preserves full width",
+          "pass": true
+        },
+        {
+          "name": "large entity full-PDF continuation exercised",
+          "pass": true
+        },
+        {
+          "name": "portfolio-full page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "portfolio-full native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "portfolio-full no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "portfolio-full prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "portfolio-full approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "portfolio-full correct export profile",
+          "pass": true
+        },
+        {
+          "name": "portfolio-full continuation preserves full width",
+          "pass": true
+        },
+        {
+          "name": "portfolio settings full-PDF only",
+          "pass": true
+        },
+        {
+          "name": "results-full page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "results-full native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "results-full no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "results-full prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "results-full approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "results-full correct export profile",
+          "pass": true
+        },
+        {
+          "name": "results-full continuation preserves full width",
+          "pass": true
+        },
+        {
+          "name": "comparison section heading shared28px",
+          "pass": true
+        },
+        {
+          "name": "comparison action targets44px",
+          "pass": true
+        },
+        {
+          "name": "comparison-overview-full page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "comparison-overview-full native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "comparison-overview-full no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "comparison-overview-full prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "comparison-overview-full approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "comparison-overview-full correct export profile",
+          "pass": true
+        },
+        {
+          "name": "comparison-overview-full continuation preserves full width",
+          "pass": true
+        },
+        {
+          "name": "monthly delta exact same-tab metric/record landing",
+          "pass": true
+        },
+        {
+          "name": "comparison-detail-full page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "comparison-detail-full native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "comparison-detail-full no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "comparison-detail-full prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "comparison-detail-full approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "comparison-detail-full correct export profile",
+          "pass": true
+        },
+        {
+          "name": "comparison-detail-full continuation preserves full width",
+          "pass": true
+        },
+        {
+          "name": "retained binary comparison pair survives reload",
+          "pass": true
+        },
+        {
+          "name": "no browser runtime errors",
+          "pass": true
+        },
+        {
+          "name": "no unexpected external requests",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "checks": 50,
+      "verdict": "PASS",
+      "cases": [
+        {
+          "name": "dashboard desktop1280 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "dashboard desktop1920 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "projects desktop1280 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "projects desktop1920 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "entities desktop1280 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "entities desktop1920 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "comparison desktop1280 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "comparison desktop1920 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "checks desktop1280 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "checks desktop1920 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "agenda desktop1280 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "agenda desktop1920 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "council desktop1280 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "council desktop1920 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "hh desktop1280 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "hh desktop1920 shared header / one title / PDF position",
+          "pass": true
+        },
+        {
+          "name": "desktop entity relationship table region named",
+          "pass": true
+        },
+        {
+          "name": "PDF hover uses Charcoal",
+          "pass": true
+        },
+        {
+          "name": "PDF keyboard focus2px/2px",
+          "pass": true
+        },
+        {
+          "name": "PDF loading/disabled palette",
+          "pass": true
+        },
+        {
+          "name": "desktop multi-select first name plus additional count",
+          "pass": true
+        },
+        {
+          "name": "desktop real filter union/intersection retains source counts",
+          "pass": true
+        },
+        {
+          "name": "filter reset restores unrestricted display",
+          "pass": true
+        },
+        {
+          "name": "agenda screen/collected-native-PDF exact record sequence",
+          "pass": true
+        },
+        {
+          "name": "hh screen/collected-native-PDF exact record sequence",
+          "pass": true
+        },
+        {
+          "name": "council screen/collected-native-PDF exact record sequence",
+          "pass": true
+        },
+        {
+          "name": "unchanged shared calculation/chart source model/rules.js",
+          "pass": true
+        },
+        {
+          "name": "unchanged shared calculation/chart source model/loader.js",
+          "pass": true
+        },
+        {
+          "name": "unchanged shared calculation/chart source model/comparison.js",
+          "pass": true
+        },
+        {
+          "name": "unchanged shared calculation/chart source model/entities.js",
+          "pass": true
+        },
+        {
+          "name": "unchanged shared calculation/chart source views/agenda-matrix.js",
+          "pass": true
+        },
+        {
+          "name": "unchanged shared calculation/chart source views/hh-charts.js",
+          "pass": true
+        },
+        {
+          "name": "unchanged shared calculation/chart source views/council-charts.js",
+          "pass": true
+        },
+        {
+          "name": "monthly empty scope hides distributions/completion bars",
+          "pass": true
+        },
+        {
+          "name": "monthly-empty-full page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "monthly-empty-full native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "monthly-empty-full no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "monthly-empty-full prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "monthly-empty-full approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "monthly-empty-full correct export profile",
+          "pass": true
+        },
+        {
+          "name": "monthly-empty-full continuation preserves full width",
+          "pass": true
+        },
+        {
+          "name": "entity empty scope hides charts/contents/record sections",
+          "pass": true
+        },
+        {
+          "name": "entity-empty-full page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "entity-empty-full native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "entity-empty-full no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "entity-empty-full prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "entity-empty-full approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "entity-empty-full correct export profile",
+          "pass": true
+        },
+        {
+          "name": "entity-empty-full continuation preserves full width",
+          "pass": true
+        },
+        {
+          "name": "final desktop no runtime errors",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "checks": 46,
+      "verdict": "PASS",
+      "cases": [
+        {
+          "name": "exact ZIP extraction agrees with23 runtime hashes",
+          "pass": true
+        },
+        {
+          "name": "delivered build171 loaded",
+          "pass": true
+        },
+        {
+          "name": "no workbooks or PowerPoint export assets in clean runtime",
+          "pass": true
+        },
+        {
+          "name": "dashboard small metadata no failing Taupe/Linen pairing",
+          "pass": true
+        },
+        {
+          "name": "dashboard delivered desktop no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "projects small metadata no failing Taupe/Linen pairing",
+          "pass": true
+        },
+        {
+          "name": "projects delivered desktop no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "entities small metadata no failing Taupe/Linen pairing",
+          "pass": true
+        },
+        {
+          "name": "entities delivered desktop no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "comparison small metadata no failing Taupe/Linen pairing",
+          "pass": true
+        },
+        {
+          "name": "comparison delivered desktop no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "checks small metadata no failing Taupe/Linen pairing",
+          "pass": true
+        },
+        {
+          "name": "checks delivered desktop no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "agenda small metadata no failing Taupe/Linen pairing",
+          "pass": true
+        },
+        {
+          "name": "agenda delivered desktop no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "hh small metadata no failing Taupe/Linen pairing",
+          "pass": true
+        },
+        {
+          "name": "hh delivered desktop no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "council small metadata no failing Taupe/Linen pairing",
+          "pass": true
+        },
+        {
+          "name": "council delivered desktop no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "checks heading association retained after shared masthead",
+          "pass": true
+        },
+        {
+          "name": "final-checks-selected page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "final-checks-selected native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "final-checks-selected no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "final-checks-selected prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "final-checks-selected approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "final-checks-selected correct export profile",
+          "pass": true
+        },
+        {
+          "name": "final-checks-selected continuation preserves full width",
+          "pass": true
+        },
+        {
+          "name": "final-monthly-full page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "final-monthly-full native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "final-monthly-full no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "final-monthly-full prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "final-monthly-full approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "final-monthly-full correct export profile",
+          "pass": true
+        },
+        {
+          "name": "final-monthly-full continuation preserves full width",
+          "pass": true
+        },
+        {
+          "name": "final monthly figures and thin strips retained",
+          "pass": true
+        },
+        {
+          "name": "one desktop monthly empty state / no empty follow-up card",
+          "pass": true
+        },
+        {
+          "name": "final-monthly-empty page plan agrees",
+          "pass": true
+        },
+        {
+          "name": "final-monthly-empty native glyphs/page bounds",
+          "pass": true
+        },
+        {
+          "name": "final-monthly-empty no blank/footer-only pages",
+          "pass": true
+        },
+        {
+          "name": "final-monthly-empty prepared layout no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "final-monthly-empty approved PDF dimensions",
+          "pass": true
+        },
+        {
+          "name": "final-monthly-empty correct export profile",
+          "pass": true
+        },
+        {
+          "name": "final-monthly-empty continuation preserves full width",
+          "pass": true
+        },
+        {
+          "name": "one PDF empty state / no duplicate follow-up block",
+          "pass": true
+        },
+        {
+          "name": "delivered desktop no runtime errors",
+          "pass": true
+        },
+        {
+          "name": "delivered app makes no unexpected remote requests",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "nativePdfDownloads": 19,
+  "nativePdfPages": 47,
+  "pdfs": [
+    {
+      "name": "monthly-full",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 746.0000291612413,
+          "bodySpans": 226
+        }
+      ],
+      "sha256": "5dc21825db9f165dc561c9769ca768a69aa4474fa555cc463510bc00bf33ec9d"
+    },
+    {
+      "name": "monthly-missing-status",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 753.0000325520833,
+          "bodySpans": 227
+        }
+      ],
+      "sha256": "8b941e0b2ca1dc2b398539916140ffd89b12a269df58148017272f64a7fc9ba6"
+    },
+    {
+      "name": "checks-selected",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 232.99998982747397,
+          "bodySpans": 46
+        }
+      ],
+      "sha256": "84fe82598b1e4903179751d4d201b3027586a83c7df35921c70a96a4490e6866"
+    },
+    {
+      "name": "agenda-landscape",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 2
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 8
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 80
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 75
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 54
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 64
+        }
+      ],
+      "sha256": "ff35501f6f90bf48dd40312f7bf0ffc39ddb95b09417198b79bd7a32037da92e"
+    },
+    {
+      "name": "agenda-empty",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 2
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 1
+        }
+      ],
+      "sha256": "e12057e8f8dd15acb605fe828218356ee317b166ee0a0303490153e995e36299"
+    },
+    {
+      "name": "hh-landscape",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 2
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 10
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 42
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 55
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 20
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 16
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 20
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 16
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 16
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 16
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 15
+        }
+      ],
+      "sha256": "488ae51136988da967fe2dc9c26ab65f443e418edda53820691930d7dcb076bd"
+    },
+    {
+      "name": "hh-empty",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 2
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 1
+        }
+      ],
+      "sha256": "65ddf765e5dd1ccb41d4ce029fc207bba74a140cab9e8c033676a721679a2339"
+    },
+    {
+      "name": "council-landscape",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 2
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 8
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 30
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 72
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 69
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 55
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 83
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 77
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 36
+        }
+      ],
+      "sha256": "7172b85a0122c30c34e5ec89dcf1362f3509b82ce10c3fbef9306b3e25f7b67b"
+    },
+    {
+      "name": "council-empty",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 2
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 209.9999940660265,
+          "bodySpans": 1
+        }
+      ],
+      "sha256": "93961e4be8a119da013c1d07473c93f9e49c28c97ac8d3a1cf8ff7b7fee414ae"
+    },
+    {
+      "name": "entity-full",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 5075.000132921006,
+          "bodySpans": 1949
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 3832.0000352647567,
+          "bodySpans": 1219
+        }
+      ],
+      "sha256": "e8ec6c73e030514265d517cb395dd279e5283ff6a7e0a1f3d4562938b0cf9b09"
+    },
+    {
+      "name": "portfolio-full",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 1373.0000006781684,
+          "bodySpans": 351
+        }
+      ],
+      "sha256": "0132e8f8a076a26e5fa55c6244cd092ccddaa631f14de0fd74c2b6c9c924b9d8"
+    },
+    {
+      "name": "results-full",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 5028.9998399522565,
+          "bodySpans": 1337
+        },
+        {
+          "width": 297.0000023735894,
+          "height": 1586.9999443901909,
+          "bodySpans": 401
+        }
+      ],
+      "sha256": "1c1d71fe50c2235978bba6f1ff8ca1528baf81913c8ba355f9be572691535ceb"
+    },
+    {
+      "name": "comparison-overview-full",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 323.99999084472654,
+          "bodySpans": 100
+        }
+      ],
+      "sha256": "369b0bdaeaaf7c07357d1c4b26f21b4a30fbcf10aa10485c2d9eb72a54e9b033"
+    },
+    {
+      "name": "comparison-detail-full",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 222.99999728732638,
+          "bodySpans": 50
+        }
+      ],
+      "sha256": "4f8d993086159677099dac308f37bbda03b935d719f9cadc836d246253341415"
+    },
+    {
+      "name": "monthly-empty-full",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 83.99999762641058,
+          "bodySpans": 8
+        }
+      ],
+      "sha256": "6f6a8b3026f9a3f110e2b6ef066425b8a21835fe7a0283489318919bc28a36d0"
+    },
+    {
+      "name": "entity-empty-full",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 79.99999953375921,
+          "bodySpans": 5
+        }
+      ],
+      "sha256": "e62d241538c570c5f5512bf28e28e9e5d2e2271b87eaf0e5961b42b10c61e1d8"
+    },
+    {
+      "name": "final-checks-selected",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 232.99998982747397,
+          "bodySpans": 46
+        }
+      ],
+      "sha256": "f7ac0b98ac57a8ec82d7e6b7de7e3a3d450158cce7381cf34785c22e0f1fcdf0"
+    },
+    {
+      "name": "final-monthly-full",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 746.0000291612413,
+          "bodySpans": 226
+        }
+      ],
+      "sha256": "9d478a830fd1bf9cfc5215dbc37c7fe8bfa2639b8e831a16870da4ff7feb7815"
+    },
+    {
+      "name": "final-monthly-empty",
+      "pages": [
+        {
+          "width": 297.0000023735894,
+          "height": 79.99999953375921,
+          "bodySpans": 5
+        }
+      ],
+      "sha256": "c3e04434ad101fadfba1e8ab2fb497e2ea6a3829c7374f65a8d43c0b35574140"
+    }
+  ],
+  "runtime": {
+    "build": 171,
+    "designRevision": 35,
+    "fileCount": 23,
+    "bytes": 7022742,
+    "sha256": "a200d1a6d6c576071080f00f6b54d8bf2184b78377451b41ecd65ef6fd14beb8",
+    "files": {
+      "README.txt": "4b986c9e52ff2d284b7e1ed2a80f35078232451a220999cfb15a58addd3c8f24",
+      "assets/css/app-bundle.css": "0aab9f33b4843b7456c02d5059b3897caa94a4e7c95edbe2afea63b66c914187",
+      "assets/css/print-measure-bundle.css": "7f800839fde7283eade2cbd6b9948d466e9308caea4a0943b61830ba3b93cdac",
+      "assets/fonts/DIN-Next-Arabic-Regular.otf": "9c2c15f517e786908c1fa917650f3723953aba6ef3fe0a3a7439c78fc0105715",
+      "assets/fonts/DIN-Next-LT-Arabic-Regular.ttf": "a96ab4c40a249f58bc245e6610ab2488cfd3580cfa776a1ad2a92788baf49dcd",
+      "assets/fonts/Dubai-Bold.otf": "299b7e9a156e5c938a1c82605f29eefe48579811c21c571c3a4625d74f48676d",
+      "assets/fonts/Dubai-Regular.otf": "025504c5514f902ce95e39d1c765f8bc65561d89c46024ef20e3f5d59503b2e2",
+      "assets/fonts/OFL.txt": "1b806a2fb734929564b7562be413412feeb041f165940e9094b84c523cf10bed",
+      "assets/icons/app-192.png": "4ed57658565a9a1cb9c6a811009b95e45256f2ad2051e76cfdda5862aae6a9a5",
+      "assets/icons/app-512.png": "d1c62b79ca9781af65c8bd2e076691b5a42584d1250aa813080649a30c52ce05",
+      "assets/icons/apple-touch-icon.png": "8f8a9ef26be7263d90f042fd3fa528a06179dc28a190f35b072390ceff9011f7",
+      "assets/img/agenda-cover.jpg": "d158ae2851d7ecc15072764c25560ee5d4a05f1db1c6faf8113e2c1a05b405ab",
+      "assets/img/agenda-logos.png": "903f29bb3ca1027ca5e992fefb0428e7c9fd55db5f91603f9def8a7ccf40f155",
+      "assets/img/search-background.png": "89ade61e25d179566c84df6f1fac2b6a7fd7b378834c480da0b92a6e377e5bca",
+      "assets/img/search-mashrabiya.jpg": "9f9e86ce18b75524867fdfe9edb144051465b66fb0f93b2a2fe7bfa41286c2ff",
+      "assets/img/tec-positive.png": "fcab6fe27d22f816a93016e0cbcb3c38432fe2ef8885a3f313e6a0efe86151ef",
+      "assets/img/tec-red.png": "abafeddbf4c7cc66a5f2c25e997ee4ce90b517a5ea0b15f38398d396c68680cf",
+      "assets/js/app-bundle.js": "dda7a3ef9ac555a081d9d54e0e7abf3eb5769f9550d05ff16ce970519cfb4dab",
+      "assets/js/lib/offline-pdf-engine.js": "647b32e4d4481fbc4df6edfa77ac71853131448ea4602d6b054f713ef6ee7069",
+      "assets/vendor/offline-pdf-LICENSES.txt": "55cf60144f8249cdd177adbf81fe30af773b5bb034acf68efd27db9f86f04521",
+      "assets/vendor/tec-pdf-symbols-LICENSE.txt": "f32df582a2aab128c07b2f7e36e7b928dc5f6bd82657b905c04f91459f9e5cf9",
+      "index.html": "656daea4fff61b44b6f243ae20df1c787d8fe379d719a9276f42c0d72deb7175",
+      "manifest.webmanifest": "b3ed8e7dc3299eb031ca9254ff3ef6fa0190e48ebb9e1a074a77dc451745e912"
+    }
+  },
+  "fixtures": [
+    {
+      "name": "ILLUSTRATIVE-monthly-preview.xlsx",
+      "sha256": "4b10d057090cf522d73c28667d29b1875b0d7b37e75892f5eb676c82b7fbcf08"
+    },
+    {
+      "name": "SYNTHETIC-current.xlsx / SYNTHETIC-previous.xlsx",
+      "purpose": "Existing v170 controlled council44→45 pair"
+    }
+  ],
+  "limits": [
+    "Hosted/local-HTTP desktop Chromium verified; other browsers and direct-file behavior not certified",
+    "Synthetic/illustrative fixtures are not operational reports",
+    "No native Excel recalculation or Power Query refresh",
+    "Mobile/tablet and PowerPoint are excluded by user scope"
+  ],
+  "evidencePrivacy": "No source workbooks, full record text or rendered operational notes included in this summary"
+}

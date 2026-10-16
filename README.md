@@ -1,11 +1,11 @@
 # Performance App
 
-[Download the current app — v170](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v170.zip)
+[Download the current app — v171](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v171.zip)
 
-Extract the ZIP and open **index.html**. Keep **assets** and **manifest.webmanifest** beside it, then select your workbook. No source data is bundled.
+Extract the ZIP and keep index.html, assets and manifest.webmanifest together. No source workbook is bundled.
 
-Council performance now matches the approved 2026 mold eligibility rule across monthly/council metrics, drilldowns, comparisons and native exports. Full entity/source registers retain their broader scope. The approved layout and workbook retention behavior are preserved.
+Desktop-only design standard. PDF exports use full content-height print, with A4 landscape reserved for agenda, council decisions and special projects. PowerPoint controls/assets are removed. Monthly thin strips are restored; source calculations and approved report chart types are preserved.
 
-382 focused checks pass using preserved anonymized v4 plus separate synthetic cases. Excel/Power Query execution and live operational movements were not verified. Hosted Chromium was tested; direct-file and other-browser behavior remain unverified.
+406 focused checks pass, including19 native PDF downloads/47 pages and checks against the exact clean ZIP. Hosted desktop Chromium was verified; direct-file/other-browser behavior and Excel/Power Query execution were not certified. No mobile/tablet or PowerPoint testing is in scope.
 
-[Verification](docs/Verification-v170.md) · [Design principles](docs/TEC-Design-Principles.md) · [Release inventory](docs/release.json) · [Earlier releases](archive/README.md)
+[Verification](docs/Verification-v171.md) · [Design principles](docs/TEC-Design-Principles.md) · [Release inventory](docs/release.json)
