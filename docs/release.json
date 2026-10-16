@@ -1,15 +1,15 @@
 {
-  "build": 172,
-  "designRevision": 36,
+  "build": 173,
+  "designRevision": 37,
   "fileCount": 23,
-  "bytes": 7033125,
-  "sha256": "e95d81e5625d17505223b92b0f60ea813d3007c08411cdf50f1924c3ea2764e5",
-  "zip": "Performance-App-v172.zip",
-  "zipSha256": "e95d81e5625d17505223b92b0f60ea813d3007c08411cdf50f1924c3ea2764e5",
+  "bytes": 7034084,
+  "sha256": "8136ed90f8d18dab92fba2823aa124b037a5005c8939cdc32ca335906c00d46a",
+  "zip": "Performance-App-v173.zip",
+  "zipSha256": "8136ed90f8d18dab92fba2823aa124b037a5005c8939cdc32ca335906c00d46a",
   "runtimeFiles": {
-    "README.txt": "d9bb495ff56bfb717cceb86a10a3d0b528208a0e3acba56c0b79b90b700ec50d",
-    "assets/css/app-bundle.css": "874fc75637c569724c07389652ce418058e2c314f380e1318986373a62618125",
-    "assets/css/print-measure-bundle.css": "42fab064c5c209a31a827dcf45294b2e0e0c37f08745e5dd567066aa7c5ec67e",
+    "README.txt": "b40cfb19e0f06575a6ccbfc121c9bd8882db49bea435b4a6c7814b5874e545a1",
+    "assets/css/app-bundle.css": "91434011c63f33f1da0f5c9a1e965718f7cfd0536091908e76f7962abbeb2dc9",
+    "assets/css/print-measure-bundle.css": "483ee7e0c75a11009ee35267b57c77f438eeca8f79dcfcf8dcd98142bee34f4e",
     "assets/fonts/DIN-Next-Arabic-Regular.otf": "9c2c15f517e786908c1fa917650f3723953aba6ef3fe0a3a7439c78fc0105715",
     "assets/fonts/DIN-Next-LT-Arabic-Regular.ttf": "a96ab4c40a249f58bc245e6610ab2488cfd3580cfa776a1ad2a92788baf49dcd",
     "assets/fonts/Dubai-Bold.otf": "299b7e9a156e5c938a1c82605f29eefe48579811c21c571c3a4625d74f48676d",
@@ -24,15 +24,21 @@
     "assets/img/search-mashrabiya.jpg": "9f9e86ce18b75524867fdfe9edb144051465b66fb0f93b2a2fe7bfa41286c2ff",
     "assets/img/tec-positive.png": "fcab6fe27d22f816a93016e0cbcb3c38432fe2ef8885a3f313e6a0efe86151ef",
     "assets/img/tec-red.png": "abafeddbf4c7cc66a5f2c25e997ee4ce90b517a5ea0b15f38398d396c68680cf",
-    "assets/js/app-bundle.js": "66d11677fb9c2cfec4c4246acb9dec24ca4503a7805a4e1868ad955dcfede6fb",
+    "assets/js/app-bundle.js": "f3bf18be6eea1d18560b1296e8d913092642b7788a03f45ad3691223e2c2d691",
     "assets/js/lib/offline-pdf-engine.js": "647b32e4d4481fbc4df6edfa77ac71853131448ea4602d6b054f713ef6ee7069",
     "assets/vendor/offline-pdf-LICENSES.txt": "55cf60144f8249cdd177adbf81fe30af773b5bb034acf68efd27db9f86f04521",
     "assets/vendor/tec-pdf-symbols-LICENSE.txt": "f32df582a2aab128c07b2f7e36e7b928dc5f6bd82657b905c04f91459f9e5cf9",
-    "index.html": "53538de7a0e24616f631ef9076d2f03bb0963c161e998f412e87519a006ee4f0",
+    "index.html": "d6a254a09e6578a097a5bfa57aea2b6b548c3b9d32fbb1d8fc7d39503bdf6db5",
     "manifest.webmanifest": "b3ed8e7dc3299eb031ca9254ff3ef6fa0190e48ebb9e1a074a77dc451745e912"
   },
-  "verification": "docs/Verification-v172.md",
-  "verdict": "FOCUSED_DESKTOP_PDF_PASS_WITH_RECORDED_LIMITS",
+  "verification": "docs/Verification-v173.md",
+  "verdict": "FOCUSED_DESKTOP_PDF_PASS_REPORTED_TEXT_SHIFT_NOT_REPRODUCED",
   "publication": "GitHub repository release artifact",
-  "checks": 395
+  "verificationGroups": {
+    "focused": 249,
+    "navigationRoles": 32,
+    "initialExtractedPackage": 101,
+    "finalAffectedControls": 14,
+    "finalRelease": 28
+  }
 }
