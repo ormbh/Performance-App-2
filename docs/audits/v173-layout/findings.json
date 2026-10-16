@@ -1,0 +1,380 @@
+[
+  {
+    "id": "C01",
+    "priority": "P1",
+    "kind": "Confirmed",
+    "area": "Record detail drawer",
+    "observed": "The sticky navigation sits over the drawer. The top close button is intercepted by the upload navigation link; actual pointer hit-testing confirms it.",
+    "expected": "Modal controls must sit above navigation and the background must be inert.",
+    "fix": "Use one modal/top-layer system, restore focus to the initiating record and verify close/Escape/background interaction."
+  },
+  {
+    "id": "C02",
+    "priority": "P1",
+    "kind": "Confirmed",
+    "area": "Monthly and entity filters — long selections",
+    "observed": "At 1280px, a real long unit name makes monthly fields 72 / 92 / 72px and entity fields 72 / 112 / 72 / 72 / 72px.",
+    "expected": "A coherent field row and properly centered task actions in every selection state.",
+    "fix": "Choose one compact-value/wrapping policy; align peers through the row, preserve full names in the picker/accessibility label and recalculate toolbar alignment."
+  },
+  {
+    "id": "C03",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Shared page shell",
+    "observed": "At 1440px the first monthly filter starts at y=212.6px; projects, entities and the formal reports start at y=236.6px with equivalent title/logo geometry.",
+    "expected": "One title-to-controls spacing contract, using the monthly desktop baseline.",
+    "fix": "Use the same masthead/context/control slots instead of compensating for different parent padding."
+  },
+  {
+    "id": "C04",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Data checks page",
+    "observed": "Main content has 36px side padding while its header and the approved pages use 48px.",
+    "expected": "48px desktop gutters.",
+    "fix": "Align checks content and tables to the shared page grid."
+  },
+  {
+    "id": "C05",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Comparison and data checks canvas",
+    "observed": "Body canvas is #F7F6F3; monthly/projects/entities/reports use the approved Linen #EFEBE7.",
+    "expected": "Use the approved canvas and Paper surfaces.",
+    "fix": "Remove the legacy page-specific canvas override; keep intentional search-home/results exceptions explicit."
+  },
+  {
+    "id": "C06",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Search results PDF action",
+    "observed": "The active تنزيل PDF button is Paper/Teal, with a Mist hover, while the same action elsewhere is Teal/Paper with Charcoal hover.",
+    "expected": "One primary PDF action treatment.",
+    "fix": "Use the shared export button for results, including normal, hover, disabled, busy and focus states."
+  },
+  {
+    "id": "C07",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "PDF settings dialogs",
+    "observed": "Monthly settings title is 24px and #2E4445; portfolio settings title is 28px and Charcoal.",
+    "expected": "Equivalent modal title roles should match the approved hierarchy and palette.",
+    "fix": "Render both settings dialogs through the same title/body/action frame; preserve their different settings."
+  },
+  {
+    "id": "C08",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Monthly settings close control",
+    "observed": "Close target is 36×36px with legacy #466764 ink and #F2F2EB fill; portfolio close is 44×44px with approved Ink/Paper.",
+    "expected": "44×44px icon target and approved state colors.",
+    "fix": "Use the shared icon button and modal tokens."
+  },
+  {
+    "id": "C09",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Filter picker actions",
+    "observed": "تحديد الكل and مسح التحديد are approximately 36px high and use 6px corners.",
+    "expected": "At least 44px action targets, 8px action corners.",
+    "fix": "Standardize picker commands without enlarging or moving the option data."
+  },
+  {
+    "id": "C10",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Project main list and single-record table",
+    "observed": "The project record-list and single-record tables use 16px Bold column headings; agenda and monthly use 18px Bold. The default projects follow-up table already uses 18px Bold headings and 16px body text.",
+    "expected": "Use the agenda table-heading baseline.",
+    "fix": "Share the table heading role across portfolio main/follow-up/drill views."
+  },
+  {
+    "id": "C11",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Project list table density",
+    "observed": "Project record-list/detail cells use 14px vertical / 12px horizontal padding, versus 16px in the agenda/monthly baseline; ordinal/date cells have separate narrower rules. This does not describe every projects table.",
+    "expected": "A documented density tier for equivalent record tables.",
+    "fix": "Use the common comfortable record-table density, retaining deliberate ordinal/date column widths and natural source-text wrapping."
+  },
+  {
+    "id": "C12",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Entity comparison/history view",
+    "observed": "The entity comparison/history view reuses entity-print-table on screen: headings are 17px Regular and body text is 17px, versus the 18px Bold / 16px record-table baseline.",
+    "expected": "Desktop table headings 18px Dubai Bold, body 16px.",
+    "fix": "Use a screen table component; reserve print-role overrides for print output."
+  },
+  {
+    "id": "C13",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Entity detail/domain controls",
+    "observed": "Domain controls use 17px text, 7px corners and #FFFFFF active ink, versus the standard 16px / 8px / Paper roles.",
+    "expected": "One desktop control system.",
+    "fix": "Reuse the shared tab/filter/action roles, with explicit selected and focus states."
+  },
+  {
+    "id": "C14",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Entity scope metadata",
+    "observed": "The same five-field scope is rendered below filters and again in the body; the source cutoff repeats after the masthead.",
+    "expected": "One clear on-screen scope/context presentation.",
+    "fix": "Keep scope/reset below filters; use the same scope model once in PDF metadata without repeating it on screen."
+  },
+  {
+    "id": "C15",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Portfolio legend heading",
+    "observed": "The heading uses 20px Dubai; the agenda baseline uses the heading-font role at 20px.",
+    "expected": "Equivalent legend-heading typography.",
+    "fix": "Use the agenda legend type role while retaining portfolio-specific definitions."
+  },
+  {
+    "id": "C16",
+    "priority": "P3",
+    "kind": "Confirmed",
+    "area": "Portfolio legend density",
+    "observed": "Legend container uses 16px / 24px padding and 12px / 24px definition gaps rather than the compact 16px legend contract.",
+    "expected": "One compact legend layout, with enough chart area.",
+    "fix": "Apply one related-chart legend component; keep source-specific wording and status identities."
+  },
+  {
+    "id": "C17",
+    "priority": "P3",
+    "kind": "Confirmed",
+    "area": "Portfolio PDF legend labels",
+    "observed": "Labels use 11pt while the formal-report legend contract is 10.5pt.",
+    "expected": "Revision 37 section 11 points detailed chart/legend annotations to the explicit section 7 chart roles; use that annotation role in full PDF too, retaining named chart-specific exceptions.",
+    "fix": "Standardize the role; do not apply a blanket font change to whole tables or charts."
+  },
+  {
+    "id": "C18",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Entity PDF primary total",
+    "observed": "The primary overall total is 20pt; monthly primary totals are 28pt and the principles specify 24–28pt main figures.",
+    "expected": "Preserve the primary/secondary hierarchy in full PDF.",
+    "fix": "Use the shared primary-total print role and verify the downloaded file."
+  },
+  {
+    "id": "C19",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Entity PDF secondary figures",
+    "observed": "Summary figures are 18pt; the current PDF secondary-figure role is 20pt.",
+    "expected": "A single secondary-figure print role.",
+    "fix": "Correct the role mapping, preserving counts, labels and semantic nesting."
+  },
+  {
+    "id": "C20",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Special-project PDF progress caption",
+    "observed": "نسبة الإنجاز المسجلة is 8.25pt on ordinary detail pages (for example physical page 10), below the 9pt caption role.",
+    "expected": "Readable, consistent print captions.",
+    "fix": "Use the approved caption size, remeasure the identity row and verify page breaks without shrinking source notes."
+  },
+  {
+    "id": "C21",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Interactive portfolio and monthly figures",
+    "observed": "Some monthly count targets are 21–39px high. Portfolio record links are 26px high; some proportional segment buttons are only a few pixels wide.",
+    "expected": "44px action targets, with proportional chart geometry preserved.",
+    "fix": "Reserve coherent hit areas for text/count actions. Use whole chart rows and separate readable drill controls for tiny marks; never inflate data bars or overlap adjacent hit areas."
+  },
+  {
+    "id": "C22",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Entity chart-to-list links",
+    "observed": "Some chart list links are only 22px high.",
+    "expected": "Quiet links must still be usable controls with the agreed target size.",
+    "fix": "Use one shared report/list-link component with a reserved target and visible keyboard focus."
+  },
+  {
+    "id": "R07",
+    "priority": "Decision",
+    "kind": "Contract clarification",
+    "area": "Comparison file setup headings",
+    "observed": "Previous/current file-card titles use 23px; equivalent card headings in the monthly baseline use 28px.",
+    "expected": "Define the file-setup card heading role explicitly; it is not automatically equivalent to a dashboard metric-card heading.",
+    "fix": "Decide whether 23px is a named setup-role exception or use the standard card heading. Do not infer a material usability defect from the size difference alone."
+  },
+  {
+    "id": "D01",
+    "priority": "P1",
+    "kind": "Design proposal",
+    "area": "Projects page composition",
+    "observed": "A largely untitled full-width summary, multiple technical tables presented as charts, manager analysis and priority/budget panels compete before the main record list.",
+    "expected": "A monthly-style hierarchy: clear primary measures, generous comparable plots, then the record table.",
+    "fix": "Recompose the page as illustrated; preserve financial scope, mean-progress meaning, manager ranking and every existing analysis/detail route."
+  },
+  {
+    "id": "D02",
+    "priority": "P1",
+    "kind": "Design proposal",
+    "area": "Entities page composition",
+    "observed": "The supplied scope creates approximately 67,000px of page height. Separate status cards, priority rows, relationship rows and grouped full registers produce heavy repetition.",
+    "expected": "A readable monthly-style summary, a shared domain distribution and a clear main register.",
+    "fix": "Use progressive desktop record browsing with exact totals and full matching-record PDF export. Retain approved/emerging agenda separation and full council-register scope."
+  },
+  {
+    "id": "D03",
+    "priority": "P2",
+    "kind": "Design proposal",
+    "area": "Projects/entities summary leads",
+    "observed": "Removing generic overview headings left prominent totals with no visible card identity and unused header space.",
+    "expected": "An intentional title/total lead following the agenda baseline.",
+    "fix": "Recompose the summary lead; do not restore the rejected generic نظرة عامة label."
+  },
+  {
+    "id": "D04",
+    "priority": "P2",
+    "kind": "Design proposal",
+    "area": "Entity follow-up presentation",
+    "observed": "Priority rows repeat later in the full register, with overlapping date-alert and status measures that require explanatory prose.",
+    "expected": "Clear separation of recorded status and date-based follow-up; one obvious path to exact records.",
+    "fix": "Keep date alerts nested/contextual and let their counts filter the main list. Preserve full alert reasons and source notes."
+  },
+  {
+    "id": "D05",
+    "priority": "P2",
+    "kind": "Design proposal",
+    "area": "Comparison composition",
+    "observed": "Period box, file setup, extra actions, nested filter card and the detail card have different visual rhythms from the baseline. Setup can push the main controls below the first viewport.",
+    "expected": "One predictable header/control row and a compact task-specific setup state.",
+    "fix": "Use a compact date/file setup panel and the shared page grid; retain exact metric drill, incoming/outgoing contributions and unresolved records."
+  },
+  {
+    "id": "D06",
+    "priority": "P2",
+    "kind": "Design proposal",
+    "area": "Full-PDF table density",
+    "observed": "Monthly, entity, portfolio, comparison, results and checks use different padding systems. Their type sizes often pass while their page density still looks unrelated.",
+    "expected": "Define comfortable/compact full-PDF density against the monthly PDF and formal-report density against agenda.",
+    "fix": "Specify shared density tiers and deliberate exceptions; remeasure actual native outputs instead of shrinking text to obtain a page count."
+  },
+  {
+    "id": "D07",
+    "priority": "P2",
+    "kind": "Engineering proposal",
+    "area": "Screen/print composition architecture",
+    "observed": "Monthly and entity have different screen and print markup paths. A correct native text advance does not prove that the print role is the right one.",
+    "expected": "One scoped content model and a shared semantic role map for each view/output.",
+    "fix": "Share structure and component roles where possible; retain the approved paper typography, covers, date title and margins."
+  },
+  {
+    "id": "D08",
+    "priority": "P2",
+    "kind": "Engineering proposal",
+    "area": "CSS ownership",
+    "observed": "The source builds 86 ordered CSS modules. Equivalent controls receive several page-specific and later override rules.",
+    "expected": "A clear owner for shared shell, controls, tables, figures, legends and print roles.",
+    "fix": "Consolidate source rules behind component tokens in the correction pass. Keep the already-clean 23-file runtime ZIP."
+  },
+  {
+    "id": "R01",
+    "priority": "Decision",
+    "kind": "Contract clarification",
+    "area": "Baseline precedence",
+    "observed": "The owner now names the monthly page and agenda page as the visual authorities.",
+    "expected": "Record those references above older contradictory implementations.",
+    "fix": "Update the principles with baseline screenshots/role tables and an explicit exception register."
+  },
+  {
+    "id": "R02",
+    "priority": "Decision",
+    "kind": "Contract clarification",
+    "area": "Baseline typography exceptions",
+    "observed": "The monthly requester-label implementation uses 16px, while the written subgroup-name rule says 18px.",
+    "expected": "One unambiguous role value or a named baseline exception.",
+    "fix": "Preserve the selected baseline while resolving this in the role map; do not silently resize the baseline."
+  },
+  {
+    "id": "R03",
+    "priority": "Decision",
+    "kind": "Contract clarification",
+    "area": "Spacing exceptions",
+    "observed": "The spacing scale excludes values such as 20px and 28px that remain in the chosen baseline and older components.",
+    "expected": "Document approved component exceptions or normalize them after visual review.",
+    "fix": "Replace competing generic rules with a small explicit spacing/role table."
+  },
+  {
+    "id": "R04",
+    "priority": "Decision",
+    "kind": "Contract clarification",
+    "area": "Chart hit areas",
+    "observed": "The 44px button rule and tiny proportional segment buttons need a compatible interaction contract.",
+    "expected": "Exact marks plus accessible separate interactions.",
+    "fix": "Specify row/quarter activation, readable exact-value controls and keyboard behavior without enlarging data marks."
+  },
+  {
+    "id": "R05",
+    "priority": "Decision",
+    "kind": "Contract clarification",
+    "area": "Legend scope",
+    "observed": "Formal reports need full workflow definitions; monthly has a compact key. Entity/portfolio need an explicit page-specific choice.",
+    "expected": "No blanket legend additions.",
+    "fix": "Illustrations use one related-chart key. Retain formal-report definitions and record the chosen entity/portfolio detail treatment."
+  },
+  {
+    "id": "R06",
+    "priority": "Decision",
+    "kind": "Contract clarification",
+    "area": "HH PDF repeated context",
+    "observed": "Ordinary detail pages repeat the group title/count; desktop groups it once. The trail rejected repeated administrative strips.",
+    "expected": "Define ordinary page context separately from unavoidable long-card continuation identity.",
+    "fix": "Review the repeated group header against the owner’s intended treatment before changing it."
+  },
+  {
+    "id": "C24",
+    "priority": "P2",
+    "kind": "Confirmed",
+    "area": "Special-project screen/PDF zero presentation",
+    "observed": "The live screen and physical PDF page 30 print a standalone 0 for الموازنة المخصصة إن وجدت. The source-detail rendering allows the raw numeric value through instead of the agreed display formatter.",
+    "expected": "App-wide displayed zero values use a dash; source values remain unchanged.",
+    "fix": "Apply the shared missing/zero display formatter to this numeric detail field on screen and in PDF, then verify nonzero amounts and real source text remain intact."
+  },
+  {
+    "id": "C25",
+    "priority": "P1",
+    "kind": "Confirmed",
+    "area": "Special-project PDF orphan section heading",
+    "observed": "Physical page 47 (logical content page 46) contains the completed-project detail section heading/count and footer, but its first project card starts on physical page 48. This is an orphan heading rather than harmless final-page whitespace.",
+    "expected": "A section heading must stay with the start of its first real record.",
+    "fix": "Add a keep-with-next pagination rule for section lead plus first-card identity; remeasure the actual native PDF and ensure no empty/orphan heading page or missing content is introduced."
+  },
+  {
+    "id": "C26",
+    "priority": "P1",
+    "kind": "Confirmed",
+    "area": "Entity full-PDF ordinal column",
+    "observed": "Three-digit row numbers wrap onto two lines in the actual PDF: physical page 2 middle and page 3 top/end. For example 120 renders as 12 / 0 and 179 as 17 / 9.",
+    "expected": "Ordinal values stay on one line and retain clear RTL/LTR isolation.",
+    "fix": "Reserve enough ordinal-column width, isolate numerals and prevent wrapping. Verify three- and four-digit ordinals on screen and full PDF without reducing body type or truncating record text."
+  },
+  {
+    "id": "C27",
+    "priority": "P1",
+    "kind": "Confirmed",
+    "area": "Comparison overview PDF contains screen-only commands",
+    "observed": "The actual populated comparison PDF prints عرض التغيرات, تفسير الفرق, عرض كل التعديلات and عرض البنود. The downloaded PDF has zero link annotations, so these are dead application commands rather than genuine PDF destinations.",
+    "expected": "Keep app-only navigation/actions on screen; retain a PDF link only if it has a real, verified destination within the exported document.",
+    "fix": "Use a print-specific overview table without drill-command columns/buttons, or include the corresponding detail content with real internal destinations if explicitly approved. Preserve the actual comparison measures and explanations."
+  },
+  {
+    "id": "R08",
+    "priority": "Decision",
+    "kind": "Contract clarification",
+    "area": "Nonzero chart rows with blank source category",
+    "observed": "A special-project chart row has real contributing projects but an empty source sector label. The existing blank-value policy leaves the label empty.",
+    "expected": "Keep every contributing record and preserve the blank source value while making chart interpretation explicit.",
+    "fix": "Decide a chart-only missing-category treatment or nearby explanatory note. Do not silently omit the projects or invent a recorded sector value."
+  }
+]

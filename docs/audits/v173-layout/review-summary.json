@@ -1,0 +1,15 @@
+{
+  "confirmed": 26,
+  "designProposals": 6,
+  "engineeringProposals": 2,
+  "contractClarifications": 8,
+  "appChanged": false,
+  "desktopStates": 29,
+  "desktopWidths": [
+    1280,
+    1440,
+    1920
+  ],
+  "runtimeBaseline": "v173",
+  "zipSHA256": "8136ed90f8d18dab92fba2823aa124b037a5005c8939cdc32ca335906c00d46a"
+}
