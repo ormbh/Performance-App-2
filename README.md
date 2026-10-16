@@ -1,11 +1,11 @@
 # Performance App
 
-[Download the current app — v171](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v171.zip)
+[Download the current app — v172](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v172.zip)
 
-Extract the ZIP and keep index.html, assets and manifest.webmanifest together. No source workbook is bundled.
+Extract the ZIP and open `index.html` in desktop Chrome or Edge. Keep the23runtime files together. No source workbook or audit folders are bundled.
 
-Desktop-only design standard. PDF exports use full content-height print, with A4 landscape reserved for agenda, council decisions and special projects. PowerPoint controls/assets are removed. Monthly thin strips are restored; source calculations and approved report chart types are preserved.
+This release applies the approved desktop navigation and full app audit corrections: consistent count populations, screen-only monthly report links, yearly council tables, special-project PDF field/continuation handling, diagnostics, entity presentation and generated formatting. Existing chart designs and the documented financial/council scope distinctions remain. Design Principles Revision36 records these rules.
 
-406 focused checks pass, including19 native PDF downloads/47 pages and checks against the exact clean ZIP. Hosted desktop Chromium was verified; direct-file/other-browser behavior and Excel/Power Query execution were not certified. No mobile/tablet or PowerPoint testing is in scope.
+Desktop Chromium, actual native PDF exports and the exact extracted ZIP were checked. Actual Chrome/Edge local-file behavior, real prior-month movements and Excel/Power Query execution remain outside certification. Original workbook formulas are unchanged. Desktop/PDF only; no mobile/tablet or PowerPoint testing.
 
-[Verification](docs/Verification-v171.md) · [Design principles](docs/TEC-Design-Principles.md) · [Release inventory](docs/release.json)
+[Verification](docs/Verification-v172.md) · [Design principles](docs/TEC-Design-Principles.md) · [Release inventory](docs/release.json)
