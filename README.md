@@ -2,6 +2,8 @@
 
 [Download the current app — v175](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v175.zip)
 
+[Download v175 with optional local HTTP launcher](https://github.com/ormbh/Performance-App-2/raw/refs/heads/main/Performance-App-v175-Local-HTTP.zip) · [Mac HTTP instructions and verification](docs/Local-HTTP-v175.md)
+
 Extract the complete ZIP and open `index.html` in desktop Chrome. Keep all 23 runtime files together. No workbook, sample data, tests or audit folders are bundled.
 
 This release restores labeled record counts in formal PDF contents, corrects the specified monthly/comparison PDF text sizes and enforces the existing 24-hour binary-retention rule in shared and tab-only storage. Calculations, source scope, navigation and approved chart designs remain unchanged. Design Principles Revision 39 clarifies these existing requirements.
